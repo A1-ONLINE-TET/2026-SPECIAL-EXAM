@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Online Coaching - 6th History Notes</title>
+    <!-- External fonts are included for professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Base Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.7; 
+            padding-top: 175px; /* Adjusted padding-top as target-text is removed */
+            font-size: 18px; 
+        }
+
+        /* Loop Animation Header Design */
+        @keyframes gradientLoop {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header-vibrant {
+            background: linear-gradient(-45deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+            background-size: 400% 400%;
+            animation: gradientLoop 10s ease infinite;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 5px 15px 0 15px; 
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Title Box Glassmorphism - Super Compact */
+        .title-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1.5px solid rgba(255, 255, 255, 0.3);
+            padding: 3px 15px; 
+            border-radius: 8px;
+            margin-bottom: 8px; 
+        }
+
+        .main-header-text {
+            color: #ffffff;
+            font-size: 1.5rem; 
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 1rem; 
+            font-weight: bold;
+            color: #fff;
+            background: rgba(0,0,0,0.25);
+            padding: 2px 12px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        /* Scrolling Marquee Style - Compact */
+        .promo-marquee {
+            width: 100%;
+            background: #ffeb3b;
+            color: #d32f2f;
+            padding: 5px 0; 
+            font-weight: 800;
+            font-size: 0.95rem;
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 1px solid #fbc02d;
+            border-bottom: 3px solid #1e40af;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 30s linear infinite;
+            padding-left: 100%;
+        }
+
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* Content Layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .main-title-card {
+            text-align: center;
+            background: white;
+            padding: 20px 15px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 3px solid transparent;
+            background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f093fb, #f5576c, #4facfe);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+        }
+
+        .main-title {
+            font-size: 1.4rem; 
+            font-weight: 900;
+            color: #1e40af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            line-height: 1.5;
+        }
+
+        .section-title {
+            color: #1e40af;
+            border-left: 6px solid #1e40af;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-weight: 800;
+            font-size: 1.6rem; 
+        }
+
+        .keyword {
+            background-color: #fef08a;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        /* List and Point Animation Logic */
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        li {
+            margin-bottom: 18px; 
+            position: relative;
+            padding-left: 35px;
+            opacity: 0;
+            transform: translateX(-20px);
+            transition: all 0.6s ease-out;
+            font-size: 1.2rem; 
+        }
+
+        li::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background-color: #1e40af;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 10px;
+            box-shadow: 0 0 8px rgba(30, 64, 175, 0.4);
+        }
+
+        li.reveal-active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .nested-list {
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .nested-li {
+            font-size: 1.15rem; 
+        }
+
+        .key-terms-box {
+            background-color: #f9fafb;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px dashed #bfdbfe;
+        }
+
+        .key-terms-title {
+            color: #dc2626;
+            font-weight: 800;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .grid-terms {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6b7280;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            body { 
+                padding-top: 175px; 
+                font-size: 1.25rem; 
+            }
+            .main-header-text { font-size: 1.25rem; }
+            .content-card { padding: 25px 15px; }
+            .header-vibrant { padding: 5px 10px 0 10px; }
+            .section-title { font-size: 1.5rem; }
+            li { font-size: 1.25rem; line-height: 1.6; }
+            .promo-marquee { font-size: 0.9rem; }
+            .contact-info { font-size: 0.95rem; }
+            .main-title { font-size: 1.2rem; }
+        }
+
+        @media print {
+            body { padding-top: 0; background: white; font-size: 12pt; }
+            li { opacity: 1 !important; transform: none !important; }
+            .header-vibrant { 
+                position: relative; 
+                background: #f5576c !important; 
+                animation: none !important;
+                -webkit-print-color-adjust: exact;
+            }
+            .promo-marquee { display: none; }
+            .content-card { box-shadow: none; border: 1px solid #ddd; page-break-inside: avoid; }
+            .title-box { background: rgba(0,0,0,0.1); border: 1px solid #000; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Animated Header -->
+    <header class="header-vibrant">
+        <div class="title-box">
+            <h1 class="main-header-text">A1 ONLINE COACHING CENTER</h1>
+        </div>
+        <p class="contact-info">📞 CELL: 6369371452</p>
+        
+        <!-- Animated Scrolling Advertisement (Tamil Script) -->
+        <div class="promo-marquee">
+            <div class="marquee-content">
+                📢 சிறப்பு தகுதி தேர்வு எழுதும் ஆசிரியர்களுக்கு ஒரு நற்செய்தி! வேறு எங்கும் இல்லாத சிறப்பு சலுகை... 
+                16 TET Model Test (150 Marks) + 200 Unit Test (30 Marks) - இவை அனைத்தும் ரூ. 750 மட்டுமே (Online Material + Quiz). 
+                இந்த சலுகை குறைந்த நாட்களுக்கு மட்டுமே! ⏳
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Main Title Section -->
+        <div class="main-title-card">
+            <h2 class="main-title">வகுப்பு : 6<br>சமூக அறிவியல்<br>பருவம் 1<br>வரலாறு</h2>
+        </div>
+
+        <!-- Section 1 Card -->
+        <section class="content-card">
+            <h3 class="section-title">1. வரலாறு என்றால் என்ன? (What is History?)</h3>
+            <ul>
+                <li><strong>வரலாறு:</strong> கடந்த கால நிகழ்வுகளின் காலவரிசைப் பதிவு.</li>
+                <li><strong>சொற்பிறப்பியல்:</strong> 'History' என்ற சொல் <span class="keyword">இஸ்டோரியா</span> (Istoria) என்ற கிரேக்கச் சொல்லிலிருந்து உருவானது.</li>
+                <li><strong>பொருள்:</strong> விசாரிப்பதன் மூலம் கற்றல்.</li>
+                <li><strong>காலக்கோடு:</strong> பி.சி. (B.C.) என்பது <span class="keyword">பொ.ஆ.மு.</span> (பொது ஆண்டிற்கு முன்); ஏ.டி. (A.D.) என்பது <span class="keyword">பொ.ஆ.</span> (பொது ஆண்டு).</li>
+                <li><strong>சான்றுகள்:</strong>
+                    <ul class="nested-list">
+                        <li class="nested-li"><span class="keyword">தொல்பொருள் சான்றுகள்:</span> நாணயங்கள், கல்வெட்டுகள், நினைவுச்சின்னங்கள்.</li>
+                        <li class="nested-li"><span class="keyword">இலக்கியச் சான்றுகள்:</span> காப்பியங்கள், வெளிநாட்டுப் பயணிக் குறிப்புகள்.</li>
+                    </ul>
+                </li>
+                <li><strong>முக்கிய அரசர்:</strong> <span class="keyword">அசோகர்</span> - வெற்றிக்குப் பின் போரைத் துறந்த முதல் அரசர். விலங்குகளுக்குத் தனியே மருத்துவமனை கட்டியவர்.</li>
+            </ul>
+        </section>
+
+        <!-- Section 2 Card -->
+        <section class="content-card">
+            <h3 class="section-title">2. மனிதர்களின் பரிணாம வளர்ச்சி (Human Evolution)</h3>
+            <ul>
+                <li><strong>பரிணாமம்:</strong> மனித இனம் காலப்போக்கில் அடைந்த மாற்றங்கள்.</li>
+                <li><strong>முக்கிய நிலைகள்:</strong>
+                    <ul class="nested-list">
+                        <li class="nested-li"><span class="keyword">ஆஸ்ட்ரலோபிதிகஸ்:</span> தொடக்க கால மனிதன் (கிழக்கு ஆப்பிரிக்கா).</li>
+                        <li class="nested-li"><span class="keyword">ஹோமோ ஹேபிலிஸ்:</span> கருவி செய்யக் கற்றுக் கொண்டான்.</li>
+                        <li class="nested-li"><span class="keyword">ஹோமோ எரக்டஸ்:</span> நெருப்பின் பயனை அறிந்தவன், நிமிர்ந்து நடந்தவன்.</li>
+                        <li class="nested-li"><span class="keyword">ஹோமோ சேப்பியன்ஸ்:</span> நவீன மனிதன் (சுயசிந்தனை உள்ளவன்).</li>
+                    </ul>
+                </li>
+                <li><strong>கண்டுபிடிப்புகள்:</strong> <span class="keyword">நெருப்பு</span> (சமையல்/பாதுகாப்பு), <span class="keyword">சக்கரம்</span> (மிகப்பெரிய கண்டுபிடிப்பு), <span class="keyword">பாறை ஓவியங்கள்</span> (வேட்டைத் தொழில் பதிவு).</li>
+            </ul>
+        </section>
+
+        <!-- Section 3 Card -->
+        <section class="content-card">
+            <h3 class="section-title">3. சிந்து வெளி நாகரிகம் (Indus Valley Civilization)</h3>
+            <ul>
+                <li><strong>காலம்:</strong> <span class="keyword">வெண்கலக் காலம்</span> (சுமார் பொ.ஆ.மு. 3300 - 1900).</li>
+                <li><strong>முக்கிய நகரங்கள்:</strong>
+                    <ul class="nested-list">
+                        <li class="nested-li"><span class="keyword">ஹரப்பா:</span> புதையுண்ட நகரம் (முதலில் கண்டுபிடிப்பட்டது).</li>
+                        <li class="nested-li"><span class="keyword">மொகஞ்சதாரோ:</span> இறந்தவர்களின் மேடு.</li>
+                    </ul>
+                </li>
+                <li><strong>சிறப்பம்சங்கள்:</strong> திட்டமிடப்பட்ட நகர அமைப்பு, <span class="keyword">சுட்ட செங்கற்கள்</span> மற்றும் கழிவுநீர்ப் பாசன வசதி.</li>
+                <li><strong>முக்கிய இடங்கள்:</strong> <span class="keyword">பெருங்குளம்</span> (மொகஞ்சதாரோ), <span class="keyword">தானியக்களஞ்சியம்</span> (ஹரப்பா).</li>
+                <li><strong>வணிகம்:</strong> மெசபடோமியாவுடன் கடல் வணிகம். <span class="keyword">லோத்தல்</span> (குஜராத்) - கப்பல் கட்டும் தளம்.</li>
+            </ul>
+        </section>
+
+        <!-- Section 4 Card -->
+        <section class="content-card">
+            <h3 class="section-title">4. தமிழ்நாட்டின் பண்டைய நகரங்கள் (Ancient Cities of Tamilagam)</h3>
+            <ul>
+                <li><span class="keyword">பூம்புகார்:</span> சோழர்களின் துறைமுக நகரம். சிலப்பதிகார நாயகன் கோவலன் மற்றும் கண்ணகி வாழ்ந்த இடம்.</li>
+                <li><span class="keyword">மதுரை:</span> பாண்டியர்களின் நகரம். <span class="keyword">சங்கம் வளர்த்த நகரம்</span> மற்றும் <span class="keyword">தூங்கா நகரம்</span>.
+                    <ul class="nested-list">
+                        <li class="nested-li"><span class="keyword">நாலங்காடி:</span> பகல் நேர சந்தை.</li>
+                        <li class="nested-li"><span class="keyword">அல்லங்காடி:</span> இரவு நேர சந்தை.</li>
+                    </ul>
+                </li>
+                <li><span class="keyword">காஞ்சி:</span> <span class="keyword">ஏரிகளின் மாவட்டம்</span> மற்றும் 'கல்வியில் கரையிலாத காஞ்சி'. யுவான் சுவாங் இங்குள்ள <span class="keyword">கடிகைக்கு</span> (பல்கலைக்கழகம்) வருகை தந்துள்ளார்.</li>
+            </ul>
+        </section>
+
+        <!-- Quick Key Words Section -->
+        <section class="content-card">
+            <div class="key-terms-box">
+                <h4 class="key-terms-title">முக்கிய கலைச்சொற்கள் (Quick Key Words)</h4>
+                <div class="grid-terms">
+                    <ul style="padding: 0;">
+                        <li style="padding-left: 35px;">📍 <span class="keyword">இஸ்டோரியா:</span> விசாரிப்பதன் மூலம் கற்றல்.</li>
+                        <li style="padding-left: 35px;">📍 <span class="keyword">கார்பன் 14:</span> தொல்பொருட்களின் வயதைக் கணிக்கும் முறை.</li>
+                        <li style="padding-left: 35px;">📍 <span class="keyword">தொல்லியல்:</span> கடந்த கால மனித எச்சங்களை ஆய்வு செய்யும் துறை.</li>
+                        <li style="padding-left: 35px;">📍 <span class="keyword">சுமேரியர்கள்:</span> மிகப்பழமையான நாகரிகத்தை உருவாக்கியவர்கள்.</li>
+                        <li style="padding-left: 35px;">📍 <span class="keyword">அகழாய்வு:</span> புதைந்துள்ள பொருட்களைத் தோண்டி எடுக்கும் ஆய்வு.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        © A1 Online Coaching Center. All Rights Reserved.
+    </footer>
+
+    <script>
+        // Intersection Observer to trigger line animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal-active');
+                } else {
+                    entry.target.classList.remove('reveal-active');
+                }
+            });
+        }, observerOptions);
+
+        // Target all list items
+        document.querySelectorAll('li').forEach(li => {
+            observer.observe(li);
+        });
+    </script>
+</body>
+</html>

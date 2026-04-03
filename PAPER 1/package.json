@@ -1,0 +1,13 @@
+{
+  "name": "a1lms",
+  "version": "1.0.1",
+  "description": "A1 LMS Project",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build Starting...' && node build_map.js && node update_syllabus_status.js && echo 'Build Finished Successfully!'",
+    "start": "node run_local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

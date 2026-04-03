@@ -1,0 +1,490 @@
+{
+  "title": "புதிய எண்களை உருவாக்குதல் & அன்றாட வாழ்வியல்",
+  "lessonId": "புதிய_எண்களை_உருவாக்குதல்_வாழ்வியல்",
+  "material": {
+    "sections": [
+      {
+        "title": "1. நிபந்தனைகளுடன் எண்களை உருவாக்குதல் (Advanced Formation)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 9, 0, 4, 3 ஆகிய இலக்கங்களைக் கொண்டு, பூஜ்ஜியம் ஆயிரமாவது இடத்தில் வராத மிகச்சிறிய 4 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">3049</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5, 8, 2 ஆகிய இலக்கங்களை ஒருமுறை பயன்படுத்தி உருவாகும் மிகப்பெரிய 3 இலக்க ஒற்றை எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">825</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வேறுபட்ட 5 இலக்கங்களைக் கொண்ட மிகச்சிறிய 5 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,234</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வேறுபட்ட 4 இலக்கங்களைக் கொண்ட மிகப்பெரிய 4 இலக்க இரட்டை எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9876</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 7, 1, 0 ஆகிய இலக்கங்களில் ஏதேனும் ஒரு இலக்கத்தை இருமுறை பயன்படுத்தி உருவாகும் மிகப்பெரிய 4 இலக்க எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">7710</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 6-ஐப் பத்து லட்சமாவது இடத்தில் கொண்ட மிகச்சிறிய 7 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">60,00,000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 9-ஐ நூறாவது இடத்தில் கொண்ட மிகப்பெரிய 4 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9987</span> (வேறுபட்ட இலக்கங்கள் எனில்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு எண்ணின் இலக்கங்களை இடமாற்றினால் அதன் மதிப்பு மாறாமல் இருக்க வாய்ப்புள்ளதா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், அனைத்து இலக்கங்களும் <span style=\"color:var(--primary);font-weight:700;\">சமமாக</span> இருந்தால் (எ.கா: 555) மதிப்பு மாறாது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0, 2, 4 ஆகிய இலக்கங்களைப் பயன்படுத்தி எத்தனை 3 இலக்க எண்களை உருவாக்கலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4</span> எண்கள் (204, 240, 402, 420)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 4 இலக்க எண்ணுக்கும் மிகச்சிறிய 5 இலக்க எண்ணுக்கும் உள்ள தொடர்பு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 மிகப்பெரிய 4 இலக்க எண்ணின் <span style=\"color:var(--primary);font-weight:700;\">தொடரி</span> மிகச்சிறிய 5 இலக்க எண் ஆகும்.</div>\n        </div>\n    "
+      },
+      {
+        "title": "2. அன்றாட வாழ்வியல் மற்றும் பெரிய எண்கள்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு மின்னுற்பத்தி நிலையத்தில் ஒரு நாளில் 2,50,000 யூனிட்கள் உற்பத்தி செய்யப்பட்டால், ஒரு வாரத்திற்கான உற்பத்தி எவ்வளவு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">17,50,000</span> யூனிட்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு மாவட்டத்தின் மக்கள் தொகை 15,40,700. இதில் ஆண்கள் 7,20,500 எனில் பெண்களின் எண்ணிக்கை எவ்வளவு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">8,20,200</span> (கழித்தல் செயல்பாடு)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு நூலகத்திற்கு ஒரு நாளைக்கு 1,200 வாசகர்கள் வருகின்றனர் எனில், 30 நாட்களில் வரும் மொத்த வாசகர்கள் எத்தனை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">36,000</span> வாசகர்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ₹1,00,00,000 (ஒரு கோடி) ரூபாயில் ₹2,50,000 மதிப்பிலான எத்தனை கார்களை வாங்க முடியும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">40</span> கார்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அரசாங்கம் ஒரு கல்வித் திட்டத்திற்காக 50 கோடி ரூபாய் ஒதுக்கியுள்ளது. இதை பன்னாட்டு முறையில் எவ்வாறு எழுதுவோம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">500 million</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒவ்வொரு மாதமும் ₹15,500 சேமிக்கும் ஒருவர், 2 ஆண்டுகளில் சேமிக்கும் மொத்தத் தொகை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">₹3,72,000</span> (15500 x 24)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு அச்சு இயந்திரம் ஒரு நிமிடத்திற்கு 75 பக்கங்களை அச்சிடுகிறது எனில், 5,250 பக்கங்களை அச்சிட எவ்வளவு நேரம் ஆகும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">70 நிமிடங்கள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரண்டு எண்களின் பெருக்கற்பலன் 1,44,000. ஒரு எண் 1200 எனில் மற்றொன்று?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">120</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 15,400 என்ற எண்ணில் 5-ன் இடமதிப்பிற்கும் 4-ன் இடமதிப்பிற்கும் உள்ள வித்தியாசம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4,600</span> (5000 - 400)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு விளையாட்டு மைதானத்தின் பார்வையாளர் எண்ணிக்கை ஒரு லட்சத்து ஐம்பதாயிரம். இதை விரிவு குறியீட்டில் எழுதவும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1 x 100000 + 5 x 10000</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "3. அலகுகளின் சிக்கலான மாற்றங்கள்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 80,000 மில்லி லிட்டர் (ml) என்பது எத்தனை லிட்டர்களுக்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">80</span> லிட்டர்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓  ஒரு கிலோ மீட்டரில் எத்தனை சென்டி மீட்டர்கள் (cm) உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1,00,000</span> செ.மீ</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 500 மில்லி கிராம் (mg) எடையுள்ள 2,000 மாத்திரைகளின் மொத்த எடை கிலோகிராமில் (kg)?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1 kg</span> (500 x 2000 = 10,00,000 mg = 1000 g)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 20 லிட்டர் கொள்ளளவு கொண்ட வாளியில் 250 மி.லி குவளையால் எத்தனை முறை நீர் ஊற்றலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">80</span> முறை</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு நூலின் தடிமன் 5 மி.மீ எனில், 100 நூல்களின் மொத்த தடிமன் மீட்டரில் எவ்வளவு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0.5</span> மீட்டர் (500 மி.மீ)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 7 கி.மீ 50 மீ என்பது எத்தனை மீட்டர்கள்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">7,050</span> மீட்டர்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1000 கிலோகிராம் என்பது எதற்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1 மெட்ரிக் டன்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அரை கிலோகிராம் என்பது எத்தனை மில்லி கிராம்கள்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">5,00,000</span> மி.கி</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 3 மணிநேரம் 20 நிமிடங்களில் எத்தனை நிமிடங்கள் உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">200</span> நிமிடங்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு பையில் 50 கிலோ அரிசி உள்ளது. 200 பைகளில் உள்ள மொத்த அரிசி எத்தனை டன்கள்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10 டன்கள்</span> (10,000 கிலோ)</div>\n        </div>\n    "
+      },
+      {
+        "title": "4. கொள்கை ரீதியான விதிகள் (Conceptual Rules)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எந்த எண்ணுடன் பூஜ்ஜியத்தைக் கூட்டினாலும் அதே எண் கிடைப்பது ஏன்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஏனெனில் பூஜ்ஜியம் என்பது கூட்டல் <span style=\"color:var(--primary);font-weight:700;\">சமனி</span> (Additive Identity).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஈருறுப்புச் செயல்பாடுகளில் வகுத்தலின் போது பூஜ்ஜியத்தால் வகுப்பது சாத்தியமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை, பூஜ்ஜியத்தால் வகுப்பது <span style=\"color:var(--primary);font-weight:700;\">வரையறுக்கப்படவில்லை</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 6 இலக்கங்களில் மிகப்பெரிய எண்ணிற்கும் 7 இலக்கங்களில் மிகச்சிறிய எண்ணிற்கும் உள்ள வேறுபாடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இடமதிப்பு அட்டவணையில் ஆயிரத்திற்கு இடப்புறம் உள்ள இடமதிப்பு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பத்தாயிரம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0, 1, 3 ஆகிய இலக்கங்களை மீண்டும் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய 4 இலக்க எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கோடியில் எத்தனை மில்லியன்கள் உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10</span> மில்லியன்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 100-ன் அடுக்குகளாக ஒரு எண்ணை எழுதினால் அது எந்த முறையில் பயன்படும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அறிவியல் குறியீடு</span> (Scientific Notation) அடிப்படையாகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 99,999-ன் முன்னிக்கும் 1,00,001-ன் தொடரிக்கும் உள்ள வித்தியாசம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு மில்லியன் மற்றும் நூறு ஆயிரத்திற்கு இடையில் உள்ள தொடர்பு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரு மில்லியன் என்பது <span style=\"color:var(--primary);font-weight:700;\">10 முறை</span> நூறு ஆயிரம் ஆகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண்களை வாசிக்கும்போது இடமதிப்பின் அவசியம் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 மதிப்பைத் <span style=\"color:var(--primary);font-weight:700;\">துல்லியமாகத் தெரிந்துகொள்ளவும்</span> ஒப்பிடவும் உதவுகிறது.</div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "9, 0, 4, 3 ஆகிய இலக்கங்களைக் கொண்டு, பூஜ்ஜியம் ஆயிரமாவது இடத்தில் வராத மிகச்சிறிய 4 இலக்க எண் எது?",
+      "a": "3049"
+    },
+    {
+      "q": "5, 8, 2 ஆகிய இலக்கங்களை ஒருமுறை பயன்படுத்தி உருவாகும் மிகப்பெரிய 3 இலக்க ஒற்றை எண் எது?",
+      "a": "825"
+    },
+    {
+      "q": "வேறுபட்ட 5 இலக்கங்களைக் கொண்ட மிகச்சிறிய 5 இலக்க எண் எது?",
+      "a": "10,234"
+    },
+    {
+      "q": "வேறுபட்ட 4 இலக்கங்களைக் கொண்ட மிகப்பெரிய 4 இலக்க இரட்டை எண் எது?",
+      "a": "9876"
+    },
+    {
+      "q": "7, 1, 0 ஆகிய இலக்கங்களில் ஏதேனும் ஒரு இலக்கத்தை இருமுறை பயன்படுத்தி உருவாகும் மிகப்பெரிய 4 இலக்க எண்?",
+      "a": "7710"
+    },
+    {
+      "q": "6-ஐப் பத்து லட்சமாவது இடத்தில் கொண்ட மிகச்சிறிய 7 இலக்க எண் எது?",
+      "a": "60,00,000"
+    },
+    {
+      "q": "9-ஐ நூறாவது இடத்தில் கொண்ட மிகப்பெரிய 4 இலக்க எண் எது?",
+      "a": "9987 (வேறுபட்ட இலக்கங்கள் எனில்)"
+    },
+    {
+      "q": "ஒரு எண்ணின் இலக்கங்களை இடமாற்றினால் அதன் மதிப்பு மாறாமல் இருக்க வாய்ப்புள்ளதா?",
+      "a": "ஆம், அனைத்து இலக்கங்களும் சமமாக இருந்தால் (எ.கா: 555) மதிப்பு மாறாது."
+    },
+    {
+      "q": "0, 2, 4 ஆகிய இலக்கங்களைப் பயன்படுத்தி எத்தனை 3 இலக்க எண்களை உருவாக்கலாம்?",
+      "a": "4 எண்கள் (204, 240, 402, 420)"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண்ணுக்கும் மிகச்சிறிய 5 இலக்க எண்ணுக்கும் உள்ள தொடர்பு என்ன?",
+      "a": "மிகப்பெரிய 4 இலக்க எண்ணின் தொடரி மிகச்சிறிய 5 இலக்க எண் ஆகும்."
+    },
+    {
+      "q": "ஒரு மின்னுற்பத்தி நிலையத்தில் ஒரு நாளில் 2,50,000 யூனிட்கள் உற்பத்தி செய்யப்பட்டால், ஒரு வாரத்திற்கான உற்பத்தி எவ்வளவு?",
+      "a": "17,50,000 யூனிட்கள்"
+    },
+    {
+      "q": "ஒரு மாவட்டத்தின் மக்கள் தொகை 15,40,700. இதில் ஆண்கள் 7,20,500 எனில் பெண்களின் எண்ணிக்கை எவ்வளவு?",
+      "a": "8,20,200 (கழித்தல் செயல்பாடு)"
+    },
+    {
+      "q": "ஒரு நூலகத்திற்கு ஒரு நாளைக்கு 1,200 வாசகர்கள் வருகின்றனர் எனில், 30 நாட்களில் வரும் மொத்த வாசகர்கள் எத்தனை?",
+      "a": "36,000 வாசகர்கள்"
+    },
+    {
+      "q": "₹1,00,00,000 (ஒரு கோடி) ரூபாயில் ₹2,50,000 மதிப்பிலான எத்தனை கார்களை வாங்க முடியும்?",
+      "a": "40 கார்கள்"
+    },
+    {
+      "q": "அரசாங்கம் ஒரு கல்வித் திட்டத்திற்காக 50 கோடி ரூபாய் ஒதுக்கியுள்ளது. இதை பன்னாட்டு முறையில் எவ்வாறு எழுதுவோம்?",
+      "a": "500 million"
+    },
+    {
+      "q": "ஒவ்வொரு மாதமும் ₹15,500 சேமிக்கும் ஒருவர், 2 ஆண்டுகளில் சேமிக்கும் மொத்தத் தொகை?",
+      "a": "₹3,72,000 (15500 x 24)"
+    },
+    {
+      "q": "ஒரு அச்சு இயந்திரம் ஒரு நிமிடத்திற்கு 75 பக்கங்களை அச்சிடுகிறது எனில், 5,250 பக்கங்களை அச்சிட எவ்வளவு நேரம் ஆகும்?",
+      "a": "70 நிமிடங்கள்"
+    },
+    {
+      "q": "இரண்டு எண்களின் பெருக்கற்பலன் 1,44,000. ஒரு எண் 1200 எனில் மற்றொன்று?",
+      "a": "120"
+    },
+    {
+      "q": "15,400 என்ற எண்ணில் 5-ன் இடமதிப்பிற்கும் 4-ன் இடமதிப்பிற்கும் உள்ள வித்தியாசம்?",
+      "a": "4,600 (5000 - 400)"
+    },
+    {
+      "q": "ஒரு விளையாட்டு மைதானத்தின் பார்வையாளர் எண்ணிக்கை ஒரு லட்சத்து ஐம்பதாயிரம். இதை விரிவு குறியீட்டில் எழுதவும்?",
+      "a": "1 x 100000 + 5 x 10000"
+    },
+    {
+      "q": "80,000 மில்லி லிட்டர் (ml) என்பது எத்தனை லிட்டர்களுக்குச் சமம்?",
+      "a": "80 லிட்டர்கள்"
+    },
+    {
+      "q": " ஒரு கிலோ மீட்டரில் எத்தனை சென்டி மீட்டர்கள் (cm) உள்ளன?",
+      "a": "1,00,000 செ.மீ"
+    },
+    {
+      "q": "500 மில்லி கிராம் (mg) எடையுள்ள 2,000 மாத்திரைகளின் மொத்த எடை கிலோகிராமில் (kg)?",
+      "a": "1 kg (500 x 2000 = 10,00,000 mg = 1000 g)"
+    },
+    {
+      "q": "20 லிட்டர் கொள்ளளவு கொண்ட வாளியில் 250 மி.லி குவளையால் எத்தனை முறை நீர் ஊற்றலாம்?",
+      "a": "80 முறை"
+    },
+    {
+      "q": "ஒரு நூலின் தடிமன் 5 மி.மீ எனில், 100 நூல்களின் மொத்த தடிமன் மீட்டரில் எவ்வளவு?",
+      "a": "0.5 மீட்டர் (500 மி.மீ)"
+    },
+    {
+      "q": "7 கி.மீ 50 மீ என்பது எத்தனை மீட்டர்கள்?",
+      "a": "7,050 மீட்டர்கள்"
+    },
+    {
+      "q": "1000 கிலோகிராம் என்பது எதற்குச் சமம்?",
+      "a": "1 மெட்ரிக் டன்"
+    },
+    {
+      "q": "அரை கிலோகிராம் என்பது எத்தனை மில்லி கிராம்கள்?",
+      "a": "5,00,000 மி.கி"
+    },
+    {
+      "q": "3 மணிநேரம் 20 நிமிடங்களில் எத்தனை நிமிடங்கள் உள்ளன?",
+      "a": "200 நிமிடங்கள்"
+    },
+    {
+      "q": "ஒரு பையில் 50 கிலோ அரிசி உள்ளது. 200 பைகளில் உள்ள மொத்த அரிசி எத்தனை டன்கள்?",
+      "a": "10 டன்கள் (10,000 கிலோ)"
+    },
+    {
+      "q": "எந்த எண்ணுடன் பூஜ்ஜியத்தைக் கூட்டினாலும் அதே எண் கிடைப்பது ஏன்?",
+      "a": "ஏனெனில் பூஜ்ஜியம் என்பது கூட்டல் சமனி (Additive Identity)."
+    },
+    {
+      "q": "ஈருறுப்புச் செயல்பாடுகளில் வகுத்தலின் போது பூஜ்ஜியத்தால் வகுப்பது சாத்தியமா?",
+      "a": "இல்லை, பூஜ்ஜியத்தால் வகுப்பது வரையறுக்கப்படவில்லை."
+    },
+    {
+      "q": "6 இலக்கங்களில் மிகப்பெரிய எண்ணிற்கும் 7 இலக்கங்களில் மிகச்சிறிய எண்ணிற்கும் உள்ள வேறுபாடு?",
+      "a": "1"
+    },
+    {
+      "q": "இடமதிப்பு அட்டவணையில் ஆயிரத்திற்கு இடப்புறம் உள்ள இடமதிப்பு எது?",
+      "a": "பத்தாயிரம்"
+    },
+    {
+      "q": "0, 1, 3 ஆகிய இலக்கங்களை மீண்டும் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய 4 இலக்க எண்?",
+      "a": "1000"
+    },
+    {
+      "q": "ஒரு கோடியில் எத்தனை மில்லியன்கள் உள்ளன?",
+      "a": "10 மில்லியன்கள்"
+    },
+    {
+      "q": "100-ன் அடுக்குகளாக ஒரு எண்ணை எழுதினால் அது எந்த முறையில் பயன்படும்?",
+      "a": "அறிவியல் குறியீடு (Scientific Notation) அடிப்படையாகும்."
+    },
+    {
+      "q": "99,999-ன் முன்னிக்கும் 1,00,001-ன் தொடரிக்கும் உள்ள வித்தியாசம்?",
+      "a": "4"
+    },
+    {
+      "q": "ஒரு மில்லியன் மற்றும் நூறு ஆயிரத்திற்கு இடையில் உள்ள தொடர்பு?",
+      "a": "ஒரு மில்லியன் என்பது 10 முறை நூறு ஆயிரம் ஆகும்."
+    },
+    {
+      "q": "எண்களை வாசிக்கும்போது இடமதிப்பின் அவசியம் என்ன?",
+      "a": "மதிப்பைத் துல்லியமாகத் தெரிந்துகொள்ளவும் ஒப்பிடவும் உதவுகிறது."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "9, 0, 7 ஆகிய இலக்கங்களை ஒருமுறை பயன்படுத்தி உருவாகும் மிகச்சிறிய 3 இலக்க ஒற்றை எண்?",
+        "options": [
+          "079",
+          "709",
+          "907",
+          "790"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "10 மில்லியனுக்குச் சமமான இந்திய இடமதிப்பு எது?",
+        "options": [
+          "10 லட்சம்",
+          "1 கோடி",
+          "10 கோடி",
+          "100 கோடி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "4, 5, 0 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாகும் மிகப்பெரிய 3 இலக்க எண்?",
+        "options": [
+          "540",
+          "504",
+          "450",
+          "405"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு கோடியில் எத்தனை பத்தாயிரங்கள் உள்ளன?",
+        "options": [
+          "100",
+          "1,00,000",
+          "10,000",
+          "10"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகச்சிறிய 6 இலக்க எண்ணிலிருந்து 1-ஐக் கழித்தால் கிடைப்பது?",
+        "options": [
+          "மிகப்பெரிய 5 இலக்க எண்",
+          "99,999",
+          "இரண்டும்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "5 கிலோமீட்டரில் எத்தனை சென்டிமீட்டர்கள் உள்ளன?",
+        "options": [
+          "5,000",
+          "50,000",
+          "5,00,000",
+          "500"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "ஒரு நோட்டுப் புத்தகத்தில் 200 பக்கங்கள் உள்ளன. 15 நோட்டுகளில் உள்ள மொத்தப் பக்கங்கள்?",
+        "options": [
+          "2000",
+          "3000",
+          "1500",
+          "3500"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "7, 8, 9 ஆகிய இலக்கங்களில் எதை மாற்றினால் மிகச்சிறிய எண் கிடைக்கும்?",
+        "options": [
+          "7-ஐ முதலில் வைத்தால்",
+          "9-ஐ முதலில் வைத்தால்",
+          "8-ஐ முதலில் வைத்தால்",
+          "அனைத்தும் சமம்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "பன்னாட்டு முறையில் 567,890,123 என்பதில் 6-ன் இடமதிப்பு?",
+        "options": [
+          "60 மில்லியன்",
+          "6 மில்லியன்",
+          "600 மில்லியன்",
+          "60 ஆயிரம்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு லிட்டர் என்பது எத்தனை மில்லி லிட்டர்கள்?",
+        "options": [
+          "100",
+          "1000",
+          "10",
+          "10000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "வேறுபட்ட 4 இலக்கங்களைக் கொண்ட மிகப்பெரிய 4 இலக்க எண்?",
+        "options": [
+          "9999",
+          "9876",
+          "1023",
+          "9000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "78,540 + 21,460 = ?",
+        "options": [
+          "1,00,000",
+          "90,000",
+          "1,10,000",
+          "80,000"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு மெட்ரிக் டன் என்பது எத்தனை கிலோகிராம்?",
+        "options": [
+          "100",
+          "1000",
+          "10000",
+          "500"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "30,00,000-ல் எத்தனை லட்சங்கள் உள்ளன?",
+        "options": [
+          "3",
+          "30",
+          "300",
+          "3000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0 ஆயிரமாவது இடத்தில் வருமாறு உருவாகும் மிகச்சிறிய 4 இலக்க எண் (இலக்கங்கள்: 5, 0, 2, 8)?",
+        "options": [
+          "2058",
+          "0258",
+          "5028",
+          "2508"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "9,99,99,999-ன் தொடரி (Successor) எது?",
+        "options": [
+          "10 கோடி",
+          "1 கோடி",
+          "100 கோடி",
+          "9 கோடி"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு மனிதனின் இதயத் துடிப்பு ஒரு நிமிடத்திற்கு 72 எனில், ஒரு மணிநேரத்திற்கு?",
+        "options": [
+          "432",
+          "4320",
+          "720",
+          "60"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "850 செ.மீ என்பது எத்தனை மீட்டர்களுக்குச் சமம்?",
+        "options": [
+          "85 மீ",
+          "8.5 மீ",
+          "0.85 மீ",
+          "8500 மீ"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எந்த எண்ணுக்கும் முன்னி (Predecessor) இல்லாத எண் தொகுதி (இயல் எண்களில்)?",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "முடிவிலி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "1000 மில்லியன்கள் என்பது ____ பில்லியன்.",
+        "options": [
+          "10",
+          "1",
+          "100",
+          "0.1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "7,00,000 + 5,000 + 40 + 2 = ?",
+        "options": [
+          "7,05,042",
+          "7,50,042",
+          "7,05,402",
+          "7,05,420"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு சென்டிமீட்டரில் எத்தனை மில்லிமீட்டர்கள் உள்ளன?",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "ஒரு மில்லியனில் எத்தனை நூறு ஆயிரங்கள் உள்ளன?",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "8, 3, 0, 1 ஆகிய இலக்கங்களை ஒருமுறை பயன்படுத்தி உருவாகும் மிகப்பெரிய ஒற்றை எண்?",
+        "options": [
+          "8301",
+          "8310",
+          "8103",
+          "8031"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "இரு எண்களின் வித்தியாசம் 5,000. பெரிய எண் 12,000 எனில் சிறிய எண்?",
+        "options": [
+          "17,000",
+          "7,000",
+          "5,000",
+          "6,000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "45 கிலோ அரிசியின் விலை ₹2,250 எனில், ஒரு கிலோ அரிசியின் விலை?",
+        "options": [
+          "₹50",
+          "₹45",
+          "₹60",
+          "₹100"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "2 பில்லியன் என்பது இந்திய முறையில் எத்தனை கோடிகள்?",
+        "options": [
+          "20 கோடி",
+          "200 கோடி",
+          "2000 கோடி",
+          "2 கோடி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகச்சிறிய 7 இலக்க எண்ணிற்கும் மிகப்பெரிய 6 இலக்க எண்ணிற்கும் உள்ள வேறுபாடு?",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "56,789 என்ற எண்ணில் 6-ன் இடமதிப்பு?",
+        "options": [
+          "600",
+          "6000",
+          "60",
+          "60000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "100 மில்லி கிராம் எடையுள்ள 10,000 ஊசிகள் கொண்ட பெட்டியின் மொத்த எடை (கிராமில்)?",
+        "options": [
+          "1,000 கி",
+          "10,000 கி",
+          "100 கி",
+          "1 கி"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Online Coaching - TET Mock Test 150</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Hind+Madurai:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Base Reset & Fonts */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', 'Hind Madurai', sans-serif;
+            background-color: #f0f2f5;
+            padding-top: 180px; 
+        }
+
+        /* Animated Header */
+        @keyframes gradientLoop {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header-vibrant {
+            background: linear-gradient(-45deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+            background-size: 400% 400%;
+            animation: gradientLoop 10s ease infinite;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 10px 15px 0 15px; 
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .title-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            border: 1.5px solid rgba(255, 255, 255, 0.3);
+            padding: 5px 20px; 
+            border-radius: 12px;
+            margin-bottom: 8px; 
+        }
+
+        .main-header-text {
+            color: #ffffff;
+            font-size: 1.6rem; 
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 1.1rem; 
+            font-weight: bold;
+            color: #fff;
+            background: rgba(0,0,0,0.25);
+            padding: 4px 15px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .promo-marquee {
+            width: 100%;
+            background: #ffeb3b;
+            color: #d32f2f;
+            padding: 6px 0; 
+            font-weight: 800;
+            font-size: 1rem;
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 1px solid #fbc02d;
+            border-bottom: 4px solid #1e40af;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 25s linear infinite;
+            padding-left: 100%;
+        }
+
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* Login Overlay */
+        #login-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(240, 242, 245, 1);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .login-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 10px 0;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .login-input:focus {
+            border-color: #1e40af;
+        }
+
+        .login-btn {
+            width: 100%;
+            background: #1e40af;
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 700;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .login-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        /* Quiz UI Elements */
+        .question-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 8px solid #cbd5e1;
+            transition: transform 0.2s ease;
+        }
+        .question-card:hover {
+            transform: scale(1.01);
+        }
+
+        .question-text {
+            color: #1e40af; 
+            font-weight: 900;
+            font-size: 1.125rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .border-psychology { border-left-color: #a855f7; }
+        .border-tamil { border-left-color: #f97316; }
+        .border-english { border-left-color: #3b82f6; }
+        .border-maths { border-left-color: #10b981; }
+        .border-science { border-left-color: #ef4444; }
+
+        .section-header {
+            color: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 900;
+            display: inline-block;
+            margin: 40px 0 20px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .bg-psychology { background: #a855f7; }
+        .bg-tamil { background: #f97316; }
+        .bg-english { background: #3b82f6; }
+        .bg-maths { background: #10b981; }
+        .bg-science { background: #ef4444; }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            background: #ffffff;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+            color: #334155;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .option-btn:hover:not(.answered) {
+            border-color: #1e40af;
+            background: #eff6ff;
+            transform: translateX(5px);
+        }
+
+        .correct { background-color: #d1fae5 !important; border-color: #10b981 !important; color: #065f46 !important; font-weight: 800; }
+        .wrong { background-color: #fee2e2 !important; border-color: #ef4444 !important; color: #991b1b !important; font-weight: 800; }
+
+        .exp-btn {
+            margin-top: 15px;
+            background: #f8fafc;
+            color: #1e40af;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 800;
+            border: 2px solid #1e40af;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .exp-btn:hover {
+            background: #1e40af;
+            color: white;
+        }
+        .exp-content {
+            display: none;
+            margin-top: 10px;
+            padding: 15px;
+            background: #fffbeb;
+            border: 1px dashed #f59e0b;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            color: #92400e;
+        }
+
+        .sticky-score {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #1e40af;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-weight: 900;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 1.2rem;
+        }
+
+        #quiz-main { display: none; }
+
+        @media (max-width: 768px) {
+            .main-header-text { font-size: 1.2rem; }
+            body { padding-top: 150px; }
+        }
+    </style>
+</head>
+<body class="p-4">
+
+    <!-- Login Section -->
+    <div id="login-overlay">
+        <div class="login-card">
+            <h2 class="text-2xl font-black text-blue-800 mb-4">மாணவர் உள்நுழைவு</h2>
+            <p class="text-sm text-gray-600 mb-6">தேர்வைத் தொடங்க உங்கள் மொபைல் எண் மற்றும் பின்கோடை உள்ளிடவும்.</p>
+            <input type="text" id="username" class="login-input" placeholder="மொபைல் எண்">
+            <input type="password" id="pincode" class="login-input" placeholder="பின்கோடு (Pincode)">
+            <button onclick="handleLogin()" class="login-btn">உள்நுழைக (Login)</button>
+            <p id="error-msg" class="text-red-600 text-sm mt-4 font-bold hidden">தவறான தகவல்! மீண்டும் முயற்சிக்கவும்.</p>
+        </div>
+    </div>
+
+    <div id="quiz-main">
+        <!-- A1 Header Section -->
+        <header class="header-vibrant">
+            <div class="title-box">
+                <h1 class="main-header-text">A1 ONLINE COACHING CENTER</h1>
+            </div>
+            <p class="contact-info">📞 CELL: 6369371452</p>
+            
+            <div class="promo-marquee">
+                <div class="marquee-content" id="welcome-msg">
+                    📢 TET மற்றும் TNPSC தேர்வுகளுக்கு சிறந்த ஆன்லைன் பயிற்சி! 150 வினாக்கள் கொண்ட முழுமையான மாதிரித் தேர்வு (Mock Test) ⏳
+                </div>
+            </div>
+        </header>
+
+        <div id="score-float" class="sticky-score">மதிப்பெண்: 0 / 150</div>
+
+        <!-- Main Content Area -->
+        <main class="max-w-4xl mx-auto px-2">
+            <div id="quiz-container">
+                <!-- Questions will be dynamically loaded here -->
+            </div>
+
+            <div class="text-center py-12">
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="bg-gray-800 text-white px-10 py-4 rounded-full font-bold shadow-xl">
+                    மேலே செல்லவும் (Scroll to Top)
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const users = [
+{
+"username": "9876543210",
+"pincode": "123456",
+"name": "மாணவர் 1"
+},
+{
+"username": "9486944362",
+"pincode": "763854",
+"name": "மாணவர் 2"
+},
+{
+"username": "9003163841",
+"pincode": "678512",
+"name": "மாணவர் 3"
+},
+{
+"username": "9514474602",
+"pincode": "678513",
+"name": "மாணவர் 4"
+},
+{
+"username": "8903473203",
+"pincode": "678549",
+"name": "மாணவர் 5"
+},
+{
+"username": "9486204861",
+"pincode": "111221",
+"name": "மாணவர் 6"
+},
+{
+"username": "8778953551",
+"pincode": "221111",
+"name": "மாணவர் 7"
+},
+{
+"username": "8807882900",
+"pincode": "111223",
+"name": "மாணவர் 8"
+},
+{
+"username": "9486774716",
+"pincode": "788777",
+"name": "மாணவர் 9"
+},
+{
+"username": "8300056639",
+"pincode": "777887",
+"name": "மாணவர் 10"
+},
+{
+"username": "9445723211",
+"pincode": "111112",
+"name": "மாணவர் 11"
+},
+{
+"username": "9159854568",
+"pincode": "111113",
+"name": "மாணவர் 12"
+},
+{
+"username": "8940724399",
+"pincode": "111114",
+"name": "மாணவர் 13"
+},
+{
+"username": "6385536914",
+"pincode": "111115",
+"name": "மாணவர் 14"
+},
+{
+"username": "9486774716",
+"pincode": "111116",
+"name": "மாணவர் 15"
+},
+{
+"username": "7397198491",
+"pincode": "111117",
+"name": "மாணவர் 16"
+},
+{
+"username": "9791349512",
+"pincode": "111118",
+"name": "மாணவர் 17"
+},
+{
+"username": "9486003313",
+"pincode": "111229",
+"name": "மாணவர் 18"
+},
+{
+"username": "9487428748",
+"pincode": "112229",
+"name": "மாணவர் 19"
+},
+{
+"username": "8838205178",
+"pincode": "122229",
+"name": "மாணவர் 20"
+},
+{
+"username": "7000000021",
+"pincode": "582914",
+"name": "மாணவர் 21"
+},
+{
+"username": "7000000022",
+"pincode": "147365",
+"name": "மாணவர் 22"
+},
+{
+"username": "7000000023",
+"pincode": "829401",
+"name": "மாணவர் 23"
+},
+{
+"username": "7000000024",
+"pincode": "336582",
+"name": "மாணவர் 24"
+},
+{
+"username": "7000000025",
+"pincode": "910274",
+"name": "மாணவர் 25"
+},
+{
+"username": "7000000026",
+"pincode": "447193",
+"name": "மாணவர் 26"
+},
+{
+"username": "7000000027",
+"pincode": "602855",
+"name": "மாணவர் 27"
+},
+{
+"username": "7000000028",
+"pincode": "119430",
+"name": "மாணவர் 28"
+},
+{
+"username": "7000000029",
+"pincode": "753826",
+"name": "மாணவர் 29"
+},
+{
+"username": "7000000030",
+"pincode": "284719",
+"name": "மாணவர் 30"
+},
+{
+"username": "7000000031",
+"pincode": "692051",
+"name": "மாணவர் 31"
+},
+{
+"username": "7000000032",
+"pincode": "837416",
+"name": "மாணவர் 32"
+},
+{
+"username": "7000000033",
+"pincode": "501932",
+"name": "மாணவர் 33"
+},
+{
+"username": "7000000034",
+"pincode": "146827",
+"name": "மாணவர் 34"
+},
+{
+"username": "7000000035",
+"pincode": "923174",
+"name": "மாணவர் 35"
+},
+{
+"username": "7000000036",
+"pincode": "384561",
+"name": "மாணவர் 36"
+},
+{
+"username": "7000000037",
+"pincode": "572918",
+"name": "மாணவர் 37"
+},
+{
+"username": "7000000038",
+"pincode": "201847",
+"name": "மாணவர் 38"
+},
+{
+"username": "7000000039",
+"pincode": "693254",
+"name": "மாணவர் 39"
+},
+{
+"username": "7000000040",
+"pincode": "415602",
+"name": "மாணவர் 40"
+},
+{
+"username": "7000000041",
+"pincode": "738194",
+"name": "மாணவர் 41"
+},
+{
+"username": "7000000042",
+"pincode": "104729",
+"name": "மாணவர் 42"
+},
+{
+"username": "7000000043",
+"pincode": "582316",
+"name": "மாணவர் 43"
+},
+{
+"username": "7000000044",
+"pincode": "926403",
+"name": "மாணவர் 44"
+},
+{
+"username": "7000000045",
+"pincode": "371945",
+"name": "மாணவர் 45"
+},
+{
+"username": "7000000046",
+"pincode": "840217",
+"name": "மாணவர் 46"
+},
+{
+"username": "7000000047",
+"pincode": "259381",
+"name": "மாணவர் 47"
+},
+{
+"username": "7000000048",
+"pincode": "614720",
+"name": "மாணவர் 48"
+},
+{
+"username": "7000000049",
+"pincode": "403198",
+"name": "மாணவர் 49"
+},
+{
+"username": "7000000050",
+"pincode": "972536",
+"name": "மாணவர் 50"
+},
+{
+"username": "7000000051",
+"pincode": "528419",
+"name": "மாணவர் 51"
+},
+{
+"username": "7000000052",
+"pincode": "193047",
+"name": "மாணவர் 52"
+},
+{
+"username": "7000000053",
+"pincode": "864275",
+"name": "மாணவர் 53"
+},
+{
+"username": "7000000054",
+"pincode": "315682",
+"name": "மாணவர் 54"
+},
+{
+"username": "7000000055",
+"pincode": "709321",
+"name": "மாணவர் 55"
+},
+{
+"username": "7000000056",
+"pincode": "482159",
+"name": "மாணவர் 56"
+},
+{
+"username": "7000000057",
+"pincode": "937406",
+"name": "மாணவர் 57"
+},
+{
+"username": "7000000058",
+"pincode": "156834",
+"name": "மாணவர் 58"
+},
+{
+"username": "624197",
+"pincode": "624197",
+"name": "மாணவர் 59"
+},
+{
+"username": "7000000060",
+"pincode": "370248",
+"name": "மாணவர் 60"
+},
+{
+"username": "7000000061",
+"pincode": "891462",
+"name": "மாணவர் 61"
+},
+{
+"username": "7000000062",
+"pincode": "530279",
+"name": "மாணவர் 62"
+},
+{
+"username": "7000000063",
+"pincode": "148356",
+"name": "மாணவர் 63"
+},
+{
+"username": "7000000064",
+"pincode": "925107",
+"name": "மாணவர் 64"
+},
+{
+"username": "7000000065",
+"pincode": "467318",
+"name": "மாணவர் 65"
+},
+{
+"username": "7000000066",
+"pincode": "713942",
+"name": "மாணவர் 66"
+},
+{
+"username": "7000000067",
+"pincode": "204856",
+"name": "மாணவர் 67"
+},
+{
+"username": "7000000068",
+"pincode": "859134",
+"name": "மாணவர் 68"
+},
+{
+"username": "7000000069",
+"pincode": "362471",
+"name": "மாணவர் 69"
+},
+{
+"username": "7000000070",
+"pincode": "681025",
+"name": "மாணவர் 70"
+},
+{
+"username": "7000000071",
+"pincode": "435289",
+"name": "மாணவர் 71"
+},
+{
+"username": "7000000072",
+"pincode": "197463",
+"name": "மாணவர் 72"
+},
+{
+"username": "7000000073",
+"pincode": "952138",
+"name": "மாணவர் 73"
+},
+{
+"username": "7000000074",
+"pincode": "514067",
+"name": "மாணவர் 74"
+},
+{
+"username": "7000000075",
+"pincode": "806324",
+"name": "மாணவர் 75"
+},
+{
+"username": "7000000076",
+"pincode": "249158",
+"name": "மாணவர் 76"
+},
+{
+"username": "7000000077",
+"pincode": "730246",
+"name": "மாணவர் 77"
+},
+{
+"username": "7000000078",
+"pincode": "475819",
+"name": "மாணவர் 78"
+},
+{
+"username": "7000000079",
+"pincode": "612493",
+"name": "மாணவர் 79"
+},
+{
+"username": "7000000080",
+"pincode": "153782",
+"name": "மாணவர் 80"
+},
+{
+"username": "7000000081",
+"pincode": "928456",
+"name": "மாணவர் 81"
+},
+{
+"username": "7000000082",
+"pincode": "381074",
+"name": "மாணவர் 82"
+},
+{
+"username": "7000000083",
+"pincode": "547291",
+"name": "மாணவர் 83"
+},
+{
+"username": "7000000084",
+"pincode": "703952",
+"name": "மாணவர் 84"
+},
+{
+"username": "7000000085",
+"pincode": "164823",
+"name": "மாணவர் 85"
+},
+{
+"username": "7000000086",
+"pincode": "832107",
+"name": "மாணவர் 86"
+},
+{
+"username": "7000000087",
+"pincode": "495631",
+"name": "மாணவர் 87"
+},
+{
+"username": "7000000088",
+"pincode": "620148",
+"name": "மாணவர் 88"
+},
+{
+"username": "7000000089",
+"pincode": "257369",
+"name": "மாணவர் 89"
+},
+{
+"username": "7000000090",
+"pincode": "941058",
+"name": "மாணவர் 90"
+},
+{
+"username": "7000000091",
+"pincode": "518342",
+"name": "மாணவர் 91"
+},
+{
+"username": "7000000092",
+"pincode": "134679",
+"name": "மாணவர் 92"
+},
+{
+"username": "7000000093",
+"pincode": "862590",
+"name": "மாணவர் 93"
+},
+{
+"username": "7000000094",
+"pincode": "407213",
+"name": "மாணவர் 94"
+},
+{
+"username": "7000000095",
+"pincode": "759436",
+"name": "மாணவர் 95"
+},
+{
+"username": "7000000096",
+"pincode": "210847",
+"name": "மாணவர் 96"
+},
+{
+"username": "7000000097",
+"pincode": "684125",
+"name": "மாணவர் 97"
+},
+{
+"username": "7000000098",
+"pincode": "935701",
+"name": "மாணவர் 98"
+},
+{
+"username": "7000000099",
+"pincode": "371064",
+"name": "மாணவர் 99"
+},
+{
+"username": "7000000100",
+"pincode": "528913",
+"name": "மாணவர் 100"
+},
+{
+"username": "7000000101",
+"pincode": "846207",
+"name": "மாணவர் 101"
+},
+{
+"username": "7000000102",
+"pincode": "159348",
+"name": "மாணவர் 102"
+},
+{
+"username": "7000000103",
+"pincode": "602475",
+"name": "மாணவர் 103"
+},
+{
+"username": "7000000104",
+"pincode": "317852",
+"name": "மாணவர் 104"
+},
+{
+"username": "7000000105",
+"pincode": "940361",
+"name": "மாணவர் 105"
+},
+{
+"username": "7000000106",
+"pincode": "481529",
+"name": "மாணவர் 106"
+},
+{
+"username": "7000000107",
+"pincode": "735164",
+"name": "மாணவர் 107"
+},
+{
+"username": "7000000108",
+"pincode": "269403",
+"name": "மாணவர் 108"
+},
+{
+"username": "7000000109",
+"pincode": "802517",
+"name": "மாணவர் 109"
+},
+{
+"username": "7000000110",
+"pincode": "514736",
+"name": "மாணவர் 110"
+},
+{
+"username": "7000000111",
+"pincode": "173859",
+"name": "மாணவர் 111"
+},
+{
+"username": "7000000112",
+"pincode": "640281",
+"name": "மாணவர் 112"
+},
+{
+"username": "7000000113",
+"pincode": "951674",
+"name": "மாணவர் 113"
+},
+{
+"username": "7000000114",
+"pincode": "384102",
+"name": "மாணவர் 114"
+},
+{
+"username": "7000000115",
+"pincode": "726935",
+"name": "மாணவர் 115"
+},
+{
+"username": "7000000116",
+"pincode": "215846",
+"name": "மாணவர் 116"
+},
+{
+"username": "7000000117",
+"pincode": "490327",
+"name": "மாணவர் 117"
+},
+{
+"username": "7000000118",
+"pincode": "835164",
+"name": "மாணவர் 118"
+},
+{
+"username": "7000000119",
+"pincode": "158293",
+"name": "மாணவர் 119"
+},
+{
+"username": "7000000120",
+"pincode": "604712",
+"name": "மாணவர் 120"
+},
+{
+"username": "6369371452",
+"pincode": "131212",
+"name": "Admin"
+}
+];
+
+        function handleLogin() {
+            const userInp = document.getElementById('username').value;
+            const pinInp = document.getElementById('pincode').value;
+            const errorMsg = document.getElementById('error-msg');
+
+            const validUser = users.find(u => u.username === userInp && u.pincode === pinInp);
+
+            if (validUser) {
+                document.getElementById('login-overlay').style.display = 'none';
+                document.getElementById('quiz-main').style.display = 'block';
+                document.getElementById('welcome-msg').innerText = `வரவேற்கிறோம் ${validUser.name}! 📢 TET Mock Test 150 - உங்கள் தேர்வை இப்போதே தொடங்குங்கள்! ⏳`;
+                renderQuiz();
+            } else {
+                errorMsg.classList.remove('hidden');
+            }
+        }
+
+        const quizData = [
+            // PART 1: NEW PSYCHOLOGY (1-30)
+            { section: "பகுதி 1: உளவியல் (Psychology)", bClass: "border-psychology", sClass: "bg-psychology", q: "1. குழந்தை வளர்ச்சியில் 'முயன்று கற்றல்' (Trial and Error Learning) கொள்கையை முன்மொழிந்தவர் யார்?", a: ["பாவ்லவ்", "ஸ்கின்னர்", "தார்ண்டைக்", "கோலர்"], c: 2 },
+            { bClass: "border-psychology", q: "2. அறிவுசார் வளர்ச்சி நிலைகளை (Stages of Cognitive Development) நான்கு நிலைகளாகப் பிரித்தவர் யார்?", a: ["புரூனர்", "ஜீன் பியாஜே", "எரிக்சன்", "கார்ல் ரோஜர்ஸ்"], c: 1 },
+            { bClass: "border-psychology", q: "3. மனவெழுச்சி நுண்ணறிவு (Emotional Intelligence) என்ற கருத்தைப் பிரபலப்படுத்தியவர் யார்?", a: ["ஸ்பியர்மேன்", "டேனியல் கோல்மேன்", "ஸ்டெர்ன்பெர்க்", "கார்ட்னர்"], c: 1 },
+            { bClass: "border-psychology", q: "4. எரிக்சனின் மனச்சமூக வளர்ச்சி நிலைகளில் 'நம்பிக்கை VS நம்பிக்கை இன்மை' எக்காலகட்டத்தில் நிகழ்கிறது?", a: ["பிறப்பு முதல் 1.5 வயது வரை", "3 முதல் 6 வயது வரை", "6 முதல் 12 வயது வரை", "குமரிப்பருவம்"], c: 0 },
+            { bClass: "border-psychology", q: "5. கற்றலில் 'உட்காட்சி வழிக் கற்றல்' (Insightful Learning) யாருடைய சோதனையுடன் தொடர்புடையது?", a: ["குரங்கு (சுல்தானா)", "பூனை", "எலி", "நாய்"], c: 0 },
+            { bClass: "border-psychology", q: "6. மாஸ்லோவின் படிநிலைத் தேவைக் கோட்பாட்டில் மிக உயர்ந்த நிலையில் உள்ளது எது?", a: ["பாதுகாப்புத் தேவை", "தன்னைத் தான் உணர்தல் (Self-Actualization)", "அன்பு மற்றும் அங்கீகாரம்", "மதிப்பு மற்றும் மரியாதை"], c: 1 },
+            { bClass: "border-psychology", q: "7. குமரிப்பருவம் ஒரு 'அழுத்தமும் கொந்தளிப்பும் நிறைந்த பருவம்' என்று கூறியவர் யார்?", a: ["ஜி. ஸ்டான்லி ஹால்", "வாட்சன்", "விலியம் ஜேம்ஸ்", "ஹென்றி முர்ரே"], c: 0 },
+            { bClass: "border-psychology", q: "8. ஒரு குழந்தையின் 'மனவயது' (Mental Age) மற்றும் 'கால வயது' (Chronological Age) சமமாக இருந்தால், அந்த குழந்தையின் IQ எவ்வளவு?", a: ["80", "100", "120", "140"], c: 1 },
+            { bClass: "border-psychology", q: "9. நுண்ணறிவின் 'பன்முக நுண்ணறிவுக் கோட்பாட்டை' (Multiple Intelligence) உருவாக்கியவர் யார்?", a: ["ஆல்பிரட் பினே", "ஹோவர்ட் கார்ட்னர்", "டெர்மன்", "வெக்ஸ்லர்"], c: 1 },
+            { bClass: "border-psychology", q: "10. கீழ்க்கண்டவற்றுள் எது ஆளுமையை அளவிடும் 'புறத்தேற்று நுண்முறை' (Projective Technique)?", a: ["நேர்காணல்", "ரோர்ஷாக் மைத்தடம் சோதனை", "வினா நிரல்", "சுயசரிதை"], c: 1 },
+            { bClass: "border-psychology", q: "11. ஒரு மாணவன் தேர்வில் தோல்வி அடைந்ததற்கு 'கேள்வித்தாள் கடினம்' என்று கூறுவது எந்தத் தற்காப்பு நடத்தை (Defense Mechanism)?", a: ["இடமாற்றம்", "காரணம் கற்பித்தல் (Rationalization)", "பின்வாங்கல்", "ஈடு செய்தல்"], c: 1 },
+            { bClass: "border-psychology", q: "12. குழந்தைகளின் மொழி வளர்ச்சி பற்றி 'இயல்பறிவு வாதம்' (Nativism) கொள்கையை முன்வைத்தவர் யார்?", a: ["பி.எஃப். ஸ்கின்னர்", "நோம் சாம்ஸ்கி", "வைகாட்ஸ்கி", "பந்துரா"], c: 1 },
+            { bClass: "border-psychology", q: "13. முதன்முதலில் 'உளவியல் ஆய்வுக்கூடத்தை' (Psychology Laboratory) ஜெர்மனியில் நிறுவியவர் யார்?", a: ["சிக்மண்ட் பிராய்டு", "விலியம் ஊண்ட்", "அட்லர்", "ஜங்"], c: 1 },
+            { bClass: "border-psychology", q: "14. வைகாட்ஸ்கியின் 'அண்மை வளர்ச்சி மண்டலம்' (ZPD) எதைக் குறிக்கிறது?", a: ["குழந்தையின் தற்போதைய அறிவு", "உதவியுடன் செய்யக்கூடிய மற்றும் தனியாகச் செய்யக்கூடிய செயல்பாடுகளுக்கு இடையிலான இடைவெளி", "குழந்தையின் மரபணு திறன்", "குழந்தையின் உடல் வளர்ச்சி"], c: 1 },
+            { bClass: "border-psychology", q: "15. ஆக்க நிலையுறுத்தக் கற்றலில் (Classical Conditioning) 'மணி சத்தம்' என்பது என்ன?", a: ["இயற்கையான தூண்டல்", "நிலையுறுத்தப்பட்ட தூண்டல் (CS)", "இயற்கையான துலங்கல்", "நிலையுறுத்தப்பட்ட துலங்கல்"], c: 1 },
+            { bClass: "border-psychology", q: "16. 'மறதி வளைவு' (Forgetting Curve) பற்றிய ஆய்வுகளை மேற்கொண்டவர் யார்?", a: ["எபிங்காஸ்", "பார்ட்லெட்", "ஜேம்ஸ் லாஞ்ச்", "கேன் பாார்ட்"], c: 0 },
+            { bClass: "border-psychology", q: "17. கல்வி உளவியலின் தந்தை என்று அழைக்கப்படுபவர் யார்?", a: ["பெஸ்டலாசி", "ஈ.எல். தார்ண்டைக்", "ரூஸோ", "ப்ரோபல்"], c: 1 },
+            { bClass: "border-psychology", q: "18. குழந்தை மையக் கல்வியின் (Child-Centered Education) முக்கியத்துவத்தை வலியுறுத்தியவர்?", a: ["ஜான் டூயி", "ஹெர்பார்ட்", "பிளாட்டோ", "அரிஸ்டாட்டில்"], c: 0 },
+            { bClass: "border-psychology", q: "19. ஒரு குறிப்பிட்டத் துறையில் ஒருவரின் இயல்பானத் திறமையை அளவிடுவது எது?", a: ["நுண்ணறிவு", "நாட்டம் (Aptitude)", "ஆளுமை", "மனப்பான்மை"], c: 1 },
+            { bClass: "border-psychology", q: "20. சமூகக் கற்றல் கொள்கையை (Social Learning Theory) உருவாக்கியவர் யார்?", a: ["ஆல்பர்ட் பந்துரா", "குர்த் லெவின்", "டால்மன்", "ஹல்"], c: 0 },
+            { bClass: "border-psychology", q: "21. முதிர்ச்சி (Maturation) என்பது எவ்வகை மாற்றம்?", a: ["கற்றலால் ஏற்படும் மாற்றம்", "உயிரியல் ரீதியான இயற்கை மாற்றம்", "சூழலால் ஏற்படும் மாற்றம்", "மன அழுத்தம்"], c: 1 },
+            { bClass: "border-psychology", q: "22. குழந்தைகளின் ஒழுக்க வளர்ச்சியை (Moral Development) மூன்று நிலைகளாகப் பிரித்தவர் யார்?", a: ["லாரன்ஸ் கோல்பர்க்", "ஜீன் பியாஜே", "ஸ்டெர்ன்", "ஸ்ப்ராங்கர்"], c: 0 },
+            { bClass: "border-psychology", q: "23. கீழ்க்கண்டவற்றுள் எது 'உயிரியல் உந்துதல்' (Biological Motive)?", a: ["சாதனை உந்துதல்", "பசி", "அங்கீகாரம்", "அதிகாரம்"], c: 1 },
+            { bClass: "border-psychology", q: "24. கற்றல் மாற்றத்தில் (Transfer of Learning) 'ஒத்த கூறுக் கொள்கையை' கூறியவர் யார்?", a: ["ஜட்", "தார்ண்டைக்", "பாக்லி", "காக்னே"], c: 1 },
+            { bClass: "border-psychology", q: "25. நுண்ணறிவின் 'இரு காரணிக் கொள்கையை' (Two Factor Theory) வழங்கியவர் யார்?", a: ["ஸ்பியர்மேன்", "தார்ண்டைக்", "தர்ஸ்டன்", "கில்போர்டு"], c: 0 },
+            { bClass: "border-psychology", q: "26. உளப்பகுப்பாய்வு கோட்பாட்டில் (Psychoanalysis) 'உடனடி இன்பத்தை' விரும்புவது எது?", a: ["ஈகோ (Ego)", "இட் (Id)", "சூப்பர் ஈகோ (Super Ego)", "நனவு மனம்"], c: 1 },
+            { bClass: "border-psychology", q: "27. 'எந்த ஒரு குழந்தையையும் என்னிடம் கொடுங்கள், நான் அவர்களை நீங்கள் விரும்பியபடி மாற்றிக் காட்டுகிறேன்' என்று கூறியவர்?", a: ["ஜே.பி. வாட்சன்", "பாவ்லவ்", "எட்கர் டேல்", "பிளேட்டோ"], c: 0 },
+            { bClass: "border-psychology", q: "28. தனிநபர் வேறுபாட்டிற்கக்கான (Individual Differences) மிக முக்கியமான காரணிகள் யாவை?", a: ["பள்ளி மற்றும் சமூகம்", "மரபு மற்றும் சூழ்நிலை", "உணவு மற்றும் உடை", "பொருளாதாரம் மட்டும்"], c: 1 },
+            { bClass: "border-psychology", q: "29. காக்னேயின் கற்றல் படிநிலைகளில் மிக உயரிய நிலை எது?", a: ["சமிக்ஞைக் கற்றல்", "பிரச்சனைத் தீர்த்தல் (Problem Solving)", "விதி கற்றல்", "பண்புக் கற்றல்"], c: 1 },
+            { bClass: "border-psychology", q: "30. குறைதீர் கற்பித்தலின் (Remedial Teaching) முக்கிய நோக்கம் என்ன?", a: ["மாணவர்களைத் தண்டிக்க", "பின்தங்கிய மாணவர்களின் கற்றல் இடைவெளியை நிரப்ப", "புதிய பாடங்களை அறிமுகப்படுத்த", "தேர்வு மதிப்பெண்களை மட்டும் உயர்த்த"], c: 1 },
+
+            // PART 2: TAMIL (31-60)
+            { section: "பகுதி 2: தமிழ் (Tamil)", bClass: "border-tamil", sClass: "bg-tamil", q: "31. 'தமிழுக்கும் அமுதென்று பேர்' என்ற பாடலை எழுதியவர் யார்?", a: ["பாரதியார்", "பாரதிதாசன்", "சுரதா", "வாணிதாசன்"], c: 1 },
+            { bClass: "border-tamil", q: "32. 'நெறி' என்ற சொல்லின் பொருள் யாது?", a: ["வழி", "குறிக்கோள்", "அறம்", "செல்வம்"], c: 0 },
+            { bClass: "border-tamil", q: "33. பேச்சு மொழிக்கும் எழுத்து மொழிக்கும் இடையே உள்ள வேறுபாட்டை என்னவென்று அழைப்பார்?", a: ["ஒற்றை வழக்கு", "இரட்டை வழக்கு", "உலக வழக்கு", "செய்யுள் வழக்கு"], c: 1 },
+            { bClass: "border-tamil", q: "34. சுரதா எவ்வகை கவிதைகள் எழுதுவதில் வல்லவர்?", a: ["உவமை கவிதைகள்", "இயற்கை கவிதைகள்", "புதுக்கவிதைகள்", "மரபுக்கவிதைகள்"], c: 0 },
+            { bClass: "border-tamil", q: "35. 'வட்டெழுத்து' என்பது எதைக் குறிக்கும்?", a: ["சதுரமான எழுத்து", "வளைந்த கோடுகளால் ஆன எழுத்து", "புள்ளி வைத்த எழுத்து", "ஓவிய எழுத்து"], c: 1 },
+            { bClass: "border-tamil", q: "36. 'பசு' என்பது எவ்வகை குற்றியலுகரம்?", a: ["நெடில்தொடர்", "உயிர்தொடர்", "முற்றியலுகரம்", "வன்தொடர்"], c: 2 },
+            { bClass: "border-tamil", q: "37. தமிழகத்தின் இயற்கை வளங்களை 'ஒன்றல்ல இரண்டல்ல' எனக் குறிப்பிட்டவர் யார்?", a: ["உடுமலை நாராயணகவி", "நாமக்கல் கவிஞர்", "பாரதிதாசன்", "கவிமணி"], c: 0 },
+            { bClass: "border-tamil", q: "38. 'துய்ப்பதால்' என்ற சொல்லின் பொருள் யாது?", a: ["கற்பதால்", "தருவதால்", "பெறுவதால்", "நீக்குவதால்"], c: 0 },
+            { bClass: "border-tamil", q: "39. 'மகரக்குறுக்கம்' எங்கே ஒலிக்கிறது?", a: ["சொல்லின் முதலில்", "சொல்லின் இடையில்", "வலம் வந்தான்", "தம்பி"], c: 2 },
+            { bClass: "border-tamil", q: "40. பாரதியார் தமிழை எவ்வகை மொழி என்று அழைக்கிறார்?", a: ["வண்மொழி", "மென்மொழி", "செம்மொழி", "பழமொழி"], c: 0 },
+            { bClass: "border-tamil", q: "41. 'காவடிச் சிந்து' என்பது எவ்வகை இலக்கியம்?", a: ["காப்பியம்", "இசைப்பாடல்", "நாடகம்", "சிறுகதை"], c: 1 },
+            { bClass: "border-tamil", q: "42. 'ஓரெழுத்து ஒரு மொழி' தமிழில் எத்தனை உள்ளன?", a: ["40", "42", "44", "46"], c: 1 },
+            { bClass: "border-tamil", q: "43. 'வாழ்க நிரந்தரம்' என்ற பாடலில் 'நிரந்தரம்' என்பதன் பொருள்?", a: ["காலம் முழுமையும்", "ஒரு நாள்", "ஒரு வருடம்", "சிறிது காலம்"], c: 0 },
+            { bClass: "border-tamil", q: "44. 'ஆழி' என்பதன் பொருள் யாது?", a: ["மலை", "கடல்", "நிலம்", "விண்வெளி"], c: 1 },
+            { bClass: "border-tamil", q: "45. 'குற்றியலிகரம்' தற்போது எங்கு மட்டுமே பயின்று வருகிறது?", a: ["உரைநடையில்", "பேச்சில்", "இலக்கியங்களில்", "அகராதியில்"], c: 2 },
+            { bClass: "border-tamil", q: "46. 'பரணி' என்பது எவ்வகை இலக்கியம்?", a: ["100 பாடல்கள்", "500 பாடல்கள்", "96 வகை சிற்றிலக்கியம்", "காப்பியம்"], c: 2 },
+            { bClass: "border-tamil", q: "47. 'பண்ணின் தமிழ்' எனத் தொடங்கும் தேவாரம் பாடியவர்?", a: ["திருநாவுக்கரசர்", "சுந்தரர்", "சம்பந்தர்", "மாணிக்கவாசகர்"], c: 1 },
+            { bClass: "border-tamil", q: "48. 'அஃறிணை' என்பதை எவ்வாறு பிரிக்கலாம்?", a: ["அ+றிணை", "அல்+திணை", "அஃது+திணை", "அக்+திணை"], c: 1 },
+            { bClass: "border-tamil", q: "49. சிலப்பதிகாரம் எதனை வாழ்த்தித் தொடங்குகிறது?", a: ["அரசன்", "இயற்கை", "இறைவன்", "மக்கள்"], c: 1 },
+            { bClass: "border-tamil", q: "50. 'முச்சங்கம்' என்பது எதைக் குறிக்கிறது?", a: ["சோழ, சேர, பாண்டிய", "முதல், இடை, கடை", "இயல், இசை, நாடகம்", "நிலம், நீர், காற்று"], c: 1 },
+            { bClass: "border-tamil", q: "51. 'படிக்கச் செய்தான்' என்பது எவ்வகை வினை?", a: ["தன்வினை", "பிறவினை", "செய்வினை", "செயப்பாட்டு வினை"], c: 1 },
+            { bClass: "border-tamil", q: "52. 'கல்வி கரையில' எனத் தொடங்கும் வரி இடம்பெற்ற நூல்?", a: ["திருக்குறள்", "நாலடியார்", "சிலப்பதிகாரம்", "மணிமேகலை"], c: 1 },
+            { bClass: "border-tamil", q: "53. 'மெய்ஞ்ஞானம்' என்பதன் பொருள்?", a: ["பொய் அறிவு", "மெய்யான அறிவு", "உலக அறிவு", "நூல் அறிவு"], c: 1 },
+            { bClass: "border-tamil", q: "54. 'ஐ' என்பது எத்தனையாவது வேற்றுமை உருபு?", a: ["முதல்", "இரண்டாம்", "மூன்றாம்", "நான்காம்"], c: 1 },
+            { bClass: "border-tamil", q: "55. 'தென்னிந்தியாவின் புக்கர் வாஷிங்டன்' என அழைக்கப்படுபவர்?", a: ["அயோத்திதாசர்", "முத்துராமலிங்கத்தேவர்", "காமராசர்", "அம்பேத்கர்"], c: 1 },
+            { bClass: "border-tamil", q: "56. 'ஆன்ற குடிப்பிறத்தல்' என்பது எதனைக் குறிக்கும்?", a: ["நல்ல குடியில் பிறத்தல்", "பணக்காரராகப் பிறத்தல்", "ஏழையாகப் பிறத்தல்", "நகரத்தில் பிறத்தல்"], c: 0 },
+            { bClass: "border-tamil", q: "57. '?' என்னும் குறியீடு எதனைக் குறிக்கிறது?", a: ["முற்றுப்புள்ளி", "வினாக்குறி", "வியப்புக்குறி", "கற்புள்ளி"], c: 1 },
+            { bClass: "border-tamil", q: "58. வ.உ.சிதம்பரனார் எந்த நாட்டுடன் வணிகம் செய்ய கப்பல் ஓட்டினார்?", a: ["இலங்கை", "அமெரிக்கா", "ஆப்பிரிக்கா", "லண்டன்"], c: 0 },
+            { bClass: "border-tamil", q: "59. 'Polynesia' என்பதன் தமிழாக்கம்?", a: ["குறுநில மன்னர்", "தீவுக்கூட்டம்", "நாடு", "நகரம்"], c: 1 },
+            { bClass: "border-tamil", q: "60. 'திருக்குறள்' எத்தனை அதிகாரங்களைக் கொண்டது?", a: ["100", "133", "150", "200"], c: 1 },
+
+            // PART 3: ENGLISH (61-90)
+            { section: "பகுதி 3: ஆங்கிலம் (English)", bClass: "border-english", sClass: "bg-english", q: "61. How many species of marine turtles are found globally?", a: ["5", "7", "10", "3"], c: 1 },
+            { bClass: "border-english", q: "62. Which of the following is a homophone for 'meet'?", a: ["Meat", "Met", "Mate", "Mete"], c: 0 },
+            { bClass: "border-english", q: "63. Turtles are different from tortoises because...", a: ["Turtles live on land", "Turtles live in sea", "Tortoises have flippers", "None of the above"], c: 1 },
+            { bClass: "border-english", q: "64. In the lesson 'Eidgah', what did Hamid buy?", a: ["Toy", "Sweets", "Tongs", "Balloon"], c: 2 },
+            { bClass: "border-english", q: "65. Fill in the blank: 'I am not _______ to eat in class.'", a: ["Aloud", "Allowed", "Allot", "Alone"], c: 1 },
+            { bClass: "border-english", q: "66. Hamid's friends bought toys made of...", a: ["Plastic", "Wood", "Clay", "Metal"], c: 2 },
+            { bClass: "border-english", q: "67. Who is the author of 'The Crocodile'?", a: ["Lewis Carroll", "Ruskin Bond", "John Keats", "Sara Coleridge"], c: 0 },
+            { bClass: "border-english", q: "68. Add a suffix to 'Wonder':", a: ["-ship", "-ful", "-hood", "-ment"], c: 1 },
+            { bClass: "border-english", q: "69. Usha was afraid of the ghosts in...", a: ["Haunted Hill", "Beach", "Market", "School"], c: 0 },
+            { bClass: "border-english", q: "70. 'When the Trees Walked' is a story by...", a: ["Ruskin Bond", "RK Narayan", "Leo Tolstoy", "Manoj Das"], c: 0 },
+            { bClass: "border-english", q: "71. Phrasal verb 'Look after' means...", a: ["Search", "Take care", "Ignore", "Watch"], c: 1 },
+            { bClass: "border-english", q: "72. A sentence with one main clause and one or more subordinate clauses is...", a: ["Simple", "Compound", "Complex", "Tag"], c: 2 },
+            { bClass: "border-english", q: "73. In 'The Nose-Jewel', the diamond stud was found in...", a: ["Box", "Muck-heap", "River", "Tree"], c: 1 },
+            { bClass: "border-english", q: "74. Indirect speech of: He said, 'I am fine.'", a: ["He said he is fine", "He said that he was fine", "He says he was fine", "None"], c: 1 },
+            { bClass: "border-english", q: "75. 'Arribada' means...", a: ["Mass migration", "Mass nesting", "Mass hunting", "None"], c: 1 },
+            { bClass: "border-english", q: "76. Cyber safety means...", a: ["Keeping details secret", "Sharing password", "Giving address to strangers", "None"], c: 0 },
+            { bClass: "border-english", q: "77. Preposition: 'The book is _______ the table.'", a: ["In", "On", "At", "By"], c: 1 },
+            { bClass: "border-english", q: "78. Isaac Newton was born at...", a: ["Woolsthorpe", "London", "India", "Paris"], c: 0 },
+            { bClass: "border-english", q: "79. Idiom 'At a snail's pace' means...", a: ["Very fast", "Very slow", "Normal", "Skipping"], c: 1 },
+            { bClass: "border-english", q: "80. Compound word: 'Rain + _______ = Rainbow'", a: ["Fall", "Bow", "Drop", "Water"], c: 1 },
+            { bClass: "border-english", q: "81. Subroto Bagchi gave a speech titled...", a: ["A Prayer to the Teacher", "My Reminiscence", "Friendship", "None"], c: 0 },
+            { bClass: "border-english", q: "82. 'A Thing of Beauty' is written by...", a: ["John Keats", "George Eliot", "Raj Arumugam", "Lewis Carroll"], c: 0 },
+            { bClass: "border-english", q: "83. Rhyming word for 'Dark':", a: ["Light", "Bark", "Moon", "Sky"], c: 1 },
+            { bClass: "border-english", q: "84. Bullying means...", a: ["Playing", "Hurting others", "Helping", "Studying"], c: 1 },
+            { bClass: "border-english", q: "85. Jim Corbett's first man-eater was...", a: ["Panar Leopard", "Champawat Tiger", "Rudraprayag", "None"], c: 1 },
+            { bClass: "border-english", q: "86. Use many/much: 'How _______ water is in the glass?'", a: ["Many", "Much", "Some", "Few"], c: 1 },
+            { bClass: "border-english", q: "87. Owen was a baby...", a: ["Elephant", "Hippo", "Tortoise", "Tiger"], c: 1 },
+            { bClass: "border-english", q: "88. Anagram of 'Eat':", a: ["Ate", "Tea", "Ten", "Both A and B"], c: 3 },
+            { bClass: "border-english", q: "89. Formal emails should be...", a: ["Flowery", "Factual and to the point", "Rude", "Lengthy"], c: 1 },
+            { bClass: "border-english", q: "90. Acronym for 'ATM':", a: ["Auto Teller", "Automated Teller Machine", "All Time Money", "None"], c: 1 },
+
+            // PART 4: MATHS (91-120) WITH EXPLANATIONS
+            { section: "பகுதி 4: கணிதம் (Maths)", bClass: "border-maths", sClass: "bg-maths", q: "91. விகிதமுறு எண்களின் கூட்டல் சமனி எது?", a: ["1", "0", "-1", "கிடையாது"], c: 1, exp: "விகிதமுறு எண்களில் ஓர் எண்ணுடன் 0-வைக் கூட்டினால் அதே எண் கிடைக்கும். எனவே, 0 என்பது கூட்டல் சமனி ஆகும்." },
+            { bClass: "border-maths", q: "92. -3/4 மற்றும் -2/5 இக்கு இடையில் உள்ள ஒரு விகிதமுறு எண் எது?", a: ["-23/40", "-1/2", "0", "1"], c: 0, exp: "-3/4 = -30/40 மற்றும் -2/5 = -16/40. இவ்விரண்டிற்கும் இடையில் -23/40 அமையும்." },
+            { bClass: "border-maths", q: "93. ஆய்லர் சூத்திரம் (F + V - E) இன் மதிப்பு என்ன?", a: ["0", "1", "2", "3"], c: 2, exp: "ஆய்லர் சூத்திரத்தின்படி, முகங்கள் (F) + உச்சிகள் (V) - விளிம்புகள் (E) எப்போதும் 2 ஆக இருக்கும்." },
+            { bClass: "border-maths", q: "94. ஒரு இணைகரத்தின் பரப்பளவு 20 சதுர அலகுகள் மற்றும் அடிப்பக்கம் 5 அலகுகள் எனில் அதன் உயரம்?", a: ["4 அலகுகள்", "15 அலகுகள்", "100 அலகுகள்", "25 அலகுகள்"], c: 0, exp: "பரப்பளவு = அடிப்பக்கம் × உயரம். 20 = 5 × h => h = 20/5 = 4 அலகுகள்." },
+            { bClass: "border-maths", q: "95. செங்கோண முக்கோணத்தின் பக்கங்கள் 3, 4 எனில் கர்ணம் என்ன?", a: ["5", "7", "12", "25"], c: 0, exp: "பிதாகரஸ் தேற்றப்படி, கர்ணம்² = 3² + 4² = 9 + 16 = 25. எனவே கர்ணம் = √25 = 5." },
+            { bClass: "border-maths", q: "96. (a+b)² இன் விரிவாக்கம் யாது?", a: ["a² + b²", "a² + 2ab + b²", "a² - 2ab + b²", "a + b"], c: 1, exp: "(a+b)(a+b) = a² + ab + ba + b² = a² + 2ab + b²." },
+            { bClass: "border-maths", q: "97. 1800 ஐ எந்த மிகச்சிறிய எண்ணால் பெருக்கினால் அது முழு வர்க்கமாகும்?", a: ["2", "3", "5", "7"], c: 0, exp: "1800 = 2 × 900. இதில் 900 ஒரு முழு வர்க்கம் (30²). மீதமுள்ள 2-ஐ ஒருமுறை பெருக்கினால் 3600 கிடைக்கும், இது 60² ஆகும்." },
+            { bClass: "border-maths", q: "98. வட்டத்தின் பரப்பளவு காணும் சூத்திரம்?", a: ["2πr", "πr²", "2r", "πr²h"], c: 1, exp: "ஆரம் 'r' கொண்ட ஒரு வட்டத்தின் பரப்பளவு πr² ஆகும்." },
+            { bClass: "border-maths", q: "99. 'ஓர் எண்ணின் மூன்றில் ஒரு பங்குடன் 6 ஐக் கூட்ட 10 கிடைக்கிறது' - இதன் சமன்பாடு?", a: ["x/3 + 6 = 10", "3x + 6 = 10", "x + 1/3 = 10", "x - 6 = 10"], c: 0, exp: "எண் x எனில், மூன்றில் ஒரு பங்கு x/3. அதனுடன் 6 கூட்ட x/3 + 6 = 10." },
+            { bClass: "border-maths", q: "100. இரு அளவுகள் x, y நேர் மாறலில் இருந்தால்...", a: ["x/y = k", "xy = k", "x+y = k", "x-y = k"], c: 0, exp: "நேர் மாறலில் x அதிகரிக்கும் போது y-யும் அதே விகிதத்தில் அதிகரிக்கும். எனவே x/y ஒரு மாறிலி (k) ஆகும்." },
+            { bClass: "border-maths", q: "101. a⁰ இன் மதிப்பு என்ன?", a: ["0", "1", "a", "-1"], c: 1, exp: "கணித விதிகளின்படி பூச்சியமற்ற எந்த எண்ணின் அடுக்கிலும் 0 இருந்தால் அதன் மதிப்பு 1 ஆகும்." },
+            { bClass: "border-maths", q: "102. 10 ஆண்கள் ஒரு வேலையை 20 நாளில் முடித்தால், 20 ஆண்கள் அந்த வேலையை எத்தனை நாளில் முடிப்பர்?", a: ["10 நாள்", "40 நாள்", "20 நாள்", "5 நாள்"], c: 0, exp: "வேலையாட்கள் இருமடங்காக அதிகரித்தால், வேலை நாட்கள் பாதியாகக் குறையும். 20/2 = 10 நாட்கள் (எதிர்மாறல்)." },
+            { bClass: "border-maths", q: "103. (x+y)² மற்றும் x² + y² சமமா?", a: ["ஆம்", "இல்லை", "தெரியாது", "சில நேரம் மட்டும்"], c: 1, exp: "(x+y)² = x² + 2xy + y². இதில் '2xy' என்ற உறுப்பு கூடுதலாக உள்ளதால் இரண்டும் சமமல்ல." },
+            { bClass: "border-maths", q: "104. தகவலை இரகசியமாக மாற்றும் முறை?", a: ["Encryption", "Decryption", "Addition", "Subtraction"], c: 0, exp: "தகவல் பாதுகாப்புத் துறையில் தகவலைப் புரியாத வகையில் மாற்றுவது Encryption எனப்படும்." },
+            { bClass: "border-maths", q: "105. √42.25 இன் மதிப்பு என்ன?", a: ["6.5", "7.5", "5.5", "6.25"], c: 0, exp: "65² = 4225. எனவே √42.25 = 6.5." },
+            { bClass: "border-maths", q: "106. பிபனோசி தொடரில் 3-வது எண் எது? (1, 1 லிருந்து தொடங்கினால்)", a: ["1", "2", "3", "5"], c: 1, exp: "பிபனோசி தொடர்: 1, 1, 2, 3, 5... இதில் மூன்றாவது எண் 2 ஆகும் (1+1=2)." },
+            { bClass: "border-maths", q: "107. சாய்சதுரத்தின் பரப்பளவு சூத்திரம்?", a: ["bh", "1/2 x d1 x d2", "lb", "a²"], c: 1, exp: "மூலைவிட்டங்கள் d1, d2 கொடுக்கப்பட்டால் சாய்சதுரத்தின் பரப்பளவு 1/2 × d1 × d2." },
+            { bClass: "border-maths", q: "108. தூரம் = ?", a: ["வேகம் / நேரம்", "வேகம் x நேரம்", "நேரம் / வேகம்", "வேகம் + நேரம்"], c: 1, exp: "தூரம் என்பது பொருள் சென்ற வேகத்தையும் அதற்கு எடுத்துக்கொண்ட நேரத்தையும் பெருக்கிக் கிடைக்கும் மதிப்பாகும்." },
+            { bClass: "border-maths", q: "109. வட்ட விளக்கப்படத்தில் (Pie Chart) மையக் கோணங்களின் மொத்தக் கூடுதல்?", a: ["90°", "180°", "360°", "270°"], c: 2, exp: "ஒரு புள்ளிக்குச் சுற்றியுள்ள மொத்தக் கோணம் 360° ஆகும்." },
+            { bClass: "border-maths", q: "110. 1729 என்பது யார் பெயரால் (Hardy-Ramanujan Number) அழைக்கப்படுகிறது?", a: ["ஆரியப்பட்டா", "ராமானுஜன்", "சகுந்தலா தேவி", "பிதாகரஸ்"], c: 1, exp: "1729 என்பது இரு வெவ்வேறு வழிகளில் இரு கன எண்களின் கூடுதலாக எழுதப்படக்கூடிய மிகச்சிறிய எண் (12³+1³ மற்றும் 10³+9³)." },
+            { bClass: "border-maths", q: "111. 2x + 5 = 9 எனில் x இன் மதிப்பு?", a: ["2", "4", "7", "1"], c: 0, exp: "2x = 9 - 5 => 2x = 4 => x = 4/2 = 2." },
+            { bClass: "border-maths", q: "112. அடுத்தடுத்த இரு இயல் எண்களின் கூடுதல் 75 எனில் சிறிய எண்?", a: ["37", "38", "35", "40"], c: 0, exp: "x + (x+1) = 75 => 2x = 74 => x = 37." },
+            { bClass: "border-maths", q: "113. கனமூலத்தின் குறியீடு எது?", a: ["√", "∛", "x²", "x³"], c: 1, exp: "வர்க்கமூலத்திற்கு '√' மற்றும் கனமூலத்திற்கு '∛' குறியீடு பயன்படுத்தப்படும்." },
+            { bClass: "border-maths", q: "114. சதுரத்தின் பரப்பளவு 100 m² எனில் அதன் பக்கம் எவ்வளவு?", a: ["10 மீ", "20 மீ", "5 மீ", "50 மீ"], c: 0, exp: "பரப்பளவு = a² = 100. எனவே பக்கம் a = √100 = 10 மீ." },
+            { bClass: "border-maths", q: "115. ஒரு மாறியில் அமைந்த ஒருபடிச் சமன்பாட்டிற்கு எத்தனை தீர்வுகள் உண்டு?", a: ["1", "2", "0", "பல"], c: 0, exp: "ஒருபடிச் சமன்பாட்டிற்கு எப்போதும் ஒரே ஒரு தனித்த தீர்வு மட்டுமே இருக்கும்." },
+            { bClass: "border-maths", q: "116. அறிவியல் குறியீட்டில் 10³ என்பது எவ்வளவு?", a: ["100", "1000", "10", "0.001"], c: 1, exp: "10³ = 10 × 10 × 10 = 1000." },
+            { bClass: "border-maths", q: "117. 4500 ஐ அறிவியல் குறியீட்டில் எழுதினால்?", a: ["4.5 x 10³", "45 x 10²", "0.45 x 10⁴", "4.5 x 10¹"], c: 0, exp: "புள்ளியை மூன்று இடங்கள் இடதுபுறம் நகர்த்தினால் 4.5 × 10³ கிடைக்கும்." },
+            { bClass: "border-maths", q: "118. இலாப சதவீதம் காணும் சூத்திரம்?", a: ["(இலாபம்/அ.வி) x 100", "(இலாபம்/வி.வி) x 100", "அ.வி x 100", "வி.வி - அ.வி"], c: 0, exp: "இலாப நட்டம் எப்போதும் அடக்க விலையின் (அ.வி) அடிப்படையில் கணக்கிடப்படும்." },
+            { bClass: "border-maths", q: "119. ஐங்கோணத்தின் பக்கங்களின் எண்ணிக்கை?", a: ["3", "4", "5", "6"], c: 2, exp: "பெயருக்கு ஏற்றார் போல ஐங்கோணம் 5 பக்கங்களைக் கொண்டது." },
+            { bClass: "border-maths", q: "120. கலப்பு மாறலில் 'நேர்-நேர்' மாறல் எதனைக் குறிக்கும்?", a: ["ஒன்று குறைய மற்றொன்று குறையும்", "ஒன்று அதிகரிக்க மற்றொன்று குறையும்", "மாறாது", "சுழியாகும்"], c: 0, exp: "நேர் மாறலில் இரண்டு அளவுகளும் ஒரே திசையில் (அதிகரித்தல் அல்லது குறைதல்) செயல்படும்." },
+
+            // PART 5: SCIENCE (121-150)
+            { section: "பகுதி 5: அறிவியல் (Science)", bClass: "border-science", sClass: "bg-science", q: "121. வெப்பநிலையின் SI அலகு எது?", a: ["செல்சியஸ்", "பாரன்ஹீட்", "கெல்வின்", "ஜூல்"], c: 2 },
+            { bClass: "border-science", q: "122. அடர்த்தியின் அலகு எது?", a: ["kg/m²", "kg/m³", "kg/m", "கிராம்"], c: 1 },
+            { bClass: "border-science", q: "123. குவார்ட்ஸ் கடிகாரங்கள் எதன் மூலம் இயங்குகின்றன?", a: ["காந்தம்", "மின்னணு அலைவுகள்", "அணு அதிர்வுகள்", "கயிறு"], c: 1 },
+            { bClass: "border-science", q: "124. நிலத்தடி நீர்மட்டத்தை உயர்த்த உதவும் சிறந்த முறை எது?", a: ["கழிவுநீர் வெளியேற்றம்", "மழைநீர் சேகரிப்பு", "காடுகளை அழித்தல்", "அணை கட்டுதல்"], c: 1 },
+            { bClass: "border-science", q: "125. பாஸ்கல் விதி எதற்குப் பயன்படுகிறது?", a: ["நீரியல் உயர்த்தி", "மின்சாரம்", "காந்தம்", "ஒலி"], c: 0 },
+            { bClass: "border-science", q: "126. அழுத்தத்தின் அலகு எது?", a: ["நியூட்டன்", "பாஸ்கல்", "ஜூல்", "வாட்"], c: 1 },
+            { bClass: "border-science", q: "127. திரவ அழுத்தம் எதனைப் பொறுத்து அதிகரிக்கும்?", a: ["ஆழம்", "பரப்பு", "நிறை", "வடிவம்"], c: 0 },
+            { bClass: "border-science", q: "128. ஒளியானது முப்பட்டகம் வழியாகச் செல்லும் போது நிறங்களாகப் பிரியும் நிகழ்வு?", a: ["எதிரொளிப்பு", "நிறப்பிரிகை", "விலகல்", "உட்கவர்தல்"], c: 1 },
+            { bClass: "border-science", q: "129. வாகனங்களில் பின்னோக்கி வரும் வாகனங்களைக் காணப் பயன்படும் ஆடி?", a: ["குழி ஆடி", "குவி ஆடி", "சமதள ஆடி", "பரவளைய ஆடி"], c: 1 },
+            { bClass: "border-science", q: "130. திரவத்தை வெப்பப்படுத்தினால் பொதுவாக அதன் கன அளவு...", a: ["குறையும்", "அதிகரிக்கும்", "மாறாது", "சுழியாகும்"], c: 1 },
+            { bClass: "border-science", q: "131. வெப்பத்தின் (Heat) SI அலகு எது?", a: ["ஜூல்", "கெல்வின்", "வாட்", "வோல்ட்"], c: 0 },
+            { bClass: "border-science", q: "132. மின்சாரத்தின் உதவியால் ஒரு உலோகத்தின் மீது மற்றொரு உலோகத்தைப் பூசுவது?", a: ["உருகுதல்", "மின்முலாம் பூசுதல்", "துருப்பிடித்தல்", "ஆவியாதல்"], c: 1 },
+            { bClass: "border-science", q: "133. மின்னலின் போது மரத்தடியில் நிற்பது ஏன் ஆபத்தானது?", a: ["நிழல் கிடைக்கும்", "மின்னல் தாக்கும்", "மழை பெய்யும்", "காற்று வீசும்"], c: 1 },
+            { bClass: "border-science", q: "134. ஒலியின் உரப்பு (Loudness) எதனைப் பொறுத்தது?", a: ["அதிர்வெண்", "வீச்சு (Amplitude)", "வேகம்", "காலம்"], c: 1 },
+            { bClass: "border-science", q: "135. ஒலியின் வேகம் காற்றில் தோராயமாக எவ்வளவு?", a: ["330 மீ/வி", "3 x 10⁸ மீ/வி", "1500 மீ/வி", "5000 மீ/வி"], c: 0 },
+            { bClass: "border-science", q: "136. விண்வெளியில் ஒலி பரவாதற்குக் காரணம் என்ன?", a: ["காற்று இல்லை (வெற்றிடம்)", "அதிக வெளிச்சம்", "குளிர்", "புவிஈர்ப்பு விசை"], c: 0 },
+            { bClass: "border-science", q: "137. காந்தப்புலத்தின் அலகு என்ன?", a: ["டெஸ்லா", "ஆம்பியர்", "வோல்ட்", "ஓம்"], c: 0 },
+            { bClass: "border-science", q: "138. காந்தத்தை வெப்பப்படுத்தினால் அதன் காந்தத்தன்மை...", a: ["அதிகரிக்கும்", "நீங்கும் (குறையும்)", "மாறாது", "வடதிசை காட்டும்"], c: 1 },
+            { bClass: "border-science", q: "139. புவி ஒரு மிகப்பெரிய காந்தமாகச் செயல்படக் காரணம் என்ன?", a: ["இரும்பு", "புவிக் காந்தப்புலம்", "நீர்", "மலைகள்"], c: 1 },
+            { bClass: "border-science", q: "140. சந்திரயான்-1 ஏவப்பட்ட ஆண்டு எது?", a: ["2008", "2014", "2019", "2023"], c: 0 },
+            { bClass: "border-science", q: "141. ராக்கெட்டில் திரவ எரிபொருளாகப் பயன்படுவது எது?", a: ["திரவ ஹைட்ரஜன்", "நீர்", "பெட்ரோல்", "நிலக்கரி"], c: 0 },
+            { bClass: "border-science", q: "142. மிக உயர்ந்த தரம் கொண்ட நிலக்கரி வகை எது?", a: ["ஆந்த்ரசைட்", "லிக்னைட்", "பீட்", "பிட்டுமினஸ்"], c: 0 },
+            { bClass: "border-science", q: "143. கார்பன் டைஆக்சைடு சுண்ணாம்பு நீரை எவ்வாறு மாற்றும்?", a: ["நீலமாக", "பால் போல (வெண்மையாக)", "சிவப்பாக", "கருப்பாக"], c: 1 },
+            { bClass: "border-science", q: "144. அமிலமும் காரமும் வேதிவினை புரிந்து எதனை உருவாக்கும்?", a: ["உப்பு மற்றும் நீர்", "ஹைட்ரஜன்", "ஆக்சிஜன்", "இரும்பு"], c: 0 },
+            { bClass: "border-science", q: "145. வேதி மாற்றத்திற்கு (Chemical Change) ஒரு மிகச்சிறந்த உதாரணம்?", a: ["பனிக்கட்டி உருகுதல்", "காகிதம் எரிதல்", "நீர் ஆவியாதல்", "சர்க்கரை கரைதல்"], c: 1 },
+            { bClass: "border-science", q: "146. அமீபாவின் இடப்பெயர்ச்சி உறுப்பு எது?", a: ["சிலியா", "கசையிழை", "போலிப்பாதங்கள்", "கால்கள்"], c: 2 },
+            { bClass: "border-science", q: "147. பெனிசிலினைக் கண்டுபிடித்தவர் யார்?", a: ["அலெக்சாண்டர் பிளமிங்", "லூயி பாஸ்டர்", "எட்வர்ட் ஜென்னர்", "ராபர்ட் ஹூக்"], c: 0 },
+            { bClass: "border-science", q: "148. தாவரங்களில் மகரந்தச் சேர்க்கைக்கு உதவும் காரணிகள் எவை?", a: ["காற்று மற்றும் நீர்", "பூச்சிகள்", "விலங்குகள்", "இவை அனைத்தும்"], c: 3 },
+            { bClass: "border-science", q: "149. பிபனோசி எண்கள் இயற்கையில் எங்கு அதிகம் காணப்படுகின்றன?", a: ["சூரியகாந்திப் பூ", "தேனீக்கள்", "முயல் குட்டிகள்", "இவை அனைத்தும்"], c: 3 },
+            { bClass: "border-science", q: "150. எதிர்கால எரிபொருளாக (Future Fuel) கருதப்படுவது எது?", a: ["நிலக்கரி", "பெட்ரோல்", "ஹைட்ரஜன்", "மரம்"], c: 2 }
+        ];
+
+        let score = 0;
+        const totalQuestions = quizData.length;
+        const answeredQ = new Set();
+        const quizContainer = document.getElementById('quiz-container');
+        const scoreFloat = document.getElementById('score-float');
+
+        function renderQuiz() {
+            quizContainer.innerHTML = '';
+            quizData.forEach((item, index) => {
+                if (item.section) {
+                    const h = document.createElement('h2');
+                    h.className = `section-header ${item.sClass}`;
+                    h.innerText = item.section;
+                    quizContainer.appendChild(h);
+                }
+
+                const card = document.createElement('div');
+                card.className = `question-card ${item.bClass}`;
+                card.id = `q-${index}`;
+
+                const qText = document.createElement('span');
+                qText.className = "question-text";
+                qText.innerText = item.q;
+                card.appendChild(qText);
+
+                const optList = document.createElement('div');
+                item.a.forEach((opt, i) => {
+                    const btn = document.createElement('button');
+                    btn.className = "option-btn";
+                    
+                    let prefix = "";
+                    if (index >= 60 && index < 90) { 
+                        prefix = String.fromCharCode(65 + i) + ") ";
+                    } else {
+                        prefix = ["அ) ", "ஆ) ", "இ) ", "ஈ) "][i];
+                    }
+                    
+                    btn.innerText = prefix + opt;
+                    btn.onclick = () => checkAnswer(index, i, btn);
+                    optList.appendChild(btn);
+                });
+                card.appendChild(optList);
+
+                if (index >= 90 && index < 120) {
+                    const expBtn = document.createElement('button');
+                    expBtn.className = "exp-btn";
+                    expBtn.innerHTML = "🔍 விளக்கம் (Check Explanation)";
+                    expBtn.onclick = () => toggleExp(index);
+                    card.appendChild(expBtn);
+
+                    const expBox = document.createElement('div');
+                    expBox.id = `exp-${index}`;
+                    expBox.className = "exp-content";
+                    expBox.innerText = item.exp || "விளக்கம் விரைவில் சேர்க்கப்படும்.";
+                    card.appendChild(expBox);
+                }
+
+                quizContainer.appendChild(card);
+            });
+        }
+
+        function checkAnswer(qIdx, selectedIdx, btn) {
+            if (answeredQ.has(qIdx)) return;
+            
+            answeredQ.add(qIdx);
+            const correctIdx = quizData[qIdx].c;
+            const card = document.getElementById(`q-${qIdx}`);
+            const buttons = card.querySelectorAll('.option-btn');
+
+            if (selectedIdx === correctIdx) {
+                btn.classList.add('correct');
+                score++;
+            } else {
+                btn.classList.add('wrong');
+                buttons[correctIdx].classList.add('correct');
+            }
+
+            buttons.forEach(b => b.classList.add('answered'));
+            scoreFloat.innerText = `மதிப்பெண்: ${score} / ${totalQuestions}`;
+        }
+
+        function toggleExp(idx) {
+            const expDiv = document.getElementById(`exp-${idx}`);
+            expDiv.style.display = (expDiv.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</body>
+</html>
