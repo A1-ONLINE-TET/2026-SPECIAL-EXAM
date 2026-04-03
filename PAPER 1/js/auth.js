@@ -2,9 +2,13 @@
 // No database lookups needed for deterministic login
 
 const CHARSET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+const STORAGE_KEY = 'A1_COACHING_PAPER_1_SESSION_FINAL_2026';
 
 // Deterministic hash: SHA-256 (Identical to keygen.html)
 async function generateDeterministicKey(phone) {
+    if (!window.crypto || !window.crypto.subtle) {
+        throw new Error("SECURE_CONTEXT_REQUIRED");
+    }
     const encoder = new TextEncoder();
     const data = encoder.encode('SECURE_A1_PRO_KEY_007_#99' + phone + '_priority');
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);
@@ -78,7 +82,7 @@ function initLoginPage() {
                 // Cleanup all old legacy sessions
                 ['a1_user_session', 'a1_user_session_v2', 'a1_user_session_v3'].forEach(k => localStorage.removeItem(k));
                 
-                localStorage.setItem('A1_COACHING_FINAL_2024_04_03', JSON.stringify(userData));
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
                 window.location.href = "index.html";
             } else {
                 pinError.innerText = "தவறான பாஸ்வேர்டு! (Invalid Password)";
@@ -88,7 +92,11 @@ function initLoginPage() {
             }
         } catch (error) {
             console.error("Login Error:", error);
-            pinError.innerText = "பிழை! மீண்டும் முயலவும்.";
+            if (error.message === "SECURE_CONTEXT_REQUIRED") {
+                pinError.innerText = "பாதுகாப்பு பிழை: localhost அல்லது HTTPS பயன்படுத்தவும்.";
+            } else {
+                pinError.innerText = "பிழை! மீண்டும் முயலவும்.";
+            }
             pinError.style.display = 'block';
             loginBtn.disabled = false;
             loginBtn.innerText = "உள்நுழைய (Login)";
@@ -114,7 +122,7 @@ export function checkAuth() {
             path.includes('login.html') || path.endsWith('/login') || 
             path.includes('keygen.html') || path.endsWith('/keygen');
 
-        const session = localStorage.getItem('A1_COACHING_FINAL_2024_04_03');
+        const session = localStorage.getItem(STORAGE_KEY);
         const user = session ? JSON.parse(session) : null;
         
         const isProtected = !isPublicPage;
@@ -139,7 +147,7 @@ export function checkAuth() {
             });
         }
 
-        // Ensure page is visible (after potential hidden state from previous logic)
+        // Ensure page is visible
         document.documentElement.style.visibility = 'visible';
         return user;
     } catch (e) {
@@ -150,15 +158,18 @@ export function checkAuth() {
 }
 
 export function waitForAuth() {
-    const session = localStorage.getItem('a1_user_session_v2');
+    const session = localStorage.getItem(STORAGE_KEY);
     const user = session ? JSON.parse(session) : null;
     return Promise.resolve(user);
 }
 
-window.logout = () => {
-    localStorage.removeItem('A1_COACHING_FINAL_2024_04_03');
+export function logout() {
+    localStorage.removeItem(STORAGE_KEY);
     window.location.href = "login.html"; // Redirect to login after logout
-};
+}
+
+// Global exposure for legacy scripts
+window.logout = logout;
 
 // Auto-initialize when script loads
 if (document.readyState === 'loading') {
@@ -170,3 +181,4 @@ if (document.readyState === 'loading') {
     checkAuth();
     initLoginPage();
 }
+

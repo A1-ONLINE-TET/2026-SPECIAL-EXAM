@@ -323,64 +323,67 @@
 
 
     <script type="module">
-        import { checkAuth, waitForAuth } from './js/auth.js';
+        (async () => {
+            const v = new Date().getTime();
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
 
-        // Synchronously set button state to avoid flicker
-        const _session = localStorage.getItem('A1_COACHING_FINAL_2024_04_03');
-        const _user = _session ? JSON.parse(_session) : null;
-        const authBtn = document.getElementById('authBtn');
-        if (authBtn) authBtn.textContent = _user ? 'Logout' : 'Login';
+            // Synchronously set button state to avoid flicker
+            const _session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
+            const _user = _session ? JSON.parse(_session) : null;
+            const authBtn = document.getElementById('authBtn');
+            if (authBtn) authBtn.textContent = _user ? 'Logout' : 'Login';
 
-        // Check auth and update UI
-        checkAuth();
+            // Check auth and update UI
+            checkAuth();
 
-        let currentUser = _user;
-        let authResolved = true;
+            let currentUser = _user;
+            let authResolved = true;
 
-        waitForAuth().then((user) => {
-            currentUser = user;
-            authResolved = true;
-            if (authBtn) authBtn.textContent = user ? 'Logout' : 'Login';
-        });
+            waitForAuth().then((user) => {
+                currentUser = user;
+                authResolved = true;
+                if (authBtn) authBtn.textContent = user ? 'Logout' : 'Login';
+            });
 
-        document.addEventListener('click', async (e) => {
-            const link = e.target.closest('a');
-            // If it's a link and not the login/logout button
-            if (link && !link.closest('.nav-actions') && link.id !== 'authBtn') {
-                // Ignore contact links (WhatsApp, Call, etc.) from login restriction
-                const isContactLink = link.href.startsWith('tel:') || link.href.includes('wa.me') || link.target === '_blank';
-                if (isContactLink) {
-                    return; // Let default browser behavior execute
-                }
+            document.addEventListener('click', async (e) => {
+                const link = e.target.closest('a');
+                // If it's a link and not the login/logout button
+                if (link && !link.closest('.nav-actions') && link.id !== 'authBtn') {
+                    // Ignore contact links (WhatsApp, Call, etc.) from login restriction
+                    const isContactLink = link.href.startsWith('tel:') || link.href.includes('wa.me') || link.target === '_blank';
+                    if (isContactLink) {
+                        return; // Let default browser behavior execute
+                    }
 
-                e.preventDefault(); // Stop default navigation
-                
-                // Wait for auth to resolve if it hasn't yet
-                if (!authResolved) {
-                    await waitForAuth();
-                }
+                    e.preventDefault(); // Stop default navigation
+                    
+                    // Wait for auth to resolve if it hasn't yet
+                    if (!authResolved) {
+                        await waitForAuth();
+                    }
 
-                // If user is not logged in, they must login to access the menu
-                if (!currentUser) {
-                    alert("பாடங்களை அணுக லாகின் (Login) செய்ய வேண்டும்!");
-                    window.location.href = 'login.html';
-                } else {
-                    // If logged in, proceed to the requested menu
-                    window.location.href = link.href;
-                }
-            }
-        });
-
-        const authBtnEl = document.getElementById('authBtn');
-        if (authBtnEl) {
-            authBtnEl.addEventListener('click', () => {
-                if (currentUser) {
-                    if (window.logout) window.logout();
-                } else {
-                    window.location.href = 'login.html';
+                    // If user is not logged in, they must login to access the menu
+                    if (!currentUser) {
+                        alert("பாடங்களை அணுக லாகின் (Login) செய்ய வேண்டும்!");
+                        window.location.href = 'login.html';
+                    } else {
+                        // If logged in, proceed to the requested menu
+                        window.location.href = link.href;
+                    }
                 }
             });
-        }
+
+            const authBtnEl = document.getElementById('authBtn');
+            if (authBtnEl) {
+                authBtnEl.addEventListener('click', () => {
+                    if (currentUser) {
+                        if (window.logout) window.logout();
+                    } else {
+                        window.location.href = 'login.html';
+                    }
+                });
+            }
+        })();
     </script>
 </body>
 </html>

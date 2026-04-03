@@ -413,227 +413,233 @@
     </div>
 
     <script type="module">
-        import { checkAuth, waitForAuth } from './js/auth.js';
-        const v = new Date().getTime();
-        const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
+        (async () => {
+            const v = new Date().getTime();
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+            const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
 
-        checkAuth();
+            checkAuth();
 
-        const params = new URLSearchParams(window.location.search);
-        const subject = params.get('subject');
-        const className = params.get('class');
-        const lessonId = params.get('lesson');
+            const params = new URLSearchParams(window.location.search);
+            const subject = params.get('subject');
+            const className = params.get('class');
+            const lessonId = params.get('lesson');
 
-        const exitUrl = `subject.html?id=${subject}&class=${className}`;
-        document.getElementById('exitQuizSticky').href = exitUrl;
-        document.getElementById('backHome').href = exitUrl;
+            const exitUrl = `subject.html?id=${subject}&class=${className}`;
+            const exitBtn = document.getElementById('exitQuizSticky');
+            if (exitBtn) exitBtn.href = exitUrl;
+            const backHome = document.getElementById('backHome');
+            if (backHome) backHome.href = exitUrl;
 
-        let currentIdx = 0;
-        let questions = [];
-        let answers = {};
-        let resultsRevealed = false;
+            let currentIdx = 0;
+            let questions = [];
+            let answers = {};
+            let resultsRevealed = false;
 
-        window.closeResults = () => {
-            if (window.history.state && window.history.state.results) {
-                window.history.back();
-            } else {
-                document.getElementById('overlay').style.display = 'none';
-                document.getElementById('resultView').style.display = 'none';
-            }
-        };
+            window.closeResults = () => {
+                if (window.history.state && window.history.state.results) {
+                    window.history.back();
+                } else {
+                    document.getElementById('overlay').style.display = 'none';
+                    document.getElementById('resultView').style.display = 'none';
+                }
+            };
 
-        window.addEventListener('popstate', (e) => {
-            if (!e.state || !e.state.results) {
-                document.getElementById('overlay').style.display = 'none';
-                document.getElementById('resultView').style.display = 'none';
-            }
-        });
-
-        window.toggleLang = (lang, btn) => {
-            currentLanguage = lang;
-            localStorage.setItem('appLanguage', lang);
-            updateLangUI();
-        };
-
-        function updateLangUI() {
-            document.body.classList.remove('lang-en', 'lang-tm');
-            if (currentLanguage !== 'both') {
-                document.body.classList.add('lang-' + currentLanguage);
-            }
-            
-            document.querySelectorAll('.lang-btn').forEach(b => {
-                b.classList.remove('active');
-                if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
-                    b.classList.add('active');
-                } else if (currentLanguage === 'both' && b.innerText.toLowerCase() === 'both') {
-                     b.classList.add('active');
+            window.addEventListener('popstate', (e) => {
+                if (!e.state || !e.state.results) {
+                    document.getElementById('overlay').style.display = 'none';
+                    document.getElementById('resultView').style.display = 'none';
                 }
             });
-        }
 
-        const checkEnglishSubject = () => {
-            const toggle = document.getElementById('inlineLangToggle');
-            if (subject && subject.toLowerCase().includes('english')) {
-                toggle.style.display = 'flex';
-            } else {
-                toggle.style.display = 'none';
-                currentLanguage = 'both';
+            window.toggleLang = (lang, btn) => {
+                currentLanguage = lang;
+                localStorage.setItem('appLanguage', lang);
                 updateLangUI();
-            }
-        };
+            };
 
-        let currentLanguage = localStorage.getItem('appLanguage') || 'both';
-        updateLangUI();
-
-        function formatText(text) {
-            if (!text) return "";
-            let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
-            
-            // Support '||' separator (New Standard)
-            if (html.includes('||')) {
-                const parts = html.split('||');
-                return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
-            }
-            
-            // Support ' / ' or Parentheses (Old Fallback)
-            if (html.includes(" / ")) {
-                const parts = html.split(" / ");
-                return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
-            }
-
-            const tamilRegex = /[\u0b80-\u0bff]+/;
-            if (tamilRegex.test(html) && /[a-zA-Z]/.test(html)) {
-                if (html.includes(" (") && html.includes(")")) {
-                    const start = html.indexOf(" (");
-                    const end = html.lastIndexOf(")");
-                    return `<span class="en-text">${html.substring(0, start).trim()}</span><span class="tm-text"> ${html.substring(start + 1, end).trim()}</span>`;
+            function updateLangUI() {
+                document.body.classList.remove('lang-en', 'lang-tm');
+                if (currentLanguage !== 'both') {
+                    document.body.classList.add('lang-' + currentLanguage);
                 }
-            }
-            return html;
-        }
-
-        async function initQuiz() {
-            const result = await getLocalLessonData(subject, className, lessonId);
-            if (!result || !result.data) return;
-            const data = result.data;
-
-            // Extract questions: check quiz.questions (Standard), then quiz array (legacy), then questions array (backup)
-            questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
-            
-            if (questions.length === 0) {
-                document.getElementById('quizLoader').innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
-                return;
-            }
-
-            document.getElementById('lessonTitle').innerHTML = formatText(data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test'));
-            document.getElementById('totalQNum').innerText = questions.length;
-            
-            renderAllQuestions();
-            
-            document.getElementById('quizLoader').style.display = 'none';
-            document.getElementById('quizApp').style.display = 'block';
-        }
-
-        function renderAllQuestions() {
-            const container = document.getElementById('questionContainer');
-            container.innerHTML = questions.map((q, idx) => {
-                const questionText = q.question || q.q;
-                const explanationText = q.ex || (q.explanation || '');
-                const isSelected = (oIdx) => answers[idx] === oIdx;
                 
-                return `
-                <div id="q-card-${idx}" class="question-card animate-fade">
-                    <div class="question-text">
-                        <span style="opacity: 0.5; font-size: 0.8rem; margin-right: 5px;">${idx + 1}.</span> 
-                        ${formatText(questionText)}
-                    </div>
-                    <div class="options-grid" id="options-${idx}">
-                        ${q.options.map((opt, oIdx) => `
+                document.querySelectorAll('.lang-btn').forEach(b => {
+                    b.classList.remove('active');
+                    if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
+                        b.classList.add('active');
+                    } else if (currentLanguage === 'both' && b.innerText.toLowerCase() === 'both') {
+                         b.classList.add('active');
+                    }
+                });
+            }
+
+            const checkEnglishSubject = () => {
+                const toggle = document.getElementById('inlineLangToggle');
+                if (subject && subject.toLowerCase().includes('english')) {
+                    toggle.style.display = 'flex';
+                } else {
+                    if (toggle) toggle.style.display = 'none';
+                    currentLanguage = 'both';
+                    updateLangUI();
+                }
+            };
+
+            let currentLanguage = localStorage.getItem('appLanguage') || 'both';
+            updateLangUI();
+
+            function formatText(text) {
+                if (!text) return "";
+                let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
+                
+                // Support '||' separator (New Standard)
+                if (html.includes('||')) {
+                    const parts = html.split('||');
+                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
+                }
+                
+                // Support ' / ' or Parentheses (Old Fallback)
+                if (html.includes(" / ")) {
+                    const parts = html.split(" / ");
+                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
+                }
+
+                const tamilRegex = /[\u0b80-\u0bff]+/;
+                if (tamilRegex.test(html) && /[a-zA-Z]/.test(html)) {
+                    if (html.includes(" (") && html.includes(")")) {
+                        const start = html.indexOf(" (");
+                        const end = html.lastIndexOf(")");
+                        return `<span class="en-text">${html.substring(0, start).trim()}</span><span class="tm-text"> ${html.substring(start + 1, end).trim()}</span>`;
+                    }
+                }
+                return html;
+            }
+
+            async function initQuiz() {
+                const result = await getLocalLessonData(subject, className, lessonId);
+                if (!result || !result.data) return;
+                const data = result.data;
+
+                // Extract questions
+                questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                
+                if (questions.length === 0) {
+                    const loader = document.getElementById('quizLoader');
+                    if (loader) loader.innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
+                    return;
+                }
+
+                const titleEl = document.getElementById('lessonTitle');
+                if (titleEl) titleEl.innerHTML = formatText(data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test'));
+                const qNumEl = document.getElementById('totalQNum');
+                if (qNumEl) qNumEl.innerText = questions.length;
+                
+                renderAllQuestions();
+                
+                const loader = document.getElementById('quizLoader');
+                if (loader) loader.style.display = 'none';
+                const app = document.getElementById('quizApp');
+                if (app) app.style.display = 'block';
+            }
+
+            function renderAllQuestions() {
+                const container = document.getElementById('questionContainer');
+                if (!container) return;
+                container.innerHTML = questions.map((q, idx) => {
+                    const questionText = q.question || q.q;
+                    const explanationText = q.ex || (q.explanation || '');
+                    const isSelected = (oIdx) => answers[idx] === oIdx;
+                    
+                    return `
+                    <div id="q-card-${idx}" class="question-card animate-fade">
+                        <div class="question-text">
+                            <span style="opacity: 0.5; font-size: 0.8rem; margin-right: 5px;">${idx + 1}.</span> 
+                            ${formatText(questionText)}
+                        </div>
+                        <div class="options-grid" id="options-${idx}">
+                            ${q.options.map((opt, oIdx) => `
                             <div class="option-item ${isSelected(oIdx) ? 'selected' : ''}" onclick="handleSelect(${idx}, ${oIdx}, this)">
                                 <span>${formatText(opt)}</span>
                             </div>
-                        `).join('')}
+                            `).join('')}
+                        </div>
+                        <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
+                            <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
+                            ${formatText(explanationText)}
+                        </div>
                     </div>
-                    <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
-                        <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
-                        ${formatText(explanationText)}
-                    </div>
-                </div>
-                `;
-            }).join('');
-            
-            if (window.MathJax) {
-                window.MathJax.typesetPromise();
-            }
-        }
-
-        function revealAllResults() {
-            questions.forEach((q, idx) => {
-                const correctIdx = q.answer !== undefined ? q.answer : q.a;
-                const userIdx = answers[idx];
-                const grid = document.getElementById(`options-${idx}`);
-                const exBox = document.getElementById(`ex-box-${idx}`);
+                    `;
+                }).join('');
                 
-                if(!grid) return;
-                const items = grid.querySelectorAll('.option-item');
+                if (window.MathJax) {
+                    window.MathJax.typesetPromise();
+                }
+            }
 
-                // Mark options
-                if (userIdx !== undefined) {
-                    if (userIdx === correctIdx) {
-                        items[userIdx].classList.add('correct');
+            window.handleSelect = (qIdx, oIdx, el) => {
+                if (resultsRevealed) return;
+                const grid = document.getElementById(`options-${qIdx}`);
+                if (!grid) return;
+                grid.querySelectorAll('.option-item').forEach(i => i.classList.remove('selected'));
+                el.classList.add('selected');
+                answers[qIdx] = oIdx;
+            };
+
+            const submitBtn = document.getElementById('finalSubmitBtn');
+            if (submitBtn) {
+                submitBtn.onclick = () => {
+                    let score = 0;
+                    questions.forEach((q, idx) => {
+                        const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                        const userIdx = answers[idx];
+                        if (userIdx !== undefined && userIdx === correctIdx) {
+                            score++;
+                        }
+                    });
+
+                    resultsRevealed = true;
+                    revealAllResults();
+
+                    window.history.pushState({ results: true }, '', '');
+                    document.getElementById('overlay').style.display = 'block';
+                    document.getElementById('resultView').style.display = 'block';
+                    document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
+                    
+                    const pct = (score / questions.length) * 100;
+                    let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+                    document.getElementById('resultMsg').innerText = msg;
+
+                    window.scrollTo(0, 0);
+                };
+            }
+
+            function revealAllResults() {
+                questions.forEach((q, idx) => {
+                    const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                    const userIdx = answers[idx];
+                    const grid = document.getElementById(`options-${idx}`);
+                    const exBox = document.getElementById(`ex-box-${idx}`);
+                    if(!grid) return;
+                    const items = grid.querySelectorAll('.option-item');
+                    if (userIdx !== undefined) {
+                        if (userIdx === correctIdx) items[userIdx].classList.add('correct');
+                        else {
+                            items[userIdx].classList.add('wrong');
+                            items[correctIdx].classList.add('correct');
+                        }
                     } else {
-                        items[userIdx].classList.add('wrong');
                         items[correctIdx].classList.add('correct');
                     }
-                } else {
-                    items[correctIdx].classList.add('correct');
-                }
+                    if (exBox) exBox.style.display = 'block';
+                });
+            }
 
-                // Show explanation
-                if (exBox) exBox.style.display = 'block';
+            waitForAuth().then(user => {
+                if (!user) { window.location.href = 'login.html'; return; }
+                checkEnglishSubject();
+                initQuiz();
             });
-        }
-
-        window.handleSelect = (qIdx, oIdx, el) => {
-            if (resultsRevealed) return; // Prevent changing after submission
-            
-            const grid = document.getElementById(`options-${qIdx}`);
-            grid.querySelectorAll('.option-item').forEach(i => i.classList.remove('selected'));
-            el.classList.add('selected');
-            answers[qIdx] = oIdx;
-        };
-
-        document.getElementById('finalSubmitBtn').onclick = () => {
-            let score = 0;
-            questions.forEach((q, idx) => {
-                const correctIdx = q.answer !== undefined ? q.answer : q.a;
-                const userIdx = answers[idx];
-                if (userIdx !== undefined && userIdx === correctIdx) {
-                    score++;
-                }
-            });
-
-            resultsRevealed = true;
-            revealAllResults();
-
-            window.history.pushState({ results: true }, '', '');
-            document.getElementById('overlay').style.display = 'block';
-            document.getElementById('resultView').style.display = 'block';
-            document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
-            
-            const pct = (score / questions.length) * 100;
-            let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
-            document.getElementById('resultMsg').innerText = msg;
-
-            // Scroll to top to see result if needed, but the view is fixed so it's fine
-            window.scrollTo(0, 0);
-        };
-
-        waitForAuth().then(user => {
-            if (!user) { window.location.href = 'login.html'; return; }
-            checkEnglishSubject();
-            initQuiz();
-        });
+        })();
     </script>
 </body>
 </html>
