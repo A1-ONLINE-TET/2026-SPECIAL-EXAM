@@ -11,6 +11,11 @@ export const syllabusData = {
                 "title": "தமிழின் இனிமை *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l1"
+              },
+              {
+                "title": "என்ன சத்தம் (மரபுச் சொற்கள்) *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l4"
               }
             ]
           },

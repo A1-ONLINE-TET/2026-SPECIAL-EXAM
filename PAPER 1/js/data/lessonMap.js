@@ -30,6 +30,16 @@ export const lessonMap = {
       "filename": "tam_5_t1_l3",
       "grade": "5"
     },
+    "என்ன சத்தம் (மரபுச் சொற்கள்) *": {
+      "local": true,
+      "filename": "tam_5_t1_l4",
+      "grade": "5"
+    },
+    "tam_5_t1_l4": {
+      "local": true,
+      "filename": "tam_5_t1_l4",
+      "grade": "5"
+    },
     "இன்பத்தமிழ் *": {
       "local": true,
       "filename": "tam_6_t1_l1",
