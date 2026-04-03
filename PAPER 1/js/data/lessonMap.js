@@ -1,6 +1,6 @@
 export const lessonMap = {
   "tamil": {
-    "தமிழின் இனிமை (கவிதை) *": {
+    "தமிழின் இனிமை *": {
       "local": true,
       "filename": "tam_5_t1_l1",
       "grade": "5"
