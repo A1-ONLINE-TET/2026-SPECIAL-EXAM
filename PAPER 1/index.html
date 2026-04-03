@@ -192,6 +192,32 @@
             }
         }
 
+        .subject-card.disabled {
+            filter: grayscale(1);
+            opacity: 0.5;
+            cursor: not-allowed;
+            pointer-events: none;
+            position: relative;
+            border-bottom-color: #94a3b8 !important; /* Neutral gray border */
+        }
+
+        .subject-card.disabled::before {
+            content: "🔒";
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1rem;
+            opacity: 1;
+        }
+
+        .subject-card.disabled h3::after {
+            content: " (கட்டணம் தேவை)";
+            display: block;
+            font-size: 0.75rem;
+            color: #64748b;
+            margin-top: 0.5rem;
+        }
+
     </style>
 </head>
 <body>
@@ -253,23 +279,23 @@
         <!-- ROW 2: TET Paper II -->
         <h2 class="section-header">📑 TET Paper II (வகுப்பு 6 - 8)</h2>
         <div class="subject-row">
-            <a href="subject.html?id=tamil" class="subject-card tamil">
+            <a href="subject.html?id=tamil" class="subject-card tamil disabled">
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </a>
-            <a href="subject.html?id=english" class="subject-card english">
+            <a href="subject.html?id=english" class="subject-card english disabled">
                 <div class="subject-icon">📖</div>
                 <h3>English</h3>
             </a>
-            <a href="subject.html?id=maths" class="subject-card maths">
+            <a href="subject.html?id=maths" class="subject-card maths disabled">
                 <div class="subject-icon">📐</div>
                 <h3>கணிதம்</h3>
             </a>
-            <a href="subject.html?id=science" class="subject-card science">
+            <a href="subject.html?id=science" class="subject-card science disabled">
                 <div class="subject-icon">🔬</div>
                 <h3>அறிவியல்</h3>
             </a>
-            <a href="subject.html?id=social" class="subject-card social">
+            <a href="subject.html?id=social" class="subject-card social disabled">
                 <div class="subject-icon">🌍</div>
                 <h3>சமூக அறிவியல்</h3>
             </a>
