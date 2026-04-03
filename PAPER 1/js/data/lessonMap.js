@@ -20,6 +20,16 @@ export const lessonMap = {
       "filename": "tam_5_t1_l2",
       "grade": "5"
     },
+    "கவிதைப் பட்டிமன்றம் (அறிவா? பண்பா?) *": {
+      "local": true,
+      "filename": "tam_5_t1_l3",
+      "grade": "5"
+    },
+    "tam_5_t1_l3": {
+      "local": true,
+      "filename": "tam_5_t1_l3",
+      "grade": "5"
+    },
     "இன்பத்தமிழ் *": {
       "local": true,
       "filename": "tam_6_t1_l1",

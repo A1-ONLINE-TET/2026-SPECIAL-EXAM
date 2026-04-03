@@ -21,6 +21,11 @@ export const syllabusData = {
                 "title": "வறுமையிலும் நேர்மை *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l2"
+              },
+              {
+                "title": "கவிதைப் பட்டிமன்றம் *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l3"
               }
             ]
           }
