@@ -50,6 +50,16 @@ export const lessonMap = {
       "filename": "tam_5_t1_l5",
       "grade": "5"
     },
+    "கல்விச்செல்வமும் பொருட்செல்வமும் *": {
+      "local": true,
+      "filename": "tam_5_t1_l6",
+      "grade": "5"
+    },
+    "tam_5_t1_l6": {
+      "local": true,
+      "filename": "tam_5_t1_l6",
+      "grade": "5"
+    },
     "இன்பத்தமிழ் *": {
       "local": true,
       "filename": "tam_6_t1_l1",

@@ -36,6 +36,11 @@ export const syllabusData = {
                 "title": "மூதுரை *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l5"
+              },
+              {
+                "title": "கல்விச்செல்வமும் பொருட்செல்வமும் *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l6"
               }
             ]
           }
