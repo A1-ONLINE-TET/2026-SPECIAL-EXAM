@@ -1,5 +1,22 @@
 export const syllabusData = {
   "tamil": {
+    "5": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "இயல் 1: தமிழின் இனிமை",
+            "topics": [
+              {
+                "title": "தமிழின் இனிமை *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,
