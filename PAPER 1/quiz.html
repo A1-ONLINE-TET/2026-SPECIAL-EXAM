@@ -424,8 +424,9 @@
             const subject = params.get('subject');
             const className = params.get('class');
             const lessonId = params.get('lesson');
+            const paper = params.get('paper');
 
-            const exitUrl = `subject.html?id=${subject}&class=${className}`;
+            const exitUrl = `subject.html?id=${subject}&class=${className}${paper ? `&paper=${paper}` : ''}`;
             const exitBtn = document.getElementById('exitQuizSticky');
             if (exitBtn) exitBtn.href = exitUrl;
             const backHome = document.getElementById('backHome');

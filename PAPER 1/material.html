@@ -278,6 +278,11 @@
                 const subject = params.get('subject') || 'default';
                 const className = params.get('class');
                 const lessonId = params.get('lesson');
+                const paper = params.get('paper');
+
+                const exitUrl = `subject.html?id=${subject}&class=${className}${paper ? `&paper=${paper}` : ''}`;
+                const backBtn = document.querySelector('.sticky-back .back-btn');
+                if (backBtn) backBtn.href = exitUrl;
 
                 applyTheme(subject);
 
