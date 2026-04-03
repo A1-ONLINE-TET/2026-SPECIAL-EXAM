@@ -302,12 +302,14 @@
                     }
 
                     const data = result.data;
+                    const meta = data.lesson_meta || data.meta || {};
+                    const title = meta.title || data.title || lessonId;
 
                     if (data) {
                         const sections = data.sections || (data.material && data.material.sections);
                         const summary = data.summary || (data.material && data.material.summary);
                         
-                        const fullHeader = `${currentTheme.header} - ${data.title || lessonId}`;
+                        const fullHeader = `${currentTheme.header} - ${title}`;
                         document.getElementById('lessonTitle').innerText = fullHeader;
                         
                         let html = '';

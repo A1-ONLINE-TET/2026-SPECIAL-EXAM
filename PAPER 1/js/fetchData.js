@@ -22,8 +22,8 @@ export function formatText(text) {
         return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep"> / </span><span class="tm-text">${parts[1].trim()}</span>`;
     }
 
-    // 4. Mixed text detection (English followed by Tamil)
-    if (hasTamil && hasEnglish && !html.includes('class=')) {
+    // 4. Mixed text detection (Simple English followed by Tamil) - ReDoS Safe check
+    if (html.length < 500 && hasTamil && hasEnglish && !html.includes('<')) {
         const splitMatch = html.match(/^([a-zA-Z0-9\s.,\-'"]+)([\u0B80-\u0BFF].*)$/u);
         if (splitMatch) {
             return `<span class="en-text">${splitMatch[1].trim()}</span> <span class="tm-text">${splitMatch[2].trim()}</span>`;
