@@ -179,6 +179,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_6_t3_l15",
       "grade": "6"
+    },
+    "பெயர்ச்சொல் மற்றும் வினைச்சொல் *": {
+      "local": true,
+      "filename": "tam_gram_01",
+      "grade": "grammar"
+    },
+    "tam_gram_01": {
+      "local": true,
+      "filename": "tam_gram_01",
+      "grade": "grammar"
     }
   },
   "english": {

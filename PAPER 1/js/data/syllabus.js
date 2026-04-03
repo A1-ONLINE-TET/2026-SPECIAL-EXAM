@@ -16,6 +16,11 @@ export const syllabusData = {
                 "title": "என்ன சத்தம் (மரபுச் சொற்கள்) *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l4"
+              },
+              {
+                "title": "பெயர்ச்சொல் மற்றும் வினைச்சொல் *",
+                "isUpdated": true,
+                "code": "tam_gram_01"
               }
             ]
           },
