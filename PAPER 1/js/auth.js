@@ -67,7 +67,7 @@ function initLoginPage() {
     pinForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         const pinInput = document.getElementById('pinCode');
-        const enteredPin = pinInput.value.trim().toUpperCase(); // ADDED .trim()
+        const enteredPin = pinInput.value.trim(); // Removed .toUpperCase()
         const pinError = document.getElementById('pinError');
         
         // Final length check before processing
