@@ -63,6 +63,14 @@ function initLoginPage() {
         e.preventDefault();
         const enteredPin = document.getElementById('pinCode').value.toUpperCase();
         const pinError = document.getElementById('pinError');
+        
+        // Final length check before processing
+        if (enteredPin.length !== 6) {
+            pinError.style.display = 'block';
+            pinError.innerText = "பாஸ்வேர்டு 6 இலக்கங்களாக இருக்க வேண்டும்! (Requires 6 Characters)";
+            return;
+        }
+
         const loginBtn = document.getElementById('loginBtn');
         
         pinError.style.display = 'none';
