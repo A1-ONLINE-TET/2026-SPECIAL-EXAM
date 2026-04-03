@@ -31,6 +31,11 @@ export const syllabusData = {
                 "title": "கவிதைப் பட்டிமன்றம் *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l3"
+              },
+              {
+                "title": "மூதுரை *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l5"
               }
             ]
           }
