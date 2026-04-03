@@ -10,9 +10,12 @@ async function generateDeterministicKey(phone) {
         throw new Error("SECURE_CONTEXT_REQUIRED");
     }
     const encoder = new TextEncoder();
-    const data = encoder.encode('SECURE_A1_PRO_KEY_007_#99' + phone + '_priority');
+    // CLEANING PHONE: Ensure only 10 digits are used, matches keygen exactly
+    const cleanPhone = phone.toString().replace(/\D/g, '').trim();
+    const salt = 'SECURE_A1_PRO_KEY_007_#99' + cleanPhone + '_priority';
+    const data = encoder.encode(salt);
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-    const hashArray  = new Uint8Array(hashBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
 
     let password = '';
     for (let i = 0; i < 6; i++) {
@@ -61,7 +64,8 @@ function initLoginPage() {
 
     pinForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        const enteredPin = document.getElementById('pinCode').value.toUpperCase();
+        const pinInput = document.getElementById('pinCode');
+        const enteredPin = pinInput.value.trim().toUpperCase(); // ADDED .trim()
         const pinError = document.getElementById('pinError');
         
         // Final length check before processing
@@ -72,13 +76,18 @@ function initLoginPage() {
         }
 
         const loginBtn = document.getElementById('loginBtn');
+        const loginText = document.getElementById('loginBtnText');
+        const loginLoader = document.getElementById('loginLoader');
         
         pinError.style.display = 'none';
         loginBtn.disabled = true;
-        loginBtn.innerText = "சரிபார்க்கப்படுகிறது... (Verifying)";
+        if (loginText) loginText.style.display = 'none';
+        if (loginLoader) loginLoader.style.display = 'block';
 
         try {
-            const correctKey = await generateDeterministicKey(currentPhoneNumber);
+            // Logic must exactly match keygen.html
+            const cleanPhone = currentPhoneNumber.toString().replace(/\D/g, '').trim();
+            const correctKey = await generateDeterministicKey(cleanPhone);
             
             if (enteredPin === correctKey) {
                 // Success - Deterministic Key Matches
