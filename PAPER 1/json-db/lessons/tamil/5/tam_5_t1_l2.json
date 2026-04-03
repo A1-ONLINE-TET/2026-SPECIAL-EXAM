@@ -1,0 +1,91 @@
+{
+  "lesson_meta": {
+    "title": "வறுமையிலும் நேர்மை *",
+    "grade": "5",
+    "term": "1",
+    "subject": "Tamil",
+    "code": "tam_5_t1_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "1. பாடத்தின் மையக் கருப்பொருள் (Core Theme)",
+        "content": "<div style='background: #f0fdf4; border-left: 5px solid #22c55e; padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 2rem;'><p style='font-weight: 700; color: #166534; font-size: 1.2rem; margin-bottom: 0.5rem;'>\"நேர்மை நன்மை தரும்\"</p><p style='line-height: 1.8; color: #1e293b;'>மனிதர்கள் வறுமையான நிலையிலும் தங்கள் பொறுமை, நேர்மை ஆகிய நற்பண்புகளை இழக்கக் கூடாது. அந்த நற்பண்புகளே அவர்களுக்கு இறுதியில் மாபெரும் வெற்றியைத் தேடித்தரும் என்பதே இக்கதையின் மையக்கருத்தாகும்.</p></div>"
+      },
+      {
+        "title": "2. பாடச்சுருக்கம் மற்றும் முக்கிய ஒரு மதிப்பெண் குறிப்புகள்",
+        "content": "<div style='background: #fafafa; border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 1rem; line-height: 1.8;'><ul style='padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.8rem; margin: 0;'><li style='color: #374151;'><b style='color: #1e3a8a;'>ஊரின் நிலை:</b> தொடர்ந்து சில ஆண்டுகளாக மழை பெய்யாததால் ஊரில் கடும் பஞ்சம் நிலவியது.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>மக்கள் நாடிய நபர்:</b> பசியால் வாடிய மக்கள், ஊரில் இருந்த நல்ல உள்ளம் படைத்த பணக்காரரிடம் உதவி கேட்டனர்.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>பணக்காரரின் உதவி:</b> குழந்தைகளுக்கு ஆளுக்கொரு <b>'கொழுக்கட்டை'</b> வழங்க ஏற்பாடு செய்தார்.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>சிறுமி இளவேனில்:</b> எவ்விதப் போட்டியும் இன்றி, அமைதியாகக் காத்திருந்து மீதமிருந்த மிகச்சிறிய கொழுக்கட்டையையே நாள்தோறும் மகிழ்ச்சியாக எடுத்துச் சென்றாள்.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>தங்கக் காசு கிடைத்த நாள்:</b> <b>ஐந்தாம் நாள்</b> கொழுக்கட்டைக்குள் ஒரு தங்கக் காசு கிடைத்தது.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>நேர்மையின் வெளிப்பாடு:</b> அந்தத் தங்கக் காசை ஆசைப்படாமல் பணக்காரரிடமே திருப்பிக் கொடுக்கச் சென்றாள்.</li><li style='color: #374151;'><b style='color: #1e3a8a;'>பணக்காரரின் பரிசு:</b> \"உன் நேர்மைக்கும் பொறுமைக்கும் நான் அளித்த பரிசே இந்தத் தங்கக்காசு\" என்று கூறி அவளையே வைத்துக்கொள்ளச் செய்தார்.</li></ul></div>"
+      },
+      {
+        "title": "3. மதிப்பீட்டுப் பகுதி வினாக்கள் (Book Back 1-Mark)",
+        "content": "<div style='background: #f8fafc; border-radius: 1rem; padding: 1.5rem;'><div style='margin-bottom: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>1. பஞ்சம் நிலவியதால் மக்கள் யாரிடம் உதவி கேட்டனர்?</p><p style='color: #059669; font-weight: 800;'>விடை: பணக்காரரிடம்.</p></div><div style='margin-bottom: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>2. பணக்காரர் குழந்தைகளுக்கு என்ன கொடுக்கச் சொன்னார்?</p><p style='color: #059669; font-weight: 800;'>விடை: கொழுக்கட்டை.</p></div><div style='margin-bottom: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>3. சிறுமி இளவேனில் எத்தகைய கொழுக்கட்டையை எடுத்துச் சென்றாள்?</p><p style='color: #059669; font-weight: 800;'>விடை: சிறிய கொழுக்கட்டையை.</p></div><div style='margin-bottom: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>4. கொழுக்கட்டைக்குள் சிறுமிக்கு என்ன கிடைத்தது?</p><p style='color: #059669; font-weight: 800;'>விடை: தங்கக் காசு.</p></div><div style='margin-bottom: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>5. சிறுமிக்குத் தங்கக் காசு எத்தனையாவது நாள் கிடைத்தது?</p><p style='color: #059669; font-weight: 800;'>விடை: ஐந்தாம் நாள்.</p></div><div style='padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 0.75rem;'><p style='font-weight: 700; color: #1e293b; margin-bottom: 0.3rem;'>6. இக்கதையின் மூலம் நீ அறியும் நீதி என்ன?</p><p style='color: #059669; font-weight: 800;'>விடை: நேர்மை நன்மை தரும்.</p></div></div>"
+      },
+      {
+        "title": "4. மேலும் அறிவோம் / உங்களுக்குத் தெரியுமா?",
+        "content": "<div style='margin-top: 1rem;'><h4 style='color: #1e3a8a;'>கதைமாந்தர்களின் பண்பு நலன்கள்:</h4><ul style='padding-left: 1.2rem; color: #334155; line-height: 1.8;'><li style='margin-bottom: 0.5rem;'><b>இளவேனில்:</b> நேர்மை, பொறுமை, அமைதி, பேராசையின்மை, உண்மை பேசுதல்.</li><li style='margin-bottom: 0.5rem;'><b>பணக்காரர்:</b> இரக்கம், இளகிய உள்ளம், மனிதநேயம், நற்பண்புகளை ஊக்குவிப்பவர்.</li></ul><h4 style='color: #1e3a8a; margin-top: 1.5rem;'>சொல்லும் பொருளும் (അருஞ்சொற்பொருள்):</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; background: #fafafa; padding: 1rem; border-radius: 0.5rem;'><p>● <b>பஞ்சம்</b> — வறட்சி / உணவுப் பற்றாக்குறை</p><p>● <b>வாடினர்</b> — துன்புற்றனர்</p><p>● <b>இளகிய உள்ளம்</b> — இரக்க குணம்</p><p>● <b>எஞ்சியிருந்த</b> — மீதமிருந்த</p><p>● <b>மாளிகை</b> — மிகப்பெரிய வீடு</p></div><h4 style='color: #1e3a8a; margin-top: 1.5rem;'>பிரித்து எழுதுக:</h4><div style='background: #fffbeb; padding: 1rem; border-radius: 0.5rem;'><p>● <b>அச்சிறுமி</b> = அந்த + சிறுமி</p><p>● <b>தங்கக்காசு</b> = தங்கம் + காசு</p></div></div>"
+      },
+      {
+        "title": "5. விடுபட்ட பகுதிகளின் இணைப்பு (Revision & Merged Points)",
+        "content": "<div style='background: #fdf4ff; border: 1px dashed #d946ef; padding: 1.5rem; border-radius: 1rem; border-left: 5px solid #d946ef;'><p style='color: #701a75; font-weight: 600; margin-bottom: 0.8rem;'>தேர்வர் கவனிக்க வேண்டிய நுண்ணிய குறிப்புகள்:</p><ul style='padding-left: 1.2rem; color: #4a044e;'><li style='margin-bottom: 0.5rem;'>பணக்காரர் கொழுக்கட்டையைத் தாமே நேரடியாக வழங்கவில்லை; வேலைக்காரர்கள் மூலம் வழங்கச் சொல்லி எல்லாவற்றையும் மாளிகையிலிருந்து கவனித்தார்.</li><li style='margin-bottom: 0.5rem;'>தங்கக் காசை நேராகப் பணக்காரரிடம் கொண்டு செல்லவில்லை; முதலில் தன் தாயிடம் காட்டிவிட்டே அவர் உத்தரவுப்படி சென்றாள்.</li></ul></div>"
+      },
+      {
+        "title": "6. முந்தைய வருட / மாதிரிப் போட்டித்தேர்வு வினாக்கள் (PYQs)",
+        "content": "<div style='background: #ff7e5f20; border: 2px solid #ff7e5f; padding: 1.5rem; border-radius: 1rem;'><p style='margin-bottom: 0.8rem;'>● <b>கேள்வி 1:</b> 'நேர்மை நன்மை தரும்' என்னும் நீதிக்கருத்தைக் கொண்ட 5-ஆம் வகுப்புத் துணைப்பாடம் எது? (விடை: <b>வறுமையிலும் நேர்மை</b>)</p><p style='margin-bottom: 0.8rem;'>● <b>கேள்வி 2:</b> \"மகளே, உன் நேர்மைக்கும் பொறுமைக்கும் நான் அளித்த பரிசே இந்தத் தங்கக்காசு\" - எனக் கூறியவர் யார்? (விடை: <b>பணக்காரர்</b>)</p><p style='margin-bottom: 0.8rem;'>● <b>கேள்வி 3:</b> கதையில் வரும் நேர்மையான சிறுமியின் பெயர் என்ன? (விடை: <b>இளவேனில்</b>)</p><p style='margin-bottom: 0.8rem;'>● <b>கேள்வி 4:</b> சிறுமி இளவேனில் எந்த நாளில் தன் கொழுக்கட்டையை இரண்டாகப் பிட்டாள்? (விடை: <b>ஐந்தாம் நாள்</b>)</p><p style='margin-bottom: 0.8rem;'>● <b>கேள்வி 5:</b> பஞ்சம் என்ற சொல்லின் பொருள் என்ன? (விடை: <b>வறட்சி / உணவு இன்மை</b>)</p></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "பஞ்சம் நிலவியதால் மக்கள் யாரிடம் உதவி கேட்டனர்?",
+        "options": ["மன்னரிடம்", "பணக்காரரிடம்", "அமைச்சரிடம்", "கடவுளிடம்"],
+        "answer": 1
+      },
+      {
+        "question": "பணக்காரர் குழந்தைகளுக்கு என்ன கொடுக்கச் சொன்னார்?",
+        "options": ["இனிப்பு", "பழம்", "கொழுக்கட்டை", "சோறு"],
+        "answer": 2
+      },
+      {
+        "question": "சிறுமி இளவேனில் எத்தகைய கொழுக்கட்டையை எடுத்துச் சென்றாள்?",
+        "options": ["பெரியது", "சிறியது", "நடுத்தரமானது", "இரண்டு கொழுக்கட்டைகள்"],
+        "answer": 1
+      },
+      {
+        "question": "கொழுக்கட்டைக்குள் சிறுமிக்கு என்ன கிடைத்தது?",
+        "options": ["வெள்ளிக்காசு", "தங்கக்காசு", "வைரம்", "முத்து"],
+        "answer": 1
+      },
+      {
+        "question": "சிறுமிக்குத் தங்கக் காசு எத்தனையாவது நாள் கிடைத்தது?",
+        "options": ["மூன்றாம் நாள்", "நான்காம் நாள்", "ஐந்தாம் நாள்", "ஆறாம் நாள்"],
+        "answer": 2
+      },
+      {
+        "question": "இக்கதையின் மூலம் நீ அறியும் நீதி என்ன?",
+        "options": ["உழைப்பே உயர்வு", "அறிவே சக்தி", "நேர்மை நன்மை தரும்", "உமையே துணை"],
+        "answer": 2
+      },
+      {
+        "question": "கதையில் வரும் நேர்மையான சிறுமியின் பெயர் என்ன?",
+        "options": ["தேனருவி", "மங்கையர்க்கரசி", "இளவேனில்", "மல்லிகா"],
+        "answer": 2
+      },
+      {
+        "question": "'பஞ்சம்' என்ற சொல்லின் பொருள் யாது?",
+        "options": ["மின்தடை", "வறட்சி", "வெள்ளம்", "செல்வம்"],
+        "answer": 1
+      },
+      {
+        "question": "'அச்சிறுமி' - பிரித்து எழுதுக?",
+        "options": ["அ + சிறுமி", "அச் + சிறுமி", "அந்த + சிறுமி", "அது + சிறுமி"],
+        "answer": 2
+      },
+      {
+        "question": "“உன் நேர்மைக்கும் பொறுமைக்கும் நான் அளித்த பரிசே இந்தத் தங்கக்காசு” - எனக் கூறியவர் யார்?",
+        "options": ["இளவேனில்", "தாய்", "பணக்காரர்", "ஊர் மக்கள்"],
+        "answer": 2
+      }
+    ]
+  }
+}

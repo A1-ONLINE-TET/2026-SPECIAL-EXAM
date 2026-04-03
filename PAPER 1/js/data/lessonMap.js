@@ -10,6 +10,16 @@ export const lessonMap = {
       "filename": "tam_5_t1_l1",
       "grade": "5"
     },
+    "வறுமையிலும் நேர்மை *": {
+      "local": true,
+      "filename": "tam_5_t1_l2",
+      "grade": "5"
+    },
+    "tam_5_t1_l2": {
+      "local": true,
+      "filename": "tam_5_t1_l2",
+      "grade": "5"
+    },
     "இன்பத்தமிழ் *": {
       "local": true,
       "filename": "tam_6_t1_l1",

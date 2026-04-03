@@ -13,6 +13,16 @@ export const syllabusData = {
                 "code": "tam_5_t1_l1"
               }
             ]
+          },
+          {
+            "title": "இயல் 2: கல்வி",
+            "topics": [
+              {
+                "title": "வறுமையிலும் நேர்மை *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l2"
+              }
+            ]
           }
         ]
       }
