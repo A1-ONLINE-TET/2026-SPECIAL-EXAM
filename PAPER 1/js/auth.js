@@ -6,20 +6,22 @@ const STORAGE_KEY = 'A1_COACHING_PAPER_1_SESSION_FINAL_2026';
 
 // Deterministic hash: SHA-256 (Identical to keygen.html)
 async function generateDeterministicKey(phone) {
-    if (!window.crypto || !window.crypto.subtle) {
+    if (!window.crypto || !crypto.subtle) {
         throw new Error("SECURE_CONTEXT_REQUIRED");
     }
     const encoder = new TextEncoder();
-    // CLEANING PHONE: Ensure only 10 digits are used, matches keygen exactly
     const cleanPhone = phone.toString().replace(/\D/g, '').trim();
-    const salt = 'SECURE_A1_PRO_KEY_007_#99' + cleanPhone + '_priority';
+    
+    // NEW LOGIC: Matching TET 1 Key Generator
+    const salt = 'tet1_salt_' + cleanPhone + '_keymaster';
     const data = encoder.encode(salt);
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashArray = new Uint8Array(hashBuffer);
 
     let password = '';
     for (let i = 0; i < 6; i++) {
-        password += CHARSET[hashArray[i] % CHARSET.length];
+        // NEW INDEXING: i * 3 + 1
+        password += CHARSET[hashArray[i * 3 + 1] % CHARSET.length];
     }
     return password;
 }
