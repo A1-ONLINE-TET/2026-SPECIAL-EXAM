@@ -356,6 +356,7 @@
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
                 await waitForAuth();
                 const { syllabusData } = await import(`./js/data/syllabus.js?v=${v}`);
+                const { extraSyllabusData } = await import(`./js/data/extraSyllabus.js?v=${v}`);
 
                 const params = new URLSearchParams(window.location.search);
                 const subject = params.get('id') || 'tamil';
@@ -366,7 +367,9 @@
                     'tamil': 'தமிழ் (Tamil)', 'english': 'English', 'maths': 'கணிதம் (Maths)',
                     'science': paper === '1' ? 'சூழ்நிலையியல் (EVS)' : 'அறிவியல் (Science)',
                     'social': paper === '1' ? 'சமூகவியல் (Social)' : 'சமூக அறிவியல் (Social)',
-                    'psychology': 'உளவியல் (Psychology)'
+                    'psychology': 'உளவியல் (Psychology)',
+                    'revision': 'திருப்புதல் தேர்வு (Revision)',
+                    'mocktest': 'மாதிரித்தேர்வு (Mock Exam)'
                 };
 
                 const titleEl = document.getElementById('subjectTitle');
@@ -376,8 +379,14 @@
 
                 let currentClass = null;
                 let allowedClasses = ['6', '7', '8'];
+                let useData = syllabusData;
 
                 if (subject === 'psychology') allowedClasses = ['6'];
+                else if (subject === 'revision' || subject === 'mocktest') {
+                    allowedClasses = ['all'];
+                    currentClass = 'all';
+                    useData = extraSyllabusData;
+                }
                 else if (paper === '1') {
                     if (['tamil', 'english', 'maths'].includes(subject)) allowedClasses = ['1', '2', '3', '4', '5'];
                     else allowedClasses = ['4', '5']; 
@@ -386,7 +395,7 @@
                 // RENDER FUNCTIONS
                 const renderLessons = () => {
                     if (!syllabusContainer) return;
-                    const data = syllabusData[subject]?.[currentClass];
+                    const data = useData[subject]?.[currentClass];
                     
                     if (!data || data.length === 0) {
                         syllabusContainer.innerHTML = `
@@ -401,7 +410,7 @@
                     let html = '';
                     let testCounter = 1;
                     data.forEach(term => {
-                        const tTitle = term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`;
+                        const tTitle = (currentClass === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
                         html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2><div class="topics-grid">`;
                         term.units.forEach(unit => {
                             unit.topics.forEach(topic => {
@@ -443,7 +452,7 @@
                 };
 
                 const setupTabs = () => {
-                    if (!classToggleEl || subject === 'psychology') {
+                    if (!classToggleEl || subject === 'psychology' || subject === 'revision' || subject === 'mocktest') {
                         if (classToggleWrap) classToggleWrap.style.display = 'none';
                         return;
                     }

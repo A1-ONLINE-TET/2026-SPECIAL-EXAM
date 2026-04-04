@@ -639,5 +639,19 @@ export const lessonMap = {
       "filename": "mat_6_t1_l9",
       "grade": "6"
     }
+  },
+  "revision": {
+    "rev_special_180": {
+      "local": true,
+      "filename": "rev_special_180",
+      "grade": "all"
+    }
+  },
+  "mocktest": {
+    "mock_test_1": {
+      "local": true,
+      "filename": "mock_test_1",
+      "grade": "all"
+    }
   }
 };
