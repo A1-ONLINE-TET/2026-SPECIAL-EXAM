@@ -29,8 +29,7 @@ export const extraSyllabusData = {
               {
                 "title": "மாதிரித்தேர்வு 1",
                 "isUpdated": true,
-                "code": "mock_test_1",
-                "isEmpty": true
+                "code": "mock_test_1"
               }
             ]
           }
