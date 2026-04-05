@@ -128,6 +128,74 @@
 
         @keyframes spin { to { transform: rotate(360deg); } }
 
+        /* Premium PYQ / Mock Test Styling */
+        .premium-qa-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s;
+            page-break-inside: avoid;
+        }
+        .premium-qa-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .premium-q-text {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1e3a8a; /* Blue */
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+        }
+        .premium-options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+        .premium-option {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            color: #334155;
+            display: flex;
+            align-items: flex-start;
+        }
+        .premium-opt-letter {
+            font-weight: 800;
+            color: #0ea5e9;
+            margin-right: 12px;
+            min-width: 24px;
+        }
+        .premium-answer-box {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981; /* Green */
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+            color: #065f46;
+        }
+        .premium-expl-box {
+            background: #fdf2f8;
+            border-left: 4px solid #f43f5e; /* Rose */
+            padding: 1rem;
+            border-radius: 6px;
+            color: #881337;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        .premium-expl-label {
+            font-weight: 800;
+            margin-bottom: 0.3rem;
+            color: #be123c;
+        }
+
         @media (max-width: 640px) {
             .header-bar h1 { font-size: 1.4rem; }
             .material-card { padding: 1.5rem; border-radius: 1rem; }
@@ -338,14 +406,72 @@
                                     </div>`;
                                 } else if (section.type === 'pyq') {
                                     const contentArray = Array.isArray(section.content) ? section.content : [];
-                                    contentHTML = `<div style="background:#f0fdf4; border:1px solid #dcfce7; padding:1.5rem; border-radius:1rem;">
-                                        ${contentArray.map(item => `
-                                            <div class="qa-item" style="background:#fff; border-color:#dcfce7;">
-                                                <div class="qa-q" style="color:#065f46;">${formatText(item.question)}</div>
-                                                <div style="font-weight:700; color:#1e293b;">விடை: ${formatText(item.answer)}</div>
-                                            </div>
-                                        `).join('')}
-                                    </div>`;
+                                    if (subject === 'mocktest') {
+                                        contentHTML = `<div style="background:transparent;">
+                                            ${contentArray.map(item => {
+                                                let qText = item.question || "";
+                                                let aText = item.answer || "";
+                                                
+                                                let mainQ = qText;
+                                                let optA = "", optB = "", optC = "", optD = "";
+                                                let qParts = qText.split(/\(A\)/i);
+                                                if (qParts.length > 1) {
+                                                    mainQ = qParts[0];
+                                                    let rest = qParts[1];
+                                                    let bParts = rest.split(/\(B\)/i);
+                                                    optA = bParts[0];
+                                                    if (bParts.length > 1) {
+                                                        let cParts = bParts[1].split(/\(C\)/i);
+                                                        optB = cParts[0];
+                                                        if (cParts.length > 1) {
+                                                            let dParts = cParts[1].split(/\(D\)/i);
+                                                            optC = dParts[0];
+                                                            if (dParts.length > 1) optD = dParts[1];
+                                                        }
+                                                    }
+                                                }
+                                                
+                                                let ansMain = aText;
+                                                let explMain = "";
+                                                let explParts = aText.split(/விளக்கம்:/i);
+                                                if(explParts.length > 1) {
+                                                    ansMain = explParts[0].trim();
+                                                    if (ansMain.endsWith(')')) ansMain = ansMain.slice(0, -1);
+                                                    explMain = explParts[1].trim();
+                                                }
+                                                
+                                                return `
+                                                    <div class="premium-qa-card">
+                                                        <div class="premium-q-text">${formatText(mainQ.trim())}</div>
+                                                        ${optA ? `
+                                                        <div class="premium-options-grid">
+                                                            <div class="premium-option"><span class="premium-opt-letter">(A)</span>${formatText(optA.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(B)</span>${formatText(optB.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(C)</span>${formatText(optC.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(D)</span>${formatText(optD.trim())}</div>
+                                                        </div>
+                                                        ` : ''}
+                                                        <div class="premium-answer-box">விடை: ${formatText(ansMain)}</div>
+                                                        ${explMain ? `
+                                                        <div class="premium-expl-box">
+                                                            <div class="premium-expl-label">விளக்கம்:</div>
+                                                            ${formatText(explMain)}
+                                                        </div>
+                                                        ` : ''}
+                                                    </div>
+                                                `;
+                                            }).join('')}
+                                        </div>`;
+                                    } else {
+                                        contentHTML = `<div style="background:#f0fdf4; border:1px solid #dcfce7; padding:1.5rem; border-radius:1rem;">
+                                            ${contentArray.map(item => `
+                                                <div class="qa-item" style="background:#fff; border-color:#dcfce7;">
+                                                    <div class="qa-q" style="color:#065f46;">${formatText(item.question)}</div>
+                                                    <div style="font-weight:700; color:#1e293b;">விடை: ${formatText(item.answer)}</div>
+                                                </div>
+                                            `).join('')}
+                                        </div>`;
+                                    }
                                 } else {
                                     if (typeof section.content === 'string') {
                                         contentHTML = `<div class="section-body">${formatText(section.content)}</div>`;
