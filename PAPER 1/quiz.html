@@ -510,7 +510,8 @@
                     if (html.includes(" (") && html.includes(")")) {
                         const start = html.indexOf(" (");
                         const end = html.lastIndexOf(")");
-                        return `<span class="en-text">${html.substring(0, start).trim()}</span><span class="tm-text"> ${html.substring(start + 1, end).trim()}</span>`;
+                        const rest = html.substring(end + 1);
+                        return `<span class="en-text">${html.substring(0, start).trim()}</span><span class="tm-text"> ${html.substring(start + 1, end).trim()}</span> ${rest}`;
                     }
                 }
                 return html;
