@@ -325,7 +325,7 @@
                     .section-body { font-size: 14pt; line-height: 1.8; color: #111; text-align: justify; }
                     
                     /* Premium Style Overrides for PDF */
-                    .premium-qa-card { margin-bottom: 20px; padding: 0 0 15px 0; border-bottom: 1px dashed #cbd5e1; page-break-inside: avoid; }
+                    .premium-qa-card { margin-bottom: 20px; padding: 0 0 15px 0; border-bottom: 1px dashed #cbd5e1; page-break-inside: auto; }
                     .premium-q-text, .qa-q { font-size: 14pt; font-weight: 700; color: #1e3a8a !important; margin-bottom: 15px; }
                     
                     .premium-options-grid { display: grid; grid-template-columns: 1fr; gap: 8px; margin-bottom: 15px; }
@@ -337,16 +337,14 @@
                     .premium-expl-box { background: #fdf2f8 !important; border-left: 5px solid #db2777 !important; padding: 12px 15px; border-radius: 6px; color: #9d174d !important; font-size: 13pt; line-height: 1.6; }
                     .premium-expl-label { font-weight: 800; margin-bottom: 5px; color: #be123c !important; }
 
-                    .qa-item { background: #fff; padding: 15px 0; margin-bottom: 15px; border-bottom: 1px dashed #e2e8f0; page-break-inside: avoid; }
+                    .qa-item { background: #fff; padding: 15px 0; margin-bottom: 15px; border-bottom: 1px dashed #e2e8f0; page-break-inside: auto; }
                     .info-box { background: #f0fdf4 !important; border-left: 5px solid ${currentTheme.secondary} !important; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: 600; }
                     
                     .keyword { color: #db2777 !important; font-weight: 800; }
                     .en-text { font-weight: bold; }
-                    .watermark { position: fixed; top: 30%; left: 50%; transform: translate(-50%, -50%) rotate(-35deg); font-size: 35pt; font-weight: 900; color: rgba(0,0,0,0.06); white-space: nowrap; z-index: -100; }
-                    .watermark-lower { top: 70%; }
+                    .watermark-logo { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60%; max-width: 500px; opacity: 0.1; z-index: -100; pointer-events: none; }
                 </style></head><body>
-                    <div class="watermark">A1 COACHING CENTER</div>
-                    <div class="watermark watermark-lower">A1 COACHING CENTER</div>
+                    <img src="${window.location.origin}${window.location.pathname.replace(/[^\\/]*$/, '')}images/logo.png" class="watermark-logo" />
                     <div class="p-header-box">
                         <h1>A1 ONLINE COACHING CENTER</h1>
                         <p>📞 MOBILE NO: 6369371452</p>
