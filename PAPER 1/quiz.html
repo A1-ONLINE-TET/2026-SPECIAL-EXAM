@@ -522,8 +522,83 @@
                 const data = result.data;
 
                 // Extract questions
-                questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                let parsedPYQ = [];
+                if (data.sections) {
+                    data.sections.forEach(sec => {
+                        if (sec.type === 'pyq' || sec.type === 'mocktest') {
+                            const contentArray = Array.isArray(sec.content) ? sec.content : [];
+                            contentArray.forEach(item => {
+                                let qText = item.question || "";
+                                let aText = item.answer || "";
+                                
+                                let mainQ = qText;
+                                let options = [];
+                                let qParts = qText.split(/\n\s*\(A\)/i);
+                                if (qParts.length === 1) qParts = qText.split(/\(A\)/i);
+                                
+                                if (qParts.length > 1) {
+                                    mainQ = qParts[0].trim();
+                                    let rest = qParts[1];
+                                    let bParts = rest.split(/\n\s*\(B\)/i);
+                                    if (bParts.length === 1) bParts = rest.split(/\(B\)/i);
+                                    
+                                    let optA = bParts[0].trim();
+                                    if (bParts.length > 1) {
+                                        let cParts = bParts[1].split(/\n\s*\(C\)/i);
+                                        if (cParts.length === 1) cParts = bParts[1].split(/\(C\)/i);
+                                        
+                                        let optB = cParts[0].trim();
+                                        if (cParts.length > 1) {
+                                            let dParts = cParts[1].split(/\n\s*\(D\)/i);
+                                            if (dParts.length === 1) dParts = cParts[1].split(/\(D\)/i);
+                                            
+                                            let optC = dParts[0].trim();
+                                            let optD = (dParts.length > 1) ? dParts[1].trim() : "";
+                                            options = ["(A) " + optA, "(B) " + optB, "(C) " + optC, "(D) " + optD];
+                                        }
+                                    }
+                                }
+                                
+                                let ansMain = aText;
+                                let explMain = "";
+                                let explParts = aText.split(/விளக்கம்:/i);
+                                if(explParts.length > 1) {
+                                    ansMain = explParts[0].trim();
+                                    if (ansMain.endsWith(')')) ansMain = ansMain.slice(0, -1);
+                                    explMain = explParts[1].trim();
+                                }
+                                
+                                let correctIdx = -1;
+                                let ansUpper = ansMain.toUpperCase();
+                                if (ansUpper.includes('A')) correctIdx = 0;
+                                else if (ansUpper.includes('B')) correctIdx = 1;
+                                else if (ansUpper.includes('C')) correctIdx = 2;
+                                else if (ansUpper.includes('D')) correctIdx = 3;
+
+                                if (options.length > 0) {
+                                    parsedPYQ.push({
+                                        question: mainQ,
+                                        options: options,
+                                        answer: correctIdx,
+                                        explanation: explMain || ansMain
+                                    });
+                                } else {
+                                    parsedPYQ.push({
+                                        question: mainQ,
+                                        options: ["(A)", "(B)", "(C)", "(D)"],
+                                        answer: 0,
+                                        explanation: aText
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
                 
+                questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                if (questions.length === 0 && parsedPYQ.length > 0) {
+                    questions = parsedPYQ;
+                }
                 if (questions.length === 0) {
                     const loader = document.getElementById('quizLoader');
                     if (loader) loader.innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
