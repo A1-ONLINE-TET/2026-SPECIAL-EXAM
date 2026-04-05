@@ -533,32 +533,32 @@
                                 
                                 let mainQ = qText;
                                 let options = [];
-                                let qParts = qText.split(/\n\s*\(A\)/i);
-                                if (qParts.length === 1) qParts = qText.split(/\(A\)/i);
                                 
-                                if (qParts.length > 1) {
-                                    mainQ = qParts[0].trim();
-                                    let rest = qParts[1];
-                                    let bParts = rest.split(/\n\s*\(B\)/i);
-                                    if (bParts.length === 1) bParts = rest.split(/\(B\)/i);
+                                // Look for index of (A) to reliably split question and options without regex issues on multiline text
+                                let aIndex = qText.indexOf('(A)');
+                                if (aIndex === -1) aIndex = qText.indexOf('(a)');
+                                
+                                if (aIndex !== -1) {
+                                    mainQ = qText.substring(0, aIndex).trim();
                                     
-                                    let optA = bParts[0].trim();
+                                    let rest = qText.substring(aIndex);
+                                    let bParts = rest.split(/\(B\)|\(b\)/);
+                                    let optA = bParts[0].replace(/\(A\)|\(a\)/, '').trim();
+                                    
                                     if (bParts.length > 1) {
-                                        let cParts = bParts[1].split(/\n\s*\(C\)/i);
-                                        if (cParts.length === 1) cParts = bParts[1].split(/\(C\)/i);
-                                        
+                                        let cParts = bParts[1].split(/\(C\)|\(c\)/);
                                         let optB = cParts[0].trim();
+                                        
                                         if (cParts.length > 1) {
-                                            let dParts = cParts[1].split(/\n\s*\(D\)/i);
-                                            if (dParts.length === 1) dParts = cParts[1].split(/\(D\)/i);
-                                            
+                                            let dParts = cParts[1].split(/\(D\)|\(d\)/);
                                             let optC = dParts[0].trim();
                                             let optD = (dParts.length > 1) ? dParts[1].trim() : "";
+                                            
                                             options = ["(A) " + optA, "(B) " + optB, "(C) " + optC, "(D) " + optD];
                                         }
                                     }
                                 }
-                                
+
                                 let ansMain = aText;
                                 let explMain = "";
                                 let explParts = aText.split(/விளக்கம்:/i);
