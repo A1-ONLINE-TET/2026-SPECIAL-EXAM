@@ -13,9 +13,14 @@ export const syllabusData = {
                 "code": "tam_5_t1_l1"
               },
               {
-                "title": "என்ன சத்தம் (மரபுச் சொற்கள்) *",
+                "title": "அறிவு நிலா *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l4"
+              },
+              {
+                "title": "என்ன சத்தம் (மரபுச் சொற்கள்) *",
+                "isUpdated": true,
+                "code": "tam_5_t1_l5"
               },
               {
                 "title": "பெயர்ச்சொல் மற்றும் வினைச்சொல் *",
@@ -40,12 +45,12 @@ export const syllabusData = {
               {
                 "title": "மூதுரை *",
                 "isUpdated": true,
-                "code": "tam_5_t1_l5"
+                "code": "tam_5_t1_l6"
               },
               {
                 "title": "கல்விச்செல்வமும் பொருட்செல்வமும் *",
                 "isUpdated": true,
-                "code": "tam_5_t1_l6"
+                "code": "tam_5_t1_l7"
               }
             ]
           }
