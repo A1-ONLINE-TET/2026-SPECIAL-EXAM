@@ -30,7 +30,7 @@ export const lessonMap = {
       "filename": "tam_5_t1_l3",
       "grade": "5"
     },
-    "என்ன சத்தம் (மரபுச் சொற்கள்) *": {
+    "அறிவு நிலா *": {
       "local": true,
       "filename": "tam_5_t1_l4",
       "grade": "5"
@@ -40,7 +40,7 @@ export const lessonMap = {
       "filename": "tam_5_t1_l4",
       "grade": "5"
     },
-    "மூதுரை *": {
+    "என்ன சத்தம் (மரபுச் சொற்கள்) *": {
       "local": true,
       "filename": "tam_5_t1_l5",
       "grade": "5"
@@ -50,7 +50,7 @@ export const lessonMap = {
       "filename": "tam_5_t1_l5",
       "grade": "5"
     },
-    "கல்விச்செல்வமும் பொருட்செல்வமும் *": {
+    "மூதுரை *": {
       "local": true,
       "filename": "tam_5_t1_l6",
       "grade": "5"
@@ -58,6 +58,16 @@ export const lessonMap = {
     "tam_5_t1_l6": {
       "local": true,
       "filename": "tam_5_t1_l6",
+      "grade": "5"
+    },
+    "கல்விச்செல்வமும் பொருட்செல்வமும் *": {
+      "local": true,
+      "filename": "tam_5_t1_l7",
+      "grade": "5"
+    },
+    "tam_5_t1_l7": {
+      "local": true,
+      "filename": "tam_5_t1_l7",
       "grade": "5"
     },
     "இன்பத்தமிழ் *": {
