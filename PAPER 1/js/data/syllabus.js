@@ -1468,7 +1468,7 @@ export const syllabusData = {
             "title": "அலகு 1: வடிவியல்",
             "topics": [
               {
-                "title": "1.1 முப்பரிமாண வடிவங்கள் மற்றும் கோணங்கள்",
+                "title": "வடிவியல் (Geometry)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l1"
               }
@@ -1478,7 +1478,7 @@ export const syllabusData = {
             "title": "அலகு 2: எண்கள்",
             "topics": [
               {
-                "title": "2.1 பத்தாவிரம் மற்றும் அதற்கு மேற்பட்ட எண்கள்",
+                "title": "எண்கள் (Numbers)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l2"
               }
@@ -1488,7 +1488,7 @@ export const syllabusData = {
             "title": "அலகு 3: அமைப்புகள்",
             "topics": [
               {
-                "title": "3.1 வடிவங்கள் மற்றும் எண்களில் அமைப்புகள்",
+                "title": "அமைப்புகள் (Patterns)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l3"
               }
@@ -1498,7 +1498,7 @@ export const syllabusData = {
             "title": "அலகு 4: அளவைகள்",
             "topics": [
               {
-                "title": "4.1 நீளம் மற்றும் அலகுகளை மாற்றுதல்",
+                "title": "அளவைகள் (Measurements)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l4"
               }
@@ -1508,7 +1508,7 @@ export const syllabusData = {
             "title": "அலகு 5: நேரம்",
             "topics": [
               {
-                "title": "5.1 இரயில்வே நேரம் மற்றும் கால இடைவெளி",
+                "title": "நேரம் (Time)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l5"
               }
@@ -1518,7 +1518,7 @@ export const syllabusData = {
             "title": "அலகு 6: தகவல் செயலாக்கம்",
             "topics": [
               {
-                "title": "6.1 சுடோகு மற்றும் விளக்கப்படங்கள்",
+                "title": "தகவல் செயலாக்கம் (Information Processing)",
                 "isUpdated": true,
                 "code": "mat_5_t1_l6"
               }
