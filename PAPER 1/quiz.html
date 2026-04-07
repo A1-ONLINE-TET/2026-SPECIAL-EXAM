@@ -365,8 +365,7 @@
             <h1 id="lessonTitle">ஆன்லைன் தேர்வு</h1>
             <p id="lessonSub" style="color: #64748b; font-weight: 600;">அனைத்து கேள்விகளுக்கும் விடையளிக்கவும்</p>
             <div id="inlineLangToggle" class="inline-lang-container">
-                <button onclick="toggleLang('en', this)" class="lang-btn">English</button>
-                <button onclick="toggleLang('both', this)" class="lang-btn active">Both</button>
+                <button onclick="toggleLang('en', this)" class="lang-btn active">English</button>
                 <button onclick="toggleLang('tm', this)" class="lang-btn">தமிழ்</button>
             </div>
         </div>
@@ -469,8 +468,6 @@
                     b.classList.remove('active');
                     if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
                         b.classList.add('active');
-                    } else if (currentLanguage === 'both' && b.innerText.toLowerCase() === 'both') {
-                         b.classList.add('active');
                     }
                 });
             }
@@ -481,12 +478,12 @@
                     toggle.style.display = 'flex';
                 } else {
                     if (toggle) toggle.style.display = 'none';
-                    currentLanguage = 'both';
+                    currentLanguage = 'tm';
                     updateLangUI();
                 }
             };
 
-            let currentLanguage = localStorage.getItem('appLanguage') || 'both';
+            let currentLanguage = localStorage.getItem('appLanguage') || 'en';
             updateLangUI();
 
             function formatText(text) {

@@ -196,6 +196,44 @@
             color: #be123c;
         }
 
+        /* Language Toggle Styling */
+        .lang-bar-container {
+            display: none; /* Hidden by default */
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.4rem;
+            border-radius: 2rem;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .lang-btn {
+            padding: 0.5rem 1.2rem;
+            border-radius: 1.5rem;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            background: transparent;
+            color: white;
+        }
+
+        .lang-btn.active {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Language Toggle Visibility Logic */
+        .lang-sep { display: inline; opacity: 0.3; margin: 0 0.3rem; }
+        body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
+        body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+
         @media (max-width: 640px) {
             .header-bar h1 { font-size: 1.4rem; }
             .container { padding: 0; }
@@ -217,6 +255,10 @@
         <h1>A1 ONLINE COACHING CENTER</h1>
         <p>📞 6369371452</p>
         <h1 id="lessonTitle" style="margin-top: 1rem; font-size: 1.4rem;">பாடம்</h1>
+        <div id="langToggle" class="lang-bar-container">
+            <button onclick="changeLanguage('en', this)" class="lang-btn active">English</button>
+            <button onclick="changeLanguage('tm', this)" class="lang-btn">தமிழ்</button>
+        </div>
     </div>
 
     <div class="container">
@@ -250,6 +292,15 @@
             };
 
             let currentTheme = themes["default"];
+
+            window.changeLanguage = (lang, btn) => {
+                document.body.classList.remove('lang-en', 'lang-tm');
+                if (lang === 'tm') document.body.classList.add('lang-tm');
+                else document.body.classList.add('lang-en');
+                
+                document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            };
 
             function applyTheme(subjectRaw) {
                 let subjectKey = (subjectRaw || "").toLowerCase().replace('math', 'maths');
@@ -383,6 +434,10 @@
                 if (backBtn) backBtn.href = exitUrl;
 
                 applyTheme(subject);
+                if (subject.toLowerCase().includes('english')) {
+                    document.getElementById('langToggle').style.display = 'flex';
+                    document.body.classList.add('lang-en');
+                }
 
                 if (!lessonId) {
                     document.getElementById('contentArea').innerHTML = "பாடம் குறிப்பிடப்படவில்லை.";
