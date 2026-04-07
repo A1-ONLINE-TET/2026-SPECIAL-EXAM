@@ -1,86 +1,141 @@
 {
-  "title": "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
-  "lessonId": "Exploring Space",
-  "material": {
-    "sections": [
-      {
-        "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
-        "content" : "<div style='margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-main); border-radius: 1rem; border: 1px solid var(--border);'><h3 style='color: var(--primary); margin-bottom: 1rem; border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem;'><span class='en-text'>Story Overview</span><span class='lang-sep'> || </span><span class='tm-text'>கதை மேலோட்டம்</span></h3><ul style='list-style: none; padding: 0; color: var(--text-main); font-size: 1.05rem; line-height: 1.8;'><li>🚀 <strong><span class='en-text'>Setting:</span><span class='tm-text'>காலம்:</span></strong> <span class='en-text'>The year 2068. Earth is completely destroyed due to human exploitation.</span><span class='tm-text'>ஆண்டு 2068. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது.</span></li><li>🛰️ <strong><span class='en-text'>New Habitat:</span><span class='tm-text'>புதிய வாழிடம்:</span></strong> <span class='en-text'>Humans have colonized <strong>Mars</strong> (the Red Planet). India has established three colonies there.</span><span class='tm-text'>மனிதர்கள் <strong>செவ்வாய் கிரகத்தில்</strong> (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது.</span></li><li>👨‍👩‍👦 <strong><span class='en-text'>Characters:</span><span class='tm-text'>கதாபாத்திரங்கள்:</span></strong> <span class='en-text'>Arivumathi and her grandfather.</span><span class='tm-text'>அறிவுமதி மற்றும் அவளது தாத்தா.</span></li><li>📖 <strong><span class='en-text'>Plot Synopsis:</span><span class='tm-text'>கதைச் சுருக்கம்:</span></strong> <span class='en-text'>Grandfather travels 1500 sols (Martian days) to visit Arivumathi for her birthday. He compares the harsh, artificial life on Mars with the beautiful, natural past of Earth.</span><span class='tm-text'>அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா 1500 செவ்வாய் நாட்களைக் கடந்து பயணம் செய்கிறார். அவர் செவ்வாய் கிரகத்தின் கடினமான, செயற்கை வாழ்க்கையை பூமியின் அழகான, இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்.</span></li><li>🌱 <strong><span class='en-text'>Core Message:</span><span class='tm-text'>முக்கிய செய்தி:</span></strong> <span class='en-text'>We must protect our natural home (Earth) instead of destroying it and struggling to adapt to dead planets.</span><span class='tm-text'>நமது இயற்கை இல்லத்தை (பூமி) அழித்துவிட்டு, உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்.</span></li></ul><h3 style='color: var(--secondary); margin-bottom: 1rem;'><span class='en-text'>Key Comparisons (Earth vs. Mars)</span><span class='tm-text'>முக்கிய ஒப்பீடுகள்</span></h3><table style='width: 100%; border-collapse: collapse; margin-top: 0.5rem;'><thead><tr style='background: var(--bg-alt);'><th style='padding: 1rem; border: 1px solid var(--border);'><span class='en-text'>Feature</span><span class='tm-text'>அம்சம்</span></th><th style='padding: 1rem; border: 1px solid var(--border);'><span class='en-text'>Life on Earth (Past)</span><span class='tm-text'>பூமி வாழ்க்கை</span></th><th style='padding: 1rem; border: 1px solid var(--border);'><span class='en-text'>Life on Mars (Year 2068)</span><span class='tm-text'>செவ்வாய் வாழ்க்கை</span></th></tr></thead><tbody><tr><td style='padding:1rem; border:1px solid #eee;'><strong>Environment</strong></td><td>Clean Air</td><td>Toxic Air + Space Suit</td></tr><tr><td style='padding:1rem; border:1px solid #eee;'><strong>Agriculture</strong></td><td>Natural Fertile Soil</td><td>Chemically Treated Soil</td></tr><tr><td style='padding:1rem; border:1px solid #eee;'><strong>Water Supply</strong></td><td>Natural Rain/Rivers</td><td>Artificially Generated</td></tr></tbody></table></div>"
-      },
-      {
-        "title": "2. POEM: Beyond the Universe || 2. கவிதை: பிரபஞ்சத்தைத் தாண்டி",
-        "content" : "<div style='margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-main); border-radius: 1rem; border: 1px solid var(--border);'><h4 style='color: var(--primary); margin-bottom: 0.8rem;'><span class='en-text'>Theme:</span><span class='tm-text'>கருப்பொருள்:</span></h4><p><span class='en-text'>A vivid, imaginative journey across the solar system, exploring the unique characteristics of different planets.</span><span class='tm-text'>சூரிய குடும்பம் முழுவதும் ஒரு தெளிவான, கற்பனைப் பயணம்.</span></p><h4 style='color: var(--primary); margin-bottom: 0.8rem;'><span class='en-text'>The Cosmic Journey:</span><span class='tm-text'>காஸ்மிக் பயணம்:</span></h4><ul style='color: var(--text-main); font-size: 1.05rem; line-height: 1.8; list-style-type: none; padding-left: 10px;'><li>🌍 <strong>1. Earth:</strong> Leaving behind blue home || பூமி</li><li>🔴 <strong>2. Mars:</strong> Gliding past red planet || செவ்வாய்</li><li>🪐 <strong>3. Saturn:</strong> Magnificent rings and moons || சனி</li><li>🌀 <strong>4. Jupiter:</strong> Giant with red storms || வியாழன்</li><li>🔃 <strong>5. Uranus:</strong> Tumbling, rolling planet || யுரேனஸ்</li><li>❄️ <strong>6. Neptune:</strong> Blue ice giant || நெப்டியூன்</li><li>🌌 <strong>7. Destination:</strong> Infinite universe to meet Creator || படைப்பாளரைச் சந்திக்க</li></ul></div>"
-      },
-      {
-        "title": "3. SUPPLEMENTARY: Lost in Space || 3. துணைப்பாடம்: விண்வெளியில் தொலைந்தவர்கள்",
-        "content" : "<div style='margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-main); border-radius: 1rem; border: 1px solid var(--border);'><h4 style='color: var(--primary); margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;'><span class='en-text'>Story Overview</span><span class='lang-sep'> || </span><span class='tm-text'>கதை மேலோட்டம்</span></h4><ul style='color: var(--text-main); font-size: 1.05rem; line-height: 1.8;'><li><strong><span class='en-text'>Main Characters:</span><span class='tm-text'>கதாபாத்திரங்கள்:</span></strong> <span class='en-text'>Amuthan and Nilavan.</span><span class='tm-text'>அமுதன் மற்றும் நிலவன்.</span></li><li><strong><span class='en-text'>The Incident:</span><span class='tm-text'>நடந்த நிகழ்வு:</span></strong> <span class='en-text'>While visiting a space museum, they accidentally lock themselves inside a space shuttle and launch into space.</span><span class='tm-text'>விண்வெளி அருங்காட்சியகத்தில் இருந்த ஓடத்தில் தங்களை பூட்டிக் கொண்டு விண்வெளிக்குச் சென்றனர்.</span></li><li><strong><span class='en-text'>The Climax:</span><span class='tm-text'>உச்சகட்டம்:</span></strong> <span class='en-text'>Shuttle crash-lands on a strange planet. They meet friendly green aliens.</span><span class='tm-text'>ஒரு விசித்திரக் கிரகத்தில் விண்கலம் மோதியது. அங்கு பச்சை ஏலியன்களைச் சந்தித்தனர்.</span></li><li><strong><span class='en-text'>Resolution:</span><span class='tm-text'>தீர்வு:</span></strong> <span class='en-text'>Aliens repair their shuttle and guide them safely back to Earth.</span><span class='tm-text'>ஏலியன்கள் விண்கலத்தை சரிசெய்து பூமிக்குத் திருப்பி அனுப்பின.</span></li></ul></div>"
-      },
-      {
-        "title": "4. GLOSSARY & PICTIONARY || 4. கலைச்சொற்கள்",
-        "content" : "<div style='margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-main); border-radius: 1rem; border: 1px solid var(--border); overflow-x: auto;'><table style='width: 100%; border-collapse: collapse;'><thead><tr style='background: var(--bg-alt);'><th style='padding: 1rem; border: 1px solid var(--border);'>Word</th><th style='padding: 1rem; border: 1px solid var(--border);'>Meaning</th></tr></thead><tbody><tr><td><strong>Sol</strong></td><td>Martian day (Day on Mars)</td></tr><tr><td><strong>Desolated</strong></td><td>Ruined, empty, uninhabitable</td></tr><tr><td><strong>Hub</strong></td><td>Central living space / settlement</td></tr><tr><td><strong>Space suit</strong></td><td>Pressurized suit for astronauts</td></tr><tr><td><strong>Capsule</strong></td><td>Cylinder-shaped bed for sleeping</td></tr><tr><td><strong>Astonished</strong></td><td>Greatly surprised / amazed</td></tr><tr><td><strong>Fossil Fuel</strong></td><td>Ancient organic fuel (Coal/Oil)</td></tr><tr><td><strong>Adapted</strong></td><td>Adjusted to survive in new conditions</td></tr><tr><td><strong>Galaxy</strong></td><td>Massive system of billions of stars</td></tr><tr><td><strong>Milky Way</strong></td><td>Galaxy containing our Solar System</td></tr></tbody></table></div>"
-      },
-      {
-        "title": "5. GRAMMAR Focus || 5. இலக்கணம்",
-        "content" : "<div style='margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-main); border-radius: 1rem; border: 1px solid var(--border);'><p><strong><span class='en-text'>A. Compound Words:</span><span class='tm-text'>கூட்டுச் சொற்கள்:</span></strong> <span class='en-text'>Sunflower, Lighthouse, Mailbox, Watchman, Starfish, Rainbow, Football.</span><span class='tm-text'>இரண்டு தனித்தனி சொற்கள் இணைந்து புதிய சொல்லாகுதல்.</span></p><p><strong><span class='en-text'>B. Nouns:</span><span class='tm-text'>பெயர்ச்சொற்கள்:</span></strong></p><ul><li><strong>Collective Noun:</strong> Flock (birds), Swarm (bees), Bunch (grapes), Army (ants), Herd (cattle), Choir (singers). || ஒரு தொகுதியைக் குறிக்கும் பெயர்.</li><li><strong>Abstract Noun:</strong> Happiness, Freedom, Honesty, Bravery, Kindness. || தொட்டுணர முடியாத பண்பு அல்லது உணர்ச்சி.</li></ul></div>"
-      },
-      {
-        "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
-        "content" : "<div style='background:#f8fafc; border:1px solid #e2e8f0; padding:1.5rem; border-radius:1rem;'><p><strong>Q1: What is the setting of 'Earth, the Desolated Home'?</strong><br>Answer: The story is set in 2068 on planet Mars after humans destroyed Earth.</p><p><strong>Q2: How long did it take for grandfather to reach?</strong><br>Answer: It took 1500 sols (Martian days) for grandfather to travel.</p><p><strong>Q3: How is water produced on Mars?</strong><br>Answer: Water on Mars is artificially produced by burning fuels.</p><p><strong>Q4: Name planets mentioned in 'Beyond the Universe'.</strong><br>Answer: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune.</p><p><strong>Q5: How did Amuthan and Nilavan return to Earth?</strong><br>Answer: Friendly green aliens repaired their space shuttle and guided them home.</p></div>"
-      }
-    ]
+  "lesson_meta": {
+    "title": "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
+    "subject": "English",
+    "description": "A journey through space, exploring the future of humanity and the mysteries of the universe. || விண்வெளிப் பயணத்தின் மூலம் மனிதகுலத்தின் எதிர்காலம் மற்றும் பிரபஞ்சத்தின் ரகசியங்களை ஆராய்தல்."
   },
-  "quiz": {
-    "questions": [
-      { "question": "In which year and on which planet is the story 'Earth, the Desolated Home' set? || 'Earth, the Desolated Home' கதை எந்த ஆண்டில் மற்றும் எந்த கிரகத்தில் நடக்கிறது?", "options": ["A) 2058, Earth || அ) 2058, பூமி", "B) 2086, Jupiter || ஆ) 2086, வியாழன்", "C) 2068, Mars || இ) 2068, செவ்வாய் கிரகம்", "D) 2168, Saturn || ஈ) 2168, சனி"], "answer": 2, "explanation": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது." },
-      { "question": "How long did it take for the grandfather to travel to see Arivumathi? || தாத்தா அறிவுமதியைச் சந்திக்க எவ்வளவு காலம் பயணம் செய்தார்?", "options": ["A) 150 days || அ) 150 நாட்கள்", "B) 1500 sols || ஆ) 1500 sols (மார்ஷியன் நாட்கள்)", "C) 1500 hours || இ) 1500 மணிநேரம்", "D) 15 months || ஈ) 15 மாதங்கள்"], "answer": 1, "explanation": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்." },
-      { "question": "How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உற்பத்தி செய்யப்படுகிறது?", "options": ["A) Rainfall || அ) மழையின் மூலம்", "B) Rivers || ஆ) நதிகளில் இருந்து", "C) Burning fuels || இ) எரிபொருட்களை எரிப்பதன் மூலம்", "D) Melting glaciers || ஈ) பனிப்பாறைகளை உருக்குவதன் மூலம்"], "answer": 2, "explanation": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது." },
-      { "question": "Which planets are mentioned in the poem 'Beyond the Universe'? || 'Beyond the Universe' கவிதையில் வரும் கிரகங்கள் யாவை?", "options": ["A) Earth, Mars, Saturn, Jupiter, Uranus, Neptune || அ) பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ், நெப்டியூன்", "B) Mercury, Venus, Earth, Mars || ஆ) புதன், வெள்ளி, பூமி, செவ்வாய்", "C) Jupiter, Saturn, Pluto || இ) வியாழன், சனி, புளூட்டோ", "D) Earth, Moon, Sun || ஈ) பூமி, நிலவு, சூரியன்"], "answer": 0, "explanation": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்." },
-      { "question": "How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் எவ்வாறு பூமிக்கு திரும்பினர்?", "options": ["A) Grandfather rescued them || அ) தாத்தா காப்பாற்றினார்", "B) Friendly aliens repaired their shuttle || ஆ) ஏலியன்கள் விண்கலத்தை சரிசெய்து உதவினர்", "C) Flew it themselves || இ) தாங்களே இயக்கினர்", "D) Scientists rescued them || ஈ) விஞ்ஞானிகள் மீட்டனர்"], "answer": 1, "explanation": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்." },
-      { "question": "How many Indian colonies were on Mars by 2068? || 2068-ல் செவ்வாயில் இந்தியா எத்தனை குடியிருப்புகளை அமைத்தது?", "options": ["A) Two || அ) இரண்டு", "B) Three || ஆ) மூன்று", "C) Four || இ) நான்கு", "D) Five || ஈ) ஐந்து"], "answer": 1, "explanation": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது." },
-      { "question": "What does 'Sol' mean in the lesson? || 'Sol' என்ற வார்த்தையின் அர்த்தம் என்ன?", "options": ["A) Solar eclipse || அ) சூரிய கிரகணம்", "B) Day on Earth || ஆ) பூமியின் ஒரு நாள்", "C) Day on Mars || இ) செவ்வாய் கிரகத்தின் ஒரு நாள்", "D) Type of fuel || ஈ) ஒரு வகை எரிபொருள்"], "answer": 2, "explanation": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்." },
-      { "question": "Which planet is characterized by 'red storms' in the poem? || சிவப்பு புயல்களால் வகைப்படுத்தப்படும் கிரகம் எது?", "options": ["A) Mars || அ) செவ்வாய்", "B) Saturn || ஆ) சனி", "C) Jupiter || இ) வியாழன்", "D) Uranus || ஈ) யுரேனஸ்"], "answer": 2, "explanation": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது." },
-      { "question": "Which planet is called the 'blue ice giant'? || 'நீல பனி அரக்கன்' என்று அழைக்கப்படும் கிரகம் எது?", "options": ["A) Neptune || அ) நெப்டியூன்", "B) Earth || ஆ) பூமி", "C) Uranus || இ) யுரேனஸ்", "D) Saturn || ஈ) சனி"], "answer": 0, "explanation": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது." },
-      { "question": "Where did Amuthan and Nilavan accidentally lock themselves? || அமுதனும் நிலவனும் மீண்டும் எங்கு சிக்கிக்கொண்டனர்?", "options": ["A) Space suit || அ) விண்வெளி உடையில்", "B) Functional space shuttle || ஆ) ஒரு விண்வெளி ஓடத்தில்", "C) Capsule || இ) ஒரு காப்ஸ்யூலில்", "D) Alien spaceship || ஈ) வேற்றுகிரகவாசிகளின் கப்பலில்"], "answer": 1, "explanation": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்." },
-      { "question": "What did the boys pull to launch the shuttle? || சிறுவர்கள் எதை இழுத்ததால் விண்கலம் ஏவப்பட்டது?", "options": ["A) A button || அ) ஒரு பொத்தான்", "B) A rope || ஆ) ஒரு கயிறு", "C) A lever || இ) ஒரு நெம்புகோல் (lever)", "D) A switch || ஈ) ஒரு சுவிட்ச்"], "answer": 2, "explanation": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது." },
-      { "question": "Which compound word is formed by joining 'Light + House'?", "options": ["A) Lighthome", "B) Lighthouse", "C) Houselight", "D) Sunlight"], "answer": 1, "explanation": "Light + House forms Lighthouse." },
-      { "question": "Identify the abstract noun: || அருவப் பெயர்ச்சொல்லைக் கண்டறியவும்:", "options": ["A) Flock", "B) Honesty", "C) Watchman", "D) Mars"], "answer": 1, "explanation": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது." },
-      { "question": "Correct collective noun: A _______ of grapes.", "options": ["A) herd", "B) swarm", "C) bunch", "D) army"], "answer": 2, "explanation": "A group of grapes is called a bunch." },
-      { "question": "Name of the Martian habitat where Arivumathi lived?", "options": ["A) Hub", "B) Earth 2.0", "C) Space station", "D) Galaxy"], "answer": 0, "explanation": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்." },
-      { "question": "What is required to breathe outside on Mars? || செவ்வாயில் சுவாசிக்க என்ன தேவை?", "options": ["A) Umbrella", "B) Space suit and oxygen || ஆ) விண்வெளி உடை மற்றும் ஆக்சிஜன்", "C) Cotton clothes", "D) Water bottle"], "answer": 1, "explanation": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்." },
-      { "question": "Which planet has 'magnificent rings'?", "options": ["A) Earth", "B) Mars", "C) Saturn", "D) Jupiter"], "answer": 2, "explanation": "Saturn is famous for its magnificent rings." },
-      { "question": "Which planet is 'tumbling and rolling'?", "options": ["A) Jupiter", "B) Uranus", "C) Neptune", "D) Mercury"], "answer": 1, "explanation": "Uranus is described as tumbling and rolling." },
-      { "question": "Meaning of 'Desolated'?", "options": ["A) Beautiful", "B) Crowded", "C) Uninhabitable/Ruined || இ) பாழடைந்த", "D) Lush green"], "answer": 2, "explanation": "Desolated means empty, ruined, and uninhabitable." },
-      { "question": "What is true about Martian vegetables? || செவ்வாய் காய்கறிகள் பற்றிய உண்மை என்ன?", "options": ["A) Tastier than Earth's", "B) No real flavor || ஆ) நிஜமான சுவை இல்லை", "C) Very sweet", "D) Very colorful"], "answer": 1, "explanation": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை." },
-      { "question": "Sun + Flower = ?", "options": ["A) Flowersun", "B) Sunplant", "C) Sunflower", "D) Sunlight"], "answer": 2, "explanation": "Sunflower is the compound word." },
-      { "question": "Star + Fish = ?", "options": ["A) Fishstar", "B) Starfish", "C) Seastar", "D) Shine"], "answer": 1, "explanation": "Starfish is the result." },
-      { "question": "Collective noun for birds?", "options": ["A) Swarm", "B) Flock", "C) Herd", "D) Army"], "answer": 1, "explanation": "A group of birds is a flock." },
-      { "question": "Collective noun for bees?", "options": ["A) Swarm", "B) Bunch", "C) Choir", "D) Flock"], "answer": 0, "explanation": "Bees come in a swarm." },
-      { "question": "Collective noun for singers?", "options": ["A) Army", "B) Herd", "C) Choir", "D) Bunch"], "answer": 2, "explanation": "A group of singers is a choir." },
-      { "question": "Word for a group of ants?", "options": ["A) Swarm", "B) Army", "C) Flock", "D) Herd"], "answer": 1, "explanation": "An army of ants." },
-      { "question": "Collective noun for cattle?", "options": ["A) Herd", "B) Bunch", "C) Choir", "D) Flock"], "answer": 0, "explanation": "A group of cattle is a herd." },
-      { "question": "Which is an Abstract Noun?", "options": ["A) Freedom", "B) Table", "C) Dog", "D) Water"], "answer": 0, "explanation": "Freedom is an intangible concept." },
-      { "question": "What does 'Astonished' mean?", "options": ["A) Sad", "B) Greatly surprised || ஆ) ஆச்சரியப்பட்ட", "C) Angry", "D) Tired"], "answer": 1, "explanation": "Astonished means extremely surprised." },
-      { "question": "What do we call the fuel formed from ancient remains? || புதைபடிவ எரிபொருட்கள் எதிலிருந்து உருவாகின்றன?", "options": ["A) Solar", "B) Wind", "C) Fossil Fuel || இ) புதைபடிவ எரிபொருள்", "D) Biogas"], "answer": 2, "explanation": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்." },
-      { "question": "What is the 'Milky Way'?", "options": ["A) Chocolate", "B) Our Galaxy || ஆ) நமது விண்மீன் மண்டலம்", "C) Mars region", "D) Star type"], "answer": 1, "explanation": "The galaxy containing our solar system." },
-      { "question": "Assertion (A): Earth has become a desolated home. Reason (R): Humans overexploited and destroyed Earth's natural resources.", "options": ["A) Both A and R are true, and R is the correct explanation of A", "B) Both A and R are true, but R is not the correct explanation", "C) A is true, but R is false", "D) A is false, but R is true"], "answer": 0, "explanation": "Human exploitation ruined Earth." },
-      { "question": "Assertion (A): The vegetables available on Mars are extremely tasty. Reason (R): The soil on Mars is chemically treated.", "options": ["A) Both A and R are true", "B) A is false, but R is true", "C) A is true, but R is false", "D) Both A and R are false"], "answer": 1, "explanation": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false." },
-      { "question": "Where did the shuttle crash?", "options": ["A) Moon", "B) Earth", "C) Strange planet || இ) புதிய கிரகம்", "D) Mars"], "answer": 2, "explanation": "They crashed on an unknown planet." },
-      { "question": "Attitude of aliens towards boys?", "options": ["A) Angry", "B) Attack", "C) Peaceful and helpful || இ) அமைதி/உதவி", "D) Prison"], "answer": 2, "explanation": "Aliens were friendly and helpful." },
-      { "question": "Which of the following pairs is correct according to the poem?", "options": ["A) Saturn - Ice giant", "B) Jupiter - Red storms || ஆ) வியாழன் - புயல்", "C) Uranus - Rings", "D) Neptune - Tumbling"], "answer": 1, "explanation": "Jupiter is the one with red storms." },
-      { "question": "Which of the following compound word pairs is incorrect?", "options": ["A) Foot + ball = Football", "B) Rain + bow = Rainbow", "C) Mail + box = Mailbox", "D) Watch + man = Manwatch"], "answer": 3, "explanation": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'." },
-      { "question": "What is the correct meaning of the word 'Adapted'?", "options": ["A) Modified or adjusted to survive || அ) তথவமைத்தல்", "B) Destroyed", "C) Creating", "D) Traveling"], "answer": 0, "explanation": "Adjusting to survives in new conditions." },
-      { "question": "What do you call the specialized, pressurized suit worn by astronauts?", "options": ["A) Capsule", "B) Space suit", "C) Hub", "D) Sol"], "answer": 1, "explanation": "Astronauts wear space suits." },
-      { "question": "What is a 'Capsule'?", "options": ["A) Pill", "B) Sleeping compartment || ஆ) தூங்கும் பகுதி", "C) Spaceship", "D) Food"], "answer": 1, "explanation": "A small cylinder-shaped bed for sleeping." },
-      { "question": "At the end of the poem, where does the poet travel last?", "options": ["A) Sun", "B) Meet the Creator || ஆ) படைப்பாளரைச் சந்திக்க", "C) Earth center", "D) Black hole"], "answer": 1, "explanation": "Journey ends meeting the Creator." },
-      { "question": "Assertion (A): Abstract nouns cannot be seen or touched. Reason (R): Words like 'Honesty' and 'Freedom' are examples of abstract nouns.", "options": ["A) Both A and R are true", "B) A is true, but R is false", "C) A is false, but R is true", "D) Both A and R are false"], "answer": 0, "explanation": "Abstract nouns are intangible." },
-      { "question": "What type of noun is 'Fear'?", "options": ["A) Proper", "B) Collective", "C) Abstract", "D) Material"], "answer": 2, "explanation": "Fear is an emotion (abstract)." },
-      { "question": "What is the primary moral of the story 'Earth, the Desolated Home'?", "options": ["A) travel to Mars", "B) Protect Earth || ஆ) பூமியைப் பாதுகாப்போம்", "C) Find aliens", "D) Wear suits"], "answer": 1, "explanation": "Protect our natural home (Earth)." },
-      { "question": "\"Names a group or collection of individuals viewed as a single, whole unit\" - This is the definition of which noun?", "options": ["A) Abstract", "B) Collective", "C) Common", "D) Proper"], "answer": 1, "explanation": "Collective nouns name groups." },
-      { "question": "Which grammatical category do the words \"Beauty\" and \"Kindness\" belong to?", "options": ["A) Collective", "B) Compound", "C) Abstract", "D) Action"], "answer": 2, "explanation": "These are intangible qualities." },
-      { "question": "What is the main difference in Arivumathi's life on Mars?", "options": ["A) Artificial air and water || அ) செயற்கை காற்று/நீர்", "B) Rain daily", "C) Natural food", "D) No clothes"], "answer": 0, "explanation": "On Mars, basic needs are artificial." },
-      { "question": "How did Amuthan and Nilavan feel inside the museum?", "options": ["A) Astonished || அ) வியப்பு", "B) Desolated", "C) Adapted", "D) None"], "answer": 0, "explanation": "They felt amazed and astonished." },
-      { "question": "Term for process of adjusting to surivive on a new planet?", "options": ["A) Adaptation", "B) Exploration", "C) Desolation", "D) Creation"], "answer": 0, "explanation": "Adaptation is the ability to modify to survive." },
-      { "question": "Name of a massive system of billions of stars?", "options": ["A) Sol", "B) Capsule", "C) Galaxy", "D) Hub"], "answer": 2, "explanation": "A galaxy contains billions of stars." }
-    ]
-  }
+  "sections": [
+    {
+      "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
+      "type": "infobox",
+      "content": [
+        { "text": "<strong>Setting:</strong> The year 2068. Earth is completely destroyed due to human exploitation. || <strong>காலம்:</strong> ஆண்டு 2068. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது." },
+        { "text": "<strong>New Habitat:</strong> Humans have colonized Mars (the Red Planet). India has established three colonies there. || <strong>புதிய வாழிடம்:</strong> மனிதர்கள் செவ்வாய் கிரகத்தில் (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது." },
+        { "text": "<strong>Characters:</strong> Arivumathi and her grandfather. || <strong>கதாபாத்திரங்கள்:</strong> அறிவுமதி மற்றும் அவளது தாத்தா." },
+        { "text": "<strong>Plot Synopsis:</strong> Grandfather travels 1500 sols (Martian days) to visit Arivumathi for her birthday. He compares the artificial life on Mars with the natural past of Earth. || <strong>கதைச் சுருக்கம்:</strong> அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா 1500 செவ்வாய் நாட்களைக் கடந்து பயணம் செய்கிறார். அவர் செவ்வாயின் செயற்கை வாழ்க்கையை பூமியின் இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்." },
+        { "text": "<strong>Core Message:</strong> We must protect Earth instead of destroying it and struggling on dead planets. || <strong>முக்கிய செய்தி:</strong> பூமியை அழித்துவிட்டு உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்." }
+      ]
+    },
+    {
+      "title": "Key Comparisons (Earth vs. Mars) || முக்கிய ஒப்பீடுகள் (பூமி vs செவ்வாய்)",
+      "type": "content",
+      "content": [
+        { "text": "Environment: Earth (Clean Air) vs Mars (Toxic Air + Space Suit) || சுற்றுச்சூழல்: பூமி (சுத்தமான காற்று) vs செவ்வாய் (நச்சு காற்று + விண்வெளி உடை)" },
+        { "text": "Agriculture: Earth (Natural Fertile Soil) vs Mars (Chemically Treated Soil) || விவசாயம்: பூமி (இயற்கை மண்) vs செவ்வாய் (ரசாயன மண்)" },
+        { "text": "Water Supply: Earth (Natural Rain/Rivers) vs Mars (Artificially Generated) || நீர்: பூமி (இயற்கை மழை/ஆறு) vs செவ்வாய் (செயற்கை நீர்)" }
+      ]
+    },
+    {
+      "title": "2. POEM: Beyond the Universe || 2. கவிதை: பிரபஞ்சத்தைத் தாண்டி",
+      "type": "infobox",
+      "content": [
+        { "text": "<strong>Theme:</strong> An imaginative journey across the solar system, exploring different planets. || <strong>கருப்பொருள்:</strong> சூரிய குடும்பம் முழுவதும் ஒரு கற்பனைப் பயணம்." },
+        { "text": "<strong>Journey:</strong> 1. Earth (Leaving blue home), 2. Mars (Red planet), 3. Saturn (Rings), 4. Jupiter (Red storms), 5. Uranus (Tumbling), 6. Neptune (Ice giant), 7. Destination (Meet Creator). || <strong>பயணம்:</strong> 1. பூமி, 2. செவ்வாய், 3. சனி, 4. வியாழன், 5. யுரேனஸ், 6. நெப்டியூன், 7. படைப்பாளரைச் சந்தித்தல்." }
+      ]
+    },
+    {
+      "title": "3. SUPPLEMENTARY: Lost in Space || 3. துணைப்பாடம்: விண்வெளியில் தொலைந்தவர்கள்",
+      "type": "infobox",
+      "content": [
+        { "text": "<strong>Characters:</strong> Amuthan and Nilavan. || <strong>கதாபாத்திரங்கள்:</strong> அமுதன் மற்றும் நிலவன்." },
+        { "text": "<strong>Incident:</strong> They accidentally launch a space shuttle and crash-land on a strange planet. || <strong>நிகழ்வு:</strong> அவர்கள் தவறுதலாக விண்கலத்தை இயக்கி ஒரு புதிய கிரகத்தில் மோதினர்." },
+        { "text": "<strong>Resolution:</strong> Friendly green aliens repair their shuttle and guide them home. || <strong>தீர்வு:</strong> நண்பர்களான பச்சை ஏலியன்கள் விண்கலத்தை சரிசெய்து அவர்களைப் பூமிக்கு அனுப்பினர்." }
+      ]
+    },
+    {
+      "title": "4. GLOSSARY & PICTIONARY || 4. கலைச்சொற்கள்",
+      "type": "content",
+      "content": [
+        { "text": "Sol: Martian day (Day on Mars). || சொல் (Sol): செவ்வாய் கிரகத்தின் ஒரு நாள்." },
+        { "text": "Desolated: Ruined, empty, uninhabitable. || பாழடைந்த: காலியான, வசிக்கத் தகுதியற்ற." },
+        { "text": "Hub: Central living space / settlement. || ஹப் (Hub): மைய வாழிடம்." },
+        { "text": "Space suit: Pressurized suit for astronauts. || விண்வெளி உடை: வீரர்களுக்கான அழுத்தமான உடை." },
+        { "text": "Capsule: Cylinder-shaped bed for sleeping. || காப்ஸ்யூல்: உருளை வடிவத் தூங்கும் பகுதி." },
+        { "text": "Astonished: Greatly surprised / amazed. || வியப்படைந்த: மிகுந்த ஆச்சரியமடைந்த." },
+        { "text": "Fossil Fuel: Ancient organic fuel (Coal/Oil). || புதைபடிவ எரிபொருள்: நிலக்கரி, எண்ணெய்." },
+        { "text": "Galaxy: Massive system of billions of stars. || விண்மீன் மண்டலம்: பில்லியன் கணக்கான நட்சத்திரங்களின் தொகுப்பு." }
+      ]
+    },
+    {
+      "title": "5. GRAMMAR Focus || 5. இலக்கணம்",
+      "type": "infobox",
+      "content": [
+        { "text": "<strong>Compound Words:</strong> Sunflower, Lighthouse, Mailbox, Watchman, Starfish, Rainbow. || <strong>கூட்டுச் சொற்கள்:</strong> இரு சொற்கள் இணைந்து புதிய சொல்லாகுதல்." },
+        { "text": "<strong>Collective Nouns:</strong> Flock (birds), Swarm (bees), Army (ants), Herd (cattle). || <strong>குழுப் பெயர்ச்சொற்கள்:</strong> ஒரு தொகுதியைக் குறிக்கும் பெயர்." },
+        { "text": "<strong>Abstract Nouns:</strong> Happiness, Freedom, Honesty, Bravery, Kindness. || <strong>பண்புப் பெயர்ச்சொற்கள்:</strong> தொட்டுணர முடியாத உணர்ச்சிகள்." }
+      ]
+    },
+    {
+      "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
+      "type": "content",
+      "content": [
+        { "text": "Q1: What is the setting of 'Earth, the Desolated Home'? || பூமி கதை எந்தக் காலத்தில் நடக்கிறது? \nAnswer: The story is set in 2068 on planet Mars. || விடை: 2068-ம் ஆண்டு செவ்வாய் கிரகத்தில்." },
+        { "text": "Q2: How long did it take for grandfather to reach? || தாத்தா வர எவ்வளவு காலம் ஆனது? \nAnswer: It took 1500 sols (Martian days). || விடை: 1500 செவ்வாய் நாட்கள்." },
+        { "text": "Q3: How is water produced on Mars? || செவ்வாயில் நீர் எப்படி உருவாகிறது? \nAnswer: By burning fuels artificially. || விடை: எரிபொருட்களைச் செயற்கையாக எரிப்பதன் மூலம்." },
+        { "text": "Q4: Name planets mentioned in 'Beyond the Universe'. || கவிதையில் வரும் கிரகங்கள் யாவை? \nAnswer: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || விடை: பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன்." }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In which year and on which planet is the story 'Earth, the Desolated Home' set? || 'Earth, the Desolated Home' கதை எந்த ஆண்டில் மற்றும் எந்த கிரகத்தில் நடக்கிறது?",
+      "options": ["2058, Earth", "2086, Jupiter", "2068, Mars", "2168, Saturn"],
+      "answer": 2,
+      "explanation": "The story is set in 2068 on Mars after Earth's destruction. || பூமிக்கு மனிதர்களால் ஏற்பட்ட அழிவிற்குப் பிறகு, கதை 2068-ல் செவ்வாய் கிரகத்தில் நடக்கிறது."
+    },
+    {
+      "question": "How long did it take for the grandfather to travel to see Arivumathi? || தாத்தா அறிவுமதியைச் சந்திக்க எவ்வளவு காலம் பயணம் செய்தார்?",
+      "options": ["150 days", "1500 sols", "1500 hours", "15 months"],
+      "answer": 1,
+      "explanation": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரக நாட்களின்படி 1500 sols பயணம் செத்திருந்தார்."
+    },
+    {
+      "question": "How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உற்பத்தி செய்யப்படுகிறது?",
+      "options": ["Rainfall", "Rivers", "Burning fuels", "Melting glaciers"],
+      "answer": 2,
+      "explanation": "On Mars, water is artificially produced by burning fuels. || செவ்வாய் கிரகத்தில் எரிபொருட்களை எரிப்பதன் மூலம் செயற்கையாக நீர் உருவாக்கப்படுகிறது."
+    },
+    {
+      "question": "Which planets are mentioned in the poem 'Beyond the Universe'? || 'Beyond the Universe' கவிதையில் வரும் கிரகங்கள் யாவை?",
+      "options": ["Earth, Mars, Saturn, Jupiter, Uranus, Neptune", "Mercury, Venus, Earth, Mars", "Jupiter, Saturn, Pluto", "Earth, Moon, Sun"],
+      "answer": 0,
+      "explanation": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் தனது பயணத்தில் இந்த ஆறு கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்."
+    },
+    {
+      "question": "How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் எவ்வாறு பூமிக்கு திரும்பினர்?",
+      "options": ["Grandfather rescued them", "Friendly aliens repaired their shuttle", "Flew it themselves", "Scientists rescued them"],
+      "answer": 1,
+      "explanation": "Friendly green aliens repaired their space shuttle. || விண்வெளியில் சிக்கிய அவர்களுக்குப் பச்சை நிற ஏலியன்கள் உதவி செய்தன."
+    },
+    {
+      "question": "How many Indian colonies were on Mars by 2068? || 2068-ல் செவ்வாயில் இந்தியா எத்தனை குடியிருப்புகளை அமைத்தது?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": 1,
+      "explanation": "India established three colonies on Mars. || இந்தியாவால் செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகள் நிறுவப்பட்டிருந்தன."
+    },
+    {
+      "question": "What does 'Sol' mean in the lesson? || 'Sol' என்ற வார்த்தையின் அர்த்தம் என்ன?",
+      "options": ["Solar eclipse", "Day on Earth", "Day on Mars", "Type of fuel"],
+      "answer": 2,
+      "explanation": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும்."
+    },
+    {
+      "question": "Which planet is characterized by 'red storms' in the poem? || சிவப்பு புயல்களால் வகைப்படுத்தப்படும் கிரகம் எது?",
+      "options": ["Mars", "Saturn", "Jupiter", "Uranus"],
+      "answer": 2,
+      "explanation": "Jupiter is noted for its red storms. || வியாழன் அதன் மாபெரும் சிவப்புப் புயலுக்குப் பெயர் பெற்றது."
+    },
+    {
+      "question": "Which planet is called the 'blue ice giant'? || 'நீல பனி அரக்கன்' என்று அழைக்கப்படும் கிரகம் எது?",
+      "options": ["Neptune", "Earth", "Uranus", "Saturn"],
+      "answer": 0,
+      "explanation": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த நீல நிறத்தால் இவ்வாறு அழைக்கப்படுகிறது."
+    },
+    {
+      "question": "Which compound word is formed by joining 'Light + House'?",
+      "options": ["Lighthome", "Lighthouse", "Houselight", "Sunlight"],
+      "answer": 1,
+      "explanation": "Light + House forms Lighthouse. || இரண்டு சொற்கள் இணைந்து Lighthouse என்ற கூட்டுச் சொல் உருவாகிறது."
+    }
+  ]
 }
