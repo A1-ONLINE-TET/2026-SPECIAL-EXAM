@@ -202,6 +202,16 @@ export const lessonMap = {
     }
   },
   "english": {
+    "Exploring Space": {
+      "local": true,
+      "filename": "eng_5_t1_l1",
+      "grade": "5"
+    },
+    "eng_5_t1_l1": {
+      "local": true,
+      "filename": "eng_5_t1_l1",
+      "grade": "5"
+    },
     "Prose: Sea Turtles": {
       "local": true,
       "filename": "eng_6_t1_l1",
