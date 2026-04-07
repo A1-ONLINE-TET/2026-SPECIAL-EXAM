@@ -222,6 +222,16 @@ export const lessonMap = {
       "filename": "eng_5_t1_l2",
       "grade": "5"
     },
+    "Patriotism and Duty": {
+      "local": true,
+      "filename": "eng_5_t1_l3",
+      "grade": "5"
+    },
+    "eng_5_t1_l3": {
+      "local": true,
+      "filename": "eng_5_t1_l3",
+      "grade": "5"
+    },
     "Prose: Sea Turtles": {
       "local": true,
       "filename": "eng_6_t1_l1",

@@ -943,6 +943,16 @@ export const syllabusData = {
                 "code": "eng_5_t1_l2"
               }
             ]
+          },
+          {
+            "title": "Unit 3: Patriotism and Duty",
+            "topics": [
+              {
+                "title": "Patriotism and Duty",
+                "isUpdated": true,
+                "code": "eng_5_t1_l3"
+              }
+            ]
           }
         ]
       }
