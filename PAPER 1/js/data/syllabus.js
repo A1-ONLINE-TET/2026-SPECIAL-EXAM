@@ -933,6 +933,16 @@ export const syllabusData = {
                 "code": "eng_5_t1_l1"
               }
             ]
+          },
+          {
+            "title": "Unit 2: My Native Place",
+            "topics": [
+              {
+                "title": "My Native Place",
+                "isUpdated": true,
+                "code": "eng_5_t1_l2"
+              }
+            ]
           }
         ]
       }
