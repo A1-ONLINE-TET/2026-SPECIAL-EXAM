@@ -639,6 +639,31 @@ export const lessonMap = {
       "filename": "mat_5_t1_l1",
       "grade": "5"
     },
+    "mat_5_t1_l2": {
+      "local": true,
+      "filename": "mat_5_t1_l2",
+      "grade": "5"
+    },
+    "mat_5_t1_l3": {
+      "local": true,
+      "filename": "mat_5_t1_l3",
+      "grade": "5"
+    },
+    "mat_5_t1_l4": {
+      "local": true,
+      "filename": "mat_5_t1_l4",
+      "grade": "5"
+    },
+    "mat_5_t1_l5": {
+      "local": true,
+      "filename": "mat_5_t1_l5",
+      "grade": "5"
+    },
+    "mat_5_t1_l6": {
+      "local": true,
+      "filename": "mat_5_t1_l6",
+      "grade": "5"
+    },
     "எண்கள் (Numbers)": {
       "local": true,
       "filename": "mat_6_t1_l1",
