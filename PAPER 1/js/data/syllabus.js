@@ -1460,6 +1460,23 @@ export const syllabusData = {
     ]
   },
   "maths": {
+    "5": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "அலகு 1: வடிவியல்",
+            "topics": [
+              {
+                "title": "1.1 முப்பரிமாண வடிவங்கள் மற்றும் கோணங்கள்",
+                "isUpdated": true,
+                "code": "mat_5_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,

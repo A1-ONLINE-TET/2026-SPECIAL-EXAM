@@ -629,6 +629,16 @@ export const lessonMap = {
   },
   "psychology": {},
   "maths": {
+    "வடிவங்கள்": {
+      "local": true,
+      "filename": "mat_5_t1_l1",
+      "grade": "5"
+    },
+    "mat_5_t1_l1": {
+      "local": true,
+      "filename": "mat_5_t1_l1",
+      "grade": "5"
+    },
     "எண்கள் (Numbers)": {
       "local": true,
       "filename": "mat_6_t1_l1",
