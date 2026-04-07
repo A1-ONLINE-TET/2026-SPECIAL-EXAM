@@ -920,6 +920,23 @@ export const syllabusData = {
     ]
   },
   "english": {
+    "5": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "Unit 1: Exploring Space",
+            "topics": [
+              {
+                "title": "Exploring Space",
+                "isUpdated": true,
+                "code": "eng_5_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,
