@@ -93,7 +93,13 @@
             font-size: 1.35rem;
             border-bottom: 2px solid rgba(0,0,0,0.05);
         }
-        .keyword { color: #db2777; font-weight: 800; }
+        .keyword { color: #e91e63; font-weight: 800; font-style: italic; }
+        .sub-heading { color: #1b5e20; font-weight: 800; font-size: 1.15rem; margin-top: 1rem; margin-bottom: 0.4rem; display: block; border-bottom: 1px dotted #1b5e20; width: fit-content; }
+        
+        .box-blue { border-left: 6px solid #1e3a8a; background: #eff6ff; }
+        .box-green { border-left: 6px solid #166534; background: #f0fdf4; }
+        .box-pink { border-left: 6px solid #be123c; background: #fff1f2; }
+        .box-orange { border-left: 6px solid #ea580c; background: #fff7ed; }
         
         .info-box {
             background: #f0fdf4;
@@ -492,9 +498,10 @@
                         if (sections) {
                             html += sections.map(section => {
                                 let contentHTML = '';
-                                if (section.type === 'infobox') {
+                                if (section.type === 'infobox' || section.type === 'content') {
                                     const contentArray = Array.isArray(section.content) ? section.content : [section.content];
-                                    contentHTML = `<div class="info-box">${contentArray.map(c => `<p>${formatText(c.text || c)}</p>`).join('')}</div>`;
+                                    const boxClass = section.class || (section.type === 'infobox' ? 'info-box' : '');
+                                    contentHTML = `<div class="${boxClass}">${contentArray.map(c => `<p>${formatText(c.text || c)}</p>`).join('')}</div>`;
                                 } else if (section.type === 'evaluation') {
                                     const ed = section.evaluationData;
                                     contentHTML = `<div style="background:#f8fafc; border:1px solid #e2e8f0; padding:1.5rem; border-radius:1rem;">

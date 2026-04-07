@@ -5,6 +5,7 @@ export function formatText(text) {
     // 1. Convert to string and handle Basic HTML/Keywords
     let html = text.toString()
         .replace(/\[\[(.*?)\]\]/g, '<span class="keyword">$1</span>')
+        .replace(/\(\((.*?)\)\)/g, '<span class="sub-heading">$1</span>')
         .replace(/\$(.*?)\$/g, '<span class="math-tex">$1</span>');
 
     // 2. Bilingual English || Tamil logic

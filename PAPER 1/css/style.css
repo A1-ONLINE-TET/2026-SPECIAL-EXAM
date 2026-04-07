@@ -290,11 +290,35 @@ footer {
 }
 
 .keyword {
-    background-color: #fef08a;
-    padding: 0.1rem 0.4rem;
-    border-radius: 0.25rem;
-    font-weight: 700;
+    color: #d81b60; /* Vibrant Pink */
+    font-weight: 800;
 }
+
+.sub-heading {
+    color: #1b5e20; /* Dark Green */
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+.box-premium {
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    border-left: 6px solid var(--primary);
+    border-top: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.box-green { border-left-color: #2e7d32; background: #f1f8e9; }
+.box-blue { border-left-color: #1565c0; background: #e3f2fd; }
+.box-pink { border-left-color: #ad1457; background: #fce4ec; }
+.box-orange { border-left-color: #ef6c00; background: #fff3e0; }
 
 .notes-list {
     list-style: none;

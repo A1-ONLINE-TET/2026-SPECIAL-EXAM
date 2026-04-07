@@ -2,132 +2,54 @@
   "lesson_meta": {
     "title": "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
     "subject": "English",
-    "description": "Exploring the beauty of rural life, nature, and traditional values through a young boy's visit to his grandparents' village. || ஒரு சிறுவன் தனது தாத்தா பாட்டி ஊருக்குச் சென்றதன் மூலம் கிராமத்து வாழ்க்கை மற்றும் இயற்கையின் அழகை அறிதல்."
+    "description": "Beauty of rural life and earthworms. || கிராமத்து இயற்கை மற்றும் மண்புழு."
   },
   "sections": [
     {
-      "title": "Main Theme || முதன்மையானக் கருப்பொருள்",
-      "type": "infobox",
+      "title": "1. PROSE: Trip to Village || 1. உரைநடை: கிராமப் பயணம்",
+      "type": "content",
+      "class": "box-blue",
       "content": [
-        { "text": "This lesson focuses on the beauty of rural life, living in harmony with nature, the benefits of outdoor activities over electronic devices, and the importance of earthworms. || இந்தப் பாடம் கிராமப்புற வாழ்க்கையின் அழகு, இயற்கையோடு இணைந்த வாழ்வு, மற்றும் மண்புழுக்களின் முக்கியத்துவத்தை மையமாகக் கொண்டுள்ளது." }
+        { "text": "((Place:)) [[Sirumalai]] village. || ((இடம்:)) [[சிறுமலை]] கிராமம்." },
+        { "text": "((Hero:)) [[Santhosh]]. || ((நாயகன்:)) [[சந்தோஷ்]]." },
+        { "text": "((Friends:)) [[Paavai]], [[Amir]], [[Peter]], [[Umaiyal]]. || ((நண்பர்கள்:)) [[பாவை]], [[அமீர்]], [[பீட்டர்]], [[உமையாள்]]." }
       ]
     },
     {
-      "title": "1. My Little Pictionary || 1. எனது குட்டிப் பட அகராதி",
+      "title": "2. POEM: Farmer's Friend || 2. கவிதை: விவசாயியின் நண்பன்",
       "type": "content",
+      "class": "box-green",
       "content": [
-        { "text": "Scarecrow: A figure put in a field to frighten birds away. || சோளக்காட்டு பொம்மை: பறவைகளை மிரட்டி விரட்ட வயலில் வைக்கப்படும் உருவம்." },
-        { "text": "Armour: Metal cover worn to protect the body in battle. || கவசம்: போரில் உடலைப் பாதுகாக்க அணியும் உலோக உடை." },
-        { "text": "Plough: Turn up soil with a plough. || ஏர் உழுதல்: ஏர் கொண்டு மண்ணைத் திருப்புதல்." },
-        { "text": "Grains: Wheat or other cereal used as food. || தானியங்கள்: உணவாகப் பயன்படும் தானிய வகைகள்." },
-        { "text": "Bullock cart: A vehicle driven by bulls. || மாட்டு வண்டி: காளைகளால் ஓட்டப்படும் வண்டி." }
+        { "text": "((The Friend:)) The [[earthworm]] is the farmer's friend. || ((நண்பன்:)) [[மண்புழு]] விவசாயியின் நண்பன்." },
+        { "text": "((Morals:)) Do not use chemicals; protect our land. || ((நீதி:)) ரசாயனம் வேண்டாம்; நிலத்தைப் பாதுகாப்போம்." }
       ]
     },
     {
-      "title": "2. Prose: Trip to My Grandparents' Village || 2. உரைநடை: தாத்தா பாட்டி ஊருக்குப் பயணம்",
+      "title": "3. SUPPLEMENTARY: Farmer and Daughters || 3. துணைப்பாடம்: விவசாயியும் மகள்களும்",
       "type": "content",
+      "class": "box-pink",
       "content": [
-        { "text": "Santhosh visits Sirumalai during summer vacation. He sees green paddy fields, white cranes, and scarecrows. || சந்தோஷ் விடுமுறைக்குச் சிறுமலைக்குச் செல்கிறான். அங்கு பச்சை வயல்களையும் கொக்குகளையும் பார்க்கிறான்." },
-        { "text": "He plays with friends Paavai, Amir, Peter, and Umaiyal. He realizes outdoor games are better than video games. || அவன் தனது நண்பர்களுடன் விளையாடுகிறான். வீடியோ கேம்களை விட வெளிப்புற விளையாட்டுகளே சிறந்தது என்று உணர்கிறான்." },
-        { "text": "He enjoys bathing in the clean village river and watching colorful fish. || அவன் சுத்தமான கிராமத்து ஆற்றில் குளிப்பதையும் மீன்களையும் கண்டு மகிழ்கிறான்." }
+        { "text": "((The Test:)) A bag of [[millet]] was given to test responsibility. || ((சோதனை:)) பொறுப்புணர்வைச் சோதிக்க [[தினை]] வழங்கப்பட்டது." },
+        { "text": "((The Winner:)) The [[third daughter]] won by sowing them. || ((வெற்றியாளர்:)) [[மூன்றாவது மகள்]] அவற்றை விதைத்து அறுவடை செய்தாள்." }
       ]
     },
     {
-      "title": "3. Grammar: Singular & Plural || 3. இலக்கணம்: ஒருமை மற்றும் பன்மை",
+      "title": "4. GLOSSARY || 4. கலைச்சொற்க்கள்",
       "type": "content",
+      "class": "box-orange",
       "content": [
-        { "text": "Ending in -f/fe: changes to '-ves' (e.g., Leaf – Leaves, Knife – Knives). || -f/-fe-வில் முடிந்தால் '-ves' என மாறும்." },
-        { "text": "Changing vowels: Tooth – Teeth, Foot – Feet, Woman – Women, Man – Men. || உயிர் எழுத்துக்கள் மாறும்: Tooth – Teeth." },
-        { "text": "Irregular/Identical: Child – Children, Sheep – Sheep, Deer – Deer, Fish - Fish. || ஒழுங்கற்ற மற்றும் மாறாத பன்மை வடிவங்கள்." }
-      ]
-    },
-    {
-      "title": "4. Poem: Farmer’s Friend || 4. கவிதை: விவசாயியின் நண்பன்",
-      "type": "content",
-      "content": [
-        { "text": "The earthworm is the farmer's true friend. It ploughs the soil even before the farmer does. || மண்புழு விவசாயியின் உண்மையான நண்பன். அது விவசாயிக்கு முன்பே மண்ணை உழுகிறது." },
-        { "text": "We should avoid using chemicals to protect the soil (the motherland's armour). || மண்ணைப் பாதுகாக்க ரசாயனங்களைப் பயன்படுத்துவதைத் தவிர்க்க வேண்டும்." }
-      ]
-    },
-    {
-      "title": "5. Supplementary: The Farmer and his Daughters || 5. துணைப்பாடம்: விவசாயியும் அவரது மகள்களும்",
-      "type": "content",
-      "content": [
-        { "text": "A farmer tests his three daughters by giving each a bag of millet. || ஒரு விவசாயி தனது மூன்று மகள்களுக்கும் தினை வழங்கி அவர்களைச் சோதிக்கிறார்." },
-        { "text": "1st daughter fed birds; 2nd daughter gave to community food; 3rd daughter sowed the grains. || முதல் மகள் பறவைகளுக்கு ஊட்டினாள், இரண்டாம் மகள் தானம் செய்தாள், மூன்றாம் மகள் அவற்றை விதைத்தாள்." },
-        { "text": "The 3rd daughter was chosen as the wisest as she increased the wealth. || தானியங்களைப் பெருக்கிய மூன்றாவது மகளே புத்திசாலி எனத் தேர்ந்தெடுக்கப்பட்டார்." }
-      ]
-    },
-    {
-      "title": "Book Back Questions & Answers || புத்தக வினா-விடைகள்",
-      "type": "content",
-      "content": [
-        { "text": "Match: Cuckoo-Sings, Breeze-Blows, River-Flows, Fish-Swims. || பொருத்துக: குயில்-பாடும், தென்றல்-வீசும், ஆறு-ஓடும், மீன்-நீந்தும்." },
-        { "text": "Rhyming: Filth-Wealth, Armour-Farmer, Charm-Harm. || இயைபு: Filth-Wealth, Armour-Farmer." },
-        { "text": "Tenses: Use 'was/were + ing' for Past Continuous and 'will be + ing' for Future Continuous. || இலக்கணம்: கடந்த மற்றும் எதிர்காலத் தொடர் வினைகள்." }
+        { "text": "[[Enchanting]]: Attractive. || [[Enchanting]]: கவர்ச்சிகரமான." },
+        { "text": "[[Threshing]]: Separating grain. || [[Threshing]]: தானியம் பிரித்தல்." },
+        { "text": "[[Armor]]: Protective metal cover. || [[Armor]]: கவசம்." }
       ]
     }
   ],
   "quiz": [
     {
-      "question": "How did Santhosh record his experience of visiting his grandparents' village? || சந்தோஷ் தனது கிராமத்து அனுபவத்தை எப்படிப் பதிவு செய்தான்?",
-      "options": ["Wrote in a notebook", "Recorded as an audio diary on mother's phone", "Typed on a computer", "Wrote a letter"],
-      "answer": 1,
-      "explanation": "Santhosh recorded his experiences as an audio diary using his mother's mobile phone. || அவன் தனது தாயின் செல்போனில் ஆடியோ டைரியாகப் பதிவு செய்தான்."
-    },
-    {
-      "question": "What is the correct plural form of the word 'Fish'? || 'Fish' என்ற சொல்லின் சரியான பன்மை வடிவம் எது?",
-      "options": ["Fishes", "Fishs", "Fish", "Fishies"],
-      "answer": 2,
-      "explanation": "'Fish' has an identical form in both singular and plural. || 'Fish' ஒருமை மற்றும் பன்மை இரண்டுக்கும் ஒரே வடிவத்தைக் கொண்டது."
-    },
-    {
-      "question": "What did the farmer give to his three daughters to test their responsibility? || விவசாயி தன் மகள்களுக்கு எதைக் கொடுத்தார்?",
-      "options": ["Gold", "Money", "A bag of millet", "Land documents"],
-      "answer": 2,
-      "explanation": "The farmer gave each of them a bag of millet. || விவசாயி ஒவ்வொருவருக்கும் ஒரு பை தினை தானியத்தைக் கொடுத்தார்."
-    },
-    {
-      "question": "Who is referred to as the 'Farmer's Friend'? || 'விவசாயியின் நண்பன்' என்று அழைக்கப்படுவது எது?",
+      "question": "Who is the 'Farmer's Friend'? || 'விவசாயியின் நண்பன்' யார்?",
       "options": ["Tractor", "Bull", "Earthworm", "Wind"],
       "answer": 2,
-      "explanation": "The earthworm is the farmer's friend. || மண்புழுவே விவசாயியின் நண்பனாகக் கருதப்படுகிறது."
-    },
-    {
-      "question": "Which auxiliary verb is used in Future Continuous Tense? || வருங்காலத் தொடர் வினைக்கு எந்தத் துணை வினை வரும்?",
-      "options": ["was / were", "am / is / are", "will be", "have been"],
-      "answer": 2,
-      "explanation": "To denote actions in progress in the future, 'will be' is used. || எதிர்காலத் தொடர் செயலுக்கு 'will be' பயன்படுகிறது."
-    },
-    {
-      "question": "Where did Santhosh NOT play during summer vacation? || சந்தோஷ் எங்கு விளையாடவில்லை?",
-      "options": ["Climbing trees", "Playing video games", "Playing hide and seek", "Bathing in river"],
-      "answer": 1,
-      "explanation": "Santhosh did not play video games; he was fully engaged outdoors. || அவன் வீடியோ கேம்களை விளையாடவில்லை; மாறாக வெளியில் விளையாடினான்."
-    },
-    {
-      "question": "What is the correct plural form of 'Leaf'? || 'Leaf' -ன் பன்மை வடிவம் என்ன?",
-      "options": ["Leafs", "Leefs", "Leaves", "Leavs"],
-      "answer": 2,
-      "explanation": "Words ending in 'f' or 'fe' change into 'ves'. || 'f' இல் முடியும் சொற்கள் 'ves' ஆக மாறும்."
-    },
-    {
-      "question": "Which part of the earthworm is seen by people as dirt? || மண்புழுவின் எந்தத் தன்மையை மக்கள் அழுக்காகப் பார்க்கிறார்கள்?",
-      "options": ["Armor", "Filth", "Friend", "Farmer"],
-      "answer": 1,
-      "explanation": "The poem mentions that it is often seen as filth. || கவிதையில் அது 'filth' (அழுக்கு) எனப் பார்க்கப்படுவதாகச் சொல்லப்பட்டுள்ளது."
-    },
-    {
-      "question": "Who was milking cows in the village? || கிராமத்தில் பால் கறக்கும் வேலையைச் செய்தது யார்?",
-      "options": ["Santhosh", "Peter", "Umaiyal", "Amir"],
-      "answer": 3,
-      "explanation": "Amir was milking the cows. || அமீர் பால் கறந்து கொண்டிருந்தான்."
-    },
-    {
-      "question": "What is the meaning of 'Threshing'? || 'Threshing' என்பதன் பொருள் என்ன?",
-      "options": ["Sowing seeds", "Separating grain from crops", "Removing weeds", "Ploughing"],
-      "answer": 1,
-      "explanation": "Threshing means separating grain from crops. || தானியத்தைப் பயிரிலிருந்து பிரித்தலே இதன் பொருள்."
+      "explanation": "The [[earthworm]] is mentioned as the friend in the poem. || [[மண்புழு]] விவசாயியின் நண்பனாகக் கவிதையில் கூறப்படுகிறது."
     }
   ]
 }
