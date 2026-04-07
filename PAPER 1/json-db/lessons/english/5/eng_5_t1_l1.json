@@ -7,21 +7,20 @@
   },
   "sections": [
     {
-      "title": "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
-      "class": "box-blue",
-      "type": "infobox",
-      "content": [
-        { "text": "((Core Theme)): Sustainable living and protecting our home planet (Earth). || ((மையக்கரு)): பூமியைப் பாதுகாப்பதன் அவசியம்." }
-      ]
-    },
-    {
       "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
       "class": "box-pink",
       "type": "content",
       "content": [
-        { "text": "((Setting)): The year [[2068]]. Earth is destroyed by human exploitation. Humans have colonized [[Mars]] (the Red Planet). || ((காலம்]]: கி.பி. [[2068]]. மனிதச் சுரண்டலால் பூமி அழிந்தது. மனிதர்கள் [[செவ்வாய்]] கிரகத்தில் குடியேறினர்." },
-        { "text": "((Characters)): [[Arivumathi]] and her grandfather. Grandfather travels 1500 [[sols]] to visit her. || ((கதாபாத்திரங்கள்]]: [[அறிவுமதி]] மற்றும் அவளது தாத்தா." },
-        { "text": "((Core Message)): We must protect our [[natural home]] (Earth) instead of destroying it. || ((முக்கிய செய்தி]]: பூமியைப் பாதுகாக்க வேண்டும்." }
+        { "text": "((Story Overview || கதை மேலோட்டம்))" },
+        { "text": "🚀 [[Setting/காலம்]]: The year [[2068]]. Earth is completely destroyed due to human exploitation. || ஆண்டு [[2068]]. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது." },
+        { "text": "🛰️ [[New Habitat/புதிய வாழிடம்]]: Humans have colonized [[Mars]] (the Red Planet). India has established three colonies there. || மனிதர்கள் [[செவ்வாய் கிரகத்தில்]] (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது." },
+        { "text": "👨‍👩‍👦 [[Characters/கதாபாத்திரங்கள்]]: [[Arivumathi]] and her grandfather. || [[அறிவுமதி]] மற்றும் அவளது தாத்தா." },
+        { "text": "📖 [[Plot Synopsis/கதைச் சுருக்கம்]]: Grandfather travels [[1500 sols]] (Martian days) to visit Arivumathi for her birthday. He compares the harsh, artificial life on Mars with the beautiful, natural past of Earth. || அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா [[1500 செவ்வாய் நாட்களைக்]] கடந்து பயணம் செய்கிறார். அவர் செவ்வாய் கிரகத்தின் கடினமான வாழ்க்கையை பூமியின் இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்." },
+        { "text": "🌱 [[Core Message/முக்கிய செய்தி]]: We must protect our [[natural home]] (Earth) instead of destroying it and struggling to adapt to dead planets. || நமது இயற்கை இல்லத்தை ([[பூமி]]) அழித்துவிட்டு, உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்." },
+        { "text": "((Key Comparisons (Earth vs. Mars) || முக்கிய ஒப்பீடுகள்))" },
+        { "text": "[[Environment]]: Clean Air (Earth) vs. Toxic Air + [[Space Suit]] (Mars) || [[சுற்றுச்சூழல்]]: தூய்மையான காற்று (பூமி) vs நச்சுக் காற்று + [[விண்வெளி உடை]] (செவ்வாய்)" },
+        { "text": "[[Agriculture]]: Natural Fertile Soil (Earth) vs. Chemically Treated Soil (Mars) || [[விவசாயம்]]: இயற்கை வளமான மண் (பூமி) vs ரசாயன மண் (செவ்வாய்)" },
+        { "text": "[[Water Supply]]: Natural Rain/Rivers (Earth) vs. [[Artificially Generated]] (Mars) || [[நீர் ஆதாரம்]]: இயற்கை மழை/நதிகள் (பூமி) vs [[செயற்கையாக உருவாக்கப்பட்டது]] (செவ்வாய்)" }
       ]
     },
     {
@@ -29,8 +28,16 @@
       "class": "box-orange",
       "type": "content",
       "content": [
-        { "text": "The poet takes an imaginative journey across the [[solar system]]. || கவிஞர் சூரிய குடும்பத்தைச் சுற்றி ஒரு கற்பனைப் பயணம் மேற்கொள்கிறார்." },
-        { "text": "((Planets Mentioned)): [[Mars]] (Red Planet), [[Saturn]] (Magnificent Rings), [[Jupiter]] (Red Storms), [[Uranus]] (Tumbling), [[Neptune]] (Blue Ice Giant). || ((கிரகங்கள்]]: செவ்வாய், சனி, வியாழன், யுரேனஸ், நெப்டியூன்." }
+        { "text": "((Theme || கருப்பொருள்))" },
+        { "text": "A vivid, imaginative journey across the [[solar system]], exploring the unique characteristics of different planets. || சூரிய குடும்பம் முழுவதும் ஒரு தெளிவான, கற்பனைப் பயணம்." },
+        { "text": "((The Cosmic Journey || காஸ்மிக் பயணம்))" },
+        { "text": "🌍 [[1. Earth]]: Leaving behind blue home || [[பூமி]]: நீல இல்லத்தை விட்டு வெளியேறுதல்." },
+        { "text": "🔴 [[2. Mars]]: Gliding past red planet || [[செவ்வாய்]]: சிவப்பு கிரகத்தைக் கடந்து செல்லுதல்." },
+        { "text": "🪐 [[3. Saturn]]: Magnificent rings and moons || [[சனி]]: அழகான வளையங்கள் மற்றும் நிலவுகள்." },
+        { "text": "🌀 [[4. Jupiter]]: Giant with [[red storms]] || [[வியாழன்]]: [[சிவப்பு புயல்களைக்]] கொண்ட அரக்கன்." },
+        { "text": "🔃 [[5. Uranus]]: Tumbling, rolling planet || [[யுரேனஸ்]]: உருளும் கிரகம்." },
+        { "text": "❄️ [[6. Neptune]]: [[Blue ice giant]] || [[நெப்டியூன்]]: [[நீல பனி அரக்கன்]]." },
+        { "text": "🌌 [[7. Destination]]: Infinite universe to meet [[Creator]] || [[முடிவு]]: [[படைப்பாளரைச்]] சந்திக்க எல்லையற்ற பிரபஞ்சம் நோக்கி." }
       ]
     },
     {
@@ -38,8 +45,11 @@
       "class": "box-blue",
       "type": "content",
       "content": [
-        { "text": "((Characters)): [[Amuthan]] and [[Nilavan]]. || ((கதாபாத்திரங்கள்]]: [[அமுதன்]] மற்றும் [[நிலவன்]]." },
-        { "text": "((Event)): They accidentally launch a [[space shuttle]] and meet friendly green [[aliens]]. || ((நிகழ்வு]]: அவர்கள் தவறுதலாக விண்கலத்தை இயக்கி ஏலியன்களைச் சந்தித்தனர்." }
+        { "text": "((Story Overview || கதை மேலோட்டம்))" },
+        { "text": "[[Main Characters]]: [[Amuthan]] and [[Nilavan]]. || [[கதாபாத்திரங்கள்]]: [[அமுதன்]] மற்றும் [[நிலவன்]]." },
+        { "text": "[[The Incident]]: While visiting a space museum, they accidentally lock themselves inside a [[space shuttle]] and launch into space. || விண்வெளி அருங்காட்சியகத்தில் இருந்த [[விண்வெளி ஓடத்தில்]] தங்களை பூட்டிக் கொண்டு தவறுதலாக விண்ணில் பறந்தனர்." },
+        { "text": "[[The Climax]]: Shuttle crash-lands on a strange planet. They meet friendly green [[aliens]]. || ஒரு விசித்திரக் கிரகத்தில் விண்கலம் மோதியது. அங்கு நட்புமிக்க [[ஏலியன்களைச்]] சந்தித்தனர்." },
+        { "text": "[[Resolution]]: Aliens repair their shuttle and guide them safely back to Earth. || ஏலியன்கள் விண்கலத்தை சரிசெய்து அவர்களைப் பூமிக்குத் திருப்பி அனுப்பின." }
       ]
     },
     {
@@ -48,9 +58,15 @@
       "type": "content",
       "content": [
         { "text": "[[Sol]]: Martian day (Day on Mars). || [[Sol]]: செவ்வாய் கிரகத்தின் ஒரு நாள்." },
-        { "text": "[[Desolated]]: Ruined, uninhabitable. || [[பாழடைந்த]]: வாழத் தகுதியற்ற." },
+        { "text": "[[Desolated]]: Ruined, empty, uninhabitable. || [[பாழடைந்த]]: பாழான, வாழத் தகுதியற்ற." },
+        { "text": "[[Hub]]: Central living space / settlement. || [[மையப்பகுதி]]: தங்கும் குடியிருப்பு." },
         { "text": "[[Space suit]]: Pressurized suit for astronauts. || [[விண்வெளி உடை]]: விண்வெளி வீரர்களுக்கான உடை." },
-        { "text": "[[Galaxy]]: Massive system of billions of stars. || [[பேரண்டம்]]: விண்மீன் மண்டலம்." }
+        { "text": "[[Capsule]]: Cylinder-shaped bed for sleeping. || [[காப்ஸ்யூல்]]: உறங்கும் உருளை வடிவப் படுக்கை." },
+        { "text": "[[Astonished]]: Greatly surprised / amazed. || [[வியப்பு]]: மிகவும் ஆச்சரியப்பட்ட." },
+        { "text": "[[Fossil Fuel]]: Ancient organic fuel (Coal/Oil). || [[புதைபடிவ எரிபொருள்]]: நிலக்கரி/எண்ணெய்." },
+        { "text": "[[Adapted]]: Adjusted to survive in new conditions. || [[தகவமைத்தல்]]: புதிய சூழ்நிலைக்கு ஏற்ப மாறுதல்." },
+        { "text": "[[Galaxy]]: Massive system of billions of stars. || [[பேரண்டம்]]: விண்மீன் மண்டலம்." },
+        { "text": "[[Milky Way]]: Galaxy containing our Solar System. || [[பால்வெளி மண்டலம்]]: நமது சூரிய குடும்பம் உள்ள மண்டலம்." }
       ]
     },
     {
@@ -58,9 +74,28 @@
       "class": "box-orange",
       "type": "content",
       "content": [
-        { "text": "((Compound Words)): Sunflower, Watchman, Starfish. || ((கூட்டுச் சொற்கள்]]: சூரியகாந்தி, காவலாளி." },
-        { "text": "((Collective Nouns)): Flock (birds), Swarm (bees), Army (ants). || ((தொகுப்புப் பெயர்]]: கொக்கு கூட்டம், தேனீக்கள் மொய்ப்பு." },
-        { "text": "((Abstract Nouns)): Happiness, Freedom, Honesty. || ((பண்புப் பெயர்]]: மகிழ்ச்சி, சுதந்திரம்." }
+        { "text": "((A. Compound Words || கூட்டுச் சொற்கள்))" },
+        { "text": "[[Sunflower]], [[Lighthouse]], [[Mailbox]], [[Watchman]], [[Starfish]], [[Rainbow]], [[Football]]. || இரண்டு தனித்தனி சொற்கள் இணைந்து புதிய சொல்லாகுதல்." },
+        { "text": "((B. Nouns || பெயர்ச்சொற்கள்))" },
+        { "text": "[[Collective Noun]]: Flock (birds), Swarm (bees), Bunch (grapes), Army (ants), Herd (cattle), Choir (singers). || [[தொகுப்புப் பெயர்]]: ஒரு தொகுதியைக் குறிக்கும் பெயர்." },
+        { "text": "[[Abstract Noun]]: Happiness, Freedom, Honesty, Bravery, Kindness. || [[பண்புப் பெயர்]]: தொட்டுணர முடியாத பண்பு அல்லது உணர்ச்சி." }
+      ]
+    },
+    {
+      "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
+      "class": "box-blue",
+      "type": "content",
+      "content": [
+        { "text": "[[Q1]]: What is the setting of 'Earth, the Desolated Home'? || 'Earth, the Desolated Home' கதையின் காலம் எது?" },
+        { "text": "[[Ans]]: The story is set in [[2068]] on planet Mars after humans destroyed Earth. || கி.பி. [[2068]] ஆண்டில் மனிதர்கள் பூமியை அழித்த பிறகு செவ்வாய் கிரகத்தில் கதை நடக்கிறது." },
+        { "text": "[[Q2]]: How long did it take for grandfather to reach? || தாத்தா வர எவ்வளவு காலம் ஆனது?" },
+        { "text": "[[Ans]]: It took [[1500 sols]] (Martian days) for grandfather to travel. || தாத்தா வர [[1500 செவ்வாய் நாட்கள்]] ஆனது." },
+        { "text": "[[Q3]]: How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உருவாகிறது?" },
+        { "text": "[[Ans]]: Water on Mars is artificially produced by [[burning fuels]]. || செவ்வாய் கிரகத்தில் [[எரிபொருட்களை எரிப்பதன்]] மூலம் தண்ணீர் உருவாகிறது." },
+        { "text": "[[Q4]]: Name planets mentioned in 'Beyond the Universe'. || கவிதையில் கூறப்பட்டுள்ள கிரகங்கள் யாவை?" },
+        { "text": "[[Ans]]: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன்." },
+        { "text": "[[Q5]]: How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் பூமிக்கு எப்படி திரும்பினர்?" },
+        { "text": "[[Ans]]: Friendly green [[aliens]] repaired their space shuttle and guided them home. || பச்சை நிற [[ஏலியன்கள்]] விண்கலத்தை சரிசெய்து வழிநடத்தின." }
       ]
     }
   ],
@@ -84,7 +119,7 @@
       { "question": "Which planet has 'magnificent rings'?", "options": ["A) Earth", "B) Mars", "C) Saturn", "D) Jupiter"], "answer": 2, "explanation": "Saturn is famous for its magnificent rings." },
       { "question": "Which planet is 'tumbling and rolling'?", "options": ["A) Jupiter", "B) Uranus", "C) Neptune", "D) Mercury"], "answer": 1, "explanation": "Uranus is described as tumbling and rolling." },
       { "question": "Meaning of 'Desolated'?", "options": ["A) Beautiful", "B) Crowded", "C) Uninhabitable/Ruined || இ) பாழடைந்த", "D) Lush green"], "answer": 2, "explanation": "Desolated means empty, ruined, and uninhabitable." },
-      { "question": "What is true about Martian vegetables? || செவ்வாய் காயறிகள் பற்றிய உண்மை என்ன?", "options": ["A) Tastier than Earth's", "B) No real flavor || ஆ) நிஜமான சுவை இல்லை", "C) Very sweet", "D) Very colorful"], "answer": 1, "explanation": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை." },
+      { "question": "What is true about Martian vegetables? || செவ்வாய் காய்கறிகள் பற்றிய உண்மை என்ன?", "options": ["A) Tastier than Earth's", "B) No real flavor || ஆ) நிஜமான சுவை இல்லை", "C) Very sweet", "D) Very colorful"], "answer": 1, "explanation": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை." },
       { "question": "Sun + Flower = ?", "options": ["A) Flowersun", "B) Sunplant", "C) Sunflower", "D) Sunlight"], "answer": 2, "explanation": "Sunflower is the compound word." },
       { "question": "Star + Fish = ?", "options": ["A) Fishstar", "B) Starfish", "C) Seastar", "D) Shine"], "answer": 1, "explanation": "Starfish is the result." },
       { "question": "Collective noun for birds?", "options": ["A) Swarm", "B) Flock", "C) Herd", "D) Army"], "answer": 1, "explanation": "A group of birds is a flock." },
