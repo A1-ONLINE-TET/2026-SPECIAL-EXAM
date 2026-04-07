@@ -78,7 +78,21 @@
             transition: color 0.4s ease;
         }
 
-        .section-body { font-size: 1.1rem; line-height: 1.8; color: var(--text-main); text-align: justify; }
+        .section-body { 
+            font-size: 1.3rem; 
+            line-height: 1.8; 
+            color: #334155; /* Slate 700 for better readability */
+            text-align: justify; 
+            margin-bottom: 2rem;
+        }
+        .section-body strong { 
+            color: var(--primary); 
+            font-weight: 900; 
+            display: inline-block; 
+            margin-bottom: 0.2rem;
+            font-size: 1.35rem;
+            border-bottom: 2px solid rgba(0,0,0,0.05);
+        }
         .keyword { color: #db2777; font-weight: 800; }
         
         .info-box {
