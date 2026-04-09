@@ -280,45 +280,67 @@ footer {
     line-height: 1.5;
 }
 
+/* premium lesson notes enhacements */
 .section-title {
     color: var(--primary-dark);
-    border-left: 6px solid var(--primary-dark);
-    padding-left: 0.9rem;
-    margin-bottom: 1.1rem;
+    border-left: 6px solid var(--accent);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
     font-weight: 800;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
+    background: linear-gradient(to right, var(--primary-light), transparent);
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .keyword {
-    color: #d81b60; /* Vibrant Pink */
+    color: #e91e63; /* Premium Vibrant Pink */
     font-weight: 800;
+    padding: 0 2px;
 }
 
 .sub-heading {
-    color: #1b5e20; /* Dark Green */
+    color: #065f46; /* Better Deep Teal/Green */
     font-weight: 800;
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.15rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
     display: block;
+    border-bottom: 2px solid #a7f3d0;
+    width: fit-content;
+    padding-right: 1.5rem;
 }
 
 .box-premium {
     background: #ffffff;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: var(--shadow);
-    border-left: 6px solid var(--primary);
-    border-top: 1px solid var(--border);
-    border-right: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    border-radius: 1.25rem;
+    padding: 1.75rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--border);
+    transition: var(--transition);
 }
 
-.box-green { border-left-color: #2e7d32; background: #f1f8e9; }
-.box-blue { border-left-color: #1565c0; background: #e3f2fd; }
-.box-pink { border-left-color: #ad1457; background: #fce4ec; }
-.box-orange { border-left-color: #ef6c00; background: #fff3e0; }
+.box-premium:hover {
+    transform: translateX(4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.box-green { 
+    border-top: 5px solid #10b981; 
+    background: linear-gradient(to bottom right, #f0fdf4, #ffffff); 
+}
+.box-blue { 
+    border-top: 5px solid #3b82f6; 
+    background: linear-gradient(to bottom right, #eff6ff, #ffffff); 
+}
+.box-pink { 
+    border-top: 5px solid #ec4899; 
+    background: linear-gradient(to bottom right, #fdf2f8, #ffffff); 
+}
+.box-orange { 
+    border-top: 5px solid #f97316; 
+    background: linear-gradient(to bottom right, #fff7ed, #ffffff); 
+}
 
 .notes-list {
     list-style: none;
