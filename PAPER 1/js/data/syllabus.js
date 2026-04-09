@@ -2744,12 +2744,12 @@ export const syllabusData = {
               },
               {
                 "title": "3. வேலையும் ஆற்றலும் (Work and Energy)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_4_t1_l3"
               },
               {
                 "title": "4. அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_4_t1_l4"
               }
             ]
