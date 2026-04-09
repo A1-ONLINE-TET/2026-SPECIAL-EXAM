@@ -494,6 +494,46 @@ export const lessonMap = {
     }
   },
   "science": {
+    "1. எனது உடல் (My Body)": {
+      "local": true,
+      "filename": "sci_4_t1_l1",
+      "grade": "4"
+    },
+    "sci_4_t1_l1": {
+      "local": true,
+      "filename": "sci_4_t1_l1",
+      "grade": "4"
+    },
+    "2. பருப்பொருளும் பொருட்களும் (Matter and Materials)": {
+      "local": true,
+      "filename": "sci_4_t1_l2",
+      "grade": "4"
+    },
+    "sci_4_t1_l2": {
+      "local": true,
+      "filename": "sci_4_t1_l2",
+      "grade": "4"
+    },
+    "3. வேலையும் ஆற்றலும் (Work and Energy)": {
+      "local": true,
+      "filename": "sci_4_t1_l3",
+      "grade": "4"
+    },
+    "sci_4_t1_l3": {
+      "local": true,
+      "filename": "sci_4_t1_l3",
+      "grade": "4"
+    },
+    "4. அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)": {
+      "local": true,
+      "filename": "sci_4_t1_l4",
+      "grade": "4"
+    },
+    "sci_4_t1_l4": {
+      "local": true,
+      "filename": "sci_4_t1_l4",
+      "grade": "4"
+    },
     "1. அளவீட்டியல்": {
       "local": true,
       "filename": "sci_8_l1",

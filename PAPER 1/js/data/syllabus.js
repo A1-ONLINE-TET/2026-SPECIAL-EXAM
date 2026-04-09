@@ -2725,6 +2725,38 @@ export const syllabusData = {
     ]
   },
   "science": {
+    "4": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடங்கள் (Term 1)",
+            "topics": [
+              {
+                "title": "1. எனது உடல் (My Body)",
+                "isUpdated": true,
+                "code": "sci_4_t1_l1"
+              },
+              {
+                "title": "2. பருப்பொருளும் பொருட்களும் (Matter and Materials)",
+                "isUpdated": true,
+                "code": "sci_4_t1_l2"
+              },
+              {
+                "title": "3. வேலையும் ஆற்றலும் (Work and Energy)",
+                "isUpdated": false,
+                "code": "sci_4_t1_l3"
+              },
+              {
+                "title": "4. அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)",
+                "isUpdated": false,
+                "code": "sci_4_t1_l4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,
