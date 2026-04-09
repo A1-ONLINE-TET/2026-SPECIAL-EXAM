@@ -3145,6 +3145,33 @@ export const syllabusData = {
     ]
   },
   "social": {
+    "4": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடங்கள் (Term 1)",
+            "topics": [
+              {
+                "title": "1. ஆற்றங்கரை அரசுகள்",
+                "isUpdated": true,
+                "code": "soc_4_t1_l1"
+              },
+              {
+                "title": "2. ஐவகை நிலங்கள்",
+                "isUpdated": true,
+                "code": "soc_4_t1_l2"
+              },
+              {
+                "title": "3. நகராட்சி மற்றும் மாநகராட்சி",
+                "isUpdated": true,
+                "code": "soc_4_t1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,

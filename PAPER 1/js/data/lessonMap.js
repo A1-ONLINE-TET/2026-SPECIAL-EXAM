@@ -586,6 +586,36 @@ export const lessonMap = {
     }
   },
   "social": {
+    "1. ஆற்றங்கரை அரசுகள்": {
+      "local": true,
+      "filename": "soc_4_t1_l1",
+      "grade": "4"
+    },
+    "soc_4_t1_l1": {
+      "local": true,
+      "filename": "soc_4_t1_l1",
+      "grade": "4"
+    },
+    "2. ஐவகை நிலங்கள்": {
+      "local": true,
+      "filename": "soc_4_t1_l2",
+      "grade": "4"
+    },
+    "soc_4_t1_l2": {
+      "local": true,
+      "filename": "soc_4_t1_l2",
+      "grade": "4"
+    },
+    "3. நகராட்சி மற்றும் மாநகராட்சி": {
+      "local": true,
+      "filename": "soc_4_t1_l3",
+      "grade": "4"
+    },
+    "soc_4_t1_l3": {
+      "local": true,
+      "filename": "soc_4_t1_l3",
+      "grade": "4"
+    },
     "வரலாறு - ஐரோப்பியர்களின் வருகை": {
       "local": true,
       "filename": "soc_8_l1",
