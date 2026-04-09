@@ -5,7 +5,8 @@
     "grade": "4",
     "term": "1",
     "subject": "Science",
-    "code": "sci_4_t1_l2"
+    "code": "sci_4_t1_l2",
+    "status": "final"
   },
   "material": {
     "sections": [
