@@ -282,7 +282,7 @@ footer {
 
 /* premium lesson notes enhacements */
 .section-title {
-    color: var(--primary-dark);
+    color: #dc2626; /* Premium Red */
     border-left: 6px solid var(--accent);
     padding: 0.6rem 1.2rem;
     margin-bottom: 1.75rem;
@@ -299,13 +299,13 @@ footer {
 }
 
 .sub-heading {
-    color: #065f46; /* Better Deep Teal/Green */
+    color: #2563eb; /* Premium Blue */
     font-weight: 800;
     font-size: 1.35rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
     display: block;
-    border-bottom: 3px solid #a7f3d0;
+    border-bottom: 3px solid #dbeafe;
     width: fit-content;
     padding-right: 2rem;
 }
