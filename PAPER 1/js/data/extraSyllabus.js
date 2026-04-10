@@ -54,6 +54,11 @@ export const extraSyllabusData = {
                 "title": "கற்றல் கோட்பாடுகள் (Learning Principles)",
                 "isUpdated": true,
                 "code": "psy_6_l2"
+              },
+              {
+                "title": "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)",
+                "isUpdated": true,
+                "code": "psy_6_l3"
               }
             ]
           }
