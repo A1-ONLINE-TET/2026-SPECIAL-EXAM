@@ -49,6 +49,11 @@ export const extraSyllabusData = {
                 "title": "பின் குழந்தைப்பருவம் (Later Childhood)",
                 "isUpdated": true,
                 "code": "psy_6_l1"
+              },
+              {
+                "title": "கற்றல் கோட்பாடுகள் (Learning Principles)",
+                "isUpdated": true,
+                "code": "psy_6_l2"
               }
             ]
           }
