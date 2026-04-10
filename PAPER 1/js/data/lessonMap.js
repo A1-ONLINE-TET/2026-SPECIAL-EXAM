@@ -697,7 +697,13 @@ export const lessonMap = {
       "grade": "8"
     }
   },
-  "psychology": {},
+  "psychology": {
+    "psy_6_l1": {
+      "local": true,
+      "filename": "psy_6_l1",
+      "grade": "6"
+    }
+  },
   "maths": {
     "வடிவங்கள்": {
       "local": true,

@@ -36,5 +36,24 @@ export const extraSyllabusData = {
         ]
       }
     ]
+  },
+  "psychology": {
+    "all": [
+      {
+        "term": "உளவியல் (Psychology)",
+        "units": [
+          {
+            "title": "குழந்தை மேம்பாடு மற்றும் கற்பித்தல்",
+            "topics": [
+              {
+                "title": "பின் குழந்தைப்பருவம் (Later Childhood)",
+                "isUpdated": true,
+                "code": "psy_6_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 };
