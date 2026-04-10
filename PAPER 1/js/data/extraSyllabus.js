@@ -8,12 +8,12 @@ export const extraSyllabusData = {
             "title": "திருப்புதல் பகுதி (Revision Section)",
             "topics": [
               {
-                "title": "பாடக்குறிப்புகள் (180 வினாக்கள் தொகுப்பு)",
+                "title": "திருப்புதல் தேர்வு 1",
                 "isUpdated": true,
                 "code": "rev_special_180"
               },
               {
-                "title": "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)",
+                "title": "திருப்புதல் தேர்வு 2",
                 "isUpdated": true,
                 "code": "mock_test_2"
               }
@@ -37,7 +37,7 @@ export const extraSyllabusData = {
                 "code": "mock_test_1"
               },
               {
-                "title": "மாதிரித்தேர்வு 2",
+                "title": "திருப்புதல் தேர்வு 2",
                 "isUpdated": true,
                 "code": "mock_test_2"
               }
