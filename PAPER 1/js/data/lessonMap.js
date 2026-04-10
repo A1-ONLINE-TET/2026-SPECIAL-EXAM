@@ -712,6 +712,11 @@ export const lessonMap = {
       "local": true,
       "filename": "psy_6_l3",
       "grade": "6"
+    },
+    "psy_6_l4": {
+      "local": true,
+      "filename": "psy_6_l4",
+      "grade": "6"
     }
   },
   "maths": {

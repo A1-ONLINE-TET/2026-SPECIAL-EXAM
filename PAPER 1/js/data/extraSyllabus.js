@@ -59,6 +59,11 @@ export const extraSyllabusData = {
                 "title": "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)",
                 "isUpdated": true,
                 "code": "psy_6_l3"
+              },
+              {
+                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory)",
+                "isUpdated": true,
+                "code": "psy_6_l4"
               }
             ]
           }
