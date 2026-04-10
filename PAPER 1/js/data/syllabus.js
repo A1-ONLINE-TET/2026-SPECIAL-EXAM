@@ -3731,53 +3731,7 @@ export const syllabusData = {
         "units": [
           {
             "title": "உளவியல்",
-            "topics": [
-              {
-                "title": "1. குழந்தை வளர்ச்சி மற்றும் முன்னேற்றம்",
-                "isUpdated": false,
-                "code": "psy_6_l1"
-              },
-              {
-                "title": "2. கவனம், புலன்காட்சி மற்றும் நினைவு",
-                "isUpdated": false,
-                "code": "psy_6_l2"
-              },
-              {
-                "title": "3. ஊக்கமுடைமை மற்றும் கற்றல்",
-                "isUpdated": false,
-                "code": "psy_6_l3"
-              },
-              {
-                "title": "4. நுண்ணறிவு மற்றும் படைப்பாற்றல்",
-                "isUpdated": false,
-                "code": "psy_6_l4"
-              },
-              {
-                "title": "5. ஆளுமை",
-                "isUpdated": false,
-                "code": "psy_6_l5"
-              },
-              {
-                "title": "6. குழந்தை வளர்ச்சிக்கான சமூகமயமாக்கல் முகமைகள்",
-                "isUpdated": false,
-                "code": "psy_6_l6"
-              },
-              {
-                "title": "7. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி I",
-                "isUpdated": false,
-                "code": "psy_6_l7"
-              },
-              {
-                "title": "8. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி II",
-                "isUpdated": false,
-                "code": "psy_6_l8"
-              },
-              {
-                "title": "9. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி III",
-                "isUpdated": false,
-                "code": "psy_6_l9"
-              }
-            ]
+            "topics": []
           }
         ]
       }
@@ -3788,53 +3742,7 @@ export const syllabusData = {
         "units": [
           {
             "title": "உளவியல்",
-            "topics": [
-              {
-                "title": "1. குழந்தை வளர்ச்சி மற்றும் முன்னேற்றம்",
-                "isUpdated": false,
-                "code": "psy_7_l1"
-              },
-              {
-                "title": "2. கவனம், புலன்காட்சி மற்றும் நினைவு",
-                "isUpdated": false,
-                "code": "psy_7_l2"
-              },
-              {
-                "title": "3. ஊக்கமுடைமை மற்றும் கற்றல்",
-                "isUpdated": false,
-                "code": "psy_7_l3"
-              },
-              {
-                "title": "4. நுண்ணறிவு மற்றும் படைப்பாற்றல்",
-                "isUpdated": false,
-                "code": "psy_7_l4"
-              },
-              {
-                "title": "5. ஆளுமை",
-                "isUpdated": false,
-                "code": "psy_7_l5"
-              },
-              {
-                "title": "6. குழந்தை வளர்ச்சிக்கான சமூகமயமாக்கல் முகமைகள்",
-                "isUpdated": false,
-                "code": "psy_7_l6"
-              },
-              {
-                "title": "7. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி I",
-                "isUpdated": false,
-                "code": "psy_7_l7"
-              },
-              {
-                "title": "8. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி II",
-                "isUpdated": false,
-                "code": "psy_7_l8"
-              },
-              {
-                "title": "9. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி III",
-                "isUpdated": false,
-                "code": "psy_7_l9"
-              }
-            ]
+            "topics": []
           }
         ]
       }
@@ -3845,53 +3753,7 @@ export const syllabusData = {
         "units": [
           {
             "title": "உளவியல்",
-            "topics": [
-              {
-                "title": "1. குழந்தை வளர்ச்சி மற்றும் முன்னேற்றம்",
-                "isUpdated": false,
-                "code": "psy_8_l1"
-              },
-              {
-                "title": "2. கவனம், புலன்காட்சி மற்றும் நினைவு",
-                "isUpdated": false,
-                "code": "psy_8_l2"
-              },
-              {
-                "title": "3. ஊக்கமுடைமை மற்றும் கற்றல்",
-                "isUpdated": false,
-                "code": "psy_8_l3"
-              },
-              {
-                "title": "4. நுண்ணறிவு மற்றும் படைப்பாற்றல்",
-                "isUpdated": false,
-                "code": "psy_8_l4"
-              },
-              {
-                "title": "5. ஆளுமை",
-                "isUpdated": false,
-                "code": "psy_8_l5"
-              },
-              {
-                "title": "6. குழந்தை வளர்ச்சிக்கான சமூகமயமாக்கல் முகமைகள்",
-                "isUpdated": false,
-                "code": "psy_8_l6"
-              },
-              {
-                "title": "7. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி I",
-                "isUpdated": false,
-                "code": "psy_8_l7"
-              },
-              {
-                "title": "8. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி II",
-                "isUpdated": false,
-                "code": "psy_8_l8"
-              },
-              {
-                "title": "9. கற்பித்தல் சார்ந்த அக்கறைகள் – பகுதி III",
-                "isUpdated": false,
-                "code": "psy_8_l9"
-              }
-            ]
+            "topics": []
           }
         ]
       }
