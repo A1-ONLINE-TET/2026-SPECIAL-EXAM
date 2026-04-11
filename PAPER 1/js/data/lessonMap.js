@@ -616,6 +616,16 @@ export const lessonMap = {
       "filename": "soc_4_t1_l3",
       "grade": "4"
     },
+    "வரலாறு என்றால் என்ன?": {
+      "local": true,
+      "filename": "soc_6_t1_l1",
+      "grade": "6"
+    },
+    "soc_6_t1_l1": {
+      "local": true,
+      "filename": "soc_6_t1_l1",
+      "grade": "6"
+    },
     "வரலாறு - ஐரோப்பியர்களின் வருகை": {
       "local": true,
       "filename": "soc_8_l1",
