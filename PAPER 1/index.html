@@ -144,7 +144,8 @@
         }
 
         .navbar {
-            position: relative;
+            position: sticky;
+            top: 0;
             z-index: 1000;
             background: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -218,6 +219,10 @@
             margin-top: 0.5rem;
         }
 
+        @keyframes pulseMobile {
+            from { transform: scale(1); opacity: 1; }
+            to { transform: scale(1.05); opacity: 0.8; }
+        }
     </style>
 </head>
 <body>
@@ -231,6 +236,7 @@
                 <div style="display: flex; flex-direction: column; justify-content: center;">
                     <span style="font-size: 1.6rem; font-weight: 800; color: var(--text-main); line-height: 1; letter-spacing: -0.05em;">COACHING</span>
                     <span style="font-size: 0.7rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.1rem;">TNPSC & TET EXPERTS</span>
+                    <span style="font-size: 0.9rem; font-weight: 800; color: #16a34a; margin-top: 0.3rem; animation: pulseMobile 1.5s infinite alternate;">📞 6369371452</span>
                 </div>
             </a>
             <div class="nav-actions">
