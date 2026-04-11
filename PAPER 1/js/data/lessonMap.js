@@ -818,6 +818,11 @@ export const lessonMap = {
       "local": true,
       "filename": "mock_test_1",
       "grade": "all"
+    },
+    "model_test_2": {
+      "local": true,
+      "filename": "model_test_2",
+      "grade": "all"
     }
   }
 };
