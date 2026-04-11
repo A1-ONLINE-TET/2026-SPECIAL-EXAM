@@ -824,5 +824,12 @@ export const lessonMap = {
       "filename": "model_test_2",
       "grade": "all"
     }
+  },
+  "standard_6_7_8": {
+    "sample_6_tam_1": {
+      "local": true,
+      "filename": "sample_6_tam_1",
+      "grade": "6"
+    }
   }
 };

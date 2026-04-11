@@ -382,7 +382,8 @@
                     'social': paper === '1' ? 'சமூகவியல் (Social)' : 'சமூக அறிவியல் (Social)',
                     'psychology': 'உளவியல் (Psychology)',
                     'revision': 'திருப்புதல் தேர்வு (Revision)',
-                    'mocktest': 'மாதிரித்தேர்வு (Mock Exam)'
+                    'mocktest': 'மாதிரித்தேர்வு (Mock Exam)',
+                    'standard_6_7_8': '6, 7, 8 வகுப்புகள் (Exams)'
                 };
 
                 const titleEl = document.getElementById('subjectTitle');
@@ -397,6 +398,10 @@
                 if (subject === 'psychology' || subject === 'revision' || subject === 'mocktest') {
                     allowedClasses = ['all'];
                     currentClass = 'all';
+                    useData = extraSyllabusData;
+                }
+                else if (subject === 'standard_6_7_8') {
+                    allowedClasses = ['6', '7', '8'];
                     useData = extraSyllabusData;
                 }
                 else if (paper === '1') {
@@ -414,7 +419,7 @@
                         <div style="text-align:center;padding:4rem;color:#64748b;">
                             <div style="font-size:3rem;margin-bottom:1rem;">📂</div>
                             <b style="color:var(--primary);">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
-                            விரைவில் பதிவேற்றப்படும். (Class ${currentClass} data pending)
+                            விரைவில் தேர்வுகளுக்காக பதிவேற்றப்படும்.
                         </div>`;
                         return;
                     }
@@ -447,11 +452,12 @@
                                     </div>
                                     ${isReady ? `
                                     <div class="btn-group">
+                                        ${subject !== 'standard_6_7_8' ? `
                                         <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
                                             பாடக்குறிப்புகள்
-                                        </a>
-                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
-                                            தேர்வு
+                                        </a>` : ''}
+                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" style="${subject === 'standard_6_7_8' ? 'width:100%; flex:none; max-width:100%; text-align:center;' : ''}" onclick="event.stopPropagation()">
+                                            தேர்வு எழுதுக
                                         </a>
                                     </div>` : ''}
                                 </div>`;
