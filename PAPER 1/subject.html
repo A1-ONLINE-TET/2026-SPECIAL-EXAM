@@ -395,13 +395,9 @@
                 let allowedClasses = ['6', '7', '8'];
                 let useData = syllabusData;
 
-                if (subject === 'psychology' || subject === 'revision' || subject === 'mocktest') {
+                if (subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
                     allowedClasses = ['all'];
                     currentClass = 'all';
-                    useData = extraSyllabusData;
-                }
-                else if (subject === 'standard_6_7_8') {
-                    allowedClasses = ['6', '7', '8'];
                     useData = extraSyllabusData;
                 }
                 else if (paper === '1') {
@@ -452,12 +448,11 @@
                                     </div>
                                     ${isReady ? `
                                     <div class="btn-group">
-                                        ${subject !== 'standard_6_7_8' ? `
                                         <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
                                             பாடக்குறிப்புகள்
-                                        </a>` : ''}
-                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" style="${subject === 'standard_6_7_8' ? 'width:100%; flex:none; max-width:100%; text-align:center;' : ''}" onclick="event.stopPropagation()">
-                                            தேர்வு எழுதுக
+                                        </a>
+                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                            தேர்வு
                                         </a>
                                     </div>` : ''}
                                 </div>`;
@@ -470,7 +465,7 @@
                 };
 
                 const setupTabs = () => {
-                    if (!classToggleEl || subject === 'psychology' || subject === 'revision' || subject === 'mocktest') {
+                    if (!classToggleEl || subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
                         if (classToggleWrap) classToggleWrap.style.display = 'none';
                         return;
                     }

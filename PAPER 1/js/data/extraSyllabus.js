@@ -82,56 +82,22 @@ export const extraSyllabusData = {
     ]
   },
   "standard_6_7_8": {
-    "6": [
+    "all": [
       {
-        "term": "மாதிரி தேர்வுகள் (Sample Exams)",
+        "term": "முக்கிய குறிப்புகள் (Important Notes)",
         "units": [
           {
-            "title": "தமிழ் - 6 ஆம் வகுப்பு",
+            "title": "6, 7, 8 ஆம் வகுப்பு",
             "topics": [
               {
-                "title": "இயல் 1 - மாதிரி தேர்வு",
+                "title": "முக்கிய குறிப்புகள் - பகுதி 1",
                 "isUpdated": true,
-                "code": "sample_6_tam_1"
+                "code": "sample_678_notes_1"
               },
               {
-                "title": "இயல் 2 - மாதிரி தேர்வு",
-                "isUpdated": false,
-                "code": "sample_6_tam_2"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "7": [
-      {
-        "term": "மாதிரி தேர்வுகள் (Sample Exams)",
-        "units": [
-          {
-            "title": "தமிழ் - 7 ஆம் வகுப்பு",
-            "topics": [
-              {
-                "title": "இயல் 1 - முழுமையான தேர்வு",
-                "isUpdated": false,
-                "code": "sample_7_tam_1"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "8": [
-      {
-        "term": "மாதிரி தேர்வுகள் (Sample Exams)",
-        "units": [
-          {
-            "title": "அறிவியல் - 8 ஆம் வகுப்பு",
-            "topics": [
-              {
-                "title": "அளவீட்டியல் - சிறப்பு தேர்வு",
-                "isUpdated": false,
-                "code": "sample_8_sci_1"
+                "title": "முக்கிய குறிப்புகள் - பகுதி 2",
+                "isUpdated": true,
+                "code": "sample_678_notes_2"
               }
             ]
           }

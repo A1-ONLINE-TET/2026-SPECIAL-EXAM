@@ -826,10 +826,15 @@ export const lessonMap = {
     }
   },
   "standard_6_7_8": {
-    "sample_6_tam_1": {
+    "sample_678_notes_1": {
       "local": true,
-      "filename": "sample_6_tam_1",
-      "grade": "6"
+      "filename": "sample_678_notes_1",
+      "grade": "all"
+    },
+    "sample_678_notes_2": {
+      "local": true,
+      "filename": "sample_678_notes_2",
+      "grade": "all"
     }
   }
 };
