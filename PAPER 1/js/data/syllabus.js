@@ -992,6 +992,43 @@ export const syllabusData = {
     ]
   },
   "english": {
+    "4": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "Unit 1",
+            "topics": [
+              {
+                "title": "A World with Robots",
+                "isUpdated": true,
+                "code": "eng_4_t1_l1"
+              }
+            ]
+          },
+          {
+            "title": "Unit 2",
+            "topics": [
+              {
+                "title": "My Hobbies",
+                "isUpdated": true,
+                "code": "eng_4_t1_l2"
+              }
+            ]
+          },
+          {
+            "title": "Unit 3",
+            "topics": [
+              {
+                "title": "Time for a Journey",
+                "isUpdated": true,
+                "code": "eng_4_t1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "5": [
       {
         "term": 1,

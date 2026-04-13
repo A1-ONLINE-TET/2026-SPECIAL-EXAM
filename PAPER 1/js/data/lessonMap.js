@@ -302,6 +302,36 @@ export const lessonMap = {
     }
   },
   "english": {
+    "A World with Robots": {
+      "local": true,
+      "filename": "eng_4_t1_l1",
+      "grade": "4"
+    },
+    "eng_4_t1_l1": {
+      "local": true,
+      "filename": "eng_4_t1_l1",
+      "grade": "4"
+    },
+    "My Hobbies": {
+      "local": true,
+      "filename": "eng_4_t1_l2",
+      "grade": "4"
+    },
+    "eng_4_t1_l2": {
+      "local": true,
+      "filename": "eng_4_t1_l2",
+      "grade": "4"
+    },
+    "Time for a Journey": {
+      "local": true,
+      "filename": "eng_4_t1_l3",
+      "grade": "4"
+    },
+    "eng_4_t1_l3": {
+      "local": true,
+      "filename": "eng_4_t1_l3",
+      "grade": "4"
+    },
     "Exploring Space": {
       "local": true,
       "filename": "eng_5_t1_l1",
