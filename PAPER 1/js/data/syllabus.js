@@ -388,7 +388,7 @@ export const syllabusData = {
               },
               {
                 "title": "பெயர்ச்சொல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "tam_6_t3_l9"
               },
               {

@@ -1,6 +1,6 @@
 export const lessonMap = {
   "tamil": {
-    "அன்னைத் தமிழே! *": {
+    "அன்னைத் தமிழே *": {
       "local": true,
       "filename": "tam_4_t1_l1",
       "grade": "4"
@@ -10,87 +10,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l1",
       "grade": "4"
     },
-    "பனைமரச் சிறப்பு *": {
-      "local": true,
-      "filename": "tam_4_t1_l2",
-      "grade": "4"
-    },
-    "tam_4_t1_l2": {
-      "local": true,
-      "filename": "tam_4_t1_l2",
-      "grade": "4"
-    },
-    "யார் தலைவர்? *": {
-      "local": true,
-      "filename": "tam_4_t1_l3",
-      "grade": "4"
-    },
-    "tam_4_t1_l3": {
-      "local": true,
-      "filename": "tam_4_t1_l3",
-      "grade": "4"
-    },
-    "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *": {
-      "local": true,
-      "filename": "tam_4_t1_l4",
-      "grade": "4"
-    },
-    "tam_4_t1_l4": {
-      "local": true,
-      "filename": "tam_4_t1_l4",
-      "grade": "4"
-    },
-    "முளைப்பாரி - பாடல் *": {
-      "local": true,
-      "filename": "tam_4_t1_l5",
-      "grade": "4"
-    },
-    "tam_4_t1_l5": {
-      "local": true,
-      "filename": "tam_4_t1_l5",
-      "grade": "4"
-    },
-    "பண்படுத்தும் பழமொழிகள் *": {
-      "local": true,
-      "filename": "tam_4_t1_l6",
-      "grade": "4"
-    },
-    "tam_4_t1_l6": {
-      "local": true,
-      "filename": "tam_4_t1_l6",
-      "grade": "4"
-    },
-    "முயல் அரசன் *": {
-      "local": true,
-      "filename": "tam_4_t1_l7",
-      "grade": "4"
-    },
-    "tam_4_t1_l7": {
-      "local": true,
-      "filename": "tam_4_t1_l7",
-      "grade": "4"
-    },
-    "வெற்றி வேற்கை *": {
-      "local": true,
-      "filename": "tam_4_t1_l8",
-      "grade": "4"
-    },
-    "tam_4_t1_l8": {
-      "local": true,
-      "filename": "tam_4_t1_l8",
-      "grade": "4"
-    },
-    "விடியும் வேளை *": {
-      "local": true,
-      "filename": "tam_4_t1_l9",
-      "grade": "4"
-    },
-    "tam_4_t1_l9": {
-      "local": true,
-      "filename": "tam_4_t1_l9",
-      "grade": "4"
-    },
-    "கரிகாலன் கட்டிய கல்லணை *": {
+    "இயல் 10: கரிகாலன் கட்டிய கல்லணை *": {
       "local": true,
       "filename": "tam_4_t1_l10",
       "grade": "4"
@@ -100,7 +20,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l10",
       "grade": "4"
     },
-    "அகரமுதலி *": {
+    "இயல் 11: அகரமுதலி *": {
       "local": true,
       "filename": "tam_4_t1_l11",
       "grade": "4"
@@ -108,6 +28,86 @@ export const lessonMap = {
     "tam_4_t1_l11": {
       "local": true,
       "filename": "tam_4_t1_l11",
+      "grade": "4"
+    },
+    "இயல் 2: பனைமரச்சிறப்பு *": {
+      "local": true,
+      "filename": "tam_4_t1_l2",
+      "grade": "4"
+    },
+    "tam_4_t1_l2": {
+      "local": true,
+      "filename": "tam_4_t1_l2",
+      "grade": "4"
+    },
+    "இயல் 3: யார் தலைவர்? *": {
+      "local": true,
+      "filename": "tam_4_t1_l3",
+      "grade": "4"
+    },
+    "tam_4_t1_l3": {
+      "local": true,
+      "filename": "tam_4_t1_l3",
+      "grade": "4"
+    },
+    "இயல் 4: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் *": {
+      "local": true,
+      "filename": "tam_4_t1_l4",
+      "grade": "4"
+    },
+    "tam_4_t1_l4": {
+      "local": true,
+      "filename": "tam_4_t1_l4",
+      "grade": "4"
+    },
+    "இயல் 5: முளைப்பாரி - பாடல் *": {
+      "local": true,
+      "filename": "tam_4_t1_l5",
+      "grade": "4"
+    },
+    "tam_4_t1_l5": {
+      "local": true,
+      "filename": "tam_4_t1_l5",
+      "grade": "4"
+    },
+    "இயல் 6: பண்படுத்தும் பழமொழிகள் *": {
+      "local": true,
+      "filename": "tam_4_t1_l6",
+      "grade": "4"
+    },
+    "tam_4_t1_l6": {
+      "local": true,
+      "filename": "tam_4_t1_l6",
+      "grade": "4"
+    },
+    "இயல் 7: முயல் அரசன் *": {
+      "local": true,
+      "filename": "tam_4_t1_l7",
+      "grade": "4"
+    },
+    "tam_4_t1_l7": {
+      "local": true,
+      "filename": "tam_4_t1_l7",
+      "grade": "4"
+    },
+    "இயல் 8: வெற்றி வேற்கை *": {
+      "local": true,
+      "filename": "tam_4_t1_l8",
+      "grade": "4"
+    },
+    "tam_4_t1_l8": {
+      "local": true,
+      "filename": "tam_4_t1_l8",
+      "grade": "4"
+    },
+    "இயல் 9: விடியும் வேளை *": {
+      "local": true,
+      "filename": "tam_4_t1_l9",
+      "grade": "4"
+    },
+    "tam_4_t1_l9": {
+      "local": true,
+      "filename": "tam_4_t1_l9",
       "grade": "4"
     },
     "தமிழின் இனிமை *": {
@@ -312,7 +312,7 @@ export const lessonMap = {
     }
   },
   "english": {
-    "A World with Robots": {
+    "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,
       "filename": "eng_4_t1_l1",
       "grade": "4"
@@ -322,7 +322,7 @@ export const lessonMap = {
       "filename": "eng_4_t1_l1",
       "grade": "4"
     },
-    "My Hobbies": {
+    "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்": {
       "local": true,
       "filename": "eng_4_t1_l2",
       "grade": "4"
@@ -332,7 +332,7 @@ export const lessonMap = {
       "filename": "eng_4_t1_l2",
       "grade": "4"
     },
-    "Time for a Journey": {
+    "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்": {
       "local": true,
       "filename": "eng_4_t1_l3",
       "grade": "4"
@@ -342,7 +342,7 @@ export const lessonMap = {
       "filename": "eng_4_t1_l3",
       "grade": "4"
     },
-    "Exploring Space": {
+    "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
       "local": true,
       "filename": "eng_5_t1_l1",
       "grade": "5"
@@ -352,7 +352,7 @@ export const lessonMap = {
       "filename": "eng_5_t1_l1",
       "grade": "5"
     },
-    "My Native Place": {
+    "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்": {
       "local": true,
       "filename": "eng_5_t1_l2",
       "grade": "5"
@@ -362,7 +362,7 @@ export const lessonMap = {
       "filename": "eng_5_t1_l2",
       "grade": "5"
     },
-    "Patriotism and Duty": {
+    "Patriotism and Duty || தேசபக்தி மற்றும் கடமை": {
       "local": true,
       "filename": "eng_5_t1_l3",
       "grade": "5"
@@ -634,7 +634,7 @@ export const lessonMap = {
     }
   },
   "science": {
-    "1. எனது உடல் (My Body)": {
+    "அலகு 1: எனது உடல் (My Body)": {
       "local": true,
       "filename": "sci_4_t1_l1",
       "grade": "4"
@@ -644,7 +644,7 @@ export const lessonMap = {
       "filename": "sci_4_t1_l1",
       "grade": "4"
     },
-    "2. பருப்பொருளும் பொருட்களும் (Matter and Materials)": {
+    "அலகு 2: பருப்பொருளும் பொருட்களும் (Matter and Materials)": {
       "local": true,
       "filename": "sci_4_t1_l2",
       "grade": "4"
@@ -654,7 +654,7 @@ export const lessonMap = {
       "filename": "sci_4_t1_l2",
       "grade": "4"
     },
-    "3. வேலையும் ஆற்றலும் (Work and Energy)": {
+    "அலகு 3: வேலையும் ஆற்றலும் (Work and Energy)": {
       "local": true,
       "filename": "sci_4_t1_l3",
       "grade": "4"
@@ -664,7 +664,7 @@ export const lessonMap = {
       "filename": "sci_4_t1_l3",
       "grade": "4"
     },
-    "4. அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)": {
+    "அலகு 4: அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)": {
       "local": true,
       "filename": "sci_4_t1_l4",
       "grade": "4"
@@ -726,7 +726,7 @@ export const lessonMap = {
     }
   },
   "social": {
-    "1. ஆற்றங்கரை அரசுகள்": {
+    "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
       "local": true,
       "filename": "soc_4_t1_l1",
       "grade": "4"
@@ -736,7 +736,7 @@ export const lessonMap = {
       "filename": "soc_4_t1_l1",
       "grade": "4"
     },
-    "2. ஐவகை நிலங்கள்": {
+    "அலகு 2: ஐவகை நிலங்கள்": {
       "local": true,
       "filename": "soc_4_t1_l2",
       "grade": "4"
@@ -746,7 +746,7 @@ export const lessonMap = {
       "filename": "soc_4_t1_l2",
       "grade": "4"
     },
-    "3. நகராட்சி மற்றும் மாநகராட்சி": {
+    "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி": {
       "local": true,
       "filename": "soc_4_t1_l3",
       "grade": "4"
@@ -848,9 +848,19 @@ export const lessonMap = {
     }
   },
   "psychology": {
+    "குழந்தை மேம்பாடு (6 - 11 வயது) - பின் குழந்தைப்பருவம் (Later Childhood)": {
+      "local": true,
+      "filename": "psy_6_l1",
+      "grade": "6"
+    },
     "psy_6_l1": {
       "local": true,
       "filename": "psy_6_l1",
+      "grade": "6"
+    },
+    "கற்றல் கோட்பாடுகள் (Learning Principles)": {
+      "local": true,
+      "filename": "psy_6_l2",
       "grade": "6"
     },
     "psy_6_l2": {
@@ -858,9 +868,19 @@ export const lessonMap = {
       "filename": "psy_6_l2",
       "grade": "6"
     },
+    "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)": {
+      "local": true,
+      "filename": "psy_6_l3",
+      "grade": "6"
+    },
     "psy_6_l3": {
       "local": true,
       "filename": "psy_6_l3",
+      "grade": "6"
+    },
+    "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development)": {
+      "local": true,
+      "filename": "psy_6_l4",
       "grade": "6"
     },
     "psy_6_l4": {
@@ -870,7 +890,7 @@ export const lessonMap = {
     }
   },
   "maths": {
-    "வடிவங்கள்": {
+    "அலகு 1: வடிவியல்": {
       "local": true,
       "filename": "mat_5_t1_l1",
       "grade": "5"
@@ -880,9 +900,19 @@ export const lessonMap = {
       "filename": "mat_5_t1_l1",
       "grade": "5"
     },
+    "அலகு 2: எண்கள்": {
+      "local": true,
+      "filename": "mat_5_t1_l2",
+      "grade": "5"
+    },
     "mat_5_t1_l2": {
       "local": true,
       "filename": "mat_5_t1_l2",
+      "grade": "5"
+    },
+    "அலகு 3: அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_5_t1_l3",
       "grade": "5"
     },
     "mat_5_t1_l3": {
@@ -890,14 +920,29 @@ export const lessonMap = {
       "filename": "mat_5_t1_l3",
       "grade": "5"
     },
+    "அலகு 4: அளவைகள்": {
+      "local": true,
+      "filename": "mat_5_t1_l4",
+      "grade": "5"
+    },
     "mat_5_t1_l4": {
       "local": true,
       "filename": "mat_5_t1_l4",
       "grade": "5"
     },
+    "அலகு 5: நேரம்": {
+      "local": true,
+      "filename": "mat_5_t1_l5",
+      "grade": "5"
+    },
     "mat_5_t1_l5": {
       "local": true,
       "filename": "mat_5_t1_l5",
+      "grade": "5"
+    },
+    "அலகு 6: தகவல் செயலாக்கம்": {
+      "local": true,
+      "filename": "mat_5_t1_l6",
       "grade": "5"
     },
     "mat_5_t1_l6": {
@@ -954,37 +999,6 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_6_t1_l9",
       "grade": "6"
-    }
-  },
-  "revision": {
-    "rev_special_180": {
-      "local": true,
-      "filename": "rev_special_180",
-      "grade": "all"
-    }
-  },
-  "mocktest": {
-    "mock_test_1": {
-      "local": true,
-      "filename": "mock_test_1",
-      "grade": "all"
-    },
-    "model_test_2": {
-      "local": true,
-      "filename": "model_test_2",
-      "grade": "all"
-    }
-  },
-  "standard_6_7_8": {
-    "sample_678_notes_1": {
-      "local": true,
-      "filename": "sample_678_notes_1",
-      "grade": "all"
-    },
-    "sample_678_notes_2": {
-      "local": true,
-      "filename": "sample_678_notes_2",
-      "grade": "all"
     }
   }
 };
