@@ -1772,27 +1772,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l11"
               },
               {
                 "title": "2.2 அமைப்புகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l12"
               },
               {
                 "title": "2.3 மாறிகளின் மீதான செயல்களைப் புரிந்து கொள்ளுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l13"
               },
               {
                 "title": "2.4 இயற்கணிதக் கூற்றுகளை அமைத்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l14"
               },
               {
                 "title": "2.5 எடுத்துக்காட்டுகளில் இடம்பெறும் தெரியாத எண்களைக் காணுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l15"
               }
             ]
@@ -1802,22 +1802,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l16"
               },
               {
                 "title": "3.2 விகிதம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l17"
               },
               {
                 "title": "3.3 விகித சமம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l18"
               },
               {
                 "title": "3.4 ஓரலகு முறை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l19"
               }
             ]
@@ -1827,22 +1827,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l20"
               },
               {
                 "title": "4.2 கோடுகள் - விளக்கம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l21"
               },
               {
                 "title": "4.3 கோணங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l22"
               },
               {
                 "title": "4.4 புள்ளிகள் மற்றும் கோடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l23"
               }
             ]
@@ -1852,22 +1852,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l24"
               },
               {
                 "title": "5.2 தரவுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l25"
               },
               {
                 "title": "5.3 பட விளக்கப்படம் மூலம் தரவுகளைக் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l26"
               },
               {
                 "title": "5.4 தரவுகளைப் பட்டை வரைபடம் மூலம் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l27"
               }
             ]
@@ -1877,17 +1877,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "6.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l28"
               },
               {
                 "title": "6.2 முறையாகப் பட்டியலிடுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l29"
               },
               {
                 "title": "6.3 முறையான பட்டியலை முழுமையாக்குதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t1_l30"
               }
             ]
@@ -1902,42 +1902,42 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "1.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l1"
               },
               {
                 "title": "1.2 பகா மற்றும் பகு எண்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l2"
               },
               {
                 "title": "1.3 எண்களின் வகுபடும் தன்மைக்கான விதிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l3"
               },
               {
                 "title": "1.4 பகா காரணிப்படுத்துதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l4"
               },
               {
                 "title": "1.5 பொதுக்காரணிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l5"
               },
               {
                 "title": "1.6 பொது மடங்குகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l6"
               },
               {
                 "title": "1.7 மீ.பொ.கா மற்றும் மீ.சி.ம - வின் பயன்பாட்டுக் கணக்குகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l7"
               },
               {
                 "title": "1.8 எண்கள் மற்றும் அதன் மீ.பொ.கா மற்றும் மீ.சி.ம ஆகியவற்றுக்கு இடையே உள்ள தொடர்பு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l8"
               }
             ]
@@ -1947,27 +1947,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l9"
               },
               {
                 "title": "2.2 மீள்பார்வை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l10"
               },
               {
                 "title": "2.3 மெட்ரிக் அளவைகளில் இனமாற்றம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l11"
               },
               {
                 "title": "2.4 வெவ்வேறு அலகுகளையுடைய அளவுகளின் அடிப்படைச் செயல்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l12"
               },
               {
                 "title": "2.5 கால அளவைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l13"
               }
             ]
@@ -1977,17 +1977,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l14"
               },
               {
                 "title": "3.2 பட்டியல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l15"
               },
               {
                 "title": "3.3 இலாபம் மற்றும் நட்டம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l16"
               }
             ]
@@ -1997,27 +1997,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l17"
               },
               {
                 "title": "4.2 முக்கோணத்தின் அடிப்படைக் கூறுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l18"
               },
               {
                 "title": "4.3 முக்கோணத்தின் வகைகள் மற்றும் பண்புகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l19"
               },
               {
                 "title": "4.4 செங்குத்துக்கோடுகள் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l20"
               },
               {
                 "title": "4.5 இணைக்கோடுகள் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l21"
               }
             ]
@@ -2027,17 +2027,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l22"
               },
               {
                 "title": "5.2 மரவு வரைபடத்தை எண் கோவையாக மாற்றுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l23"
               },
               {
                 "title": "5.3 இயற்கணிதக் கோவையை மரவு வரைபடமாக மாற்றுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t2_l24"
               }
             ]
@@ -2052,7 +2052,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "1. பின்னங்கள் முழுமை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t3_l1"
               }
             ]
@@ -2062,7 +2062,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2. முழுக்கள் முழுமை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t3_l2"
               }
             ]
@@ -2072,7 +2072,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3. சுற்றளவு மற்றும் பரப்பளவு முழுமை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t3_l3"
               }
             ]
@@ -2082,7 +2082,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4. சமச்சீர்த் தன்மை முழுமை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t3_l4"
               }
             ]
@@ -2092,7 +2092,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5. தகவல் செயலாக்கம் முழுமை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_6_t3_l5"
               }
             ]
@@ -2109,32 +2109,32 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "1.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l1"
               },
               {
                 "title": "1.2 முழுக்களின் கூட்டல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l2"
               },
               {
                 "title": "1.3 முழுக்களின் கழித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l3"
               },
               {
                 "title": "1.4 முழுக்களின் பெருக்கல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l4"
               },
               {
                 "title": "1.5 முழுக்களின் வகுத்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l5"
               },
               {
                 "title": "1.6 முழுக்களில் அனைத்து அடிப்படைச் செயல்பாடுகள் - வாழ்வியல் கணக்குகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l6"
               }
             ]
@@ -2144,22 +2144,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l7"
               },
               {
                 "title": "2.2 இணைகரம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l8"
               },
               {
                 "title": "2.3 சாய்சதுரம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l9"
               },
               {
                 "title": "2.4 சரிவகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l10"
               }
             ]
@@ -2169,32 +2169,32 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l11"
               },
               {
                 "title": "3.2 உறுப்புகள் மற்றும் கெழுக்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l12"
               },
               {
                 "title": "3.3 ஒத்த உறுப்புகள் மற்றும் மாறுபட்ட உறுப்புகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l13"
               },
               {
                 "title": "3.4 இயற்கணிதக் கோவையின் மதிப்பு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l14"
               },
               {
                 "title": "3.5 இயற்கணிதக் கோவைகளின் கூட்டல் மற்றும் கழித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l15"
               },
               {
                 "title": "3.6 எளிய நேரிய சமன்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l16"
               }
             ]
@@ -2204,17 +2204,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l17"
               },
               {
                 "title": "4.2 நேர் விகிதம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l18"
               },
               {
                 "title": "4.3 எதிர் விகிதம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l19"
               }
             ]
@@ -2224,22 +2224,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l20"
               },
               {
                 "title": "5.2 வெட்டும் கோடுகளால் அமையும் கோண இணைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l21"
               },
               {
                 "title": "5.3 குறுக்கு வெட்டிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l22"
               },
               {
                 "title": "5.4 வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l23"
               }
             ]
@@ -2249,17 +2249,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "6.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l24"
               },
               {
                 "title": "6.2 நாற்சதுர இணை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l25"
               },
               {
                 "title": "6.3 பாதை வரைபடம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t1_l26"
               }
             ]
@@ -2274,27 +2274,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "1.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l1"
               },
               {
                 "title": "1.2 தசம எண்களைக் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l2"
               },
               {
                 "title": "1.3 பின்னங்கள் மற்றும் தசம எண்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l3"
               },
               {
                 "title": "1.4 தசமங்களை ஒப்பிடுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l4"
               },
               {
                 "title": "1.5 தசம எண்களை எண்கோட்டில் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l5"
               }
             ]
@@ -2304,27 +2304,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l6"
               },
               {
                 "title": "2.2 வட்டம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l7"
               },
               {
                 "title": "2.3 வட்டத்தின் சுற்றளவு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l8"
               },
               {
                 "title": "2.4 வட்டத்தின் பரப்பளவு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l9"
               },
               {
                 "title": "2.5 நடைபாதையின் பரப்பளவு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l10"
               }
             ]
@@ -2334,27 +2334,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l11"
               },
               {
                 "title": "3.2 அடுக்குகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l12"
               },
               {
                 "title": "3.3 அடுக்கு விதிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l13"
               },
               {
                 "title": "3.4 அடுக்கு எண்களில் உள்ள ஒன்றாம் இலக்கம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l14"
               },
               {
                 "title": "3.5 இயற்கணிதக் கோவையின் படி",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l15"
               }
             ]
@@ -2364,22 +2364,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l16"
               },
               {
                 "title": "4.2 முக்கோணத்தின் கோணங்களின் கூடுதல் பண்பின் பயன்பாடு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l17"
               },
               {
                 "title": "4.3 வெளிக்கோணங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l18"
               },
               {
                 "title": "4.4 சர்வசம முக்கோணங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l19"
               }
             ]
@@ -2389,17 +2389,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l20"
               },
               {
                 "title": "5.2 அட்டவணைப்படுத்துதல் மூலம் அமைப்புகளின் நேரிய சமன்பாட்டினைப் பெறுதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l21"
               },
               {
                 "title": "5.3 பாஸ்கல் முக்கோணம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t2_l22"
               }
             ]
@@ -2414,17 +2414,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "1.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l1"
               },
               {
                 "title": "1.2 தசம எண்களை முழுதாக்கல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l2"
               },
               {
                 "title": "1.3 தசம எண்கள் மீதான செயல்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l3"
               }
             ]
@@ -2434,17 +2434,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l4"
               },
               {
                 "title": "2.2 அன்றாட வாழ்க்கையில் சதவீதம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l5"
               },
               {
                 "title": "2.3 தனிவட்டி",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l6"
               }
             ]
@@ -2454,27 +2454,27 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம் - முற்றொருமைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l7"
               },
               {
                 "title": "3.2 வடிவக் கணிதத்தில் ஒருறுப்புக் கோவைகளின் பெருக்கல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l8"
               },
               {
                 "title": "3.3 முற்றொருமைகளின் வடிவியல் நிரூபணம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l9"
               },
               {
                 "title": "3.4 முற்றொருமைகளைப் பயன்படுத்தி காரணிப்படுத்துதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l10"
               },
               {
                 "title": "3.5 அசமன்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l11"
               }
             ]
@@ -2484,17 +2484,17 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l12"
               },
               {
                 "title": "4.2 உருமாற்றங்களின் விளைவாகச் சமச்சீர்த் தன்மை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l13"
               },
               {
                 "title": "4.3 வட்டங்களையும் பொதுமைய வட்டங்களையும் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l14"
               }
             ]
@@ -2504,37 +2504,37 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l15"
               },
               {
                 "title": "5.2 தரவுகளைச் சேகரித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l16"
               },
               {
                 "title": "5.3 தரவுகளின் அமைப்பு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l17"
               },
               {
                 "title": "5.4 பிரதிநிதித்துவ மதிப்புகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l18"
               },
               {
                 "title": "5.5 கூட்டுச் சராசரி (அ) (சராசரி)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l19"
               },
               {
                 "title": "5.6 முகடு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l20"
               },
               {
                 "title": "5.7 இடைநிலை (இடைநிலையளவு)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l21"
               }
             ]
@@ -2544,12 +2544,12 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "6.1 திட்டமிடல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l22"
               },
               {
                 "title": "6.2 செயல்வழிப் படம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_7_t3_l23"
               }
             ]
@@ -2571,47 +2571,47 @@ export const syllabusData = {
               },
               {
                 "title": "1.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l2"
               },
               {
                 "title": "1.2 விகிதமுறு எண்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l3"
               },
               {
                 "title": "1.3 விகிதமுறு எண்கள் மீதான அடிப்படைக் கணிதச் செயல்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l4"
               },
               {
                 "title": "1.4 அடிப்படைச் செயல்கள் மீதான வார்த்தைக் கணக்குகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l5"
               },
               {
                 "title": "1.5 விகிதமுறு எண்களின் பண்புகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l6"
               },
               {
                 "title": "1.6 வர்க்க எண்களின் அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l7"
               },
               {
                 "title": "1.7 வர்க்கமூலம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l8"
               },
               {
                 "title": "1.8 கனங்களும், கனமூலங்களும்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l9"
               },
               {
                 "title": "1.9 அடுக்குக்குறிகளும் படிகளும்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l10"
               }
             ]
@@ -2621,22 +2621,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "2.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l11"
               },
               {
                 "title": "2.2 வட்டத்தின் பகுதிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l12"
               },
               {
                 "title": "2.3 கூட்டு வடிவங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l13"
               },
               {
                 "title": "2.4 முப்பரிமாண (3-D) வடிவங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l14"
               }
             ]
@@ -2646,52 +2646,52 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "3.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l15"
               },
               {
                 "title": "3.2 இயற்கணிதக் கோவைகளின் பெருக்கல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l16"
               },
               {
                 "title": "3.3 இயற்கணிதக் கோவைகளின் வகுத்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l17"
               },
               {
                 "title": "3.4 சில பொதுவான தவறுகளைத் தவிர்த்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l18"
               },
               {
                 "title": "3.5 முற்றொருமைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l19"
               },
               {
                 "title": "3.6 கன முற்றொருமைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l20"
               },
               {
                 "title": "3.7 காரணிப்படுத்துதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l21"
               },
               {
                 "title": "3.8 ஒரு மாரியில் அமைந்த நேரியல் சமன்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l22"
               },
               {
                 "title": "3.9 வரைபடங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l23"
               },
               {
                 "title": "3.10 நேர்க்கோட்டு வரைபடங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l24"
               }
             ]
@@ -2701,32 +2701,32 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "4.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l25"
               },
               {
                 "title": "4.2 கணக்குகளில் சதவீதத்தின் பயன்பாடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l26"
               },
               {
                 "title": "4.3 இலாபம், நட்டம், தள்ளுபடி, இதரச் செலவுகள் மற்றும் சரக்கு மற்றும் சேவை வரி (GST)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l27"
               },
               {
                 "title": "4.4 கூட்டுவட்டி",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l28"
               },
               {
                 "title": "4.5 கலப்பு மாறல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l29"
               },
               {
                 "title": "4.6 நேரம் மற்றும் வேலை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l30"
               }
             ]
@@ -2736,82 +2736,82 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "5.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l31"
               },
               {
                 "title": "5.2 சர்வசம மற்றும் வடிவொத்த வடிவங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l32"
               },
               {
                 "title": "5.3 பிதாகரஸ் தேற்றம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l33"
               },
               {
                 "title": "5.4 பிதாகரஸ் தேற்றத்தின் மறுதலை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l34"
               },
               {
                 "title": "5.5 ஒருபுள்ளி வழிச் செல்லும் கோடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l35"
               },
               {
                 "title": "5.6 முக்கோணத்தின் நடுக்கோடு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l36"
               },
               {
                 "title": "5.7 முக்கோணத்தின் செங்குத்துக்கோடு",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l37"
               },
               {
                 "title": "5.8 முக்கோணத்தின் மையக்குத்துக்கோடுகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l38"
               },
               {
                 "title": "5.9 முக்கோணத்தின் கோண இருசமவெட்டிகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l39"
               },
               {
                 "title": "5.10 நாற்கரங்கள் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l40"
               },
               {
                 "title": "5.11 சரிவகங்கள் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l41"
               },
               {
                 "title": "5.12 சிறப்பு நாற்கரங்களை வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l42"
               },
               {
                 "title": "5.13 இணைகரம் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l43"
               },
               {
                 "title": "5.14 சாய்சதுரம் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l44"
               },
               {
                 "title": "5.15 செவ்வகம் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l45"
               },
               {
                 "title": "5.16 சதுரம் வரைதல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l46"
               }
             ]
@@ -2821,22 +2821,22 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "6.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l47"
               },
               {
                 "title": "6.2 நிகழ்வெண் பரவல் அட்டவணை",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l48"
               },
               {
                 "title": "6.3 தொகுக்கப்படாத தரவுகளுக்கு வரைபட விளக்கமுறையில் நிகழ்வெண் பரவலைக் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l49"
               },
               {
                 "title": "6.4 தொகுக்கப்பட்ட தரவுகளுக்கான நிகழ்வெண் பரவலை வரைபட விளக்கமுறையில் குறித்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l50"
               }
             ]
@@ -2846,32 +2846,32 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "7.1 அறிமுகம்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l51"
               },
               {
                 "title": "7.2 எண்ணுதலில் அடிப்படைக் கொள்கைகள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l52"
               },
               {
                 "title": "7.3 சேர்ப்பு விளையாட்டு (SET Game)",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l53"
               },
               {
                 "title": "7.4 நிலவரைபடத்தில் வண்ணமிடல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l54"
               },
               {
                 "title": "7.5 பிபனோசி எண்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l55"
               },
               {
                 "title": "7.6 மீப்பெரு பொதுக்காரணி (மீ.பொ.கா (HCF))",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "mat_8_l56"
               },
               {
