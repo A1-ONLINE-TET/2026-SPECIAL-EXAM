@@ -999,6 +999,66 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_6_t1_l9",
       "grade": "6"
+    },
+    "அலகு 1: வடிவியல்": {
+      "local": true,
+      "filename": "mat_4_t1_l1",
+      "grade": "4"
+    },
+    "mat_4_t1_l1": {
+      "local": true,
+      "filename": "mat_4_t1_l1",
+      "grade": "4"
+    },
+    "அலகு 2: எண்கள்": {
+      "local": true,
+      "filename": "mat_4_t1_l2",
+      "grade": "4"
+    },
+    "mat_4_t1_l2": {
+      "local": true,
+      "filename": "mat_4_t1_l2",
+      "grade": "4"
+    },
+    "அலகு 3: அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_4_t1_l3",
+      "grade": "4"
+    },
+    "mat_4_t1_l3": {
+      "local": true,
+      "filename": "mat_4_t1_l3",
+      "grade": "4"
+    },
+    "அலகு 4: அளவைகள்": {
+      "local": true,
+      "filename": "mat_4_t1_l4",
+      "grade": "4"
+    },
+    "mat_4_t1_l4": {
+      "local": true,
+      "filename": "mat_4_t1_l4",
+      "grade": "4"
+    },
+    "அலகு 5: காலம்": {
+      "local": true,
+      "filename": "mat_4_t1_l5",
+      "grade": "4"
+    },
+    "mat_4_t1_l5": {
+      "local": true,
+      "filename": "mat_4_t1_l5",
+      "grade": "4"
+    },
+    "அலகு 6: தகவல் செயலாக்கம்": {
+      "local": true,
+      "filename": "mat_4_t1_l6",
+      "grade": "4"
+    },
+    "mat_4_t1_l6": {
+      "local": true,
+      "filename": "mat_4_t1_l6",
+      "grade": "4"
     }
   }
 };

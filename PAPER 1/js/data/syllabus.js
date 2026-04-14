@@ -1574,6 +1574,73 @@ export const syllabusData = {
     ]
   },
   "maths": {
+    "4": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "அலகு 1",
+            "topics": [
+              {
+                "title": "வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l1"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 2",
+            "topics": [
+              {
+                "title": "எண்கள்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l2"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 3",
+            "topics": [
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l3"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 4",
+            "topics": [
+              {
+                "title": "அளவைகள்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l4"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 5",
+            "topics": [
+              {
+                "title": "காலம்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l5"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 6",
+            "topics": [
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_4_t1_l6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "5": [
       {
         "term": 1,
