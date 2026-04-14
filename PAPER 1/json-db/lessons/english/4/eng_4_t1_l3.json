@@ -14,68 +14,138 @@
         "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
       },
       {
-        "title": "1. Vocabulary and Glossary || 1. சொல்லகராதி மற்றும் கலைச்சொற்கள்",
-        "content": "<div><table border='1' style='width:100%; border-collapse: collapse;'><thead><tr style='background-color: #f2f2f2;'><th>Term / சொல்</th><th>Definition / பொருள்</th></tr></thead><tbody><tr><td><b>Adventure</b></td><td>A risky or unexpected undertaking. || ஒரு துணிகரமான அல்லது சாகசச் செயல்.</td></tr><tr><td><b>Boat</b></td><td>A small vessel used to travel in water. || நீரில் பயணம் செய்யப் பயன்படும் சிறிய படகு.</td></tr><tr><td><b>Cannibals</b></td><td>Humans who eat other humans. || மனித இறைச்சியை உண்ணும் மனிதர்கள்.</td></tr><tr><td><b>Explore</b></td><td>To travel through an unknown area to learn more. || புதிய இடங்களை ஆராய்ந்து அறிதல்.</td></tr><tr><td><b>Fainted</b></td><td>To lose consciousness for a long time. || மயக்கமடைதல்.</td></tr><tr><td><b>Footprint</b></td><td>The impression of the foot in sand or snow. || மணல் அல்லது பனியில் கால்தடம்.</td></tr><tr><td><b>Frightened</b></td><td>Afraid. || பயந்த.</td></tr><tr><td><b>Hire</b></td><td>To use temporarily for payment. || வாடகைக்கு அமர்த்துதல்.</td></tr><tr><td><b>Rebels</b></td><td>People who protest authority. || அதிகாரத்தை எதிர்க்கும் கலகக்காரர்கள்.</td></tr><tr><td><b>Sail</b></td><td>To travel in a boat. || படகில் பயணம் செய்தல்.</td></tr><tr><td><b>Tent</b></td><td>A portable shelter made of canvas. || கையடக்கக் கூடாரம்.</td></tr><tr><td><b>Tremble</b></td><td>To shake or quiver slightly. || நடுக்கம் / லேசாக நடுங்குதல்.</td></tr><tr><td><b>Tribe</b></td><td>A small community of people. || பழங்குடி மக்கள் சமூகம்.</td></tr><tr><td><b>Waterfall</b></td><td>Water dropping from a higher point. || நீர்வீழ்ச்சி.</td></tr></tbody></table></div>"
+        "title": "1. Vocabulary & Glossary || 1. சொல்லகராதி",
+        "content": "<div><ul><li><b>[[Adventure]]</b>: <span class='en-text'>A risky or unexpected undertaking.</span><span class='tm-text'>சாகசம்: ஒரு ஆபத்தான அல்லது எதிர்பாராத செயல்.</span></li><li><b>[[Boat]]</b>: <span class='en-text'>A small vessel used to travel in water.</span><span class='tm-text'>படகு: தண்ணீரில் செல்லப் பயன்படும் ஒரு சிறிய வாகனம்.</span></li><li><b>[[Cannibals]]</b>: <span class='en-text'>Humans who eat other humans.</span><span class='tm-text'>மனித உண்ணிகள்: சக மனிதர்களை உண்ணும் மனிதர்கள்.</span></li><li><b>[[Explore]]</b>: <span class='en-text'>To travel through an unknown area to learn more about it.</span><span class='tm-text'>ஆராய்ந்து பார்த்தல்: ஒரு தெரியாத இடத்தைப் பற்றி அறிய அங்கு பயணம் செய்வது.</span></li><li><b>[[Fainted]]</b>: <span class='en-text'>To lose consciousness for a long time.</span><span class='tm-text'>மயக்கமடைதல்: நீண்ட நேரம் நினைவிழந்து போதல்.</span></li><li><b>[[Footprint]]</b>: <span class='en-text'>The impression of the foot in a soft substance such as sand or snow.</span><span class='tm-text'>காலடித் தடம்: மணல் அல்லது பனியில் ஏற்படும் காலின் தழும்புகள்.</span></li><li><b>[[Frightened]]</b>: <span class='en-text'>Afraid.</span><span class='tm-text'>பயந்து போதல்: அச்சம் அடைவது.</span></li><li><b>[[Hire]]</b>: <span class='en-text'>To use temporarily for sometime for an agreed payment.</span><span class='tm-text'>வாடகைக்கு எடுத்தல்: ஒரு பொருளைத் தற்காலிகமாகப் பயன்படுத்தப் பணம் செலுத்துதல்.</span></li><li><b>[[Rebels]]</b>: <span class='en-text'>People who protest authority.</span><span class='tm-text'>கிளர்ச்சியாளர்கள்: அதிகாரத்தை எதிர்த்துப் போராடுபவர்கள்.</span></li><li><b>[[Sail]]</b>: <span class='en-text'>To travel in a boat.</span><span class='tm-text'>படகோட்டுதல்: படகில் பயணம் செய்தல்.</span></li><li><b>[[Tent]]</b>: <span class='en-text'>A portable shelter made of canvas attached to the ground poles.</span><span class='tm-text'>கூடாரம்: மெல்லிய துணியால் தற்காலிகமாக அமைக்கப்பட்ட தங்குமிடம்.</span></li><li><b>[[Tremble]]</b>: <span class='en-text'>To shake or quiver slightly.</span><span class='tm-text'>நடுங்குதல்: லேசாக உடல் நடுங்குவது.</span></li><li><b>[[Tribe]]</b>: <span class='en-text'>A small community of people with common habits and culture.</span><span class='tm-text'>பழங்குடி: பொதுவான பழக்கவழக்கங்களைக் கொண்ட சிறிய சமூக மக்கள்.</span></li><li><b>[[Waterfall]]</b>: <span class='en-text'>Water from a river or stream, dropping from a higher point to a lower point.</span><span class='tm-text'>நீர்வீழ்ச்சி: மலையிலிருந்து அல்லது மேட்டிலிருந்து கீழே விழும் தண்ணீர்.</span></li></ul></div>"
       },
       {
-        "title": "2. Robinson Crusoe: A Story of Survival || 2. ராபின்சன் குரூசோ: ஒரு பிழைப்புப் போராட்டம்",
-        "content": "<div><p>Robinson Crusoe's incredible journey of survival on a lonely island. || ஒரு தனித்த தனித்தீவில் ராபின்சன் குரூசோவின் பிழைப்புப் போராட்டம்.</p><ul><li>⛵ <b>Ambition</b>: At age 19, he left home for sea adventures. || 19 வயதில் சாகசங்களுக்காக வீட்டை விட்டு வெளியேறினார்.</li><li>⛈️ <b>Shipwreck</b>: Surviving on an island with only a **dog**. || கப்பல் மூழ்கிய பின், ஒரு நாயுடன் தீவில் தப்பித்தார்.</li><li>🏠 <b>Home</b>: Built a tent and tracked time using a **wooden cross**. || ஒரு கூடாரத்தைக் கட்டி, மர சிலுவை மூலம் நேரத்தைக் கணக்கிட்டார்.</li><li>👣 <b>Friday</b>: Saved a young man from tribal men and named him **Friday**. || பழங்குடியினரிடமிருந்து ஒரு இளைஞனைக் காப்பாற்றி 'ஃபிரைடே' எனப் பெயரிட்டார்.</li><li>🇬🇧 <b>Return</b>: Returned home after **28 years, 2 months, and 19 days**. || சுமார் 28 ஆண்டுகளுக்குப் பிறகு நாடு திரும்பினார்.</li></ul><p><b>Chronological Order / காலமுறை வரிசை:</b> Sails ➔ Shipwreck ➔ Finds wreck ➔ Builds tent ➔ Searches island ➔ Sees footprint ➔ Saves Friday ➔ Teaches English ➔ Saves captain ➔ Leaves island.</p></div>"
+        "title": "2. Robinson Crusoe: A Story of Survival || 2. ராபின்சன் குரூஸோ: ஒரு உயிர்வாழும் கதை",
+        "content": "<div><ul><li>🌍 <b>Early Ambition</b>: <span class='en-text'>At age 19, Robinson left home for sea adventures.</span><span class='tm-text'>தனது 19 வயதில், ராபின்சன் கடல் சாகசங்களுக்காகத் தனது வீட்டை விட்டு வெளியேறினார்.</span></li><li>⛈️ <b>The Shipwreck</b>: <span class='en-text'>His ship sank in a storm; he survived on an island with only a dog.</span><span class='tm-text'>புயலில் அவரது கப்பல் மூழ்கியது; அவர் ஒரு சிறிய நாயுடன் ஒரு தீவில் தப்பிப் பிழைத்தார்.</span></li><li>📦 <b>Salvaging</b>: <span class='en-text'>He took food, guns, clothes, and tools from the wreck.</span><span class='tm-text'>அவர் கப்பல் சிதைவிலிருந்து உணவு, துப்பாக்கிகள், துணிகள் மற்றும் கருவிகளை எடுத்துக்கொண்டார்.</span></li><li>🏠 <b>Home</b>: <span class='en-text'>He built a tent and tracked time using a wooden cross.</span><span class='tm-text'>அவர் ஒரு கூடாரத்தை அமைத்தார் மற்றும் ஒரு மரச் சிலுவையைப் பயன்படுத்திக் காலத்தைக் கணக்கிட்டார்.</span></li><li>👣 <b>The Footprint</b>: <span class='en-text'>He lived in fear for two years after seeing a human footprint.</span><span class='tm-text'>ஒரு மனிதனின் காலடித் தடத்தைக் கண்ட பிறகு இரண்டு ஆண்டுகள் பயத்திலேயே வாழ்ந்தார்.</span></li><li>👦 <b>Friday</b>: <span class='en-text'>He saved a young man and named him Friday because they met on that day.</span><span class='tm-text'>அவர் ஒரு இளைஞனைக் காப்பாற்றி, அவர்களுக்குள் அந்தச் சந்திப்பு வெள்ளிக்கிழமை நடந்ததால் அவருக்கு 'ப்ரைடே' என்று பெயரிட்டார்.</span></li><li>🏡 <b>Return</b>: <span class='en-text'>After 28 years, 2 months, and 19 days, he returned to England.</span><span class='tm-text'>28 ஆண்டுகள், 2 மாதங்கள் மற்றும் 19 நாட்களுக்குப் பிறகு அவர் இங்கிலாந்து திரும்பினார்.</span></li></ul></div>"
       },
       {
-        "title": "3. Bujju’s Brave Adventure || 3. புஜ்ஜுவின் வீரப் பயணம்",
-        "content": "<div><p>Bujju’s family trip and how he found his way back. || புஜ்ஜுவின் குடும்பச் சுற்றுலா மற்றும் அவன் வழி கண்டுபிடித்த விதம்.</p><ul><li>🏞️ <b>The Trip</b>: They went to a hill. Appu ate a **guava**. || அவர்கள் மலைக்குச் சென்றனர். அப்பு ஒரு கொய்யாப்பழம் தின்றான்.</li><li>🦁 <b>The Scare</b>: Bujju ran alone toward the **waterfall** and got scared by a roar. || புஜ்ஜு தனியாக நீர்வீழ்ச்சிக்குச் சென்று கர்ஜனையைக் கேட்டு பயந்தான்.</li><li>👣 <b>Solution</b>: He followed **footprints** to reach his family. || கால்தடங்களைப் பின்பற்றித் தனது குடும்பத்தை அடைந்தான்.</li></ul></div>"
+        "title": "3. Bujju’s Brave Adventure || 3. புஜ்ஜுவின் வீரமான பயணம்",
+        "content": "<div><ul><li>⛰️ <b>The Trip</b>: <span class='en-text'>Bujju’s family and cousins went to a hill.</span><span class='tm-text'>புஜ்ஜுவின் குடும்பத்தினர் மற்றும் உறவினர்கள் ஒரு மலைக்குப் பயணம் சென்றனர்.</span></li><li>🐒 <b>The Separation</b>: <span class='en-text'>Bala and Janani stayed behind to watch a monkey.</span><span class='tm-text'>பாலாவும் ஜனனியும் ஒரு குரங்கைப் பார்ப்பதற்காகப் பின்னால் தங்கிவிட்டனர்.</span></li><li>🌊 <b>Bujju’s Choice</b>: <span class='en-text'>He ran alone toward the waterfall, ignoring his mother.</span><span class='tm-text'>அவர் தனது தாயின் பேச்சைக் கேட்காமல் நீர்வீழ்ச்சியை நோக்கித் தனியாக ஓடினார்.</span></li><li>🦶 <b>The Solution</b>: <span class='en-text'>He followed footprints to find his family.</span><span class='tm-text'>அவர் தனது குடும்பத்தைக் கண்டுபிடிக்கக் காலடித் தடங்களைப் பின்தொடர்ந்தார்.</span></li></ul></div>"
       },
       {
-        "title": "4. Poem Analysis: \"A Voyage\" || 4. கவிதை ஆய்வு: 'ஒரு பயணம்'",
-        "content": "<div><p>Travelers: Horse, Tiger, Ape, and Goat. || பயணிகள்: குதிரை, புலி, குரங்கு மற்றும் ஆடு.</p><ul><li>🌊 <b>Storm</b>: A **gale** (strong wind) blew while they sailed. || அவர்கள் பயணிக்கும்போது ஒரு பலமான காற்று வீசியது.</li><li>🎭 <b>Reactions</b>: Horse (Tremble), Tiger (Grew pale), Ape & Goat (Fainted).</li></ul></div>"
+        "title": "4. Poem: A Voyage || 4. கவிதை: ஒரு பயணம்",
+        "content": "<div><p><span class='en-text'>Travelers: Horse, Tiger, Ape, and Goat. Suddenly there was a gale (strong wind) while they sailed.</span><span class='tm-text'>பயணிகள்: குதிரை, புலி, குரங்கு மற்றும் ஆடு. அவர்கள் பயணம் செய்யும்போது திடீரென்று ஒரு பலமான காற்று வீசியது.</span></p><div><p><b>Animal Reactions / விலங்குகளின் எதிர்வினை:</b></p><ul><li>🐴 Horse: Tremble (நடுங்கியது)</li><li>🐯 Tiger: Grew pale (வெளிறிப்போனது)</li><li>🐒🐐 Ape & Goat: Fainted (மயக்கமடைந்தன)</li></ul></div><div><p><b>Rhyming Words / இயைபுச் சொற்கள்:</b></p><ul><li>Away – Day</li><li>Goat – Boat</li><li>Gale – Pale</li></ul></div></div>"
       },
       {
-        "title": "5. Grammar Essentials || 5. முக்கியமான இலக்கணப் பகுதிகள்",
-        "content": "<div><p><b>Syllabification / அசை பிரித்தல்:</b></p><ul><li>Rabbit Pattern (VC/CV): But/ton, Sun/set, Kit/ten.</li><li>Tiger Pattern (V/CV): Ho/tel.</li><li>Turtle Pattern: Cir/cle, Pur/ple.</li></ul><p><b>Conjunctions / இணைப்புச் சொற்கள்:</b></p><ul><li><b>And</b>: Combining similar items (Tennis and cricket). || ஒரே மாதிரியானவற்றை இணைக்க.</li><li><b>But</b>: Showing contrast (Big but slow). || முரண்பாட்டைக் காட்ட.</li><li><b>Or</b>: Showing choice (Tea or coffee?). || விருப்பத் தேர்வை வழங்க.</li></ul></div>"
+        "title": "5. Grammar: Syllabification & Conjunctions || 5. இலக்கணம்",
+        "content": "<div><p><b>Syllabification Patterns:</b></p><ul><li><b>Rabbit Pattern (VC/CV)</b>: But/ton, Sun/set, Kit/ten.</li><li><b>Tiger Pattern (V/CV)</b>: Ho/tel.</li><li><b>Turtle Pattern</b>: Cir/cle, Can/dle.</li></ul><div><p><b>Conjunctions (இணைப்புச் சொற்கள்):</b></p><ul><li><b>And</b>: To join similar ideas (e.g., Tennis and Cricket).</li><li><b>But</b>: To join opposite ideas (e.g., Popcorn but not pizza).</li><li><b>Or</b>: For choices (e.g., Tea or Coffee).</li></ul></div></div>"
       },
       {
-        "title": "6. Assessment and I Can Do || 6. மதிப்பீடு மற்றும் என்னால் முடியும்",
-        "content": "<div><ul><li>👤 <b>Who saved Friday?</b> Robinson Crusoe. || ஃபிரைடேவை காப்பாற்றியவர் யார்? ராபின்சன் குரூசோ.</li><li>🐰 <b>Divide words:</b> man (1), circle (cir/cle), butter (but/ter), hotel (ho/tel).</li><li>📖 <b>Alice in Wonderland:</b> Alice was under a tree at a tea party. || அலிஸ் ஒரு மரத்திற்கு அடியில் தேநீர் விருந்தில் இருந்தாள்.</li></ul></div>"
+        "title": "6. Alice in Wonderland || 6. ஆலிஸ் வொண்டர்லேண்ட்",
+        "content": "<div><p><span class='en-text'>Alice is under a tree in Wonderland attending a tea party. The man has a pot in his hand.</span><span class='tm-text'>ஆலிஸ் வொண்டர்லேண்டில் ஒரு மரத்தின் அடியில் தேநீர் விருந்தில் கலந்து கொள்கிறாள். அங்கிருப்பவரின் கையில் ஒரு குவளை உள்ளது.</span></p></div>"
       }
     ]
   },
   "quiz": {
     "questions": [
       {
-        "question": "What is a 'vessel used to travel in water' called? || நீரில் பயணம் செய்யப் பயன்படும் கலம் எது?",
-        "options": ["Tent", "Boat || படகு", "Cross", "Rod"],
-        "answer": 1,
-        "explanation": "A boat is a small vessel used for water travel. || படகு என்பது நீரில் பயணம் செய்யப் பயன்படும் ஒரு சிறிய கலமாகும்."
+        "question": "Was Robinson Crusoe interested in sea adventures? || ராபின்சன் குரூஸோ கடல் சாகசங்களில் ஆர்வம் கொண்டிருந்தாரா?",
+        "options": [
+          "Yes || ஆம்",
+          "No || இல்லை"
+        ],
+        "answer": 0,
+        "explanation": "Robinson Crusoe left his home to seek adventure by traveling the sea. || ராபின்சன் கடல் சாகசங்களுக்காகவே வீட்டை விட்டு வெளியேறினார்."
       },
       {
-        "question": "Who survived the shipwreck with Robinson? || ராபின்சனுடன் கப்பல் விபத்தில் தப்பியது எது?",
-        "options": ["Tiger", "Goat", "A small dog || ஒரு சிறிய நாய்", "Friday"],
+        "question": "How long did Robinson Crusoe live on the island? || ராபின்சன் தீவில் எவ்வளவு காலம் வாழ்ந்தார்?",
+        "options": [
+          "10 years",
+          "28 years || 28 ஆண்டுகள்",
+          "5 years",
+          "20 years"
+        ],
+        "answer": 1,
+        "explanation": "He returned to England after 28 years, 2 months, and 19 days. || அவர் சுமார் 28 ஆண்டுகளுக்குப் பிறகு இங்கிலாந்து திரும்பினார்."
+      },
+      {
+        "question": "What helped Bujju reach his family? || புஜ்ஜு தனது குடும்பத்தை அடைய எது உதவியது?",
+        "options": [
+          "Map",
+          "Smartphone",
+          "Footprints || காலடித் தடங்கள்",
+          "Voice"
+        ],
         "answer": 2,
-        "explanation": "He woke up with only a small dog for company. || அவர் ஒரு சிறிய நாயுடன் மட்டுமே தீவில் தப்பித்து விழித்தார்."
+        "explanation": "Footprints helped Bujju to reach his family. || காலடித் தடங்கள் புஜ்ஜு தனது குடும்பத்தைக் கண்டுபிடிக்க உதவின."
       },
       {
-        "question": "Bujju followed ______ to reach his family. || புஜ்ஜு தனது குடும்பத்தை அடைய எதைப் பின்தொடர்ந்தான்?",
-        "options": ["Water", "Roar", "Footprints || கால்தடங்கள்", "Guava"],
+        "question": "Which animal fainted during the voyage in the poem? || கவிதையில் பயணத்தின் போது எந்த விலங்குகள் மயக்கமடைந்தன?",
+        "options": [
+          "Horse",
+          "Tiger",
+          "Ape and Goat || குரங்கு மற்றும் ஆடு",
+          "Lion"
+        ],
         "answer": 2,
-        "explanation": "Bujju reached his family by following footprints in the sand. || புஜ்ஜு மணலில் இருந்த கால்தடங்களைப் பின்பற்றித் தனது குடும்பத்தை அடைந்தான்."
+        "explanation": "According to the match reaction, Ape and Goat fainted. || கவிதையின்படி குரங்கும் ஆடும் மயக்கமடைந்தன."
       },
       {
-        "question": "How do you divide 'Sunset' into syllables? || 'Sunset' என்ற சொல்லை எவ்வாறு அசைகளாகப் பிரிப்பீர்கள்?",
-        "options": ["Suns/et", "Sun/set", "Su/nset", "Su/ns/et"],
+        "question": "Identify the word pattern for 'Hotel'. || 'Hotel' என்ற சொல்லின் வகை எது?",
+        "options": [
+          "Rabbit Pattern",
+          "Tiger Pattern || டைகர் முறை",
+          "Turtle Pattern",
+          "Bird Pattern"
+        ],
         "answer": 1,
-        "explanation": "It follows the Rabbit pattern: Sun/set. || இது 'Rabbit' முறையைப் பின்பற்றி Sun/set எனப் பிரிக்கப்படுகிறது."
+        "explanation": "Hotel (Ho/tel) follows the Tiger Pattern (V/CV). || 'Hotel' என்பது V/CV முறையைப் பின்பற்றுகிறது."
       },
       {
-        "question": "Which animal 'grew pale' during the gale? || பலமான காற்றின்போது எந்த விலங்கு பயத்தில் வெளிறியது?",
-        "options": ["Horse", "Tiger || புலி", "Ape", "Goat"],
+        "question": "An elephant is big ____ slow. (Choose the conjunction) || யானை பெரியது ____ மெதுவானது.",
+        "options": [
+          "and || மற்றும்",
+          "but || ஆனால்",
+          "or || அல்லது"
+        ],
         "answer": 1,
-        "explanation": "In the poem 'A Voyage', the tiger grew pale. || 'ஒரு பயணம்' கவிதையில் புலி வெளிறிப் போனதாகக் கூறப்படுகிறது."
+        "explanation": "We use 'but' to join contrasting ideas. || பெரியது ஆனால் மெதுவானது என்பதால் 'but' பயன்படுத்தப்படுகிறது."
       },
       {
-        "question": "Complete the sentence: 'I want popcorn ___ not pizza.'",
-        "options": ["and", "but || ஆனால்", "or", "so"],
+        "question": "What did Robinson name the boy he saved? || ராபின்சன் தான் காப்பாற்றிய பையனுக்கு என்ன பெயரிட்டார்?",
+        "options": [
+          "Monday",
+          "Sunday",
+          "Friday || ப்ரைடே",
+          "Appu"
+        ],
+        "answer": 2,
+        "explanation": "He named him Friday because they met on that day. || அவர்கள் சந்தித்த நாள் வெள்ளிக்கிழமை என்பதால் அவருக்கு 'ப்ரைடே' என்று பெயரிட்டார்."
+      },
+      {
+        "question": "What is the meaning of 'Cannibals'? || 'மனித உண்ணிகள்' (Cannibals) என்றால் என்ன?",
+        "options": [
+          "People who eat plants",
+          "Humans who eat other humans || சக மனிதர்களை உண்ணும் மனிதர்கள்",
+          "Tribe members",
+          "Rebels"
+        ],
         "answer": 1,
-        "explanation": "'But' is used to show contrast between popcorn and pizza. || முரண்பாட்டைக் குறிக்க 'but' என்ற இணைப்புச்சொல் பயன்படுகிறது."
+        "explanation": "Cannibals are humans who eat other humans. || மனிதர்களை உண்ணும் மனிதர்கள் கன்னிபால்ஸ் என்று அழைக்கப்படுவர்."
+      },
+      {
+        "question": "Which pattern does the word 'Button' follow? || 'Button' என்ற சொல் எந்த முறையைப் பின்பற்றுகிறது?",
+        "options": [
+          "VC/CV (Rabbit Pattern) || ராபிட் முறை",
+          "V/CV (Tiger Pattern)",
+          "Turtle Pattern",
+          "Single Vowel"
+        ],
+        "answer": 0,
+        "explanation": "Button (But/ton) follows the Rabbit Pattern (VC/CV). || 'Button' என்பது VC/CV முறையைப் பின்பற்றுகிறது."
+      },
+      {
+        "question": "Do you want tea ____ coffee? || உனக்குத் தேநீர் ____ காபி வேண்டுமா?",
+        "options": [
+          "and",
+          "but",
+          "or || அல்லது"
+        ],
+        "answer": 2,
+        "explanation": "We use 'or' for choices. || விருப்பங்களைத் தேர்ந்தெடுக்க 'or' பயன்படுத்தப்படுகிறது."
       }
     ]
   }
