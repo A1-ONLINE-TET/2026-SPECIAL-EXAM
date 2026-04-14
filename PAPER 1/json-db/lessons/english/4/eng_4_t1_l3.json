@@ -1,6 +1,6 @@
 {
   "lesson_meta": {
-    "title": "Unit 3: Time for a Journey",
+    "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்",
     "unit": 3,
     "grade": "4",
     "term": "1",
@@ -8,9 +8,69 @@
     "code": "eng_4_t1_l3"
   },
   "material": {
-    "sections": []
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. Glossary and Vocabulary || 1. கலைச்சொற்கள் மற்றும் சொல்லகராதி",
+        "content": "<div><table border='1' style='width:100%; border-collapse: collapse;'><thead><tr style='background-color: #f2f2f2;'><th>Term / சொல்</th><th>Definition / பொருள்</th></tr></thead><tbody><tr><td><b>Adventure</b></td><td>A risky undertaking. || ஒரு துணிகரமான அல்லது சாகசச் செயல்.</td></tr><tr><td><b>Cannibals</b></td><td>Humans who eat other humans. || மனித இறைச்சியை உண்ணும் மனிதர்கள்.</td></tr><tr><td><b>Footprint</b></td><td>The impression of the foot on sand/snow. || கால்தடம் (மணல் அல்லது பனியில்).</td></tr><tr><td><b>Frightened</b></td><td>Afraid. || பயந்த.</td></tr><tr><td><b>Tribe</b></td><td>A small community with common habits. || பழங்குடி இனம்.</td></tr><tr><td><b>Waterfall</b></td><td>Water dropping from a higher point. || மேலிருந்து விழும் நீர் (நீர்வீழ்ச்சி).</td></tr><tr><td><b>Explore</b></td><td>To travel through an unknown area. || ஆராய்தல் (புதிய இடங்களைக் கண்டறிதல்).</td></tr></tbody></table></div>"
+      },
+      {
+        "title": "2. Robinson Crusoe: A Story of Survival || 2. ராபின்சன் குரூசோ: வாழ்வதற்கான போராட்டம்",
+        "content": "<div><p>Robinson Crusoe was a brave man who faced many challenges at sea. || ராபின்சன் குரூசோ கடலில் பல சவால்களை எதிர்கொண்ட ஒரு துணிச்சலான மனிதர்.</p><ul><li>⛵ <b>Ambition</b>: At age 19, he left home for sea adventures. || 19 வயதில் கடல் சாகசங்களுக்காக வீட்டை விட்டு வெளியேறினார்.</li><li>⛈️ <b>Shipwreck</b>: His ship sank in a storm; he survived on an island with only a **dog**. || அவரது கப்பல் புயலில் மூழ்கியது; ஒரு நாயுடன் மட்டும் ஒரு தீவில் தப்பிப் பிழைத்தார்.</li><li>🏠 <b>Survival</b>: He built a **tent** and tracked time using a **wooden cross**. || அவர் ஒரு கூடாரத்தைக் கட்டி, ஒரு மரச் சிலுவையைப் பயன்படுத்தி நேரத்தைக் கணக்கிட்டார்.</li><li>👣 <b>Discovery</b>: After two years of fear, he met a young man named **Friday**, whom he saved from tribal men. || இரண்டு ஆண்டுகளுக்குப் பிறகு, அவர் 'ஃபிரைடே' (வெள்ளிக்கிழமை) என்ற இளைஞனை பழங்குடியினரிடம் இருந்து காப்பாற்றினார்.</li><li>🇬🇧 <b>Return</b>: He returned to England after **28 years, 2 months, and 19 days**. || அவர் 28 ஆண்டுகள், 2 மாதங்கள் மற்றும் 19 நாட்களுக்குப் பிறகு இங்கிலாந்து திரும்பினார்.</li></ul></div>"
+      },
+      {
+        "title": "3. Bujju’s Brave Adventure || 3. புஜ்ஜுவின் வீரப் பயணம்",
+        "content": "<div><p>Bujju and his family went on a trip to a hill. || புஜ்ஜுவும் அவனது குடும்பத்தினரும் ஒரு குன்றிற்குச் சுற்றுலா சென்றனர்.</p><ul><li>🏞️ <b>The Walk</b>: Bujju ran alone toward the **waterfall**, ignoring his mother's warning. || புஜ்ஜு தனது அம்மாவின் எச்சரிக்கையை மீறி நீர்வீழ்ச்சியை நோக்கித் தனியாக ஓடினான்.</li><li>🐾 <b>Finding Way</b>: Scared by a roar, he used **footprints** to find his family again. || ஒரு கர்ஜனையைக் கேட்டு பயந்த அவன், கால்தடங்களைப் பயன்படுத்தி மீண்டும் தனது குடும்பத்தைக் கண்டுபிடித்தான்.</li></ul></div>"
+      },
+      {
+        "title": "4. Poem: A Voyage || 4. கவிதை: ஒரு பயணம்",
+        "content": "<div><p>Four animals—Horse, Tiger, Ape, and Goat—decide to go on a sea voyage. || குதிரை, புலி, குரங்கு மற்றும் ஆடு ஆகிய நான்கு விலங்குகள் கடல் பயணம் மேற்கொள்ள முடிவு செய்கின்றன.</p><ul><li>🦁 <b>The Gale</b>: A strong wind blew, making the tiger grow pale and others faint. || ஒரு பலமான காற்று வீசியபோது, புலி பயத்தில் வெளிறிப்போனது, மற்றவர்கள் மயக்கமடைந்தனர்.</li><li>🔗 <b>Rhyming Words</b>: Goat / Boat, Away / Day, Gale / Pale.</li></ul></div>"
+      },
+      {
+        "title": "5. Grammar: Syllabification (Word Division) || 5. இலக்கணம்: அசை பிரித்தல்",
+        "content": "<div><p>Dividing words into smaller parts (syllables) based on vowel sounds. || உயிரெழுத்து ஒலிகளின் அடிப்படையில் சொற்களைச் சிறிய பகுதிகளாகப் பிரித்தல்.</p><ul><li><b>Rabbit Pattern (VC/CV)</b>: Dividing between double consonants. (e.g., But/ton, Kit/ten, Sun/set).</li><li><b>Tiger Pattern (V/CV)</b>: Dividing after the first vowel if it has a long sound. (e.g., Ho/tel).</li><li><b>Turtle Pattern (-cle)</b>: Dividing before 'cle'. (e.g., Cir/cle, Pur/ple).</li></ul></div>"
+      },
+      {
+        "title": "6. Grammar: Conjunctions || 6. இலக்கணம்: இணைப்புச் சொற்கள்",
+        "content": "<div><p>Words used to join words or sentences. || சொற்கள் அல்லது வாக்கியங்களை இணைக்கப் பயன்படும் சொற்கள்.</p><ul><li><b>And</b>: To join similar things. (I like tea **and** coffee). || ஒரே மாதிரியான விஷயங்களை இணைக்க 'and' பயன்படுகிறது.</li><li><b>But</b>: To show contrast. (He is rich **but** simple). || முரண்பட்ட விஷயங்களை இணைக்க 'but' பயன்படுகிறது.</li><li><b>Or</b>: To show choice. (Apple **or** orange?). || விருப்பத் தேர்வுகளைக் குறிக்க 'or' பயன்படுகிறது.</li></ul></div>"
+      }
+    ]
   },
   "quiz": {
-    "questions": []
+    "questions": [
+      {
+        "question": "What did Robinson name the boy he saved? || தான் காப்பாற்றிய சிறுவனுக்கு ராபின்சன் என்ன பெயரிட்டார்?",
+        "options": ["Monday", "Friday", "Sunday", "Saturday"],
+        "answer": 1,
+        "explanation": "He named him Friday because they met on a Friday. || அவர்கள் ஒரு வெள்ளிக்கிழமையில் சந்தித்ததால் அவருக்கு 'ஃபிரைடே' என்று பெயரிட்டார்."
+      },
+      {
+        "question": "How long did Robinson Crusoe stay on the island? || ராபின்சன் குரூசோ தீவில் எவ்வளவு காலம் தங்கியிருந்தார்?",
+        "options": ["10 years", "20 years", "28 years", "5 years"],
+        "answer": 2,
+        "explanation": "He returned to England after 28 years, 2 months, and 19 days. || அவர் சுமார் 28 ஆண்டுகள் அச்சிறிய தீவில் தங்கியிருந்தார்."
+      },
+      {
+        "question": "Which conjunction is used to show a choice? || விருப்பத் தேர்வை வெளிப்படுத்த எந்த இணைப்புச்சொல் பயன்படுத்தப்படுகிறது?",
+        "options": ["And", "But", "Or", "So"],
+        "answer": 2,
+        "explanation": "'Or' is used to choose between two options. || இரண்டு விருப்பங்களில் ஒன்றைத் தேர்ந்தெடுக்க 'Or' பயன்படுகிறது."
+      },
+      {
+        "question": "Divide the word 'Button' into syllables. || 'Button' என்ற சொல்லை அசைகளாகப் பிரிக்கவும்.",
+        "options": ["Bu/tton", "But/ton", "Butt/on", "B/utton"],
+        "answer": 1,
+        "explanation": "'Button' follows the Rabbit pattern (VC/CV), dividing between the double consonants. || 'Button' என்ற சொல் இரண்டு மெய்யெழுத்துக்களுக்கு இடையே பிரிக்கப்படுகிறது."
+      },
+      {
+        "question": "What animals hired a boat in the poem 'A Voyage'? || 'ஒரு பயணம்' கவிதையில் படகை வாடகைக்கு எடுத்த விலங்குகள் எவை?",
+        "options": ["Lion and Dog", "Horse, Tiger, Ape, Goat", "Cat and Mouse", "Elephant and Giraffe"],
+        "answer": 1,
+        "explanation": "The poem mentions Horse, Tiger, Ape, and Goat as the travelers. || இக்கவிதையில் குதிரை, புலி, குரங்கு மற்றும் ஆடு ஆகியவை பயணம் மேற்கொள்கின்றன."
+      }
+    ]
   }
 }
