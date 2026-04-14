@@ -18,7 +18,7 @@ export const syllabusData = {
                 "code": "tam_4_t1_l2"
               },
               {
-                "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *",
+                "title": "யார் தலைவர்? *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l3"
               }
@@ -28,17 +28,17 @@ export const syllabusData = {
             "title": "அலகு 2",
             "topics": [
               {
-                "title": "முளைப்பாரி - பாடல் *",
+                "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l4"
               },
               {
-                "title": "பண்படுத்தும் பழமொழிகள் *",
+                "title": "முளைப்பாரி - பாடல் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l5"
               },
               {
-                "title": "முயல் அரசன் *",
+                "title": "பண்படுத்தும் பழமொழிகள் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l6"
               }
@@ -48,24 +48,29 @@ export const syllabusData = {
             "title": "அலகு 3",
             "topics": [
               {
-                "title": "வெற்றி வேற்கை *",
+                "title": "முயல் அரசன் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l7"
               },
               {
-                "title": "விடியும் வேளை *",
+                "title": "வெற்றி வேற்கை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l8"
               },
               {
-                "title": "கரிகாலன் கட்டிய கல்லணை *",
+                "title": "விடியும் வேளை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l9"
               },
               {
-                "title": "அகரமுதலி *",
+                "title": "கரிகாலன் கட்டிய கல்லணை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l10"
+              },
+              {
+                "title": "அகரமுதலி *",
+                "isUpdated": true,
+                "code": "tam_4_t1_l11"
               }
             ]
           }

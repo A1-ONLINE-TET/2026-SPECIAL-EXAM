@@ -20,7 +20,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l2",
       "grade": "4"
     },
-    "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *": {
+    "யார் தலைவர்? *": {
       "local": true,
       "filename": "tam_4_t1_l3",
       "grade": "4"
@@ -30,7 +30,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l3",
       "grade": "4"
     },
-    "முளைப்பாரி - பாடல் *": {
+    "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *": {
       "local": true,
       "filename": "tam_4_t1_l4",
       "grade": "4"
@@ -40,7 +40,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l4",
       "grade": "4"
     },
-    "பண்படுத்தும் பழமொழிகள் *": {
+    "முளைப்பாரி - பாடல் *": {
       "local": true,
       "filename": "tam_4_t1_l5",
       "grade": "4"
@@ -50,7 +50,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l5",
       "grade": "4"
     },
-    "முயல் அரசன் *": {
+    "பண்படுத்தும் பழமொழிகள் *": {
       "local": true,
       "filename": "tam_4_t1_l6",
       "grade": "4"
@@ -60,7 +60,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l6",
       "grade": "4"
     },
-    "வெற்றி வேற்கை *": {
+    "முயல் அரசன் *": {
       "local": true,
       "filename": "tam_4_t1_l7",
       "grade": "4"
@@ -70,7 +70,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l7",
       "grade": "4"
     },
-    "விடியும் வேளை *": {
+    "வெற்றி வேற்கை *": {
       "local": true,
       "filename": "tam_4_t1_l8",
       "grade": "4"
@@ -80,7 +80,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l8",
       "grade": "4"
     },
-    "கரிகாலன் கட்டிய கல்லணை *": {
+    "விடியும் வேளை *": {
       "local": true,
       "filename": "tam_4_t1_l9",
       "grade": "4"
@@ -90,7 +90,7 @@ export const lessonMap = {
       "filename": "tam_4_t1_l9",
       "grade": "4"
     },
-    "அகரமுதலி *": {
+    "கரிகாலன் கட்டிய கல்லணை *": {
       "local": true,
       "filename": "tam_4_t1_l10",
       "grade": "4"
@@ -98,6 +98,16 @@ export const lessonMap = {
     "tam_4_t1_l10": {
       "local": true,
       "filename": "tam_4_t1_l10",
+      "grade": "4"
+    },
+    "அகரமுதலி *": {
+      "local": true,
+      "filename": "tam_4_t1_l11",
+      "grade": "4"
+    },
+    "tam_4_t1_l11": {
+      "local": true,
+      "filename": "tam_4_t1_l11",
       "grade": "4"
     },
     "தமிழின் இனிமை *": {
