@@ -1,6 +1,6 @@
 {
   "lesson_meta": {
-    "title": "Unit 2: My Hobbies",
+    "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்",
     "unit": 2,
     "grade": "4",
     "term": "1",
@@ -8,9 +8,73 @@
     "code": "eng_4_t1_l2"
   },
   "material": {
-    "sections": []
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. My Little Pictionary & Vocabulary || 1. எனது சிறு விளக்கப்பட அகராதி மற்றும் சொல்லகராதி",
+        "content": "<div><ul><li><b>[[Earthworm]] (n)</b>: A worm that lives in the ground. || [[மண்புழு]]: மண்ணில் வாழும் ஒரு வகை புழு.</li><li><b>[[Mermaid]] (n)</b>: A mythological creature with a woman’s head and a fish tail. || [[கடல் கன்னி]]: பெண்ணின் தலையையும் மீனின் வாலையும் கொண்ட ஒரு கற்பனை உயிரினம்.</li><li><b>[[Hem]] (v)</b>: To fold and sew the edge of a cloth. || [[ஓரத்தை மடித்துத் தைத்தல்]]: துணியின் ஓரத்தை மடித்துத் தைப்பது.</li><li><b>[[Angling]] (n)</b>: Fishing with a rod and line. || [[தூண்டில் மீன்பிடித்தல்]]: தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடித்தல்.</li><li><b>[[Fry]] (n)</b>: The baby of a fish. || [[மீன் குஞ்சு]]: மீனின் சிறிய குஞ்சு.</li><li><b>[[DIY kid]]</b>: \"Do It Yourself\" kid; someone who does their work on their own. || [[தானே செய்யும் சிறுவன்]]: தனது வேலைகளைத் தானே செய்துகொள்ளும் சிறுவன்.</li><li><b>[[Sew]]</b>: Making stitches with a needle. || [[தையல்]]: ஊசி கொண்டு தைப்பது.</li><li><b>[[Cereals]]</b>: Grains used for food. || [[தானியங்கள்]]: உணவாகப் பயன்படும் தானிய வகைகள்.</li><li><b>[[Slicing]]</b>: Cutting into slices. || [[துண்டாக்குதல்]]: மெல்லிய துண்டுகளாக வெட்டுதல்.</li></ul></div>"
+      },
+      {
+        "title": "2. The DIY Kids (Hobbies) || 2. தானே செய்யும் சிறுவர்கள் (பொழுதுபோக்குகள்)",
+        "content": "<div><p>Meet the characters and their unique hobbies: || கதாபாத்திரங்களையும் அவர்களின் தனித்துவமான பொழுதுபோக்குகளையும் அறிவோம்:</p><ul><li>🎯 <b>Vinoth</b>: Washes and folds his own clothes neatly. || <b>வினோத்</b>: தனது துணிகளைத் தானே துவைத்து நேர்த்தியாக மடித்து வைக்கிறான்.</li><li>🚲 <b>Rosy</b>: Learnt cycling at age 9; cycles every day. || <b>ரோஸி</b>: 9 வயதில் சைக்கிள் ஓட்டக் கற்றுக் கொண்டாள்; தினமும் சைக்கிள் ஓட்டுகிறாள்.</li><li>🏊 <b>Megalai</b>: Loves swimming and competes with elders in the well. || <b>மேகலை</b>: நீச்சல் மீது ஆர்வம் கொண்டவள்; கிணற்றில் பெரியவர்களுடன் போட்டியிட்டு நீந்துவாள்.</li><li>🌱 <b>James</b>: Enjoys gardening; waters his plants every day. || <b>ஜேம்ஸ்</b>: தோட்டக்கலையில் ஆர்வம் உடையவன்; தினமும் செடிகளுக்கு நீர் ஊற்றுகிறான்.</li><li>🧵 <b>Aliya</b>: Likes to stitch and hem her own torn clothes. || <b>அலியா</b>: தையல் வேலையில் ஆர்வம் உடையவள்; கிழிந்த துணிகளைத் தானே மடித்துத் தைக்கிறாள்.</li><li>🔪 <b>Raju</b>: Helps in the kitchen by cleaning grains and slicing vegetables. || <b>ராஜு</b>: சமையல் அறையில் தானியங்களைச் சுத்தம் செய்யவும் காய்கறிகளை நறுக்கவும் உதவுகிறான்.</li></ul></div>"
+      },
+      {
+        "title": "3. Grammar: Homophones || 3. இலக்கணம்: ஒத்த ஒலிப்புச் சொற்கள்",
+        "content": "<div><p>[[Homophones]] are words that sound the same but have different spellings and meanings. || [[ஒத்த ஒலிப்புச் சொற்கள்]] என்பது ஒரே மாதிரி ஒலிக்கக்கூடிய, ஆனால் வெவ்வேறு எழுத்துக்களையும் பொருள்களையும் கொண்ட சொற்கள் ஆகும்.</p><ul><li>Hare / Hair (முயல் / முடி)</li><li>Sale / Sail (விற்பனை / படகோட்டுதல்)</li><li>Pair / Pear (ஜோடி / பேரிக்காய்)</li><li>Desert / Dessert (பாலைவனம் / இனிப்பு உணவு)</li><li>Read / Reed (வாசித்தல் / நாணல்)</li><li>Deer / Dear (மான் / அன்பான)</li><li>Eye / I (கண் / நான்)</li><li>Buy / By (வாங்குதல் / மூலம்)</li><li>Meet / Meat (சந்திப்பு / இறைச்சி)</li><li>Waist / Waste (இடுப்பு / வீணாக்குதல்)</li><li>Write / Right (எழுதுதல் / சரி அல்லது வலது)</li><li>Blue / Blew (நீலம் / ஊதியது)</li></ul></div>"
+      },
+      {
+        "title": "4. Poem: Treasure Trove || 4. கவிதை: புதையல் பெட்டி",
+        "content": "<div><p>Reading is a treasure that helps us learn and imagine new worlds. || வாசிப்பு என்பது நாம் புதிய உலகங்களைக் கற்றுக்கொள்ளவும் கற்பனை செய்யவும் உதவும் ஒரு புதையல் ஆகும்.</p><div><p><b>Rhyming Words / இயைபுச் சொற்கள்:</b></p><ul><li>Mars – Cars</li><li>Time – Crime</li><li>Be – Sea</li><li>Sad – Glad</li><li>Bed – Head</li></ul></div><p><b>Glossary / கலைச்சொற்கள்:</b></p><ul><li>Space: Beyond Earth (விண்வெளி)</li><li>Zoom: Travel quickly (வேகமாகப் பயணித்தல்)</li><li>Glance: Look (பார்வை)</li><li>Discover: Find (கண்டுபிடித்தல்)</li><li>Mystery: Unknown thing (மர்மம்)</li></ul></div>"
+      },
+      {
+        "title": "5. Grammar: Simple Present Tense || 5. இலக்கணம்: சாதாரண நிகழ்காலம்",
+        "content": "<div><p>Used for habits, general truths, and unchanging situations. || பழக்கவழக்கங்கள், பொதுவான உண்மைகள் மற்றும் மாறாத சூழ்நிலைகளுக்குப் பயன்படுத்தப்படுகிறது.</p><div><p>🏃 <b>Action Verbs Rule:</b></p><ul><li>For <b>I, We, You, They</b>: Use the base form (e.g., I <i>play</i>). || <b>I, We, You, They</b> ஆகியவற்றிற்கு அடிப்படை வினையைப் பயன்படுத்தவும்.</li><li>For <b>He, She, It</b>: Add 's' or 'es' (e.g., He <i>plays</i>). || <b>He, She, It</b> ஆகியவற்றிற்கு 's' அல்லது 'es' சேர்க்கவும்.</li></ul></div><div><p>✨ <b>'Be' Verbs:</b></p><ul><li><b>Am</b>: Only for <b>I</b>.</li><li><b>Is</b>: For <b>He, She, It</b>.</li><li><b>Are</b>: For <b>We, You, They</b>.</li></ul></div><p>📚 <b>Examples:</b> The earth goes round the sun. (பூமி சூரியனைச் சுற்றி வருகிறது.)</p></div>"
+      },
+      {
+        "title": "6. Supplementary: Anbu and the Fish || 6. துணைப்பாடம்: அன்பும் மீனும்",
+        "content": "<div><p>Anbu and Madhan were friends who enjoyed catching fish. || அன்பும் மதனும் மீன் பிடிப்பதில் ஆர்வம் கொண்ட நண்பர்கள்.</p><ul><li>🎣 <b>Tools</b>: They used a **dhoti** as a net and made fishing rods with sticks and thorns. || அவர்கள் <b>வேட்டியை</b> வலையாகவும், குச்சிகள் மற்றும் முட்களைக் கொண்டு தூண்டில்களையும் தயார் செய்தனர்.</li><li>🪱 <b>Bait</b>: They used earthworms to attract fish. || மீன்களைக் கவர மண்புழுக்களை இரையாகப் பயன்படுத்தினர்.</li><li>🌱 <b>Lesson</b>: After two fish died in a jar, Anbu released the last one, realizing that nature is their true home. || ஜாடியில் இரண்டு மீன்கள் இறந்த பிறகு, இயற்கைதான் அவற்றின் வீடு என்பதை உணர்ந்து கடைசி மீனை விடுவித்தான்.</li><li>🍚 <b>New Hobby</b>: They started feeding fish with **puffed rice**. || அவர்கள் மீன்களுக்கு <b>பொரி</b> போட்டு உணவளிக்கத் தொடங்கினர்.</li></ul></div>"
+      },
+      {
+        "title": "7. Summary & Writing Skills || 7. சுருக்கம் மற்றும் எழுத்துப் பயிற்சி",
+        "content": "<div><p>🤴 <b>Character Qualities (Little Red Hen):</b></p><ul><li>Dog: Selfish (சுயநலம்)</li><li>Cat: Sleepy (தூக்கமான)</li><li>Duck: Noisy (சத்தமான)</li><li>Cow: Lazy (சோம்பேறி)</li></ul><p>✉️ <b>Leave Letter Components:</b> From, To, Salutation, Body of the letter, and Closing. || விடுப்புக் கடிதத்தின் முக்கியப் பாகங்கள்: அனுப்புநர், பெறுநர், விளிப்பு, கடிதத்தின் விவரம் மற்றும் முடிவு.</p></div>"
+      }
+    ]
   },
   "quiz": {
-    "questions": []
+    "questions": [
+      {
+        "question": "Who sews the torn clothes? || கிழிந்த துணிகளைத் தைப்பவர் யார்?",
+        "options": ["Vinoth", "Aliya", "Raju", "James"],
+        "answer": 1,
+        "explanation": "Aliya is keen to stitch and sews her own torn clothes. || அலியா தையல் வேலையில் ஆர்வம் கொண்டவள்; தனது துணிகளைத் தானே தைக்கிறாள்."
+      },
+      {
+        "question": "What did Anbu and Madhan use as a net? || அன்பும் மதனும் எதை வலையாகப் பயன்படுத்தினார்கள்?",
+        "options": ["Plastic net", "Dhoti", "Basket", "Cloth bag"],
+        "answer": 1,
+        "explanation": "They used a dhoti as a temporary net to catch fish. || அவர்கள் ஒரு வேட்டியை மடித்து மீன் பிடிக்க வலையாகப் பயன்படுத்தினார்கள்."
+      },
+      {
+        "question": "Where does the mermaid live in the poem 'Treasure Trove'? || 'புதையல் பெட்டி' கவிதையில் கடல் கன்னி எங்கே வாழ்கிறாள்?",
+        "options": ["On a mountain", "In space", "Under the sea", "In a river"],
+        "answer": 2,
+        "explanation": "According to the poem, we visit a mermaid under the sea. || கவிதையின்படி, கடலுக்கு அடியில் நாம் கடல் கன்னியைக் காணலாம்."
+      },
+      {
+        "question": "Which animal was 'lazy' in 'The Little Red Hen' story? || 'சிவப்பு நாட்டுக்கோழி' கதையில் எது சோம்பேறியாக இருந்தது?",
+        "options": ["Dog", "Cat", "Duck", "Cow"],
+        "answer": 3,
+        "explanation": "The cow showed a lazy quality by refusing to help. || பசுமாடு வேலை செய்ய மறுத்ததன் மூலம் சோம்பேறித்தனத்தைக் காட்டியது."
+      },
+      {
+        "question": "Complete the sentence: 'The birds _______ in the sky.'",
+        "options": ["fly", "flies", "flying", "is fly"],
+        "answer": 0,
+        "explanation": "For plural subjects (birds), we use the base form 'fly'. || பன்மைப் பெயர்ச்சொற்களுக்கு (பறவைகள்) 'fly' என்ற வினையைப் பயன்படுத்த வேண்டும்."
+      }
+    ]
   }
 }
