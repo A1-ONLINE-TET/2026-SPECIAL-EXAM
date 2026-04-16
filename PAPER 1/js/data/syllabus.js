@@ -2938,6 +2938,33 @@ export const syllabusData = {
         ]
       }
     ],
+    "5": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "அலகு 1: உறுப்பு மண்டலங்கள்",
+                "isUpdated": true,
+                "code": "sci_5_t1_l1"
+              },
+              {
+                "title": "அலகு 2: பருப்பொருட்கள் மற்றும் மூலப்பொருட்கள்",
+                "isUpdated": true,
+                "code": "sci_5_t1_l2"
+              },
+              {
+                "title": "அலகு 3: ஆற்றல்",
+                "isUpdated": true,
+                "code": "sci_5_t1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,

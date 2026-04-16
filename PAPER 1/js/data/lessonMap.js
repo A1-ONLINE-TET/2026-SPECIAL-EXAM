@@ -674,6 +674,36 @@ export const lessonMap = {
       "filename": "sci_4_t1_l4",
       "grade": "4"
     },
+    "அலகு 1: உறுப்பு மண்டலங்கள்": {
+      "local": true,
+      "filename": "sci_5_t1_l1",
+      "grade": "5"
+    },
+    "sci_5_t1_l1": {
+      "local": true,
+      "filename": "sci_5_t1_l1",
+      "grade": "5"
+    },
+    "அலகு 2: பருப்பொருட்கள் மற்றும் மூலப்பொருட்கள்": {
+      "local": true,
+      "filename": "sci_5_t1_l2",
+      "grade": "5"
+    },
+    "sci_5_t1_l2": {
+      "local": true,
+      "filename": "sci_5_t1_l2",
+      "grade": "5"
+    },
+    "அலகு 3: ஆற்றல்": {
+      "local": true,
+      "filename": "sci_5_t1_l3",
+      "grade": "5"
+    },
+    "sci_5_t1_l3": {
+      "local": true,
+      "filename": "sci_5_t1_l3",
+      "grade": "5"
+    },
     "1. அளவீட்டியல்": {
       "local": true,
       "filename": "sci_8_l1",
@@ -890,36 +920,6 @@ export const lessonMap = {
     }
   },
   "maths": {
-    "1": {
-      "local": true,
-      "filename": "1",
-      "grade": "4"
-    },
-    "2": {
-      "local": true,
-      "filename": "2",
-      "grade": "4"
-    },
-    "3": {
-      "local": true,
-      "filename": "3",
-      "grade": "4"
-    },
-    "4": {
-      "local": true,
-      "filename": "4",
-      "grade": "4"
-    },
-    "5": {
-      "local": true,
-      "filename": "5",
-      "grade": "4"
-    },
-    "6": {
-      "local": true,
-      "filename": "6",
-      "grade": "4"
-    },
     "அலகு 1: வடிவியல்": {
       "local": true,
       "filename": "mat_5_t1_l1",
@@ -960,10 +960,10 @@ export const lessonMap = {
       "filename": "mat_4_t1_l4",
       "grade": "4"
     },
-    "அலகு 5: காலம்": {
+    "அலகு 5: நேரம்": {
       "local": true,
-      "filename": "mat_4_t1_l5",
-      "grade": "4"
+      "filename": "mat_5_t1_l5",
+      "grade": "5"
     },
     "mat_4_t1_l5": {
       "local": true,
@@ -998,11 +998,6 @@ export const lessonMap = {
     "mat_5_t1_l4": {
       "local": true,
       "filename": "mat_5_t1_l4",
-      "grade": "5"
-    },
-    "அலகு 5: நேரம்": {
-      "local": true,
-      "filename": "mat_5_t1_l5",
       "grade": "5"
     },
     "mat_5_t1_l5": {
