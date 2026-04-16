@@ -704,6 +704,16 @@ export const lessonMap = {
       "filename": "sci_5_t1_l3",
       "grade": "5"
     },
+    "அலகு 4: அன்றாட வாழ்வில் அறிவியல்": {
+      "local": true,
+      "filename": "sci_5_t1_l4",
+      "grade": "5"
+    },
+    "sci_5_t1_l4": {
+      "local": true,
+      "filename": "sci_5_t1_l4",
+      "grade": "5"
+    },
     "1. அளவீட்டியல்": {
       "local": true,
       "filename": "sci_8_l1",

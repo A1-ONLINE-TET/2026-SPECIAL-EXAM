@@ -2959,6 +2959,11 @@ export const syllabusData = {
                 "title": "அலகு 3: ஆற்றல்",
                 "isUpdated": true,
                 "code": "sci_5_t1_l3"
+              },
+              {
+                "title": "அலகு 4: அன்றாட வாழ்வில் அறிவியல்",
+                "isUpdated": true,
+                "code": "sci_5_t1_l4"
               }
             ]
           }
