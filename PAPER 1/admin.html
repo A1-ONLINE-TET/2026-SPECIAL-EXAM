@@ -294,28 +294,35 @@
 
             // Update Map
             status.innerText = "📝 Updating Metadata...";
-            const mapMatch = mapStr.match(/export const lessonMap = (\{[\s\S]*?\});/);
-            if(mapMatch) {
-                const mapObj = JSON.parse(mapMatch[1]);
-                const sub = data.lesson_meta.subject; if(!mapObj[sub]) mapObj[sub] = {};
-                const entry = { local: true, filename: data.lesson_meta.code, grade: data.lesson_meta.grade.toString() };
-                mapObj[sub][data.lesson_meta.code] = entry; mapObj[sub][data.lesson_meta.title] = entry;
-                mapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
-            }
+            
+            try {
+                const mapStart = mapStr.indexOf('{');
+                const mapEnd = mapStr.lastIndexOf('}');
+                if (mapStart !== -1 && mapEnd !== -1) {
+                    const mapObj = JSON.parse(mapStr.substring(mapStart, mapEnd + 1));
+                    const sub = data.lesson_meta.subject; if(!mapObj[sub]) mapObj[sub] = {};
+                    const entry = { local: true, filename: data.lesson_meta.code, grade: data.lesson_meta.grade.toString() };
+                    mapObj[sub][data.lesson_meta.code] = entry; mapObj[sub][data.lesson_meta.title] = entry;
+                    mapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
+                }
+            } catch(e) { console.warn("lessonMap match fail", e); }
 
             // Update Syllabus
-            const sylMatch = sylStr.match(/export const syllabusData = (\{[\s\S]*?\});/);
-            if(sylMatch) {
-                const sylObj = JSON.parse(sylMatch[1]);
-                const sub = data.lesson_meta.subject; const g = data.lesson_meta.grade.toString(); const tNum = parseInt(data.lesson_meta.term.replace('t',''))||1;
-                if(!sylObj[sub]) sylObj[sub] = {}; if(!sylObj[sub][g]) sylObj[sub][g] = [];
-                let tObj = sylObj[sub][g].find(i => i.term == tNum);
-                if(!tObj) { tObj = { term: tNum, units: [{ title: "Units", topics: [] }] }; sylObj[sub][g].push(tObj); }
-                let exists = tObj.units[0].topics.find(top => top.code === data.lesson_meta.code);
-                if(!exists) tObj.units[0].topics.push({ title: data.lesson_meta.title, isUpdated: true, code: data.lesson_meta.code });
-                else exists.title = data.lesson_meta.title;
-                sylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
-            }
+            try {
+                const sylStart = sylStr.indexOf('{');
+                const sylEnd = sylStr.lastIndexOf('}');
+                if (sylStart !== -1 && sylEnd !== -1) {
+                    const sylObj = JSON.parse(sylStr.substring(sylStart, sylEnd + 1));
+                    const sub = data.lesson_meta.subject; const g = data.lesson_meta.grade.toString(); const tNum = parseInt(data.lesson_meta.term.replace('t',''))||1;
+                    if(!sylObj[sub]) sylObj[sub] = {}; if(!sylObj[sub][g]) sylObj[sub][g] = [];
+                    let tObj = sylObj[sub][g].find(i => i.term == tNum);
+                    if(!tObj) { tObj = { term: tNum, units: [{ title: "Units", topics: [] }] }; sylObj[sub][g].push(tObj); }
+                    let exists = tObj.units[0].topics.find(top => top.code === data.lesson_meta.code);
+                    if(!exists) tObj.units[0].topics.push({ title: data.lesson_meta.title, isUpdated: true, code: data.lesson_meta.code });
+                    else { exists.title = data.lesson_meta.title; exists.isUpdated = true; }
+                    sylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
+                }
+            } catch(e) { console.warn("syllabus match fail", e); }
 
             // 3. Create Tree (The secret to 1 commit)
             status.innerText = "🌳 Building Single Commit Tree...";
