@@ -410,9 +410,88 @@ Ans: A" style="height: 200px; font-family: monospace;"></textarea>
                                 });
                                 
                                 if (mapPutResp.ok) {
-                                    status.innerText = "✅ ALL SUCCESS! Lesson & App Map Updated.";
-                                    status.className = "status-badge status-success";
-                                    alert("Success! Lesson is now live in the App.");
+                                    status.innerText = "⏳ Map Updated. Now syncing Syllabus Menu...";
+                                    
+                                    // --- 4. Update syllabus.js Metadata ---
+                                    const sylPath = "PAPER 1/js/data/syllabus.js";
+                                    const sylUrl = `https://api.github.com/repos/${s.user}/${s.repo}/contents/${sylPath}`;
+                                    const sylGet = await fetch(sylUrl, { headers: { Authorization: `token ${s.token}` } });
+                                    
+                                    if (sylGet.ok) {
+                                        const sylJson = await sylGet.json();
+                                        let sylContentStr = decodeURIComponent(escape(atob(sylJson.content)));
+                                        const sylObjMatch = sylContentStr.match(/export const syllabusData = (\{[\s\S]*?\});/);
+                                        
+                                        if (sylObjMatch) {
+                                            try {
+                                                const sylObj = JSON.parse(sylObjMatch[1]);
+                                                const sub = data.lesson_meta.subject;
+                                                const gradeStr = data.lesson_meta.grade.toString();
+                                                const termVal = data.lesson_meta.term.toString().replace('t','');
+                                                const termNum = parseInt(termVal) || termVal;
+                                                
+                                                if (!sylObj[sub]) sylObj[sub] = {};
+                                                if (!sylObj[sub][gradeStr]) sylObj[sub][gradeStr] = [];
+                                                
+                                                let termsArray = sylObj[sub][gradeStr];
+                                                let termObj = termsArray.find(t => t.term == termNum);
+                                                
+                                                if (!termObj) {
+                                                    termObj = { term: termNum, units: [{ title: `பகுதி (Unit)`, topics: [] }] };
+                                                    termsArray.push(termObj);
+                                                }
+                                                if (!termObj.units || termObj.units.length === 0) {
+                                                    termObj.units = [{ title: `பகுதி (Unit)`, topics: [] }];
+                                                }
+                                                
+                                                let foundTopic = false;
+                                                for (let unit of termObj.units) {
+                                                    for (let topic of unit.topics) {
+                                                        if (topic.code === keyFile) {
+                                                            topic.title = keyTitle;
+                                                            topic.isUpdated = true;
+                                                            foundTopic = true;
+                                                            break;
+                                                        }
+                                                    }
+                                                    if (foundTopic) break;
+                                                }
+                                                
+                                                if (!foundTopic) {
+                                                    termObj.units[0].topics.push({
+                                                        title: keyTitle,
+                                                        isUpdated: true,
+                                                        code: keyFile
+                                                    });
+                                                }
+                                                
+                                                const newSylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
+                                                const sylPutResp = await fetch(sylUrl, {
+                                                    method: 'PUT',
+                                                    headers: { Authorization: `token ${s.token}`, 'Content-Type': 'application/json' },
+                                                    body: JSON.stringify({
+                                                        message: `Cloud Master: Syllabus mapping for ${keyFile}`,
+                                                        content: btoa(unescape(encodeURIComponent(newSylStr))),
+                                                        sha: sylJson.sha
+                                                    })
+                                                });
+                                                
+                                                if (sylPutResp.ok) {
+                                                    status.innerText = "✅ ALL SUCCESS! Lesson, Map, and Syllabus Updated.";
+                                                    status.className = "status-badge status-success";
+                                                    alert("முழுமையாக வெற்றி! பாடம் ஆப்பில் காணக் கிடைக்கும்.");
+                                                } else {
+                                                    status.innerText = "⚠️ Lesson & Map saved, but Syllabus API failed.";
+                                                }
+                                            } catch(e) {
+                                                console.error(e);
+                                                status.innerText = "⚠️ Syllabus parsing failed, but lesson is saved.";
+                                            }
+                                        }
+                                    } else {
+                                        status.innerText = "✅ Lesson & Map updated (Syllabus manually sync required).";
+                                        status.className = "status-badge status-success";
+                                    }
                                 } else {
                                     status.innerText = "⚠️ Lesson saved but Map update failed. Run build_map locally.";
                                 }
