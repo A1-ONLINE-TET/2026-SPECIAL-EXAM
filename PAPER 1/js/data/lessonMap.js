@@ -905,6 +905,11 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_8_l8",
       "grade": "8"
+    },
+    "வரலாற்றை நோக்கி ": {
+      "local": true,
+      "filename": "soc_5_t1_l2",
+      "grade": "5"
     }
   },
   "psychology": {
