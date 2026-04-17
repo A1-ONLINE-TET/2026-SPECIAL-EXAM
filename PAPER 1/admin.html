@@ -228,14 +228,18 @@
 
     // --- BULK PARSER ---
     function importBulkQuiz() {
-        const raw = document.getElementById('bulk-quiz-input').value;
+        let raw = document.getElementById('bulk-quiz-input').value;
+        // Clean all bold (**) asterisks
+        raw = raw.replace(/\*\*/g, '');
+        
         const questions = raw.split(/\n\s*\n/).filter(q => q.trim() !== "");
         
         questions.forEach(qBlock => {
             const lines = qBlock.split('\n').map(l => l.trim()).filter(l => l !== "");
             if (lines.length < 5) return;
 
-            const qText = lines[0].replace(/^\d+[\.\)]\s*/, '');
+            // Strip numbers like 1., Q1., 1) and any stray leading/trailing single asterisks
+            const qText = lines[0].replace(/^\**\s*(?:Q\s*)?\d+\s*[\.\)]\s*/i, '').replace(/^\*+/, '').replace(/\*+$/, '').trim();
             const options = [];
             let answer = 0;
             let explanation = "";
@@ -244,7 +248,7 @@
             lines.forEach((line, index) => {
                 const optMatch = line.match(/^([A-D])[\.\)]\s*(.*)/i);
                 if (optMatch) {
-                    options[optMatch[1].toUpperCase().charCodeAt(0) - 65] = optMatch[2];
+                    options[optMatch[1].toUpperCase().charCodeAt(0) - 65] = optMatch[2].replace(/^\*+/, '').replace(/\*+$/, '').trim();
                 }
                 const ansMatch = line.match(/(?:Ans|விடை)\s*[:\-]?\s*([A-D])/i);
                 if (ansMatch) {
@@ -254,11 +258,12 @@
                 if (expFoundIdx === -1) {
                     const expMatch = line.match(/(?:Exp|விளக்கம்)\s*[:\-]?\s*(.*)/i);
                     if (expMatch) {
-                        explanation = expMatch[1];
+                        explanation = expMatch[1].replace(/^\*+/, '').replace(/\*+$/, '').trim();
                         expFoundIdx = index;
                     }
                 } else {
-                    explanation += (explanation !== "" ? "<br>" : "") + line;
+                    let cleanedLine = line.replace(/^\*+/, '').replace(/\*+$/, '').trim();
+                    explanation += (explanation !== "" ? "<br>" : "") + cleanedLine;
                 }
             });
 
