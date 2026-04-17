@@ -3,441 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 Coaching - Admin Dashboard</title>
+    <title>A1 Admin - Bulk Curriculum Builder</title>
     
-    <!-- Premium Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Ionicons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <style>
         :root {
-            --primary: #4f46e5;
-            --primary-light: #818cf8;
-            --primary-dark: #3730a3;
-            --secondary: #ec4899;
-            --accent: #f59e0b;
-            --danger: #ef4444;
-            --success: #10b981;
-            --bg-app: #f8fafc;
-            --text-dark: #1e293b;
-            --text-light: #64748b;
+            --primary: #6366f1;
+            --secondary: #f43f5e;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #334155;
             --border: #e2e8f0;
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
-            --radius: 16px;
+            --radius: 12px;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
-            background-color: var(--bg-app);
-            color: var(--text-dark);
-            line-height: 1.6;
-            padding: 2rem 1rem;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .logo-box {
-            display: inline-flex;
-            align-items: center;
-            gap: 15px;
-            background: white;
-            padding: 10px 25px;
-            border-radius: 50px;
-            box-shadow: var(--shadow);
-            margin-bottom: 1rem;
-        }
-
-        .admin-card {
-            background: white;
-            border-radius: var(--radius);
-            padding: 2.5rem;
-            box-shadow: var(--shadow);
-            border: 1px solid var(--border);
-            margin-bottom: 2rem;
-        }
-
-        h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px; color: var(--primary-dark); }
-
-        .form-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .form-group { display: flex; flex-direction: column; gap: 8px; }
-        label { font-size: 0.9rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+        body { font-family: 'Outfit', 'Noto Sans Tamil', sans-serif; background: var(--bg); color: var(--text); padding: 20px; line-height: 1.5; }
+        .container { max-width: 1000px; margin: 0 auto; }
         
-        input, select, textarea {
-            padding: 12px 16px;
-            border: 2px solid var(--border);
-            border-radius: 12px;
-            font-family: inherit;
-            font-size: 1rem;
-            transition: all 0.2s;
-            outline: none;
-        }
+        .header { text-align: center; margin-bottom: 30px; background: white; padding: 20px; border-radius: var(--radius); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .header h1 { font-size: 1.5rem; color: var(--primary); margin-bottom: 5px; }
 
-        input:focus, select:focus, textarea:focus {
-            border-color: var(--primary-light);
-            background: #fdfdff;
-            box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
-        }
+        .form-card { background: var(--card); padding: 25px; border-radius: var(--radius); border: 1px solid var(--border); margin-bottom: 20px; }
+        h2 { font-size: 1.1rem; border-bottom: 2px solid var(--bg); padding-bottom: 10px; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
 
-        .section-item, .quiz-item {
-            background: #f1f5f9;
-            padding: 1.5rem;
-            border-radius: 12px;
-            margin-bottom: 1.5rem;
-            position: relative;
-            border-left: 5px solid var(--primary);
-        }
+        .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .field { display: flex; flex-direction: column; gap: 6px; }
+        label { font-size: 0.8rem; font-weight: 700; color: #64748b; text-transform: uppercase; }
+        
+        input, select, textarea { padding: 12px; border: 2px solid var(--border); border-radius: 8px; font-size: 1rem; outline: none; transition: 0.2s; width: 100%; box-sizing: border-box; }
+        input:focus, select:focus, textarea:focus { border-color: var(--primary); }
 
-        .remove-btn {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            color: var(--danger);
-            cursor: pointer;
-            font-size: 1.5rem;
-            transition: transform 0.2s;
-        }
-        .remove-btn:hover { transform: scale(1.2); }
+        .tabs { display: flex; gap: 10px; margin-bottom: 15px; background: #e2e8f0; padding: 5px; border-radius: 12px; }
+        .tab { flex: 1; padding: 12px; border-radius: 10px; cursor: pointer; text-align: center; font-weight: 700; transition: 0.3s; color: #64748b; }
+        .tab.active { background: white; color: var(--primary); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
 
-        .add-btn {
-            background: white;
-            border: 2px dashed var(--primary-light);
-            color: var(--primary);
-            width: 100%;
-            padding: 14px;
-            border-radius: 12px;
-            font-weight: 700;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            transition: all 0.2s;
-            margin-bottom: 2rem;
-        }
-        .add-btn:hover { background: #eef2ff; border-style: solid; }
+        .panel { display: none; }
+        .panel.active { display: block; animation: slideUp 0.3s ease-out; }
 
-        .submit-area {
-            display: flex;
-            gap: 1rem;
-            padding-top: 2rem;
-            border-top: 2px solid var(--bg-app);
-        }
+        .item-box { background: #f1f5f9; padding: 20px; border-radius: 10px; margin-bottom: 15px; position: relative; border-left: 4px solid var(--primary); }
+        .remove-btn { position: absolute; top: 10px; right: 10px; color: var(--secondary); cursor: pointer; font-size: 1.2rem; }
 
-        .btn {
-            padding: 14px 28px;
-            border-radius: 14px;
-            font-weight: 800;
-            cursor: pointer;
-            border: none;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            transition: all 0.2s;
-            flex: 1;
-            justify-content: center;
-        }
+        .add-btn { width: 100%; border: 2px dashed var(--primary); padding: 12px; border-radius: 10px; background: white; color: var(--primary); font-weight: 700; cursor: pointer; margin-bottom: 20px; }
+        .add-btn:hover { background: #eef2ff; }
 
-        .btn-primary { background: var(--primary); color: white; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4); }
-        .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); }
+        .action-btns { display: flex; gap: 10px; margin-top: 20px; }
+        .btn { flex: 1; padding: 15px; border-radius: 10px; font-weight: 800; cursor: pointer; border: none; font-size: 1rem; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .btn-dark { background: #1e293b; color: white; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
 
-        .btn-secondary { background: white; color: var(--text-dark); border: 2px solid var(--border); }
-        .btn-secondary:hover { background: var(--bg-app); }
+        #output-area { display: none; margin-top: 30px; animation: slideUp 0.4s; }
+        .json-box { background: #0f172a; color: #38bdf8; padding: 25px; border-radius: 12px; font-family: 'Courier New', monospace; font-size: 0.85rem; overflow-x: auto; max-height: 500px; white-space: pre-wrap; line-height: 1.6; }
+        .copy-banner { background: #dcfce7; color: #166534; padding: 12px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #bbf7d0; font-weight: 700; text-align: center; }
 
-        #output-area {
-            display: none;
-            margin-top: 2rem;
-            animation: fadeIn 0.3s;
-        }
+        /* Bulk Area */
+        .bulk-area { background: #fffbeb; border: 2px dashed #fcd34d; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+        .bulk-area textarea { border-color: #fcd34d; background: #fffdf5; }
 
-        .json-preview {
-            background: #1e293b;
-            color: #38bdf8;
-            padding: 2rem;
-            border-radius: 12px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.9rem;
-            overflow-x: auto;
-            max-height: 400px;
-            margin-bottom: 1rem;
-        }
-
-        .help-box {
-            background: #fffbeb;
-            border: 1px solid #fde68a;
-            padding: 1.5rem;
-            border-radius: 12px;
-            color: #92400e;
-            margin-top: 2rem;
-        }
-
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-        @media (max-width: 600px) {
-            .form-grid { grid-template-columns: 1fr; }
-            .submit-area { flex-direction: column; }
-        }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <div class="logo-box">
-                <ion-icon name="cloud-upload" style="font-size: 2rem; color: var(--primary);"></ion-icon>
-                <div style="text-align: left;">
-                    <h1 style="font-size: 1.4rem; font-weight: 900; line-height: 1;">A1 ADMIN</h1>
-                    <p style="font-size: 0.7rem; font-weight: 800; color: var(--text-light); letter-spacing: 1px;">CURRICULUM BUILDER</p>
-                </div>
-            </div>
-            <p style="color: var(--text-light); font-weight: 600;">புதிதாக பாடங்களை உருவாக்க கீழே உள்ள படிவத்தை நிரப்பவும்.</p>
-        </header>
-
-        <main>
-            <!-- STAGE 1: METADATA -->
-            <section class="admin-card animate-fade">
-                <h2><ion-icon name="information-circle"></ion-icon> அடிப்படை விவரங்கள் (Lesson Info)</h2>
-                <div class="form-grid">
-                    <div class="form-group">
-                        <label>பாடம் (Subject)</label>
-                        <select id="meta-subject">
-                            <option value="tamil">தமிழ்</option>
-                            <option value="english">English</option>
-                            <option value="maths">கணிதம்</option>
-                            <option value="science">அறிவியல்</option>
-                            <option value="social">சமூக அறிவியல்</option>
-                            <option value="psychology">உளவியல்</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>வகுப்பு (Grade)</label>
-                        <select id="meta-grade">
-                            <option value="4">4-ஆம் வகுப்பு</option>
-                            <option value="5">5-ஆம் வகுப்பு</option>
-                            <option value="6">6-ஆம் வகுப்பு</option>
-                            <option value="7">7-ஆம் வகுப்பு</option>
-                            <option value="8">8-ஆம் வகுப்பு</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>பருவம் (Term)</label>
-                        <select id="meta-term">
-                            <option value="1">பருவம் 1</option>
-                            <option value="2">பருவம் 2</option>
-                            <option value="3">பருவம் 3</option>
-                            <option value="all">முழு ஆண்டு</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>அலகு எண் (Unit No)</label>
-                        <input type="number" id="meta-unit" value="1">
-                    </div>
-                </div>
-                <div class="form-group" style="margin-bottom: 1.5rem;">
-                    <label>பாடத்தலைப்பு (Full Title)</label>
-                    <input type="text" id="meta-title" placeholder="எ.கா: அலகு 1: உறுப்பு மண்டலங்கள்">
-                </div>
-                <div class="form-group">
-                    <label>பாடம் குறியீடு (File Code)</label>
-                    <input type="text" id="meta-code" placeholder="எ.கா: sci_5_t1_l1">
-                </div>
-            </section>
-
-            <!-- STAGE 2: STUDY MATERIAL -->
-            <section class="admin-card animate-fade">
-                <h2><ion-icon name="book"></ion-icon> பாடக்குறிப்புகள் (Study Material)</h2>
-                <div id="material-sections">
-                    <!-- Dynamic Sections Go Here -->
-                </div>
-                <button class="add-btn" onclick="addMaterialSection()">
-                    <ion-icon name="add-circle"></ion-icon> புதிய பகுதியைச் சேர் (Add Section)
-                </button>
-            </section>
-
-            <!-- STAGE 3: QUIZ QUESTIONS -->
-            <section class="admin-card animate-fade">
-                <h2><ion-icon name="help-circle"></ion-icon> மாதிரி வினாக்கள் (Quiz)</h2>
-                <div id="quiz-questions">
-                    <!-- Dynamic Questions Go Here -->
-                </div>
-                <button class="add-btn" onclick="addQuizQuestion()">
-                    <ion-icon name="add-circle"></ion-icon> புதிய கேள்வியைச் சேர் (Add Question)
-                </button>
-            </section>
-
-            <!-- STAGE 4: GENERATE -->
-            <div class="submit-area">
-                <button class="btn btn-secondary" onclick="window.location.reload()"><ion-icon name="refresh"></ion-icon> Clear All</button>
-                <button class="btn btn-primary" onclick="generateJSON()"><ion-icon name="code-working"></ion-icon> Generate Full JSON</button>
-            </div>
-
-            <!-- OUTPUT AREA -->
-            <div id="output-area">
-                <div class="admin-card" style="border: 2px solid var(--success);">
-                    <h2 style="color: var(--success);"><ion-icon name="checkmark-done-circle"></ion-icon> JSON Ready!</h2>
-                    <p style="margin-bottom: 1rem; font-size: 0.9rem;">கீழே உள்ள கோடை நகலெடுத்து (Copy), சாட் விண்டோவில் (Chat Window) பேஸ்ட் செய்யவும். நான் அதை டேட்டாபேஸில் சேமிப்பேன்.</p>
-                    <pre class="json-preview" id="json-result"></pre>
-                    <div style="display: flex; gap: 10px;">
-                        <button class="btn btn-primary" onclick="copyToClipboard()"><ion-icon name="copy"></ion-icon> Copy to Clipboard</button>
-                        <button class="btn btn-secondary" onclick="downloadJSON()"><ion-icon name="download"></ion-icon> Download .json File</button>
-                    </div>
-                </div>
-
-                <div class="help-box">
-                    <h3 style="margin-bottom: 8px;">💡 அடுத்த படி (Next Steps):</h3>
-                    <p>1. <strong>Copy</strong> பட்டனை அழுத்தி கோடை நகலெடுக்கவும்.</p>
-                    <p>2. Antigravity AI சாட்டில் "இந்த பாடத்தை சேமிக்கவும்" என்று கூறி பேஸ்ட் செய்யவும்.</p>
-                    <p>3. நான் அதை <code>json-db/lessons/...</code> என்ற சரியான போல்டரில் சேமித்து அப்ளிகேஷனில் அப்டேட் செய்வேன்.</p>
-                </div>
-            </div>
-
-        </main>
+<div class="container">
+    <div class="header">
+        <h1>🚀 A1 SMART ADMIN</h1>
+        <p style="font-size: 0.85rem; color: #64748b; font-weight: 600;">BULK CURRICULUM & QUIZ BUILDER (PAPER 1)</p>
     </div>
 
-    <script>
-        // --- Material Section Logic ---
-        function addMaterialSection(title = '', content = '') {
-            const container = document.getElementById('material-sections');
-            const div = document.createElement('div');
-            div.className = 'section-item animate-fade';
+    <!-- META INFO -->
+    <div class="form-card">
+        <h2><ion-icon name="information-circle"></ion-icon> 1. அடிப்படை விவரங்கள்</h2>
+        <div class="row">
+            <div class="field">
+                <label>வகுப்பு (Grade)</label>
+                <select id="grade">
+                    <option value="1">1-ஆம் வகுப்பு</option>
+                    <option value="2">2-ஆம் வகுப்பு</option>
+                    <option value="3">3-ஆம் வகுப்பு</option>
+                    <option value="4">4-ஆம் வகுப்பு</option>
+                    <option value="5" selected>5-ஆம் வகுப்பு</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>பருவம் (Term)</label>
+                <select id="term">
+                    <option value="1">பருவம் 1</option>
+                    <option value="2">பருவம் 2</option>
+                    <option value="3">பருவம் 3</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>பாடம் (Subject)</label>
+                <select id="subject">
+                    <option value="tamil">தமிழ்</option>
+                    <option value="english">English</option>
+                    <option value="maths">கணிதம்</option>
+                    <option value="science">அறிவியல்</option>
+                    <option value="social">சமூக அறிவியல்</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" style="grid-template-columns: 1fr 200px;">
+            <div class="field">
+                <label>பாடத்தலைப்பு (Lesson Title)</label>
+                <input type="text" id="title" placeholder="எ.கா: அலகு 1: நமது நிலப்பரப்பு">
+            </div>
+            <div class="field">
+                <label>கோப்பு குறியீடு (File Code)</label>
+                <input type="text" id="code" placeholder="எ.கா: soc_5_t1_l1">
+            </div>
+        </div>
+    </div>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <div class="tab active" data-id="panel-material" onclick="showPanel('material')">📖 பாடக்குறிப்புகள்</div>
+        <div class="tab" data-id="panel-quiz" onclick="showPanel('quiz')">🧠 மாதிரி தேர்வுகள்</div>
+    </div>
+
+    <!-- MATERIAL PANEL -->
+    <div id="panel-material" class="panel active">
+        <div class="form-card">
+            <h2><ion-icon name="document-text"></ion-icon> பாடக்குறிப்புகள் (Material Sections)</h2>
+            <div id="material-list"></div>
+            <button class="add-btn" onclick="addItem('material')">+ புதிய பகுதியைச் சேர் (Add Section)</button>
+            <div class="action-btns">
+                <button class="btn btn-dark" onclick="generate('material')"><ion-icon name="code-working"></ion-icon> Generate Material JSON</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUIZ PANEL -->
+    <div id="panel-quiz" class="panel">
+        <div class="form-card">
+            <h2><ion-icon name="flash"></ion-icon> ஒட்டுமொத்தப் பதிவேற்றம் (Bulk Quiz Import)</h2>
+            <div class="bulk-area">
+                <p style="font-size: 0.8rem; font-weight: 700; color: #92400e; margin-bottom: 10px;">கீழே உள்ளவாறு அனைத்துக் கேள்விகளையும் பேஸ்ட் செய்யவும்:</p>
+                <textarea id="bulk-quiz-input" rows="10" placeholder="1. கேள்வி?&#10;A. பதில் 1&#10;B. பதில் 2&#10;C. பதில் 3&#10;D. பதில் 4&#10;Ans: A&#10;Exp: விளக்கம்...&#10;&#10;2. அடுத்த கேள்வி?..."></textarea>
+                <button class="add-btn" style="margin-top:10px; border-color: #f59e0b; color: #b45309;" onclick="importBulkQuiz()">⚡ Convert Bulk Text to Questions</button>
+            </div>
+
+            <h2><ion-icon name="help-circle"></ion-icon> திருத்தப்பட்ட கேள்விகள் (Questions List)</h2>
+            <div id="quiz-list"></div>
+            <button class="add-btn" onclick="addItem('quiz')">+ புதிய வினாவைச் சேர் (Add Manually)</button>
+            <div class="action-btns">
+                <button class="btn btn-dark" onclick="generate('quiz')"><ion-icon name="code-working"></ion-icon> Generate Quiz JSON</button>
+            </div>
+            <p id="quiz-error" style="color:red; display:none; margin-top:10px; font-weight:bold;">குடைவு: கேள்விகள் எதுவும் இல்லை!</p>
+        </div>
+    </div>
+
+    <!-- OUTPUT -->
+    <div id="output-area">
+        <div class="copy-banner">✅ JSON உருவாக்கப்பட்டது! கீழே உள்ள கோடை நகலெடுத்து சாட்டில் பேஸ்ட் செய்யவும்.</div>
+        <pre id="json-result" class="json-box"></pre>
+        <button class="btn btn-primary" onclick="copyJSON()"><ion-icon name="copy"></ion-icon> Copy to Clipboard</button>
+    </div>
+
+</div>
+
+<script>
+    function showPanel(type) {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        event.target.classList.add('active');
+        document.getElementById('panel-' + type).classList.add('active');
+    }
+
+    function addItem(type) {
+        const container = document.getElementById(type + '-list');
+        const div = document.createElement('div');
+        div.className = 'item-box animate-fade';
+        
+        if(type === 'material') {
             div.innerHTML = `
                 <ion-icon name="trash" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
-                <div class="form-group" style="margin-bottom: 1rem;">
-                    <label>பகுதி தலைப்பு (Section Title)</label>
-                    <input type="text" class="sec-title" value="${title}" placeholder="எ.கா: அறிமுகம்">
-                </div>
-                <div class="form-group">
-                    <label>உள்ளடக்கம் (Content - HTML allowed)</label>
-                    <textarea class="sec-content" rows="4" placeholder="Enter content here...">${content}</textarea>
-                </div>
+                <div class="field" style="margin-bottom:10px;"><label>தலைப்பு</label><input type="text" class="m-title"></div>
+                <div class="field"><label>விளக்கம்</label><textarea class="m-content" rows="4"></textarea></div>
             `;
-            container.appendChild(div);
-        }
-
-        // --- Quiz Question Logic ---
-        function addQuizQuestion() {
-            const container = document.getElementById('quiz-questions');
-            const count = container.children.length + 1;
-            const div = document.createElement('div');
-            div.className = 'quiz-item animate-fade';
+        } else {
             div.innerHTML = `
                 <ion-icon name="trash" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
-                <div class="form-group" style="margin-bottom: 1rem;">
-                    <label>கேள்வி ${count}</label>
-                    <input type="text" class="qz-q" placeholder="கேள்வியை உள்ளிடவும்">
+                <div class="field" style="margin-bottom:10px;"><label>கேள்வி</label><input type="text" class="q-text"></div>
+                <div class="row" style="margin-bottom:10px;">
+                    <div class="field"><label>A</label><input type="text" class="q-o0"></div>
+                    <div class="field"><label>B</label><input type="text" class="q-o1"></div>
                 </div>
-                <div class="form-grid" style="margin-bottom: 1rem;">
-                    <div class="form-group"><label>ஆப்ஷன் A</label><input type="text" class="qz-o1"></div>
-                    <div class="form-group"><label>ஆப்ஷன் B</label><input type="text" class="qz-o2"></div>
-                    <div class="form-group"><label>ஆப்ஷன் C</label><input type="text" class="qz-o3"></div>
-                    <div class="form-group"><label>ஆப்ஷன் D</label><input type="text" class="qz-o4"></div>
+                <div class="row" style="margin-bottom:10px;">
+                    <div class="field"><label>C</label><input type="text" class="q-o2"></div>
+                    <div class="field"><label>D</label><input type="text" class="q-o3"></div>
                 </div>
-                <div class="form-grid">
-                    <div class="form-group">
-                        <label>சரியான விடை</label>
-                        <select class="qz-ans">
-                            <option value="0">ஆப்ஷன் A</option>
-                            <option value="1">ஆப்ஷன் B</option>
-                            <option value="2">ஆப்ஷன் C</option>
-                            <option value="3">ஆப்ஷன் D</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group" style="margin-top: 1rem;">
-                    <label>விளக்கம் (Explanation)</label>
-                    <textarea class="qz-exp" rows="2" placeholder="ஏன் இந்த விடை சரி?"></textarea>
+                <div class="row">
+                    <div class="field"><label>விடை (A=0, B=1, ...)</label><select class="q-ans"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+                    <div class="field"><label>விளக்கம்</label><input type="text" class="q-exp"></div>
                 </div>
             `;
-            container.appendChild(div);
         }
+        container.appendChild(div);
+    }
 
-        // --- Core Generation Logic ---
-        function generateJSON() {
-            const data = {
-                lesson_meta: {
-                    title: document.getElementById('meta-title').value,
-                    unit: parseInt(document.getElementById('meta-unit').value),
-                    grade: document.getElementById('meta-grade').value,
-                    term: document.getElementById('meta-term').value,
-                    subject: document.getElementById('meta-subject').value,
-                    code: document.getElementById('meta-code').value
-                },
-                material: {
-                    sections: []
-                },
-                quiz: {
-                    questions: []
+    // --- BULK PARSER ---
+    function importBulkQuiz() {
+        const raw = document.getElementById('bulk-quiz-input').value;
+        const questions = raw.split(/\n\s*\n/).filter(q => q.trim() !== "");
+        
+        questions.forEach(qBlock => {
+            const lines = qBlock.split('\n').map(l => l.trim()).filter(l => l !== "");
+            if (lines.length < 5) return;
+
+            const qText = lines[0].replace(/^\d+[\.\)]\s*/, '');
+            const options = [];
+            let answer = 0;
+            let explanation = "";
+
+            lines.forEach(line => {
+                const optMatch = line.match(/^([A-D])[\.\)]\s*(.*)/i);
+                if (optMatch) {
+                    options[optMatch[1].toUpperCase().charCodeAt(0) - 65] = optMatch[2];
                 }
-            };
-
-            // Grab Lessons
-            document.querySelectorAll('.section-item').forEach(item => {
-                data.material.sections.push({
-                    title: item.querySelector('.sec-title').value,
-                    content: item.querySelector('.sec-content').value
-                });
+                const ansMatch = line.match(/Ans:\s*([A-D])/i);
+                if (ansMatch) {
+                    answer = ansMatch[1].toUpperCase().charCodeAt(0) - 65;
+                }
+                const expMatch = line.match(/Exp:\s*(.*)/i);
+                if (expMatch) {
+                    explanation = expMatch[1];
+                }
             });
 
-            // Grab Quiz
-            document.querySelectorAll('.quiz-item').forEach(item => {
-                data.quiz.questions.push({
-                    question: item.querySelector('.qz-q').value,
+            // Create UI elements
+            const container = document.getElementById('quiz-list');
+            const div = document.createElement('div');
+            div.className = 'item-box';
+            div.innerHTML = `
+                <ion-icon name="trash" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
+                <div class="field" style="margin-bottom:10px;"><label>கேள்வி</label><input type="text" class="q-text" value="${qText}"></div>
+                <div class="row" style="margin-bottom:10px;">
+                    <div class="field"><label>A</label><input type="text" class="q-o0" value="${options[0] || ''}"></div>
+                    <div class="field"><label>B</label><input type="text" class="q-o1" value="${options[1] || ''}"></div>
+                </div>
+                <div class="row" style="margin-bottom:10px;">
+                    <div class="field"><label>C</label><input type="text" class="q-o2" value="${options[2] || ''}"></div>
+                    <div class="field"><label>D</label><input type="text" class="q-o3" value="${options[3] || ''}"></div>
+                </div>
+                <div class="row">
+                    <div class="field"><label>விடை</label><select class="q-ans"><option value="0" ${answer === 0 ? 'selected' : ''}>A</option><option value="1" ${answer === 1 ? 'selected' : ''}>B</option><option value="2" ${answer === 2 ? 'selected' : ''}>C</option><option value="3" ${answer === 3 ? 'selected' : ''}>D</option></select></div>
+                    <div class="field"><label>விளக்கம்</label><input type="text" class="q-exp" value="${explanation}"></div>
+                </div>
+            `;
+            container.appendChild(div);
+        });
+        document.getElementById('bulk-quiz-input').value = "";
+    }
+
+    function generate(type) {
+        const meta = {
+            title: document.getElementById('title').value,
+            unit: document.getElementById('code').value.split('_').pop() || "1",
+            grade: document.getElementById('grade').value,
+            term: document.getElementById('term').value,
+            subject: document.getElementById('subject').value,
+            code: document.getElementById('code').value
+        };
+
+        let result = { lesson_meta: meta };
+
+        if (type === 'material') {
+            const sections = [];
+            document.querySelectorAll('#material-list .item-box').forEach(box => {
+                sections.push({
+                    title: box.querySelector('.m-title').value,
+                    content: box.querySelector('.m-content').value
+                });
+            });
+            result.material = { sections };
+        } else {
+            const questions = [];
+            const boxes = document.querySelectorAll('#quiz-list .item-box');
+            if (boxes.length === 0) {
+                document.getElementById('quiz-error').style.display = 'block';
+                return;
+            }
+            document.getElementById('quiz-error').style.display = 'none';
+            boxes.forEach(box => {
+                questions.push({
+                    question: box.querySelector('.q-text').value,
                     options: [
-                        item.querySelector('.qz-o1').value,
-                        item.querySelector('.qz-o2').value,
-                        item.querySelector('.qz-o3').value,
-                        item.querySelector('.qz-o4').value
+                        box.querySelector('.q-o0').value,
+                        box.querySelector('.q-o1').value,
+                        box.querySelector('.q-o2').value,
+                        box.querySelector('.q-o3').value
                     ],
-                    answer: parseInt(item.querySelector('.qz-ans').value),
-                    explanation: item.querySelector('.qz-exp').value
+                    answer: parseInt(box.querySelector('.q-ans').value),
+                    explanation: box.querySelector('.q-exp').value
                 });
             });
-
-            const jsonStr = JSON.stringify(data, null, 2);
-            document.getElementById('json-result').innerText = jsonStr;
-            document.getElementById('output-area').style.display = 'block';
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            result.quiz = { questions };
         }
 
-        function copyToClipboard() {
-            const text = document.getElementById('json-result').innerText;
-            navigator.clipboard.writeText(text).then(() => {
-                alert("JSON நகலெடுக்கப்பட்டது! (Copied)");
-            });
-        }
+        document.getElementById('json-result').innerText = JSON.stringify(result, null, 2);
+        document.getElementById('output-area').style.display = 'block';
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
 
-        function downloadJSON() {
-            const text = document.getElementById('json-result').innerText;
-            const code = document.getElementById('meta-code').value || 'lesson';
-            const blob = new Blob([text], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `${code}.json`;
-            a.click();
-        }
+    function copyJSON() {
+        navigator.clipboard.writeText(document.getElementById('json-result').innerText);
+        alert("JSON Copy செய்யப்பட்டது!");
+    }
 
-        // Init with some placeholders
-        addMaterialSection('அறிமுகம்', 'பாடத்தைப் பற்றிய சிறு அறிமுகம்...');
-        addQuizQuestion();
-    </script>
+    // Default items
+    addItem('material');
+</script>
+
 </body>
 </html>

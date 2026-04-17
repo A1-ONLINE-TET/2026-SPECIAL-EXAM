@@ -796,6 +796,16 @@ export const lessonMap = {
       "filename": "soc_4_t1_l3",
       "grade": "4"
     },
+    "அலகு 1: நமது பூமி": {
+      "local": true,
+      "filename": "soc_5_t1_l1",
+      "grade": "5"
+    },
+    "soc_5_t1_l1": {
+      "local": true,
+      "filename": "soc_5_t1_l1",
+      "grade": "5"
+    },
     "வரலாறு என்றால் என்ன?": {
       "local": true,
       "filename": "soc_6_t1_l1",
