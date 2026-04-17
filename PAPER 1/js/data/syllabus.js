@@ -3385,6 +3385,23 @@ export const syllabusData = {
         ]
       }
     ],
+    "5": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடங்கள் (Term 1)",
+            "topics": [
+              {
+                "title": "அலகு 1: நமது பூமி",
+                "isUpdated": true,
+                "code": "soc_5_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "6": [
       {
         "term": 1,
