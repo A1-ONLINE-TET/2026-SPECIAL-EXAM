@@ -79,7 +79,7 @@
         <div class="row">
             <div class="field">
                 <label>வகுப்பு (Grade)</label>
-                <select id="grade">
+                <select id="grade" onchange="updateCode()">
                     <option value="1">1-ஆம் வகுப்பு</option>
                     <option value="2">2-ஆம் வகுப்பு</option>
                     <option value="3">3-ஆம் வகுப்பு</option>
@@ -89,7 +89,7 @@
             </div>
             <div class="field">
                 <label>பருவம் (Term)</label>
-                <select id="term">
+                <select id="term" onchange="updateCode()">
                     <option value="1">பருவம் 1</option>
                     <option value="2">பருவம் 2</option>
                     <option value="3">பருவம் 3</option>
@@ -97,7 +97,7 @@
             </div>
             <div class="field">
                 <label>பாடம் (Subject)</label>
-                <select id="subject">
+                <select id="subject" onchange="updateCode()">
                     <option value="tamil">தமிழ்</option>
                     <option value="english">English</option>
                     <option value="maths">கணிதம்</option>
@@ -106,14 +106,18 @@
                 </select>
             </div>
         </div>
-        <div class="row" style="grid-template-columns: 1fr 200px;">
+        <div class="row" style="grid-template-columns: 100px 1fr 200px;">
+            <div class="field">
+                <label>பாடம் எண் (Unit)</label>
+                <input type="number" id="unit" value="1" min="1" oninput="updateCode()">
+            </div>
             <div class="field">
                 <label>பாடத்தலைப்பு (Lesson Title)</label>
                 <input type="text" id="title" placeholder="எ.கா: அலகு 1: நமது நிலப்பரப்பு">
             </div>
             <div class="field">
                 <label>கோப்பு குறியீடு (File Code)</label>
-                <input type="text" id="code" placeholder="எ.கா: soc_5_t1_l1">
+                <input type="text" id="code" readonly style="background: #e2e8f0; cursor: not-allowed; font-weight: bold; color: var(--primary);">
             </div>
         </div>
     </div>
@@ -166,6 +170,23 @@
 </div>
 
 <script>
+    function updateCode() {
+        const grade = document.getElementById('grade').value;
+        const term = document.getElementById('term').value;
+        const subject = document.getElementById('subject').value;
+        const unit = document.getElementById('unit').value || '1';
+        
+        let subCode = subject.substring(0, 3);
+        let genCode = `${subCode}_${grade}_t${term}_l${unit}`;
+        
+        document.getElementById('code').value = genCode;
+    }
+
+    // Generate code on initial load
+    window.addEventListener('DOMContentLoaded', () => {
+        updateCode();
+    });
+
     function showPanel(type) {
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
@@ -269,7 +290,7 @@
     function generate(type) {
         const meta = {
             title: document.getElementById('title').value,
-            unit: document.getElementById('code').value.split('_').pop() || "1",
+            unit: 'l' + (document.getElementById('unit').value || "1"),
             grade: document.getElementById('grade').value,
             term: document.getElementById('term').value,
             subject: document.getElementById('subject').value,
