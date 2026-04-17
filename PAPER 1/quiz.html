@@ -552,7 +552,8 @@
                         const start = html.indexOf(" (");
                         const end = html.lastIndexOf(")");
                         const rest = html.substring(end + 1);
-                        return `<span class="en-text">${html.substring(0, start).trim()}</span><span class="tm-text"> ${html.substring(start + 1, end).trim()}</span> ${rest}`;
+                        // Swap classes: Outside is Tamil (tm-text), inside is English (en-text)
+                        return `<span class="tm-text">${html.substring(0, start).trim()}</span> <span class="en-text">(${html.substring(start + 2, end).trim()})</span>${rest}`;
                     }
                 }
                 return html;
