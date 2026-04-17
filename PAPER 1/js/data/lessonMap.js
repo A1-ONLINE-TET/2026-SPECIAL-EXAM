@@ -925,6 +925,11 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_1_t1_l3",
       "grade": "1"
+    },
+    "நல்ல குடிமகன்": {
+      "local": true,
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
     }
   },
   "psychology": {
