@@ -274,9 +274,12 @@
         if (type === 'material') {
             const sections = [];
             document.querySelectorAll('#material-list .item-box').forEach(box => {
+                let rawText = box.querySelector('.m-content').value;
+                // Preserve exact line breaks!
+                let formattedText = rawText.replace(/\n/g, '<br>');
                 sections.push({
                     title: box.querySelector('.m-title').value,
-                    content: box.querySelector('.m-content').value
+                    content: formattedText
                 });
             });
             result.material = { sections };
