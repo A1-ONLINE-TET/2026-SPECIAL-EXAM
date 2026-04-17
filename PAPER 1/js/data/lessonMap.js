@@ -913,13 +913,18 @@ export const lessonMap = {
     },
     "நல்ல குடிமகன் ": {
       "local": true,
-      "filename": "soc_5_t1_l3",
-      "grade": "5"
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
     },
     "soc_5_t1_l3": {
       "local": true,
       "filename": "soc_5_t1_l3",
       "grade": "5"
+    },
+    "soc_1_t1_l3": {
+      "local": true,
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
     }
   },
   "psychology": {
