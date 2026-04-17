@@ -148,9 +148,8 @@ export function checkAuth() {
 
         if (isProtected && !user) {
             // Force redirect to login for protected pages
-            // window.location.replace("login.html");
-            // return null;
-            return { name: "Test User" };
+            window.location.replace("login.html");
+            return null;
         }
 
         // If on login page but already logged in, go to dashboard

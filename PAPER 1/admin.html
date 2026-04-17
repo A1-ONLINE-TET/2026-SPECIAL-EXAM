@@ -268,91 +268,138 @@
         }
 
         const data = getJSONData();
-        const auth = { Authorization: `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json' };
+        const v = Date.now();
+        const keyFile = data.lesson_meta.code;
+        const keyTitle = data.lesson_meta.title;
+        const jsonPath = `PAPER 1/json-db/lessons/${data.lesson_meta.subject}/${data.lesson_meta.grade}/${data.lesson_meta.code}.json`;
+
+        const authHeader = { Authorization: `token ${s.token}`, 'Accept': 'application/vnd.github.v3+json' };
         const repoUrl = `https://api.github.com/repos/${s.user}/${s.repo}`;
 
         try {
-            // 1. Get Base Data
-            const base = await fetch(`${repoUrl}/branches/main`, { headers: auth }).then(r => r.json());
-            const latestCommitSha = base.commit.sha;
-            const baseTreeSha = base.commit.commit.tree.sha;
+            // 1. Sync JSON Data
+            status.innerText = "📤 Syncing Lesson Data...";
+            const jsonUrl = `${repoUrl}/contents/${jsonPath}`;
+            const jsonGet = await fetch(jsonUrl, { headers: authHeader });
+            let jsonSha = null;
+            if (jsonGet.ok) {
+                const res = await jsonGet.json();
+                jsonSha = res.sha;
+            }
 
-            // 2. Prepare Files
-            const jsonPath = `PAPER 1/json-db/lessons/${data.lesson_meta.subject}/${data.lesson_meta.grade}/${data.lesson_meta.code}.json`;
-            const mapPath = "PAPER 1/js/data/lessonMap.js";
-            const sylPath = "PAPER 1/js/data/syllabus.js";
-
-            // Fetch Map & Syllabus content to update
-            const getFile = async (p) => {
-                const r = await fetch(`${repoUrl}/contents/${p}?v=${Date.now()}`, { headers: auth }).then(r => r.json());
-                return decodeURIComponent(escape(atob(r.content)));
-            };
-
-            status.innerText = "📥 Downloading Maps...";
-            let mapStr = await getFile(mapPath);
-            let sylStr = await getFile(sylPath);
-
-            // Update Map
-            status.innerText = "📝 Updating Metadata...";
-            
-            try {
-                const mapStart = mapStr.indexOf('{');
-                const mapEnd = mapStr.lastIndexOf('}');
-                if (mapStart !== -1 && mapEnd !== -1) {
-                    const mapObj = JSON.parse(mapStr.substring(mapStart, mapEnd + 1));
-                    const sub = data.lesson_meta.subject; if(!mapObj[sub]) mapObj[sub] = {};
-                    const entry = { local: true, filename: data.lesson_meta.code, grade: data.lesson_meta.grade.toString() };
-                    mapObj[sub][data.lesson_meta.code] = entry; mapObj[sub][data.lesson_meta.title] = entry;
-                    mapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
-                }
-            } catch(e) { console.warn("lessonMap match fail", e); }
-
-            // Update Syllabus
-            try {
-                const sylStart = sylStr.indexOf('{');
-                const sylEnd = sylStr.lastIndexOf('}');
-                if (sylStart !== -1 && sylEnd !== -1) {
-                    const sylObj = JSON.parse(sylStr.substring(sylStart, sylEnd + 1));
-                    const sub = data.lesson_meta.subject; const g = data.lesson_meta.grade.toString(); const tNum = parseInt(data.lesson_meta.term.replace('t',''))||1;
-                    if(!sylObj[sub]) sylObj[sub] = {}; if(!sylObj[sub][g]) sylObj[sub][g] = [];
-                    let tObj = sylObj[sub][g].find(i => i.term == tNum);
-                    if(!tObj) { tObj = { term: tNum, units: [{ title: "Units", topics: [] }] }; sylObj[sub][g].push(tObj); }
-                    let exists = tObj.units[0].topics.find(top => top.code === data.lesson_meta.code);
-                    if(!exists) tObj.units[0].topics.push({ title: data.lesson_meta.title, isUpdated: true, code: data.lesson_meta.code });
-                    else { exists.title = data.lesson_meta.title; exists.isUpdated = true; }
-                    sylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
-                }
-            } catch(e) { console.warn("syllabus match fail", e); }
-
-            // 3. Create Tree (The secret to 1 commit)
-            status.innerText = "🌳 Building Single Commit Tree...";
-            const treeRes = await fetch(`${repoUrl}/git/trees`, {
-                method: 'POST', headers: auth,
+            const putResp = await fetch(jsonUrl, {
+                method: 'PUT',
+                headers: { ...authHeader, 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    base_tree: baseTreeSha,
-                    tree: [
-                        { path: jsonPath, mode: "100644", type: "blob", content: JSON.stringify(data, null, 2) },
-                        { path: mapPath, mode: "100644", type: "blob", content: mapStr },
-                        { path: sylPath, mode: "100644", type: "blob", content: sylStr }
-                    ]
+                    message: `Cloud Sync: ${keyFile}`,
+                    content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
+                    sha: jsonSha
                 })
-            }).then(r => r.json());
-
-            // 4. Create Commit & Update Ref
-            status.innerText = "🚀 Finalizing Deployment...";
-            const commitRes = await fetch(`${repoUrl}/git/commits`, {
-                method: 'POST', headers: auth,
-                body: JSON.stringify({ message: `🚀 Pro Sync: ${data.lesson_meta.code} (Unified)`, tree: treeRes.sha, parents: [latestCommitSha] })
-            }).then(r => r.json());
-
-            await fetch(`${repoUrl}/git/refs/heads/main`, {
-                method: 'PATCH', headers: auth,
-                body: JSON.stringify({ sha: commitRes.sha })
             });
 
-            status.innerText = "✅ ALL SUCCESS! 1 Commit Done.";
+            if (!putResp.ok) {
+                const err = await putResp.json();
+                throw new Error("JSON Sync Failed: " + err.message);
+            }
+
+            // 2. Sync Map
+            status.innerText = "📥 Downloading Map metadata...";
+            const mapPath = "PAPER 1/js/data/lessonMap.js";
+            const mapUrl = `${repoUrl}/contents/${mapPath}`;
+            const mapGet = await fetch(mapUrl + `?v=${v}`, { headers: authHeader });
+            
+            if (mapGet.ok) {
+                const mapJson = await mapGet.json();
+                const mapStr = decodeURIComponent(escape(atob(mapJson.content)));
+                
+                try {
+                    const mapStart = mapStr.indexOf('{');
+                    const mapEnd = mapStr.lastIndexOf('}');
+                    if (mapStart !== -1 && mapEnd !== -1) {
+                        const mapObj = JSON.parse(mapStr.substring(mapStart, mapEnd + 1));
+                        const sub = data.lesson_meta.subject;
+                        if (!mapObj[sub]) mapObj[sub] = {};
+                        
+                        const entry = { local: true, filename: keyFile, grade: data.lesson_meta.grade.toString() };
+                        mapObj[sub][keyFile] = entry;
+                        mapObj[sub][keyTitle] = entry;
+                        
+                        const updatedMapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
+                        
+                        status.innerText = "📝 Updating Map Metadata...";
+                        await fetch(mapUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Cloud Master: Mapping ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(updatedMapStr))),
+                                sha: mapJson.sha
+                            })
+                        });
+                    }
+                } catch (e) { console.warn("Map update failed", e); }
+            }
+
+            // 3. Sync Syllabus
+            status.innerText = "📥 Downloading Syllabus menu...";
+            const sylPath = "PAPER 1/js/data/syllabus.js";
+            const sylUrl = `${repoUrl}/contents/${sylPath}`;
+            const sylGet = await fetch(sylUrl + `?v=${v}`, { headers: authHeader });
+
+            if (sylGet.ok) {
+                const sylJson = await sylGet.json();
+                const sylStr = decodeURIComponent(escape(atob(sylJson.content)));
+
+                try {
+                    const sylStart = sylStr.indexOf('{');
+                    const sylEnd = sylStr.lastIndexOf('}');
+                    if (sylStart !== -1 && sylEnd !== -1) {
+                        const sylObj = JSON.parse(sylStr.substring(sylStart, sylEnd + 1));
+                        const sub = data.lesson_meta.subject;
+                        const gradeStr = data.lesson_meta.grade.toString();
+                        const tNum = parseInt(data.lesson_meta.term.toString().replace('t','')) || 1;
+
+                        if (!sylObj[sub]) sylObj[sub] = {};
+                        if (!sylObj[sub][gradeStr]) sylObj[sub][gradeStr] = [];
+
+                        let termObj = sylObj[sub][gradeStr].find(t => t.term == tNum);
+                        if (!termObj) {
+                            termObj = { term: tNum, units: [{ title: "பாடப்பகுதிகள்", topics: [] }] };
+                            sylObj[sub][gradeStr].push(termObj);
+                        }
+
+                        let found = false;
+                        termObj.units[0].topics.forEach(topic => {
+                            if (topic.code === keyFile) {
+                                topic.title = keyTitle;
+                                topic.isUpdated = true;
+                                found = true;
+                            }
+                        });
+
+                        if (!found) {
+                            termObj.units[0].topics.push({ title: keyTitle, isUpdated: true, code: keyFile });
+                        }
+
+                        const updatedSylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
+                        
+                        status.innerText = "🚀 Finalizing Syllabus Deployment...";
+                        await fetch(sylUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Cloud Master: Syllabus updated for ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(updatedSylStr))),
+                                sha: sylJson.sha
+                            })
+                        });
+                    }
+                } catch (e) { console.warn("Syllabus update failed", e); }
+            }
+
+            status.innerText = "✅ ALL SUCCESS! Lesson, Map, and Syllabus Updated.";
             status.className = "status-badge status-success";
-            alert("வாழ்த்துகள்! அனைத்தும் ஒரே நொடியில் அப்டேட் ஆகிவிட்டது.");
+            alert("வாழ்த்துகள்! அனைத்தும் வெற்றிகரமாக அப்டேட் ஆகிவிட்டது.");
 
         } catch (e) {
             status.innerText = "❌ Sync Failed: " + e.message;
