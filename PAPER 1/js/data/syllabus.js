@@ -4015,5 +4015,24 @@ export const syllabusData = {
         ]
       }
     ]
+  },
+  "soc": {
+    "1": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "Units",
+            "topics": [
+              {
+                "title": "நல்ல குடிமகன் ",
+                "isUpdated": true,
+                "code": "soc_1_t1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 };

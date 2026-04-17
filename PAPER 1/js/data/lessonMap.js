@@ -1110,5 +1110,17 @@ export const lessonMap = {
       "filename": "mat_6_t1_l9",
       "grade": "6"
     }
+  },
+  "soc": {
+    "soc_1_t1_l3": {
+      "local": true,
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
+    },
+    "நல்ல குடிமகன் ": {
+      "local": true,
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
+    }
   }
 };
