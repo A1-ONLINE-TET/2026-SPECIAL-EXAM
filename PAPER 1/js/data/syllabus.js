@@ -3396,6 +3396,11 @@ export const syllabusData = {
                 "title": "அலகு 1: நமது பூமி",
                 "isUpdated": true,
                 "code": "soc_5_t1_l1"
+              },
+              {
+                "title": "அலகு 2: வரலாற்றை நோக்கி",
+                "isUpdated": true,
+                "code": "soc_5_t1_l2"
               }
             ]
           }
