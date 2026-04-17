@@ -3,36 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 Admin Dashboard</title>
+    <title>A1 Admin Dashboard - Cloud Sync</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <style>
         :root {
             --primary: #1a73e8;
+            --secondary: #10b981;
             --accent: #d32f2f;
             --bg: #f8fafc;
             --card: #ffffff;
         }
-        body { font-family: 'Inter', sans-serif; background: var(--bg); padding: 2rem 1rem; }
-        .admin-card { max-width: 900px; margin: 0 auto; background: var(--card); padding: 2.5rem; border-radius: 1.5rem; box-shadow: 0 20px 50px rgba(0,0,0,0.1); }
-        h2 { color: #1e293b; margin-bottom: 2rem; font-weight: 800; border-bottom: 3px solid var(--primary); padding-bottom: 0.5rem; display: inline-block; }
-        .input-group { margin-bottom: 1.5rem; }
-        label { display: block; margin-bottom: 0.5rem; font-weight: 700; color: #475569; font-size: 0.9rem; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); padding: 1rem; }
+        .admin-card { max-width: 900px; margin: 0 auto; background: var(--card); padding: 2rem; border-radius: 1.5rem; box-shadow: 0 20px 50px rgba(0,0,0,0.1); }
+        .header-flex { display: flex; justify-content: space-between; align-items: start; margin-bottom: 2rem; border-bottom: 3px solid var(--primary); padding-bottom: 1rem; }
+        h2 { color: #1e293b; margin: 0; font-weight: 800; }
+        
+        /* Settings Styles */
+        .settings-panel { background: #f1f5f9; padding: 1.5rem; border-radius: 1rem; margin-bottom: 2rem; display: none; border: 1px solid #e2e8f0; }
+        .settings-active { display: block; }
+        
+        .input-group { margin-bottom: 1rem; }
+        label { display: block; margin-bottom: 0.3rem; font-weight: 700; color: #475569; font-size: 0.85rem; }
         input, select, textarea { width: 100%; padding: 0.8rem; border: 2px solid #e2e8f0; border-radius: 0.8rem; font-size: 1rem; transition: border-color 0.3s; box-sizing: border-box; }
         input:focus { border-color: var(--primary); outline: none; }
         .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-        .btn { padding: 1rem 2rem; border-radius: 1rem; border: none; font-weight: 800; cursor: pointer; transition: 0.3s; font-size: 1rem; }
-        .btn-primary { background: var(--primary); color: white; width: 100%; margin-top: 1rem; }
-        .btn-accent { background: var(--accent); color: white; margin-top: 1.5rem; }
+        .btn { padding: 0.8rem 1.5rem; border-radius: 1rem; border: none; font-weight: 800; cursor: pointer; transition: 0.3s; font-size: 0.95rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .btn-outline { background: white; border: 2px solid #e2e8f0; color: #64748b; }
+        .btn-sm { padding: 0.5rem 1rem; font-size: 0.8rem; }
+        
         .item-box { background: #f1f5f9; padding: 1.5rem; border-radius: 1rem; margin-bottom: 1rem; position: relative; border-left: 5px solid var(--primary); }
         .remove-btn { position: absolute; top: 10px; right: 10px; color: var(--accent); cursor: pointer; font-size: 1.5rem; }
-        #json-output { background: #1e293b; color: #38bdf8; padding: 1.5rem; border-radius: 1rem; margin-top: 2rem; white-space: pre-wrap; font-family: 'Courier New', monospace; font-size: 0.85rem; display: none; }
+        #json-output { background: #1e293b; color: #38bdf8; padding: 1.5rem; border-radius: 1rem; margin-top: 2rem; white-space: pre-wrap; font-family: 'Courier New', monospace; font-size: 0.8rem; display: none; }
+        
+        .status-badge { padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.75rem; font-weight: 800; display: none; }
+        .status-success { background: #dcfce7; color: #166534; display: inline-block; }
+        .status-error { background: #fee2e2; color: #991b1b; display: inline-block; }
     </style>
 </head>
 <body>
 
 <div class="admin-card">
-    <h2>A1 Quiz Generator</h2>
+    <div class="header-flex">
+        <div>
+            <h2>A1 Quiz Cloud Master</h2>
+            <p style="color: #64748b; font-size: 0.9rem; margin-top: 0.2rem;">Create, Update and Push directly to GitHub</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="toggleSettings()"><ion-icon name="settings-outline"></ion-icon> Cloud Settings</button>
+    </div>
+
+    <!-- GitHub Settings -->
+    <div id="settingsPanel" class="settings-panel">
+        <h3 style="margin-top:0; font-size: 1rem; color: var(--primary);">GitHub API Configuration</h3>
+        <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 1rem;">Tokens are stored locally in your browser for security.</p>
+        <div class="row">
+            <div class="input-group"><label>GitHub Username</label><input type="text" id="gh_user" placeholder="A1-ONLINE-TET"></div>
+            <div class="input-group"><label>Repo Name</label><input type="text" id="gh_repo" placeholder="2026-SPECIAL-EXAM"></div>
+        </div>
+        <div class="input-group"><label>Personal Access Token (PAT)</label><input type="password" id="gh_token" placeholder="ghp_xxxxxxxxxxxx"></div>
+        <button class="btn btn-primary btn-sm" onclick="saveSettings()">Save Configuration</button>
+    </div>
     
     <div class="row">
         <div class="input-group">
@@ -47,13 +79,12 @@
             </select>
         </div>
         <div class="input-group">
-            <label>Grade (Class)</label>
+            <label>Grade</label>
             <select id="grade" onchange="updateCode()">
                 <option value="5">Grade 5</option>
                 <option value="4">Grade 4</option>
                 <option value="6">Grade 6</option>
                 <option value="3">Grade 3</option>
-                <option value="tet">TET General</option>
             </select>
         </div>
     </div>
@@ -65,53 +96,75 @@
                 <option value="t1">Term 1</option>
                 <option value="t2">Term 2</option>
                 <option value="t3">Term 3</option>
-                <option value="full">Full Year</option>
             </select>
         </div>
         <div class="input-group">
-            <label>Unit/Lesson Number (e.g. 1, 2...)</label>
+            <label>Lesson No</label>
             <input type="number" id="unit" value="1" oninput="updateCode()">
         </div>
     </div>
 
-    <div class="input-group">
-        <label>Generated File Code (Database Filename)</label>
-        <input type="text" id="file_code" placeholder="soc_5_t1_l1" readonly style="background: #f1f5f9; cursor: not-allowed; font-weight: 800; color: var(--primary);">
+    <div class="row">
+        <div class="input-group">
+            <label>File ID</label>
+            <input type="text" id="file_code" readonly style="background: #f1f5f9; font-weight: 800; color: var(--primary);">
+        </div>
+        <div class="input-group">
+            <label>Lesson Title</label>
+            <input type="text" id="lesson_title" placeholder="தலைப்பு">
+        </div>
     </div>
 
-    <div class="input-group">
-        <label>Lesson Title (Tamil/English)</label>
-        <input type="text" id="lesson_title" placeholder="e.g. நமது பூமி">
-    </div>
-
-    <hr style="margin: 2rem 0; opacity: 0.1;">
+    <hr style="margin: 1.5rem 0; opacity: 0.1;">
 
     <div class="input-group">
-        <label for="bulk-quiz-input">Bulk Quiz Input (Pasted Questions Here)</label>
-        <textarea id="bulk-quiz-input" placeholder="Example format:
-1. Question text here?
-A) Option 1
-B) Option 2
-C) Option 3
-D) Option 4
-Ans: A
-Exp: Explanation starts here...
-... can be many lines long ...
-
-Next Question..." style="height: 400px; font-family: 'Courier New', monospace;"></textarea>
-        <div id="parse-status" style="font-size: 0.8rem; color: var(--accent); font-weight: 700; margin-top: 0.5rem; text-align: right;">Paste your content and click Import</div>
-        <button class="btn btn-primary" onclick="importBulkQuiz()">IMPORT BULK QUESTIONS</button>
+        <label>Bulk Parser (Paste & Click Import)</label>
+        <textarea id="bulk-quiz-input" placeholder="Q1. Text...
+A) Opt...
+Ans: A" style="height: 200px; font-family: monospace;"></textarea>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
+            <div id="parse-status" style="font-size: 0.8rem; font-weight: 700;"></div>
+            <button class="btn btn-primary" onclick="importBulkQuiz()">IMPORT ALL</button>
+        </div>
     </div>
 
     <div id="quiz-list"></div>
     
-    <button class="btn btn-accent" onclick="addQuestion()">+ Add Single Question Manually</button>
-    <button class="btn btn-primary" style="background:#10b981;" onclick="generateJSON()">GENERATE & SAVE JSON</button>
+    <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 1rem; margin-top: 2rem;">
+        <button class="btn btn-outline" style="background: #f8fafc;" onclick="addQuestion()">+ Add One Manually</button>
+        <button id="cloudBtn" class="btn btn-secondary" onclick="generateAndPush()"><ion-icon name="cloud-upload-outline"></ion-icon> UPDATE CLOUD (PUSH TO GITHUB)</button>
+    </div>
+    
+    <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem;">
+      <button class="btn btn-outline btn-sm" onclick="downloadJSON()">Local Backup (.json)</button>
+      <button class="btn btn-outline btn-sm" onclick="toggleJSON()">View Raw Code</button>
+    </div>
 
+    <div id="cloudStatus" class="status-badge" style="width: 100%; text-align: center; margin-top: 1rem; padding: 1rem; border-radius: 12px;"></div>
     <pre id="json-output"></pre>
 </div>
 
 <script>
+    // Persistence
+    const loadSettings = () => {
+        const s = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+        document.getElementById('gh_user').value = s.user || 'A1-ONLINE-TET';
+        document.getElementById('gh_repo').value = s.repo || '2026-SPECIAL-EXAM';
+        document.getElementById('gh_token').value = s.token || '';
+    };
+    const saveSettings = () => {
+        const s = {
+            user: document.getElementById('gh_user').value,
+            repo: document.getElementById('gh_repo').value,
+            token: document.getElementById('gh_token').value
+        };
+        localStorage.setItem('A1_GH_SETTINGS', JSON.stringify(s));
+        alert("Settings Saved Locally!");
+        toggleSettings();
+    };
+    const toggleSettings = () => document.getElementById('settingsPanel').classList.toggle('settings-active');
+    loadSettings();
+
     function updateCode() {
         const sub = document.getElementById('subject').value.substring(0, 3);
         const grade = document.getElementById('grade').value;
@@ -131,7 +184,7 @@ Next Question..." style="height: 400px; font-family: 'Courier New', monospace;">
         div.className = 'item-box';
         div.innerHTML = `
             <ion-icon name="trash" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
-            <div class="field" style="margin-bottom:10px;"><label>கேள்வி</label><input type="text" class="q-text" value="${qText.replace(/"/g, '&quot;')}"></div>
+            <div class="field" style="margin-bottom:10px;"><label>கேள்வி</label><textarea class="q-text" rows="2">${qText}</textarea></div>
             <div class="row" style="margin-bottom:10px;">
                 <div class="field"><label>A</label><input type="text" class="q-o0" value="${(options[0] || '').replace(/"/g, '&quot;')}"></div>
                 <div class="field"><label>B</label><input type="text" class="q-o1" value="${(options[1] || '').replace(/"/g, '&quot;')}"></div>
@@ -153,15 +206,13 @@ Next Question..." style="height: 400px; font-family: 'Courier New', monospace;">
         container.appendChild(div);
     }
 
-    // --- BULK PARSER ---
     function importBulkQuiz() {
         let raw = document.getElementById('bulk-quiz-input').value;
-        raw = raw.replace(/\*\*/g, ''); // Remove bold asterisks
+        raw = raw.replace(/\*\*/g, ''); 
         
         function cleanTerm(txt) {
             if (!txt) return "";
             let s = txt.replace(/^\**\s*(?:Q\s*)?\d+\s*[\.\)]\s*/i, '').replace(/^\*+/, '').replace(/\*+$/, '').trim();
-            // Parentheses balancing
             let open = (s.match(/\(/g) || []).length;
             let close = (s.match(/\)/g) || []).length;
             if (open > close) s = s.replace(/\(([^)\s]+)(?!\))/g, '($1)');
@@ -184,37 +235,25 @@ Next Question..." style="height: 400px; font-family: 'Courier New', monospace;">
 
             lines.forEach((line, index) => {
                 const optMatch = line.match(/^([A-D])[\.\)]\s*(.*)/i);
-                if (optMatch) {
-                    options[optMatch[1].toUpperCase().charCodeAt(0) - 65] = cleanTerm(optMatch[2]);
-                }
+                if (optMatch) { options[optMatch[1].toUpperCase().charCodeAt(0) - 65] = cleanTerm(optMatch[2]); }
                 const ansMatch = line.match(/(?:Ans|விடை)\s*[:\-]?\s*([A-D])/i);
-                if (ansMatch) {
-                    answer = ansMatch[1].toUpperCase().charCodeAt(0) - 65;
-                }
+                if (ansMatch) { answer = ansMatch[1].toUpperCase().charCodeAt(0) - 65; }
                 if (expFoundIdx === -1) {
                     const expMatch = line.match(/(?:Exp|விளக்கம்)\s*[:\-]?\s*(.*)/i);
-                    if (expMatch) {
-                        explanation = cleanTerm(expMatch[1]);
-                        expFoundIdx = index;
-                    }
+                    if (expMatch) { explanation = cleanTerm(expMatch[1]); expFoundIdx = index; }
                 } else if (index > expFoundIdx) {
                     explanation += (explanation !== "" ? "<br>" : "") + cleanTerm(line);
                 }
             });
-
             createQuestionUI(qText, options, answer, explanation);
             count++;
         });
-
-        const statusLabel = document.getElementById('parse-status');
-        if (statusLabel) {
-            statusLabel.innerText = `Successfully parsed ${count} questions. Check below and click Save.`;
-            statusLabel.style.color = "#10b981";
-        }
+        document.getElementById('parse-status').innerText = `Imported ${count} Questions.`;
         document.getElementById('bulk-quiz-input').value = "";
     }
 
-    function generateJSON() {
+    function getJSONData() {
+        const code = document.getElementById('file_code').value;
         const data = {
             lesson_meta: {
                 title: document.getElementById('lesson_title').value,
@@ -222,40 +261,95 @@ Next Question..." style="height: 400px; font-family: 'Courier New', monospace;">
                 grade: document.getElementById('grade').value,
                 term: document.getElementById('term').value,
                 subject: document.getElementById('subject').value,
-                code: document.getElementById('file_code').value
+                code: code
             },
             quiz: { questions: [] }
         };
-
-        const items = document.querySelectorAll('.item-box');
-        items.forEach(item => {
-            const q = {
+        document.querySelectorAll('.item-box').forEach(item => {
+            data.quiz.questions.push({
                 question: item.querySelector('.q-text').value,
-                options: [
-                    item.querySelector('.q-o0').value,
-                    item.querySelector('.q-o1').value,
-                    item.querySelector('.q-o2').value,
-                    item.querySelector('.q-o3').value
-                ],
+                options: [item.querySelector('.q-o0').value, item.querySelector('.q-o1').value, item.querySelector('.q-o2').value, item.querySelector('.q-o3').value],
                 answer: parseInt(item.querySelector('.q-ans').value),
                 explanation: item.querySelector('.q-exp').value.replace(/\n/g, '<br>')
-            };
-            data.quiz.questions.push(q);
+            });
         });
+        return data;
+    }
 
-        const output = document.getElementById('json-output');
-        output.textContent = JSON.stringify(data, null, 2);
-        output.style.display = 'block';
-
-        // Downloader
+    function downloadJSON() {
+        const data = getJSONData();
         const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
-        a.href = url;
+        a.href = URL.createObjectURL(blob);
         a.download = data.lesson_meta.code + ".json";
         a.click();
     }
-</script>
 
+    function toggleJSON() {
+        const out = document.getElementById('json-output');
+        out.style.display = out.style.display === 'none' ? 'block' : 'none';
+        out.textContent = JSON.stringify(getJSONData(), null, 2);
+    }
+
+    async function generateAndPush() {
+        const status = document.getElementById('cloudStatus');
+        const btn = document.getElementById('cloudBtn');
+        const s = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+        
+        if (!s.token || !s.user || !s.repo) {
+            alert("Please configure Cloud Settings first!");
+            toggleSettings();
+            return;
+        }
+
+        const data = getJSONData();
+        const sub = data.lesson_meta.subject === 'maths' ? 'maths' : data.lesson_meta.subject;
+        const path = `PAPER 1/json-db/lessons/${sub}/${data.lesson_meta.grade}/${data.lesson_meta.code}.json`;
+        
+        status.style.display = 'block';
+        status.className = 'status-badge';
+        status.innerText = "Connecting to GitHub...";
+        btn.disabled = true;
+
+        try {
+            const url = `https://api.github.com/repos/${s.user}/${s.repo}/contents/${path}`;
+            
+            // 1. Get current SHA if exists
+            let sha = "";
+            const getResp = await fetch(url, { headers: { Authorization: `token ${s.token}` } });
+            if (getResp.ok) {
+                const getJson = await getResp.json();
+                sha = getJson.sha;
+            }
+
+            // 2. Put new content
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+            const putResp = await fetch(url, {
+                method: 'PUT',
+                headers: { Authorization: `token ${s.token}`, 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    message: `Cloud Master: Updated ${data.lesson_meta.code}`,
+                    content: content,
+                    sha: sha || undefined
+                })
+            });
+
+            if (putResp.ok) {
+                status.innerText = "✅ SUCCESS! Lesson Saved & Pushed to Cloud.";
+                status.className = "status-badge status-success";
+                alert("Saved to GitHub Successfully!");
+            } else {
+                const err = await putResp.json();
+                throw new Error(err.message);
+            }
+        } catch (e) {
+            status.innerText = "❌ ERROR: " + e.message;
+            status.className = "status-badge status-error";
+            console.error(e);
+        } finally {
+            btn.disabled = false;
+        }
+    }
+</script>
 </body>
 </html>
