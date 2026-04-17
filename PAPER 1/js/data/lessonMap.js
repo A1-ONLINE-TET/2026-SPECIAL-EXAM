@@ -1081,4 +1081,11 @@ export const lessonMap = {
       "grade": "6"
     }
   }
+  "social_5_soc_5_t1_l2": {
+    "title": "வரலாற்றை நோக்கி ",
+    "unit": "l2",
+    "grade": "5",
+    "term": "t1",
+    "subject": "social"
+  },
 };
