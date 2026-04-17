@@ -110,8 +110,23 @@
             <input type="text" id="file_code" readonly style="background: #f1f5f9; font-weight: 800; color: var(--primary);">
         </div>
         <div class="input-group">
-            <label>Lesson Title</label>
+            <label>Lesson Page Title</label>
             <input type="text" id="lesson_title" placeholder="தலைப்பு">
+        </div>
+    </div>
+
+    <!-- Study Material Section -->
+    <div style="background: #fffbeb; padding: 1.5rem; border-radius: 1rem; margin-bottom: 2rem; border: 1px solid #fef3c7;">
+        <h3 style="margin-top:0; font-size: 1rem; color: #b45309;"><ion-icon name="book-outline"></ion-icon> Study Material (பாடக்குறிப்புகள்)</h3>
+        <div class="input-group">
+            <label>Material Header (Optional)</label>
+            <input type="text" id="mat_header" placeholder="எ.கா: பாடக்குறிப்புகள்">
+        </div>
+        <div class="input-group">
+            <label>Material Content (Paste full notes here)</label>
+            <textarea id="mat_content" placeholder="அலகு 1: நமது பூமி - பாடக்குறிப்புகள்
+1. பேரண்டம்...
+..." style="height: 200px;"></textarea>
         </div>
     </div>
 
@@ -254,6 +269,9 @@ Ans: A" style="height: 200px; font-family: monospace;"></textarea>
 
     function getJSONData() {
         const code = document.getElementById('file_code').value;
+        const matHeader = document.getElementById('mat_header').value;
+        const matContent = document.getElementById('mat_content').value;
+
         const data = {
             lesson_meta: {
                 title: document.getElementById('lesson_title').value,
@@ -265,6 +283,19 @@ Ans: A" style="height: 200px; font-family: monospace;"></textarea>
             },
             quiz: { questions: [] }
         };
+
+        // Add Study Material if exists
+        if (matContent.trim() !== "") {
+            data.material = {
+                sections: [
+                    {
+                        title: matHeader || "பாடக்குறிப்புகள்",
+                        content: matContent
+                    }
+                ]
+            };
+        }
+
         document.querySelectorAll('.item-box').forEach(item => {
             data.quiz.questions.push({
                 question: item.querySelector('.q-text').value,
