@@ -1,44 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap');
 
 :root {
-    /* Premium Color Palette */
-    --primary: #1a73e8; /* Vibrant Google-like modern blue */
-    --primary-light: #e8f0fe;
-    --primary-dark: #0f42b3;
-    --secondary: #10b981;
-    --accent: #ff6d00; /* Sharp energetic orange */
-    --danger: #ea4335;
-    --bg-main: #f8fafc; /* Ultra-soft premium neutral gray */
+    /* Premium Mobile App Color Palette */
+    --primary: #4f46e5; /* Deep Indigo / Purple */
+    --primary-light: #818cf8;
+    --primary-dark: #3730a3;
+    --secondary: #ec4899; /* Vibrant Pink */
+    --accent: #f59e0b; /* Golden Amber */
+    --danger: #ef4444;
+    --bg-main: #f8fafc; /* Premium soft backdrop */
     --bg-card: #ffffff;
-    --text-main: #0f172a; /* Very dark navy for crisp contrast */
+    --text-main: #1e293b;
     --text-muted: #64748b;
     --border: #e2e8f0;
-    --shadow: 0 12px 24px -6px rgba(15, 23, 42, 0.05), 0 4px 6px -2px rgba(15, 23, 42, 0.03); /* Premium wide shadow */
-    --shadow-hover: 0 20px 30px -10px rgba(26, 115, 232, 0.15); /* Blue-ish hover shadow */
+    --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     --shadow-lg: 0 20px 30px -10px rgba(15, 23, 42, 0.1);
     
     /* Transitions */
-    --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    background-color: #0f172a;
+    background-image: radial-gradient(circle at top right, #1e1b4b, #0f172a);
 }
 
 body {
-    font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', sans-serif;
-    background-color: var(--bg-main);
+    font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
     color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
+    
+    /* Mobile App Wrapper Styles */
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: var(--bg-main);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    min-height: 100vh;
+    position: relative;
+}
+
+@media (min-width: 481px) {
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    body {
+        min-height: 90vh;
+        height: 90vh;
+        border-radius: 36px;
+        border: 12px solid #1e293b;
+        overflow-y: auto;
+    }
+    /* Hide scrollbar for native app feel */
+    body::-webkit-scrollbar { display: none; }
+    body { -ms-overflow-style: none; scrollbar-width: none; }
 }
 
 /* Typography */
 h1, h2, h3, h4 {
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     color: var(--text-main);
 }
 
