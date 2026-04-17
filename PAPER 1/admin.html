@@ -366,9 +366,57 @@ Ans: A" style="height: 200px; font-family: monospace;"></textarea>
             });
 
             if (putResp.ok) {
-                status.innerText = "✅ SUCCESS! Lesson Saved & Pushed to Cloud.";
-                status.className = "status-badge status-success";
-                alert("Saved to GitHub Successfully!");
+                status.innerText = "✅ Lesson Saved. Now updating App Map...";
+                
+                // --- 3. Update lessonMap.js Metadata ---
+                const mapPath = "PAPER 1/js/data/lessonMap.js";
+                const mapUrl = `https://api.github.com/repos/${s.user}/${s.repo}/contents/${mapPath}`;
+                
+                const mapGet = await fetch(mapUrl, { headers: { Authorization: `token ${s.token}` } });
+                if (mapGet.ok) {
+                    const mapJson = await mapGet.json();
+                    let mapContentStr = decodeURIComponent(escape(atob(mapJson.content)));
+                    
+                    // Add new entry logic
+                    const entryKey = `${data.lesson_meta.subject}_${data.lesson_meta.grade}_${data.lesson_meta.code}`;
+                    const entryValue = {
+                        title: data.lesson_meta.title,
+                        unit: data.lesson_meta.unit,
+                        grade: data.lesson_meta.grade,
+                        term: data.lesson_meta.term,
+                        subject: data.lesson_meta.subject
+                    };
+
+                    // Simple insertion before the final closing bracket/export
+                    if (!mapContentStr.includes(`"${entryKey}"`)) {
+                        const insertionPoint = mapContentStr.lastIndexOf('};');
+                        if (insertionPoint !== -1) {
+                            const newEntryStr = `  "${entryKey}": ${JSON.stringify(entryValue, null, 2).replace(/\n/g, '\n  ')},\n`;
+                            mapContentStr = mapContentStr.slice(0, insertionPoint) + newEntryStr + mapContentStr.slice(insertionPoint);
+                            
+                            const mapPutResp = await fetch(mapUrl, {
+                                method: 'PUT',
+                                headers: { Authorization: `token ${s.token}`, 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    message: `Cloud Master: Mapping ${data.lesson_meta.code}`,
+                                    content: btoa(unescape(encodeURIComponent(mapContentStr))),
+                                    sha: mapJson.sha
+                                })
+                            });
+                            
+                            if (mapPutResp.ok) {
+                                status.innerText = "✅ ALL SUCCESS! Lesson & App Map Updated.";
+                                status.className = "status-badge status-success";
+                                alert("Success! Lesson is now live in the App.");
+                            } else {
+                                status.innerText = "⚠️ Lesson saved but Map update failed. Run build_map locally.";
+                            }
+                        }
+                    } else {
+                        status.innerText = "✅ SUCCESS! Lesson info already in Map.";
+                        status.className = "status-badge status-success";
+                    }
+                }
             } else {
                 const err = await putResp.json();
                 throw new Error(err.message);
