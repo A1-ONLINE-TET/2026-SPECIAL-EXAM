@@ -3366,7 +3366,7 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "நல்ல குடிமகன் ",
+                "title": "நல்ல குடிமகன்",
                 "isUpdated": true,
                 "code": "soc_1_t1_l3"
               }
