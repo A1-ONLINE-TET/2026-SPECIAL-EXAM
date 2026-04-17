@@ -687,6 +687,7 @@
                             `).join('')}
                         </div>
                         <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
+                            <strong style="color: #10b981; display: block; margin-bottom: 8px; font-size: 1.1rem;">சரியான விடை: <span style="color:#065f46;">${formatText(q.options[q.answer !== undefined ? q.answer : q.a] || '')}</span></strong>
                             <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
                             ${formatText(explanationText)}
                         </div>
