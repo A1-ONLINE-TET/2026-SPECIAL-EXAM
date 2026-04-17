@@ -3401,6 +3401,11 @@ export const syllabusData = {
                 "title": "அலகு 2: வரலாற்றை நோக்கி",
                 "isUpdated": true,
                 "code": "soc_5_t1_l2"
+              },
+              {
+                "title": "நல்ல குடிமகன் ",
+                "isUpdated": true,
+                "code": "soc_5_t1_l3"
               }
             ]
           }
