@@ -806,6 +806,16 @@ export const lessonMap = {
       "filename": "soc_5_t1_l1",
       "grade": "5"
     },
+    "வரலாற்றை நோக்கி": {
+      "local": true,
+      "filename": "soc_5_t1_l2",
+      "grade": "5"
+    },
+    "soc_5_t1_l2": {
+      "local": true,
+      "filename": "soc_5_t1_l2",
+      "grade": "5"
+    },
     "வரலாறு என்றால் என்ன?": {
       "local": true,
       "filename": "soc_6_t1_l1",

@@ -377,44 +377,55 @@ Ans: A" style="height: 200px; font-family: monospace;"></textarea>
                     const mapJson = await mapGet.json();
                     let mapContentStr = decodeURIComponent(escape(atob(mapJson.content)));
                     
-                    // Add new entry logic
-                    const entryKey = `${data.lesson_meta.subject}_${data.lesson_meta.grade}_${data.lesson_meta.code}`;
-                    const entryValue = {
-                        title: data.lesson_meta.title,
-                        unit: data.lesson_meta.unit,
-                        grade: data.lesson_meta.grade,
-                        term: data.lesson_meta.term,
-                        subject: data.lesson_meta.subject
-                    };
+                    // Add new entry logic properly parsing the JS object
+                    const objMatch = mapContentStr.match(/export const lessonMap = (\{[\s\S]*?\});/);
+                    if (objMatch) {
+                        try {
+                            const mapObj = JSON.parse(objMatch[1]);
+                            const sub = data.lesson_meta.subject;
+                            if (!mapObj[sub]) mapObj[sub] = {};
+                            
+                            const keyTitle = data.lesson_meta.title;
+                            const keyFile = data.lesson_meta.code;
+                            const entryValue = {
+                                local: true,
+                                filename: keyFile,
+                                grade: data.lesson_meta.grade.toString()
+                            };
 
-                    // Simple insertion before the final closing bracket/export
-                    if (!mapContentStr.includes(`"${entryKey}"`)) {
-                        const insertionPoint = mapContentStr.lastIndexOf('};');
-                        if (insertionPoint !== -1) {
-                            const newEntryStr = `  "${entryKey}": ${JSON.stringify(entryValue, null, 2).replace(/\n/g, '\n  ')},\n`;
-                            mapContentStr = mapContentStr.slice(0, insertionPoint) + newEntryStr + mapContentStr.slice(insertionPoint);
-                            
-                            const mapPutResp = await fetch(mapUrl, {
-                                method: 'PUT',
-                                headers: { Authorization: `token ${s.token}`, 'Content-Type': 'application/json' },
-                                body: JSON.stringify({
-                                    message: `Cloud Master: Mapping ${data.lesson_meta.code}`,
-                                    content: btoa(unescape(encodeURIComponent(mapContentStr))),
-                                    sha: mapJson.sha
-                                })
-                            });
-                            
-                            if (mapPutResp.ok) {
-                                status.innerText = "✅ ALL SUCCESS! Lesson & App Map Updated.";
-                                status.className = "status-badge status-success";
-                                alert("Success! Lesson is now live in the App.");
+                            let updated = false;
+                            if (!mapObj[sub][keyTitle]) { mapObj[sub][keyTitle] = entryValue; updated = true; }
+                            if (!mapObj[sub][keyFile]) { mapObj[sub][keyFile] = entryValue; updated = true; }
+
+                            if (updated) {
+                                const newMapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
+                                const mapPutResp = await fetch(mapUrl, {
+                                    method: 'PUT',
+                                    headers: { Authorization: `token ${s.token}`, 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({
+                                        message: `Cloud Master: Mapping ${keyFile}`,
+                                        content: btoa(unescape(encodeURIComponent(newMapStr))),
+                                        sha: mapJson.sha
+                                    })
+                                });
+                                
+                                if (mapPutResp.ok) {
+                                    status.innerText = "✅ ALL SUCCESS! Lesson & App Map Updated.";
+                                    status.className = "status-badge status-success";
+                                    alert("Success! Lesson is now live in the App.");
+                                } else {
+                                    status.innerText = "⚠️ Lesson saved but Map update failed. Run build_map locally.";
+                                }
                             } else {
-                                status.innerText = "⚠️ Lesson saved but Map update failed. Run build_map locally.";
+                                status.innerText = "✅ SUCCESS! Lesson info already in Map.";
+                                status.className = "status-badge status-success";
                             }
+                        } catch (parseError) {
+                            console.error('Failed to parse lessonMap', parseError);
+                            status.innerText = "⚠️ Map parse failed. Run build_map locally.";
                         }
                     } else {
-                        status.innerText = "✅ SUCCESS! Lesson info already in Map.";
-                        status.className = "status-badge status-success";
+                         status.innerText = "⚠️ Map structure not found. Run build_map locally.";
                     }
                 }
             } else {
