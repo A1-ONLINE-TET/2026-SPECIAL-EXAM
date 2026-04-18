@@ -1136,7 +1136,12 @@ export const lessonMap = {
     },
     "திருப்புதல் தேர்வு 3": {
       "local": true,
-      "filename": "rev_1_t1_l1",
+      "filename": "rev_special_3",
+      "grade": "1"
+    },
+    "rev_special_3": {
+      "local": true,
+      "filename": "rev_special_3",
       "grade": "1"
     }
   }
