@@ -55,15 +55,28 @@ export async function getLocalLessonData(subject, className, lessonId) {
     else if (sub.includes('english')) subjectKey = 'english';
     else if (sub.includes('math')) subjectKey = 'maths';
     else if (sub.includes('psychology')) subjectKey = 'psychology';
+    else if (sub.includes('standard_6_7_8')) subjectKey = 'standard_6_7_8';
+    else if (sub.includes('revision')) subjectKey = 'revision';
+    else if (sub.includes('mocktest')) subjectKey = 'mocktest';
 
     // 1. Try Map Lookup
     let lessonMap = {};
+    let specialMap = {};
     try {
         const module = await import(`./data/lessonMap.js?v=${v}`);
         lessonMap = module.lessonMap || {};
     } catch (e) { console.warn("Map not found, using fallback"); }
+    
+    // Try special content map for special subjects
+    if (['psychology', 'revision', 'mocktest', 'standard_6_7_8'].includes(subjectKey)) {
+        try {
+            const specModule = await import(`./data/specialContentMap.js?v=${v}`);
+            specialMap = specModule.specialContentMap || {};
+        } catch (e) { console.warn("Special map not found"); }
+    }
 
-    const subjectMap = lessonMap[subjectKey] || {};
+    const subjectMapRegular = lessonMap[subjectKey] || {};
+    const subjectMapSpecial = specialMap.class678 || specialMap.revision || specialMap.model || specialMap.psychology || {};
     
     // Fuzzy match function
     const findMatch = (map, id) => {
@@ -74,17 +87,36 @@ export async function getLocalLessonData(subject, className, lessonId) {
         return entry ? entry[1] : null;
     };
 
-    const match = findMatch(subjectMap, lessonId);
+    const matchRegular = findMatch(subjectMapRegular, lessonId);
+    const matchSpecial = findMatch(subjectMapSpecial, lessonId);
+    const match = matchSpecial || matchRegular;
     const paths = [];
 
     if (match) {
         const grade = match.grade || className;
-        paths.push(`json-db/lessons/${subjectKey}/${grade}/${match.filename}.json`);
+        const category = match.category;
+        
+        // Special content paths
+        if (category && ['class678', 'revision', 'model', 'psychology'].includes(category)) {
+            paths.push(`json-db/special/${category}/${match.filename}.json`);
+        } else {
+            // Regular lesson paths
+            paths.push(`json-db/lessons/${subjectKey}/${grade}/${match.filename}.json`);
+        }
     }
 
     // 2. Try Standard Path Patterns
     paths.push(`json-db/lessons/${subjectKey}/${className}/${safeName}.json`);
     paths.push(`json-db/lessons/${subjectKey}/${className}/${lessonId}.json`);
+    
+    // 3. Try special content patterns
+    if (['psychology', 'revision', 'mocktest', 'standard_6_7_8'].includes(subjectKey)) {
+        paths.push(`json-db/special/class678/${safeName}.json`);
+        paths.push(`json-db/special/class678/${lessonId}.json`);
+        paths.push(`json-db/special/revision/${safeName}.json`);
+        paths.push(`json-db/special/model/${safeName}.json`);
+        paths.push(`json-db/special/psychology/${safeName}.json`);
+    }
 
     // Execution
     for (const path of paths) {
