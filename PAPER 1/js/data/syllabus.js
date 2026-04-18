@@ -3430,7 +3430,7 @@ export const syllabusData = {
                 "code": "soc_5_t1_l3"
               },
               {
-                "title": "Untitled",
+                "title": "வளிமண்டலம்",
                 "isUpdated": true,
                 "code": "soc_5_t1_l4"
               }
