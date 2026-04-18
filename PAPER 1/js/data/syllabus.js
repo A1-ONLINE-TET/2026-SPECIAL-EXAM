@@ -3420,9 +3420,14 @@ export const syllabusData = {
                 "code": "soc_5_t1_l2"
               },
               {
-                "title": "நல்ல குடிமகன் ",
+                "title": "அலகு 3: நல்ல குடிமகன்",
                 "isUpdated": true,
                 "code": "soc_5_t1_l3"
+              },
+              {
+                "title": "அலகு 4: வளிமண்டலம்",
+                "isUpdated": true,
+                "code": "soc_5_t1_l4"
               }
             ]
           }
