@@ -15,8 +15,12 @@ export const specialContentMap = {
     "g6_class678_1": {
       "filename": "g6_class678_1",
       "category": "class678",
-      "grade": "6",
-      "subject": "ENGLISH"
+      "grade": "6"
+    },
+    "Untitled": {
+      "filename": "g6_class678_1",
+      "category": "class678",
+      "grade": "6"
     }
   }
 };
