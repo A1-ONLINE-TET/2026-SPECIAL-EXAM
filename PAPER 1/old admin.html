@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Admin Dashboard - Pro Sync</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        :root { --primary: #1a73e8; --secondary: #10b981; --accent: #d32f2f; --bg: #f8fafc; --card: #ffffff; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); padding: 1rem; }
+        .admin-card { max-width: 900px; margin: 0 auto; background: var(--card); padding: 2rem; border-radius: 1.5rem; box-shadow: 0 20px 50px rgba(0,0,0,0.1); }
+        .header-flex { display: flex; justify-content: space-between; align-items: start; margin-bottom: 2rem; border-bottom: 3px solid var(--primary); padding-bottom: 1rem; }
+        h2 { color: #1e293b; margin: 0; font-weight: 800; }
+        .settings-panel { background: #f1f5f9; padding: 1.5rem; border-radius: 1rem; margin-bottom: 2rem; display: none; border: 1px solid #e2e8f0; }
+        .settings-active { display: block; }
+        .input-group { margin-bottom: 1rem; }
+        label { display: block; margin-bottom: 0.3rem; font-weight: 700; color: #475569; font-size: 0.85rem; }
+        input, select, textarea { width: 100%; padding: 0.8rem; border: 2px solid #e2e8f0; border-radius: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+        .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .btn { padding: 0.8rem 1.5rem; border-radius: 1rem; border: none; font-weight: 800; cursor: pointer; transition: 0.3s; display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .btn-outline { background: white; border: 2px solid #e2e8f0; color: #64748b; }
+        .btn-sm { padding: 0.5rem 1rem; font-size: 0.8rem; }
+        .item-box { background: #f1f5f9; padding: 1.5rem; border-radius: 1rem; margin-bottom: 1rem; position: relative; border-left: 5px solid var(--primary); }
+        .remove-btn { position: absolute; top: 10px; right: 10px; color: var(--accent); cursor: pointer; font-size: 1.5rem; }
+        .status-badge { padding: 1rem; border-radius: 12px; font-size: 0.9rem; font-weight: 700; width: 100%; text-align: center; margin-top: 1rem; border: 1px solid #e2e8f0; display: none; }
+        .status-success { background: #dcfce7; color: #166534; display: block; }
+        .status-error { background: #fee2e2; color: #991b1b; display: block; }
+    </style>
+</head>
+<body>
+
+<div class="admin-card">
+    <div class="header-flex">
+        <div style="flex: 1; text-align: center;"><h2 style="color: var(--primary);">A1 ONLINE COACHING CENTER</h2></div>
+        <button class="btn btn-outline btn-sm" onclick="toggleSettings()"><ion-icon name="settings-outline"></ion-icon> Settings</button>
+    </div>
+
+    <!-- Settings -->
+    <div id="settingsPanel" class="settings-panel">
+        <div class="row">
+            <div class="input-group"><label>GitHub User</label><input type="text" id="gh_user"></div>
+            <div class="input-group"><label>Repo Name</label><input type="text" id="gh_repo"></div>
+        </div>
+        <div class="input-group"><label>GitHub Token</label><input type="password" id="gh_token"></div>
+        <button class="btn btn-primary btn-sm" onclick="saveSettings()">Save Configuration</button>
+    </div>
+    
+    <!-- Meta Info -->
+    <div class="row">
+        <div class="input-group">
+            <label>Subject</label>
+            <select id="subject" onchange="updateCode()">
+                <option value="social">Social Science</option>
+                <option value="science">Science</option>
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="maths">Mathematics</option>
+                <option value="psychology">Psychology</option>
+            </select>
+        </div>
+        <div class="input-group"><label>Grade (Class)</label><select id="grade" onchange="updateCode()"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></div>
+    </div>
+    <div class="row">
+        <div class="input-group"><label>Term</label><select id="term" onchange="updateCode()"><option value="t1">1</option><option value="t2">2</option><option value="t3">3</option></select></div>
+        <div class="input-group"><label>Unit No</label><input type="number" id="unit" value="1" oninput="updateCode()"></div>
+    </div>
+    <div class="row">
+        <div class="input-group"><label>File ID</label><input type="text" id="file_code" readonly style="background: #e2e8f0; font-weight: bold; color: var(--primary);"></div>
+        <div class="input-group"><label>Lesson Title</label><input type="text" id="lesson_title" placeholder="எ.கா: பாடத்தின் பெயர்"></div>
+    </div>
+
+    <!-- Notes Section -->
+    <div style="background: #fffbeb; padding: 1rem; border-radius: 1rem; margin-bottom: 2rem;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:1rem;"><h3 style="margin:0; font-size:1rem; color:#b45309;">Study Material</h3><button class="btn btn-primary btn-sm" onclick="addMaterialSection()">+ New Title</button></div>
+        <textarea id="bulk-mat-input" placeholder="Bulk Paste Notes Here..." style="height:100px; margin-bottom:0.5rem;"></textarea>
+        <button class="btn btn-secondary btn-sm" style="margin-left:auto;" onclick="importBulkMaterial()">PARSE NOTES</button>
+        <div id="material-sections" style="margin-top:1rem;"></div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="input-group">
+        <label>Bulk Quiz Import</label>
+        <textarea id="bulk-quiz-input" placeholder="Paste Questions..."></textarea>
+        <button class="btn btn-primary btn-sm" style="margin-top:10px;" onclick="importBulkQuiz()">IMPORT QUESTIONS</button>
+    </div>
+    <div id="quiz-list"></div>
+
+    <!-- Actions -->
+    <div style="display:grid; grid-template-columns: 1fr 1.5fr; gap:1rem; margin-top:2rem;">
+        <button class="btn btn-outline" onclick="addQuestion()">+ Add Manual</button>
+        <button id="cloudBtn" class="btn btn-secondary" onclick="syncEverything()"><ion-icon name="flash-outline"></ion-icon> SYNC ALL (1 COMMIT - FAST)</button>
+    </div>
+    
+    <div id="cloudStatus" class="status-badge"></div>
+</div>
+
+<script>
+    const loadSettings = () => {
+        const s = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+        document.getElementById('gh_user').value = s.user || 'A1-ONLINE-TET';
+        document.getElementById('gh_repo').value = s.repo || '2026-SPECIAL-EXAM';
+        document.getElementById('gh_token').value = s.token || '';
+    };
+    const saveSettings = () => {
+        const s = { user: document.getElementById('gh_user').value.trim(), repo: document.getElementById('gh_repo').value.trim(), token: document.getElementById('gh_token').value.trim() };
+        localStorage.setItem('A1_GH_SETTINGS', JSON.stringify(s));
+        alert("Settings Saved!"); toggleSettings();
+    };
+    const toggleSettings = () => document.getElementById('settingsPanel').classList.toggle('settings-active');
+    loadSettings();
+
+    function updateCode() {
+        const sub = document.getElementById('subject').value;
+        const grade = document.getElementById('grade').value;
+        const term = document.getElementById('term').value;
+        const unit = document.getElementById('unit').value;
+        
+        let prefix = sub.substring(0, 3);
+        if (sub === 'maths') prefix = 'mat';
+        if (sub === 'tamil') prefix = 'tam';
+
+        document.getElementById('file_code').value = `${prefix}_${grade}_${term}_l${unit}`;
+    }
+    updateCode();
+
+    function addQuestion() { createQuestionUI("", ["","","",""], 0, ""); }
+    function createQuestionUI(q, o, a, e) {
+        const div = document.createElement('div');
+        div.className = 'item-box quiz-item';
+        div.innerHTML = `<ion-icon name="trash" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
+            <textarea class="q-text" placeholder="Question">${q}</textarea>
+            <div class="row">
+                <input class="q-o0" value="${o[0]}"> <input class="q-o1" value="${o[1]}">
+            </div><div class="row">
+                <input class="q-o2" value="${o[2]}"> <input class="q-o3" value="${o[3]}">
+            </div>
+            <div class="row"><select class="q-ans"><option value="0" ${a==0?'selected':''}>A</option><option value="1" ${a==1?'selected':''}>B</option><option value="2" ${a==2?'selected':''}>C</option><option value="3" ${a==3?'selected':''}>D</option></select>
+            <textarea class="q-exp" placeholder="Explanation">${e}</textarea></div>`;
+        document.getElementById('quiz-list').appendChild(div);
+    }
+
+    function addMaterialSection(t="", c="") {
+        const div = document.createElement('div');
+        div.className = 'item-box mat-section-item';
+        div.innerHTML = `<ion-icon name="close-circle" class="remove-btn" onclick="this.parentElement.remove()"></ion-icon>
+            <input type="text" class="mat-title" placeholder="தலைப்பு" value="${t}">
+            <textarea class="mat-body" placeholder="விளக்கம்">${c}</textarea>`;
+        document.getElementById('material-sections').appendChild(div);
+    }
+    addMaterialSection("பாடக்குறிப்புகள்","");
+
+    function importBulkMaterial() {
+        let raw = document.getElementById('bulk-mat-input').value;
+        raw = raw.replace(/\*\*/g,'').replace(/^\s*[\*•]\s+/gm,'').replace(/#/g,'');
+        const blocks = raw.split(/\n\s*\n/).filter(b => b.trim().length > 10);
+        blocks.forEach(b => {
+            const lines = b.trim().split('\n');
+            const head = lines[0].length < 80 ? lines[0] : "பாடக்குறிப்புகள்";
+            const body = lines[0].length < 80 ? lines.slice(1).join('\n') : lines.join('\n');
+            addMaterialSection(head, body);
+        });
+        document.getElementById('bulk-mat-input').value = "";
+    }
+
+    function importBulkQuiz() {
+        let raw = document.getElementById('bulk-quiz-input').value.replace(/\*\*/g,'').trim();
+        const blocks = raw.split(/\n\s*\n/).filter(b => b.trim());
+        
+        blocks.forEach(b => {
+            const lines = b.split('\n').map(l => l.trim()).filter(l => l);
+            if (lines.length === 0) return;
+
+            const q = lines[0].replace(/^\d+[\.\)]/,'').trim();
+            const opts = ["","","",""]; 
+            let ans = 0; 
+            let ex = "";
+            
+            lines.forEach(l => {
+                // Find Options (A-D or அ-ஈ)
+                const optMatch = l.match(/^([A-Dஅஆஇஈ])[\.\)]\s*(.*)/i);
+                if(optMatch) {
+                    let char = optMatch[1].toUpperCase();
+                    let idx = 0;
+                    if(char === 'A' || char === 'அ') idx = 0;
+                    else if(char === 'B' || char === 'ஆ') idx = 1;
+                    else if(char === 'C' || char === 'இ') idx = 2;
+                    else if(char === 'D' || char === 'ஈ') idx = 3;
+                    opts[idx] = optMatch[2].trim();
+                }
+
+                // Find Answer
+                const ansMatch = l.match(/(?:Ans|விடை)\s*[:\-\=]?\s*([A-Dஅஆஇஈ])/i);
+                if(ansMatch) {
+                    let char = ansMatch[1].toUpperCase();
+                    if(char === 'A' || char === 'அ') ans = 0;
+                    else if(char === 'B' || char === 'ஆ') ans = 1;
+                    else if(char === 'C' || char === 'இ') ans = 2;
+                    else if(char === 'D' || char === 'ஈ') ans = 3;
+                }
+
+                // Find Explanation
+                const exMatch = l.match(/(?:Exp|விளக்கம்)\s*[:\-\=]?\s*(.*)/i);
+                if(exMatch) {
+                    ex = exMatch[1].trim();
+                }
+            });
+
+            // Fallback for inline options if not parsed properly by lines
+            if (!opts[0] && !opts[1] && !opts[2]) {
+                const combined = lines.slice(1).join(" ");
+                const parts = combined.split(/([A-Dஅஆஇஈ][\.\)])/i);
+                for(let i=1; i<parts.length; i+=2) {
+                    let char = parts[i].charAt(0).toUpperCase();
+                    let idx = 0;
+                    if(char === 'A' || char === 'அ') idx = 0;
+                    else if(char === 'B' || char === 'ஆ') idx = 1;
+                    else if(char === 'C' || char === 'இ') idx = 2;
+                    else if(char === 'D' || char === 'ஈ') idx = 3;
+                    
+                    let optTxt = parts[i+1].trim();
+                    // Clean up trailing Answer or Explanation keywords from the option text
+                    optTxt = optTxt.split(/(?:Ans|விடை|Exp|விளக்கம்)/i)[0].trim();
+                    opts[idx] = optTxt;
+                }
+            }
+
+            createQuestionUI(q, opts, ans, ex);
+        });
+        document.getElementById('bulk-quiz-input').value = "";
+    }
+
+    function getJSONData() {
+        const code = document.getElementById('file_code').value;
+        const sub = document.getElementById('subject').value;
+        const data = {
+            lesson_meta: { title: document.getElementById('lesson_title').value, grade: document.getElementById('grade').value, term: document.getElementById('term').value, subject: sub, code: code },
+            quiz: { questions: [] }, questions: [], material: { sections: [] }
+        };
+        document.querySelectorAll('.mat-section-item').forEach(i => {
+            const t = i.querySelector('.mat-title').value; const c = i.querySelector('.mat-body').value;
+            if(c.trim()) data.material.sections.push({ title: t||"பாடக்குறிப்புகள்", content: c });
+        });
+        document.querySelectorAll('.quiz-item').forEach(i => {
+           const q = { question: i.querySelector('.q-text').value, options: [i.querySelector('.q-o0').value, i.querySelector('.q-o1').value, i.querySelector('.q-o2').value, i.querySelector('.q-o3').value], answer: parseInt(i.querySelector('.q-ans').value), explanation: i.querySelector('.q-exp').value };
+           data.quiz.questions.push(q); data.questions.push(q);
+        });
+        return data;
+    }
+
+    // --- High Velocity Sync Engine (Unified Commit) ---
+    async function syncEverything() {
+        const status = document.getElementById('cloudStatus');
+        const btn = document.getElementById('cloudBtn');
+        const s = JSON.parse(localStorage.getItem('A1_GH_SETTINGS') || '{}');
+        if(!s.token) { alert("Config missing!"); return; }
+
+        status.style.display = 'block'; status.innerText = "🚀 Starting Unified Sync..."; btn.disabled = true;
+
+        // Auto-Import pending text before saving!
+        if (document.getElementById('bulk-mat-input').value.trim() !== '') {
+            importBulkMaterial();
+        }
+        if (document.getElementById('bulk-quiz-input').value.trim() !== '') {
+            importBulkQuiz();
+        }
+
+        const data = getJSONData();
+        const v = Date.now();
+        const keyFile = data.lesson_meta.code;
+        const keyTitle = data.lesson_meta.title;
+        const jsonPath = `PAPER 1/json-db/lessons/${data.lesson_meta.subject}/${data.lesson_meta.grade}/${data.lesson_meta.code}.json`;
+
+        const authHeader = { Authorization: `token ${s.token}`, 'Accept': 'application/vnd.github.v3+json' };
+        const repoUrl = `https://api.github.com/repos/${s.user}/${s.repo}`;
+
+        try {
+            // 1. Sync JSON Data
+            status.innerText = "📤 Syncing Lesson Data...";
+            const jsonUrl = `${repoUrl}/contents/${jsonPath}`;
+            const jsonGet = await fetch(jsonUrl, { headers: authHeader });
+            let jsonSha = null;
+            if (jsonGet.ok) {
+                const res = await jsonGet.json();
+                jsonSha = res.sha;
+            }
+
+            const putResp = await fetch(jsonUrl, {
+                method: 'PUT',
+                headers: { ...authHeader, 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    message: `Cloud Sync: ${keyFile}`,
+                    content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
+                    sha: jsonSha
+                })
+            });
+
+            if (!putResp.ok) {
+                const err = await putResp.json();
+                throw new Error("JSON Sync Failed: " + err.message);
+            }
+
+            // 2. Sync Map
+            status.innerText = "📥 Downloading Map metadata...";
+            const mapPath = "PAPER 1/js/data/lessonMap.js";
+            const mapUrl = `${repoUrl}/contents/${mapPath}`;
+            const mapGet = await fetch(mapUrl + `?v=${v}`, { headers: authHeader });
+            
+            if (mapGet.ok) {
+                const mapJson = await mapGet.json();
+                const mapStr = decodeURIComponent(escape(atob(mapJson.content)));
+                
+                try {
+                    const mapStart = mapStr.indexOf('{');
+                    const mapEnd = mapStr.lastIndexOf('}');
+                    if (mapStart !== -1 && mapEnd !== -1) {
+                        const mapObj = JSON.parse(mapStr.substring(mapStart, mapEnd + 1));
+                        const sub = data.lesson_meta.subject;
+                        if (!mapObj[sub]) mapObj[sub] = {};
+                        
+                        const entry = { local: true, filename: keyFile, grade: data.lesson_meta.grade.toString() };
+                        mapObj[sub][keyFile] = entry;
+                        mapObj[sub][keyTitle] = entry;
+                        
+                        const updatedMapStr = `export const lessonMap = ${JSON.stringify(mapObj, null, 2)};`;
+                        
+                        status.innerText = "📝 Updating Map Metadata...";
+                        await fetch(mapUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Cloud Master: Mapping ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(updatedMapStr))),
+                                sha: mapJson.sha
+                            })
+                        });
+                    }
+                } catch (e) { console.warn("Map update failed", e); }
+            }
+
+            // 3. Sync Syllabus
+            status.innerText = "📥 Downloading Syllabus menu...";
+            const sylPath = "PAPER 1/js/data/syllabus.js";
+            const sylUrl = `${repoUrl}/contents/${sylPath}`;
+            const sylGet = await fetch(sylUrl + `?v=${v}`, { headers: authHeader });
+
+            if (sylGet.ok) {
+                const sylJson = await sylGet.json();
+                const sylStr = decodeURIComponent(escape(atob(sylJson.content)));
+
+                try {
+                    const sylStart = sylStr.indexOf('{');
+                    const sylEnd = sylStr.lastIndexOf('}');
+                    if (sylStart !== -1 && sylEnd !== -1) {
+                        const sylObj = JSON.parse(sylStr.substring(sylStart, sylEnd + 1));
+                        const sub = data.lesson_meta.subject;
+                        const gradeStr = data.lesson_meta.grade.toString();
+                        const tNum = parseInt(data.lesson_meta.term.toString().replace('t','')) || 1;
+
+                        if (!sylObj[sub]) sylObj[sub] = {};
+                        if (!sylObj[sub][gradeStr]) sylObj[sub][gradeStr] = [];
+
+                        let termObj = sylObj[sub][gradeStr].find(t => t.term == tNum);
+                        if (!termObj) {
+                            termObj = { term: tNum, units: [{ title: "பாடப்பகுதிகள்", topics: [] }] };
+                            sylObj[sub][gradeStr].push(termObj);
+                        }
+
+                        let found = false;
+                        termObj.units[0].topics.forEach(topic => {
+                            if (topic.code === keyFile) {
+                                topic.title = keyTitle;
+                                topic.isUpdated = true;
+                                found = true;
+                            }
+                        });
+
+                        if (!found) {
+                            termObj.units[0].topics.push({ title: keyTitle, isUpdated: true, code: keyFile });
+                        }
+
+                        const updatedSylStr = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
+                        
+                        status.innerText = "🚀 Finalizing Syllabus Deployment...";
+                        await fetch(sylUrl, {
+                            method: 'PUT',
+                            headers: { ...authHeader, 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                message: `Cloud Master: Syllabus updated for ${keyFile}`,
+                                content: btoa(unescape(encodeURIComponent(updatedSylStr))),
+                                sha: sylJson.sha
+                            })
+                        });
+                    }
+                } catch (e) { console.warn("Syllabus update failed", e); }
+            }
+
+            status.innerText = "✅ ALL SUCCESS! Lesson, Map, and Syllabus Updated.";
+            status.className = "status-badge status-success";
+            alert("வாழ்த்துகள்! அனைத்தும் வெற்றிகரமாக அப்டேட் ஆகிவிட்டது.");
+
+        } catch (e) {
+            status.innerText = "❌ Sync Failed: " + e.message;
+            status.className = "status-badge status-error";
+            console.error(e);
+        } finally { btn.disabled = false; }
+    }
+</script>
+</body>
+</html>

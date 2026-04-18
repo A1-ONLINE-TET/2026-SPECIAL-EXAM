@@ -108,6 +108,7 @@
             border: 1px solid #f1f5f9;
             border-left: 8px solid #d32f2f; /* Red Accent instead of Blue to match title */
             transition: all 0.3s ease;
+            text-align: left; /* Ensure left alignment */
         }
 
         .question-text {
@@ -116,7 +117,10 @@
             color: #1a73e8; /* Vibrant Clear Blue for Question */
             line-height: 1.5;
             margin-bottom: 2rem;
-            white-space: pre-wrap; /* Ensure all manual breaks and long content persist */
+            white-space: normal; /* Change from pre-wrap to prevent unintended breaks */
+            text-align: left !important;
+            display: block;
+            width: 100%;
         }
 
         .options-grid {
@@ -137,7 +141,8 @@
             font-weight: 600;
             color: #475569;
             font-size: 1.05rem;
-            white-space: pre-wrap; /* Handle long options */
+            white-space: normal;
+            text-align: left !important;
         }
 
         .option-item:hover {
@@ -330,20 +335,31 @@
         @media (max-width: 600px) {
             .quiz-view-container { padding: 0.5rem; }
             .question-list { gap: 0.75rem; }
-            .question-card { padding: 1rem; border-left-width: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
-            .question-text { font-size: 0.95rem; margin-bottom: 0.75rem; line-height: 1.4; }
-            .options-grid { gap: 0.4rem; }
-            .option-item { padding: 0.6rem 0.8rem; font-size: 0.85rem; border-radius: 0.6rem; }
-            .explanation-box { padding: 0.6rem; font-size: 0.8rem; }
-            .quiz-header { padding: 1rem 0.75rem; margin-bottom: 1rem; }
-            .quiz-header h1 { font-size: 1.25rem; }
-            .quiz-header p { font-size: 0.8rem; }
+            .question-card { padding: 1.25rem 1rem; border-left-width: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+            .question-text { font-size: 1.1rem; margin-bottom: 1rem; line-height: 1.5; text-align: left; }
+            .options-grid { gap: 0.6rem; }
+            .option-item { padding: 0.8rem 1rem; font-size: 1rem; border-radius: 0.8rem; text-align: left; }
+            .explanation-box { padding: 0.8rem; font-size: 0.9rem; }
+            .quiz-header { padding: 1.5rem 1rem; margin-bottom: 1.5rem; }
+            .quiz-header h1 { font-size: 1.5rem; }
+            .quiz-header p { font-size: 0.9rem; }
         }
 
         .keyword-highlight {
             color: #db2777;
             font-weight: 800;
             display: inline;
+        }
+
+        /* HARD OVERRIDE FOR CENTERING ISSUE */
+        #questionContainer, .question-card, .question-text, .option-item {
+            text-align: left !important;
+            justify-content: flex-start !important;
+        }
+        
+        .question-text * {
+            text-align: left !important;
+            display: inline !important; /* Force spans and labels to stay together */
         }
     </style>
 </head>
@@ -675,9 +691,9 @@
                     
                     return `
                     <div id="q-card-${idx}" class="question-card animate-fade">
-                        <div class="question-text">
-                            <span style="opacity: 0.5; font-size: 0.8rem; margin-right: 5px;">${idx + 1}.</span> 
-                            ${formatText(questionText)}
+                        <div class="question-text" style="text-align: left !important;">
+                            <span style="color: #64748b; font-size: 0.95rem; font-weight: 800; display: inline-block; min-width: 30px;">${idx + 1}. </span>
+                            <span style="display: inline;">${formatText(questionText)}</span>
                         </div>
                         <div class="options-grid" id="options-${idx}">
                             ${q.options.map((opt, oIdx) => `

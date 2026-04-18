@@ -263,6 +263,9 @@
                         <option value="tamil">Tamil</option>
                         <option value="english">English</option>
                         <option value="maths">Mathematics</option>
+                        <option value="psychology">Psychology (கூடுதல்)</option>
+                        <option value="revision">Revision (கூடுதல்)</option>
+                        <option value="mocktest">Mock Test (கூடுதல்)</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -284,7 +287,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Unit / பாடம்</label>
+                    <label id="unit_label">Unit / பாடம்</label>
                     <input type="number" id="unit" value="1" min="1">
                 </div>
             </div>
@@ -364,7 +367,17 @@ function updateCode() {
     if (sub === 'tamil') prefix = 'tam';
     if (sub === 'english') prefix = 'eng';
     
-    document.getElementById('file_code').textContent = `${prefix}_${grade}_${term}_l${unit}`;
+    if (['revision', 'mocktest', 'psychology', 'standard_6_7_8'].includes(sub)) {
+        document.getElementById('unit_label').textContent = 'Test / No / வகுப்பு';
+        if (sub === 'revision') prefix = 'rev_special';
+        else if (sub === 'mocktest') prefix = 'mkt_special';
+        else if (sub === 'psychology') prefix = 'psy_special';
+        else if (sub === 'standard_6_7_8') prefix = 'std_special';
+        document.getElementById('file_code').textContent = `${prefix}_${unit}`;
+    } else {
+        document.getElementById('unit_label').textContent = 'Unit / பாடம்';
+        document.getElementById('file_code').textContent = `${prefix}_${grade}_${term}_l${unit}`;
+    }
 }
 updateCode();
 
@@ -537,9 +550,10 @@ async function uploadToGitHub() {
             }
         }
 
-        // 3. Update Syllabus
-        showAlert('info', '📥 Updating syllabus.js...');
-        const sylPath = "PAPER 1/js/data/syllabus.js";
+        // 3. Update Syllabus (Standard or Extra)
+        const isExtra = ['psychology', 'revision', 'mocktest', 'standard_6_7_8'].includes(data.lesson_meta.subject);
+        showAlert('info', `📥 Updating ${isExtra ? 'extraSyllabus.js' : 'syllabus.js'}...`);
+        const sylPath = isExtra ? "PAPER 1/js/data/extraSyllabus.js" : "PAPER 1/js/data/syllabus.js";
         const sylUrl = `${repoUrl}/contents/${sylPath}`;
         const sylGet = await fetch(sylUrl + `?v=${v}`, { headers });
         if (sylGet.ok) {
@@ -550,19 +564,24 @@ async function uploadToGitHub() {
             if (start !== -1 && end !== -1) {
                 const sylObj = JSON.parse(sylContent.substring(start, end + 1));
                 const s = data.lesson_meta.subject;
-                const g = data.lesson_meta.grade.toString();
-                const t = parseInt(data.lesson_meta.term.replace('t','')) || 1;
+                const g = isExtra ? "all" : data.lesson_meta.grade.toString();
+                const t = isExtra ? (sylObj[s]?.[g]?.[0]?.term || "Extra Section") : (parseInt(data.lesson_meta.term.replace('t','')) || 1);
                 
                 if (!sylObj[s]) sylObj[s] = {};
                 if (!sylObj[s][g]) sylObj[s][g] = [];
-                let tObj = sylObj[s][g].find(i => i.term == t);
-                if (!tObj) { tObj = { term: t, units: [{ title: "பாடப்பகுதிகள்", topics: [] }] }; sylObj[s][g].push(tObj); }
+                let tObj = isExtra ? sylObj[s][g][0] : sylObj[s][g].find(i => i.term == t);
+                
+                if (!tObj) { 
+                    tObj = { term: t, units: [{ title: "பாடப்பகுதிகள்", topics: [] }] }; 
+                    sylObj[s][g].push(tObj); 
+                }
                 
                 let found = false;
                 tObj.units[0].topics.forEach(top => { if (top.code === code) { top.title = title; top.isUpdated = true; found = true; } });
                 if (!found) tObj.units[0].topics.push({ title, isUpdated: true, code });
 
-                const newContent = `export const syllabusData = ${JSON.stringify(sylObj, null, 2)};`;
+                const exportName = isExtra ? 'extraSyllabusData' : 'syllabusData';
+                const newContent = `export const ${exportName} = ${JSON.stringify(sylObj, null, 2)};`;
                 await fetch(sylUrl, {
                     method: 'PUT', headers,
                     body: JSON.stringify({ message: `Syllabus: ${code}`, content: btoa(unescape(encodeURIComponent(newContent))), sha: sylData.sha })
