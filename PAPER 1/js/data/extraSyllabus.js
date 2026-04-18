@@ -45,6 +45,11 @@ export const extraSyllabusData = {
                 "title": "மாதிரித்தேர்வு 2",
                 "isUpdated": true,
                 "code": "model_test_2"
+              },
+              {
+                "title": "மாதிரித்தேர்வு 3",
+                "isUpdated": true,
+                "code": "mock_test_3"
               }
             ]
           }

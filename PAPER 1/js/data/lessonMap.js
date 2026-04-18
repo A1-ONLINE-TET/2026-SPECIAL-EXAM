@@ -323,7 +323,9 @@ export const lessonMap = {
     "மாதிரித்தேர்வு 1": { "local": true, "filename": "mock_test_1", "grade": "all" },
     "mock_test_1": { "local": true, "filename": "mock_test_1", "grade": "all" },
     "மாதிரித்தேர்வு 2": { "local": true, "filename": "model_test_2", "grade": "all" },
-    "model_test_2": { "local": true, "filename": "model_test_2", "grade": "all" }
+    "model_test_2": { "local": true, "filename": "model_test_2", "grade": "all" },
+    "மாதிரித்தேர்வு 3": { "local": true, "filename": "mock_test_3", "grade": "all" },
+    "mock_test_3": { "local": true, "filename": "mock_test_3", "grade": "all" }
   },
   "standard_6_7_8": {
     "முக்கிய குறிப்புகள் - பகுதி 1": { "local": true, "filename": "sample_678_notes_1", "grade": "all" },
