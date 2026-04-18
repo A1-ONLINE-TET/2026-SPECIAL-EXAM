@@ -16,6 +16,11 @@ export const extraSyllabusData = {
                 "title": "திருப்புதல் தேர்வு 2",
                 "isUpdated": true,
                 "code": "mock_test_2"
+              },
+              {
+                "title": "திருப்புதல் தேர்வு 3",
+                "isUpdated": true,
+                "code": "rev_1_t1_l1"
               }
             ]
           }
