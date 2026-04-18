@@ -1009,8 +1009,8 @@ export const lessonMap = {
     },
     "நல்ல குடிமகன்": {
       "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
+      "filename": "soc_5_t1_l3",
+      "grade": "5"
     },
     "soc_5_t1_l4": {
       "local": true,
