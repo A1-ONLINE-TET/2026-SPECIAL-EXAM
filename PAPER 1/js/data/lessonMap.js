@@ -1019,8 +1019,13 @@ export const lessonMap = {
     },
     "வளிமண்டலம்": {
       "local": true,
-      "filename": "soc_5_t1_l4",
-      "grade": "5"
+      "filename": "soc_1_t1_l4",
+      "grade": "1"
+    },
+    "soc_1_t1_l4": {
+      "local": true,
+      "filename": "soc_1_t1_l4",
+      "grade": "1"
     }
   },
   "psychology": {
