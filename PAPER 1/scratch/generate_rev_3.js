@@ -117,8 +117,21 @@ const finalData = {
             {
                 title: "திருப்புதல் தேர்வு 3 - வினா விடைகள்",
                 content: allQuestions.map((q, i) => {
-                    const ansText = q.options[q.answer] || "N/A";
-                    return `<div style="margin-bottom:15px;"><b>வினா ${i+1}:</b> ${q.question}<br><b style="color:green;">விடை:</b> ${ansText}</div>`;
+                    const ansText = (q.options && q.options[q.answer] !== undefined) ? q.options[q.answer] : "N/A";
+                    // Subject-aware labels
+                    const isEng = (i >= 30 && i < 60); 
+                    const qL = isEng ? "Question" : "வினா";
+                    const aL = isEng ? "Answer" : "விடை";
+                    
+                    return `
+                    <div style="background:#fff; border-radius:12px; padding:15px; margin-bottom:15px; border:1px solid #eee; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                        <div style="color:#1a73e8; font-weight:bold; margin-bottom:8px; font-size:0.9rem;">${qL} ${i+1}</div>
+                        <div style="color:#1e293b; margin-bottom:10px; font-size:1.1rem; line-height:1.6; font-weight:500;">${q.question}</div>
+                        <div style="background:#f0fdf4; border-radius:8px; padding:12px; border-left:4px solid #22c55e;">
+                            <span style="font-weight:bold; color:#15803d; font-size:0.9rem;">${aL}:</span> 
+                            <span style="color:#0f172a; font-size:1rem;">${ansText}</span>
+                        </div>
+                    </div>`;
                 }).join('')
             }
         ]
