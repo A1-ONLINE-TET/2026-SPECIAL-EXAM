@@ -1127,5 +1127,17 @@ export const lessonMap = {
       "filename": "soc_1_t1_l3",
       "grade": "1"
     }
+  },
+  "revision": {
+    "rev_1_t1_l1": {
+      "local": true,
+      "filename": "rev_1_t1_l1",
+      "grade": "1"
+    },
+    "திருப்புதல் தேர்வு 3": {
+      "local": true,
+      "filename": "rev_1_t1_l1",
+      "grade": "1"
+    }
   }
 };
