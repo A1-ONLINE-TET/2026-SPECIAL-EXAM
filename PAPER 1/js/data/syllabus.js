@@ -3425,7 +3425,7 @@ export const syllabusData = {
                 "code": "soc_5_t1_l2"
               },
               {
-                "title": "நல்ல குடிமகன் ",
+                "title": "நல்ல குடிமகன்",
                 "isUpdated": true,
                 "code": "soc_5_t1_l3"
               },
