@@ -3425,6 +3425,11 @@ export const syllabusData = {
                 "title": "வா வா முயலே",
                 "isUpdated": true,
                 "code": "soc_3_t1_l1"
+              },
+              {
+                "title": "செய்து மகிழ்வோம்",
+                "isUpdated": true,
+                "code": "soc_3_t1_l2"
               }
             ]
           }
