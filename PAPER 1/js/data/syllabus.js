@@ -476,7 +476,7 @@ export const syllabusData = {
             "title": "1. மொழி (அமுதத்தமிழ்)",
             "topics": [
               {
-                "title": "எங்கள் தமிழ் *",
+                "title": "பாரதம் அன்றைய நாற்றங்கால்",
                 "isUpdated": true,
                 "code": "tam_7_t1_l1"
               },
