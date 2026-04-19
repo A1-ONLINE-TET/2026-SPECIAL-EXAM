@@ -309,6 +309,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_gram_01",
       "grade": "grammar"
+    },
+    "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
+      "local": true,
+      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
+    },
+    "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)": {
+      "local": true,
+      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
     }
   },
   "revision": {
