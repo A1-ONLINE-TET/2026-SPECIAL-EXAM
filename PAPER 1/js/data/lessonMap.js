@@ -1051,6 +1051,16 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
       "grade": "தொடக்க வகுப்பு"
+    },
+    "soc_3_t1_l1": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
+    },
+    "வா வா முயலே": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
     }
   },
   "psychology": {
