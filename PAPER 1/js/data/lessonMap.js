@@ -374,6 +374,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_3_t1_l5",
       "grade": "3"
+    },
+    "tam_7_t1_l1": {
+      "local": true,
+      "filename": "tam_7_t1_l1",
+      "grade": "7"
+    },
+    "பாரதம் அன்றைய நாற்றங்கால்": {
+      "local": true,
+      "filename": "tam_7_t1_l1",
+      "grade": "7"
     }
   },
   "revision": {
