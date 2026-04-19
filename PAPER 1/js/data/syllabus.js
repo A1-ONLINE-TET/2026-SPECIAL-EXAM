@@ -26,6 +26,11 @@ export const syllabusData = {
                 "title": "சின்னுவின் கதைப்பாடல்",
                 "isUpdated": true,
                 "code": "tam_3_t1_l4"
+              },
+              {
+                "title": "பாட்டு வண்டியிலே...",
+                "isUpdated": true,
+                "code": "tam_3_t1_l5"
               }
             ]
           }
