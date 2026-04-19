@@ -1081,6 +1081,14 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_3_t1_l2",
       "grade": "3"
+    },
+    "soc_undefined_tundefined_lundefined": {
+      "local": true,
+      "filename": "soc_undefined_tundefined_lundefined"
+    },
+    "undefined": {
+      "local": true,
+      "filename": "soc_undefined_tundefined_lundefined"
     }
   },
   "psychology": {
