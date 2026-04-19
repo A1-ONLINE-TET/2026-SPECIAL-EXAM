@@ -1071,6 +1071,16 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_3_t1_l1",
       "grade": "3"
+    },
+    "soc_3_t1_l2": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
     }
   },
   "psychology": {
