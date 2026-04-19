@@ -21,6 +21,11 @@ export const syllabusData = {
                 "title": "கண்ணன் செய்த உதவி",
                 "isUpdated": true,
                 "code": "tam_3_t1_l3"
+              },
+              {
+                "title": "சின்னுவின் கதைப்பாடல்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l4"
               }
             ]
           }
