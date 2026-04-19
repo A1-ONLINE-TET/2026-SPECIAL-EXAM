@@ -16,6 +16,11 @@ export const syllabusData = {
                 "title": "செய்து மகிழ்வோம்",
                 "isUpdated": true,
                 "code": "tam_3_t1_l2"
+              },
+              {
+                "title": "கண்ணன் செய்த உதவி",
+                "isUpdated": true,
+                "code": "tam_3_t1_l3"
               }
             ]
           }
