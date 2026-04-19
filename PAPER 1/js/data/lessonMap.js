@@ -309,6 +309,81 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_gram_01",
       "grade": "grammar"
+    },
+    "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
+      "local": true,
+      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
+    },
+    "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)": {
+      "local": true,
+      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
+    },
+    "tam_3_t1_l1": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
+    },
+    "வா வா முயலே": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
+    },
+    "tam_3_t1_l2": {
+      "local": true,
+      "filename": "tam_3_t1_l2",
+      "grade": "3"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "tam_3_t1_l2",
+      "grade": "3"
+    },
+    "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3": {
+      "local": true,
+      "filename": "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3",
+      "grade": "மூன்றாம் வகுப்பு"
+    },
+    "கண்ணன் செய்த உதவி": {
+      "local": true,
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
+    },
+    "tam_3_t1_l3": {
+      "local": true,
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
+    },
+    "tam_3_t1_l4": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
+    },
+    "சின்னுவின் கதைப்பாடல்": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
+    },
+    "tam_3_t1_l5": {
+      "local": true,
+      "filename": "tam_3_t1_l5",
+      "grade": "3"
+    },
+    "பாட்டு வண்டியிலே...": {
+      "local": true,
+      "filename": "tam_3_t1_l5",
+      "grade": "3"
+    },
+    "tam_7_t1_l1": {
+      "local": true,
+      "filename": "tam_7_t1_l1",
+      "grade": "7"
+    },
+    "பாரதம் அன்றைய நாற்றங்கால்": {
+      "local": true,
+      "filename": "tam_7_t1_l1",
+      "grade": "7"
     }
   },
   "revision": {
@@ -1031,6 +1106,44 @@ export const lessonMap = {
       "local": true,
       "filename": "soc_5_t1_l4",
       "grade": "5"
+    },
+    "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
+      "local": true,
+      "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
+    },
+    "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)": {
+      "local": true,
+      "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
+    },
+    "soc_3_t1_l1": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
+    },
+    "வா வா முயலே": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
+    },
+    "soc_3_t1_l2": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
+    },
+    "soc_undefined_tundefined_lundefined": {
+      "local": true,
+      "filename": "soc_undefined_tundefined_lundefined"
+    },
+    "undefined": {
+      "local": true,
+      "filename": "soc_undefined_tundefined_lundefined"
     }
   },
   "psychology": {

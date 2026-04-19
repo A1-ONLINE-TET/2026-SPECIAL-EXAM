@@ -1,0 +1,845 @@
+{
+  "வகுப்பு": "6",
+  "பருவம்": "1",
+  "பாட_எண்": "Grammar",
+  "பாட_தலைப்பு": "English Grammar (Term 1)",
+  "பாடக்குறிப்புகள்": {
+    "பாடச்சுருக்கம்": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English.",
+    "பாடக்கருத்துக்கள்": [
+      {
+        "தலைப்பு": "1. Subject and Predicate",
+        "விவரங்கள்": [
+          "A sentence is a group of words that makes complete sense.",
+          "Every complete sentence contains two parts: a Subject and a Predicate.",
+          "Subject: The person, place, animal, or thing we are speaking about. (e.g., 'The sun' in 'The sun shines loudly' - Wait, 'The sun shines brightly').",
+          "Predicate: What is said about the subject. It always contains a verb. (e.g., 'shines brightly')."
+        ]
+      },
+      {
+        "தலைப்பு": "2. Parts of Speech",
+        "விவரங்கள்": [
+          "Words are divided into different kinds or classes called Parts of Speech, according to their use and function in a sentence.",
+          "There are 8 parts of speech in English: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection."
+        ]
+      },
+      {
+        "தலைப்பு": "3. Nouns and Types of Nouns",
+        "விவரங்கள்": [
+          "A Noun is a word used as the name of a person, place, or thing.",
+          "Proper Noun: The name of a particular person or place (Always starts with a capital letter). Example: Chennai, Ravi.",
+          "Common Noun: A name given in common to every person or thing of the same class or kind. Example: boy, city, dog.",
+          "Collective Noun: The name of a number (or collection) of persons or things taken together and spoken of as one whole. Example: crowd, army, flock.",
+          "Abstract Noun: The name of a quality, action, or state considered apart from the object to which it belongs. Example: honesty, bravery, childhood.",
+          "Material Noun: The name of a raw material or substance out of which things are made. Example: gold, iron, wood."
+        ]
+      },
+      {
+        "தலைப்பு": "4. Pronouns",
+        "விவரங்கள்": [
+          "A Pronoun is a word used instead of a noun to avoid repetition.",
+          "Subject Pronouns (do the action): I, We, You, He, She, It, They.",
+          "Object Pronouns (receive the action): me, us, you, him, her, it, them.",
+          "Possessive Adjectives (show ownership, followed by a noun): my, our, your, his, her, its, their.",
+          "Possessive Pronouns (show ownership, stand alone): mine, ours, yours, his, hers, theirs."
+        ]
+      },
+      {
+        "தலைப்பு": "5. Verbs, Adjectives, and Adverbs",
+        "விவரங்கள்": [
+          "Verb: A word used to express an action or state. Example: run, jump, is, are.",
+          "Adjective: A word used to add something to the meaning of a noun (Describes a noun). Example: brave boy, tall tree.",
+          "Adverb: A word used to add something to the meaning of a verb, an adjective, or another adverb. Example: He ran quickly, very beautiful."
+        ]
+      },
+      {
+        "தலைப்பு": "6. Prepositions, Conjunctions, and Interjections",
+        "விவரங்கள்": [
+          "Preposition: A word used with a noun or pronoun to show how the person or thing denoted by the noun or pronoun stands in relation to something else. Example: on, in, under.",
+          "Conjunction: A word used to join words or sentences. Example: and, but, or, because.",
+          "Interjection: A word which expresses some sudden feeling. Example: Alas!, Hurrah!, Oh!"
+        ]
+      }
+    ],
+    "தகவல்_பேழை": [
+      "The word 'Noun' comes from the Latin word 'nomen' which means 'name'.",
+      "Articles (a, an, the) are actually a type of Adjective because they describe nouns.",
+      "A sentence can have a single word if it is an imperative verb. Example: 'Stop!' (Here the subject 'You' is understood)."
+    ],
+    "உங்களுக்கு_தெரியுமா": [
+      "Do you know that the word 'I' is always capitalized, no matter where it appears in a sentence?",
+      "Do you know that 'Abstract Nouns' are things you cannot perceive through your five senses? You cannot touch, taste, see, hear, or smell 'bravery'.",
+      "Did you know 'oxymoron' is a figure of speech but 'Noun' is a part of speech? Always distinguish between figures of speech and parts of speech."
+    ],
+    "படம்_சார்ந்த_குறிப்புகள்": [
+      "Tree Diagram of Nouns: The main branch is 'Nouns', splitting into 'Proper', 'Common', 'Collective', 'Material', and 'Abstract'.",
+      "Table of Pronouns: A table showing First Person, Second Person, and Third Person categorized into Subjective, Objective, and Possessive cases."
+    ],
+    "நினைவில்_கொள்க": [
+      "A Proper Noun always begins with a capital letter.",
+      "A pronoun must agree with the noun it replaces in number and gender.",
+      "A predicate MUST contain a verb.",
+      "Adjectives describe Nouns. Adverbs describe Verbs, Adjectives, or other Adverbs."
+    ],
+    "கலைச்சொற்கள்": [
+      {
+        "சொல்": "Noun (பெயர்ச்சொல்)",
+        "பொருள்": "A word that names a person, place, thing, or idea."
+      },
+      {
+        "சொல்": "Verb (வினைச்சொல்)",
+        "பொருள்": "A word that expresses an action, an occurrence, or a state of being."
+      },
+      {
+        "சொல்": "Adjective (பெயரடை)",
+        "பொருள்": "A word that modifies or describes a noun or pronoun."
+      },
+      {
+        "சொல்": "Pronoun (பிரதிப் பெயர்ச்சொல்)",
+        "பொருள்": "A word that takes the place of a noun."
+      },
+      {
+        "சொல்": "Predicate (பயனிலை)",
+        "பொருள்": "The part of a sentence or clause containing a verb and stating something about the subject."
+      }
+    ],
+    "பாட_பின்புற_வினாக்கள்": {
+      "சரியான_விடையை_தேர்ந்தெடுத்து_எழுதுக": [
+        {
+          "கேள்வி": "Identify the proper noun in the sentence: 'She travelled to London.'",
+          "விடை": "London"
+        },
+        {
+          "கேள்வி": "What part of speech is the word 'beautifully' in 'She sang beautifully'?",
+          "விடை": "Adverb"
+        },
+        {
+          "கேள்வி": "Find the subject in the sentence: 'The old man walked slowly.'",
+          "விடை": "The old man"
+        },
+        {
+          "கேள்வி": "Choose the correct pronoun: 'Ravi and I are friends. ___ play together.'",
+          "விடை": "We"
+        }
+      ],
+      "கோடிட்ட_இடங்களை_நிரப்புக": [
+        {
+          "கேள்வி": "A __________ noun names a collection or group of things.",
+          "விடை": "Collective"
+        },
+        {
+          "கேள்வி": "Words that join two sentences are called __________.",
+          "விடை": "Conjunctions"
+        },
+        {
+          "கேள்வி": "Honesty is the best policy. Here 'Honesty' is an __________ noun.",
+          "விடை": "Abstract"
+        }
+      ],
+      "பொருத்துக": [
+        {
+          "கேள்வி": "Proper Noun",
+          "விடை": "India"
+        },
+        {
+          "கேள்வி": "Material Noun",
+          "விடை": "Gold"
+        },
+        {
+          "கேள்வி": "Collective Noun",
+          "விடை": "Army"
+        },
+        {
+          "கேள்வி": "Abstract Noun",
+          "விடை": "Kindness"
+        }
+      ],
+      "சரியா_தவறா": [
+        {
+          "கேள்வி": "A common noun always begins with a capital letter.",
+          "விடை": "False"
+        },
+        {
+          "கேள்வி": "An adjective describes a verb.",
+          "விடை": "False"
+        },
+        {
+          "கேள்வி": "A sentence always has a subject and a predicate.",
+          "விடை": "True"
+        }
+      ],
+      "கூற்று_காரணம்": [
+        {
+          "கூற்று": "In the sentence 'Stop!', the subject is hidden.",
+          "காரணம்": "In imperative sentences, the subject 'You' is always implied or understood.",
+          "விடை": "Both Assertion and Reason are true, and the Reason is the correct explanation."
+        }
+      ]
+    }
+  },
+  "கேள்விகள்": [
+    {
+      "கேள்வி": "Identify the Subject in the sentence: 'The beautiful rainbow soon faded away.'",
+      "ஆப்ஷன்கள்": [
+        "The beautiful rainbow",
+        "soon faded away",
+        "faded away",
+        "rainbow soon faded"
+      ],
+      "விடை": "The beautiful rainbow",
+      "விளக்கம்": "The subject is what the sentence is about. Here, the sentence is about 'The beautiful rainbow'."
+    },
+    {
+      "கேள்வி": "Identify the Predicate in the sentence: 'My mother cooks delicious food.'",
+      "ஆப்ஷன்கள்": [
+        "My mother",
+        "delicious food",
+        "cooks delicious food",
+        "cooks"
+      ],
+      "விடை": "cooks delicious food",
+      "விளக்கம்": "The predicate tells us something about the subject. Here, 'cooks delicious food' describes the action of the subject 'My mother'."
+    },
+    {
+      "கேள்வி": "Which part of speech is the word 'brave' in the sentence: 'Ashoka was a brave king.'?",
+      "ஆப்ஷன்கள்": [
+        "Noun",
+        "Adjective",
+        "Adverb",
+        "Verb"
+      ],
+      "விடை": "Adjective",
+      "விளக்கம்": "The word 'brave' describes the noun 'king'. A word that describes a noun is an Adjective."
+    },
+    {
+      "கேள்வி": "What kind of noun is the word 'flock' in 'A flock of sheep was grazing'?",
+      "ஆப்ஷன்கள்": [
+        "Proper Noun",
+        "Abstract Noun",
+        "Material Noun",
+        "Collective Noun"
+      ],
+      "விடை": "Collective Noun",
+      "விளக்கம்": "A collective noun refers to a group of things or people. 'Flock' refers to a group of sheep."
+    },
+    {
+      "கேள்வி": "Which of the following is an Abstract Noun?",
+      "ஆப்ஷன்கள்": [
+        "Teacher",
+        "Wisdom",
+        "Water",
+        "Chennai"
+      ],
+      "விடை": "Wisdom",
+      "விளக்கம்": "An abstract noun denotes an idea, quality, or state that cannot be physically touched. 'Wisdom' is a quality."
+    },
+    {
+      "கேள்வி": "Identify the Pronoun in the sentence: 'The dog barked because it was hungry.'",
+      "ஆப்ஷன்கள்": [
+        "dog",
+        "barked",
+        "it",
+        "because"
+      ],
+      "விடை": "it",
+      "விளக்கம்": "'it' is used in place of the noun 'dog' to avoid repetition. Therefore, it is a pronoun."
+    },
+    {
+      "கேள்வி": "Choose the correct Preposition: 'The book is ________ the table.'",
+      "ஆப்ஷன்கள்": [
+        "on",
+        "and",
+        "is",
+        "beautiful"
+      ],
+      "விடை": "on",
+      "விளக்கம்": "A preposition shows the relationship between a noun and another word. 'on' shows the position of the book relative to the table."
+    },
+    {
+      "கேள்வி": "Identify the Verb in the following sentence: 'The birds fly in the sky.'",
+      "ஆப்ஷன்கள்": [
+        "birds",
+        "fly",
+        "in",
+        "sky"
+      ],
+      "விடை": "fly",
+      "விளக்கம்": "A verb denotes an action. 'fly' is the action being performed by the birds."
+    },
+    {
+      "கேள்வி": "What part of speech joins two words or sentences?",
+      "ஆப்ஷன்கள்": [
+        "Preposition",
+        "Adverb",
+        "Interjection",
+        "Conjunction"
+      ],
+      "விடை": "Conjunction",
+      "விளக்கம்": "A conjunction (like and, but, or) is used to connect words, phrases, or clauses."
+    },
+    {
+      "கேள்வி": "Which sentence contains a Material Noun?",
+      "ஆப்ஷன்கள்": [
+        "The army marched forward.",
+        "My ring is made of gold.",
+        "Truth always wins.",
+        "He is a tall boy."
+      ],
+      "விடை": "My ring is made of gold.",
+      "விளக்கம்": "Material nouns refer to substances out of which things are made. 'Gold' is a material noun."
+    },
+    {
+      "கேள்வி": "Identify the Adverb in the sentence: 'The tortoise walked slowly.'",
+      "ஆப்ஷன்கள்": [
+        "tortoise",
+        "walked",
+        "slowly",
+        "The"
+      ],
+      "விடை": "slowly",
+      "விளக்கம்": "An adverb describes a verb. 'slowly' describes how the tortoise walked."
+    },
+    {
+      "கேள்வி": "Identify the part of speech of the capitalized word: 'WOW! That is a beautiful dress.'",
+      "ஆப்ஷன்கள்": [
+        "Verb",
+        "Interjection",
+        "Conjunction",
+        "Pronoun"
+      ],
+      "விடை": "Interjection",
+      "விளக்கம்": "'WOW' expresses a sudden strong feeling, which is the definition of an Interjection."
+    },
+    {
+      "கேள்வி": "In the sentence 'Sit down.', what is the subject?",
+      "ஆப்ஷன்கள்": [
+        "Sit",
+        "down",
+        "It has no subject",
+        "You (understood)"
+      ],
+      "விடை": "You (understood)",
+      "விளக்கம்": "In imperative sentences (commands or requests), the subject is always 'You', even though it is not explicitly written."
+    },
+    {
+      "கேள்வி": "Select the correct Proper Noun from the options.",
+      "ஆப்ஷன்கள்": [
+        "mountain",
+        "Himalayas",
+        "river",
+        "city"
+      ],
+      "விடை": "Himalayas",
+      "விளக்கம்": "A proper noun is the specific name of a particular entity. 'Himalayas' is the specific name of a mountain range."
+    },
+    {
+      "கேள்வி": "Match the following: 1. He - a. Object Pronoun, 2. Him - b. Subject Pronoun, 3. His - c. Possessive Adjective. Choose the correct order.",
+      "ஆப்ஷன்கள்": [
+        "1-b, 2-a, 3-c",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-c, 3-a"
+      ],
+      "விடை": "1-b, 2-a, 3-c",
+      "விளக்கம்": "'He' does the action (Subject), 'Him' receives the action (Object), and 'His' shows ownership (Possessive)."
+    },
+    {
+      "கேள்வி": "Which word is a Common Noun in the sentence 'Delhi is a big city'?",
+      "ஆப்ஷன்கள்": [
+        "Delhi",
+        "is",
+        "big",
+        "city"
+      ],
+      "விடை": "city",
+      "விளக்கம்": "A common noun represents a class of entities. 'city' is common to all cities, whereas 'Delhi' is a proper noun."
+    },
+    {
+      "கேள்வி": "Fill in the blank with the correct possessive pronoun: 'This pen belongs to me. It is ________.'",
+      "ஆப்ஷன்கள்": [
+        "my",
+        "mine",
+        "me",
+        "I"
+      ],
+      "விடை": "mine",
+      "விளக்கம்": "'Mine' is a possessive pronoun used independently without a noun following it."
+    },
+    {
+      "கேள்வி": "Find the odd one out based on the types of nouns: anger, joy, silver, sorrow.",
+      "ஆப்ஷன்கள்": [
+        "anger",
+        "joy",
+        "silver",
+        "sorrow"
+      ],
+      "விடை": "silver",
+      "விளக்கம்": "Anger, joy, and sorrow are Abstract Nouns. Silver is a Material Noun."
+    },
+    {
+      "கேள்வி": "Identify the Conjunction in the sentence: 'I wanted to play, but it started raining.'",
+      "ஆப்ஷன்கள்": [
+        "wanted",
+        "play",
+        "but",
+        "started"
+      ],
+      "விடை": "but",
+      "விளக்கம்": "'but' is the word joining the two clauses 'I wanted to play' and 'it started raining'."
+    },
+    {
+      "கேள்வி": "Identify the type of the capitalized noun: 'A BUNCH of keys is on the table.'",
+      "ஆப்ஷன்கள்": [
+        "Proper Noun",
+        "Abstract Noun",
+        "Collective Noun",
+        "Material Noun"
+      ],
+      "விடை": "Collective Noun",
+      "விளக்கம்": "'Bunch' denotes a collection of keys taken together as a whole."
+    },
+    {
+      "கேள்வி": "Which part of speech replaces a noun to avoid repetition?",
+      "ஆப்ஷன்கள்": [
+        "Adjective",
+        "Pronoun",
+        "Adverb",
+        "Verb"
+      ],
+      "விடை": "Pronoun",
+      "விளக்கம்": "Pronouns (like he, she, it, they) are used in place of nouns to make sentences less repetitive."
+    },
+    {
+      "கேள்வி": "Choose the correctly capitalized sentence.",
+      "ஆப்ஷன்கள்": [
+        "rohit went to mumbai on sunday.",
+        "Rohit went to Mumbai on sunday.",
+        "Rohit went to Mumbai on Sunday.",
+        "rohit went to Mumbai on Sunday."
+      ],
+      "விடை": "Rohit went to Mumbai on Sunday.",
+      "விளக்கம்": "Proper Nouns (Rohit, Mumbai, Sunday) must always begin with a capital letter."
+    },
+    {
+      "கேள்வி": "Which of the following contains an Adjective?",
+      "ஆப்ஷன்கள்": [
+        "He runs fast.",
+        "She has a red bag.",
+        "They are reading.",
+        "We went out."
+      ],
+      "விடை": "She has a red bag.",
+      "விளக்கம்": "In the sentence 'She has a red bag', 'red' is an adjective modifying the noun 'bag'."
+    },
+    {
+      "கேள்வி": "What is the function of an Adverb?",
+      "ஆப்ஷன்கள்": [
+        "To describe a noun",
+        "To replace a noun",
+        "To express an action",
+        "To modify a verb, adjective, or another adverb"
+      ],
+      "விடை": "To modify a verb, adjective, or another adverb",
+      "விளக்கம்": "An adverb adds meaning or context (like how, when, where) to verbs, adjectives, or other adverbs."
+    },
+    {
+      "கேள்வி": "Identify the Subject Pronoun: '________ are going to the market.'",
+      "ஆப்ஷன்கள்": [
+        "Them",
+        "Us",
+        "They",
+        "Him"
+      ],
+      "விடை": "They",
+      "விளக்கம்": "The subject performs the action. 'They' is a subject pronoun, whereas them, us, and him are object pronouns."
+    },
+    {
+      "கேள்வி": "Identify the Predicate in: 'The small puppy barked loudly all night.'",
+      "ஆப்ஷன்கள்": [
+        "The small puppy",
+        "puppy barked",
+        "barked loudly all night",
+        "all night"
+      ],
+      "விடை": "barked loudly all night",
+      "விளக்கம்": "The predicate includes the verb and everything that tells us what the subject did. The subject is 'The small puppy'."
+    },
+    {
+      "கேள்வி": "Determine the Part of Speech of the word 'fast' in 'He is a fast runner.'",
+      "ஆப்ஷன்கள்": [
+        "Adverb",
+        "Verb",
+        "Adjective",
+        "Noun"
+      ],
+      "விடை": "Adjective",
+      "விளக்கம்": "Here, 'fast' modifies the noun 'runner', so it acts as an Adjective."
+    },
+    {
+      "கேள்வி": "Determine the Part of Speech of the word 'fast' in 'He runs fast.'",
+      "ஆப்ஷன்கள்": [
+        "Adjective",
+        "Adverb",
+        "Verb",
+        "Pronoun"
+      ],
+      "விடை": "Adverb",
+      "விளக்கம்": "Here, 'fast' modifies the verb 'runs', telling us HOW he runs. Therefore, it is an Adverb."
+    },
+    {
+      "கேள்வி": "Which sentence uses a Possessive Adjective correctly?",
+      "ஆப்ஷன்கள்": [
+        "The bag is my.",
+        "That is mine book.",
+        "This is her pencil.",
+        "The house is theirs."
+      ],
+      "விடை": "This is her pencil.",
+      "விளக்கம்": "Possessive adjectives (my, your, his, her) must be followed by a noun. 'her pencil' is correct."
+    },
+    {
+      "கேள்வி": "Identify the Abstract Noun from the following.",
+      "ஆப்ஷன்கள்": [
+        "Childhood",
+        "Children",
+        "School",
+        "Book"
+      ],
+      "விடை": "Childhood",
+      "விளக்கம்": "Childhood is a state of being, an intangible concept. Hence, it is an Abstract Noun."
+    },
+    {
+      "கேள்வி": "Fill in the correct Pronoun: 'Rani is my sister. I love ________.'",
+      "ஆப்ஷன்கள்": [
+        "she",
+        "her",
+        "him",
+        "hers"
+      ],
+      "விடை": "her",
+      "விளக்கம்": "The pronoun receives the action of 'love', so we need the object pronoun 'her'."
+    },
+    {
+      "கேள்வி": "Identify the Preposition: 'The cat jumped over the wall.'",
+      "ஆப்ஷன்கள்": [
+        "cat",
+        "jumped",
+        "over",
+        "wall"
+      ],
+      "விடை": "over",
+      "விளக்கம்": "'over' shows the spatial relationship between the cat's jump and the wall."
+    },
+    {
+      "கேள்வி": "Which is an example of an Interjection?",
+      "ஆப்ஷன்கள்": [
+        "Because",
+        "Ouch!",
+        "Into",
+        "Happily"
+      ],
+      "விடை": "Ouch!",
+      "விளக்கம்": "Interjections express sudden bursts of emotion or pain and are usually followed by an exclamation mark."
+    },
+    {
+      "கேள்வி": "What type of noun is 'Iron' in the sentence 'Iron is a useful metal'?",
+      "ஆப்ஷன்கள்": [
+        "Proper Noun",
+        "Material Noun",
+        "Common Noun",
+        "Abstract Noun"
+      ],
+      "விடை": "Material Noun",
+      "விளக்கம்": "Iron is a substance from which other things are made, classifying it as a Material Noun."
+    },
+    {
+      "கேள்வி": "Analogy Question: Proper Noun : Chennai :: Common Noun : ?",
+      "ஆப்ஷன்கள்": [
+        "Tamil Nadu",
+        "City",
+        "Ganga",
+        "Sunday"
+      ],
+      "விடை": "City",
+      "விளக்கம்": "Chennai is a specific name (Proper), whereas 'city' is the general category name (Common)."
+    },
+    {
+      "கேள்வி": "Identify the Parts of Speech of the words 'Black' and 'Dog' in 'The black dog barked.'",
+      "ஆப்ஷன்கள்": [
+        "Adjective, Noun",
+        "Noun, Verb",
+        "Adverb, Noun",
+        "Verb, Adjective"
+      ],
+      "விடை": "Adjective, Noun",
+      "விளக்கம்": "'Dog' is a naming word (Noun) and 'black' describes the dog (Adjective)."
+    },
+    {
+      "கேள்வி": "Find the subject: 'Under the tree sat a wise monk.'",
+      "ஆப்ஷன்கள்": [
+        "Under the tree",
+        "sat",
+        "a wise monk",
+        "tree"
+      ],
+      "விடை": "a wise monk",
+      "விளக்கம்": "The sentence is inverted. To find the subject, ask 'Who sat?'. The answer is 'a wise monk'."
+    },
+    {
+      "கேள்வி": "Which noun represents a 'collection of soldiers'?",
+      "ஆப்ஷன்கள்": [
+        "Fleet",
+        "Army",
+        "Swarm",
+        "Herd"
+      ],
+      "விடை": "Army",
+      "விளக்கம்": "An army is the collective noun used specifically for a group of soldiers."
+    },
+    {
+      "கேள்வி": "Identify the Object Pronoun in 'The teacher gave us homework.'",
+      "ஆப்ஷன்கள்": [
+        "teacher",
+        "gave",
+        "us",
+        "homework"
+      ],
+      "விடை": "us",
+      "விளக்கம்": "'us' is receiving the action of the verb 'gave', making it an object pronoun."
+    },
+    {
+      "கேள்வி": "What type of noun is 'Truth'?",
+      "ஆப்ஷன்கள்": [
+        "Proper Noun",
+        "Common Noun",
+        "Abstract Noun",
+        "Collective Noun"
+      ],
+      "விடை": "Abstract Noun",
+      "விளக்கம்": "Truth is a concept/quality that cannot be physically touched, so it is an Abstract Noun."
+    },
+    {
+      "கேள்வி": "Select the correct sentence.",
+      "ஆப்ஷன்கள்": [
+        "Me and my friend went to the park.",
+        "My friend and I went to the park.",
+        "I and my friend went to the park.",
+        "My friend and me went to the park."
+      ],
+      "விடை": "My friend and I went to the park.",
+      "விளக்கம்": "When acting as the subject, use the subject pronoun 'I', and it is polite to place others before yourself."
+    },
+    {
+      "கேள்வி": "Identify the verb in 'The sun shines brightly.'",
+      "ஆப்ஷன்கள்": [
+        "The",
+        "sun",
+        "shines",
+        "brightly"
+      ],
+      "விடை": "shines",
+      "விளக்கம்": "The verb indicates the action happening. Here, the sun is performing the action of shining."
+    },
+    {
+      "கேள்வி": "Which of these is a Possessive Pronoun?",
+      "ஆப்ஷன்கள்": [
+        "Your",
+        "Our",
+        "Theirs",
+        "Their"
+      ],
+      "விடை": "Theirs",
+      "விளக்கம்": "'Theirs' is a possessive pronoun because it can stand alone without a noun following it."
+    },
+    {
+      "கேள்வி": "Spot the Conjunction: 'You will pass if you work hard.'",
+      "ஆப்ஷன்கள்": [
+        "will",
+        "pass",
+        "if",
+        "hard"
+      ],
+      "விடை": "if",
+      "விளக்கம்": "'if' joins the two clauses 'You will pass' and 'you work hard', making it a conjunction."
+    },
+    {
+      "கேள்வி": "Which is an Abstract Noun derived from the verb 'know'?",
+      "ஆப்ஷன்கள்": [
+        "Knowing",
+        "Known",
+        "Knowledge",
+        "Knew"
+      ],
+      "விடை": "Knowledge",
+      "விளக்கம்": "The abstract concept associated with the action of knowing is 'Knowledge'."
+    },
+    {
+      "கேள்வி": "Identify the subject in 'Are you coming to the party?'",
+      "ஆப்ஷன்கள்": [
+        "Are",
+        "you",
+        "coming",
+        "party"
+      ],
+      "விடை": "you",
+      "விளக்கம்": "In a question, the subject usually comes after the helping verb. 'You' is performing the action 'coming'."
+    },
+    {
+      "கேள்வி": "What part of speech is 'Alas' in 'Alas! He is dead.'?",
+      "ஆப்ஷன்கள்": [
+        "Conjunction",
+        "Interjection",
+        "Preposition",
+        "Adverb"
+      ],
+      "விடை": "Interjection",
+      "விளக்கம்": "'Alas' expresses a sudden emotion of sorrow, hence it is an interjection."
+    },
+    {
+      "கேள்வி": "True or False: Every predicate must contain a noun.",
+      "ஆப்ஷன்கள்": [
+        "True",
+        "False",
+        "Only in long sentences",
+        "Cannot be determined"
+      ],
+      "விடை": "False",
+      "விளக்கம்": "A predicate MUST contain a verb, not necessarily a noun. E.g., 'He runs.' (Predicate is only the verb 'runs')."
+    },
+    {
+      "கேள்வி": "Which noun represents a collection of bees?",
+      "ஆப்ஷன்கள்": [
+        "Pack",
+        "Swarm",
+        "Flock",
+        "Bunch"
+      ],
+      "விடை": "Swarm",
+      "விளக்கம்": "The collective noun used for a group of flying insects like bees is a 'swarm'."
+    },
+    {
+      "கேள்வி": "Find the odd one out: happily, quickly, beautifully, friendly.",
+      "ஆப்ஷன்கள்": [
+        "happily",
+        "quickly",
+        "beautifully",
+        "friendly"
+      ],
+      "விடை": "friendly",
+      "விளக்கம்": "Happily, quickly, beautifully are Adverbs. 'Friendly' is an Adjective (e.g., a friendly dog)."
+    },
+    {
+      "கேள்வி": "Identify the Part of Speech of 'Water' in 'Water the plants daily.'",
+      "ஆப்ஷன்கள்": [
+        "Noun",
+        "Verb",
+        "Adjective",
+        "Adverb"
+      ],
+      "விடை": "Verb",
+      "விளக்கம்": "Here, 'Water' is used as an action command (imperative verb), meaning to pour water."
+    },
+    {
+      "கேள்வி": "What part of speech is the word 'this' in 'This is my book.'?",
+      "ஆப்ஷன்கள்": [
+        "Demonstrative Pronoun",
+        "Noun",
+        "Verb",
+        "Adjective"
+      ],
+      "விடை": "Demonstrative Pronoun",
+      "விளக்கம்": "'This' stands in place of a noun, pointing it out, so it acts as a pronoun here."
+    },
+    {
+      "கேள்வி": "Assertion: 'Wood' is a material noun. Reason: It is a substance from which things like furniture are made.",
+      "ஆப்ஷன்கள்": [
+        "Assertion is correct, Reason is incorrect",
+        "Both Assertion and Reason are correct and the Reason explains it properly",
+        "Both Assertion and Reason are incorrect",
+        "Assertion is incorrect, Reason is correct"
+      ],
+      "விடை": "Both Assertion and Reason are correct and the Reason explains it properly",
+      "விளக்கம்": "Material nouns refer to raw materials, and wood perfectly fits this definition."
+    },
+    {
+      "கேள்வி": "Which word functions as a preposition in: 'She hid behind the door'?",
+      "ஆப்ஷன்கள்": [
+        "She",
+        "hid",
+        "behind",
+        "door"
+      ],
+      "விடை": "behind",
+      "விளக்கம்": "'behind' shows the positional relationship between 'she' and the 'door'."
+    },
+    {
+      "கேள்வி": "A group of keys is called a bunch. A group of ships is called a ________.",
+      "ஆப்ஷன்கள்": [
+        "Fleet",
+        "Pack",
+        "Herd",
+        "Gang"
+      ],
+      "விடை": "Fleet",
+      "விளக்கம்": "The correct collective noun for ships or vehicles is a Fleet."
+    },
+    {
+      "கேள்வி": "HOTS Question: Identify the error in 'The sceneries of Kashmir are beautiful.'",
+      "ஆப்ஷன்கள்": [
+        "The",
+        "sceneries",
+        "are",
+        "beautiful"
+      ],
+      "விடை": "sceneries",
+      "விளக்கம்": "'Scenery' is an abstract/uncountable noun and does not have a plural form 'sceneries'."
+    },
+    {
+      "கேள்வி": "HOTS Question: In 'The rich should help the poor', what part of speech is 'rich' acting as?",
+      "ஆப்ஷன்கள்": [
+        "Noun",
+        "Adverb",
+        "Verb",
+        "Preposition"
+      ],
+      "விடை": "Noun",
+      "விளக்கம்": "Normally an adjective, when used with 'The' to represent a group of people, it acts as a Noun."
+    },
+    {
+      "கேள்வி": "HOTS Question: Find the Subject in 'Here comes the bus.'",
+      "ஆப்ஷன்கள்": [
+        "Here",
+        "comes",
+        "the bus",
+        "Here comes"
+      ],
+      "விடை": "the bus",
+      "விளக்கம்": "In sentences beginning with 'Here' or 'There', the true subject usually follows the verb. What comes? The bus comes."
+    },
+    {
+      "கேள்வி": "HOTS Question: Identify the correctly structured sentence using pronouns.",
+      "ஆப்ஷன்கள்": [
+        "Him and me are brothers.",
+        "He and I are brothers.",
+        "I and him are brothers.",
+        "Me and he are brothers."
+      ],
+      "விடை": "He and I are brothers.",
+      "விளக்கம்": "When pronouns are the subject, they must be in the subjective case (He, I). Also, courtesy dictates 'I' comes last."
+    },
+    {
+      "கேள்வி": "HOTS Question: What is the collective noun for a group of directors?",
+      "ஆப்ஷன்கள்": [
+        "Panel",
+        "Board",
+        "Troupe",
+        "Jury"
+      ],
+      "விடை": "Board",
+      "விளக்கம்": "A group of directors managing a company or organization is collectively called a Board of Directors."
+    }
+  ],
+  "lesson_meta": {
+    "code": "sample_678_notes_4",
+    "category": "class678"
+  }
+}

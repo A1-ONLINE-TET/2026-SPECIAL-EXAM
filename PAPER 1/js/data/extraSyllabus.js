@@ -113,6 +113,11 @@ export const extraSyllabusData = {
                 "title": "முக்கிய குறிப்புகள் - பகுதி 3",
                 "isUpdated": true,
                 "code": "sample_678_notes_3"
+              },
+              {
+                "title": "முக்கிய குறிப்புகள் - பகுதி 4",
+                "isUpdated": true,
+                "code": "sample_678_notes_4"
               }
             ]
           }

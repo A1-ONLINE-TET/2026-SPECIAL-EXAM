@@ -552,6 +552,15 @@
                 if (!text) return "";
                 let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
                 
+                // கூற்று (A/R): ... காரணம் (A/R): ... → bold + line break (ONLY for கூற்று-காரணம்)
+                html = html.replace(/(கூற்று\s*(?:\([^)]*\))?\s*:)(.*?)(காரணம்\s*(?:\([^)]*\))?\s*:)/gs,
+                    function(_, k, mid, r) { return '<strong>' + k + '</strong>' + mid.trim() + '<br><strong>' + r + '</strong>'; });
+                
+                // \n → <br> only after கூற்று-காரணம் split (targeted, not global)
+                if (html.includes('கூற்று') || html.includes('காரணம்')) {
+                    html = html.replace(/\n/g, '<br>');
+                }
+                
                 // Support '||' separator (New Standard)
                 if (html.includes('||')) {
                     const parts = html.split('||');

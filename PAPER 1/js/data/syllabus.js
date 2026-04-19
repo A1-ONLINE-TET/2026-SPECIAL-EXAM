@@ -1,5 +1,42 @@
 export const syllabusData = {
   "tamil": {
+    "3": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வா வா முயலே",
+                "isUpdated": true,
+                "code": "tam_3_t1_l1"
+              },
+              {
+                "title": "செய்து மகிழ்வோம்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l2"
+              },
+              {
+                "title": "கண்ணன் செய்த உதவி",
+                "isUpdated": true,
+                "code": "tam_3_t1_l3"
+              },
+              {
+                "title": "சின்னுவின் கதைப்பாடல்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l4"
+              },
+              {
+                "title": "பாட்டு வண்டியிலே...",
+                "isUpdated": true,
+                "code": "tam_3_t1_l5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,
@@ -439,7 +476,7 @@ export const syllabusData = {
             "title": "1. மொழி (அமுதத்தமிழ்)",
             "topics": [
               {
-                "title": "எங்கள் தமிழ் *",
+                "title": "பாரதம் அன்றைய நாற்றங்கால்",
                 "isUpdated": true,
                 "code": "tam_7_t1_l1"
               },
@@ -989,6 +1026,40 @@ export const syllabusData = {
                 "title": "திருக்குறள்",
                 "isUpdated": true,
                 "code": "tam_8_l41"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "தொடக்க வகுப்பு": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)",
+                "isUpdated": true,
+                "code": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "மூன்றாம் வகுப்பு": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "கண்ணன் செய்த உதவி",
+                "isUpdated": true,
+                "code": "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3"
               }
             ]
           }
@@ -3380,6 +3451,28 @@ export const syllabusData = {
         ]
       }
     ],
+    "3": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வா வா முயலே",
+                "isUpdated": true,
+                "code": "soc_3_t1_l1"
+              },
+              {
+                "title": "செய்து மகிழ்வோம்",
+                "isUpdated": true,
+                "code": "soc_3_t1_l2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,
@@ -3984,6 +4077,23 @@ export const syllabusData = {
                 "title": "2. பொது மற்றும் தனியார் துறைகள்",
                 "isUpdated": false,
                 "code": "soc_8_l25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "தொடக்க வகுப்பு": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)",
+                "isUpdated": true,
+                "code": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1"
               }
             ]
           }
