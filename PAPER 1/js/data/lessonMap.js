@@ -319,6 +319,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
       "grade": "தொடக்க வகுப்பு"
+    },
+    "tam_3_t1_l1": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
+    },
+    "வா வா முயலே": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
     }
   },
   "revision": {
