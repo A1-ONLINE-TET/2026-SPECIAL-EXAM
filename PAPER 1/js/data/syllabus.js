@@ -1033,6 +1033,23 @@ export const syllabusData = {
           }
         ]
       }
+    ],
+    "மூன்றாம் வகுப்பு": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "கண்ணன் செய்த உதவி",
+                "isUpdated": true,
+                "code": "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   "english": {
