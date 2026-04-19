@@ -354,6 +354,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_3_t1_l3",
       "grade": "3"
+    },
+    "tam_3_t1_l4": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
+    },
+    "சின்னுவின் கதைப்பாடல்": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
     }
   },
   "revision": {
