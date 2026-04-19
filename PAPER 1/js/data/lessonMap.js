@@ -347,8 +347,13 @@ export const lessonMap = {
     },
     "கண்ணன் செய்த உதவி": {
       "local": true,
-      "filename": "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3",
-      "grade": "மூன்றாம் வகுப்பு"
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
+    },
+    "tam_3_t1_l3": {
+      "local": true,
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
     }
   },
   "revision": {
