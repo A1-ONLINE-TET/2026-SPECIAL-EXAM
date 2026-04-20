@@ -8,7 +8,7 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "வா வா முயலே",
+                "title": "தமிழ் அமுது",
                 "isUpdated": true,
                 "code": "tam_3_t1_l1"
               },
