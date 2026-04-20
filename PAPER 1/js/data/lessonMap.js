@@ -374,8 +374,12 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_3_t1_l5",
       "grade": "3"
+    },
+    "தமிழ் அமுது": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
     }
-
   },
   "revision": {
     "rev_1_t1_l1": {
