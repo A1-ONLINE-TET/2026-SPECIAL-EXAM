@@ -757,6 +757,23 @@ export const syllabusData = {
     ]
   },
   "english": {
+    "3": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Our Kitchen",
+                "isUpdated": true,
+                "code": "eng_3_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,
