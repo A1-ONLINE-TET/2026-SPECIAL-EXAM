@@ -5,7 +5,7 @@
 // ═══════════════════════════════════════════════════════
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getFirestore, doc, getDoc, setDoc, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+import { getFirestore, doc, getDoc, setDoc, collection, getDocs, deleteDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCtbz8pKglviupPOwQvlioqsLELuQqtHhA",
@@ -30,7 +30,6 @@ export function getDeviceId() {
 }
 
 // ── Device Check ─────────────────────────────────────
-// projectPrefix: 'p1' for mygreenpen.com, 'p2' for tet1.mygreenpen.com
 export async function checkDeviceLock(phone, deviceId, projectPrefix) {
   try {
     const docRef = doc(db, 'device_sessions', `${projectPrefix}_${phone}`);
@@ -42,19 +41,28 @@ export async function checkDeviceLock(phone, deviceId, projectPrefix) {
     }
 
     const data = docSnap.data();
+
+    // ✅ BLOCK CHECK — Admin block செய்தால் உடனே தடு
+    if (data.blocked === true) {
+      return {
+        allowed: false,
+        message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது! தொடர்பு கொள்ளவும்: 6369371452'
+      };
+    }
+
     if (data.deviceId === deviceId) {
-      // Same device — allow
+      // Same device — allow, lastLogin update செய்
       return { allowed: true };
     }
 
     // வேற device — block
-    return { 
-      allowed: false, 
-      message: 'இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது! உங்கள் நிர்வாகியை தொடர்பு கொள்ளவும்.' 
+    return {
+      allowed: false,
+      message: '📱 இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது! உங்கள் நிர்வாகியை தொடர்பு கொள்ளவும்: 6369371452'
     };
   } catch (e) {
     console.log('Device check error:', e);
-    return { allowed: true }; // Error ஆனால் allow
+    return { allowed: true };
   }
 }
 
@@ -66,14 +74,30 @@ export async function registerDevice(phone, deviceId, projectPrefix) {
 
     if (docSnap.exists()) {
       const data = docSnap.data();
-      if (data.deviceId !== deviceId) {
-        // வேற device ஏற்கனவே registered — block!
-        return { 
-          success: false, 
+
+      // ✅ BLOCK CHECK — register முன்பும் check செய்
+      if (data.blocked === true) {
+        return {
+          success: false,
           blocked: true,
-          message: 'இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது!' 
+          message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது! தொடர்பு கொள்ளவும்: 6369371452'
         };
       }
+
+      if (data.deviceId !== deviceId) {
+        return {
+          success: false,
+          blocked: true,
+          message: '📱 இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது! தொடர்பு கொள்ளவும்: 6369371452'
+        };
+      }
+
+      // Same device — lastLogin update செய்
+      await setDoc(docRef, {
+        ...data,
+        lastLogin: new Date().toISOString()
+      });
+
       return { success: true };
     }
 
@@ -84,7 +108,8 @@ export async function registerDevice(phone, deviceId, projectPrefix) {
       project: projectPrefix,
       browser: navigator.userAgent.includes('Mobile') ? 'Mobile' : 'Desktop',
       registeredAt: new Date().toISOString(),
-      lastLogin: new Date().toISOString()
+      lastLogin: new Date().toISOString(),
+      blocked: false
     });
 
     return { success: true };
@@ -113,9 +138,6 @@ export async function getAllDeviceSessions() {
 export async function resetDevice(phone, projectPrefix) {
   try {
     const docRef = doc(db, 'device_sessions', `${projectPrefix}_${phone}`);
-    await setDoc(docRef, { deleted: true }, { merge: false });
-    // Actually delete
-    const { deleteDoc } = await import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js");
     await deleteDoc(docRef);
     return { success: true };
   } catch (e) {
