@@ -792,6 +792,16 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_3_t1_l1",
       "grade": "3"
+    },
+    "eng_3_t1_l2": {
+      "local": true,
+      "filename": "eng_3_t1_l2",
+      "grade": "3"
+    },
+    "Small Creatures": {
+      "local": true,
+      "filename": "eng_3_t1_l2",
+      "grade": "3"
     }
   },
   "science": {
