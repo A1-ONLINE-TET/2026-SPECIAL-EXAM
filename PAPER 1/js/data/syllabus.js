@@ -768,6 +768,11 @@ export const syllabusData = {
                 "title": "Our Kitchen",
                 "isUpdated": true,
                 "code": "eng_3_t1_l1"
+              },
+              {
+                "title": "Small Creatures",
+                "isUpdated": true,
+                "code": "eng_3_t1_l2"
               }
             ]
           }
