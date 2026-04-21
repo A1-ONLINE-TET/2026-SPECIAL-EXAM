@@ -1,7 +1,6 @@
 // ═══════════════════════════════════════════════════════
-// Firebase Device Lock Module
-// இரண்டு projects-க்கும் பயன்படுத்தலாம்
-// PROJECT_PREFIX மட்டும் மாற்றவும்
+// Firebase Device Lock Module - Project 2 (tet1.mygreenpen.com)
+// Features: Fingerprint, Block, Already-Used detection
 // ═══════════════════════════════════════════════════════
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
@@ -19,11 +18,38 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+// ── Browser Fingerprint உருவாக்கு ────────────────────
+async function generateFingerprint() {
+  try {
+    const components = [
+      screen.width,
+      screen.height,
+      screen.colorDepth,
+      navigator.language || '',
+      navigator.platform || '',
+      navigator.hardwareConcurrency || 0,
+      Intl.DateTimeFormat().resolvedOptions().timeZone || '',
+      navigator.userAgent.includes('Mobile') ? 'mobile' : 'desktop'
+    ].join('|');
+
+    const encoder = new TextEncoder();
+    const data = encoder.encode(components);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = new Uint8Array(hashBuffer);
+    return Array.from(hashArray.slice(0, 8))
+      .map(b => b.toString(16).padStart(2, '0'))
+      .join('');
+  } catch (e) {
+    return 'fp_unknown';
+  }
+}
+
 // ── Device ID உருவாக்கு ──────────────────────────────
-export function getDeviceId() {
+export async function getDeviceId() {
   let deviceId = localStorage.getItem('a1_device_id');
   if (!deviceId) {
-    deviceId = 'dev_' + Date.now() + '_' + Math.random().toString(36).substring(2, 10);
+    const fp = await generateFingerprint();
+    deviceId = 'dev_' + Date.now() + '_' + fp;
     localStorage.setItem('a1_device_id', deviceId);
   }
   return deviceId;
@@ -36,29 +62,39 @@ export async function checkDeviceLock(phone, deviceId, projectPrefix) {
     const docSnap = await getDoc(docRef);
 
     if (!docSnap.exists()) {
-      // புதிய user — allow
       return { allowed: true };
     }
 
     const data = docSnap.data();
 
-    // ✅ BLOCK CHECK — Admin block செய்தால் உடனே தடு
+    // 🚫 BLOCK CHECK
     if (data.blocked === true) {
       return {
         allowed: false,
-        message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது! தொடர்பு கொள்ளவும்: 6369371452'
+        blocked: true,
+        message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது!\nமுறைகேடாக உள்நுழைய முயற்சி கண்டறியப்பட்டது.\nதொடர்பு கொள்ளவும்: 6369371452'
       };
     }
 
+    // ✅ Same Device ID check
     if (data.deviceId === deviceId) {
-      // Same device — allow, lastLogin update செய்
       return { allowed: true };
     }
 
-    // வேற device — block
+    // 🔒 Fingerprint check — deviceId-ல் உள்ள fingerprint compare
+    const currentFp = deviceId.split('_').slice(2).join('_');
+    const savedFp = (data.deviceId || '').split('_').slice(2).join('_');
+
+    if (currentFp && savedFp && currentFp === savedFp) {
+      // Same device, different session — allow & update
+      return { allowed: true };
+    }
+
+    // ❌ வேற device — Already used
     return {
       allowed: false,
-      message: '📱 இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது! உங்கள் நிர்வாகியை தொடர்பு கொள்ளவும்: 6369371452'
+      alreadyUsed: true,
+      message: '⚠️ இந்த account ஏற்கனவே வேறு device-ல் பயன்படுத்தப்பட்டுவிட்டது!\nநிர்வாகியை தொடர்பு கொள்ளவும்: 6369371452'
     };
   } catch (e) {
     console.log('Device check error:', e);
@@ -75,33 +111,39 @@ export async function registerDevice(phone, deviceId, projectPrefix) {
     if (docSnap.exists()) {
       const data = docSnap.data();
 
-      // ✅ BLOCK CHECK — register முன்பும் check செய்
+      // 🚫 Block check
       if (data.blocked === true) {
         return {
           success: false,
           blocked: true,
-          message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது! தொடர்பு கொள்ளவும்: 6369371452'
+          message: '🚫 உங்கள் account நிர்வாகியால் தடுக்கப்பட்டுள்ளது!\nதொடர்பு கொள்ளவும்: 6369371452'
         };
       }
 
-      if (data.deviceId !== deviceId) {
-        return {
-          success: false,
-          blocked: true,
-          message: '📱 இந்த account வேறு device-ல் பயன்படுத்தப்படுகிறது! தொடர்பு கொள்ளவும்: 6369371452'
-        };
+      // Same device — lastLogin update
+      if (data.deviceId === deviceId) {
+        await setDoc(docRef, { ...data, lastLogin: new Date().toISOString() });
+        return { success: true };
       }
 
-      // Same device — lastLogin update செய்
-      await setDoc(docRef, {
-        ...data,
-        lastLogin: new Date().toISOString()
-      });
+      // Fingerprint check
+      const currentFp = deviceId.split('_').slice(2).join('_');
+      const savedFp = (data.deviceId || '').split('_').slice(2).join('_');
 
-      return { success: true };
+      if (currentFp && savedFp && currentFp === savedFp) {
+        await setDoc(docRef, { ...data, deviceId, lastLogin: new Date().toISOString() });
+        return { success: true };
+      }
+
+      // ❌ வேற device
+      return {
+        success: false,
+        blocked: true,
+        message: '⚠️ இந்த account ஏற்கனவே வேறு device-ல் பயன்படுத்தப்பட்டுவிட்டது!\nநிர்வாகியை தொடர்பு கொள்ளவும்: 6369371452'
+      };
     }
 
-    // புதிய device — register செய்
+    // புதிய device — register
     await setDoc(docRef, {
       phone,
       deviceId,
@@ -124,12 +166,11 @@ export async function getAllDeviceSessions() {
   try {
     const querySnapshot = await getDocs(collection(db, 'device_sessions'));
     const sessions = [];
-    querySnapshot.forEach((doc) => {
-      sessions.push({ id: doc.id, ...doc.data() });
+    querySnapshot.forEach((d) => {
+      sessions.push({ id: d.id, ...d.data() });
     });
     return sessions;
   } catch (e) {
-    console.log('Get sessions error:', e);
     return [];
   }
 }
