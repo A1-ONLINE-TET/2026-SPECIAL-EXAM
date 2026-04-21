@@ -20,6 +20,64 @@ async function generateDeterministicKey(phone) {
     return password;
 }
 
+// ✅ Page load-ல் Block check + Auto Register
+async function checkBlockStatus(user) {
+    try {
+        const deviceId = await getDeviceId();
+        const lockCheck = await checkDeviceLock(user.phoneNumber, deviceId, PROJECT_PREFIX);
+
+        if (!lockCheck.allowed) {
+            localStorage.removeItem(STORAGE_KEY);
+            document.documentElement.style.visibility = 'visible';
+            document.body.innerHTML = `
+                <div style="
+                    min-height:100vh;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    background:#0a0f1e;
+                    font-family:sans-serif;
+                    padding:20px;
+                ">
+                    <div style="
+                        background:#111827;
+                        border:1px solid #ef4444;
+                        border-radius:16px;
+                        padding:40px;
+                        max-width:400px;
+                        text-align:center;
+                        color:#e2e8f0;
+                    ">
+                        <div style="font-size:3rem;margin-bottom:16px;">🚫</div>
+                        <div style="font-size:1.2rem;font-weight:700;color:#ef4444;margin-bottom:12px;">
+                            ${lockCheck.blocked ? 'Account தடுக்கப்பட்டுள்ளது!' : 'முறைகேடான உள்நுழைவு!'}
+                        </div>
+                        <div style="font-size:0.95rem;color:#94a3b8;margin-bottom:24px;line-height:1.6;">
+                            ${lockCheck.message}
+                        </div>
+                        <a href="login.html" style="
+                            display:inline-block;
+                            background:#0ea5e9;
+                            color:white;
+                            padding:12px 32px;
+                            border-radius:8px;
+                            text-decoration:none;
+                            font-weight:700;
+                            letter-spacing:1px;
+                        ">Login Page-க்கு போ</a>
+                    </div>
+                </div>`;
+            return false;
+        }
+
+        // ✅ Auto Register
+        await registerDevice(user.phoneNumber, deviceId, PROJECT_PREFIX);
+        return true;
+    } catch (e) {
+        return true;
+    }
+}
+
 function initLoginPage() {
     const phoneForm = document.getElementById('phoneForm');
     const pinForm = document.getElementById('pinForm');
@@ -75,8 +133,7 @@ function initLoginPage() {
             const correctKey = await generateDeterministicKey(cleanPhone);
 
             if (enteredPin === correctKey) {
-                // Device Lock Check
-                const deviceId = getDeviceId();
+                const deviceId = await getDeviceId();
                 const lockCheck = await checkDeviceLock(currentPhoneNumber, deviceId, PROJECT_PREFIX);
                 if (!lockCheck.allowed) {
                     pinError.innerText = lockCheck.message;
@@ -88,7 +145,6 @@ function initLoginPage() {
                     return;
                 }
 
-                // Device Register
                 const regResult = await registerDevice(currentPhoneNumber, deviceId, PROJECT_PREFIX);
                 if (regResult && regResult.blocked) {
                     pinError.innerText = regResult.message;
@@ -140,7 +196,7 @@ function initLoginPage() {
     }
 }
 
-export function checkAuth() {
+export async function checkAuth() {
     try {
         const path = window.location.pathname.toLowerCase();
         const isPublicPage =
@@ -149,18 +205,28 @@ export function checkAuth() {
         const session = localStorage.getItem(STORAGE_KEY);
         const user = session ? JSON.parse(session) : null;
         const isProtected = !isPublicPage;
+
         if (isProtected && !user) {
             window.location.replace("login.html");
             return null;
         }
+
         if ((path.includes('login.html') || path.endsWith('/login')) && user) {
             window.location.replace("index.html");
             return user;
         }
+
+        // ✅ Block check + Auto Register
+        if (user && isProtected) {
+            const isAllowed = await checkBlockStatus(user);
+            if (!isAllowed) return null;
+        }
+
         if (user) {
             const userNameEls = document.querySelectorAll('#studentName, #studentNameDisplay');
             userNameEls.forEach(el => { el.innerText = user.name || "மாணவர்"; });
         }
+
         document.documentElement.style.visibility = 'visible';
         return user;
     } catch (e) {
@@ -183,7 +249,7 @@ export function logout() {
 window.logout = logout;
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => { checkAuth(); initLoginPage(); });
+    document.addEventListener('DOMContentLoaded', async () => { await checkAuth(); initLoginPage(); });
 } else {
     checkAuth();
     initLoginPage();
