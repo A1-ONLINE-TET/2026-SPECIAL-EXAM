@@ -782,6 +782,16 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_8_l9",
       "grade": "8"
+    },
+    "eng_3_t1_l1": {
+      "local": true,
+      "filename": "eng_3_t1_l1",
+      "grade": "3"
+    },
+    "Our Kitchen": {
+      "local": true,
+      "filename": "eng_3_t1_l1",
+      "grade": "3"
     }
   },
   "science": {
