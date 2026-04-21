@@ -773,6 +773,11 @@ export const syllabusData = {
                 "title": "Small Creatures",
                 "isUpdated": true,
                 "code": "eng_3_t1_l2"
+              },
+              {
+                "title": "The World Around Us",
+                "isUpdated": true,
+                "code": "eng_3_t1_l3"
               }
             ]
           }
