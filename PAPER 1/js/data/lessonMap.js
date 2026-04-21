@@ -802,6 +802,16 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_3_t1_l2",
       "grade": "3"
+    },
+    "eng_3_t1_l3": {
+      "local": true,
+      "filename": "eng_3_t1_l3",
+      "grade": "3"
+    },
+    "The World Around Us": {
+      "local": true,
+      "filename": "eng_3_t1_l3",
+      "grade": "3"
     }
   },
   "science": {
