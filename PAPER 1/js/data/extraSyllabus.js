@@ -21,6 +21,11 @@ export const extraSyllabusData = {
                 "title": "திருப்புதல் தேர்வு 3",
                 "isUpdated": true,
                 "code": "rev_special_3"
+              },
+              {
+                "title": "திருப்புதல் தேர்வு 4",
+                "isUpdated": true,
+                "code": "rev_special_4"
               }
             ]
           }
@@ -118,6 +123,11 @@ export const extraSyllabusData = {
                 "title": "முக்கிய குறிப்புகள் - பகுதி 4",
                 "isUpdated": true,
                 "code": "sample_678_notes_4"
+              },
+              {
+                "title": "முக்கிய குறிப்புகள் - பகுதி 5",
+                "isUpdated": true,
+                "code": "sample_678_notes_5"
               }
             ]
           }

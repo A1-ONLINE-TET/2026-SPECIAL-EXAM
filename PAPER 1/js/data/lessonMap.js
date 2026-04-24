@@ -387,15 +387,45 @@ export const lessonMap = {
       "filename": "rev_1_t1_l1",
       "grade": "1"
     },
+    "திருப்புதல் தேர்வு 1": {
+      "local": true,
+      "filename": "rev_special_180",
+      "grade": "all"
+    },
+    "rev_special_180": {
+      "local": true,
+      "filename": "rev_special_180",
+      "grade": "all"
+    },
+    "திருப்புதல் தேர்வு 2": {
+      "local": true,
+      "filename": "mock_test_2",
+      "grade": "all"
+    },
+    "mock_test_2": {
+      "local": true,
+      "filename": "mock_test_2",
+      "grade": "all"
+    },
     "திருப்புதல் தேர்வு 3": {
       "local": true,
       "filename": "rev_special_3",
-      "grade": "1"
+      "grade": "all"
     },
     "rev_special_3": {
       "local": true,
       "filename": "rev_special_3",
-      "grade": "1"
+      "grade": "all"
+    },
+    "திருப்புதல் தேர்வு 4": {
+      "local": true,
+      "filename": "rev_special_4",
+      "grade": "all"
+    },
+    "rev_special_4": {
+      "local": true,
+      "filename": "rev_special_4",
+      "grade": "all"
     }
   },
   "mocktest": {
@@ -459,6 +489,26 @@ export const lessonMap = {
     "sample_678_notes_3": {
       "local": true,
       "filename": "sample_678_notes_3",
+      "grade": "all"
+    },
+    "முக்கிய குறிப்புகள் - பகுதி 4": {
+      "local": true,
+      "filename": "sample_678_notes_4",
+      "grade": "all"
+    },
+    "sample_678_notes_4": {
+      "local": true,
+      "filename": "sample_678_notes_4",
+      "grade": "all"
+    },
+    "முக்கிய குறிப்புகள் - பகுதி 5": {
+      "local": true,
+      "filename": "sample_678_notes_5",
+      "grade": "all"
+    },
+    "sample_678_notes_5": {
+      "local": true,
+      "filename": "sample_678_notes_5",
       "grade": "all"
     }
   },
