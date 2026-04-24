@@ -439,6 +439,16 @@ export const lessonMap = {
       "filename": "mock_test_1",
       "grade": "all"
     },
+    "மாதிரித்தேர்வு 4": {
+      "local": true,
+      "filename": "mock_test_4",
+      "grade": "all"
+    },
+    "mock_test_4": {
+      "local": true,
+      "filename": "mock_test_4",
+      "grade": "all"
+    },
     "மாதிரித்தேர்வு 2": {
       "local": true,
       "filename": "model_test_2",
