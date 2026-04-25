@@ -558,32 +558,41 @@
                 if (!text) return "";
                 let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
                 
-                // கூற்று (A/R): ... காரணம் (A/R): ... → bold + line break
-                html = html.replace(/(கூற்று\s*(?:\([^)]*\))?\s*:)([\s\S]*?)(காரணம்\s*(?:\([^)]*\))?\s*:)([\s\S]*)/g,
-                    function(_, k, mid, r, end) { 
-                        return '<strong>' + k + '</strong>' + mid.trim() + '<br><strong>' + r + '</strong>' + end.trim(); 
-                    });
+                // 1. Format Assertion/Reason (கூற்று / காரணம்)
+                if (html.includes('கூற்று') || html.includes('காரணம்')) {
+                    html = html.replace(/(கூற்று\s*(?:\([^)]*\))?\s*:)/g, '<strong>$1</strong>');
+                    html = html.replace(/(காரணம்\s*(?:\([^)]*\))?\s*:)/g, '<br><strong>$1</strong>');
+                    html = html.replace(/\n/g, '<br>');
+                    // If we found both, don't do the aggressive lang swap below to prevent mangling
+                    return html;
+                }
                 
-                // Support '||' separator (New Standard)
+                // 2. Support '||' separator (New Standard)
                 if (html.includes('||')) {
                     const parts = html.split('||');
                     return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
                 }
                 
-                // Support ' / ' or Parentheses (Old Fallback)
+                // 3. Support ' / ' (Old Fallback)
                 if (html.includes(" / ")) {
                     const parts = html.split(" / ");
                     return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
                 }
 
+                // 4. Safe Language Wrap (Only for simple terms like "Banana (வாழைப்பழம்)")
                 const tamilRegex = /[\u0b80-\u0bff]+/;
                 if (tamilRegex.test(html) && /[a-zA-Z]/.test(html)) {
-                    if (html.includes(" (") && html.includes(")")) {
-                        const start = html.indexOf(" (");
-                        const end = html.lastIndexOf(")");
-                        const rest = html.substring(end + 1);
-                        // Swap classes: Outside is Tamil (tm-text), inside is English (en-text)
-                        return `<span class="tm-text">${html.substring(0, start).trim()}</span> <span class="en-text">(${html.substring(start + 2, end).trim()})</span>${rest}`;
+                    // Only swap if it's a simple "Tamil (English)" or "English (Tamil)" structure without complex nested parens
+                    const simpleSwapRegex = /^([^(]+)\s*\(([^)]+)\)$/;
+                    const match = html.match(simpleSwapRegex);
+                    if (match) {
+                        const p1 = match[1].trim();
+                        const p2 = match[2].trim();
+                        if (tamilRegex.test(p1)) {
+                            return `<span class="tm-text">${p1}</span> <span class="en-text">(${p2})</span>`;
+                        } else {
+                            return `<span class="en-text">${p1}</span> <span class="tm-text">(${p2})</span>`;
+                        }
                     }
                 }
                 return html;
