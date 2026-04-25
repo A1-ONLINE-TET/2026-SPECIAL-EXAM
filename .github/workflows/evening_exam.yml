@@ -1,0 +1,30 @@
+name: Daily Challenge - Evening Exam
+on:
+  schedule:
+    - cron: '30 14 * * *' # 8:00 PM IST
+  workflow_dispatch:
+
+jobs:
+  run-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Fetch and Push Exam
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: node scripts/daily_challenge/engine.js open
+
+      - name: Commit State File Changes
+        run: |
+          git config --global user.name 'A1 Automation Bot'
+          git config --global user.email 'bot@a1onlinecoaching.com'
+          git add scripts/daily_challenge/tracker.json
+          git commit -m "Auto Update State Tracker" || echo "No changes"
+          git push
