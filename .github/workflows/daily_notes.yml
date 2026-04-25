@@ -1,7 +1,7 @@
-name: Daily Challenge - Morning Notes
+name: Daily Challenge - Morning Notes (6AM IST)
 on:
   schedule:
-    - cron: '30 1 * * *' # 7:00 AM IST
+    - cron: '30 0 * * *'  # 6:00 AM IST (UTC 0:30)
   workflow_dispatch:
 
 jobs:
@@ -16,15 +16,7 @@ jobs:
         with:
           node-version: 18
 
-      - name: Fetch and Push Notes
+      - name: Push Today's Notes
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: node scripts/daily_challenge/engine.js notes
-
-      - name: Commit State File Changes
-        run: |
-          git config --global user.name 'A1 Automation Bot'
-          git config --global user.email 'bot@a1onlinecoaching.com'
-          git add scripts/daily_challenge/tracker.json
-          git commit -m "Auto Update State" || echo "No changes"
-          git push
