@@ -351,15 +351,21 @@
             display: inline;
         }
 
-        /* HARD OVERRIDE FOR CENTERING ISSUE */
         #questionContainer, .question-card, .question-text, .option-item {
             text-align: left !important;
             justify-content: flex-start !important;
+            word-break: keep-all !important;
+            overflow-wrap: break-word !important;
         }
         
         .question-text * {
             text-align: left !important;
             display: inline !important; /* Force spans and labels to stay together */
+        }
+        
+        /* Prevent numbers and units from splitting abruptly */
+        .question-text, .option-item {
+            line-break: loose;
         }
     </style>
 </head>

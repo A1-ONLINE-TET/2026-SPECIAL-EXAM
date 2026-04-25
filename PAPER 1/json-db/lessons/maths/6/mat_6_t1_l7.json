@@ -5,7 +5,7 @@
     "sections": [
       {
         "title": "1. செயலிகளின் வரிசை (Order of Operations - BIDMAS)",
-        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதத்தில் ஒன்றுக்கு மேற்பட்ட செயலிகள் வரும்போது எதைப் பின்பற்ற வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">BIDMAS</span> விதியைப் பின்பற்ற வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS என்பதன் விரிவாக்கம் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 B-Brackets, I-Indices, D-Division, M-Multiplication, A-Addition, S-Subtraction.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகள் (Brackets) எதற்காகப் பயன்படுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரு குறிப்பிட்ட செயலியை <span style=\"color:var(--primary);font-weight:700;\">முதலில்</span> செய்ய வேண்டும் என்பதைக் குறிக்கப் பயன்படுகின்றன.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகளில் பல வகைகள் இருந்தால் எதை முதலில் தீர்க்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">சாதாரண அடைப்புக்குறி</span> ( ), பிறகு <span style=\"color:var(--primary);font-weight:700;\">கண அடைப்புக்குறி</span> { }, இறுதியில் <span style=\"color:var(--primary);font-weight:700;\">சதுர அடைப்புக்குறி</span> [ ] ஆகியவற்றைத் தீர்க்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ $10 + 2 \\times 5$ என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 சரியான விடை <span style=\"color:var(--primary);font-weight:700;\">20</span>. ஏனெனில் BIDMAS விதிப்படி கூட்டலுக்கு முன் <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலை</span> செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதியில் 'I' என்பது எதைக் குறிக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அடுக்குகள்</span> (Indices) அல்லது எண்களின் அடுக்கினைக் குறிக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரு செயலிகள் (எ.கா: கூட்டல், கழித்தல்) ஒரே முன்னுரிமை பெற்றால் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 அவற்றை <span style=\"color:var(--primary);font-weight:700;\">இடமிருந்து வலமாக</span> வரிசையாகச் செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ $(12 + 8) \\div 2$-ன் மதிப்பு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10</span>. முதலில் அடைப்புக்குறிக்குள் உள்ள $12+8=20$-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ செயலிகளின் வரிசையை மாற்றினால் விடை மாறுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நிச்சயமாக மாறும்</span>. விதியை முறையாகப் பின்பற்றாவிட்டால் தவறான விடை கிடைக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதி இல்லாவிட்டால் என்ன நிகழும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரே கணக்கிற்குப் <span style=\"color:var(--primary);font-weight:700;\">பலவிதமான விடைகள்</span> கிடைத்து குழப்பத்தை உண்டாக்கும்.</div>\n        </div>\n    "
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதத்தில் ஒன்றுக்கு மேற்பட்ட செயலிகள் வரும்போது எதைப் பின்பற்ற வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">BIDMAS</span> விதியைப் பின்பற்ற வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS என்பதன் விரிவாக்கம் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 B-Brackets, I-Indices, D-Division, M-Multiplication, A-Addition, S-Subtraction.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகள் (Brackets) எதற்காகப் பயன்படுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரு குறிப்பிட்ட செயலியை <span style=\"color:var(--primary);font-weight:700;\">முதலில்</span> செய்ய வேண்டும் என்பதைக் குறிக்கப் பயன்படுகின்றன.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகளில் பல வகைகள் இருந்தால் எதை முதலில் தீர்க்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">சாதாரண அடைப்புக்குறி</span> ( ), பிறகு <span style=\"color:var(--primary);font-weight:700;\">கண அடைப்புக்குறி</span> { }, இறுதியில் <span style=\"color:var(--primary);font-weight:700;\">சதுர அடைப்புக்குறி</span> [ ] ஆகியவற்றைத் தீர்க்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 10 + 2 × 5 என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 சரியான விடை <span style=\"color:var(--primary);font-weight:700;\">20</span>. ஏனெனில் BIDMAS விதிப்படி கூட்டலுக்கு முன் <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலை</span> செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதியில் 'I' என்பது எதைக் குறிக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அடுக்குகள்</span> (Indices) அல்லது எண்களின் அடுக்கினைக் குறிக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரு செயலிகள் (எ.கா: கூட்டல், கழித்தல்) ஒரே முன்னுரிமை பெற்றால் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 அவற்றை <span style=\"color:var(--primary);font-weight:700;\">இடமிருந்து வலமாக</span> வரிசையாகச் செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ (12 + 8) ÷ 2-ன் மதிப்பு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10</span>. முதலில் அடைப்புக்குறிக்குள் உள்ள 12+8=20-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ செயலிகளின் வரிசையை மாற்றினால் விடை மாறுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நிச்சயமாக மாறும்</span>. விதியை முறையாகப் பின்பற்றாவிட்டால் தவறான விடை கிடைக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதி இல்லாவிட்டால் என்ன நிகழும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரே கணக்கிற்குப் <span style=\"color:var(--primary);font-weight:700;\">பலவிதமான விடைகள்</span> கிடைத்து குழப்பத்தை உண்டாக்கும்.</div>\n        </div>\n    "
       },
       {
         "title": "2. எண்களின் மதிப்பீடு (Estimation of Numbers)",
@@ -17,7 +17,7 @@
       },
       {
         "title": "4. மதிப்பீடு மற்றும் ஆய்ந்தறிதல் (Analyzing)",
-        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ $20 + (10 \\div 2)$ மற்றும் $(20 + 10) \\div 2$ சமமானவையா? ஆராய்க.</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை. முதல் விடை <span style=\"color:var(--primary);font-weight:700;\">25</span>, இரண்டாம் விடை <span style=\"color:var(--primary);font-weight:700;\">15</span>. அடைப்புக்குறி இடத்தைக் காட்டுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 678-ஐப் பத்துகளுக்கு முழுமையாக்குவதற்கும் நூறுகளுக்கு முழுமையாக்குவதற்கும் உள்ள வேறுபாடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பத்துகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">680</span>, நூறுகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">700</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு எண்ணின் ஒன்றாம் இட இலக்கம் 5 எனில், ஏன் அடுத்த பத்திற்கு மாற்றுகிறோம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணித மரபுப்படி 5 என்பது <span style=\"color:var(--primary);font-weight:700;\">பாதித் தொலைவைக்</span> குறிப்பதால் அடுத்த உயர் மதிப்பிற்கு மாற்றப்படுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ $5 + 5 \\div 5$ என்பதில் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">வகுத்தலை</span> (5/5 = 1) செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய எண்களை முழுமையாக்கும்போது துல்லியம் குறையுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், உயர்ந்த இடமதிப்பிற்கு முழுமையாக்கும்போது <span style=\"color:var(--primary);font-weight:700;\">பிழை இடைவெளி</span> (Error margin) அதிகமாகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு செய்வதன் மூலம் நேரத்தைச் சேமிக்க முடியுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 நிச்சயமாக, சிக்கலான பெருக்கல் மற்றும் வகுத்தல்களை <span style=\"color:var(--primary);font-weight:700;\">மனக்கணக்காக</span> செய்ய உதவுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ $100 - (20 + 30)$ மற்றும் $100 - 20 + 30$ இதில் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100 - 20 + 30</span> பெரியது (விடை 110), மற்றொன்று 50.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதச் செயலிகளைச் செய்யும் போது வரிசை ஏன் முக்கியம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஏனெனில் கணிதம் என்பது தர்க்கரீதியான <span style=\"color:var(--primary);font-weight:700;\">ஒழுங்குமுறை</span> கொண்டது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 7,500-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் என்ன கிடைக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">8,000</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கணக்கில் அடைப்புக்குறிகள் இல்லாவிட்டால் நாம் எதை முன்னுரிமை அளிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வகுத்தல் அல்லது <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலுக்கு</span> முன்னுரிமை அளிக்க வேண்டும்.</div>\n        </div>\n    "
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 20 + (10 ÷ 2) மற்றும் (20 + 10) ÷ 2 சமமானவையா? ஆராய்க.</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை. முதல் விடை <span style=\"color:var(--primary);font-weight:700;\">25</span>, இரண்டாம் விடை <span style=\"color:var(--primary);font-weight:700;\">15</span>. அடைப்புக்குறி இடத்தைக் காட்டுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 678-ஐப் பத்துகளுக்கு முழுமையாக்குவதற்கும் நூறுகளுக்கு முழுமையாக்குவதற்கும் உள்ள வேறுபாடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பத்துகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">680</span>, நூறுகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">700</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு எண்ணின் ஒன்றாம் இட இலக்கம் 5 எனில், ஏன் அடுத்த பத்திற்கு மாற்றுகிறோம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணித மரபுப்படி 5 என்பது <span style=\"color:var(--primary);font-weight:700;\">பாதித் தொலைவைக்</span> குறிப்பதால் அடுத்த உயர் மதிப்பிற்கு மாற்றப்படுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5 + 5 ÷ 5 என்பதில் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">வகுத்தலை</span> (5/5 = 1) செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய எண்களை முழுமையாக்கும்போது துல்லியம் குறையுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், உயர்ந்த இடமதிப்பிற்கு முழுமையாக்கும்போது <span style=\"color:var(--primary);font-weight:700;\">பிழை இடைவெளி</span> (Error margin) அதிகமாகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு செய்வதன் மூலம் நேரத்தைச் சேமிக்க முடியுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 நிச்சயமாக, சிக்கலான பெருக்கல் மற்றும் வகுத்தல்களை <span style=\"color:var(--primary);font-weight:700;\">மனக்கணக்காக</span> செய்ய உதவுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 100 - (20 + 30) மற்றும் 100 - 20 + 30 இதில் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100 - 20 + 30</span> பெரியது (விடை 110), மற்றொன்று 50.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதச் செயலிகளைச் செய்யும் போது வரிசை ஏன் முக்கியம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஏனெனில் கணிதம் என்பது தர்க்கரீதியான <span style=\"color:var(--primary);font-weight:700;\">ஒழுங்குமுறை</span> கொண்டது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 7,500-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் என்ன கிடைக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">8,000</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கணக்கில் அடைப்புக்குறிகள் இல்லாவிட்டால் நாம் எதை முன்னுரிமை அளிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வகுத்தல் அல்லது <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலுக்கு</span> முன்னுரிமை அளிக்க வேண்டும்.</div>\n        </div>\n    "
       }
     ]
   },
@@ -39,7 +39,7 @@
       "a": "முதலில் சாதாரண அடைப்புக்குறி ( ), பிறகு கண அடைப்புக்குறி { }, இறுதியில் சதுர அடைப்புக்குறி [ ] ஆகியவற்றைத் தீர்க்க வேண்டும்."
     },
     {
-      "q": "$10 + 2 \\times 5$ என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?",
+      "q": "10 + 2 × 5 என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?",
       "a": "சரியான விடை 20. ஏனெனில் BIDMAS விதிப்படி கூட்டலுக்கு முன் பெருக்கலை செய்ய வேண்டும்."
     },
     {
@@ -51,8 +51,8 @@
       "a": "அவற்றை இடமிருந்து வலமாக வரிசையாகச் செய்ய வேண்டும்."
     },
     {
-      "q": "$(12 + 8) \\div 2$-ன் மதிப்பு என்ன?",
-      "a": "10. முதலில் அடைப்புக்குறிக்குள் உள்ள $12+8=20$-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்."
+      "q": "(12 + 8) ÷ 2-ன் மதிப்பு என்ன?",
+      "a": "10. முதலில் அடைப்புக்குறிக்குள் உள்ள 12+8=20-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்."
     },
     {
       "q": "செயலிகளின் வரிசையை மாற்றினால் விடை மாறுமா?",
@@ -143,7 +143,7 @@
       "a": "சூழலைப் பொறுத்தது; திட்டமிடுதலுக்கு மதிப்பீடு, கணக்கிற்குத் துல்லியமான கணக்கீடு சிறந்தது."
     },
     {
-      "q": "$20 + (10 \\div 2)$ மற்றும் $(20 + 10) \\div 2$ சமமானவையா? ஆராய்க.",
+      "q": "20 + (10 ÷ 2) மற்றும் (20 + 10) ÷ 2 சமமானவையா? ஆராய்க.",
       "a": "இல்லை. முதல் விடை 25, இரண்டாம் விடை 15. அடைப்புக்குறி இடத்தைக் காட்டுகிறது."
     },
     {
@@ -155,7 +155,7 @@
       "a": "கணித மரபுப்படி 5 என்பது பாதித் தொலைவைக் குறிப்பதால் அடுத்த உயர் மதிப்பிற்கு மாற்றப்படுகிறது."
     },
     {
-      "q": "$5 + 5 \\div 5$ என்பதில் எதை முதலில் செய்ய வேண்டும்?",
+      "q": "5 + 5 ÷ 5 என்பதில் எதை முதலில் செய்ய வேண்டும்?",
       "a": "முதலில் வகுத்தலை (5/5 = 1) செய்ய வேண்டும்."
     },
     {
@@ -167,7 +167,7 @@
       "a": "நிச்சயமாக, சிக்கலான பெருக்கல் மற்றும் வகுத்தல்களை மனக்கணக்காக செய்ய உதவுகிறது."
     },
     {
-      "q": "$100 - (20 + 30)$ மற்றும் $100 - 20 + 30$ இதில் எது பெரியது?",
+      "q": "100 - (20 + 30) மற்றும் 100 - 20 + 30 இதில் எது பெரியது?",
       "a": "100 - 20 + 30 பெரியது (விடை 110), மற்றொன்று 50."
     },
     {
@@ -186,7 +186,7 @@
   "quiz": {
     "questions": [
       {
-        "question": "$24 + 2 \\times 8$-ன் மதிப்பு என்ன?",
+        "question": "24 + 2 × 8-ன் மதிப்பு என்ன?",
         "options": [
           "208",
           "40",
@@ -196,7 +196,7 @@
         "answer": 1
       },
       {
-        "question": "$10 + (8 \\div 2) + 1$-ன் மதிப்பு என்ன?",
+        "question": "10 + (8 ÷ 2) + 1-ன் மதிப்பு என்ன?",
         "options": [
           "10",
           "15",
@@ -216,7 +216,7 @@
         "answer": 1
       },
       {
-        "question": "$20 \\div (5 \\times 2)$-ன் விடை என்ன?",
+        "question": "20 ÷ (5 × 2)-ன் விடை என்ன?",
         "options": [
           "8",
           "2",
@@ -256,7 +256,7 @@
         "answer": 2
       },
       {
-        "question": "$12 \\times 3 + 2$-ன் மதிப்பு?",
+        "question": "12 × 3 + 2-ன் மதிப்பு?",
         "options": [
           "60",
           "38",
@@ -266,7 +266,7 @@
         "answer": 1
       },
       {
-        "question": "$100 - 10 \\times 10$-ன் விடை?",
+        "question": "100 - 10 × 10-ன் விடை?",
         "options": [
           "900",
           "0",
@@ -306,7 +306,7 @@
         "answer": 1
       },
       {
-        "question": "$2 \\times (5 + 5)$-ன் மதிப்பு என்ன?",
+        "question": "2 × (5 + 5)-ன் மதிப்பு என்ன?",
         "options": [
           "15",
           "20",
@@ -336,7 +336,7 @@
         "answer": 2
       },
       {
-        "question": "$12 + (3 \\times 2) - 5$-ன் விடை?",
+        "question": "12 + (3 × 2) - 5-ன் விடை?",
         "options": [
           "13",
           "11",
@@ -376,7 +376,7 @@
         "answer": 1
       },
       {
-        "question": "$(15 \\div 3) \\times 2 + 10$ = ?",
+        "question": "(15 ÷ 3) × 2 + 10 = ?",
         "options": [
           "20",
           "30",
@@ -396,7 +396,7 @@
         "answer": 2
       },
       {
-        "question": "$50 - (20 + 30)$ = ?",
+        "question": "50 - (20 + 30) = ?",
         "options": [
           "0",
           "60",
