@@ -394,6 +394,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_2_t1_l2",
       "grade": "2"
+    },
+    "tam_2_t1_l3": {
+      "local": true,
+      "filename": "tam_2_t1_l3",
+      "grade": "2"
+    },
+    "சொல்லாதே சொல்லாதே": {
+      "local": true,
+      "filename": "tam_2_t1_l3",
+      "grade": "2"
     }
   },
   "revision": {
