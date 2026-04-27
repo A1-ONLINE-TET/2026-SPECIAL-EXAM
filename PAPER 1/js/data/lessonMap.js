@@ -337,8 +337,8 @@ export const lessonMap = {
     },
     "செய்து மகிழ்வோம்": {
       "local": true,
-      "filename": "tam_3_t1_l2",
-      "grade": "3"
+      "filename": "tam_2_t1_l2",
+      "grade": "2"
     },
     "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3": {
       "local": true,
@@ -388,6 +388,11 @@ export const lessonMap = {
     "விளையாட்டு உலகம்": {
       "local": true,
       "filename": "tam_2_t1_l1",
+      "grade": "2"
+    },
+    "tam_2_t1_l2": {
+      "local": true,
+      "filename": "tam_2_t1_l2",
       "grade": "2"
     }
   },
