@@ -1,5 +1,22 @@
 export const syllabusData = {
   "tamil": {
+    "2": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "விளையாட்டு உலகம்",
+                "isUpdated": true,
+                "code": "tam_2_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "3": [
       {
         "term": 1,
