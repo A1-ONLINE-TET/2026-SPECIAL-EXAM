@@ -21,6 +21,11 @@ export const syllabusData = {
                 "title": "சொல்லாதே சொல்லாதே",
                 "isUpdated": true,
                 "code": "tam_2_t1_l3"
+              },
+              {
+                "title": "நானும் நாங்களும்",
+                "isUpdated": true,
+                "code": "tam_2_t1_l4"
               }
             ]
           }
