@@ -11,6 +11,11 @@ export const syllabusData = {
                 "title": "விளையாட்டு உலகம்",
                 "isUpdated": true,
                 "code": "tam_2_t1_l1"
+              },
+              {
+                "title": "செய்து மகிழ்வோம்",
+                "isUpdated": true,
+                "code": "tam_2_t1_l2"
               }
             ]
           }
