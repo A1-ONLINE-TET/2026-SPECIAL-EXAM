@@ -404,6 +404,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_2_t1_l3",
       "grade": "2"
+    },
+    "tam_2_t1_l4": {
+      "local": true,
+      "filename": "tam_2_t1_l4",
+      "grade": "2"
+    },
+    "நானும் நாங்களும்": {
+      "local": true,
+      "filename": "tam_2_t1_l4",
+      "grade": "2"
     }
   },
   "revision": {
