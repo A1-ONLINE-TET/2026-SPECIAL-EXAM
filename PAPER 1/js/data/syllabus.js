@@ -16,6 +16,11 @@ export const syllabusData = {
                 "title": "செய்து மகிழ்வோம்",
                 "isUpdated": true,
                 "code": "tam_2_t1_l2"
+              },
+              {
+                "title": "சொல்லாதே சொல்லாதே",
+                "isUpdated": true,
+                "code": "tam_2_t1_l3"
               }
             ]
           }
