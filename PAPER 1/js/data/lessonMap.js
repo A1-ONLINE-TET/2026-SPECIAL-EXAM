@@ -379,6 +379,16 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_3_t1_l1",
       "grade": "3"
+    },
+    "tam_2_t1_l1": {
+      "local": true,
+      "filename": "tam_2_t1_l1",
+      "grade": "2"
+    },
+    "விளையாட்டு உலகம்": {
+      "local": true,
+      "filename": "tam_2_t1_l1",
+      "grade": "2"
     }
   },
   "revision": {
