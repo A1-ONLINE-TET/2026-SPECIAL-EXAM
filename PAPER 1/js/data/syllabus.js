@@ -789,6 +789,23 @@ export const syllabusData = {
     ]
   },
   "english": {
+    "2": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Our Sweet Home",
+                "isUpdated": true,
+                "code": "eng_2_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "3": [
       {
         "term": 1,
