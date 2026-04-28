@@ -800,6 +800,11 @@ export const syllabusData = {
                 "title": "Our Sweet Home",
                 "isUpdated": true,
                 "code": "eng_2_t1_l1"
+              },
+              {
+                "title": "Know Your Feelings",
+                "isUpdated": true,
+                "code": "eng_2_t1_l3"
               }
             ]
           }
