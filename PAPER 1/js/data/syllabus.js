@@ -805,6 +805,11 @@ export const syllabusData = {
                 "title": "Know Your Feelings",
                 "isUpdated": true,
                 "code": "eng_2_t1_l3"
+              },
+              {
+                "title": "Listen to Your Body & Magic Words",
+                "isUpdated": true,
+                "code": "eng_2_t1_l2"
               }
             ]
           }
