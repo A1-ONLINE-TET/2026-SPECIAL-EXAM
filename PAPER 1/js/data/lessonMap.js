@@ -927,6 +927,16 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_2_t1_l3",
       "grade": "2"
+    },
+    "eng_2_t1_l2": {
+      "local": true,
+      "filename": "eng_2_t1_l2",
+      "grade": "2"
+    },
+    "Listen to Your Body & Magic Words": {
+      "local": true,
+      "filename": "eng_2_t1_l2",
+      "grade": "2"
     }
   },
   "science": {
