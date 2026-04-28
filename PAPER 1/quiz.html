@@ -128,6 +128,11 @@
             gap: 1.25rem;
         }
 
+        .options-grid.locked {
+            pointer-events: none;
+            opacity: 0.9;
+        }
+
         .option-item {
             padding: 1.1rem 1.5rem;
             border: 1.5px solid #f1f5f9;
@@ -741,9 +746,28 @@
                 if (resultsRevealed) return;
                 const grid = document.getElementById(`options-${qIdx}`);
                 if (!grid) return;
-                grid.querySelectorAll('.option-item').forEach(i => i.classList.remove('selected'));
-                el.classList.add('selected');
+                
+                // If already answered, don't allow re-selection
+                if (answers[qIdx] !== undefined) return;
+
+                const q = questions[qIdx];
+                const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                
+                // Store answer
                 answers[qIdx] = oIdx;
+                
+                // Highlight immediately
+                const items = grid.querySelectorAll('.option-item');
+                if (oIdx === correctIdx) {
+                    el.classList.add('correct');
+                } else {
+                    el.classList.add('wrong');
+                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
+                }
+                
+                // Mark as selected and lock
+                el.classList.add('selected');
+                grid.classList.add('locked');
             };
 
             const submitBtn = document.getElementById('finalSubmitBtn');
@@ -783,16 +807,14 @@
                     const grid = document.getElementById(`options-${idx}`);
                     const exBox = document.getElementById(`ex-box-${idx}`);
                     if(!grid) return;
+                    
                     const items = grid.querySelectorAll('.option-item');
-                    if (userIdx !== undefined) {
-                        if (userIdx === correctIdx) items[userIdx].classList.add('correct');
-                        else {
-                            items[userIdx].classList.add('wrong');
-                            items[correctIdx].classList.add('correct');
-                        }
-                    } else {
-                        items[correctIdx].classList.add('correct');
+                    // If not answered, show correct one
+                    if (userIdx === undefined) {
+                        if (items[correctIdx]) items[correctIdx].classList.add('correct');
                     }
+                    
+                    // Always show explanation
                     if (exBox) exBox.style.display = 'block';
                 });
             }
