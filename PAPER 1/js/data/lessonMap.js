@@ -917,6 +917,16 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_2_t1_l1",
       "grade": "2"
+    },
+    "eng_2_t1_l3": {
+      "local": true,
+      "filename": "eng_2_t1_l3",
+      "grade": "2"
+    },
+    "Know Your Feelings": {
+      "local": true,
+      "filename": "eng_2_t1_l3",
+      "grade": "2"
     }
   },
   "science": {
