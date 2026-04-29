@@ -1420,6 +1420,23 @@ export const syllabusData = {
     ]
   },
   "maths": {
+    "2": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_2_t1_l1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,
