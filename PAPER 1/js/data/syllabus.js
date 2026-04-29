@@ -1451,6 +1451,11 @@ export const syllabusData = {
                 "title": "காலம்",
                 "isUpdated": true,
                 "code": "mat_2_t1_l5"
+              },
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_2_t1_l6"
               }
             ]
           }
