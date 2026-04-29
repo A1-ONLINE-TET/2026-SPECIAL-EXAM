@@ -1436,6 +1436,11 @@ export const syllabusData = {
                 "title": "எண்கள் 1 இலிருந்து 99 வரை",
                 "isUpdated": true,
                 "code": "mat_2_t1_l2"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_2_t1_l3"
               }
             ]
           }
