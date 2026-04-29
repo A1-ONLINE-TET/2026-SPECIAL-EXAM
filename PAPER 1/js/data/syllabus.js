@@ -1441,6 +1441,11 @@ export const syllabusData = {
                 "title": "அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_2_t1_l3"
+              },
+              {
+                "title": "அளவைகள்",
+                "isUpdated": true,
+                "code": "mat_2_t1_l4"
               }
             ]
           }
