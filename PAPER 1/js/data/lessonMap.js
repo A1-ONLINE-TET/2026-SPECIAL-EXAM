@@ -1488,6 +1488,16 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_2_t1_l1",
       "grade": "2"
+    },
+    "mat_2_t1_l2": {
+      "local": true,
+      "filename": "mat_2_t1_l2",
+      "grade": "2"
+    },
+    "எண்கள் 1 இலிருந்து 99 வரை": {
+      "local": true,
+      "filename": "mat_2_t1_l2",
+      "grade": "2"
     }
   },
   "soc": {
