@@ -1518,6 +1518,16 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_2_t1_l4",
       "grade": "2"
+    },
+    "mat_2_t1_l5": {
+      "local": true,
+      "filename": "mat_2_t1_l5",
+      "grade": "2"
+    },
+    "காலம்": {
+      "local": true,
+      "filename": "mat_2_t1_l5",
+      "grade": "2"
     }
   },
   "soc": {
