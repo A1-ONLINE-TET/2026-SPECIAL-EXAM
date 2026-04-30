@@ -2865,6 +2865,41 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "1. நம்மைச் சுற்றியுள்ள பொருள்கள்",
+                "isUpdated": true,
+                "code": "sci_2_t3_l1"
+              },
+              {
+                "title": "2. நமது அருமைத் தாய்நாடு",
+                "isUpdated": true,
+                "code": "sci_2_t3_l2"
+              },
+              {
+                "title": "3. சக்தியின் பயணம்",
+                "isUpdated": true,
+                "code": "sci_2_t3_l3"
+              },
+              {
+                "title": "4. பகலும் இரவும்",
+                "isUpdated": true,
+                "code": "sci_2_t3_l4"
+              },
+              {
+                "title": "5. வியத்தகு இயற்கை",
+                "isUpdated": true,
+                "code": "sci_2_t3_l5"
+              }
+            ]
+          }
+        ]
       }
     ],
     "3": [

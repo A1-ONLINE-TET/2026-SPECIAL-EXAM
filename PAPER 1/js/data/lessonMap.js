@@ -859,6 +859,56 @@ export const lessonMap = {
       "filename": "sci_2_t2_l4",
       "grade": "2"
     },
+    "நம்மைச் சுற்றியுள்ள பொருள்கள்": {
+      "local": true,
+      "filename": "sci_2_t3_l1",
+      "grade": "2"
+    },
+    "sci_2_t3_l1": {
+      "local": true,
+      "filename": "sci_2_t3_l1",
+      "grade": "2"
+    },
+    "நமது அருமைத் தாய்நாடு": {
+      "local": true,
+      "filename": "sci_2_t3_l2",
+      "grade": "2"
+    },
+    "sci_2_t3_l2": {
+      "local": true,
+      "filename": "sci_2_t3_l2",
+      "grade": "2"
+    },
+    "சக்தியின் பயணம்": {
+      "local": true,
+      "filename": "sci_2_t3_l3",
+      "grade": "2"
+    },
+    "sci_2_t3_l3": {
+      "local": true,
+      "filename": "sci_2_t3_l3",
+      "grade": "2"
+    },
+    "பகலும் இரவும்": {
+      "local": true,
+      "filename": "sci_2_t3_l4",
+      "grade": "2"
+    },
+    "sci_2_t3_l4": {
+      "local": true,
+      "filename": "sci_2_t3_l4",
+      "grade": "2"
+    },
+    "வியத்தகு இயற்கை": {
+      "local": true,
+      "filename": "sci_2_t3_l5",
+      "grade": "2"
+    },
+    "sci_2_t3_l5": {
+      "local": true,
+      "filename": "sci_2_t3_l5",
+      "grade": "2"
+    },
     "அலகு 1: எனது உடல் (My Body)": {
       "local": true,
       "filename": "sci_4_t1_l1",
