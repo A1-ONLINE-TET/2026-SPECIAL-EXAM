@@ -2957,6 +2957,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "1. நமது சுற்றுச்சூழல்",
+                "isUpdated": true,
+                "code": "sci_3_t3_l1"
+              },
+              {
+                "title": "2. விலங்குகளின் வாழ்க்கை",
+                "isUpdated": true,
+                "code": "sci_3_t3_l2"
+              },
+              {
+                "title": "3. காற்று",
+                "isUpdated": true,
+                "code": "sci_3_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

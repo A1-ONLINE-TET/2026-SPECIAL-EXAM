@@ -781,8 +781,8 @@ export const lessonMap = {
   "science": {
     "நமது சுற்றுச்சூழல்": {
       "local": true,
-      "filename": "sci_2_t1_l1",
-      "grade": "2"
+      "filename": "sci_3_t3_l1",
+      "grade": "3"
     },
     "sci_2_t1_l1": {
       "local": true,
@@ -972,6 +972,31 @@ export const lessonMap = {
     "sci_3_t2_l3": {
       "local": true,
       "filename": "sci_3_t2_l3",
+      "grade": "3"
+    },
+    "sci_3_t3_l1": {
+      "local": true,
+      "filename": "sci_3_t3_l1",
+      "grade": "3"
+    },
+    "விலங்குகளின் வாழ்க்கை": {
+      "local": true,
+      "filename": "sci_3_t3_l2",
+      "grade": "3"
+    },
+    "sci_3_t3_l2": {
+      "local": true,
+      "filename": "sci_3_t3_l2",
+      "grade": "3"
+    },
+    "காற்று": {
+      "local": true,
+      "filename": "sci_3_t3_l3",
+      "grade": "3"
+    },
+    "sci_3_t3_l3": {
+      "local": true,
+      "filename": "sci_3_t3_l3",
       "grade": "3"
     },
     "அலகு 1: எனது உடல் (My Body)": {
