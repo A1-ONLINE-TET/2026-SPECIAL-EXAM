@@ -1069,6 +1069,16 @@ export const lessonMap = {
       "filename": "sci_4_t2_l3",
       "grade": "4"
     },
+    "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)": {
+      "local": true,
+      "filename": "sci_4_t3_l1",
+      "grade": "4"
+    },
+    "sci_4_t3_l1": {
+      "local": true,
+      "filename": "sci_4_t3_l1",
+      "grade": "4"
+    },
     "அலகு 1: உறுப்பு மண்டலங்கள்": {
       "local": true,
       "filename": "sci_5_t1_l1",
