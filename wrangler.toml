@@ -1,7 +1,0 @@
-name = "2026-special-exam"
-main = "PAPER 1/index.html" # Placeholder, though for static sites it's handled differently
-compatibility_date = "2024-04-30"
-
-[assets]
-directory = "./PAPER 1"
-binding = "ASSETS"
