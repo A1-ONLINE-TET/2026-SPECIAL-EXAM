@@ -3046,7 +3046,7 @@ export const syllabusData = {
               },
               {
                 "title": "2. நீர்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_6_t3_l2"
               },
               {
@@ -3270,7 +3270,7 @@ export const syllabusData = {
               },
               {
                 "title": "13. நீர்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_8_l13"
               },
               {

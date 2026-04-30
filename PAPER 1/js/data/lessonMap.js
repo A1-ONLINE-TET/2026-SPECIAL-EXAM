@@ -819,7 +819,7 @@ export const lessonMap = {
       "filename": "sci_2_t2_l1",
       "grade": "2"
     },
-    "நீர் மற்றும் ஐம்பூதங்கள்": {
+    "நீர்": {
       "local": true,
       "filename": "sci_2_t2_l2",
       "grade": "2"
