@@ -831,8 +831,8 @@ export const lessonMap = {
     },
     "நீர்": {
       "local": true,
-      "filename": "sci_2_t2_l2",
-      "grade": "2"
+      "filename": "sci_3_t2_l2",
+      "grade": "3"
     },
     "sci_2_t2_l2": {
       "local": true,
@@ -937,6 +937,31 @@ export const lessonMap = {
     "sci_3_t1_l3": {
       "local": true,
       "filename": "sci_3_t1_l3",
+      "grade": "3"
+    },
+    "உணவு": {
+      "local": true,
+      "filename": "sci_3_t2_l1",
+      "grade": "3"
+    },
+    "sci_3_t2_l1": {
+      "local": true,
+      "filename": "sci_3_t2_l1",
+      "grade": "3"
+    },
+    "sci_3_t2_l2": {
+      "local": true,
+      "filename": "sci_3_t2_l2",
+      "grade": "3"
+    },
+    "தாவரங்கள்": {
+      "local": true,
+      "filename": "sci_3_t2_l3",
+      "grade": "3"
+    },
+    "sci_3_t2_l3": {
+      "local": true,
+      "filename": "sci_3_t2_l3",
       "grade": "3"
     },
     "அன்றாட வாழ்வில் அறிவியல்": {

@@ -2932,6 +2932,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "1. உணவு",
+                "isUpdated": true,
+                "code": "sci_3_t2_l1"
+              },
+              {
+                "title": "2. நீர்",
+                "isUpdated": true,
+                "code": "sci_3_t2_l2"
+              },
+              {
+                "title": "3. தாவரங்கள்",
+                "isUpdated": true,
+                "code": "sci_3_t2_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [
