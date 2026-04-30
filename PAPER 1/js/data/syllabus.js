@@ -2848,7 +2848,7 @@ export const syllabusData = {
                 "code": "sci_2_t2_l1"
               },
               {
-                "title": "2. நீர் மற்றும் ஐம்பூதங்கள்",
+                "title": "2. நீர்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l2"
               },
