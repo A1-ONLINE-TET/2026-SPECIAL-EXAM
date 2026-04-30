@@ -3039,6 +3039,21 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல்",
+                "isUpdated": true,
+                "code": "sci_4_t3_l1"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [
