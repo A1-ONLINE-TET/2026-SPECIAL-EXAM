@@ -2794,6 +2794,38 @@ export const syllabusData = {
     ]
   },
   "science": {
+    "2": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடங்கள்",
+            "topics": [
+              {
+                "title": "1. நமது சுற்றுச்சூழல்",
+                "isUpdated": true,
+                "code": "sci_2_t1_l1"
+              },
+              {
+                "title": "2. எனது அற்புதமான உடல்",
+                "isUpdated": true,
+                "code": "sci_2_t1_l2"
+              },
+              {
+                "title": "3. நம்மைச் சுற்றியுள்ள தாவரங்கள்",
+                "isUpdated": true,
+                "code": "sci_2_t1_l3"
+              },
+              {
+                "title": "4. நம்மைச் சுற்றியுள்ள விலங்குகள்",
+                "isUpdated": true,
+                "code": "sci_2_t1_l4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,

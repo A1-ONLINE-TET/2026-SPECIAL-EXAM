@@ -940,6 +940,46 @@ export const lessonMap = {
     }
   },
   "science": {
+    "1. நமது சுற்றுச்சூழல்": {
+      "local": true,
+      "filename": "sci_2_t1_l1",
+      "grade": "2"
+    },
+    "sci_2_t1_l1": {
+      "local": true,
+      "filename": "sci_2_t1_l1",
+      "grade": "2"
+    },
+    "2. எனது அற்புதமான உடல்": {
+      "local": true,
+      "filename": "sci_2_t1_l2",
+      "grade": "2"
+    },
+    "sci_2_t1_l2": {
+      "local": true,
+      "filename": "sci_2_t1_l2",
+      "grade": "2"
+    },
+    "3. நம்மைச் சுற்றியுள்ள தாவரங்கள்": {
+      "local": true,
+      "filename": "sci_2_t1_l3",
+      "grade": "2"
+    },
+    "sci_2_t1_l3": {
+      "local": true,
+      "filename": "sci_2_t1_l3",
+      "grade": "2"
+    },
+    "4. நம்மைச் சுற்றியுள்ள விலங்குகள்": {
+      "local": true,
+      "filename": "sci_2_t1_l4",
+      "grade": "2"
+    },
+    "sci_2_t1_l4": {
+      "local": true,
+      "filename": "sci_2_t1_l4",
+      "grade": "2"
+    },
     "அலகு 1: எனது உடல் (My Body)": {
       "local": true,
       "filename": "sci_4_t1_l1",
