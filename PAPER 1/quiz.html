@@ -685,6 +685,41 @@
                 }
                 
                 questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                if (questions.length === 0 && data.தேர்வு_வினாக்கள்) {
+                    questions = data.தேர்வு_வினாக்கள்.map(q => {
+                        let opts = q.விருப்பங்கள் || q.ஆப்ஷன்கள் || q.options || [];
+                        let ansText = q.விடை || q.answer || "";
+                        let ansIdx = -1;
+                        if (typeof ansText === 'number') {
+                            ansIdx = ansText;
+                        } else {
+                            ansIdx = opts.findIndex(o => {
+                                let ot = typeof o === 'string' ? o.trim() : o;
+                                let at = typeof ansText === 'string' ? ansText.trim() : ansText;
+                                // sometimes option is "**C) இரண்டுக்கும்**"
+                                ot = ot.replace(/\*\*/g, '');
+                                at = at.replace(/\*\*/g, '');
+                                return ot === at;
+                            });
+                            if (ansIdx === -1 && typeof ansText === 'string') {
+                                let match = ansText.match(/^[\*]*([A-Da-d])[\)\.]/);
+                                if (match) {
+                                    let letter = match[1].toUpperCase();
+                                    if (letter === 'A') ansIdx = 0;
+                                    else if (letter === 'B') ansIdx = 1;
+                                    else if (letter === 'C') ansIdx = 2;
+                                    else if (letter === 'D') ansIdx = 3;
+                                }
+                            }
+                        }
+                        return {
+                            question: q.கேள்வி || q.question,
+                            options: opts.map(o => typeof o === 'string' ? o.replace(/\*\*/g, '') : o),
+                            answer: ansIdx,
+                            explanation: q.விளக்கம் || q.explanation
+                        };
+                    });
+                }
                 if (questions.length === 0 && parsedPYQ.length > 0) {
                     questions = parsedPYQ;
                 }

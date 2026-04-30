@@ -485,7 +485,14 @@
                     const title = meta.title || data.title || lessonId;
 
                     if (data) {
-                        const sections = data.sections || (data.material && data.material.sections);
+                        let sections = data.sections || (data.material && data.material.sections);
+                        if (!sections && data.பாடக்குறிப்புகள்) {
+                            sections = data.பாடக்குறிப்புகள்.map(p => ({
+                                title: p.தலைப்பு || p.title,
+                                content: p.விவரங்கள் || p.content,
+                                type: 'content'
+                            }));
+                        }
                         const summary = data.summary || (data.material && data.material.summary);
                         
                         const fullHeader = `${currentTheme.header} - ${title}`;
