@@ -3162,7 +3162,7 @@ export const syllabusData = {
               },
               {
                 "title": "4. காற்று",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_6_t2_l4"
               },
               {
@@ -3212,7 +3212,7 @@ export const syllabusData = {
               },
               {
                 "title": "5. அன்றாட வாழ்வில் தாவரங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_6_t3_l5"
               },
               {
@@ -3411,7 +3411,7 @@ export const syllabusData = {
               },
               {
                 "title": "11. காற்று",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_8_l11"
               },
               {
@@ -3466,7 +3466,7 @@ export const syllabusData = {
               },
               {
                 "title": "22. தாவரங்கள் மற்றும் விலங்குகளைப் பாதுகாத்தல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_8_l22"
               },
               {
@@ -3481,28 +3481,7 @@ export const syllabusData = {
     ]
   },
   "social": {
-    "1": [
-      {
-        "term": 1,
-        "units": [
-          {
-            "title": "பாடப்பகுதிகள்",
-            "topics": [
-              {
-                "title": "நல்ல குடிமகன்",
-                "isUpdated": true,
-                "code": "soc_1_t1_l3"
-              },
-              {
-                "title": "வளிமண்டலம்",
-                "isUpdated": true,
-                "code": "soc_1_t1_l4"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+
     "3": [
       {
         "term": 1,
@@ -4188,23 +4167,5 @@ export const syllabusData = {
       }
     ]
   },
-  "soc": {
-    "1": [
-      {
-        "term": 1,
-        "units": [
-          {
-            "title": "Units",
-            "topics": [
-              {
-                "title": "நல்ல குடிமகன் ",
-                "isUpdated": true,
-                "code": "soc_1_t1_l3"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+
 };
