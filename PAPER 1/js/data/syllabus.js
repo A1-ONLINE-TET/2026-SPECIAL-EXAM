@@ -2927,7 +2927,7 @@ export const syllabusData = {
               {
                 "title": "4. அன்றாட வாழ்வில் அறிவியல்",
                 "isUpdated": true,
-                "code": "sci_3_t2_l4"
+                "code": "sci_3_t1_l4"
               }
             ]
           }

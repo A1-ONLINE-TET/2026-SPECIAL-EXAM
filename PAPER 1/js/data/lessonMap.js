@@ -939,6 +939,16 @@ export const lessonMap = {
       "filename": "sci_3_t1_l3",
       "grade": "3"
     },
+    "அன்றாட வாழ்வில் அறிவியல்": {
+      "local": true,
+      "filename": "sci_3_t1_l4",
+      "grade": "3"
+    },
+    "sci_3_t1_l4": {
+      "local": true,
+      "filename": "sci_3_t1_l4",
+      "grade": "3"
+    },
     "உணவு": {
       "local": true,
       "filename": "sci_3_t2_l1",
@@ -962,16 +972,6 @@ export const lessonMap = {
     "sci_3_t2_l3": {
       "local": true,
       "filename": "sci_3_t2_l3",
-      "grade": "3"
-    },
-    "அன்றாட வாழ்வில் அறிவியல்": {
-      "local": true,
-      "filename": "sci_3_t2_l4",
-      "grade": "3"
-    },
-    "sci_3_t2_l4": {
-      "local": true,
-      "filename": "sci_3_t2_l4",
       "grade": "3"
     },
     "அலகு 1: எனது உடல் (My Body)": {
