@@ -2835,6 +2835,36 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
+            "topics": [
+              {
+                "title": "1. உணவும் உடல்நலமும்",
+                "isUpdated": true,
+                "code": "sci_2_t2_l1"
+              },
+              {
+                "title": "2. நீர் மற்றும் ஐம்பூதங்கள்",
+                "isUpdated": true,
+                "code": "sci_2_t2_l2"
+              },
+              {
+                "title": "3. நமது சமுதாயம்",
+                "isUpdated": true,
+                "code": "sci_2_t2_l3"
+              },
+              {
+                "title": "4. ஐம்பூதங்கள்",
+                "isUpdated": true,
+                "code": "sci_2_t2_l4"
+              }
+            ]
+          }
+        ]
       }
     ],
     "3": [
@@ -3026,7 +3056,7 @@ export const syllabusData = {
               },
               {
                 "title": "4. நமது சுற்றுச்சூழல்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_6_t3_l4"
               },
               {

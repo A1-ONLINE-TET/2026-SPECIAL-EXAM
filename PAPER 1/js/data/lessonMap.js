@@ -1,5 +1,90 @@
 export const lessonMap = {
   "tamil": {
+    "விளையாட்டு உலகம்": {
+      "local": true,
+      "filename": "tam_2_t1_l1",
+      "grade": "2"
+    },
+    "tam_2_t1_l1": {
+      "local": true,
+      "filename": "tam_2_t1_l1",
+      "grade": "2"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "tam_3_t1_l2",
+      "grade": "3"
+    },
+    "tam_2_t1_l2": {
+      "local": true,
+      "filename": "tam_2_t1_l2",
+      "grade": "2"
+    },
+    "சொல்லாதே சொல்லாதே": {
+      "local": true,
+      "filename": "tam_2_t1_l3",
+      "grade": "2"
+    },
+    "tam_2_t1_l3": {
+      "local": true,
+      "filename": "tam_2_t1_l3",
+      "grade": "2"
+    },
+    "நானும் நாங்களும்": {
+      "local": true,
+      "filename": "tam_2_t1_l4",
+      "grade": "2"
+    },
+    "tam_2_t1_l4": {
+      "local": true,
+      "filename": "tam_2_t1_l4",
+      "grade": "2"
+    },
+    "தமிழ் அமுது": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
+    },
+    "tam_3_t1_l1": {
+      "local": true,
+      "filename": "tam_3_t1_l1",
+      "grade": "3"
+    },
+    "tam_3_t1_l2": {
+      "local": true,
+      "filename": "tam_3_t1_l2",
+      "grade": "3"
+    },
+    "கண்ணன் செய்த உதவி": {
+      "local": true,
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
+    },
+    "tam_3_t1_l3": {
+      "local": true,
+      "filename": "tam_3_t1_l3",
+      "grade": "3"
+    },
+    "சின்னுவின் கதைப்பாடல்": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
+    },
+    "tam_3_t1_l4": {
+      "local": true,
+      "filename": "tam_3_t1_l4",
+      "grade": "3"
+    },
+    "பாட்டு வண்டியிலே...": {
+      "local": true,
+      "filename": "tam_3_t1_l5",
+      "grade": "3"
+    },
+    "tam_3_t1_l5": {
+      "local": true,
+      "filename": "tam_3_t1_l5",
+      "grade": "3"
+    },
     "அன்னைத் தமிழே *": {
       "local": true,
       "filename": "tam_4_t1_l1",
@@ -309,255 +394,69 @@ export const lessonMap = {
       "local": true,
       "filename": "tam_gram_01",
       "grade": "grammar"
-    },
-    "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
-      "local": true,
-      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
-      "grade": "தொடக்க வகுப்பு"
-    },
-    "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)": {
-      "local": true,
-      "filename": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
-      "grade": "தொடக்க வகுப்பு"
-    },
-    "tam_3_t1_l1": {
-      "local": true,
-      "filename": "tam_3_t1_l1",
-      "grade": "3"
-    },
-    "வா வா முயலே": {
-      "local": true,
-      "filename": "tam_3_t1_l1",
-      "grade": "3"
-    },
-    "tam_3_t1_l2": {
-      "local": true,
-      "filename": "tam_3_t1_l2",
-      "grade": "3"
-    },
-    "செய்து மகிழ்வோம்": {
-      "local": true,
-      "filename": "tam_2_t1_l2",
-      "grade": "2"
-    },
-    "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3": {
-      "local": true,
-      "filename": "tam_மூன்றாம் வகுப்பு_tமுதல் பருவம்_l3",
-      "grade": "மூன்றாம் வகுப்பு"
-    },
-    "கண்ணன் செய்த உதவி": {
-      "local": true,
-      "filename": "tam_3_t1_l3",
-      "grade": "3"
-    },
-    "tam_3_t1_l3": {
-      "local": true,
-      "filename": "tam_3_t1_l3",
-      "grade": "3"
-    },
-    "tam_3_t1_l4": {
-      "local": true,
-      "filename": "tam_3_t1_l4",
-      "grade": "3"
-    },
-    "சின்னுவின் கதைப்பாடல்": {
-      "local": true,
-      "filename": "tam_3_t1_l4",
-      "grade": "3"
-    },
-    "tam_3_t1_l5": {
-      "local": true,
-      "filename": "tam_3_t1_l5",
-      "grade": "3"
-    },
-    "பாட்டு வண்டியிலே...": {
-      "local": true,
-      "filename": "tam_3_t1_l5",
-      "grade": "3"
-    },
-    "தமிழ் அமுது": {
-      "local": true,
-      "filename": "tam_3_t1_l1",
-      "grade": "3"
-    },
-    "tam_2_t1_l1": {
-      "local": true,
-      "filename": "tam_2_t1_l1",
-      "grade": "2"
-    },
-    "விளையாட்டு உலகம்": {
-      "local": true,
-      "filename": "tam_2_t1_l1",
-      "grade": "2"
-    },
-    "tam_2_t1_l2": {
-      "local": true,
-      "filename": "tam_2_t1_l2",
-      "grade": "2"
-    },
-    "tam_2_t1_l3": {
-      "local": true,
-      "filename": "tam_2_t1_l3",
-      "grade": "2"
-    },
-    "சொல்லாதே சொல்லாதே": {
-      "local": true,
-      "filename": "tam_2_t1_l3",
-      "grade": "2"
-    },
-    "tam_2_t1_l4": {
-      "local": true,
-      "filename": "tam_2_t1_l4",
-      "grade": "2"
-    },
-    "நானும் நாங்களும்": {
-      "local": true,
-      "filename": "tam_2_t1_l4",
-      "grade": "2"
-    }
-  },
-  "revision": {
-    "rev_1_t1_l1": {
-      "local": true,
-      "filename": "rev_1_t1_l1",
-      "grade": "1"
-    },
-    "திருப்புதல் தேர்வு 1": {
-      "local": true,
-      "filename": "rev_special_180",
-      "grade": "all"
-    },
-    "rev_special_180": {
-      "local": true,
-      "filename": "rev_special_180",
-      "grade": "all"
-    },
-    "திருப்புதல் தேர்வு 2": {
-      "local": true,
-      "filename": "mock_test_2",
-      "grade": "all"
-    },
-    "mock_test_2": {
-      "local": true,
-      "filename": "mock_test_2",
-      "grade": "all"
-    },
-    "திருப்புதல் தேர்வு 3": {
-      "local": true,
-      "filename": "rev_special_3",
-      "grade": "all"
-    },
-    "rev_special_3": {
-      "local": true,
-      "filename": "rev_special_3",
-      "grade": "all"
-    },
-    "திருப்புதல் தேர்வு 4": {
-      "local": true,
-      "filename": "rev_special_4",
-      "grade": "all"
-    },
-    "rev_special_4": {
-      "local": true,
-      "filename": "rev_special_4",
-      "grade": "all"
-    }
-  },
-  "mocktest": {
-    "மாதிரித்தேர்வு 1": {
-      "local": true,
-      "filename": "mock_test_1",
-      "grade": "all"
-    },
-    "mock_test_1": {
-      "local": true,
-      "filename": "mock_test_1",
-      "grade": "all"
-    },
-    "மாதிரித்தேர்வு 4": {
-      "local": true,
-      "filename": "mock_test_4",
-      "grade": "all"
-    },
-    "mock_test_4": {
-      "local": true,
-      "filename": "mock_test_4",
-      "grade": "all"
-    },
-    "மாதிரித்தேர்வு 2": {
-      "local": true,
-      "filename": "model_test_2",
-      "grade": "all"
-    },
-    "model_test_2": {
-      "local": true,
-      "filename": "model_test_2",
-      "grade": "all"
-    },
-    "மாதிரித்தேர்வு 3": {
-      "local": true,
-      "filename": "mock_test_3",
-      "grade": "all"
-    },
-    "mock_test_3": {
-      "local": true,
-      "filename": "mock_test_3",
-      "grade": "all"
-    }
-  },
-  "standard_6_7_8": {
-    "முக்கிய குறிப்புகள் - பகுதி 1": {
-      "local": true,
-      "filename": "sample_678_notes_1",
-      "grade": "all"
-    },
-    "sample_678_notes_1": {
-      "local": true,
-      "filename": "sample_678_notes_1",
-      "grade": "all"
-    },
-    "முக்கிய குறிப்புகள் - பகுதி 2": {
-      "local": true,
-      "filename": "sample_678_notes_2",
-      "grade": "all"
-    },
-    "sample_678_notes_2": {
-      "local": true,
-      "filename": "sample_678_notes_2",
-      "grade": "all"
-    },
-    "முக்கிய குறிப்புகள் - பகுதி 3": {
-      "local": true,
-      "filename": "sample_678_notes_3",
-      "grade": "all"
-    },
-    "sample_678_notes_3": {
-      "local": true,
-      "filename": "sample_678_notes_3",
-      "grade": "all"
-    },
-    "முக்கிய குறிப்புகள் - பகுதி 4": {
-      "local": true,
-      "filename": "sample_678_notes_4",
-      "grade": "all"
-    },
-    "sample_678_notes_4": {
-      "local": true,
-      "filename": "sample_678_notes_4",
-      "grade": "all"
-    },
-    "முக்கிய குறிப்புகள் - பகுதி 5": {
-      "local": true,
-      "filename": "sample_678_notes_5",
-      "grade": "all"
-    },
-    "sample_678_notes_5": {
-      "local": true,
-      "filename": "sample_678_notes_5",
-      "grade": "all"
     }
   },
   "english": {
+    "Our Sweet Home": {
+      "local": true,
+      "filename": "eng_2_t1_l1",
+      "grade": "2"
+    },
+    "eng_2_t1_l1": {
+      "local": true,
+      "filename": "eng_2_t1_l1",
+      "grade": "2"
+    },
+    "Listen to Your Body & Magic Words": {
+      "local": true,
+      "filename": "eng_2_t1_l2",
+      "grade": "2"
+    },
+    "eng_2_t1_l2": {
+      "local": true,
+      "filename": "eng_2_t1_l2",
+      "grade": "2"
+    },
+    "Know Your Feelings": {
+      "local": true,
+      "filename": "eng_2_t1_l3",
+      "grade": "2"
+    },
+    "eng_2_t1_l3": {
+      "local": true,
+      "filename": "eng_2_t1_l3",
+      "grade": "2"
+    },
+    "Our Kitchen": {
+      "local": true,
+      "filename": "eng_3_t1_l1",
+      "grade": "3"
+    },
+    "eng_3_t1_l1": {
+      "local": true,
+      "filename": "eng_3_t1_l1",
+      "grade": "3"
+    },
+    "Small Creatures": {
+      "local": true,
+      "filename": "eng_3_t1_l2",
+      "grade": "3"
+    },
+    "eng_3_t1_l2": {
+      "local": true,
+      "filename": "eng_3_t1_l2",
+      "grade": "3"
+    },
+    "The World Around Us": {
+      "local": true,
+      "filename": "eng_3_t1_l3",
+      "grade": "3"
+    },
+    "eng_3_t1_l3": {
+      "local": true,
+      "filename": "eng_3_t1_l3",
+      "grade": "3"
+    },
     "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,
       "filename": "eng_4_t1_l1",
@@ -877,70 +776,10 @@ export const lessonMap = {
       "local": true,
       "filename": "eng_8_l9",
       "grade": "8"
-    },
-    "eng_3_t1_l1": {
-      "local": true,
-      "filename": "eng_3_t1_l1",
-      "grade": "3"
-    },
-    "Our Kitchen": {
-      "local": true,
-      "filename": "eng_3_t1_l1",
-      "grade": "3"
-    },
-    "eng_3_t1_l2": {
-      "local": true,
-      "filename": "eng_3_t1_l2",
-      "grade": "3"
-    },
-    "Small Creatures": {
-      "local": true,
-      "filename": "eng_3_t1_l2",
-      "grade": "3"
-    },
-    "eng_3_t1_l3": {
-      "local": true,
-      "filename": "eng_3_t1_l3",
-      "grade": "3"
-    },
-    "The World Around Us": {
-      "local": true,
-      "filename": "eng_3_t1_l3",
-      "grade": "3"
-    },
-    "eng_2_t1_l1": {
-      "local": true,
-      "filename": "eng_2_t1_l1",
-      "grade": "2"
-    },
-    "Our Sweet Home": {
-      "local": true,
-      "filename": "eng_2_t1_l1",
-      "grade": "2"
-    },
-    "eng_2_t1_l3": {
-      "local": true,
-      "filename": "eng_2_t1_l3",
-      "grade": "2"
-    },
-    "Know Your Feelings": {
-      "local": true,
-      "filename": "eng_2_t1_l3",
-      "grade": "2"
-    },
-    "eng_2_t1_l2": {
-      "local": true,
-      "filename": "eng_2_t1_l2",
-      "grade": "2"
-    },
-    "Listen to Your Body & Magic Words": {
-      "local": true,
-      "filename": "eng_2_t1_l2",
-      "grade": "2"
     }
   },
   "science": {
-    "1. நமது சுற்றுச்சூழல்": {
+    "நமது சுற்றுச்சூழல்": {
       "local": true,
       "filename": "sci_2_t1_l1",
       "grade": "2"
@@ -950,7 +789,7 @@ export const lessonMap = {
       "filename": "sci_2_t1_l1",
       "grade": "2"
     },
-    "2. எனது அற்புதமான உடல்": {
+    "எனது அற்புதமான உடல்": {
       "local": true,
       "filename": "sci_2_t1_l2",
       "grade": "2"
@@ -960,7 +799,7 @@ export const lessonMap = {
       "filename": "sci_2_t1_l2",
       "grade": "2"
     },
-    "3. நம்மைச் சுற்றியுள்ள தாவரங்கள்": {
+    "நம்மைச் சுற்றியுள்ள தாவரங்கள்": {
       "local": true,
       "filename": "sci_2_t1_l3",
       "grade": "2"
@@ -970,14 +809,44 @@ export const lessonMap = {
       "filename": "sci_2_t1_l3",
       "grade": "2"
     },
-    "4. நம்மைச் சுற்றியுள்ள விலங்குகள்": {
+    "உணவும் உடல்நலமும்": {
       "local": true,
-      "filename": "sci_2_t1_l4",
+      "filename": "sci_2_t2_l1",
       "grade": "2"
     },
-    "sci_2_t1_l4": {
+    "sci_2_t2_l1": {
       "local": true,
-      "filename": "sci_2_t1_l4",
+      "filename": "sci_2_t2_l1",
+      "grade": "2"
+    },
+    "நீர் மற்றும் ஐம்பூதங்கள்": {
+      "local": true,
+      "filename": "sci_2_t2_l2",
+      "grade": "2"
+    },
+    "sci_2_t2_l2": {
+      "local": true,
+      "filename": "sci_2_t2_l2",
+      "grade": "2"
+    },
+    "நமது சமுதாயம்": {
+      "local": true,
+      "filename": "sci_2_t2_l3",
+      "grade": "2"
+    },
+    "sci_2_t2_l3": {
+      "local": true,
+      "filename": "sci_2_t2_l3",
+      "grade": "2"
+    },
+    "ஐம்பூதங்கள்": {
+      "local": true,
+      "filename": "sci_2_t2_l4",
+      "grade": "2"
+    },
+    "sci_2_t2_l4": {
+      "local": true,
+      "filename": "sci_2_t2_l4",
       "grade": "2"
     },
     "அலகு 1: எனது உடல் (My Body)": {
@@ -1059,59 +928,49 @@ export const lessonMap = {
       "local": true,
       "filename": "sci_5_t1_l4",
       "grade": "5"
-    },
-    "1. அளவீட்டியல்": {
-      "local": true,
-      "filename": "sci_8_l1",
-      "grade": "8"
-    },
-    "sci_8_l1": {
-      "local": true,
-      "filename": "sci_8_l1",
-      "grade": "8"
-    },
-    "2. விசையும் அழுத்தமும்": {
-      "local": true,
-      "filename": "sci_8_l2",
-      "grade": "8"
-    },
-    "sci_8_l2": {
-      "local": true,
-      "filename": "sci_8_l2",
-      "grade": "8"
-    },
-    "3. ஒளியியல்": {
-      "local": true,
-      "filename": "sci_8_l3",
-      "grade": "8"
-    },
-    "sci_8_l3": {
-      "local": true,
-      "filename": "sci_8_l3",
-      "grade": "8"
-    },
-    "4. வெப்பம்": {
-      "local": true,
-      "filename": "sci_8_l4",
-      "grade": "8"
-    },
-    "sci_8_l4": {
-      "local": true,
-      "filename": "sci_8_l4",
-      "grade": "8"
-    },
-    "5. மின்னியல்": {
-      "local": true,
-      "filename": "sci_8_l5",
-      "grade": "8"
-    },
-    "sci_8_l5": {
-      "local": true,
-      "filename": "sci_8_l5",
-      "grade": "8"
     }
   },
   "social": {
+    "நல்ல குடிமகன்": {
+      "local": true,
+      "filename": "soc_5_t1_l3",
+      "grade": "5"
+    },
+    "soc_1_t1_l3": {
+      "local": true,
+      "filename": "soc_1_t1_l3",
+      "grade": "1"
+    },
+    "வளிமண்டலம்": {
+      "local": true,
+      "filename": "soc_5_t1_l4",
+      "grade": "5"
+    },
+    "soc_1_t1_l4": {
+      "local": true,
+      "filename": "soc_1_t1_l4",
+      "grade": "1"
+    },
+    "வா வா முயலே": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
+    },
+    "soc_3_t1_l1": {
+      "local": true,
+      "filename": "soc_3_t1_l1",
+      "grade": "3"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
+    },
+    "soc_3_t1_l2": {
+      "local": true,
+      "filename": "soc_3_t1_l2",
+      "grade": "3"
+    },
     "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
       "local": true,
       "filename": "soc_4_t1_l1",
@@ -1160,6 +1019,16 @@ export const lessonMap = {
     "soc_5_t1_l2": {
       "local": true,
       "filename": "soc_5_t1_l2",
+      "grade": "5"
+    },
+    "soc_5_t1_l3": {
+      "local": true,
+      "filename": "soc_5_t1_l3",
+      "grade": "5"
+    },
+    "soc_5_t1_l4": {
+      "local": true,
+      "filename": "soc_5_t1_l4",
       "grade": "5"
     },
     "வரலாறு என்றால் என்ன?": {
@@ -1252,88 +1121,20 @@ export const lessonMap = {
       "filename": "soc_8_l8",
       "grade": "8"
     },
-    "வரலாற்றை நோக்கி ": {
+    "soc_undefined_tundefined_lundefined": {
       "local": true,
-      "filename": "soc_5_t1_l2",
-      "grade": "5"
-    },
-    "நல்ல குடிமகன் ": {
-      "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
-    },
-    "soc_5_t1_l3": {
-      "local": true,
-      "filename": "soc_5_t1_l3",
-      "grade": "5"
-    },
-    "soc_1_t1_l3": {
-      "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
-    },
-    "நல்ல குடிமகன்": {
-      "local": true,
-      "filename": "soc_5_t1_l3",
-      "grade": "5"
-    },
-    "soc_5_t1_l4": {
-      "local": true,
-      "filename": "soc_5_t1_l4",
-      "grade": "5"
-    },
-    "வளிமண்டலம்": {
-      "local": true,
-      "filename": "soc_5_t1_l4",
-      "grade": "5"
-    },
-    "soc_1_t1_l4": {
-      "local": true,
-      "filename": "soc_1_t1_l4",
-      "grade": "1"
-    },
-    "Untitled": {
-      "local": true,
-      "filename": "soc_5_t1_l4",
-      "grade": "5"
-    },
-    "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
-      "local": true,
-      "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
-      "grade": "தொடக்க வகுப்பு"
+      "filename": "soc_undefined_tundefined_lundefined",
+      "grade": "undefined"
     },
     "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)": {
       "local": true,
       "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
       "grade": "தொடக்க வகுப்பு"
     },
-    "soc_3_t1_l1": {
+    "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1": {
       "local": true,
-      "filename": "soc_3_t1_l1",
-      "grade": "3"
-    },
-    "வா வா முயலே": {
-      "local": true,
-      "filename": "soc_3_t1_l1",
-      "grade": "3"
-    },
-    "soc_3_t1_l2": {
-      "local": true,
-      "filename": "soc_3_t1_l2",
-      "grade": "3"
-    },
-    "செய்து மகிழ்வோம்": {
-      "local": true,
-      "filename": "soc_3_t1_l2",
-      "grade": "3"
-    },
-    "soc_undefined_tundefined_lundefined": {
-      "local": true,
-      "filename": "soc_undefined_tundefined_lundefined"
-    },
-    "undefined": {
-      "local": true,
-      "filename": "soc_undefined_tundefined_lundefined"
+      "filename": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1",
+      "grade": "தொடக்க வகுப்பு"
     }
   },
   "psychology": {
@@ -1379,6 +1180,66 @@ export const lessonMap = {
     }
   },
   "maths": {
+    "வடிவியல்": {
+      "local": true,
+      "filename": "mat_2_t1_l1",
+      "grade": "2"
+    },
+    "mat_2_t1_l1": {
+      "local": true,
+      "filename": "mat_2_t1_l1",
+      "grade": "2"
+    },
+    "எண்கள் 1 இலிருந்து 99 வரை": {
+      "local": true,
+      "filename": "mat_2_t1_l2",
+      "grade": "2"
+    },
+    "mat_2_t1_l2": {
+      "local": true,
+      "filename": "mat_2_t1_l2",
+      "grade": "2"
+    },
+    "அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_2_t1_l3",
+      "grade": "2"
+    },
+    "mat_2_t1_l3": {
+      "local": true,
+      "filename": "mat_2_t1_l3",
+      "grade": "2"
+    },
+    "அளவைகள்": {
+      "local": true,
+      "filename": "mat_2_t1_l4",
+      "grade": "2"
+    },
+    "mat_2_t1_l4": {
+      "local": true,
+      "filename": "mat_2_t1_l4",
+      "grade": "2"
+    },
+    "காலம்": {
+      "local": true,
+      "filename": "mat_2_t1_l5",
+      "grade": "2"
+    },
+    "mat_2_t1_l5": {
+      "local": true,
+      "filename": "mat_2_t1_l5",
+      "grade": "2"
+    },
+    "தகவல் செயலாக்கம்": {
+      "local": true,
+      "filename": "mat_2_t1_l6",
+      "grade": "2"
+    },
+    "mat_2_t1_l6": {
+      "local": true,
+      "filename": "mat_2_t1_l6",
+      "grade": "2"
+    },
     "அலகு 1: வடிவியல்": {
       "local": true,
       "filename": "mat_5_t1_l1",
@@ -1518,78 +1379,6 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_6_t1_l9",
       "grade": "6"
-    },
-    "mat_2_t1_l1": {
-      "local": true,
-      "filename": "mat_2_t1_l1",
-      "grade": "2"
-    },
-    "வடிவியல்": {
-      "local": true,
-      "filename": "mat_2_t1_l1",
-      "grade": "2"
-    },
-    "mat_2_t1_l2": {
-      "local": true,
-      "filename": "mat_2_t1_l2",
-      "grade": "2"
-    },
-    "எண்கள் 1 இலிருந்து 99 வரை": {
-      "local": true,
-      "filename": "mat_2_t1_l2",
-      "grade": "2"
-    },
-    "mat_2_t1_l3": {
-      "local": true,
-      "filename": "mat_2_t1_l3",
-      "grade": "2"
-    },
-    "அமைப்புகள்": {
-      "local": true,
-      "filename": "mat_2_t1_l3",
-      "grade": "2"
-    },
-    "mat_2_t1_l4": {
-      "local": true,
-      "filename": "mat_2_t1_l4",
-      "grade": "2"
-    },
-    "அளவைகள்": {
-      "local": true,
-      "filename": "mat_2_t1_l4",
-      "grade": "2"
-    },
-    "mat_2_t1_l5": {
-      "local": true,
-      "filename": "mat_2_t1_l5",
-      "grade": "2"
-    },
-    "காலம்": {
-      "local": true,
-      "filename": "mat_2_t1_l5",
-      "grade": "2"
-    },
-    "mat_2_t1_l6": {
-      "local": true,
-      "filename": "mat_2_t1_l6",
-      "grade": "2"
-    },
-    "தகவல் செயலாக்கம்": {
-      "local": true,
-      "filename": "mat_2_t1_l6",
-      "grade": "2"
-    }
-  },
-  "soc": {
-    "soc_1_t1_l3": {
-      "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
-    },
-    "நல்ல குடிமகன் ": {
-      "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
     }
   }
 };

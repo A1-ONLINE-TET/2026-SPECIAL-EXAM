@@ -84,7 +84,7 @@ if (fs.existsSync(localDbPath)) {
                 } else if (item.endsWith('.json')) {
                     try {
                         const content = JSON.parse(fs.readFileSync(itemPath, 'utf8'));
-                        const title = content.title || (content.lesson_meta && content.lesson_meta.title);
+                        const title = content.title || (content.lesson_meta && content.lesson_meta.title) || content.பாட_தலைப்பு;
                         const filename = item.replace('.json', '');
                         const entry = { local: true, filename };
                         if (grade) entry.grade = grade;
