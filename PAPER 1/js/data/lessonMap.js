@@ -1039,6 +1039,36 @@ export const lessonMap = {
       "filename": "sci_4_t1_l4",
       "grade": "4"
     },
+    "அலகு 1: உணவு": {
+      "local": true,
+      "filename": "sci_4_t2_l1",
+      "grade": "4"
+    },
+    "sci_4_t2_l1": {
+      "local": true,
+      "filename": "sci_4_t2_l1",
+      "grade": "4"
+    },
+    "அலகு 2: நீர்": {
+      "local": true,
+      "filename": "sci_4_t2_l2",
+      "grade": "4"
+    },
+    "sci_4_t2_l2": {
+      "local": true,
+      "filename": "sci_4_t2_l2",
+      "grade": "4"
+    },
+    "அலகு 3: தாவரங்கள்": {
+      "local": true,
+      "filename": "sci_4_t2_l3",
+      "grade": "4"
+    },
+    "sci_4_t2_l3": {
+      "local": true,
+      "filename": "sci_4_t2_l3",
+      "grade": "4"
+    },
     "அலகு 1: உறுப்பு மண்டலங்கள்": {
       "local": true,
       "filename": "sci_5_t1_l1",
