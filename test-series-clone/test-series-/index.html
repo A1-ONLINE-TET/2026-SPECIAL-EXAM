@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Coaching Centre - Dashboard (Trial)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --primary-light: #e8f0fe;
+            --primary-dark: #0f42b3;
+            --secondary: #10b981;
+            --accent: #ff6d00;
+            --danger: #ea4335;
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow: 0 12px 24px -6px rgba(15, 23, 42, 0.05), 0 4px 6px -2px rgba(15, 23, 42, 0.03);
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 1rem; width: 100%; }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.98);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02), 0 10px 20px -5px rgba(0,0,0,0.02);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .brand { text-decoration: none; display: flex; align-items: center; gap: 0.6rem; }
+
+        /* Announcement Ticker */
+        .announcement-ticker {
+            background: #eef2ff;
+            color: #312e81;
+            padding: 0.65rem 0;
+            overflow: hidden;
+            position: relative;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #c7d2fe;
+        }
+
+        .ticker-content {
+            display: inline-flex;
+            padding-left: 100%;
+            animation: ticker 35s linear infinite;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        @keyframes ticker {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-100%, 0, 0); }
+        }
+
+        .ticker-content span { margin-right: 80px; }
+        .ticker-content strong { color: var(--accent); font-weight: 800; }
+
+        /* Section Header */
+        .section-header {
+            margin: 2rem 0 1rem;
+            font-size: 1.3rem;
+            color: var(--text-main);
+            font-weight: 800;
+        }
+
+        /* Subject Grid */
+        .subject-row {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+
+        .subject-card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            text-decoration: none;
+            color: inherit;
+            border-radius: 12px;
+            background: white;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            transition: 0.2s;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 1.2rem;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+        .subject-icon {
+            width: 45px;
+            height: 45px;
+            background: #f1f5f9;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+
+        /* Themes */
+        .tamil { background: linear-gradient(145deg, #fff1f2, #ffe4e6); border-bottom: 5px solid #e11d48; }
+        .english { background: linear-gradient(145deg, #f0f9ff, #e0f2fe); border-bottom: 5px solid #0284c7; }
+        .maths { background: linear-gradient(145deg, #f0fdfa, #ccfbf1); border-bottom: 5px solid #0d9488; }
+        .environmental { background: linear-gradient(145deg, #f0fdf4, #dcfce7); border-bottom: 5px solid #16a34a; }
+        .social { background: linear-gradient(145deg, #eef2ff, #e0e7ff); border-bottom: 5px solid #4f46e5; }
+        .psychology { background: linear-gradient(145deg, #faf5ff, #f3e8ff); border-bottom: 5px solid #9333ea; }
+        .revision { background: linear-gradient(145deg, #fffbeb, #fef3c7); border-bottom: 5px solid #d97706; }
+        .model { background: linear-gradient(145deg, #ecfeff, #cffafe); border-bottom: 5px solid #0891b2; }
+
+        .subject-card h3 { font-size: 1rem; font-weight: 700; margin: 0; }
+
+        /* Marquee Styles */
+        .marquee-container {
+            position: sticky;
+            top: 60px; /* Aligned with Navbar */
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .marquee-box {
+            background: linear-gradient(90deg, #1e293b, #334155);
+            color: #fbbf24; /* Gold text */
+            padding: 10px 0;
+            font-weight: 700;
+            font-size: 0.9rem;
+            overflow: hidden;
+            white-space: nowrap;
+            border-bottom: 2px solid #fbbf24;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 35s linear infinite;
+        }
+
+        /* Full Screen Notes View */
+        .notes-view {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            color: var(--text-main);
+            z-index: 5000;
+            display: flex;
+            flex-direction: column;
+            animation: slideInUp 0.3s ease-out;
+        }
+
+        .notes-header {
+            background: white;
+            padding: 1rem 5%;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 2px solid #f1f5f9;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+        }
+
+        .notes-body {
+            flex: 1;
+            padding: 1.5rem 5%;
+            overflow-y: auto;
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+
+        .btn-back-square {
+            background: #f1f5f9;
+            color: #1e293b;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-back-square:hover { background: #e2e8f0; }
+
+        .lesson-action-btn {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: 0.2s;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* Icon logic */
+        .subject-card .subject-icon { display: none; }
+        .subject-card.revision.active .subject-icon { display: flex; width: 40px; height: 40px; font-size: 1.25rem; margin-bottom: 0.5rem; }
+
+        /* Disabled State */
+        .disabled {
+            filter: grayscale(1);
+            opacity: 0.6;
+            cursor: pointer;
+            pointer-events: auto; /* Allow click to show message */
+        }
+        .disabled::after {
+            content: "🔒";
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 1rem;
+        }
+
+        /* Floating Buttons */
+        .float-btns {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 2000;
+        }
+
+        .paid-btn {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 1rem;
+            font-weight: 800;
+            box-shadow: 0 10px 20px rgba(16,185,129,0.3);
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 300px;
+            font-size: 1.1rem;
+            margin: 2rem auto;
+            transition: var(--transition);
+        }
+        .paid-btn:hover { transform: scale(1.02); }
+
+        .call-btn {
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 15px rgba(26,115,232,0.3);
+            text-decoration: none;
+        }
+
+        /* Modal */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            background: white; padding: 2.5rem; border-radius: 2rem; text-align: center;
+            width: 92%; max-width: 420px;
+            border: 4px solid var(--secondary);
+            animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        #paidModal .modal-content {
+            background: linear-gradient(135deg, #f59e0b, #ef4444, #ec4899);
+            color: white; padding: 3rem; border: none;
+            box-shadow: 0 25px 50px -12px rgba(239, 68, 68, 0.4);
+            animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes modalPop {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .paid-alert-btn {
+            background: white; color: #ef4444; padding: 1rem 2.5rem; border-radius: 50px;
+            font-weight: 900; border: none; margin-top: 1.5rem; cursor: pointer;
+            text-transform: uppercase; transition: var(--transition);
+        }
+        .paid-alert-btn:hover { background: #fee2e2; transform: translateY(-3px); }
+
+        /* Logo Animation */
+        .brand-logo {
+            width: 45px; height: 45px; object-fit: contain;
+            animation: logoPulse 2s infinite ease-in-out;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+        @keyframes logoPulse {
+            0% { transform: scale(1); filter: brightness(1); }
+            50% { transform: scale(1.1); filter: brightness(1.1); }
+            100% { transform: scale(1); filter: brightness(1); }
+        }
+
+        /* Toast Styling */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+            color: #fff;
+            text-align: center;
+            border-radius: 12px;
+            padding: 12px;
+            position: fixed;
+            z-index: 5000;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-size: 0.85rem;
+            font-weight: 800;
+            box-shadow: 0 10px 25px rgba(239, 68, 68, 0.4);
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from { bottom: 0; opacity: 0; }
+            to { bottom: 30px; opacity: 1; }
+        }
+
+        @keyframes fadeout {
+            from { bottom: 30px; opacity: 1; }
+            to { bottom: 0; opacity: 0; }
+        }
+
+        /* General Modal */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+        #modal .modal-content {
+            background: white; padding: 2rem; border-radius: 1.5rem; text-align: center;
+            width: 90%; max-width: 400px; border: 4px solid var(--secondary);
+        }
+
+        /* Timer for Index with Typewriter */
+        .live-timer {
+            background: #fff1f2;
+            color: #e11d48;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 900;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 1rem;
+            border: 2px solid #fecdd3;
+            box-shadow: 0 4px 10px rgba(225, 29, 72, 0.1);
+            max-width: 100%;
+        }
+
+        #idx-time {
+            display: inline-block;
+            overflow: hidden;
+            border-right: 2px solid #e11d48;
+            white-space: nowrap;
+            animation: typing-index 4s steps(30, end) infinite, blink-index 0.7s step-end infinite;
+        }
+
+        @keyframes typing-index {
+            0% { width: 0 }
+            50% { width: 100% }
+            100% { width: 100% }
+        }
+
+        @keyframes blink-index {
+            from, to { border-color: transparent }
+            50% { border-color: #e11d48 }
+        }
+
+        @media (max-width: 600px) {
+            .subject-row { 
+                grid-template-columns: 1fr; 
+                gap: 0.5rem; 
+            }
+            .container { padding: 0.75rem; }
+            .section-header { font-size: 1rem; margin: 1.25rem 0 0.5rem; }
+            .live-timer { font-size: 0.75rem; padding: 0.35rem 0.6rem; margin-bottom: 0.5rem; }
+            .subject-card { padding: 0.85rem 1rem; flex-direction: row; justify-content: flex-start; gap: 1rem; }
+            .subject-card h3 { font-size: 0.95rem; }
+            .brand-logo { width: 35px !important; height: 35px !important; font-size: 1.2rem !important; }
+            .brand span:first-child { font-size: 1.1rem !important; }
+            .navbar { padding: 0.5rem 0; }
+            .revision .subject-icon { width: 32px !important; height: 32px !important; font-size: 1rem !important; margin: 0 !important; }
+        }
+    </style>
+</head>
+<body>
+    <div id="mobile-wrapper">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="brand">
+                    <img src="images/logo.png" class="brand-logo" alt="Logo">
+                    <div style="display: flex; flex-direction: column;">
+                        <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1;">COACHING</span>
+                        <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase;">TNPSC & TET EXPERTS</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Combined Sticky Notification Center -->
+        <div class="marquee-container">
+            <!-- Exam Marquee -->
+            <div class="marquee-box">
+                <div class="marquee-content">
+                    📢 ஐந்தாம் வகுப்பு முதல் பருவம் ஆங்கிலப் பாடங்கள் (A World with Robots, My Hobbies) பதிவேற்றப்பட்டுள்ளது. &nbsp; | &nbsp; 📝 தேர்வு தயாராகுங்கள்! &nbsp; | &nbsp; 📞 உதவிக்கு: 6369371452
+                </div>
+            </div>
+            <!-- Announcement Ticker -->
+            <div class="announcement-ticker">
+                <div class="ticker-content">
+                    <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
+                    <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
+                </div>
+            </div>
+        </div>
+
+        <main class="container">
+        
+        <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
+        <div class="subject-row">
+            <div onclick="paidOnly()" class="subject-card tamil disabled">
+                <div class="subject-icon">📚</div>
+                <h3>தமிழ்</h3>
+            </div>
+
+            <div onclick="paidOnly()" class="subject-card maths disabled">
+                <div class="subject-icon">📐</div>
+                <h3>கணிதம்</h3>
+            </div>
+            <div onclick="showClasses('Science')" class="subject-card environmental">
+                <div class="subject-icon">🌱</div>
+                <h3>அறிவியல்</h3>
+            </div>
+            <div onclick="paidOnly()" class="subject-card social disabled">
+                <div class="subject-icon">🌍</div>
+                <h3>சமூக அறிவியல்</h3>
+            </div>
+        </div>
+
+        <!-- Grade Selection (Hidden by default) -->
+        <div id="classSelection" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
+            <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
+                <h2 class="section-header" id="selectedSubjectTitle" style="margin: 0; text-align: center;">வகுப்புகள்</h2>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">1️⃣</div>
+                    <h3>வகுப்பு 1</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">2️⃣</div>
+                    <h3>வகுப்பு 2</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">3️⃣</div>
+                    <h3>வகுப்பு 3</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">4️⃣</div>
+                    <h3>வகுப்பு 4</h3>
+                </div>
+                <div onclick="showLessons(5)" class="subject-card" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: var(--primary-light); border: 2px solid var(--primary);">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px; background: var(--primary); color: white;">5️⃣</div>
+                    <h3>வகுப்பு 5</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">6️⃣</div>
+                    <h3>வகுப்பு 6</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson List (Hidden by default) -->
+        <div id="lessonList" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
+            <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+                <h2 class="section-header" id="lessonGradeTitle" style="margin: 0; text-align: center;">பாடங்கள்</h2>
+            </div>
+            <div id="lessonsContainer" style="display: flex; flex-direction: column; gap: 20px;">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+
+        <h2 class="section-header">⭐ சிறப்புப் பகுதிகள்</h2>
+        <div class="subject-row">
+            <div onclick="paidOnly()" class="subject-card psychology disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px;">🧠</div>
+                <h3>உளவியல்</h3>
+            </div>
+            <div onclick="paidOnly()" class="subject-card social disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px;">📚</div>
+                <h3>6 முதல் 8 வகுப்பு வரை</h3>
+            </div>
+            <div onclick="paidOnly()" class="subject-card revision disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #d97706; color: white;">🔄</div>
+                <h3>திருப்புதல் தேர்வு</h3>
+            </div>
+            <div onclick="paidOnly()" class="subject-card model disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #0891b2; color: white;">📝</div>
+                <h3>மாதிரித்தேர்வு</h3>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 1rem;">
+            <button onclick="document.getElementById('modal').style.display='flex'" class="paid-btn">
+                PAID GROUP - இணைய
+            </button>
+            <p style="font-size: 0.7rem; color: #94a3b8; margin-top: 10px;">v2.1 - Dashboard Ready</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #fef08a, #eab308); padding: 1.5rem; border-radius: 1.25rem; text-align: center; margin-top: 2rem;">
+            <p style="font-weight: 800; margin: 0;">GPAY: 8883464252 | CALL: 6369371452</p>
+        </div>
+
+    </main>
+
+    <div class="float-btns">
+        <a href="tel:6369371452" class="call-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </a>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" onclick="if(event.target==this) this.style.display='none'">
+        <div class="modal-content">
+            <h2 style="color: var(--primary);">Paid Group</h2>
+            <p style="margin: 1rem 0; font-weight: 600;">அனைத்து பாடங்களையும் அணுக ₹500 மட்டும் செலுத்தி இணைந்து கொள்ளலாம்.</p>
+            <p style="font-weight: 800; color: var(--accent);">GPay: 8883464252</p>
+            <button onclick="window.open('https://wa.me/916369371452', '_blank')" style="margin-top: 1rem;">WhatsApp மூலம் இணைய</button>
+        </div>
+    </div>
+
+    <!-- Full Screen Study Notes View -->
+    <div id="notesView" class="notes-view" style="display: none;">
+        <div class="notes-header">
+            <button class="btn-back-square" onclick="hideNotes()">⬅</button>
+            <h2 id="notesTitle" style="color: var(--primary); margin: 0; font-size: 1.25rem;">பாடக்குறிப்புகள்</h2>
+        </div>
+        <div class="notes-body" id="notesContent">
+        </div>
+    </div>
+
+    <div id="toast">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)</div>
+
+    </div>
+
+    <script>
+        function openExam(testFile) {
+            const now = new Date();
+            const deadline = new Date("2026-04-17T12:00:00");
+            if (now > deadline) return alert("தேர்வு முடிவடைந்துவிட்டது! (Exam Closed at 12:00 PM)");
+            window.location.href = `exam.html?test=${testFile || 'model_test_2.json'}`;
+        }
+
+        function paidOnly() {
+            const x = document.getElementById("toast");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+
+        let activeSubject = "";
+
+        function showClasses(subject) {
+            activeSubject = subject;
+            document.getElementById('selectedSubjectTitle').innerText = `${subject === 'Tamil' ? 'தமிழ்' : subject === 'Science' ? 'அறிவியல்' : subject} - வகுப்புகள்`;
+            document.querySelectorAll('.section-header, .subject-row, .float-btns').forEach(el => el.style.display = 'none');
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('stickyBackBtn').style.display = 'flex';
+            document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function hideClasses() {
+            document.getElementById('classSelection').style.display = 'none';
+            document.getElementById('stickyBackBtn').style.display = 'none';
+            document.querySelectorAll('.section-header, .subject-row, .float-btns').forEach(el => {
+                el.style.display = (el.tagName === 'H2' ? 'block' : (el.classList.contains('float-btns') ? 'block' : 'flex'));
+            });
+        }
+
+        function hideLessons() {
+            document.getElementById('lessonList').style.display = 'none';
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
+        }
+
+        async function showLessons(grade) {
+            if (activeSubject === 'Science' && grade === 5) {
+                document.getElementById('classSelection').style.display = 'none';
+                const lessonList = document.getElementById('lessonList');
+                lessonList.style.setProperty('display', 'block', 'important');
+                document.getElementById('lessonGradeTitle').innerText = "பாடங்கள் - வகுப்பு 5 அறிவியல் (பருவம் 1)";
+                
+                document.getElementById('lessonsContainer').innerHTML = `
+                <div style="background:white; border-left: 5px solid #10b981; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <h3 style="color:#10b981; font-size: 1.3rem; margin:0 0 1rem 0;">1. உறுப்பு மண்டலங்கள்</h3>
+                    <div style="display:flex; flex-direction: column; gap:10px;">
+                        <button onclick="showNotes('1.json')" class="lesson-action-btn" style="background:#ecfdf5; color:#047857; border: 2.5px solid #a7f3d0; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                    </div>
+                </div>
+                <div style="background:white; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-top: 20px;">
+                    <h3 style="color:#3b82f6; font-size: 1.3rem; margin:0 0 1rem 0;">2. பருப்பொருட்கள் மற்றும் மூலப்பொருட்கள்</h3>
+                    <div style="display:flex; flex-direction: column; gap:10px;">
+                        <button onclick="showNotes('2.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('2.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                    </div>
+                </div>
+                <div style="background:white; border-left: 5px solid #8b5cf6; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-top: 20px;">
+                    <h3 style="color:#8b5cf6; font-size: 1.3rem; margin:0 0 1rem 0;">3. ஆற்றல்</h3>
+                    <div style="display:flex; flex-direction: column; gap:10px;">
+                        <button onclick="showNotes('3.json')" class="lesson-action-btn" style="background:#f5f3ff; color:#6d28d9; border: 2.5px solid #c4b5fd; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                    </div>
+                </div>
+                <div style="background:white; border-left: 5px solid #f59e0b; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-top: 20px;">
+                    <h3 style="color:#f59e0b; font-size: 1.3rem; margin:0 0 1rem 0;">4. அன்றாட வாழ்வில் அறிவியல்</h3>
+                    <div style="display:flex; flex-direction: column; gap:10px;">
+                        <button onclick="showNotes('4.json')" class="lesson-action-btn" style="background:#fef3c7; color:#b45309; border: 2.5px solid #fcd34d; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('4.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                    </div>
+                </div>
+                <div style="height: 120px;"></div>
+                `;
+                
+                document.getElementById('stickyBackBtn').style.display = 'flex';
+                document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            } else {
+                alert("வகுப்பு " + grade + " ற்கான பாடங்கள் இன்னும் சேர்க்கப்படவில்லை.");
+            }
+        }
+
+        async function showNotes(lessonFile) {
+            try {
+                const res = await fetch(lessonFile);
+                const data = await res.json();
+                
+                if (data.lesson_meta) {
+                    document.getElementById('notesTitle').innerText = data.lesson_meta.title;
+                    document.getElementById('notesTitle').style.color = '#1e3a8a';
+                    let contentHtml = "";
+                    data.study_notes.forEach(section => {
+                        contentHtml += `<div style="margin-bottom: 2rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 1rem;">
+                            <h4 style="color: #15803d; margin-bottom: 0.8rem; font-size: 1.15rem; display: flex; align-items: center; gap: 10px;">
+                                <span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem;">⭐</span>
+                                ${section.heading}
+                            </h4>
+                            <ul style="padding-left: 1rem; list-style: none;">
+                                ${section.points.map(p => {
+                                    let parts = p.split(/([-:×x])/);
+                                    let processedLine = "";
+                                    if(parts.length > 1) {
+                                        processedLine = `<span style="color: #0f172a;">${parts[0]}</span><span style="color: #db2777; font-weight:700;">${parts.slice(1).join('')}</span>`;
+                                    } else {
+                                        processedLine = `<span style="color: #0f172a;">${p}</span>`;
+                                    }
+                                    return `<li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; line-height: 1.6;">
+                                        <span style="position: absolute; left: 0; color: #15803d;">✦</span>
+                                        ${processedLine}
+                                    </li>`;
+                                }).join('')}
+                            </ul>
+                        </div>`;
+                    });
+                    document.getElementById('notesContent').innerHTML = contentHtml;
+                } else if (data["பாட_தலைப்பு"]) {
+                    document.getElementById('notesTitle').innerText = data["பாட_தலைப்பு"];
+                    document.getElementById('notesTitle').style.color = '#1e3a8a';
+                    let contentHtml = "";
+                    const targetObj = data["பாடக்குறிப்புகள்"];
+                    
+                    for (const [key, val] of Object.entries(targetObj)) {
+                        if (key === "மதிப்பீட்டு_பகுதி_வினாக்கள்" || key === "பாட_பின்புற_மதிப்பீட்டு_வினாக்கள்") continue; 
+                        
+                        let heading = key.replace(/_/g, " ");
+                        contentHtml += `<div style="margin-bottom: 2rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 1rem;">
+                            <h4 style="color: #15803d; margin-bottom: 0.8rem; font-size: 1.15rem; display: flex; align-items: center; gap: 10px;">
+                                <span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem;">⭐</span>
+                                ${heading}
+                            </h4>`;
+                            
+                        if (Array.isArray(val)) {
+                            contentHtml += `<ul style="padding-left: 1rem; list-style: none;">
+                                ${val.map(p => `<li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; line-height: 1.6;">
+                                    <span style="position: absolute; left: 0; color: #15803d;">✦</span>
+                                    <span style="color: #0f172a;">${p}</span>
+                                </li>`).join('')}
+                            </ul>`;
+                        } else if (typeof val === 'object') {
+                            contentHtml += `<div style="padding-left: 0.5rem;">`;
+                            for (const [subKey, subVal] of Object.entries(val)) {
+                                contentHtml += `<h5 style="color: #b45309; margin-bottom: 0.5rem; font-size: 1.05rem;">✔ ${subKey.replace(/_/g, " ")}</h5>`;
+                                if (Array.isArray(subVal)) {
+                                    contentHtml += `<ul style="padding-left: 1rem; list-style: none; margin-bottom: 1rem;">
+                                        ${subVal.map(p => `<li style="margin-bottom: 0.6rem; padding-left: 1.5rem; position: relative; line-height: 1.6;">
+                                            <span style="position: absolute; left: 0; color: #1e40af;">➤</span>
+                                            <span style="color: #0f172a;">${p}</span>
+                                        </li>`).join('')}
+                                    </ul>`;
+                                }
+                            }
+                            contentHtml += `</div>`;
+                        } else if (typeof val === 'string') {
+                            contentHtml += `<p style="color: #0f172a; line-height: 1.6; padding-left: 0.5rem; margin-bottom: 1rem;">${val}</p>`;
+                        }
+                        
+                        contentHtml += `</div>`;
+                    }
+                    document.getElementById('notesContent').innerHTML = contentHtml;
+                }
+                
+                document.getElementById('notesView').style.display = 'flex';
+                document.body.style.overflow = 'hidden'; 
+            } catch (e) {
+                console.error(e);
+                alert("பாடக்குறிப்புகளை வாசிப்பதில் பிழை!");
+            }
+        }
+
+        function hideNotes() {
+            document.getElementById('notesView').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // --- Index Timer ---
+        const deadline = new Date("April 12, 2026 17:00:00").getTime();
+        function updateIndexTimer() {
+            const now = new Date().getTime();
+            const diff = deadline - now;
+            const el = document.getElementById('idx-time');
+            if (diff <= 0) {
+                el.innerText = "தேர்வு முடிந்தது";
+                return;
+            }
+            const h = Math.floor((diff / (1000 * 60 * 60)));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+            el.innerText = `${h} மணி ${m} நிமி ${s} நொடி மீதம்`;
+        }
+        setInterval(updateIndexTimer, 1000);
+        updateIndexTimer();
+    </script>
+</body>
+</html>

@@ -1079,6 +1079,16 @@ export const lessonMap = {
       "filename": "sci_4_t3_l1",
       "grade": "4"
     },
+    "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)": {
+      "local": true,
+      "filename": "sci_4_t3_l2",
+      "grade": "4"
+    },
+    "sci_4_t3_l2": {
+      "local": true,
+      "filename": "sci_4_t3_l2",
+      "grade": "4"
+    },
     "அலகு 1: உறுப்பு மண்டலங்கள்": {
       "local": true,
       "filename": "sci_5_t1_l1",

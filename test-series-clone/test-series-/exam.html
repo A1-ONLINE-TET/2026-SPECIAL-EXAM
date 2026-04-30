@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam - A1 Coaching Centre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #d32f2f;
+            --secondary: #1a73e8;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+
+        .header {
+            background: white; padding: 1.5rem; text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; }
+
+        /* Modal Styles */
+        .overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(8px);
+            z-index: 1000; display: flex; align-items: center; justify-content: center;
+        }
+
+        .modal-card {
+            background: white; padding: 3rem; border-radius: 2rem;
+            width: 90%; max-width: 400px; text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+        }
+
+        input[type="text"] {
+            width: 100%; padding: 1rem; margin: 1.5rem 0;
+            border: 2px solid #e2e8f0; border-radius: 1rem;
+            font-size: 1.1rem; text-align: center; box-sizing: border-box;
+            outline: none; font-weight: 700;
+        }
+
+        button {
+            background: var(--secondary); color: white; border: none;
+            padding: 1rem 2rem; border-radius: 3rem; font-size: 1.1rem;
+            font-weight: 700; cursor: pointer; transition: all 0.3s;
+            width: 100%;
+        }
+
+        /* Question Cards */
+        .card {
+            background: white; padding: 2rem; border-radius: 1.5rem;
+            margin-bottom: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+            border-left: 8px solid var(--primary);
+        }
+
+        .q-text { font-size: 1.25rem; font-weight: 700; color: var(--secondary); margin-bottom: 1.5rem; }
+
+        .opt {
+            padding: 1rem; border: 2px solid #f1f5f9; border-radius: 0.8rem;
+            margin-bottom: 0.8rem; cursor: pointer; transition: 0.2s;
+            font-weight: 600;
+        }
+
+        .opt:hover { border-color: var(--secondary); background: #f0f7ff; }
+        .opt.selected { background: #e0efff; border-color: var(--secondary); }
+        .opt.correct { background: #d1fae5; border-color: #10b981; }
+        .opt.wrong { background: #fee2e2; border-color: #ef4444; }
+
+        .ex { margin-top: 1rem; padding: 1rem; background: #f8fafc; border-radius: 0.5rem; display: none; }
+
+        /* Results */
+        #results {
+            display: none; background: white; padding: 3rem; border-radius: 2rem;
+            text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .watermark {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 3.5rem; font-weight: 900; opacity: 0.05; pointer-events: none;
+            width: 100%; white-space: nowrap;
+        }
+
+        .score { font-size: 4rem; font-weight: 900; color: var(--secondary); margin: 1.5rem 0; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0.75rem; }
+            .card { padding: 1.25rem; }
+            .modal-card { padding: 1.5rem; width: 95%; max-width: 400px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2 style="color: var(--primary); margin: 0;">A1 COACHING CENTRE</h2>
+        <p id="topTitle" style="color: #64748b; font-weight: 700; margin: 5px 0 0;">சிறப்புத் தேர்வு</p>
+    </div>
+
+    <!-- Start Modal -->
+    <div id="startModal" class="overlay">
+        <div class="modal-card">
+            <h2 style="color: var(--primary); margin-bottom: 1.5rem;">தேர்வைத் தொடங்கவும்</h2>
+            
+            <p style="font-weight: 700; color: var(--text);">உங்கள் பெயரை உள்ளிடவும்</p>
+            <input type="text" id="nameInput" placeholder="பெயர் மட்டும்...">
+            <button id="startBtn" onclick="start()">தொடங்கவும் (START)</button>
+        </div>
+    </div>
+
+    <div class="container" id="quizApp" style="display: none;">
+        <div id="questionsArea"></div>
+        <button id="submitBtn" onclick="finish()" style="background: #1e293b; margin-top: 2rem;">சமர்ப்பிக்கவும் (SUBMIT)</button>
+    </div>
+
+    <div class="container" id="results">
+        <div style="position: relative; overflow: hidden; padding: 1rem;">
+            <div class="watermark">A1 COACHING</div>
+            <h3 style="color: #64748b; margin-bottom: 0;">மாணவர் பெயர்</h3>
+            <h2 id="resName" style="margin-top: 0.5rem; font-size: 2rem; font-weight: 800;">பெயர்</h2>
+            
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 1.25rem; margin: 1.5rem 0; border: 1px solid #e2e8f0;">
+                <p id="resTitle" style="font-weight: 800; margin: 0; line-height: 1.4;"></p>
+            </div>
+
+            <div class="score" id="resScore">0/0</div>
+            <p id="resMsg" style="font-weight: 800; margin-bottom: 2.5rem; color: #64748b;"></p>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                <button onclick="review()" style="background: var(--secondary);">விடைகளைச் சரிபார்</button>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                    <button onclick="window.location.reload()" style="background: white; color: var(--text); border: 2px solid #e2e8f0;">Retry</button>
+                    <button onclick="window.location.href='index.html'" style="background: white; color: var(--text); border: 2px solid #e2e8f0;">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let quizData = null;
+        let uName = "";
+        let answers = {};
+        let done = false;
+
+        async function init() {
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const testFile = urlParams.get('test') || 'model_test_2.json';
+                const res = await fetch(testFile);
+                quizData = await res.json();
+                
+                // Detection & Normalization
+                if (quizData.lesson_meta) {
+                    document.getElementById('topTitle').innerText = quizData.lesson_meta.title;
+                } else if (quizData["பாட_தலைப்பு"]) {
+                    document.getElementById('topTitle').innerText = quizData["பாட_தலைப்பு"];
+                } else {
+                    document.getElementById('topTitle').innerText = quizData.title || (quizData.meta && quizData.meta.title) || "தேர்வு";
+                }
+
+                // Standardize Quiz Array
+                if (quizData.master_quiz) {
+                    quizData.questions = quizData.master_quiz.questions.map(q => {
+                        return {
+                            q: q.question,
+                            options: q.options,
+                            a: q.options.indexOf(q.answer), // Find index of string answer
+                            ex: q.explanation || `${q.answer} என்பது சரியான விடையாகும்.`
+                        };
+                    });
+                } else if (quizData.quiz) {
+                    quizData.questions = quizData.quiz;
+                } else if (quizData["தேர்வு_வினாக்கள்"]) {
+                    quizData.questions = quizData["தேர்வு_வினாக்கள்"].map(q => {
+                        return {
+                            q: q.கேள்வி,
+                            options: q.ஆப்ஷன்கள்,
+                            a: q.ஆப்ஷன்கள்.indexOf(q.விடை),
+                            ex: q.விளக்கம்
+                        };
+                    });
+                }
+            } catch(e) {
+                console.error(e);
+                alert("JSON கோப்பினை வாசிப்பதில் பிழை!");
+            }
+        }
+
+        function start() {
+            uName = document.getElementById('nameInput').value.trim();
+            if(!uName) return alert("பெயர் கட்டாயம்!");
+            document.getElementById('startModal').style.display='none';
+            document.getElementById('quizApp').style.display='block';
+            document.getElementById('resName').innerText = uName;
+            render();
+        }
+
+        function render() {
+            const area = document.getElementById('questionsArea');
+            area.innerHTML = quizData.questions.map((q, idx) => `
+                <div class="card" id="card-${idx}">
+                    <div class="q-text">${idx+1}. ${q.q}</div>
+                    <div class="opts">
+                        ${q.options.map((o, oi) => `<div class="opt" id="opt-${idx}-${oi}" onclick="pick(${idx},${oi})">${o}</div>`).join('')}
+                    </div>
+                    <div class="ex" id="ex-${idx}"><strong>விளக்கம்:</strong> ${q.ex || 'விளக்கம் ஏதுமில்லை.'}</div>
+                </div>
+            `).join('');
+        }
+
+        function pick(qi, oi) {
+            if(done) return;
+            document.getElementById(`card-${qi}`).querySelectorAll('.opt').forEach(o=>o.classList.remove('selected'));
+            document.getElementById(`opt-${qi}-${oi}`).classList.add('selected');
+            answers[qi] = oi;
+        }
+
+        function finish() {
+            done = true;
+            let s = 0;
+            quizData.questions.forEach((q, i) => {
+                const corr = q.a;
+                const user = answers[i];
+                if(user === corr) { s++; document.getElementById(`opt-${i}-${user}`).classList.add('correct'); }
+                else if(user !== undefined) { 
+                    document.getElementById(`opt-${i}-${user}`).classList.add('wrong');
+                    document.getElementById(`opt-${i}-${corr}`).classList.add('correct');
+                } else {
+                    document.getElementById(`opt-${i}-${corr}`).classList.add('correct');
+                }
+                document.getElementById(`ex-${i}`).style.display='block';
+            });
+            document.getElementById('quizApp').style.display='none';
+            document.getElementById('results').style.display='block';
+            document.getElementById('resScore').innerText = s + "/" + quizData.questions.length;
+            document.getElementById('resTitle').innerText = document.getElementById('topTitle').innerText;
+            const p = (s/quizData.questions.length)*100;
+            document.getElementById('resMsg').innerText = p >= 80 ? "அருமை! Excellent!" : "நல்ல முயற்சி! Good!";
+            window.scrollTo(0,0);
+        }
+
+        function review() {
+            document.getElementById('results').style.display='none';
+            document.getElementById('quizApp').style.display='block';
+            document.getElementById('submitBtn').style.display='none';
+        }
+
+        function start() {
+            const now = new Date();
+            const deadline = new Date("2026-04-17T12:00:00");
+
+            if (now > deadline) {
+                return alert("தேர்வு 12:00 மணிக்கு முடிவடைந்துவிட்டது! (EXAM CLOSED AT 12:00 PM)");
+            }
+
+            uName = document.getElementById('nameInput').value.trim();
+            if(!uName) return alert("பெயர் கட்டாயம்!");
+            document.getElementById('startModal').style.display='none';
+            document.getElementById('quizApp').style.display='block';
+            document.getElementById('resName').innerText = uName;
+            render();
+        }
+
+        init();
+    </script>
+</body>
+</html>

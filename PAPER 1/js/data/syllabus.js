@@ -3050,6 +3050,11 @@ export const syllabusData = {
                 "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல்",
                 "isUpdated": true,
                 "code": "sci_4_t3_l1"
+              },
+              {
+                "title": "அலகு 2: விலங்குகளின் வாழ்க்கை",
+                "isUpdated": true,
+                "code": "sci_4_t3_l2"
               }
             ]
           }
