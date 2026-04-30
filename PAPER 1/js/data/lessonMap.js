@@ -1131,26 +1131,6 @@ export const lessonMap = {
     }
   },
   "social": {
-    "நல்ல குடிமகன்": {
-      "local": true,
-      "filename": "soc_5_t1_l3",
-      "grade": "5"
-    },
-    "soc_1_t1_l3": {
-      "local": true,
-      "filename": "soc_1_t1_l3",
-      "grade": "1"
-    },
-    "வளிமண்டலம்": {
-      "local": true,
-      "filename": "soc_5_t1_l4",
-      "grade": "5"
-    },
-    "soc_1_t1_l4": {
-      "local": true,
-      "filename": "soc_1_t1_l4",
-      "grade": "1"
-    },
     "வா வா முயலே": {
       "local": true,
       "filename": "soc_3_t1_l1",
@@ -1221,9 +1201,19 @@ export const lessonMap = {
       "filename": "soc_5_t1_l2",
       "grade": "5"
     },
+    "நல்ல குடிமகன்": {
+      "local": true,
+      "filename": "soc_5_t1_l3",
+      "grade": "5"
+    },
     "soc_5_t1_l3": {
       "local": true,
       "filename": "soc_5_t1_l3",
+      "grade": "5"
+    },
+    "வளிமண்டலம்": {
+      "local": true,
+      "filename": "soc_5_t1_l4",
       "grade": "5"
     },
     "soc_5_t1_l4": {
