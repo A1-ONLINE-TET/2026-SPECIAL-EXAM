@@ -2908,7 +2908,28 @@ export const syllabusData = {
         "units": [
           {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
-            "topics": []
+            "topics": [
+              {
+                "title": "1. எனது உடல்",
+                "isUpdated": true,
+                "code": "sci_3_t1_l1"
+              },
+              {
+                "title": "2. பருப்பொருள்களின் நிலைகள்",
+                "isUpdated": true,
+                "code": "sci_3_t1_l2"
+              },
+              {
+                "title": "3. விசை",
+                "isUpdated": true,
+                "code": "sci_3_t1_l3"
+              },
+              {
+                "title": "4. அன்றாட வாழ்வில் அறிவியல்",
+                "isUpdated": true,
+                "code": "sci_3_t2_l4"
+              }
+            ]
           }
         ]
       }
@@ -2991,7 +3012,7 @@ export const syllabusData = {
               },
               {
                 "title": "2. விசையும் இயக்கமும்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_6_t1_l2"
               },
               {
@@ -3123,7 +3144,7 @@ export const syllabusData = {
               },
               {
                 "title": "2. விசையும் இயக்கமும்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "sci_7_t1_l2"
               },
               {
