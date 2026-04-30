@@ -482,7 +482,7 @@
 
                     const data = result.data;
                     const meta = data.lesson_meta || data.meta || {};
-                    const title = meta.title || data.title || lessonId;
+                    const title = meta.title || data.title || data.பாட_தலைப்பு || lessonId;
 
                     if (data) {
                         let sections = data.sections || (data.material && data.material.sections);

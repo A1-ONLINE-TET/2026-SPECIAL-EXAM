@@ -809,6 +809,16 @@ export const lessonMap = {
       "filename": "sci_2_t1_l3",
       "grade": "2"
     },
+    "நம்மைச் சுற்றியுள்ள விலங்குகள்": {
+      "local": true,
+      "filename": "sci_2_t1_l4",
+      "grade": "2"
+    },
+    "sci_2_t1_l4": {
+      "local": true,
+      "filename": "sci_2_t1_l4",
+      "grade": "2"
+    },
     "உணவும் உடல்நலமும்": {
       "local": true,
       "filename": "sci_2_t2_l1",
