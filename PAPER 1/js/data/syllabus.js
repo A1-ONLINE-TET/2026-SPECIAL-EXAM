@@ -4131,8 +4131,5 @@ export const syllabusData = {
         ]
       }
     ]
-  },
   }
-,
-
 };
