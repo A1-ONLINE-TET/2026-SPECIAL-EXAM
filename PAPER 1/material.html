@@ -261,6 +261,35 @@
             .material-card { padding: 0.5rem 0.8rem; border-radius: 0; border-left: none; border-right: none; box-shadow: none; }
             .premium-qa-card { padding: 1rem 0.5rem; border-radius: 0; border-left: none; border-right: none; box-shadow: none; border-bottom: 2px solid #e2e8f0; margin-bottom: 1rem; }
         }
+
+        /* Audio Button Style */
+        .global-audio-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #1a73e8;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 1.5rem auto;
+            box-shadow: 0 10px 20px rgba(26, 115, 232, 0.2);
+            transition: all 0.3s ease;
+            width: fit-content;
+        }
+        .global-audio-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(26, 115, 232, 0.3);
+            background: #1557b0;
+        }
+        .global-audio-btn.playing {
+            background: #dc2626;
+            box-shadow: 0 10px 20px rgba(220, 38, 38, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -283,6 +312,11 @@
     </div>
 
     <div class="container">
+        <button id="notesAudioBtn" class="global-audio-btn" onclick="togglePlayNotes()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>பாடக் குறிப்புகளைக் கேள் (Listen Notes)</span>
+        </button>
+        
         <div id="contentArea" class="material-card">
             <!-- Content will load here -->
         </div>
@@ -322,6 +356,80 @@
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
             };
+
+            // --- AUDIO TTS SYSTEM ---
+            let isAutoPlaying = false;
+            let currentSections = [];
+
+            function speakText(text, callback) {
+                const synth = window.speechSynthesis;
+                synth.cancel();
+
+                // Clean HTML tags and special characters for natural speech
+                const tempDiv = document.createElement("div");
+                tempDiv.innerHTML = text;
+                let cleanText = tempDiv.innerText || tempDiv.textContent;
+                cleanText = cleanText.replace(/\|\|/g, '. ').replace(/\//g, '. ').replace(/\n/g, '. ');
+
+                const utterance = new SpeechSynthesisUtterance(cleanText);
+                utterance.lang = 'ta-IN';
+                utterance.rate = 0.8; 
+                utterance.pitch = 0.85; 
+                
+                const voices = synth.getVoices();
+                const tamilVoice = voices.find(v => v.lang === 'ta-IN' && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Microsoft'))) || voices.find(v => v.lang === 'ta-IN');
+                if (tamilVoice) utterance.voice = tamilVoice;
+                
+                utterance.onend = () => { if (callback) callback(); };
+                utterance.onerror = () => { if (callback) callback(); };
+                
+                synth.speak(utterance);
+            }
+
+            window.togglePlayNotes = () => {
+                const btn = document.getElementById('notesAudioBtn');
+                if (isAutoPlaying) {
+                    stopAllAudio();
+                } else {
+                    isAutoPlaying = true;
+                    btn.classList.add('playing');
+                    btn.querySelector('span').innerText = "ஒலியை நிறுத்து (Stop Audio)";
+                    btn.querySelector('svg').innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+                    playNextSection(0);
+                }
+            };
+
+            function stopAllAudio() {
+                isAutoPlaying = false;
+                window.speechSynthesis.cancel();
+                const btn = document.getElementById('notesAudioBtn');
+                if (btn) {
+                    btn.classList.remove('playing');
+                    btn.querySelector('span').innerText = "பாடக் குறிப்புகளைக் கேள் (Listen Notes)";
+                    btn.querySelector('svg').innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>';
+                }
+            }
+
+            function playNextSection(idx) {
+                if (!isAutoPlaying || idx >= currentSections.length) {
+                    stopAllAudio();
+                    return;
+                }
+
+                const section = currentSections[idx];
+                let textToRead = (section.title || "") + ". ";
+                if (typeof section.content === 'string') {
+                    textToRead += section.content;
+                } else if (Array.isArray(section.content)) {
+                    textToRead += section.content.map(c => c.text || c).join(". ");
+                }
+
+                speakText(textToRead, () => {
+                    setTimeout(() => {
+                        if (isAutoPlaying) playNextSection(idx + 1);
+                    }, 1000);
+                });
+            }
 
             function applyTheme(subjectRaw) {
                 let subjectKey = (subjectRaw || "").toLowerCase().replace('math', 'maths');
@@ -600,6 +708,7 @@
                         }
 
                         document.getElementById('contentArea').innerHTML = html;
+                        currentSections = sections || [];
                         
                         if (window.MathJax) {
                             window.MathJax.typesetPromise();
