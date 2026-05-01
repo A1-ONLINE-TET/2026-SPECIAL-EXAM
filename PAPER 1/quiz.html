@@ -403,6 +403,32 @@
             70% { box-shadow: 0 0 0 10px rgba(26, 115, 232, 0); }
             100% { box-shadow: 0 0 0 0 rgba(26, 115, 232, 0); }
         }
+
+        .global-audio-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            cursor: pointer;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 10px 20px rgba(26, 115, 232, 0.2);
+            transition: all 0.3s ease;
+        }
+        .global-audio-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(26, 115, 232, 0.3);
+            background: #1557b0;
+        }
+        .global-audio-btn.playing {
+            background: #dc2626;
+            box-shadow: 0 10px 20px rgba(220, 38, 38, 0.2);
+        }
     </style>
 </head>
 <body class="lang-en">
@@ -434,10 +460,15 @@
             Loading...
         </div>
 
-        <div id="quizApp" style="display: none;">
-            <div id="quizProgress" style="padding: 0.5rem 1rem; border-radius: 20px; background: #f1f5f9; color: #475569; font-weight: 700; font-size: 0.8rem; width: fit-content; margin: 0 auto 1.5rem;">
-                மொத்த கேள்விகள் (Total Questions): <span id="totalQNum">0</span>
-            </div>
+            <div id="quizApp" style="display: none;">
+                <button id="globalAudioBtn" class="global-audio-btn" onclick="togglePlayAll()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    <span>அனைத்து வினாக்களையும் கேள் (Listen All)</span>
+                </button>
+                
+                <div id="quizProgress" style="padding: 0.5rem 1rem; border-radius: 20px; background: #f1f5f9; color: #475569; font-weight: 700; font-size: 0.8rem; width: fit-content; margin: 0 auto 1.5rem;">
+                    மொத்த கேள்விகள் (Total Questions): <span id="totalQNum">0</span>
+                </div>
 
             <div id="questionContainer" class="question-list">
                 <!-- All colorful cards injected here -->
@@ -565,34 +596,130 @@
             };
 
             // --- AUDIO TTS SYSTEM ---
+            let isAutoPlaying = false;
+            let currentPlayIdx = -1;
+            let timeoutRef = null;
+
+            function playBeep() {
+                const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                const oscillator = audioCtx.createOscillator();
+                const gainNode = audioCtx.createGain();
+
+                oscillator.connect(gainNode);
+                gainNode.connect(audioCtx.destination);
+
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(800, audioCtx.currentTime); // Soft high beep
+                gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
+                gainNode.gain.linearRampToValueAtTime(0.05, audioCtx.currentTime + 0.05);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+
+                oscillator.start(audioCtx.currentTime);
+                oscillator.stop(audioCtx.currentTime + 0.3);
+            }
+
             function speakText(text, callback) {
                 const synth = window.speechSynthesis;
-                // Cancel any ongoing speech
                 synth.cancel();
 
                 const utterance = new SpeechSynthesisUtterance(text);
                 utterance.lang = 'ta-IN';
-                utterance.rate = 0.9; // Slightly slower for clarity
+                utterance.rate = 0.85; // Natural slow pace
+                utterance.pitch = 0.95; // More natural female tone
                 
-                // Try to find a high-quality Tamil voice
                 const voices = synth.getVoices();
                 const tamilVoice = voices.find(v => v.lang === 'ta-IN' && (v.name.includes('Female') || v.name.includes('Google'))) || voices.find(v => v.lang === 'ta-IN');
                 if (tamilVoice) utterance.voice = tamilVoice;
                 
                 utterance.onend = () => { if (callback) callback(); };
-                utterance.onerror = (e) => { console.error("Speech Error:", e); if (callback) callback(); };
+                utterance.onerror = () => { if (callback) callback(); };
                 
                 synth.speak(utterance);
             }
 
+            window.togglePlayAll = () => {
+                const btn = document.getElementById('globalAudioBtn');
+                if (isAutoPlaying) {
+                    stopAllAudio();
+                } else {
+                    isAutoPlaying = true;
+                    btn.classList.add('playing');
+                    btn.querySelector('span').innerText = "ஒலியை நிறுத்து (Stop Audio)";
+                    btn.querySelector('svg').innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+                    playSequential(0);
+                }
+            };
+
+            function stopAllAudio() {
+                isAutoPlaying = false;
+                window.speechSynthesis.cancel();
+                if (timeoutRef) clearTimeout(timeoutRef);
+                
+                const btn = document.getElementById('globalAudioBtn');
+                btn.classList.remove('playing');
+                btn.querySelector('span').innerText = "அனைத்து வினாக்களையும் கேள் (Listen All)";
+                btn.querySelector('svg').innerHTML = '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>';
+                
+                document.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+                document.querySelectorAll('.question-card').forEach(c => c.style.borderColor = '');
+            }
+
+            function playSequential(idx) {
+                if (!isAutoPlaying || idx >= questions.length) {
+                    stopAllAudio();
+                    return;
+                }
+
+                currentPlayIdx = idx;
+                const card = document.getElementById(`q-card-${idx}`);
+                if (card) {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    card.style.borderColor = '#1a73e8';
+                    card.style.borderLeftWidth = '12px';
+                }
+
+                const q = questions[idx];
+                const qText = "கேள்வி எண் " + (idx + 1) + ". " + (q.question || q.q);
+                const optionsText = "விருப்பங்கள். அ. " + q.options[0] + ". ஆ. " + q.options[1] + ". இ. " + q.options[2] + ". ஈ. " + q.options[3];
+                const ansText = "சரியான விடை. " + (q.options[q.answer] || q.options[q.a]);
+                const expText = "விளக்கம். " + (q.explanation || q.ex || "விளக்கம் ஏதுமில்லை.");
+
+                speakText(qText, () => {
+                    speakText(optionsText, () => {
+                        // Beep sequence during 5s pause
+                        let beeps = 0;
+                        const interval = setInterval(() => {
+                            if (!isAutoPlaying) { clearInterval(interval); return; }
+                            playBeep();
+                            beeps++;
+                            if (beeps >= 5) clearInterval(interval);
+                        }, 1000);
+
+                        timeoutRef = setTimeout(() => {
+                            if (!isAutoPlaying) return;
+                            speakText(ansText, () => {
+                                speakText(expText, () => {
+                                    if (card) {
+                                        card.style.borderColor = '';
+                                        card.style.borderLeftWidth = '';
+                                    }
+                                    playSequential(idx + 1);
+                                });
+                            });
+                        }, 5500);
+                    });
+                });
+            }
+
             window.playQuestionAudio = (idx, btn) => {
+                if (isAutoPlaying) stopAllAudio();
+                
                 if (btn.classList.contains('playing')) {
                     window.speechSynthesis.cancel();
                     btn.classList.remove('playing');
                     return;
                 }
 
-                // Stop all other playing buttons
                 document.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
                 btn.classList.add('playing');
 
@@ -604,7 +731,13 @@
 
                 speakText(qText, () => {
                     speakText(optionsText, () => {
-                        // Pause for 5 seconds
+                        let beeps = 0;
+                        const interval = setInterval(() => {
+                            playBeep();
+                            beeps++;
+                            if (beeps >= 5) clearInterval(interval);
+                        }, 1000);
+
                         setTimeout(() => {
                             if (!btn.classList.contains('playing')) return;
                             speakText(ansText, () => {
@@ -612,7 +745,7 @@
                                     btn.classList.remove('playing');
                                 });
                             });
-                        }, 5000);
+                        }, 5500);
                     });
                 });
             };
