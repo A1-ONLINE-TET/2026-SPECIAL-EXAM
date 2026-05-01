@@ -4132,66 +4132,7 @@ export const syllabusData = {
       }
     ]
   },
-  "psychology": {
-    "6": [
-      {
-        "term": "Annual",
-        "units": [
-          {
-            "title": "உளவியல்",
-            "topics": [
-              {
-                "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *",
-                "isUpdated": true,
-                "code": "psy_6_l1"
-              },
-              {
-                "title": "கற்றல் கொள்கைகள் (Learning Principles) *",
-                "isUpdated": true,
-                "code": "psy_6_l2"
-              },
-              {
-                "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *",
-                "isUpdated": true,
-                "code": "psy_6_l3"
-              },
-              {
-                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *",
-                "isUpdated": true,
-                "code": "psy_6_l4"
-              },
-              {
-                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *",
-                "isUpdated": true,
-                "code": "psy_6_l5"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "7": [
-      {
-        "term": "Annual",
-        "units": [
-          {
-            "title": "உளவியல்",
-            "topics": []
-          }
-        ]
-      }
-    ],
-    "8": [
-      {
-        "term": "Annual",
-        "units": [
-          {
-            "title": "உளவியல்",
-            "topics": []
-          }
-        ]
-      }
-    ]
-  },
+  }
+,
 
 };
