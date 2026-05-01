@@ -2813,22 +2813,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. நமது சுற்றுச்சூழல்",
+                "title": "அலகு 1: நமது சுற்றுச்சூழல்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l1"
               },
               {
-                "title": "2. எனது அற்புதமான உடல்",
+                "title": "அலகு 2: எனது அற்புதமான உடல்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l2"
               },
               {
-                "title": "3. நம்மைச் சுற்றியுள்ள தாவரங்கள்",
+                "title": "அலகு 3: நம்மைச் சுற்றியுள்ள தாவரங்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l3"
               },
               {
-                "title": "4. நம்மைச் சுற்றியுள்ள விலங்குகள்",
+                "title": "அலகு 4: நம்மைச் சுற்றியுள்ள விலங்குகள்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l4"
               }
@@ -2843,22 +2843,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. உணவும் உடல்நலமும்",
+                "title": "அலகு 1: உணவும் உடல்நலமும்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l1"
               },
               {
-                "title": "2. நீர்",
+                "title": "அலகு 2: நீர்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l2"
               },
               {
-                "title": "3. நமது சமுதாயம்",
+                "title": "அலகு 3: நமது சமுதாயம்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l3"
               },
               {
-                "title": "4. ஐம்பூதங்கள்",
+                "title": "அலகு 4: ஐம்பூதங்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l4"
               }
@@ -2873,27 +2873,27 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. நம்மைச் சுற்றியுள்ள பொருள்கள்",
+                "title": "அலகு 1: நம்மைச் சுற்றியுள்ள பொருள்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l1"
               },
               {
-                "title": "2. நமது அருமைத் தாய்நாடு",
+                "title": "அலகு 2: நமது அருமைத் தாய்நாடு",
                 "isUpdated": true,
                 "code": "sci_2_t3_l2"
               },
               {
-                "title": "3. சக்தியின் பயணம்",
+                "title": "அலகு 3: சக்தியின் பயணம்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l3"
               },
               {
-                "title": "4. பகலும் இரவும்",
+                "title": "அலகு 4: பகலும் இரவும்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l4"
               },
               {
-                "title": "5. வியத்தகு இயற்கை",
+                "title": "அலகு 5: வியத்தகு இயற்கை",
                 "isUpdated": true,
                 "code": "sci_2_t3_l5"
               }
@@ -2992,22 +2992,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. எனது உடல் (My Body)",
+                "title": "அலகு 1: எனது உடல் (My Body)",
                 "isUpdated": true,
                 "code": "sci_4_t1_l1"
               },
               {
-                "title": "2. பருப்பொருளும் பொருட்களும் (Matter and Materials)",
+                "title": "அலகு 2: பருப்பொருளும் பொருட்களும் (Matter and Materials)",
                 "isUpdated": true,
                 "code": "sci_4_t1_l2"
               },
               {
-                "title": "3. வேலையும் ஆற்றலும் (Work and Energy)",
+                "title": "அலகு 3: வேலையும் ஆற்றலும் (Work and Energy)",
                 "isUpdated": true,
                 "code": "sci_4_t1_l3"
               },
               {
-                "title": "4. அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)",
+                "title": "அலகு 4: அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)",
                 "isUpdated": true,
                 "code": "sci_4_t1_l4"
               }
@@ -3047,12 +3047,12 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல்",
+                "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)",
                 "isUpdated": true,
                 "code": "sci_4_t3_l1"
               },
               {
-                "title": "அலகு 2: விலங்குகளின் வாழ்க்கை",
+                "title": "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)",
                 "isUpdated": true,
                 "code": "sci_4_t3_l2"
               }
@@ -4139,7 +4139,33 @@ export const syllabusData = {
         "units": [
           {
             "title": "உளவியல்",
-            "topics": []
+            "topics": [
+              {
+                "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *",
+                "isUpdated": true,
+                "code": "psy_6_l1"
+              },
+              {
+                "title": "கற்றல் கொள்கைகள் (Learning Principles) *",
+                "isUpdated": true,
+                "code": "psy_6_l2"
+              },
+              {
+                "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *",
+                "isUpdated": true,
+                "code": "psy_6_l3"
+              },
+              {
+                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *",
+                "isUpdated": true,
+                "code": "psy_6_l4"
+              },
+              {
+                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *",
+                "isUpdated": true,
+                "code": "psy_6_l5"
+              }
+            ]
           }
         ]
       }

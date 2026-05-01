@@ -1367,6 +1367,16 @@ export const lessonMap = {
       "local": true,
       "filename": "psy_6_l4",
       "grade": "6"
+    },
+    "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory)": {
+      "local": true,
+      "filename": "psy_6_l5",
+      "grade": "6"
+    },
+    "psy_6_l5": {
+      "local": true,
+      "filename": "psy_6_l5",
+      "grade": "6"
     }
   },
   "maths": {
