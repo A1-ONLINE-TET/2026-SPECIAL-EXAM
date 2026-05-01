@@ -26,6 +26,11 @@ export const extraSyllabusData = {
                 "title": "திருப்புதல் தேர்வு 4",
                 "isUpdated": true,
                 "code": "rev_special_4"
+              },
+              {
+                "title": "TNTET தாள் 1 - மாதிரித் தேர்வு 1",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_1"
               }
             ]
           }

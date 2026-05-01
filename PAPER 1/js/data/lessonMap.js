@@ -1780,5 +1780,139 @@ export const lessonMap = {
       "filename": "mat_6_t1_l9",
       "grade": "6"
     }
+  },
+  "revision": {
+    "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
+      "local": true,
+      "filename": "mock_test_2",
+      "grade": "all"
+    },
+    "mock_test_2": {
+      "local": true,
+      "filename": "mock_test_2",
+      "grade": "all"
+    },
+    "பாடக்குறிப்புகள் (180 வினாக்கள் தொகுப்பு)": {
+      "local": true,
+      "filename": "rev_special_180",
+      "grade": "all"
+    },
+    "rev_special_180": {
+      "local": true,
+      "filename": "rev_special_180",
+      "grade": "all"
+    },
+    "திருப்புதல் தேர்வு 3 (Revision Test 3)": {
+      "local": true,
+      "filename": "rev_special_3",
+      "grade": "all"
+    },
+    "rev_special_3": {
+      "local": true,
+      "filename": "rev_special_3",
+      "grade": "all"
+    },
+    "திருப்புதல் தேர்வு 4": {
+      "local": true,
+      "filename": "rev_special_4",
+      "grade": "all"
+    },
+    "rev_special_4": {
+      "local": true,
+      "filename": "rev_special_4",
+      "grade": "all"
+    },
+    "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
+      "local": true,
+      "filename": "tntet_paper1_model_1",
+      "grade": "all"
+    },
+    "tntet_paper1_model_1": {
+      "local": true,
+      "filename": "tntet_paper1_model_1",
+      "grade": "all"
+    }
+  },
+  "mocktest": {
+    "மாதிரித்தேர்வு 1": {
+      "local": true,
+      "filename": "mock_test_1",
+      "grade": "all"
+    },
+    "mock_test_1": {
+      "local": true,
+      "filename": "mock_test_1",
+      "grade": "all"
+    },
+    "மாதிரித்தேர்வு 3": {
+      "local": true,
+      "filename": "mock_test_3",
+      "grade": "all"
+    },
+    "mock_test_3": {
+      "local": true,
+      "filename": "mock_test_3",
+      "grade": "all"
+    },
+    "மாதிரித்தேர்வு 4": {
+      "local": true,
+      "filename": "mock_test_4",
+      "grade": "all"
+    },
+    "mock_test_4": {
+      "local": true,
+      "filename": "mock_test_4",
+      "grade": "all"
+    },
+    "மாதிரித்தேர்வு 2": {
+      "local": true,
+      "filename": "model_test_2",
+      "grade": "all"
+    },
+    "model_test_2": {
+      "local": true,
+      "filename": "model_test_2",
+      "grade": "all"
+    }
+  },
+  "standard_6_7_8": {
+    "முக்கிய குறிப்புகள் - பகுதி 1": {
+      "local": true,
+      "filename": "sample_678_notes_1",
+      "grade": "all"
+    },
+    "sample_678_notes_1": {
+      "local": true,
+      "filename": "sample_678_notes_1",
+      "grade": "all"
+    },
+    "முக்கிய குறிப்புகள் - பகுதி 2": {
+      "local": true,
+      "filename": "sample_678_notes_2",
+      "grade": "all"
+    },
+    "sample_678_notes_2": {
+      "local": true,
+      "filename": "sample_678_notes_2",
+      "grade": "all"
+    },
+    "முக்கிய குறிப்புகள் - பகுதி 3": {
+      "local": true,
+      "filename": "sample_678_notes_3",
+      "grade": "all"
+    },
+    "sample_678_notes_3": {
+      "local": true,
+      "filename": "sample_678_notes_3",
+      "grade": "all"
+    },
+    "English Grammar (Term 1)": {
+      "local": true,
+      "filename": "sample_678_notes_4"
+    },
+    "sample_678_notes_4": {
+      "local": true,
+      "filename": "sample_678_notes_4"
+    }
   }
 };

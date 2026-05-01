@@ -12,7 +12,10 @@ const subjectMapping = {
     'Science': 'science',
     'Social': 'social',
     'Psychology': 'psychology',
-    'Maths': 'maths'
+    'Maths': 'maths',
+    'Revision': 'revision',
+    'MockTest': 'mocktest',
+    'Standard_6_7_8': 'standard_6_7_8'
 };
 
 let mainMap = {
@@ -21,7 +24,10 @@ let mainMap = {
     science: {},
     social: {},
     psychology: {},
-    maths: {}
+    maths: {},
+    revision: {},
+    mocktest: {},
+    standard_6_7_8: {}
 };
 
 function addToMap(dbSubject, key, data) {
