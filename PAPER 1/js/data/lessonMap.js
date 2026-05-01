@@ -1368,7 +1368,7 @@ export const lessonMap = {
       "filename": "psy_6_l4",
       "grade": "6"
     },
-    "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *": {
+    "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
       "local": true,
       "filename": "psy_6_l5",
       "grade": "6"
@@ -1528,6 +1528,56 @@ export const lessonMap = {
     "mat_5_t1_l6": {
       "local": true,
       "filename": "mat_5_t1_l6",
+      "grade": "5"
+    },
+    "எண்கள் - சதுர எண்கள், காரணிகள், மடங்குகள், பகு மற்றும் பகா எண்கள், மீ.பொ.ம": {
+      "local": true,
+      "filename": "mat_5_t2_l2",
+      "grade": "5"
+    },
+    "mat_5_t2_l2": {
+      "local": true,
+      "filename": "mat_5_t2_l2",
+      "grade": "5"
+    },
+    "அமைப்புகள் - வடிவியல், கோணங்கள், சுழற்சி மற்றும் சொற்களின் அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_5_t2_l3",
+      "grade": "5"
+    },
+    "mat_5_t2_l3": {
+      "local": true,
+      "filename": "mat_5_t2_l3",
+      "grade": "5"
+    },
+    "அளவைகள் - நிறுத்தல் அளவைகளில் வாழ்வியல் கணக்குகள்": {
+      "local": true,
+      "filename": "mat_5_t2_l4",
+      "grade": "5"
+    },
+    "mat_5_t2_l4": {
+      "local": true,
+      "filename": "mat_5_t2_l4",
+      "grade": "5"
+    },
+    "பின்னங்கள் மற்றும் இடைக்கருத்து": {
+      "local": true,
+      "filename": "mat_5_t2_l5",
+      "grade": "5"
+    },
+    "mat_5_t2_l5": {
+      "local": true,
+      "filename": "mat_5_t2_l5",
+      "grade": "5"
+    },
+    "தகவல் செயலாக்கம் - மாதிரிப்படுத்துதல் மற்றும் செயல்களைப் பிரித்தல்": {
+      "local": true,
+      "filename": "mat_5_t2_l6",
+      "grade": "5"
+    },
+    "mat_5_t2_l6": {
+      "local": true,
+      "filename": "mat_5_t2_l6",
       "grade": "5"
     },
     "எண்கள் (Numbers)": {

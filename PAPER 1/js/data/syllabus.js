@@ -1594,6 +1594,61 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "அலகு 2: எண்கள்",
+            "topics": [
+              {
+                "title": "எண்கள் (Numbers) *",
+                "isUpdated": true,
+                "code": "mat_5_t2_l2"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 3: அமைப்புகள்",
+            "topics": [
+              {
+                "title": "அமைப்புகள் (Patterns) *",
+                "isUpdated": true,
+                "code": "mat_5_t2_l3"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 4: அளவைகள்",
+            "topics": [
+              {
+                "title": "அளவைகள் (Measurements) *",
+                "isUpdated": true,
+                "code": "mat_5_t2_l4"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 5: பின்னங்கள்",
+            "topics": [
+              {
+                "title": "பின்னங்கள் (Fractions) *",
+                "isUpdated": true,
+                "code": "mat_5_t2_l5"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 6: தகவல் செயலாக்கம்",
+            "topics": [
+              {
+                "title": "தகவல் செயலாக்கம் (Information Processing) *",
+                "isUpdated": true,
+                "code": "mat_5_t2_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [
