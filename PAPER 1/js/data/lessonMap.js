@@ -781,8 +781,8 @@ export const lessonMap = {
   "science": {
     "நமது சுற்றுச்சூழல்": {
       "local": true,
-      "filename": "sci_3_t3_l1",
-      "grade": "3"
+      "filename": "sci_5_t3_l1",
+      "grade": "5"
     },
     "sci_2_t1_l1": {
       "local": true,
@@ -991,8 +991,8 @@ export const lessonMap = {
     },
     "காற்று": {
       "local": true,
-      "filename": "sci_3_t3_l3",
-      "grade": "3"
+      "filename": "sci_5_t3_l3",
+      "grade": "5"
     },
     "sci_3_t3_l3": {
       "local": true,
@@ -1142,6 +1142,26 @@ export const lessonMap = {
     "sci_5_t2_l3": {
       "local": true,
       "filename": "sci_5_t2_l3",
+      "grade": "5"
+    },
+    "sci_5_t3_l1": {
+      "local": true,
+      "filename": "sci_5_t3_l1",
+      "grade": "5"
+    },
+    "விலங்குகள்": {
+      "local": true,
+      "filename": "sci_5_t3_l2",
+      "grade": "5"
+    },
+    "sci_5_t3_l2": {
+      "local": true,
+      "filename": "sci_5_t3_l2",
+      "grade": "5"
+    },
+    "sci_5_t3_l3": {
+      "local": true,
+      "filename": "sci_5_t3_l3",
       "grade": "5"
     }
   },
