@@ -1873,6 +1873,16 @@ export const lessonMap = {
       "local": true,
       "filename": "model_test_2",
       "grade": "all"
+    },
+    "TNTET தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
+      "local": true,
+      "filename": "tntet_paper1_model_2",
+      "grade": "all"
+    },
+    "tntet_paper1_model_2": {
+      "local": true,
+      "filename": "tntet_paper1_model_2",
+      "grade": "all"
     }
   },
   "standard_6_7_8": {

@@ -65,6 +65,11 @@ export const extraSyllabusData = {
                 "title": "மாதிரித்தேர்வு 4",
                 "isUpdated": true,
                 "code": "mock_test_4"
+              },
+              {
+                "title": "TNTET தாள் 1 - மாதிரித் தேர்வு 2",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_2"
               }
             ]
           }
