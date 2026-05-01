@@ -1328,7 +1328,7 @@ export const lessonMap = {
     }
   },
   "psychology": {
-    "குழந்தை மேம்பாடு (6 - 11 வயது) - பின் குழந்தைப்பருவம் (Later Childhood)": {
+    "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
       "local": true,
       "filename": "psy_6_l1",
       "grade": "6"
@@ -1338,7 +1338,7 @@ export const lessonMap = {
       "filename": "psy_6_l1",
       "grade": "6"
     },
-    "கற்றல் கோட்பாடுகள் (Learning Principles)": {
+    "கற்றல் கொள்கைகள் (Learning Principles) *": {
       "local": true,
       "filename": "psy_6_l2",
       "grade": "6"
@@ -1348,7 +1348,7 @@ export const lessonMap = {
       "filename": "psy_6_l2",
       "grade": "6"
     },
-    "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)": {
+    "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *": {
       "local": true,
       "filename": "psy_6_l3",
       "grade": "6"
@@ -1358,7 +1358,7 @@ export const lessonMap = {
       "filename": "psy_6_l3",
       "grade": "6"
     },
-    "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development)": {
+    "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *": {
       "local": true,
       "filename": "psy_6_l4",
       "grade": "6"
@@ -1368,7 +1368,7 @@ export const lessonMap = {
       "filename": "psy_6_l4",
       "grade": "6"
     },
-    "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory)": {
+    "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *": {
       "local": true,
       "filename": "psy_6_l5",
       "grade": "6"
