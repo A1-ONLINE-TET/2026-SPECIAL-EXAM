@@ -374,7 +374,6 @@
         }
     </style>
 </head>
-    <audio id="jutkaBell" src="audio/jutka_bell.webm" preload="auto"></audio>
 <body class="lang-en">
 
     <nav class="navbar">
@@ -508,9 +507,6 @@
                 document.getElementById('namePrompt').style.display = 'none';
                 document.getElementById('nameOverlay').style.display = 'none';
                 
-                // Play Jutka Bell
-                const bell = document.getElementById('jutkaBell');
-                if (bell) bell.play().catch(e => console.log("Audio play failed:", e));
 
                 initQuiz();
             };
