@@ -831,8 +831,8 @@ export const lessonMap = {
     },
     "நீர்": {
       "local": true,
-      "filename": "sci_3_t2_l2",
-      "grade": "3"
+      "filename": "sci_5_t2_l2",
+      "grade": "5"
     },
     "sci_2_t2_l2": {
       "local": true,
@@ -951,8 +951,8 @@ export const lessonMap = {
     },
     "உணவு": {
       "local": true,
-      "filename": "sci_3_t2_l1",
-      "grade": "3"
+      "filename": "sci_5_t2_l1",
+      "grade": "5"
     },
     "sci_3_t2_l1": {
       "local": true,
@@ -966,8 +966,8 @@ export const lessonMap = {
     },
     "தாவரங்கள்": {
       "local": true,
-      "filename": "sci_3_t2_l3",
-      "grade": "3"
+      "filename": "sci_5_t2_l3",
+      "grade": "5"
     },
     "sci_3_t2_l3": {
       "local": true,
@@ -1127,6 +1127,21 @@ export const lessonMap = {
     "sci_5_t1_l4": {
       "local": true,
       "filename": "sci_5_t1_l4",
+      "grade": "5"
+    },
+    "sci_5_t2_l1": {
+      "local": true,
+      "filename": "sci_5_t2_l1",
+      "grade": "5"
+    },
+    "sci_5_t2_l2": {
+      "local": true,
+      "filename": "sci_5_t2_l2",
+      "grade": "5"
+    },
+    "sci_5_t2_l3": {
+      "local": true,
+      "filename": "sci_5_t2_l3",
       "grade": "5"
     }
   },
