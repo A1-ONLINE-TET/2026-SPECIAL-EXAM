@@ -372,6 +372,37 @@
         .question-text, .option-item {
             line-break: loose;
         }
+
+        /* Audio Button Style */
+        .audio-btn {
+            background: #f1f5f9;
+            border: none;
+            color: #64748b;
+            padding: 8px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .audio-btn:hover {
+            background: #e2e8f0;
+            color: #1a73e8;
+            transform: scale(1.1);
+        }
+        .audio-btn.playing {
+            background: #1a73e8;
+            color: white;
+            animation: pulse-audio 1.5s infinite;
+        }
+        @keyframes pulse-audio {
+            0% { box-shadow: 0 0 0 0 rgba(26, 115, 232, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(26, 115, 232, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(26, 115, 232, 0); }
+        }
     </style>
 </head>
 <body class="lang-en">
@@ -531,6 +562,59 @@
                 currentLanguage = lang;
                 localStorage.setItem('appLanguage', lang);
                 updateLangUI();
+            };
+
+            // --- AUDIO TTS SYSTEM ---
+            function speakText(text, callback) {
+                const synth = window.speechSynthesis;
+                // Cancel any ongoing speech
+                synth.cancel();
+
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ta-IN';
+                utterance.rate = 0.9; // Slightly slower for clarity
+                
+                // Try to find a high-quality Tamil voice
+                const voices = synth.getVoices();
+                const tamilVoice = voices.find(v => v.lang === 'ta-IN' && (v.name.includes('Female') || v.name.includes('Google'))) || voices.find(v => v.lang === 'ta-IN');
+                if (tamilVoice) utterance.voice = tamilVoice;
+                
+                utterance.onend = () => { if (callback) callback(); };
+                utterance.onerror = (e) => { console.error("Speech Error:", e); if (callback) callback(); };
+                
+                synth.speak(utterance);
+            }
+
+            window.playQuestionAudio = (idx, btn) => {
+                if (btn.classList.contains('playing')) {
+                    window.speechSynthesis.cancel();
+                    btn.classList.remove('playing');
+                    return;
+                }
+
+                // Stop all other playing buttons
+                document.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+                btn.classList.add('playing');
+
+                const q = questions[idx];
+                const qText = "கேள்வி எண் " + (idx + 1) + ". " + (q.question || q.q);
+                const optionsText = "விருப்பங்கள். அ. " + q.options[0] + ". ஆ. " + q.options[1] + ". இ. " + q.options[2] + ". ஈ. " + q.options[3];
+                const ansText = "சரியான விடை. " + (q.options[q.answer] || q.options[q.a]);
+                const expText = "விளக்கம். " + (q.explanation || q.ex || "விளக்கம் ஏதுமில்லை.");
+
+                speakText(qText, () => {
+                    speakText(optionsText, () => {
+                        // Pause for 5 seconds
+                        setTimeout(() => {
+                            if (!btn.classList.contains('playing')) return;
+                            speakText(ansText, () => {
+                                speakText(expText, () => {
+                                    btn.classList.remove('playing');
+                                });
+                            });
+                        }, 5000);
+                    });
+                });
             };
 
             function updateLangUI() {
@@ -754,9 +838,12 @@
                     
                     return `
                     <div id="q-card-${idx}" class="question-card animate-fade">
-                        <div class="question-text" style="text-align: left !important;">
+                        <div class="question-text" style="text-align: left !important; display: flex; align-items: flex-start; gap: 8px;">
                             <span style="color: #64748b; font-size: 0.95rem; font-weight: 800; display: inline-block; min-width: 30px;">${idx + 1}. </span>
-                            <span style="display: inline;">${formatText(questionText)}</span>
+                            <span style="flex: 1;">${formatText(questionText)}</span>
+                            <button class="audio-btn" onclick="playQuestionAudio(${idx}, this)" title="கேள்வியை கேள் (Listen)">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                            </button>
                         </div>
                         <div class="options-grid" id="options-${idx}">
                             ${q.options.map((opt, oIdx) => `
