@@ -3766,6 +3766,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடங்கள்: சமூக அறிவியல்",
+            "topics": [
+              {
+                "title": "அலகு 1: கோட்டைகளும் அரண்மனைகளும்",
+                "isUpdated": true,
+                "code": "soc_5_t3_l1"
+              },
+              {
+                "title": "அலகு 2: வேளாண்மை",
+                "isUpdated": true,
+                "code": "soc_5_t3_l2"
+              },
+              {
+                "title": "அலகு 3: கல்வி உரிமைகள்",
+                "isUpdated": true,
+                "code": "soc_5_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [

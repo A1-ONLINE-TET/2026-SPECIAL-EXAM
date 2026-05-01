@@ -1286,6 +1286,36 @@ export const lessonMap = {
       "filename": "soc_5_t2_l3",
       "grade": "5"
     },
+    "கோட்டைகளும் அரண்மனைகளும்": {
+      "local": true,
+      "filename": "soc_5_t3_l1",
+      "grade": "5"
+    },
+    "soc_5_t3_l1": {
+      "local": true,
+      "filename": "soc_5_t3_l1",
+      "grade": "5"
+    },
+    "வேளாண்மை": {
+      "local": true,
+      "filename": "soc_5_t3_l2",
+      "grade": "5"
+    },
+    "soc_5_t3_l2": {
+      "local": true,
+      "filename": "soc_5_t3_l2",
+      "grade": "5"
+    },
+    "கல்வி உரிமைகள்": {
+      "local": true,
+      "filename": "soc_5_t3_l3",
+      "grade": "5"
+    },
+    "soc_5_t3_l3": {
+      "local": true,
+      "filename": "soc_5_t3_l3",
+      "grade": "5"
+    },
     "வரலாறு என்றால் என்ன?": {
       "local": true,
       "filename": "soc_6_t1_l1",
