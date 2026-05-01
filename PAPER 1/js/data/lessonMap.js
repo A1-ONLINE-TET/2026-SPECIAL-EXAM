@@ -1427,8 +1427,8 @@ export const lessonMap = {
   "maths": {
     "வடிவியல்": {
       "local": true,
-      "filename": "mat_2_t1_l1",
-      "grade": "2"
+      "filename": "mat_5_t3_l1",
+      "grade": "5"
     },
     "mat_2_t1_l1": {
       "local": true,
@@ -1457,8 +1457,8 @@ export const lessonMap = {
     },
     "அளவைகள்": {
       "local": true,
-      "filename": "mat_2_t1_l4",
-      "grade": "2"
+      "filename": "mat_5_t3_l3",
+      "grade": "5"
     },
     "mat_2_t1_l4": {
       "local": true,
@@ -1477,8 +1477,8 @@ export const lessonMap = {
     },
     "தகவல் செயலாக்கம்": {
       "local": true,
-      "filename": "mat_2_t1_l6",
-      "grade": "2"
+      "filename": "mat_5_t3_l7",
+      "grade": "5"
     },
     "mat_2_t1_l6": {
       "local": true,
@@ -1623,6 +1623,61 @@ export const lessonMap = {
     "mat_5_t2_l6": {
       "local": true,
       "filename": "mat_5_t2_l6",
+      "grade": "5"
+    },
+    "mat_5_t3_l1": {
+      "local": true,
+      "filename": "mat_5_t3_l1",
+      "grade": "5"
+    },
+    "எண்கள்": {
+      "local": true,
+      "filename": "mat_5_t3_l2",
+      "grade": "5"
+    },
+    "mat_5_t3_l2": {
+      "local": true,
+      "filename": "mat_5_t3_l2",
+      "grade": "5"
+    },
+    "mat_5_t3_l3": {
+      "local": true,
+      "filename": "mat_5_t3_l3",
+      "grade": "5"
+    },
+    "இயற்கணிதம்": {
+      "local": true,
+      "filename": "mat_5_t3_l4",
+      "grade": "5"
+    },
+    "mat_5_t3_l4": {
+      "local": true,
+      "filename": "mat_5_t3_l4",
+      "grade": "5"
+    },
+    "பணம்": {
+      "local": true,
+      "filename": "mat_5_t3_l5",
+      "grade": "5"
+    },
+    "mat_5_t3_l5": {
+      "local": true,
+      "filename": "mat_5_t3_l5",
+      "grade": "5"
+    },
+    "பின்னங்கள்": {
+      "local": true,
+      "filename": "mat_5_t3_l6",
+      "grade": "5"
+    },
+    "mat_5_t3_l6": {
+      "local": true,
+      "filename": "mat_5_t3_l6",
+      "grade": "5"
+    },
+    "mat_5_t3_l7": {
+      "local": true,
+      "filename": "mat_5_t3_l7",
       "grade": "5"
     },
     "எண்கள் (Numbers)": {

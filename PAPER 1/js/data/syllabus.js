@@ -1649,6 +1649,81 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "அலகு 1: வடிவியல்",
+            "topics": [
+              {
+                "title": "வடிவியல் (Geometry) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l1"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 2: எண்கள்",
+            "topics": [
+              {
+                "title": "எண்கள் (Numbers) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l2"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 3: அளவைகள்",
+            "topics": [
+              {
+                "title": "அளவைகள் (Measurements) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l3"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 4: இயற்கணிதம்",
+            "topics": [
+              {
+                "title": "இயற்கணிதம் (Algebra) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l4"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 5: பணம்",
+            "topics": [
+              {
+                "title": "பணம் (Money) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l5"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 6: பின்னங்கள்",
+            "topics": [
+              {
+                "title": "பின்னங்கள் (Fractions) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l6"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 7: தகவல் செயலாக்கம்",
+            "topics": [
+              {
+                "title": "தகவல் செயலாக்கம் (Information Processing) *",
+                "isUpdated": true,
+                "code": "mat_5_t3_l7"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [
