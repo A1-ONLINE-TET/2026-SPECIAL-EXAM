@@ -1221,6 +1221,36 @@ export const lessonMap = {
       "filename": "soc_5_t1_l4",
       "grade": "5"
     },
+    "பண்டைய அகழ்வாராய்ச்சி": {
+      "local": true,
+      "filename": "soc_5_t2_l1",
+      "grade": "5"
+    },
+    "soc_5_t2_l1": {
+      "local": true,
+      "filename": "soc_5_t2_l1",
+      "grade": "5"
+    },
+    "நீர்க்கோளம்": {
+      "local": true,
+      "filename": "soc_5_t2_l2",
+      "grade": "5"
+    },
+    "soc_5_t2_l2": {
+      "local": true,
+      "filename": "soc_5_t2_l2",
+      "grade": "5"
+    },
+    "உலகில் உள்ள கண்டங்கள்": {
+      "local": true,
+      "filename": "soc_5_t2_l3",
+      "grade": "5"
+    },
+    "soc_5_t2_l3": {
+      "local": true,
+      "filename": "soc_5_t2_l3",
+      "grade": "5"
+    },
     "வரலாறு என்றால் என்ன?": {
       "local": true,
       "filename": "soc_6_t1_l1",

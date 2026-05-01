@@ -3616,6 +3616,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "இரண்டாம் பருவம்",
+            "topics": [
+              {
+                "title": "அலகு 1: பண்டைய அகழ்வாராய்ச்சி *",
+                "isUpdated": true,
+                "code": "soc_5_t2_l1"
+              },
+              {
+                "title": "அலகு 2: நீர்க்கோளம் *",
+                "isUpdated": true,
+                "code": "soc_5_t2_l2"
+              },
+              {
+                "title": "அலகு 3: உலகில் உள்ள கண்டங்கள் *",
+                "isUpdated": true,
+                "code": "soc_5_t2_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [
