@@ -2,3 +2,10 @@ PAPER 1/temp_pdfs/
 scratch/
 brain/
 .agents/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
