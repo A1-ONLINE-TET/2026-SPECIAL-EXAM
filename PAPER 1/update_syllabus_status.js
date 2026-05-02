@@ -2,75 +2,74 @@ const fs = require('fs');
 const path = require('path');
 
 const syllabusPath = path.join(__dirname, 'js', 'data', 'syllabus.js');
+const extraSyllabusPath = path.join(__dirname, 'js', 'data', 'extraSyllabus.js');
 const lessonMapPath = path.join(__dirname, 'js', 'data', 'lessonMap.js');
 
+// 1. Load Lesson Map
 let lessonMapCode = fs.readFileSync(lessonMapPath, 'utf8');
 let jsonStr = lessonMapCode.substring(lessonMapCode.indexOf('{'), lessonMapCode.lastIndexOf('}') + 1);
 const lessonMap = JSON.parse(jsonStr);
 
-let syllabusCode = fs.readFileSync(syllabusPath, 'utf8');
-
-function cleanTitle(s) {
-    if (!s) return "";
-    return s.toString().toLowerCase().replace(/[^a-z0-9\u0B80-\u0BFF]/g, '').trim();
+// Helper to find entry by code
+function findMapEntryByCode(code) {
+    for (const subject in lessonMap) {
+        if (lessonMap[subject][code]) {
+            return lessonMap[subject][code];
+        }
+    }
+    return null;
 }
 
-let modifiedCount = 0;
-
-// Regular expression to match subjects like   "science": {
-// and titles within them
-let currentSubject = "";
-
-const lines = syllabusCode.split('\n');
-let debugPrintCount = 0;
-for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
+// 2. Process Syllabus Files
+function processSyllabus(filePath) {
+    if (!fs.existsSync(filePath)) return;
     
-    // Check for subject keys like `science: {` or `"maths": {`
-    const subMatch = line.match(/^\s*['"]?([a-z]+)['"]?:\s*\{/);
-    if (subMatch) {
-        currentSubject = subMatch[1].toLowerCase();
-    }
+    let code = fs.readFileSync(filePath, 'utf8');
+    let exportName = filePath.includes('extra') ? 'extraSyllabusData' : 'syllabusData';
+    let startIdx = code.indexOf('{');
+    let endIdx = code.lastIndexOf('}');
+    if(startIdx === -1 || endIdx === -1) return;
     
-    const titleMatch = line.match(/"title":\s*"(.*?)"/);
-    if (titleMatch && currentSubject && lessonMap[currentSubject]) {
-        const titleInSyllabus = titleMatch[1];
-        const cleanedTitleInSyllabus = cleanTitle(titleInSyllabus);
-        
-        let found = false;
-        let matchedMapTitle = "";
-        for (const mapTitle in lessonMap[currentSubject]) {
-            if (cleanTitle(mapTitle) === cleanedTitleInSyllabus || 
-                cleanedTitleInSyllabus.includes(cleanTitle(mapTitle)) || 
-                cleanTitle(mapTitle).includes(cleanedTitleInSyllabus)) {
-                found = true;
-                matchedMapTitle = mapTitle;
-                break;
-            }
-        }
-        
-        if (currentSubject === 'science' && found === true) {
-            console.log(`Subj: ${currentSubject}, Syllabus Title: "${titleInSyllabus}", Cleaned: "${cleanedTitleInSyllabus}", Found: ${found}, Matched: "${matchedMapTitle}"`);
-            debugPrintCount++;
-        }
-        
-        if (found) {
-            // Check next few lines for "isUpdated"
-            for (let j = i + 1; j <= i + 3; j++) {
-                if (lines[j] && lines[j].includes('"isUpdated": false')) {
-                    lines[j] = lines[j].replace('"isUpdated": false', '"isUpdated": true');
-                    modifiedCount++;
-                    break;
+    let obj = JSON.parse(code.substring(startIdx, endIdx + 1));
+    let modifiedCount = 0;
+
+    for (let subject in obj) {
+        for (let grade in obj[subject]) {
+            let terms = obj[subject][grade];
+            for (let termObj of terms) {
+                for (let unit of termObj.units) {
+                    for (let topic of unit.topics) {
+                        if (topic.code) {
+                            let mapEntry = findMapEntryByCode(topic.code);
+                            if (mapEntry) {
+                                let changed = false;
+                                // Update title if it exists in map and is different
+                                if (mapEntry.title && topic.title !== mapEntry.title) {
+                                    topic.title = mapEntry.title;
+                                    changed = true;
+                                }
+                                // Update status
+                                if (!topic.isUpdated) {
+                                    topic.isUpdated = true;
+                                    changed = true;
+                                }
+                                if (changed) modifiedCount++;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
+
+    if (modifiedCount > 0) {
+        const newContent = `export const ${exportName} = ${JSON.stringify(obj, null, 2)};`;
+        fs.writeFileSync(filePath, newContent, 'utf8');
+        console.log(`✅ Updated ${modifiedCount} topics in ${path.basename(filePath)}!`);
+    } else {
+        console.log(`No changes needed in ${path.basename(filePath)}.`);
+    }
 }
 
-if (modifiedCount > 0) {
-    fs.writeFileSync(syllabusPath, lines.join('\n'), 'utf8');
-    console.log(`✅ Updated ${modifiedCount} lessons in syllabus.js!`);
-} else {
-    console.log("No lessons were updated in syllabus.js (none matched lessonMap).");
-    console.log("Current Subject at end:", currentSubject);
-}
+processSyllabus(syllabusPath);
+processSyllabus(extraSyllabusPath);

@@ -58,6 +58,7 @@ if (fs.existsSync(repoPath)) {
                     const title = (content.lesson_meta && content.lesson_meta.title) || content.title;
                     const filename = file.replace('.json', '');
                     const entry = { repo, filename };
+                    if (title) entry.title = title;
                     
                     if (title) addToMap(dbSubject, title, entry);
                     addToMap(dbSubject, filename, entry); // Filename as key
@@ -94,6 +95,7 @@ if (fs.existsSync(localDbPath)) {
                         const filename = item.replace('.json', '');
                         const entry = { local: true, filename };
                         if (grade) entry.grade = grade;
+                        if (title) entry.title = title;
 
                         if (title) addToMap(dbSubject, title, entry);
                         addToMap(dbSubject, filename, entry); // Filename as key

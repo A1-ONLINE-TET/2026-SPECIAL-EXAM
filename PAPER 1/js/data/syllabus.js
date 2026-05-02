@@ -77,17 +77,17 @@ export const syllabusData = {
             "title": "அலகு 1",
             "topics": [
               {
-                "title": "அன்னைத் தமிழே! *",
+                "title": "அன்னைத் தமிழே",
                 "isUpdated": true,
                 "code": "tam_4_t1_l1"
               },
               {
-                "title": "பனைமரச் சிறப்பு *",
+                "title": "இயல் 2: பனைமரச்சிறப்பு *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l2"
               },
               {
-                "title": "யார் தலைவர்? *",
+                "title": "இயல் 3: யார் தலைவர்? *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l3"
               }
@@ -97,17 +97,17 @@ export const syllabusData = {
             "title": "அலகு 2",
             "topics": [
               {
-                "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும் *",
+                "title": "இயல் 4: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l4"
               },
               {
-                "title": "முளைப்பாரி - பாடல் *",
+                "title": "இயல் 5: முளைப்பாரி - பாடல் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l5"
               },
               {
-                "title": "பண்படுத்தும் பழமொழிகள் *",
+                "title": "இயல் 6: பண்படுத்தும் பழமொழிகள் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l6"
               }
@@ -117,27 +117,27 @@ export const syllabusData = {
             "title": "அலகு 3",
             "topics": [
               {
-                "title": "முயல் அரசன் *",
+                "title": "இயல் 7: முயல் அரசன் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l7"
               },
               {
-                "title": "வெற்றி வேற்கை *",
+                "title": "இயல் 8: வெற்றி வேற்கை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l8"
               },
               {
-                "title": "விடியும் வேளை *",
+                "title": "இயல் 9: விடியும் வேளை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l9"
               },
               {
-                "title": "கரிகாலன் கட்டிய கல்லணை *",
+                "title": "இயல் 10: கரிகாலன் கட்டிய கல்லணை *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l10"
               },
               {
-                "title": "அகரமுதலி *",
+                "title": "இயல் 11: அகரமுதலி *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l11"
               }
@@ -184,7 +184,7 @@ export const syllabusData = {
                 "code": "tam_5_t1_l2"
               },
               {
-                "title": "கவிதைப் பட்டிமன்றம் *",
+                "title": "கவிதைப் பட்டிமன்றம் (அறிவா? பண்பா?) *",
                 "isUpdated": true,
                 "code": "tam_5_t1_l3"
               },
@@ -241,12 +241,12 @@ export const syllabusData = {
             "title": "2. இயற்கை (இயற்கை இன்பம்)",
             "topics": [
               {
-                "title": "சிலப்பதிகாரம் *",
+                "title": "சிலப்பதிகாரம்",
                 "isUpdated": true,
                 "code": "tam_6_t1_l6"
               },
               {
-                "title": "காணி நிலம் *",
+                "title": "காணி நிலம்",
                 "isUpdated": true,
                 "code": "tam_6_t1_l7"
               },
@@ -851,7 +851,7 @@ export const syllabusData = {
             "title": "Unit 1",
             "topics": [
               {
-                "title": "A World with Robots",
+                "title": "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்",
                 "isUpdated": true,
                 "code": "eng_4_t1_l1"
               }
@@ -861,7 +861,7 @@ export const syllabusData = {
             "title": "Unit 2",
             "topics": [
               {
-                "title": "My Hobbies",
+                "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்",
                 "isUpdated": true,
                 "code": "eng_4_t1_l2"
               }
@@ -871,7 +871,7 @@ export const syllabusData = {
             "title": "Unit 3",
             "topics": [
               {
-                "title": "Time for a Journey",
+                "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்",
                 "isUpdated": true,
                 "code": "eng_4_t1_l3"
               }
@@ -888,7 +888,7 @@ export const syllabusData = {
             "title": "Unit 1: Exploring Space",
             "topics": [
               {
-                "title": "Exploring Space",
+                "title": "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
                 "isUpdated": true,
                 "code": "eng_5_t1_l1"
               }
@@ -898,7 +898,7 @@ export const syllabusData = {
             "title": "Unit 2: My Native Place",
             "topics": [
               {
-                "title": "My Native Place",
+                "title": "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
                 "isUpdated": true,
                 "code": "eng_5_t1_l2"
               }
@@ -908,7 +908,7 @@ export const syllabusData = {
             "title": "Unit 3: Patriotism and Duty",
             "topics": [
               {
-                "title": "Patriotism and Duty",
+                "title": "Patriotism and Duty || தேசபக்தி மற்றும் கடமை",
                 "isUpdated": true,
                 "code": "eng_5_t1_l3"
               }
@@ -1470,7 +1470,7 @@ export const syllabusData = {
             "title": "அலகு 1",
             "topics": [
               {
-                "title": "வடிவியல்",
+                "title": "அலகு 1: வடிவியல்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l1"
               }
@@ -1480,7 +1480,7 @@ export const syllabusData = {
             "title": "அலகு 2",
             "topics": [
               {
-                "title": "எண்கள்",
+                "title": "அலகு 2: எண்கள்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l2"
               }
@@ -1490,7 +1490,7 @@ export const syllabusData = {
             "title": "அலகு 3",
             "topics": [
               {
-                "title": "அமைப்புகள்",
+                "title": "அலகு 3: அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l3"
               }
@@ -1500,7 +1500,7 @@ export const syllabusData = {
             "title": "அலகு 4",
             "topics": [
               {
-                "title": "அளவைகள்",
+                "title": "அலகு 4: அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l4"
               }
@@ -1510,7 +1510,7 @@ export const syllabusData = {
             "title": "அலகு 5",
             "topics": [
               {
-                "title": "காலம்",
+                "title": "அலகு 5: நேரம்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l5"
               }
@@ -1520,7 +1520,7 @@ export const syllabusData = {
             "title": "அலகு 6",
             "topics": [
               {
-                "title": "தகவல் செயலாக்கம்",
+                "title": "அலகு 6: தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_4_t1_l6"
               }
@@ -1537,7 +1537,7 @@ export const syllabusData = {
             "title": "அலகு 1: வடிவியல்",
             "topics": [
               {
-                "title": "வடிவியல் (Geometry)",
+                "title": "அலகு 1: வடிவியல்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l1"
               }
@@ -1547,7 +1547,7 @@ export const syllabusData = {
             "title": "அலகு 2: எண்கள்",
             "topics": [
               {
-                "title": "எண்கள் (Numbers)",
+                "title": "அலகு 2: எண்கள்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l2"
               }
@@ -1557,7 +1557,7 @@ export const syllabusData = {
             "title": "அலகு 3: அமைப்புகள்",
             "topics": [
               {
-                "title": "அமைப்புகள் (Patterns)",
+                "title": "அலகு 3: அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l3"
               }
@@ -1567,7 +1567,7 @@ export const syllabusData = {
             "title": "அலகு 4: அளவைகள்",
             "topics": [
               {
-                "title": "அளவைகள் (Measurements)",
+                "title": "அலகு 4: அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l4"
               }
@@ -1577,7 +1577,7 @@ export const syllabusData = {
             "title": "அலகு 5: நேரம்",
             "topics": [
               {
-                "title": "நேரம் (Time)",
+                "title": "அலகு 5: நேரம்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l5"
               }
@@ -1587,7 +1587,7 @@ export const syllabusData = {
             "title": "அலகு 6: தகவல் செயலாக்கம்",
             "topics": [
               {
-                "title": "தகவல் செயலாக்கம் (Information Processing)",
+                "title": "அலகு 6: தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_5_t1_l6"
               }
@@ -1602,7 +1602,7 @@ export const syllabusData = {
             "title": "அலகு 2: எண்கள்",
             "topics": [
               {
-                "title": "எண்கள் (Numbers) *",
+                "title": "எண்கள் - சதுர எண்கள், காரணிகள், மடங்குகள், பகு மற்றும் பகா எண்கள், மீ.பொ.ம",
                 "isUpdated": true,
                 "code": "mat_5_t2_l2"
               }
@@ -1612,7 +1612,7 @@ export const syllabusData = {
             "title": "அலகு 3: அமைப்புகள்",
             "topics": [
               {
-                "title": "அமைப்புகள் (Patterns) *",
+                "title": "அமைப்புகள் - வடிவியல், கோணங்கள், சுழற்சி மற்றும் சொற்களின் அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_5_t2_l3"
               }
@@ -1622,7 +1622,7 @@ export const syllabusData = {
             "title": "அலகு 4: அளவைகள்",
             "topics": [
               {
-                "title": "அளவைகள் (Measurements) *",
+                "title": "அளவைகள் - நிறுத்தல் அளவைகளில் வாழ்வியல் கணக்குகள்",
                 "isUpdated": true,
                 "code": "mat_5_t2_l4"
               }
@@ -1632,7 +1632,7 @@ export const syllabusData = {
             "title": "அலகு 5: பின்னங்கள்",
             "topics": [
               {
-                "title": "பின்னங்கள் (Fractions) *",
+                "title": "பின்னங்கள் மற்றும் இடைக்கருத்து",
                 "isUpdated": true,
                 "code": "mat_5_t2_l5"
               }
@@ -1642,7 +1642,7 @@ export const syllabusData = {
             "title": "அலகு 6: தகவல் செயலாக்கம்",
             "topics": [
               {
-                "title": "தகவல் செயலாக்கம் (Information Processing) *",
+                "title": "தகவல் செயலாக்கம் - மாதிரிப்படுத்துதல் மற்றும் செயல்களைப் பிரித்தல்",
                 "isUpdated": true,
                 "code": "mat_5_t2_l6"
               }
@@ -1657,7 +1657,7 @@ export const syllabusData = {
             "title": "அலகு 1: வடிவியல்",
             "topics": [
               {
-                "title": "வடிவியல் (Geometry) *",
+                "title": "வடிவியல்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l1"
               }
@@ -1667,7 +1667,7 @@ export const syllabusData = {
             "title": "அலகு 2: எண்கள்",
             "topics": [
               {
-                "title": "எண்கள் (Numbers) *",
+                "title": "எண்கள்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l2"
               }
@@ -1677,7 +1677,7 @@ export const syllabusData = {
             "title": "அலகு 3: அளவைகள்",
             "topics": [
               {
-                "title": "அளவைகள் (Measurements) *",
+                "title": "அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l3"
               }
@@ -1687,7 +1687,7 @@ export const syllabusData = {
             "title": "அலகு 4: இயற்கணிதம்",
             "topics": [
               {
-                "title": "இயற்கணிதம் (Algebra) *",
+                "title": "இயற்கணிதம்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l4"
               }
@@ -1697,7 +1697,7 @@ export const syllabusData = {
             "title": "அலகு 5: பணம்",
             "topics": [
               {
-                "title": "பணம் (Money) *",
+                "title": "பணம்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l5"
               }
@@ -1707,7 +1707,7 @@ export const syllabusData = {
             "title": "அலகு 6: பின்னங்கள்",
             "topics": [
               {
-                "title": "பின்னங்கள் (Fractions) *",
+                "title": "பின்னங்கள்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l6"
               }
@@ -1717,7 +1717,7 @@ export const syllabusData = {
             "title": "அலகு 7: தகவல் செயலாக்கம்",
             "topics": [
               {
-                "title": "தகவல் செயலாக்கம் (Information Processing) *",
+                "title": "தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_5_t3_l7"
               }
@@ -1734,7 +1734,7 @@ export const syllabusData = {
             "title": "1. எண்கள்",
             "topics": [
               {
-                "title": "1.1 அறிமுகம்",
+                "title": "எண்கள் (Numbers)",
                 "isUpdated": true,
                 "code": "mat_6_t1_l1"
               },
@@ -1744,7 +1744,7 @@ export const syllabusData = {
                 "code": "mat_6_t1_l2"
               },
               {
-                "title": "1.3 இடமதிப்பு விளக்கம்",
+                "title": "இடமதிப்பு & ஒப்பிடுதல் (Place Value & Comparison)",
                 "isUpdated": true,
                 "code": "mat_6_t1_l3"
               },
@@ -1754,7 +1754,7 @@ export const syllabusData = {
                 "code": "mat_6_t1_l4"
               },
               {
-                "title": "1.5 புதிய எண்களை உருவாக்குதல்",
+                "title": "புதிய எண்களை உருவாக்குதல் & அன்றாட வாழ்வியல்",
                 "isUpdated": true,
                 "code": "mat_6_t1_l5"
               },
@@ -1764,7 +1764,7 @@ export const syllabusData = {
                 "code": "mat_6_t1_l6"
               },
               {
-                "title": "1.7 செயலிகளின் வரிசை",
+                "title": "எண்கள்: செயலிகளின் வரிசை & மதிப்பீடு",
                 "isUpdated": true,
                 "code": "mat_6_t1_l7"
               },
@@ -1774,7 +1774,7 @@ export const syllabusData = {
                 "code": "mat_6_t1_l8"
               },
               {
-                "title": "1.9 முழு எண்கள்",
+                "title": "முழு எண்கள் மற்றும் அவற்றின் பண்புகள்",
                 "isUpdated": true,
                 "code": "mat_6_t1_l9"
               },
@@ -2943,22 +2943,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: நமது சுற்றுச்சூழல்",
+                "title": "நமது சுற்றுச்சூழல்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l1"
               },
               {
-                "title": "அலகு 2: எனது அற்புதமான உடல்",
+                "title": "எனது அற்புதமான உடல்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l2"
               },
               {
-                "title": "அலகு 3: நம்மைச் சுற்றியுள்ள தாவரங்கள்",
+                "title": "நம்மைச் சுற்றியுள்ள தாவரங்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l3"
               },
               {
-                "title": "அலகு 4: நம்மைச் சுற்றியுள்ள விலங்குகள்",
+                "title": "நம்மைச் சுற்றியுள்ள விலங்குகள்",
                 "isUpdated": true,
                 "code": "sci_2_t1_l4"
               }
@@ -2973,22 +2973,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: உணவும் உடல்நலமும்",
+                "title": "உணவும் உடல்நலமும்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l1"
               },
               {
-                "title": "அலகு 2: நீர்",
+                "title": "நீர்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l2"
               },
               {
-                "title": "அலகு 3: நமது சமுதாயம்",
+                "title": "நமது சமுதாயம்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l3"
               },
               {
-                "title": "அலகு 4: ஐம்பூதங்கள்",
+                "title": "ஐம்பூதங்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t2_l4"
               }
@@ -3003,27 +3003,27 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: நம்மைச் சுற்றியுள்ள பொருள்கள்",
+                "title": "நம்மைச் சுற்றியுள்ள பொருள்கள்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l1"
               },
               {
-                "title": "அலகு 2: நமது அருமைத் தாய்நாடு",
+                "title": "நமது அருமைத் தாய்நாடு",
                 "isUpdated": true,
                 "code": "sci_2_t3_l2"
               },
               {
-                "title": "அலகு 3: சக்தியின் பயணம்",
+                "title": "சக்தியின் பயணம்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l3"
               },
               {
-                "title": "அலகு 4: பகலும் இரவும்",
+                "title": "பகலும் இரவும்",
                 "isUpdated": true,
                 "code": "sci_2_t3_l4"
               },
               {
-                "title": "அலகு 5: வியத்தகு இயற்கை",
+                "title": "வியத்தகு இயற்கை",
                 "isUpdated": true,
                 "code": "sci_2_t3_l5"
               }
@@ -3040,22 +3040,22 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. எனது உடல்",
+                "title": "எனது உடல்",
                 "isUpdated": true,
                 "code": "sci_3_t1_l1"
               },
               {
-                "title": "2. பருப்பொருள்களின் நிலைகள்",
+                "title": "பருப்பொருள்களின் நிலைகள்",
                 "isUpdated": true,
                 "code": "sci_3_t1_l2"
               },
               {
-                "title": "3. விசை",
+                "title": "விசை",
                 "isUpdated": true,
                 "code": "sci_3_t1_l3"
               },
               {
-                "title": "4. அன்றாட வாழ்வில் அறிவியல்",
+                "title": "அன்றாட வாழ்வில் அறிவியல்",
                 "isUpdated": true,
                 "code": "sci_3_t1_l4"
               }
@@ -3070,17 +3070,17 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. உணவு",
+                "title": "உணவு",
                 "isUpdated": true,
                 "code": "sci_3_t2_l1"
               },
               {
-                "title": "2. நீர்",
+                "title": "நீர்",
                 "isUpdated": true,
                 "code": "sci_3_t2_l2"
               },
               {
-                "title": "3. தாவரங்கள்",
+                "title": "தாவரங்கள்",
                 "isUpdated": true,
                 "code": "sci_3_t2_l3"
               }
@@ -3095,17 +3095,17 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "1. நமது சுற்றுச்சூழல்",
+                "title": "நமது சுற்றுச்சூழல்",
                 "isUpdated": true,
                 "code": "sci_3_t3_l1"
               },
               {
-                "title": "2. விலங்குகளின் வாழ்க்கை",
+                "title": "விலங்குகளின் வாழ்க்கை",
                 "isUpdated": true,
                 "code": "sci_3_t3_l2"
               },
               {
-                "title": "3. காற்று",
+                "title": "காற்று",
                 "isUpdated": true,
                 "code": "sci_3_t3_l3"
               }
@@ -3229,17 +3229,17 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: உணவு",
+                "title": "உணவு",
                 "isUpdated": true,
                 "code": "sci_5_t2_l1"
               },
               {
-                "title": "அலகு 2: நீர்",
+                "title": "நீர்",
                 "isUpdated": true,
                 "code": "sci_5_t2_l2"
               },
               {
-                "title": "அலகு 3: தாவரங்கள்",
+                "title": "தாவரங்கள்",
                 "isUpdated": true,
                 "code": "sci_5_t2_l3"
               }
@@ -3254,17 +3254,17 @@ export const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: நமது சுற்றுச்சூழல்",
+                "title": "நமது சுற்றுச்சூழல்",
                 "isUpdated": true,
                 "code": "sci_5_t3_l1"
               },
               {
-                "title": "அலகு 2: விலங்குகள்",
+                "title": "விலங்குகள்",
                 "isUpdated": true,
                 "code": "sci_5_t3_l2"
               },
               {
-                "title": "அலகு 3: காற்று",
+                "title": "காற்று",
                 "isUpdated": true,
                 "code": "sci_5_t3_l3"
               }
@@ -3661,7 +3661,6 @@ export const syllabusData = {
     ]
   },
   "social": {
-
     "3": [
       {
         "term": 1,
@@ -3692,17 +3691,17 @@ export const syllabusData = {
             "title": "பாடங்கள் (Term 1)",
             "topics": [
               {
-                "title": "1. ஆற்றங்கரை அரசுகள்",
+                "title": "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks",
                 "isUpdated": true,
                 "code": "soc_4_t1_l1"
               },
               {
-                "title": "2. ஐவகை நிலங்கள்",
+                "title": "அலகு 2: ஐவகை நிலங்கள்",
                 "isUpdated": true,
                 "code": "soc_4_t1_l2"
               },
               {
-                "title": "3. நகராட்சி மற்றும் மாநகராட்சி",
+                "title": "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி",
                 "isUpdated": true,
                 "code": "soc_4_t1_l3"
               }
@@ -3719,22 +3718,22 @@ export const syllabusData = {
             "title": "பாடங்கள் (Term 1)",
             "topics": [
               {
-                "title": "அலகு 1: நமது பூமி",
+                "title": "நமது பூமி ",
                 "isUpdated": true,
                 "code": "soc_5_t1_l1"
               },
               {
-                "title": "அலகு 2: வரலாற்றை நோக்கி",
+                "title": "வரலாற்றை நோக்கி ",
                 "isUpdated": true,
                 "code": "soc_5_t1_l2"
               },
               {
-                "title": "அலகு 3: நல்ல குடிமகன்",
+                "title": "நல்ல குடிமகன்",
                 "isUpdated": true,
                 "code": "soc_5_t1_l3"
               },
               {
-                "title": "அலகு 4: வளிமண்டலம்",
+                "title": "வளிமண்டலம்",
                 "isUpdated": true,
                 "code": "soc_5_t1_l4"
               }
@@ -3749,17 +3748,17 @@ export const syllabusData = {
             "title": "இரண்டாம் பருவம்",
             "topics": [
               {
-                "title": "அலகு 1: பண்டைய அகழ்வாராய்ச்சி *",
+                "title": "பண்டைய அகழ்வாராய்ச்சி",
                 "isUpdated": true,
                 "code": "soc_5_t2_l1"
               },
               {
-                "title": "அலகு 2: நீர்க்கோளம் *",
+                "title": "நீர்க்கோளம்",
                 "isUpdated": true,
                 "code": "soc_5_t2_l2"
               },
               {
-                "title": "அலகு 3: உலகில் உள்ள கண்டங்கள் *",
+                "title": "உலகில் உள்ள கண்டங்கள்",
                 "isUpdated": true,
                 "code": "soc_5_t2_l3"
               }
@@ -3774,17 +3773,17 @@ export const syllabusData = {
             "title": "பாடங்கள்: சமூக அறிவியல்",
             "topics": [
               {
-                "title": "அலகு 1: கோட்டைகளும் அரண்மனைகளும்",
+                "title": "கோட்டைகளும் அரண்மனைகளும்",
                 "isUpdated": true,
                 "code": "soc_5_t3_l1"
               },
               {
-                "title": "அலகு 2: வேளாண்மை",
+                "title": "வேளாண்மை",
                 "isUpdated": true,
                 "code": "soc_5_t3_l2"
               },
               {
-                "title": "அலகு 3: கல்வி உரிமைகள்",
+                "title": "கல்வி உரிமைகள்",
                 "isUpdated": true,
                 "code": "soc_5_t3_l3"
               }
@@ -3801,7 +3800,7 @@ export const syllabusData = {
             "title": "வரலாறு",
             "topics": [
               {
-                "title": "1. வரலாறு என்றால் என்ன?",
+                "title": "வரலாறு என்றால் என்ன?",
                 "isUpdated": true,
                 "code": "soc_6_t1_l1"
               },
@@ -4200,42 +4199,42 @@ export const syllabusData = {
             "title": "வரலாறு",
             "topics": [
               {
-                "title": "1. ஐரோப்பியர்களின் வருகை",
+                "title": "வரலாறு - ஐரோப்பியர்களின் வருகை",
                 "isUpdated": true,
                 "code": "soc_8_l1"
               },
               {
-                "title": "2. வர்த்தகத்திலிருந்து பேரரசு வரை",
+                "title": "வரலாறு - வர்த்தகத்திலிருந்து பேரரசு வரை",
                 "isUpdated": true,
                 "code": "soc_8_l2"
               },
               {
-                "title": "3. கிராம சமூகமும் வாழ்க்கை முறையும்",
+                "title": "வரலாறு - கிராம சமூகமும் வாழ்க்கை முறையும்",
                 "isUpdated": true,
                 "code": "soc_8_l3"
               },
               {
-                "title": "4. மக்களின் புரட்சி",
+                "title": "வரலாறு - மக்களின் புரட்சி",
                 "isUpdated": true,
                 "code": "soc_8_l4"
               },
               {
-                "title": "5. இந்தியாவில் கல்வி வளர்ச்சி",
+                "title": "வரலாறு - இந்தியாவில் கல்வி வளர்ச்சி",
                 "isUpdated": true,
                 "code": "soc_8_l5"
               },
               {
-                "title": "6. இந்தியாவில் தொழிலகங்களின் வளர்ச்சி",
+                "title": "வரலாறு - இந்தியாவில் தொழிலகங்களின் வளர்ச்சி",
                 "isUpdated": true,
                 "code": "soc_8_l6"
               },
               {
-                "title": "7. ஆங்கிலேயர் ஆட்சியில் நகர்ப்புற மாற்றங்கள்",
+                "title": "வரலாறு - ஆங்கிலேயர் ஆட்சியில் நகர்ப்புற மாற்றங்கள்",
                 "isUpdated": true,
                 "code": "soc_8_l7"
               },
               {
-                "title": "8. காலங்கள்தோறும் இந்தியப் பெண்களின் நிலை",
+                "title": "வரலாறு - காலங்கள்தோறும் இந்தியப் பெண்களின் நிலை",
                 "isUpdated": true,
                 "code": "soc_8_l8"
               }
