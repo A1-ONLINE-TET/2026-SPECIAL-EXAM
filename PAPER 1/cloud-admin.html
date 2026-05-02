@@ -269,15 +269,26 @@
                 let fileList = [];
                 for(let sub in mapObj) {
                     for(let key in mapObj[sub]) {
-                        if(mapObj[sub][key].filename && !fileList.includes(mapObj[sub][key].filename)) {
-                            fileList.push({subject: sub, grade: mapObj[sub][key].grade, file: mapObj[sub][key].filename});
+                        let entry = mapObj[sub][key];
+                        if(entry.filename) {
+                            let exists = fileList.find(f => f.file === entry.filename);
+                            if(!exists) {
+                                fileList.push({
+                                    subject: sub, 
+                                    grade: entry.grade, 
+                                    file: entry.filename,
+                                    title: entry.title || ""
+                                });
+                            } else if (entry.title && !exists.title) {
+                                exists.title = entry.title; // Add title if we found it later
+                            }
                         }
                     }
                 }
 
                 // Step 2: Ask Gemini which file to edit
                 log("Asking Gemini AI to identify target file...", "ai");
-                const prompt1 = `Given this user command: "${command}"\nAnd this list of available files:\n${JSON.stringify(fileList)}\nIdentify exactly which file the user wants to edit. Respond with ONLY a JSON object: {"file": "filename_without_extension", "subject": "subject_name", "grade": "grade_number"}. Do not use markdown blocks.`;
+                const prompt1 = `Given this user command: "${command}"\nAnd this list of available files:\n${JSON.stringify(fileList)}\nIdentify exactly which file the user wants to edit based on the title, grade, and subject. Respond with ONLY a JSON object: {"file": "filename_without_extension", "subject": "subject_name", "grade": "grade_number"}. Do not use markdown blocks.`;
                 const aiRes1 = await callGemini(prompt1, geminiKey);
                 const targetInfo = JSON.parse(aiRes1.replace(/```json/g, '').replace(/```/g, '').trim());
                 log(`AI identified file: ${targetInfo.file}.json`, "success");
