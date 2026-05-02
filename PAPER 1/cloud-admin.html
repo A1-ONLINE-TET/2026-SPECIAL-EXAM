@@ -168,7 +168,9 @@
         const transcriptDiv = document.getElementById('transcript');
         const runBtn = document.getElementById('run-btn');
         let isListening = false;
-        let finalTranscript = '';
+        let manualStop = false;
+        let accumulatedTranscript = '';
+        let currentTranscript = '';
         let recognition;
 
         if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
@@ -181,44 +183,64 @@
             recognition.onstart = () => {
                 isListening = true;
                 micBtn.classList.add('listening');
-                finalTranscript = '';
-                transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Listening...</span>';
+                currentTranscript = '';
+                if(!accumulatedTranscript) transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Listening...</span>';
                 runBtn.disabled = true;
             };
 
             recognition.onresult = (event) => {
                 let interim = '';
-                finalTranscript = '';
+                currentTranscript = '';
                 for (let i = event.resultIndex; i < event.results.length; ++i) {
-                    if (event.results[i].isFinal) finalTranscript += event.results[i][0].transcript;
+                    if (event.results[i].isFinal) currentTranscript += event.results[i][0].transcript;
                     else interim += event.results[i][0].transcript;
                 }
-                transcriptDiv.innerHTML = `<strong>${finalTranscript}</strong> <span style="opacity:0.5">${interim}</span>`;
-                if(finalTranscript.trim().length > 0) runBtn.disabled = false;
+                const fullText = (accumulatedTranscript + " " + currentTranscript).trim();
+                transcriptDiv.innerHTML = `<strong>${fullText}</strong> <span style="opacity:0.5">${interim}</span>`;
+                if(fullText.length > 0) runBtn.disabled = false;
             };
 
             recognition.onend = () => {
                 isListening = false;
                 micBtn.classList.remove('listening');
-                if(!finalTranscript) transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Speak your command...</span>';
+                accumulatedTranscript = (accumulatedTranscript + " " + currentTranscript).trim();
+                currentTranscript = '';
+                
+                if(!manualStop) {
+                    // Auto-restart to allow pauses
+                    try { recognition.start(); } catch(e){}
+                } else {
+                    if(!accumulatedTranscript) transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Speak your command...</span>';
+                }
             };
         } else {
             transcriptDiv.innerHTML = '<span style="color:#ef4444">Speech Recognition not supported. Type manually:</span><textarea id="manual-input" style="width:100%; height:60px; margin-top:10px; background:rgba(0,0,0,0.5); color:white;"></textarea>';
             document.getElementById('manual-input')?.addEventListener('input', (e) => {
-                finalTranscript = e.target.value;
-                runBtn.disabled = finalTranscript.trim().length === 0;
+                accumulatedTranscript = e.target.value;
+                runBtn.disabled = accumulatedTranscript.trim().length === 0;
             });
         }
 
-        micBtn.onclick = () => { isListening ? recognition.stop() : recognition.start(); };
+        micBtn.onclick = () => { 
+            if(isListening) {
+                manualStop = true;
+                recognition.stop();
+            } else {
+                manualStop = false;
+                recognition.start();
+            }
+        };
 
         // Core Cloud Autonomous Logic
         runBtn.onclick = async () => {
+            manualStop = true;
+            if(isListening) recognition.stop();
+
             const ghUser = document.getElementById('gh_user').value.trim();
             const ghRepo = document.getElementById('gh_repo').value.trim();
             const ghToken = document.getElementById('gh_token').value.trim();
             const geminiKey = document.getElementById('gemini_key').value.trim();
-            const command = finalTranscript || document.getElementById('manual-input')?.value;
+            const command = (accumulatedTranscript + " " + currentTranscript).trim() || document.getElementById('manual-input')?.value;
 
             if(!ghToken || !geminiKey) { alert("Please configure GitHub Token and Gemini API Key in Settings."); toggleSettings(); return; }
             if(!command) return;
