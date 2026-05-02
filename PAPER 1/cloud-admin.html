@@ -183,8 +183,10 @@
                 isListening = true;
                 micBtn.classList.add('listening');
                 currentTranscript = '';
-                if(!accumulatedTranscript) transcriptBox.placeholder = 'Listening...';
-                runBtn.disabled = true;
+                if(!accumulatedTranscript) {
+                    transcriptBox.placeholder = 'Listening...';
+                    runBtn.disabled = true;
+                }
             };
 
             recognition.onresult = (event) => {
