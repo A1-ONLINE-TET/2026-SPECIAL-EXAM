@@ -325,7 +325,30 @@
         };
 
         async function callGemini(prompt, key) {
-            const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${key}`, {
+            // First, dynamically fetch available models to prevent "Model not found" errors
+            log("Checking your API Key for supported AI models...", "info");
+            const modelsRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${key}`);
+            const modelsData = await modelsRes.json();
+            
+            if(modelsData.error) throw new Error("API Key Error: " + modelsData.error.message);
+            
+            let availableModels = modelsData.models
+                .map(m => m.name.replace('models/', ''))
+                .filter(m => m.includes('gemini') && modelsData.models.find(x => x.name === 'models/'+m).supportedGenerationMethods.includes('generateContent'));
+            
+            if(availableModels.length === 0) {
+                throw new Error("Your API Key does not have access to any Gemini text models. Please create a new key at aistudio.google.com");
+            }
+
+            // Prefer newer models, fallback to whatever is available
+            let selectedModel = availableModels.find(m => m.includes('1.5-flash')) 
+                             || availableModels.find(m => m.includes('1.5-pro')) 
+                             || availableModels.find(m => m === 'gemini-pro')
+                             || availableModels[0];
+                             
+            log(`Successfully connected to model: ${selectedModel}`, "success");
+
+            const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${selectedModel}:generateContent?key=${key}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
