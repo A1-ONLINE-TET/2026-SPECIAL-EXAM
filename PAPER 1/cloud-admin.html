@@ -288,9 +288,20 @@
 
                 // Step 2: Ask Gemini which file to edit
                 log("Asking Gemini AI to identify target file...", "ai");
-                const prompt1 = `Given this user command: "${command}"\nAnd this list of available files:\n${JSON.stringify(fileList)}\nIdentify exactly which file the user wants to edit based on the title, grade, and subject. Respond with ONLY a JSON object: {"file": "filename_without_extension", "subject": "subject_name", "grade": "grade_number"}. Do not use markdown blocks.`;
+                const prompt1 = `Given this user command: "${command}"\nAnd this list of available files:\n${JSON.stringify(fileList)}\nIdentify exactly which file the user wants to edit based on the title, grade, and subject. Respond with ONLY a JSON object: {"file": "filename_without_extension", "subject": "subject_name", "grade": "grade_number"}. Do not use markdown blocks. If you cannot find any matching file, return {"file": "unknown"}.`;
                 const aiRes1 = await callGemini(prompt1, geminiKey);
-                const targetInfo = JSON.parse(aiRes1.replace(/```json/g, '').replace(/```/g, '').trim());
+                
+                let targetInfo;
+                try {
+                    targetInfo = JSON.parse(aiRes1.replace(/```json/g, '').replace(/```/g, '').trim());
+                    if(!targetInfo.file || targetInfo.file === "unknown" || targetInfo.file.includes("unknown")) {
+                        throw new Error("நீங்கள் குறிப்பிட்ட பாடம் எந்த ஃபைல் என்று கண்டுபிடிக்க முடியவில்லை. பாடத்தின் பெயர் அல்லது வகுப்பைத் தெளிவாகக் கூறவும்.");
+                    }
+                } catch(err) {
+                    if(err.message.includes("கண்டுபிடிக்க முடியவில்லை")) throw err;
+                    throw new Error("AI-ஆல் சரியான பாடத்தைக் கண்டுபிடிக்க முடியவில்லை. தயவுசெய்து கட்டளையை இன்னும் தெளிவாகக் கூறவும்.");
+                }
+
                 log(`AI identified file: ${targetInfo.file}.json`, "success");
 
                 // Step 3: Fetch the target file
@@ -299,7 +310,7 @@
                 const fileRes = await fetch(`https://api.github.com/repos/${ghUser}/${ghRepo}/contents/${filePath}`, {
                     headers: { 'Authorization': `token ${ghToken}`, 'Accept': 'application/vnd.github.v3+json' }
                 });
-                if(!fileRes.ok) throw new Error(`Could not fetch file: ${filePath}`);
+                if(!fileRes.ok) throw new Error(`Could not fetch file: ${filePath}. ஃபைல் கிடைக்கவில்லை.`);
                 const fileData = await fileRes.json();
                 const fileSha = fileData.sha;
                 const fileContentStr = decodeURIComponent(escape(atob(fileData.content)));
@@ -308,8 +319,13 @@
                 log("Asking Gemini AI to apply the requested changes...", "ai");
                 const prompt2 = `Here is a JSON file content:\n${fileContentStr}\n\nThe user wants to make this change: "${command}".\nCarefully apply the change to the JSON. Ensure the result is perfectly valid JSON. Do not change anything else unless requested. Respond with ONLY the raw updated JSON object. No markdown block formatting (\`\`\`json) or conversational text.`;
                 let updatedJsonStr = await callGemini(prompt2, geminiKey);
-                updatedJsonStr = updatedJsonStr.replace(/^```json\n/i, '').replace(/\n```$/i, '').trim();
-                JSON.parse(updatedJsonStr); // Validate JSON
+                
+                try {
+                    updatedJsonStr = updatedJsonStr.replace(/^```json\n/i, '').replace(/\n```$/i, '').trim();
+                    JSON.parse(updatedJsonStr); // Validate JSON
+                } catch(err) {
+                    throw new Error("AI நீங்கள் கேட்ட மாற்றத்தைச் செய்தபோது JSON ஃபைல் பழுதாகிவிட்டது (Invalid JSON). மீண்டும் முயற்சிக்கவும்.");
+                }
 
                 // Step 5: Commit back to GitHub
                 log("Committing changes to GitHub...");
@@ -323,12 +339,18 @@
                     })
                 });
 
-                if(!commitRes.ok) throw new Error("Commit failed");
-                log("🎉 Successfully updated on GitHub! The site is now live.", "success");
-                log("GitHub Actions will automatically rebuild the map if configured.", "success");
+                if(!commitRes.ok) throw new Error("GitHub-ல் ஃபைலை சேமிக்க முடியவில்லை (Commit failed).");
+                
+                log("========================================", "success");
+                log("✅ வேலை முடிந்தது! (Work Completed!)", "success");
+                log("நீங்கள் கூறிய மாற்றங்கள் வெற்றிகரமாகச் செய்யப்பட்டன.", "success");
+                log("========================================", "success");
 
             } catch(e) {
-                log(`Error: ${e.message}`, "error");
+                log("========================================", "error");
+                log("❌ வேலை முடிக்கவில்லை! (Work Not Completed)", "error");
+                log(`காரணம்: ${e.message}`, "error");
+                log("========================================", "error");
             } finally {
                 runBtn.disabled = false;
                 runBtn.innerText = "✨ Execute via Cloud";
