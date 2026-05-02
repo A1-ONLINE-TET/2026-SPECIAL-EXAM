@@ -1,0 +1,39 @@
+name: Auto Build Map and Syllabus
+
+on:
+  push:
+    paths:
+      - 'PAPER 1/json-db/lessons/**/*.json'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Run Build Scripts
+        working-directory: ./PAPER 1
+        run: |
+          npm install || echo "No dependencies to install"
+          npm run build || echo "Build script not found, running manually"
+          node build_map.js
+          node update_syllabus_status.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "PAPER 1/js/data/lessonMap.js"
+          git add "PAPER 1/js/data/syllabus.js"
+          git add "PAPER 1/js/data/extraSyllabus.js"
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-rebuild map and syllabus [skip ci]" && git push)

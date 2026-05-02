@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity Voice Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #3b82f6;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --neon-glow: 0 0 20px rgba(139, 92, 246, 0.5);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-dark);
+            background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+
+        .header {
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #a78bfa, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Glassmorphism Card */
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Voice Button Area */
+        .voice-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .mic-button {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            box-shadow: var(--neon-glow);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            z-index: 10;
+        }
+
+        .mic-button:active {
+            transform: scale(0.9);
+        }
+
+        .mic-button.listening {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.7); }
+            70% { box-shadow: 0 0 0 20px rgba(139, 92, 246, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0); }
+        }
+
+        .visualizer {
+            width: 100%;
+            height: 60px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .bar {
+            width: 4px;
+            height: 5px;
+            background: var(--accent-primary);
+            border-radius: 2px;
+            transition: height 0.1s ease;
+        }
+
+        /* Transcript Display */
+        .transcript-area {
+            min-height: 120px;
+            max-height: 200px;
+            overflow-y: auto;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 16px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            margin-top: 20px;
+        }
+
+        .transcript-placeholder {
+            color: var(--text-dim);
+            font-style: italic;
+        }
+
+        /* Action Grid */
+        .action-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .action-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            padding: 16px;
+            border-radius: 16px;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .action-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .action-btn i {
+            font-size: 1.5rem;
+            opacity: 0.8;
+        }
+
+        /* Send Button */
+        .send-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(to right, #10b981, #059669);
+            border: none;
+            border-radius: 16px;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+            transition: all 0.2s;
+        }
+
+        .send-btn:active {
+            transform: scale(0.98);
+        }
+
+        .send-btn:disabled {
+            background: #4b5563;
+            opacity: 0.7;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        /* Status Badges */
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge-online { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .badge-listening { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+
+        /* Floating particles */
+        .bg-glow {
+            position: fixed;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, var(--accent-primary), transparent 70%);
+            opacity: 0.15;
+            filter: blur(50px);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .glow-1 { top: 10%; left: -50px; }
+        .glow-2 { bottom: 10%; right: -50px; }
+
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <div class="header">
+        <h1>ANTIGRAVITY</h1>
+        <p>Voice Command Center</p>
+    </div>
+
+    <div class="main-container">
+        <!-- Main Voice Card -->
+        <div class="card">
+            <div class="status-row">
+                <span class="badge badge-online">● Antigravity Linked</span>
+                <span id="mic-status" class="badge">Ready</span>
+            </div>
+
+            <div class="voice-section">
+                <button id="mic-btn" class="mic-button">
+                    🎙️
+                </button>
+                <div class="visualizer" id="visualizer">
+                    <!-- Bars added by JS -->
+                </div>
+                <div id="transcript" class="transcript-area">
+                    <span class="transcript-placeholder">பேசத் தொடங்க மைக் பட்டனை அழுத்தவும்... (Press mic to start speaking)</span>
+                </div>
+            </div>
+
+            <button id="send-btn" class="send-btn" disabled>
+                🚀 Antigravity-க்கு அனுப்பு
+            </button>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="action-grid">
+            <div class="action-btn" onclick="quickCommand('பிழைகளைச் சரிசெய் (Fix Errors)')">
+                <span>🔧</span>
+                <span>பிழைகள் (Fix)</span>
+            </div>
+            <div class="action-btn" onclick="quickCommand('புதிய பாடம் சேர் (Add New Lesson)')">
+                <span>📚</span>
+                <span>புதியது (New)</span>
+            </div>
+            <div class="action-btn" onclick="quickCommand('லைவ் கொண்டு வா (Go Live)')">
+                <span>🌐</span>
+                <span>லைவ் (Live)</span>
+            </div>
+            <div class="action-btn" onclick="quickCommand('முழுப் பக்கம் செக் செய் (Full Page Audit)')">
+                <span>🔍</span>
+                <span>ஆடிட் (Audit)</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const micBtn = document.getElementById('mic-btn');
+        const transcriptDiv = document.getElementById('transcript');
+        const micStatus = document.getElementById('mic-status');
+        const sendBtn = document.getElementById('send-btn');
+        const visualizer = document.getElementById('visualizer');
+
+        // Create visualizer bars
+        for (let i = 0; i < 20; i++) {
+            const bar = document.createElement('div');
+            bar.className = 'bar';
+            visualizer.appendChild(bar);
+        }
+        const bars = document.querySelectorAll('.bar');
+
+        let isListening = false;
+        let recognition;
+
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = 'ta-IN'; // Default to Tamil, can be changed
+
+            recognition.onstart = () => {
+                isListening = true;
+                micBtn.classList.add('listening');
+                micStatus.textContent = 'Listening...';
+                micStatus.className = 'badge badge-listening';
+                transcriptDiv.innerHTML = '<span class="transcript-placeholder">கேட்டுக் கொண்டிருக்கிறேன்...</span>';
+                startVisualizer();
+            };
+
+            recognition.onresult = (event) => {
+                let interimTranscript = '';
+                let finalTranscript = '';
+
+                for (let i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) {
+                        finalTranscript += event.results[i][0].transcript;
+                    } else {
+                        interimTranscript += event.results[i][0].transcript;
+                    }
+                }
+
+                transcriptDiv.innerHTML = `<strong>${finalTranscript}</strong> <span style="opacity:0.6">${interimTranscript}</span>`;
+                if (finalTranscript || interimTranscript) {
+                    sendBtn.disabled = false;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error(event.error);
+                stopListening();
+            };
+
+            recognition.onend = () => {
+                if (isListening) recognition.start(); // Keep listening if we didn't manually stop
+            };
+        } else {
+            transcriptDiv.innerHTML = '<span class="transcript-placeholder" style="color:#ef4444">Speech recognition not supported in this browser.</span>';
+        }
+
+        micBtn.onclick = () => {
+            if (!isListening) {
+                recognition.start();
+            } else {
+                stopListening();
+            }
+        };
+
+        function stopListening() {
+            isListening = false;
+            recognition.stop();
+            micBtn.classList.remove('listening');
+            micStatus.textContent = 'Ready';
+            micStatus.className = 'badge';
+            stopVisualizer();
+        }
+
+        function quickCommand(cmd) {
+            transcriptDiv.innerHTML = `<strong>${cmd}</strong>`;
+            sendBtn.disabled = false;
+        }
+
+        let visualizerInterval;
+        function startVisualizer() {
+            visualizerInterval = setInterval(() => {
+                bars.forEach(bar => {
+                    const height = Math.random() * 40 + 5;
+                    bar.style.height = `${height}px`;
+                });
+            }, 100);
+        }
+
+        function stopVisualizer() {
+            clearInterval(visualizerInterval);
+            bars.forEach(bar => bar.style.height = '5px');
+        }
+
+        sendBtn.onclick = () => {
+            const command = transcriptDiv.innerText;
+            // In a real scenario, this would send to a server.
+            // For now, we'll save it as a file if we can, or just alert.
+            console.log('Sending to Antigravity:', command);
+            
+            // Simulation: Creating a download of the command as a task file
+            const blob = new Blob([command], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'voice_task.txt';
+            a.click();
+            
+            alert('🚀 கட்டளை உருவாக்கப்பட்டது! Antigravity இதை உடனே கவனிக்கும். (Task generated!)');
+        };
+    </script>
+</body>
+</html>

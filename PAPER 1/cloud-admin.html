@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Voice Admin - Autonomous</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.8);
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --success: #10b981;
+            --error: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: radial-gradient(circle at top, #1e1b4b, #0f172a);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header { text-align: center; margin: 20px 0 30px; }
+        .header h1 { font-size: 2rem; background: linear-gradient(to right, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header p { color: var(--text-dim); font-size: 0.9rem; }
+
+        .container { width: 100%; max-width: 500px; display: flex; flex-direction: column; gap: 20px; }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .settings-group { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+        .settings-group label { font-size: 0.85rem; color: var(--text-dim); }
+        .settings-group input {
+            background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1);
+            color: white; padding: 12px; border-radius: 10px; font-family: 'Inter', sans-serif;
+        }
+        .settings-group input:focus { outline: none; border-color: var(--accent-primary); }
+
+        .voice-area { display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 20px 0; }
+        .mic-btn {
+            width: 90px; height: 90px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none; color: white; font-size: 32px; cursor: pointer;
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4); transition: all 0.3s;
+        }
+        .mic-btn.listening { animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(59, 130, 246, 0); } 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); } }
+
+        .transcript-box {
+            width: 100%; min-height: 80px; background: rgba(0,0,0,0.3);
+            border-radius: 12px; padding: 15px; font-size: 1.1rem; color: #fff;
+            border: 1px solid rgba(255,255,255,0.05); text-align: center;
+        }
+
+        .action-btn {
+            width: 100%; padding: 16px; border: none; border-radius: 12px;
+            background: var(--success); color: white; font-weight: bold; font-size: 1.1rem;
+            cursor: pointer; transition: 0.2s; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+        .action-btn:disabled { background: #475569; cursor: not-allowed; box-shadow: none; }
+
+        .log-area {
+            margin-top: 20px; font-family: 'Inter', monospace; font-size: 0.85rem;
+            color: var(--text-dim); max-height: 150px; overflow-y: auto;
+        }
+        .log-entry { margin-bottom: 5px; }
+        .log-entry.success { color: var(--success); }
+        .log-entry.error { color: var(--error); }
+        .log-entry.ai { color: #a78bfa; }
+
+        .collapsible { cursor: pointer; font-size: 0.9rem; color: var(--accent-primary); text-align: right; margin-bottom: 10px; }
+        #settings-panel { display: none; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Cloud Voice Admin</h1>
+        <p>100% Autonomous • PC-OFF Supported</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="collapsible" onclick="toggleSettings()">⚙️ Settings (API Keys)</div>
+            <div id="settings-panel" class="settings-group">
+                <div>
+                    <label>GitHub Username</label>
+                    <input type="text" id="gh_user" value="A1-ONLINE-TET" style="width:100%">
+                </div>
+                <div>
+                    <label>GitHub Repo</label>
+                    <input type="text" id="gh_repo" value="2026-SPECIAL-EXAM" style="width:100%">
+                </div>
+                <div>
+                    <label>GitHub Token (PAT)</label>
+                    <input type="password" id="gh_token" placeholder="ghp_..." style="width:100%">
+                </div>
+                <div>
+                    <label>Gemini API Key</label>
+                    <input type="password" id="gemini_key" placeholder="AI Studio Key..." style="width:100%">
+                    <div style="font-size:0.75rem; color:#94a3b8; margin-top:5px;">Get key from: aistudio.google.com</div>
+                </div>
+                <button onclick="saveSettings()" style="padding:10px; border-radius:8px; border:none; background:#3b82f6; color:white; margin-top:10px; cursor:pointer;">Save Settings</button>
+            </div>
+
+            <div class="voice-area">
+                <button id="mic-btn" class="mic-btn">🎙️</button>
+                <div class="transcript-box" id="transcript">
+                    <span style="color:#64748b; font-style:italic;">Speak your command...<br>(e.g., "Change Kallanai century to AD in 4th Social")</span>
+                </div>
+            </div>
+
+            <button id="run-btn" class="action-btn" disabled>✨ Execute via Cloud</button>
+
+            <div class="log-area" id="log"></div>
+        </div>
+    </div>
+
+    <script>
+        // Load Settings
+        window.onload = () => {
+            ['gh_user', 'gh_repo', 'gh_token', 'gemini_key'].forEach(id => {
+                if(localStorage.getItem('cloud_'+id)) document.getElementById(id).value = localStorage.getItem('cloud_'+id);
+            });
+            if(!localStorage.getItem('cloud_gh_token') || !localStorage.getItem('cloud_gemini_key')) {
+                document.getElementById('settings-panel').style.display = 'flex';
+            }
+        };
+
+        function saveSettings() {
+            ['gh_user', 'gh_repo', 'gh_token', 'gemini_key'].forEach(id => {
+                localStorage.setItem('cloud_'+id, document.getElementById(id).value);
+            });
+            document.getElementById('settings-panel').style.display = 'none';
+            log('Settings saved locally.', 'success');
+        }
+
+        function toggleSettings() {
+            const panel = document.getElementById('settings-panel');
+            panel.style.display = panel.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        function log(msg, type = '') {
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML += `<div class="log-entry ${type}">[${new Date().toLocaleTimeString()}] ${msg}</div>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        // Voice Recognition
+        const micBtn = document.getElementById('mic-btn');
+        const transcriptDiv = document.getElementById('transcript');
+        const runBtn = document.getElementById('run-btn');
+        let isListening = false;
+        let finalTranscript = '';
+        let recognition;
+
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = 'ta-IN';
+
+            recognition.onstart = () => {
+                isListening = true;
+                micBtn.classList.add('listening');
+                finalTranscript = '';
+                transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Listening...</span>';
+                runBtn.disabled = true;
+            };
+
+            recognition.onresult = (event) => {
+                let interim = '';
+                finalTranscript = '';
+                for (let i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) finalTranscript += event.results[i][0].transcript;
+                    else interim += event.results[i][0].transcript;
+                }
+                transcriptDiv.innerHTML = `<strong>${finalTranscript}</strong> <span style="opacity:0.5">${interim}</span>`;
+                if(finalTranscript.trim().length > 0) runBtn.disabled = false;
+            };
+
+            recognition.onend = () => {
+                isListening = false;
+                micBtn.classList.remove('listening');
+                if(!finalTranscript) transcriptDiv.innerHTML = '<span style="color:#64748b; font-style:italic;">Speak your command...</span>';
+            };
+        } else {
+            transcriptDiv.innerHTML = '<span style="color:#ef4444">Speech Recognition not supported. Type manually:</span><textarea id="manual-input" style="width:100%; height:60px; margin-top:10px; background:rgba(0,0,0,0.5); color:white;"></textarea>';
+            document.getElementById('manual-input')?.addEventListener('input', (e) => {
+                finalTranscript = e.target.value;
+                runBtn.disabled = finalTranscript.trim().length === 0;
+            });
+        }
+
+        micBtn.onclick = () => { isListening ? recognition.stop() : recognition.start(); };
+
+        // Core Cloud Autonomous Logic
+        runBtn.onclick = async () => {
+            const ghUser = document.getElementById('gh_user').value.trim();
+            const ghRepo = document.getElementById('gh_repo').value.trim();
+            const ghToken = document.getElementById('gh_token').value.trim();
+            const geminiKey = document.getElementById('gemini_key').value.trim();
+            const command = finalTranscript || document.getElementById('manual-input')?.value;
+
+            if(!ghToken || !geminiKey) { alert("Please configure GitHub Token and Gemini API Key in Settings."); toggleSettings(); return; }
+            if(!command) return;
+
+            runBtn.disabled = true;
+            runBtn.innerText = "🤖 AI Processing...";
+            log(`Command: "${command}"`);
+
+            try {
+                // Step 1: Fetch lessonMap.js to know the files
+                log("Fetching repository map from GitHub...");
+                const mapRes = await fetch(`https://api.github.com/repos/${ghUser}/${ghRepo}/contents/PAPER 1/js/data/lessonMap.js`, {
+                    headers: { 'Authorization': `token ${ghToken}`, 'Accept': 'application/vnd.github.v3+json' }
+                });
+                if(!mapRes.ok) throw new Error("Could not fetch lessonMap.js");
+                const mapData = await mapRes.json();
+                let mapContent = decodeURIComponent(escape(atob(mapData.content)));
+                
+                // Extract just the keys to save tokens
+                const start = mapContent.indexOf('{');
+                const end = mapContent.lastIndexOf('}');
+                const mapObj = JSON.parse(mapContent.substring(start, end + 1));
+                let fileList = [];
+                for(let sub in mapObj) {
+                    for(let key in mapObj[sub]) {
+                        if(mapObj[sub][key].filename && !fileList.includes(mapObj[sub][key].filename)) {
+                            fileList.push({subject: sub, grade: mapObj[sub][key].grade, file: mapObj[sub][key].filename});
+                        }
+                    }
+                }
+
+                // Step 2: Ask Gemini which file to edit
+                log("Asking Gemini AI to identify target file...", "ai");
+                const prompt1 = `Given this user command: "${command}"\nAnd this list of available files:\n${JSON.stringify(fileList)}\nIdentify exactly which file the user wants to edit. Respond with ONLY a JSON object: {"file": "filename_without_extension", "subject": "subject_name", "grade": "grade_number"}. Do not use markdown blocks.`;
+                const aiRes1 = await callGemini(prompt1, geminiKey);
+                const targetInfo = JSON.parse(aiRes1.replace(/```json/g, '').replace(/```/g, '').trim());
+                log(`AI identified file: ${targetInfo.file}.json`, "success");
+
+                // Step 3: Fetch the target file
+                const filePath = `PAPER 1/json-db/lessons/${targetInfo.subject}/${targetInfo.grade}/${targetInfo.file}.json`;
+                log(`Fetching ${filePath} from GitHub...`);
+                const fileRes = await fetch(`https://api.github.com/repos/${ghUser}/${ghRepo}/contents/${filePath}`, {
+                    headers: { 'Authorization': `token ${ghToken}`, 'Accept': 'application/vnd.github.v3+json' }
+                });
+                if(!fileRes.ok) throw new Error(`Could not fetch file: ${filePath}`);
+                const fileData = await fileRes.json();
+                const fileSha = fileData.sha;
+                const fileContentStr = decodeURIComponent(escape(atob(fileData.content)));
+
+                // Step 4: Ask Gemini to apply the edit
+                log("Asking Gemini AI to apply the requested changes...", "ai");
+                const prompt2 = `Here is a JSON file content:\n${fileContentStr}\n\nThe user wants to make this change: "${command}".\nCarefully apply the change to the JSON. Ensure the result is perfectly valid JSON. Do not change anything else unless requested. Respond with ONLY the raw updated JSON object. No markdown block formatting (\`\`\`json) or conversational text.`;
+                let updatedJsonStr = await callGemini(prompt2, geminiKey);
+                updatedJsonStr = updatedJsonStr.replace(/^```json\n/i, '').replace(/\n```$/i, '').trim();
+                JSON.parse(updatedJsonStr); // Validate JSON
+
+                // Step 5: Commit back to GitHub
+                log("Committing changes to GitHub...");
+                const commitRes = await fetch(`https://api.github.com/repos/${ghUser}/${ghRepo}/contents/${filePath}`, {
+                    method: 'PUT',
+                    headers: { 'Authorization': `token ${ghToken}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: `🤖 Voice Cloud Admin: ${command.substring(0, 30)}...`,
+                        content: btoa(unescape(encodeURIComponent(updatedJsonStr))),
+                        sha: fileSha
+                    })
+                });
+
+                if(!commitRes.ok) throw new Error("Commit failed");
+                log("🎉 Successfully updated on GitHub! The site is now live.", "success");
+                log("GitHub Actions will automatically rebuild the map if configured.", "success");
+
+            } catch(e) {
+                log(`Error: ${e.message}`, "error");
+            } finally {
+                runBtn.disabled = false;
+                runBtn.innerText = "✨ Execute via Cloud";
+            }
+        };
+
+        async function callGemini(prompt, key) {
+            const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    contents: [{ parts: [{ text: prompt }] }],
+                    generationConfig: { temperature: 0.1 }
+                })
+            });
+            const data = await res.json();
+            if(data.error) throw new Error(data.error.message);
+            return data.candidates[0].content.parts[0].text;
+        }
+    </script>
+</body>
+</html>
