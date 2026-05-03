@@ -423,8 +423,13 @@
                     let testCounter = 1;
                     data.forEach(term => {
                         const tTitle = (currentClass === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
-                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2><div class="topics-grid">`;
+                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2>`;
+                        
                         term.units.forEach(unit => {
+                            if (currentClass === 'all' && unit.title) {
+                                html += `<h3 style="margin: 2rem 0 1rem; color: #1e40af; font-size: 1.4rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0;">${unit.title}</h3>`;
+                            }
+                            html += `<div class="topics-grid">`;
                             unit.topics.forEach(topic => {
                                 const isReady = topic.isUpdated;
 
@@ -457,8 +462,9 @@
                                 </div>`;
                                 if (isReady) testCounter++;
                             });
+                            html += `</div>`; // Close topics-grid
                         });
-                        html += `</div></div>`;
+                        html += `</div>`; // Close term-section
                     });
                     syllabusContainer.innerHTML = html;
                 };

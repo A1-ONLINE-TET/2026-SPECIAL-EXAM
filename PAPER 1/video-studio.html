@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Studio Pro v15.0 | Ultimate Tab Capture</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Hind+Madurai:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', 'Hind Madurai', sans-serif; background: #94a3b8; color: var(--text); overflow: hidden; display: flex; height: 100vh; }
+        aside { width: 340px; background: #ffffff; border-right: 1px solid #64748b; padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; z-index: 10; box-shadow: 10px 0 30px rgba(0,0,0,0.1); }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+        .control-group { display: flex; flex-direction: column; gap: 0.3rem; background: #f1f5f9; padding: 0.8rem; border-radius: 0.5rem; }
+        label { font-size: 0.75rem; opacity: 0.8; font-weight: 600; }
+        input { background: #ffffff; border: 1px solid #cbd5e1; padding: 0.6rem; border-radius: 0.4rem; color: #334155; width: 100%; }
+        .btn { background: #ef4444; color: white; border: none; padding: 1.2rem; border-radius: 0.75rem; font-weight: 800; cursor: pointer; transition: 0.3s; text-align: center; font-size: 1.1rem; }
+        main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #64748b; }
+        .canvas-container { width: 1280px; height: 720px; background: white; transform: scale(0.55); transform-origin: center; border: 4px solid #334155; position: relative; box-shadow: 0 40px 80px rgba(0,0,0,0.4); }
+        canvas { width: 100%; height: 100%; }
+        .recording-status { position: fixed; top: 20px; right: 20px; background: #ef4444; color: white; padding: 10px 25px; border-radius: 30px; font-weight: bold; display: none; z-index: 100; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        #log-panel { font-size: 0.7rem; color: #555; background: #f1f5f9; padding: 10px; border-radius: 5px; height: 120px; overflow-y: auto; border: 1px solid #ddd; }
+        .voice-badge { background: #dcfce7; color: #166534; padding: 8px; border-radius: 5px; font-size: 0.8rem; font-weight: bold; border: 1px solid #22c55e; display: flex; align-items: center; gap: 5px; }
+        .instruction-box { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 10px; font-size: 0.75rem; color: #92400e; border-radius: 4px; line-height: 1.4; }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <div class="logo">STUDIO v15.0 <span style="font-size:0.5rem; background:#059669; color:white; padding:2px 8px; border-radius:10px;">TAB CAPTURE</span></div>
+        <div class="control-group"><label>வகுப்பு</label><input type="text" id="inp-grade" value="அனைத்து"></div>
+        <div class="control-group"><label>பாடம்</label><input type="text" id="inp-subject" value="மாதிரித்தேர்வு 3"></div>
+        <div class="control-group"><label>தலைப்பு</label><input type="text" id="inp-title" value="முக்கிய வினாக்கள்"></div>
+        
+        <div class="instruction-box">
+            <b>கவனிக்கவும்:</b> பட்டனை அழுத்தியதும் தோன்றும் Popup-ல் <b>'Chrome Tab'</b> என்பதைத் தேர்ந்தெடுத்து, கீழே உள்ள <b>'Share tab audio'</b> என்பதை கட்டாயம் டிக் (✓) செய்யவும்.
+        </div>
+
+        <div id="log-panel">Ready. Tab Audio Capture Enabled.</div>
+        <div style="margin-top: auto;"><button class="btn" id="record-btn" style="width: 100%;">🔴 START CAPTURE</button></div>
+    </aside>
+
+    <main>
+        <div class="recording-status" id="rec-status">● RECORDING IN PROGRESS</div>
+        <div class="canvas-container"><canvas id="videoCanvas" width="1280" height="720"></canvas></div>
+        <div id="status" style="margin-top: -100px; color: white; font-weight: 800; font-size: 1.2rem;">Tab Capture Engine Ready.</div>
+    </main>
+
+    <audio id="bg-music" loop crossorigin="anonymous"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg"></audio>
+
+    <script>
+        const questions = [
+            {"q": "1. 'அன்னைத் தமிழே' பாடலில் ஔவையார் எதனைத் தன் உயிராகக் கருதுகிறார்?", "o": ["நாட்டை", "தமிழ் மொழியை", "மண்ணை", "வீட்டை"], "a": 1},
+            {"q": "2. பனை மரத்தின் நுனிப் பகுதியிலிருந்து எடுக்கப்படுவது எது?", "o": ["எண்ணெய்", "தேங்காய்", "பதநீர்", "கரும்புச் சாறு"], "a": 2},
+            {"q": "3. 'ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்' கதையில் தெனாலிராமன் யாரிடம் அவையில் விடை அளித்தார்?", "o": ["சிவாஜி", "கிருஷ்ணதேவராயர்", "அசோகர்", "அக்பர்"], "a": 1},
+            {"q": "4. 'முளைப்பாரி' பாடலில் 'நவதானியம்' என்பதில் இடம்பெறாத தானியம் எது?", "o": ["நெல்", "கம்பு", "சோளம்", "மிளகு"], "a": 3},
+            {"q": "5. 'கரிகாலன் கட்டிய கல்லணை' எந்த ஆற்றின் குறுக்கே கட்டப்பட்டுள்ளது?", "o": ["வைகை", "காவிரி", "பாலாறு", "பெண்ணையாறு"], "a": 1},
+            {"q": "6. 'யார் தலைவர்?' பாடத்தில் காட்டில் விலங்குகளிடையே நடைபெற்ற போட்டி எது?", "o": ["மல்யுத்தம்", "நீச்சல்", "ஓட்டப்பந்தயம்", "பாட்டு"], "a": 2},
+            {"q": "7. 'வெற்றி வேற்கை' நூலில் எதனைப் பெற்றுக் கற்றல் சிறந்தது என அரசர் கூறுகிறார்?", "o": ["திருப்பால்", "பிச்சை எடுத்தாவது", "கடன் வாங்கி", "பணம் கொடுத்து"], "a": 1},
+            {"q": "8. 'விடியும் வேளை' பாடத்தில் மலைக்கிராமத்தின் பெயர் என்ன?", "o": ["ஊட்டி", "மன்னவனூர்", "கொடைக்கானல்", "ஏற்காடு"], "a": 1},
+            {"q": "9. 'கல்விச்செல்வமும் பொருட்செல்வமும்' உரையாடலில் கல்வியின் சிறப்பை விளக்குபவர்?", "o": ["ஈஸ்வரி", "தமிழரசி", "கலா", "மேரி"], "a": 1},
+            {"q": "10. 'தமிழின் இனிமை' பாடலில் பாரதிதாசன் எதனை 'நனி பசு' தரும் பாலிற்கு ஒப்பிடுகிறார்?", "o": ["மழையை", "கடலை", "தமிழ் மொழி", "கரும்பு"], "a": 2},
+            {"q": "11. 'பண்படுத்தும் பழமொழிகள்' பாடத்தில் 'யானை வரும் பின்னே' - மணி ஓசை வரும் முன்னே என்பதன் உண்மையான பொருள்?", "o": ["பூனை வரும் முன்னே", "அணை வரும் பின்னே", "மானை வரும் முன்னே", "தேனை எடுப்போம்"], "a": 1},
+            {"q": "12. பனை மரத்தின் வேர் எதனைக் கட்டிப் பிடித்து வைக்கும் தன்மை கொண்டது?", "o": ["மண்ணை மட்டும்", "பாறையை", "நிலத்தடி நீர்", "வேரை"], "a": 2},
+            {"q": "13. 'காணி நிலம் வேண்டும்' எனப் பாடியவர் யார்?", "o": ["பாரதிதாசன்", "பாரதியார்", "கண்ணதாசன்", "வாலி"], "a": 1},
+            {"q": "14. 'மூதுரை' என்ற சொல்லின் பொருள் யாது?", "o": ["புதிய அறிவுரை", "மூத்தோர் கூறும் அறிவுரை", "சிறுவர் அறிவுரை", "பெண்கள் அறிவுரை"], "a": 1},
+            {"q": "15. 'முயல் அரசன்' கதையில் முயல் புலிக்குத் தன்னைப் பற்றி என்ன கூறியது?", "o": ["நான் பலவீனமானவன்", "காட்டின் புதிய அரசன்", "நான் உங்கள் நண்பன்", "எங்குமே செல்லாதே"], "a": 1}
+        ];
+
+        const canvas = document.getElementById('videoCanvas');
+        const ctx = canvas.getContext('2d');
+        const recordBtn = document.getElementById('record-btn');
+        const logPanel = document.getElementById('log-panel');
+        let fState = { idx: 0, mode: 'q', count: 0, optIdx: -1, optX: [0,0,0,0], slideX: 0, qSize: 40 };
+
+        function addLog(msg) { logPanel.innerHTML += `<div>${msg}</div>`; logPanel.scrollTop = logPanel.scrollHeight; }
+
+        let audioCtx;
+        function playSound(freq, vol, duration) {
+            if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const o = audioCtx.createOscillator(); const g = audioCtx.createGain();
+            o.connect(g); g.connect(audioCtx.destination); 
+            o.frequency.value = freq; g.gain.value = vol;
+            o.start(); o.stop(audioCtx.currentTime + duration);
+        }
+
+        function chunkText(txt, maxLen) {
+            const words = txt.split(' ');
+            const chunks = []; let cur = '';
+            for(let w of words) {
+                if(cur.length + w.length > maxLen) { chunks.push(cur.trim()); cur = w + ' '; }
+                else { cur += w + ' '; }
+            }
+            if(cur.trim()) chunks.push(cur.trim());
+            return chunks;
+        }
+
+        async function speak(txt) {
+            addLog("Voice: " + txt.substring(0,25) + "...");
+            let chunks = chunkText(txt, 150);
+            for(let chunk of chunks) {
+                await new Promise((res) => {
+                    // No CORS bypass needed! Tab Audio Capture natively records speaker output.
+                    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(chunk)}&tl=ta&client=tw-ob`;
+                    const a = new Audio(url); 
+                    a.onended = () => res();
+                    a.onerror = () => { addLog("⚠️ Error, syncing..."); setTimeout(res, 1000); };
+                    a.play().catch(e => { addLog("⚠️ Play blocked..."); setTimeout(res, 1000); });
+                });
+            }
+        }
+
+        function drawRect(x, y, w, h, fill, stroke) {
+            ctx.beginPath(); ctx.moveTo(x+15, y); ctx.lineTo(x+w-15, y); ctx.quadraticCurveTo(x+w,y,x+w,y+15);
+            ctx.lineTo(x+w,y+h-15); ctx.quadraticCurveTo(x+w,y+h,x+w-15,y+h); ctx.lineTo(x+15,y+h);
+            ctx.quadraticCurveTo(x,y+h,x,y+h-15); ctx.lineTo(x,y+15); ctx.quadraticCurveTo(x,y,x+15,y);
+            ctx.closePath(); if(fill) { ctx.fillStyle = fill; ctx.fill(); } if(stroke) { ctx.strokeStyle = stroke; ctx.lineWidth = 3; ctx.stroke(); }
+        }
+
+        function renderLoop() {
+            ctx.fillStyle = '#f8fafc'; ctx.fillRect(0,0,1280,720);
+            const q = questions[fState.idx];
+            
+            ctx.save(); ctx.translate(fState.slideX, 0);
+
+            const gr = ctx.createLinearGradient(0,0,1280,0); gr.addColorStop(0, '#2563eb'); gr.addColorStop(1, '#7c3aed');
+            ctx.fillStyle = gr; ctx.fillRect(0,0,1280,100);
+            ctx.fillStyle = 'white'; ctx.font = 'bold 35px Outfit'; ctx.textAlign = 'left';
+            ctx.fillText(`வினா எண்: ${fState.idx+1}`, 60, 62); ctx.textAlign = 'right'; ctx.fillText('A1 ONLINE COACHING CENTER', 1220, 62);
+            
+            ctx.textAlign = 'center'; ctx.font = `800 ${fState.qSize}px Hind Madurai`; ctx.fillStyle = '#1e293b';
+            const words = q.q.split(' '); let line = ''; let y = 180; 
+            for(let w of words) {
+                if(ctx.measureText(line + w).width > 1050) { ctx.fillText(line, 640, y); line = w + ' '; y += (fState.qSize + 10); }
+                else { line += w + ' '; }
+            }
+            ctx.fillText(line, 640, y);
+
+            let optY = y + 60; 
+            q.o.forEach((opt, i) => {
+                if(i <= fState.optIdx) {
+                    const isCorr = i === q.a && fState.mode === 'a';
+                    const xOff = fState.optX[i];
+                    drawRect(140 + xOff, optY, 1000, 65, isCorr ? '#dcfce7' : 'white', isCorr ? '#22c55e' : '#cbd5e1'); 
+                    ctx.fillStyle = isCorr ? '#166534' : '#334155'; ctx.textAlign = 'left'; ctx.font = 'bold 30px Hind Madurai'; 
+                    ctx.fillText(`${String.fromCharCode(65+i)}) ${opt}`, 190 + xOff, optY + 42);
+                    if(fState.optX[i] > 0) fState.optX[i] -= 25; else if(fState.optX[i] < 0) fState.optX[i] += 25;
+                }
+                optY += 80; 
+            });
+
+            if(fState.mode === 't') {
+                ctx.fillStyle = '#ef4444'; ctx.beginPath(); ctx.arc(1150, 180, 45, 0, Math.PI*2); ctx.fill();
+                ctx.fillStyle = 'white'; ctx.font = 'bold 45px Outfit'; ctx.textAlign = 'center'; ctx.fillText(fState.count, 1150, 195);
+            }
+            ctx.restore();
+            requestAnimationFrame(renderLoop);
+        }
+
+        async function startFlow() {
+            ctx.fillStyle = 'white'; ctx.fillRect(0,0,1280,720);
+            ctx.fillStyle = '#2563eb'; ctx.font = '800 65px Outfit'; ctx.textAlign = 'center';
+            ctx.fillText('A1 ONLINE COACHING CENTER', 640, 300);
+            await speak("ஏ ஒன் ஆன்லைன் கோச்சிங் சென்டருக்கு உங்களை வரவேற்கிறோம்.");
+            await speak(`${document.getElementById('inp-grade').value} ${document.getElementById('inp-subject').value}. தலைப்பு: ${document.getElementById('inp-title').value}. மொத்தம் 15 வினாக்கள்.`);
+
+            for(let i=0; i<15; i++) {
+                addLog(`Q${i+1} Rendering...`);
+                let qLen = questions[i].q.length;
+                let size = qLen > 100 ? 32 : (qLen > 60 ? 36 : 40); 
+                
+                fState = { idx: i, mode: 'q', count: 0, optIdx: -1, optX: [400,-400,400,-400], slideX: 1280, qSize: size };
+                while(fState.slideX > 0) { fState.slideX -= 50; await new Promise(r => setTimeout(r, 10)); }
+                fState.slideX = 0;
+
+                await speak(`வினா எண் ${i+1}...`); await speak(questions[i].q);
+                for(let j=0; j<4; j++) { fState.optIdx = j; await speak(`${["ஏ","பி","சி","டி"][j]}... ${questions[i].o[j]}`); }
+                fState.mode = 't';
+                for(let c=5; c>0; c--) { fState.count = c; playSound(800, 0.05, 0.1); await new Promise(r => setTimeout(r, 1000)); }
+                fState.mode = 'a';
+                await speak("சரியான விடை..."); await speak(`ஆப்ஷன் ${["ஏ","பி","சி","டி"][questions[i].a]}... ${questions[i].o[questions[i].a]}`);
+                await new Promise(r => setTimeout(r, 1000));
+                playSound(1000, 0.1, 0.4); 
+                while(fState.slideX > -1280) { fState.slideX -= 50; await new Promise(r => setTimeout(r, 10)); }
+            }
+        }
+
+        recordBtn.onclick = async () => {
+            try {
+                // Request System Audio using DisplayMedia (Bypasses all CORS issues!)
+                const screenStream = await navigator.mediaDevices.getDisplayMedia({
+                    video: { displaySurface: "browser" },
+                    audio: true
+                });
+
+                const audioTracks = screenStream.getAudioTracks();
+                if (audioTracks.length === 0) {
+                    alert("பிழை: நீங்கள் 'Share tab audio' என்பதை டிக் செய்யவில்லை! பக்கத்தைப் புதுப்பித்து மீண்டும் முயற்சிக்கவும்.");
+                    screenStream.getTracks().forEach(t => t.stop());
+                    return;
+                }
+
+                recordBtn.disabled = true; 
+                document.getElementById('rec-status').style.display = 'block';
+                
+                requestAnimationFrame(renderLoop);
+                
+                // Combine Canvas Video with the Tab Audio we just captured
+                const canvasStream = canvas.captureStream(30);
+                const combinedStream = new MediaStream([
+                    ...canvasStream.getVideoTracks(),
+                    ...audioTracks
+                ]);
+
+                const recorder = new MediaRecorder(combinedStream, { mimeType: 'video/webm', videoBitsPerSecond: 8000000 });
+                const chunks = []; 
+                recorder.ondataavailable = e => { if(e.data.size > 0) chunks.push(e.data); };
+                recorder.onstop = () => {
+                    const blob = new Blob(chunks, { type: 'video/webm' });
+                    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+                    a.download = `A1_Final_Video_${Date.now()}.webm`; a.click(); 
+                    
+                    // Stop screen sharing automatically
+                    screenStream.getTracks().forEach(t => t.stop());
+                    location.reload();
+                };
+                
+                recorder.start(1000);
+                
+                // Play Background Music
+                const bg = document.getElementById('bg-music'); 
+                bg.volume = 0.03; 
+                bg.play();
+
+                await startFlow();
+                recorder.stop();
+
+            } catch(e) {
+                console.error(e);
+                alert("ரெக்கார்டிங் ரத்து செய்யப்பட்டது. மீண்டும் முயற்சிக்கவும்.");
+            }
+        };
+
+        window.onload = () => { ctx.fillStyle='#f8fafc'; ctx.fillRect(0,0,1280,720); ctx.fillStyle='#2563eb'; ctx.font='bold 30px Outfit'; ctx.textAlign='center'; ctx.fillText('Ready. Tab Capture Architecture Active.', 640, 360); };
+    </script>
+</body>
+</html>

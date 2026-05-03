@@ -1,0 +1,599 @@
+{
+  "lesson_meta": {
+    "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)",
+    "grade": "6",
+    "term": "Full",
+    "subject": "English Grammar",
+    "code": "eng_gram_6_full"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பருவம் 1: Parts of Speech (சொற்களின் வகைகள்)",
+        "content": "ஆங்கிலத்தில் சொற்கள் அவற்றின் பயன்பாட்டின் அடிப்படையில் 8 வகைகளாகப் பிரிக்கப்பட்டுள்ளன (Parts of Speech):\n1. Noun (பெயர்ச்சொல்): ஒரு நபர், இடம், பொருள் அல்லது விலங்கின் பெயரைக் குறிப்பது.\n2. Pronoun (பிரதிப் பெயர்ச்சொல்): பெயர்ச்சொல்லுக்குப் பதிலாகப் பயன்படுவது (He, She, It, They).\n3. Verb (வினைச்சொல்): ஒரு செயலைக் குறிப்பது (Play, Run, Eat).\n4. Adjective (பெயரடை): பெயர்ச்சொல்லை விவரிப்பது (Good, Tall, Red).\n5. Adverb (வினையடை): வினைச்சொல்லை விவரிப்பது (Fast, Slowly, Yesterday).\n6. Preposition (முன்னிடைச்சொல்): நவுன் அல்லது ப்ரோனவுனுக்கும் வாக்கியத்தின் மற்ற சொற்களுக்கும் உள்ள தொடர்பைக் குறிப்பது (In, On, At).\n7. Conjunction (இணைப்புச்சொல்): இரு சொற்களை அல்லது வாக்கியங்களை இணைப்பது (And, But, Or).\n8. Interjection (வியப்புச்சொல்): திடீர் உணர்வுகளை வெளிப்படுத்துவது (Wow!, Alas!, Oh!)."
+      },
+      {
+        "title": "பருவம் 1: Kinds of Nouns (பெயர்ச்சொல்லின் வகைகள்)",
+        "content": "1. Proper Noun (சிறப்புப் பெயர்): ஒரு குறிப்பிட்ட நபர், இடம் அல்லது பொருளின் பெயர் (எ.கா: Chennai, Ravi, India). இது எப்போதும் Capital letter-ல் தொடங்கும்.\n2. Common Noun (பொதுப் பெயர்): பொதுவான பெயர் (எ.கா: boy, city, animal).\n3. Collective Noun (குழுப் பெயர்): ஒரு கூட்டத்தைக் குறிக்கும் பெயர் (எ.கா: crowd, team, army, flock).\n4. Material Noun (பொருட்பெயர்): ஒரு பொருளை உருவாக்கும் மூலப்பொருள் (எ.கா: gold, iron, wood).\n5. Abstract Noun (பண்புப் பெயர்): கண்ணால் பார்க்க முடியாத, உணர மட்டுமே முடிகிற பண்புகள் அல்லது நிலைகள் (எ.கா: honesty, happiness, childhood)."
+      },
+      {
+        "title": "பருவம் 1: Pronouns and Verbs (பிரதிப் பெயர்ச்சொற்கள் மற்றும் வினைச்சொற்கள்)",
+        "content": "Pronouns (பிரதிப் பெயர்ச்சொற்கள்):\nI, We (First Person / தன்மை)\nYou (Second Person / முன்னிலை)\nHe, She, It, They (Third Person / படர்க்கை)\n\nVerbs (வினைச்சொற்கள்):\nஒரு வாக்கியத்தில் செயலைக் குறிக்கும் சொல் வினைச்சொல். இது இரண்டு முக்கிய வகைப்படும்:\n1. Transitive Verb (செயப்படுபொருள் குன்றிய வினை): Object-ஐ (செயப்படுபொருளை) தேவைப்படுத்தும் வினைச்சொல். எ.கா: He kicked the ball. ('kicked' எதை? 'the ball').\n2. Intransitive Verb (செயப்படுபொருள் குன்றா வினை): Object தேவைப்படாத வினைச்சொல். எ.கா: Birds fly. ('fly' என்பதற்கு object தேவையில்லை)."
+      },
+      {
+        "title": "பருவம் 2: Adjectives and Degrees of Comparison (பெயரடை மற்றும் ஒப்பீட்டு நிலைகள்)",
+        "content": "Adjective என்பது ஒரு Noun-ஐ விவரிக்கும் சொல். இதன் ஒப்பீட்டு நிலைகள் 3 வகைப்படும்:\n1. Positive Degree: ஒருவரை அல்லது ஒன்றைப் பற்றி மட்டும் கூறுவது (எ.கா: Tall, Big, Beautiful).\n2. Comparative Degree: இருவரை அல்லது இரு பொருட்களை ஒப்பிடுவது. பொதுவாக '-er' சேரும் அல்லது 'more' சேரும் (எ.கா: Taller, Bigger, More beautiful).\n3. Superlative Degree: இரண்டிற்கும் மேற்பட்டவர்களை ஒப்பிட்டுச் சிறப்பைக் கூறுவது. பொதுவாக '-est' சேரும் அல்லது 'most' சேரும் (எ.கா: Tallest, Biggest, Most beautiful). Superlative-க்கு முன்னால் எப்போதும் 'the' வர வேண்டும்."
+      },
+      {
+        "title": "பருவம் 2: Tenses (காலங்கள்)",
+        "content": "Tenses ஒரு செயல் எப்போது நடந்தது என்பதைக் காட்டுகின்றன.\n1. Simple Present Tense: வழக்கமாகச் செய்யும் செயல்கள், உலக உண்மைகள் (எ.கா: The sun rises in the east. I play chess every day). He, She, It வந்தால் வினைச்சொல்லுடன் 's' அல்லது 'es' சேரும்.\n2. Present Continuous Tense: தற்போது நடந்து கொண்டிருக்கும் செயல் (am/is/are + verb+ing). எ.கா: I am reading a book.\n3. Simple Past Tense: முடிந்துபோன செயல் (verb-இன் past form). எ.கா: I played chess yesterday.\n4. Past Continuous Tense: கடந்த காலத்தில் ஒரு குறிப்பிட்ட நேரத்தில் தொடர்ந்து நடந்துகொண்டிருந்த செயல் (was/were + verb+ing). எ.கா: I was reading yesterday at 5 PM.\n5. Simple Future Tense: இனிமேல் நடக்கப்போகும் செயல் (will/shall + verb). எ.கா: I will play tomorrow."
+      },
+      {
+        "title": "பருவம் 2: Adverbs (வினையடைகள்)",
+        "content": "Adverb என்பது ஒரு வினைச்சொல் (Verb) எப்படி, எப்போது, எங்கு நடந்தது என்பதை விவரிக்கும் சொல்.\nபொதுவாக '-ly' என்று முடியும் சொற்கள் Adverb ஆக இருக்கும் (எ.கா: slowly, beautifully).\nவகைகள்:\n1. Adverb of Manner: எப்படி நடந்தது? (எ.கா: bravely, fast, softly).\n2. Adverb of Time: எப்போது நடந்தது? (எ.கா: yesterday, today, now).\n3. Adverb of Place: எங்கு நடந்தது? (எ.கா: here, there, outside)."
+      },
+      {
+        "title": "பருவம் 3: Prepositions and Conjunctions (முன்னிடைச்சொற்கள் மற்றும் இணைப்புச்சொற்கள்)",
+        "content": "Prepositions (இடங்குறிக்கும் சொற்கள்):\nஒரு பொருளின் இடத்தையோ, நேரத்தையோ குறிக்கும் சொற்கள்.\nIn (உள்ளே/வருடங்கள், மாதங்களுக்கு முன்), On (மேலே/நாட்களுக்கு முன்), At (குறிப்பிட்ட நேரம்/சிறிய இடம்), Under (கீழே), Between (இரண்டிற்கும் நடுவில்), Among (பலவற்றிற்கு இடையே).\n\nConjunctions (இணைப்புச்சொற்கள்):\nAnd: ஒரே மாதிரியான கருத்துகளை இணைக்க.\nBut: முரண்பாடான கருத்துகளை இணைக்க.\nOr: ஏதேனும் ஒன்றைத் தேர்ந்தெடுக்க.\nBecause: காரணத்தைக் கூற.\nSo: முடிவைக் கூற."
+      },
+      {
+        "title": "பருவம் 3: Sentence Pattern (வாக்கிய அமைப்பு)",
+        "content": "ஆங்கில வாக்கியங்கள் குறிப்பிட்ட அமைப்பில் (Pattern) எழுதப்படும். முக்கிய உறுப்புகள்:\n1. Subject (S) - எழுவாய்: செயலைச் செய்பவர் (யார்? எது?).\n2. Verb (V) - பயனிலை: செயல் (என்ன செய்தார்?).\n3. Object (O) - செயப்படுபொருள்: யாரை? எதை? என்ற கேள்விக்குப் பதில் அளிப்பது.\n   - Direct Object (DO): 'எதை?' என்ற கேள்விக்குப் பதில்.\n   - Indirect Object (IO): 'யாருக்கு?' என்ற கேள்விக்குப் பதில்.\n4. Complement (C): வாக்கியத்தின் பொருளை முழுமையாக்குவது (பொதுவாக be-verbs-க்கு பின் வரும். எ.கா: He is a 'doctor').\n5. Adjunct (A): எங்கு? எப்போது? எப்படி? ஏன்? என்ற கேள்விகளுக்குப் பதில் அளிக்கும் கூடுதல் தகவல்.\n\nபொதுவான அமைப்புகள்:\nSV (Birds fly)\nSVO (I bought a pen)\nSVC (She is a teacher)\nSVIODO (My father gave me a pen)\nSVCA (He is a doctor in Chennai)"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "The word that describes a noun is called ________.",
+        "options": [
+          "Verb",
+          "Adjective",
+          "Adverb",
+          "Pronoun"
+        ],
+        "answer": 1,
+        "explanation": "பெயர்ச்சொல்லை (Noun) விவரிக்கும் சொல் Adjective (பெயரடை) எனப்படும். (எ.கா: 'Good' boy)."
+      },
+      {
+        "question": "Identify the proper noun from the following:",
+        "options": [
+          "City",
+          "Boy",
+          "Delhi",
+          "River"
+        ],
+        "answer": 2,
+        "explanation": "Proper noun என்பது ஒரு குறிப்பிட்ட இடத்தின் அல்லது நபரின் பெயர். இது Capital letter-ல் தொடங்கும். இங்கு 'Delhi' என்பது Proper noun."
+      },
+      {
+        "question": "'A _____ of birds'. Choose the correct collective noun.",
+        "options": [
+          "herd",
+          "flock",
+          "bunch",
+          "pack"
+        ],
+        "answer": 1,
+        "explanation": "பறவைகளின் கூட்டத்தைக் குறிக்க 'flock' என்ற Collective Noun பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "Which of the following is an Abstract Noun?",
+        "options": [
+          "Gold",
+          "Table",
+          "Honesty",
+          "Army"
+        ],
+        "answer": 2,
+        "explanation": "Abstract Noun என்பது கண்ணால் பார்க்க முடியாத பண்புப் பெயர். 'Honesty' (நேர்மை) என்பது ஒரு பண்பு."
+      },
+      {
+        "question": "Ravi is a good boy. _____ is my friend. (Fill in the correct pronoun)",
+        "options": [
+          "She",
+          "He",
+          "It",
+          "They"
+        ],
+        "answer": 1,
+        "explanation": "'Ravi' என்பது ஒரு ஆண்பால் பெயர். எனவே ஆண்பாலைக் குறிக்கும் 'He' என்ற Pronoun-ஐப் பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Identify the verb in the sentence: 'The cat sleeps on the mat.'",
+        "options": [
+          "cat",
+          "sleeps",
+          "on",
+          "mat"
+        ],
+        "answer": 1,
+        "explanation": "Verb என்பது செயலைக் குறிக்கும் சொல். இங்கு 'sleeps' (தூங்குகிறது) என்பது செயல்."
+      },
+      {
+        "question": "A verb that needs an object to complete its meaning is called ________.",
+        "options": [
+          "Intransitive Verb",
+          "Transitive Verb",
+          "Adverb",
+          "Auxiliary Verb"
+        ],
+        "answer": 1,
+        "explanation": "Object தேவைப்படும் வினைச்சொல் Transitive Verb (செயப்படுபொருள் குன்றிய வினை) எனப்படும்."
+      },
+      {
+        "question": "What is the comparative degree of the adjective 'fast'?",
+        "options": [
+          "fastest",
+          "more fast",
+          "faster",
+          "fastly"
+        ],
+        "answer": 2,
+        "explanation": "ஒரே ஒரு அசை (syllable) கொண்ட சொல்லின் Comparative degree-யில் 'er' சேர்க்க வேண்டும். எனவே 'faster'."
+      },
+      {
+        "question": "Mount Everest is the ________ peak in the world.",
+        "options": [
+          "high",
+          "higher",
+          "highest",
+          "more high"
+        ],
+        "answer": 2,
+        "explanation": "உலகின் பல சிகரங்களை ஒப்பிட்டுச் சிறப்பைக் கூறுவதால் Superlative Degree (-est) வர வேண்டும். மேலும் 'the' வந்துள்ளதால் 'highest' என்பதே சரி."
+      },
+      {
+        "question": "What is the superlative degree of 'beautiful'?",
+        "options": [
+          "beautifuler",
+          "more beautiful",
+          "most beautiful",
+          "beautifullest"
+        ],
+        "answer": 2,
+        "explanation": "இரண்டு அல்லது அதற்கு மேற்பட்ட அசைகளைக் (syllables) கொண்ட சொற்களுக்கு முன்னால் 'most' சேர்த்து Superlative-ஐ உருவாக்க வேண்டும்."
+      },
+      {
+        "question": "The sun ________ in the east. (Choose the correct simple present tense verb)",
+        "options": [
+          "rise",
+          "rises",
+          "rising",
+          "rose"
+        ],
+        "answer": 1,
+        "explanation": "உலக உண்மைகளுக்கு Simple Present Tense பயன்படுத்த வேண்டும். 'The sun' என்பது Third person singular (It), எனவே வினைச்சொல்லுடன் 's' சேர வேண்டும் (rises)."
+      },
+      {
+        "question": "I ________ reading a book now.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "'now' (இப்போது) என்பது Present Continuous Tense-ஐக் குறிக்கிறது. 'I' உடன் எப்பொழுதும் 'am' வரும்."
+      },
+      {
+        "question": "We ________ to Chennai yesterday.",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "will go"
+        ],
+        "answer": 2,
+        "explanation": "'yesterday' (நேற்று) என்பது Simple Past Tense-ஐக் குறிக்கிறது. 'go' என்பதன் past form 'went'."
+      },
+      {
+        "question": "She ________ cooking when I called her.",
+        "options": [
+          "is",
+          "were",
+          "was",
+          "am"
+        ],
+        "answer": 2,
+        "explanation": "கடந்த காலத்தில் ஒரு செயல் நடந்துகொண்டிருந்ததைக் குறிப்பது Past Continuous Tense. 'She' என்ற singular subject-க்கு 'was' வரும்."
+      },
+      {
+        "question": "They ________ play cricket tomorrow.",
+        "options": [
+          "played",
+          "will",
+          "are playing",
+          "have played"
+        ],
+        "answer": 1,
+        "explanation": "'tomorrow' (நாளை) என்பது Simple Future Tense-ஐக் குறிக்கிறது. எனவே 'will' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "The old man walked ________. (Choose the correct adverb)",
+        "options": [
+          "slow",
+          "slowly",
+          "slower",
+          "slowest"
+        ],
+        "answer": 1,
+        "explanation": "Verb-ஐ (walked) விவரிக்கும் சொல் Adverb எனப்படும். பொதுவாக Adverb-கள் '-ly' இல் முடியும். எனவே 'slowly'."
+      },
+      {
+        "question": "Which of the following is an Adverb of Time?",
+        "options": [
+          "Beautifully",
+          "Here",
+          "Yesterday",
+          "Fast"
+        ],
+        "answer": 2,
+        "explanation": "எப்போது நடந்தது என்ற நேரத்தைக் குறிக்கும் சொல் Adverb of Time எனப்படும். 'Yesterday' என்பது நேரத்தைக் குறிக்கிறது."
+      },
+      {
+        "question": "The cat is hiding ________ the table.",
+        "options": [
+          "under",
+          "between",
+          "in",
+          "into"
+        ],
+        "answer": 0,
+        "explanation": "மேசையின் கீழே என்ற இடத்தைக் குறிக்க 'under' என்ற Preposition பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "I was born ________ 2010.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "to"
+        ],
+        "answer": 2,
+        "explanation": "வருடங்கள் (years) மற்றும் மாதங்களுக்கு (months) முன்னால் 'in' என்ற Preposition வர வேண்டும்."
+      },
+      {
+        "question": "My birthday is ________ Monday.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": 2,
+        "explanation": "வாரத்தின் நாட்களுக்கு (days) முன்னால் எப்போதும் 'on' என்ற Preposition பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Distribute these sweets ________ the two brothers.",
+        "options": [
+          "among",
+          "between",
+          "in",
+          "at"
+        ],
+        "answer": 1,
+        "explanation": "சரியாக இரண்டு பேருக்கு இடையில் எனப் பொருள் வரும்போது 'between' பயன்படுத்த வேண்டும். பலருக்கு இடையில் என்றால் 'among'."
+      },
+      {
+        "question": "I like apple ________ I don't like banana.",
+        "options": [
+          "and",
+          "or",
+          "but",
+          "so"
+        ],
+        "answer": 2,
+        "explanation": "முரண்பாடான இரண்டு கருத்துகளை (பிடிக்கும், பிடிக்காது) இணைக்க 'but' (ஆனால்) என்ற Conjunction பயன்படுகிறது."
+      },
+      {
+        "question": "Do you want tea ________ coffee?",
+        "options": [
+          "and",
+          "but",
+          "so",
+          "or"
+        ],
+        "answer": 3,
+        "explanation": "இரண்டில் ஒன்றைத் தேர்ந்தெடுக்கும் விருப்பத்தைக் கேட்க 'or' (அல்லது) பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "He was sick, ________ he went to the hospital.",
+        "options": [
+          "because",
+          "so",
+          "but",
+          "or"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு காரணத்தின் விளைவை/முடிவைக் கூற 'so' (எனவே) பயன்படுத்தப்படுகிறது. (அவனுக்கு உடம்பு சரியில்லை, 'எனவே' மருத்துவமனைக்குச் சென்றான்)."
+      },
+      {
+        "question": "I did not go to school ________ it was raining.",
+        "options": [
+          "so",
+          "because",
+          "but",
+          "and"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு செயலுக்கான காரணத்தைக் கூற 'because' (ஏனென்றால்) பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'Birds fly.'",
+        "options": [
+          "SVO",
+          "SV",
+          "SVC",
+          "SVA"
+        ],
+        "answer": 1,
+        "explanation": "Birds (யார்/எது?) - Subject (S). fly (என்ன செயல்?) - Verb (V). எனவே இது SV pattern."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'I bought a pen.'",
+        "options": [
+          "SVO",
+          "SVC",
+          "SVA",
+          "SV"
+        ],
+        "answer": 0,
+        "explanation": "I (S), bought (V), a pen (எதை வாங்கினேன்?) - Object (O). எனவே இது SVO."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'She is a teacher.'",
+        "options": [
+          "SVO",
+          "SVA",
+          "SVC",
+          "SV"
+        ],
+        "answer": 2,
+        "explanation": "She (S), is (V), a teacher (அவளைப் பற்றிய முழுமையான தகவல்) - Complement (C). 'be' verb-க்கு (is, was, are) பின்னால் வருவது Complement. எனவே SVC."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'He went to Chennai yesterday.'",
+        "options": [
+          "SVO",
+          "SVA",
+          "SVAA",
+          "SVCA"
+        ],
+        "answer": 2,
+        "explanation": "He (S), went (V), to Chennai (எங்கு?) - Adjunct (A), yesterday (எப்போது?) - Adjunct (A). எனவே இது SVAA."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'My father gave me a watch.'",
+        "options": [
+          "SVIODO",
+          "SVOC",
+          "SVOA",
+          "SVO"
+        ],
+        "answer": 0,
+        "explanation": "My father (S), gave (V), me (யாருக்கு?) - Indirect Object (IO), a watch (எதை?) - Direct Object (DO). எனவே SVIODO."
+      },
+      {
+        "question": "HOTS Question: 'Painting' in the sentence 'Painting is my hobby' is a ________.",
+        "options": [
+          "Verb",
+          "Adjective",
+          "Noun (Gerund)",
+          "Adverb"
+        ],
+        "answer": 2,
+        "explanation": "verb+ing ஃபார்ம் வாக்கியத்தின் Subject-ஆக வந்தால், அது வினைச்சொல்லாகச் செயல்படாமல் பெயர்ச்சொல்லாகச் (Noun/Gerund) செயல்படும்."
+      },
+      {
+        "question": "Which of the following is an Interjection?",
+        "options": [
+          "And",
+          "Wow!",
+          "Slowly",
+          "Under"
+        ],
+        "answer": 1,
+        "explanation": "Interjection (வியப்புச்சொல்) என்பது ஆச்சரியம், மகிழ்ச்சி, சோகம் போன்ற திடீர் உணர்வுகளை வெளிப்படுத்தும் சொல் (பொதுவாக '!' குறியீட்டுடன் வரும்)."
+      },
+      {
+        "question": "The plural of 'Child' is ________.",
+        "options": [
+          "Childs",
+          "Children",
+          "Childrens",
+          "Childes"
+        ],
+        "answer": 1,
+        "explanation": "'Child' என்ற பெயர்ச்சொல்லின் பன்மை வடிவம் 'Children' ஆகும். (இது Irregular plural)."
+      },
+      {
+        "question": "He has been living here ________ 2015.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "in"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு செயல் கடந்த காலத்தில் ஒரு குறிப்பிட்ட புள்ளியில் (Point of time) தொடங்கி இன்னமும் தொடர்வதைக் குறிக்க 'since' பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "We studied English ________ three hours.",
+        "options": [
+          "since",
+          "from",
+          "for",
+          "in"
+        ],
+        "answer": 2,
+        "explanation": "ஒரு செயல் எவ்வளவு கால அளவு (Period of time) நடந்தது என்பதைக் குறிக்க 'for' பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "HOTS Question: Choose the correct sentence.",
+        "options": [
+          "She prefer coffee than tea.",
+          "She prefers coffee to tea.",
+          "She prefers coffee than tea.",
+          "She prefer coffee to tea."
+        ],
+        "answer": 1,
+        "explanation": "'prefer' (விருப்பம்) என்ற சொல்லைப் பயன்படுத்தும்போது 'than'-க்கு பதிலாக 'to' என்ற preposition-ஐப் பயன்படுத்த வேண்டும். She (Third person singular) என்பதால் 'prefers' வர வேண்டும்."
+      },
+      {
+        "question": "What is the past tense of the verb 'Catch'?",
+        "options": [
+          "Catched",
+          "Caught",
+          "Catching",
+          "Cought"
+        ],
+        "answer": 1,
+        "explanation": "'Catch' என்பது Irregular verb. இதன் Past tense வடிவம் 'Caught' ஆகும்."
+      },
+      {
+        "question": "What is the opposite (Antonym) of 'Accept'?",
+        "options": [
+          "Except",
+          "Reject",
+          "Agree",
+          "Allow"
+        ],
+        "answer": 1,
+        "explanation": "Accept (ஏற்றுக்கொள்) என்பதன் எதிர்ச்சொல் Reject (நிராகரி) ஆகும்."
+      },
+      {
+        "question": "Match the Prefix to the word 'happy' to make its opposite.",
+        "options": [
+          "in-",
+          "dis-",
+          "un-",
+          "mis-"
+        ],
+        "answer": 2,
+        "explanation": "'happy' (மகிழ்ச்சி) என்ற சொல்லின் முன்னால் 'un' என்ற Prefix-ஐச் சேர்த்தால் எதிர்ச்சொல்லான 'unhappy' கிடைக்கும்."
+      },
+      {
+        "question": "Match the Suffix to the word 'care' to mean 'without care'.",
+        "options": [
+          "-ful",
+          "-less",
+          "-ness",
+          "-ment"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு சொல்லின் பின்னால் 'less' என்ற Suffix-ஐச் சேர்த்தால் 'இல்லாத' (without) என்ற பொருள் வரும். Careless = Without care."
+      },
+      {
+        "question": "Identify the Sentence Pattern: 'The baby cried loudly.'",
+        "options": [
+          "SV",
+          "SVC",
+          "SVA",
+          "SVO"
+        ],
+        "answer": 2,
+        "explanation": "The baby (S), cried (V), loudly (எப்படி அழுதது? - Adjunct). எனவே SVA."
+      },
+      {
+        "question": "Choose the correctly punctuated sentence.",
+        "options": [
+          "what is your name",
+          "What is your name?",
+          "What is your name.",
+          "what is your name!"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு வாக்கியம் எப்போதுமே Capital letter-ல் தொடங்க வேண்டும். கேள்வி வாக்கியம் என்பதால் Question mark (?) இல் முடிய வேண்டும்."
+      },
+      {
+        "question": "The woodcutter chopped the tree with an ________. (Choose the correct homophone)",
+        "options": [
+          "acts",
+          "axe",
+          "ax",
+          "ask"
+        ],
+        "answer": 1,
+        "explanation": "Homophones என்பவை உச்சரிப்பு ஒன்றாகவும், பொருளும் எழுத்துகளும் வேறாகவும் உள்ள சொற்கள். மரம் வெட்டப் பயன்படும் கோடாரிக்கு ஆங்கிலத்தில் 'axe'."
+      },
+      {
+        "question": "He ________ a letter right now.",
+        "options": [
+          "writes",
+          "wrote",
+          "is writing",
+          "will write"
+        ],
+        "answer": 2,
+        "explanation": "'right now' (தற்போது) என்பது Present Continuous Tense. He உடன் 'is' வந்து verb+ing சேர வேண்டும் (is writing)."
+      },
+      {
+        "question": "Find the odd one out (Parts of Speech).",
+        "options": [
+          "Quickly",
+          "Slowly",
+          "Happy",
+          "Loudly"
+        ],
+        "answer": 2,
+        "explanation": "Quickly, Slowly, Loudly ஆகிய மூன்றும் Adverbs. 'Happy' என்பது மட்டும் Adjective."
+      },
+      {
+        "question": "Fill in the blank with the correct article: He is ________ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explanation": "'Honest' என்ற சொல்லில் 'h' என்ற எழுத்து silent ஆக இருப்பதால், அது உயிர் ஒலியில் (vowel sound 'o') தொடங்குகிறது. எனவே 'an' வர வேண்டும்."
+      },
+      {
+        "question": "Identify the Subject in the sentence: 'In the forest, a lion roared.'",
+        "options": [
+          "In the forest",
+          "roared",
+          "a lion",
+          "forest"
+        ],
+        "answer": 2,
+        "explanation": "யார் கர்ஜித்தது? ஒரு சிங்கம். எனவே 'a lion' என்பதுதான் Subject. வாக்கியத்தின் அமைப்பு எங்கு மாறினாலும் செயலைச் செய்பவரே Subject."
+      },
+      {
+        "question": "My sister is older ________ me.",
+        "options": [
+          "to",
+          "then",
+          "than",
+          "from"
+        ],
+        "answer": 2,
+        "explanation": "Comparative degree-யில் (-er form) ஒப்பிடும்போது 'than' (விட) என்ற சொல்லைப் பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "Identify the Adjective in the sentence: 'She gave me five red roses.'",
+        "options": [
+          "gave",
+          "five",
+          "roses",
+          "red"
+        ],
+        "answer": 3,
+        "explanation": "Roses (ரோஜாக்கள்) என்ற நவுனின் நிறத்தை விவரிப்பதால் 'red' என்பது Adjective. ('five' என்பதும் adjective of number தான், ஆனால் பொதுவாக நிறம், குணம் adjective ஆக அறியப்படும்)."
+      },
+      {
+        "question": "I saw ________ elephant in the zoo.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "some"
+        ],
+        "answer": 1,
+        "explanation": "'Elephant' என்பது உயிர் ஒலியில் (vowel sound) தொடங்குவதால் அதற்கு முன்னால் 'an' என்ற Article வர வேண்டும்."
+      }
+    ]
+  }
+}

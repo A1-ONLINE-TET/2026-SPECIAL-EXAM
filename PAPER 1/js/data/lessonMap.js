@@ -198,17 +198,17 @@ export const lessonMap = {
       "grade": "4",
       "title": "இயல் 6: பண்படுத்தும் பழமொழிகள் *"
     },
-    "இயல் 7: முயல் அரசன் *": {
+    "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்": {
       "local": true,
       "filename": "tam_4_t1_l7",
       "grade": "4",
-      "title": "இயல் 7: முயல் அரசன் *"
+      "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்"
     },
     "tam_4_t1_l7": {
       "local": true,
       "filename": "tam_4_t1_l7",
       "grade": "4",
-      "title": "இயல் 7: முயல் அரசன் *"
+      "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்"
     },
     "இயல் 8: வெற்றி வேற்கை *": {
       "local": true,
@@ -2259,51 +2259,197 @@ export const lessonMap = {
     }
   },
   "standard_6_7_8": {
+    "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "eng_6_full_notes",
+      "grade": "6",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "eng_6_full_notes": {
+      "local": true,
+      "filename": "eng_6_full_notes",
+      "grade": "6",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "English Grammar (Term 1)": {
+      "local": true,
+      "filename": "eng_6_t1_notes",
+      "grade": "6",
+      "title": "English Grammar (Term 1)"
+    },
+    "eng_6_t1_notes": {
+      "local": true,
+      "filename": "eng_6_t1_notes",
+      "grade": "6",
+      "title": "English Grammar (Term 1)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (இயல் 1 - 5)": {
+      "local": true,
+      "filename": "mat_6_t2_notes",
+      "grade": "6",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (இயல் 1 - 5)"
+    },
+    "mat_6_t2_notes": {
+      "local": true,
+      "filename": "mat_6_t2_notes",
+      "grade": "6",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (இயல் 1 - 5)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 5)": {
+      "local": true,
+      "filename": "mat_6_t3_notes",
+      "grade": "6",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 5)"
+    },
+    "mat_6_t3_notes": {
+      "local": true,
+      "filename": "mat_6_t3_notes",
+      "grade": "6",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 5)"
+    },
+    "தமிழ் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "tam_6_full_notes",
+      "grade": "6",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "tam_6_full_notes": {
+      "local": true,
+      "filename": "tam_6_full_notes",
+      "grade": "6",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
     "முக்கிய குறிப்புகள் - பகுதி 1": {
       "local": true,
-      "filename": "sample_678_notes_1",
-      "grade": "all",
+      "filename": "tam_6_t1_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 1"
     },
-    "sample_678_notes_1": {
+    "tam_6_t1_notes": {
       "local": true,
-      "filename": "sample_678_notes_1",
-      "grade": "all",
+      "filename": "tam_6_t1_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 1"
     },
     "முக்கிய குறிப்புகள் - பகுதி 2": {
       "local": true,
-      "filename": "sample_678_notes_2",
-      "grade": "all",
+      "filename": "tam_6_t2_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 2"
     },
-    "sample_678_notes_2": {
+    "tam_6_t2_notes": {
       "local": true,
-      "filename": "sample_678_notes_2",
-      "grade": "all",
+      "filename": "tam_6_t2_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 2"
     },
     "முக்கிய குறிப்புகள் - பகுதி 3": {
       "local": true,
-      "filename": "sample_678_notes_3",
-      "grade": "all",
+      "filename": "tam_6_t3_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 3"
     },
-    "sample_678_notes_3": {
+    "tam_6_t3_notes": {
       "local": true,
-      "filename": "sample_678_notes_3",
-      "grade": "all",
+      "filename": "tam_6_t3_notes",
+      "grade": "6",
       "title": "முக்கிய குறிப்புகள் - பகுதி 3"
     },
-    "English Grammar (Term 1)": {
+    "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)": {
       "local": true,
-      "filename": "sample_678_notes_4",
-      "title": "English Grammar (Term 1)"
+      "filename": "eng_7_full_notes",
+      "grade": "7",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)"
     },
-    "sample_678_notes_4": {
+    "eng_7_full_notes": {
       "local": true,
-      "filename": "sample_678_notes_4",
-      "title": "English Grammar (Term 1)"
+      "filename": "eng_7_full_notes",
+      "grade": "7",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 1, இயல் 1 - 6)": {
+      "local": true,
+      "filename": "mat_7_t1_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 1, இயல் 1 - 6)"
+    },
+    "mat_7_t1_notes": {
+      "local": true,
+      "filename": "mat_7_t1_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 1, இயல் 1 - 6)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 2, இயல் 1 - 5)": {
+      "local": true,
+      "filename": "mat_7_t2_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 2, இயல் 1 - 5)"
+    },
+    "mat_7_t2_notes": {
+      "local": true,
+      "filename": "mat_7_t2_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 2, இயல் 1 - 5)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 6)": {
+      "local": true,
+      "filename": "mat_7_t3_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 6)"
+    },
+    "mat_7_t3_notes": {
+      "local": true,
+      "filename": "mat_7_t3_notes",
+      "grade": "7",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 6)"
+    },
+    "தமிழ் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "tam_7_full_notes",
+      "grade": "7",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "tam_7_full_notes": {
+      "local": true,
+      "filename": "tam_7_full_notes",
+      "grade": "7",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "eng_8_full_notes",
+      "grade": "8",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "eng_8_full_notes": {
+      "local": true,
+      "filename": "eng_8_full_notes",
+      "grade": "8",
+      "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "கணிதம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "mat_8_full_notes",
+      "grade": "8",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "mat_8_full_notes": {
+      "local": true,
+      "filename": "mat_8_full_notes",
+      "grade": "8",
+      "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)": {
+      "local": true,
+      "filename": "tam_8_full_notes",
+      "grade": "8",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+    },
+    "tam_8_full_notes": {
+      "local": true,
+      "filename": "tam_8_full_notes",
+      "grade": "8",
+      "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
     }
   }
 };

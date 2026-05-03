@@ -8,17 +8,17 @@ export const extraSyllabusData = {
             "title": "திருப்புதல் பகுதி (Revision Section)",
             "topics": [
               {
-                "title": "திருப்புதல் தேர்வு 1",
+                "title": "பாடக்குறிப்புகள் (180 வினாக்கள் தொகுப்பு)",
                 "isUpdated": true,
                 "code": "rev_special_180"
               },
               {
-                "title": "திருப்புதல் தேர்வு 2",
+                "title": "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)",
                 "isUpdated": true,
                 "code": "mock_test_2"
               },
               {
-                "title": "திருப்புதல் தேர்வு 3",
+                "title": "திருப்புதல் தேர்வு 3 (Revision Test 3)",
                 "isUpdated": true,
                 "code": "rev_special_3"
               },
@@ -28,7 +28,7 @@ export const extraSyllabusData = {
                 "code": "rev_special_4"
               },
               {
-                "title": "TNTET தாள் 1 - மாதிரித் தேர்வு 1",
+                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_1"
               }
@@ -67,7 +67,7 @@ export const extraSyllabusData = {
                 "code": "mock_test_4"
               },
               {
-                "title": "தாள் 1 - மாதிரித் தேர்வு 2",
+                "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_2"
               }
@@ -106,7 +106,7 @@ export const extraSyllabusData = {
                 "code": "psy_6_l4"
               },
               {
-                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *",
+                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
                 "isUpdated": true,
                 "code": "psy_6_l5"
               }
@@ -119,40 +119,63 @@ export const extraSyllabusData = {
   "standard_6_7_8": {
     "all": [
       {
-        "term": "முக்கிய குறிப்புகள் (Important Notes)",
+        "term": "6 ஆம் வகுப்பு (Class 6)",
         "units": [
           {
-            "title": "6, 7, 8 ஆம் வகுப்பு",
+            "title": "தமிழ் (Tamil)",
             "topics": [
-              {
-                "title": "முக்கிய குறிப்புகள் - பகுதி 1",
-                "isUpdated": true,
-                "code": "sample_678_notes_1"
-              },
-              {
-                "title": "முக்கிய குறிப்புகள் - பகுதி 2",
-                "isUpdated": true,
-                "code": "sample_678_notes_2"
-              },
-              {
-                "title": "முக்கிய குறிப்புகள் - பகுதி 3",
-                "isUpdated": true,
-                "code": "sample_678_notes_3"
-              },
-              {
-                "title": "முக்கிய குறிப்புகள் - பகுதி 4",
-                "isUpdated": true,
-                "code": "sample_678_notes_4"
-              },
-              {
-                "title": "முக்கிய குறிப்புகள் - பகுதி 5",
-                "isUpdated": true,
-                "code": "sample_678_notes_5"
-              }
+              { "title": "தமிழ் - பருவம் 1 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t1_notes" },
+              { "title": "தமிழ் - பருவம் 2 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t2_notes" },
+              { "title": "தமிழ் - பருவம் 3 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t3_notes" },
+              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_6_full_notes" }
+            ]
+          },
+          {
+            "title": "ஆங்கிலம் (English)",
+            "topics": [
+              { "title": "English Grammar (Term 1)", "isUpdated": true, "code": "eng_6_t1_notes" },
+              { "title": "English - Full Notes", "isUpdated": true, "code": "eng_6_full_notes" }
+            ]
+          },
+          {
+            "title": "கணிதம் (Maths)",
+            "topics": [
+              { "title": "கணிதம் - பருவம் 1", "isUpdated": true, "code": "mat_6_t1_notes" },
+              { "title": "கணிதம் - பருவம் 2", "isUpdated": true, "code": "mat_6_t2_notes" },
+              { "title": "கணிதம் - பருவம் 3", "isUpdated": true, "code": "mat_6_t3_notes" }
+            ]
+          }
+        ]
+      },
+      {
+        "term": "7 ஆம் வகுப்பு (Class 7)",
+        "units": [
+          {
+            "title": "பாடக்குறிப்புகள் (Study Materials)",
+            "topics": [
+              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_7_full_notes" },
+              { "title": "ஆங்கிலம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "eng_7_full_notes" },
+              { "title": "கணிதம் - பருவம் 1", "isUpdated": true, "code": "mat_7_t1_notes" },
+              { "title": "கணிதம் - பருவம் 2", "isUpdated": true, "code": "mat_7_t2_notes" },
+              { "title": "கணிதம் - பருவம் 3", "isUpdated": true, "code": "mat_7_t3_notes" }
+            ]
+          }
+        ]
+      },
+      {
+        "term": "8 ஆம் வகுப்பு (Class 8)",
+        "units": [
+          {
+            "title": "பாடக்குறிப்புகள் (Study Materials)",
+            "topics": [
+              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_8_full_notes" },
+              { "title": "ஆங்கிலம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "eng_8_full_notes" },
+              { "title": "கணிதம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "mat_8_full_notes" }
             ]
           }
         ]
       }
     ]
   }
+
 };
