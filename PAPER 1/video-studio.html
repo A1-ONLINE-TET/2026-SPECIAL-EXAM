@@ -127,7 +127,7 @@
             const gr = ctx.createLinearGradient(0,0,1280,0); gr.addColorStop(0, '#2563eb'); gr.addColorStop(1, '#7c3aed');
             ctx.fillStyle = gr; ctx.fillRect(0,0,1280,100);
             ctx.fillStyle = 'white'; ctx.font = 'bold 35px Outfit'; ctx.textAlign = 'left';
-            ctx.fillText(`வினா எண்: ${fState.idx+1}`, 60, 62); ctx.textAlign = 'right'; ctx.fillText('A1 ONLINE COACHING CENTER', 1220, 62);
+            ctx.fillText(`வினா எண்: ${fState.idx+1}`, 60, 62); ctx.textAlign = 'right'; ctx.fillText('TAMIL WINNERS', 1220, 62);
             
             ctx.textAlign = 'center'; ctx.font = `800 ${fState.qSize}px Hind Madurai`; ctx.fillStyle = '#1e293b';
             const words = q.q.split(' '); let line = ''; let y = 180; 
@@ -161,8 +161,8 @@
         async function startFlow() {
             ctx.fillStyle = 'white'; ctx.fillRect(0,0,1280,720);
             ctx.fillStyle = '#2563eb'; ctx.font = '800 65px Outfit'; ctx.textAlign = 'center';
-            ctx.fillText('A1 ONLINE COACHING CENTER', 640, 300);
-            await speak("ஏ ஒன் ஆன்லைன் கோச்சிங் சென்டருக்கு உங்களை வரவேற்கிறோம்.");
+            ctx.fillText('TAMIL WINNERS', 640, 300);
+            await speak("தமிழ் வின்னர்ஸ் ஆன்லைன் கோச்சிங் சென்டருக்கு உங்களை வரவேற்கிறோம்.");
             await speak(`${document.getElementById('inp-grade').value} ${document.getElementById('inp-subject').value}. தலைப்பு: ${document.getElementById('inp-title').value}. மொத்தம் 15 வினாக்கள்.`);
 
             for(let i=0; i<15; i++) {
@@ -219,7 +219,7 @@
                 recorder.onstop = () => {
                     const blob = new Blob(chunks, { type: 'video/webm' });
                     const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
-                    a.download = `A1_Final_Video_${Date.now()}.webm`; a.click(); 
+                    a.download = `TW_Final_Video_${Date.now()}.webm`; a.click(); 
                     
                     // Stop screen sharing automatically
                     screenStream.getTracks().forEach(t => t.stop());

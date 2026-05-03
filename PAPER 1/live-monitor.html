@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Winners - Live Monitor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --accent: #8b5cf6;
+            --bg-dark: #0f172a;
+            --glass: rgba(30, 41, 59, 0.7);
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --success: #10b981;
+            --error: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: var(--text-main);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .live-dot {
+            height: 12px;
+            width: 12px;
+            background: #e94560;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #e94560;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 0 rgba(233, 69, 96, 0.7); }
+            70% { transform: scale(1.2); opacity: 0.5; box-shadow: 0 0 0 10px rgba(233, 69, 96, 0); }
+            100% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 0 rgba(233, 69, 96, 0); }
+        }
+
+        .brand-text {
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #status {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            background: rgba(0,0,0,0.3);
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .monitor-frame-container {
+            flex-grow: 1;
+            padding: 10px;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 0 40px rgba(0,0,0,0.5);
+            transition: opacity 0.3s ease;
+        }
+
+        .iframe-loading {
+            opacity: 0.5;
+            filter: blur(2px);
+        }
+
+        .footer {
+            padding: 10px 15px;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .url-box {
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--success);
+            padding: 8px 12px;
+            border-radius: 8px;
+            flex-grow: 1;
+            font-size: 0.7rem;
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-ref {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.8rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-ref:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.2);
+        }
+
+        .btn-ref:active {
+            transform: scale(0.95);
+        }
+
+        /* Scanline effect for monitor feel */
+        .scanlines {
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            background-size: 100% 3px, 3px 100%;
+            pointer-events: none;
+            z-index: 10;
+            display: none; /* Optional */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="brand">
+            <div class="live-dot"></div>
+            <div class="brand-text">TAMIL WINNERS LIVE MONITOR</div>
+        </div>
+        <div id="status">Syncing with AI...</div>
+    </div>
+    
+    <div class="monitor-frame-container">
+        <div class="scanlines"></div>
+        <iframe id="previewFrame" src="about:blank"></iframe>
+    </div>
+
+    <div class="footer">
+        <div class="url-box" id="urlDisplay">No updates received yet</div>
+        <button class="btn-ref" onclick="refreshMonitor()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            Ref
+        </button>
+    </div>
+
+    <script>
+        // Security Check: Redirect to login if not authenticated
+        const STORAGE_KEY = 'A1_COACHING_PAPER_1_SESSION_FINAL_2026';
+        if (!localStorage.getItem(STORAGE_KEY)) {
+            console.warn('Authentication missing. Redirecting to login...');
+            window.location.href = 'login.html';
+        }
+
+        const iframe = document.getElementById('previewFrame');
+        const statusEl = document.getElementById('status');
+        const urlEl = document.getElementById('urlDisplay');
+        let lastUrl = '';
+        
+        function checkUpdate() {
+            try {
+                const currentUrl = localStorage.getItem('last_preview_url');
+                if (currentUrl && currentUrl !== lastUrl) {
+                    console.log('Update detected:', currentUrl);
+                    lastUrl = currentUrl;
+                    
+                    // Visual feedback for update
+                    iframe.classList.add('iframe-loading');
+                    statusEl.innerText = "UPDATING...";
+                    statusEl.style.color = "#d2ff08";
+                    
+                    iframe.src = currentUrl;
+                    urlEl.innerText = currentUrl;
+                    
+                    setTimeout(() => {
+                        statusEl.innerText = "MONITORING AI...";
+                        statusEl.style.color = "#94a3b8";
+                        iframe.classList.remove('iframe-loading');
+                    }, 2000);
+                }
+            } catch (e) {
+                console.error('Storage error:', e);
+            }
+        }
+
+        function refreshMonitor() {
+            iframe.classList.add('iframe-loading');
+            iframe.src = iframe.src;
+            setTimeout(() => iframe.classList.remove('iframe-loading'), 500);
+        }
+
+        // Fast poll for real-time feel
+        setInterval(checkUpdate, 1000);
+        
+        // Initial check
+        checkUpdate();
+        
+        console.log('Live Monitor Initialized.');
+    </script>
+</body>
+</html>
