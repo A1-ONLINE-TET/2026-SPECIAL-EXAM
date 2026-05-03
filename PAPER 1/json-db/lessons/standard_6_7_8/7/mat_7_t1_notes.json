@@ -274,7 +274,7 @@
           "5 மீ"
         ],
         "answer": 1,
-        "explanation": "(1 / 2) × 10 × d_2 = 100 \\Rightarrow 5 × d_2 = 100 \\Rightarrow d_2 = 20 மீ."
+        "explanation": "(1 / 2) × 10 × d_2 = 100 \Rightarrow 5 × d_2 = 100 \Rightarrow d_2 = 20 மீ."
       },
       {
         "question": "மாறி (Variable) என்பது எதைக் குறிக்கிறது?",
