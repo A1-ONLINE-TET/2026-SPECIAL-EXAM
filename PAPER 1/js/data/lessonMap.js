@@ -2283,6 +2283,18 @@ export const lessonMap = {
       "grade": "6",
       "title": "English Grammar (Term 1)"
     },
+    "6ஆம் வகுப்பு கணிதம் - முதல் பருவம் - முழுமையான பாடக்குறிப்புகள்": {
+      "local": true,
+      "filename": "mat_6_t1_notes",
+      "grade": "6",
+      "title": "6ஆம் வகுப்பு கணிதம் - முதல் பருவம் - முழுமையான பாடக்குறிப்புகள்"
+    },
+    "mat_6_t1_notes": {
+      "local": true,
+      "filename": "mat_6_t1_notes",
+      "grade": "6",
+      "title": "6ஆம் வகுப்பு கணிதம் - முதல் பருவம் - முழுமையான பாடக்குறிப்புகள்"
+    },
     "கணிதம் - முழுப் பாடக்குறிப்புகள் (இயல் 1 - 5)": {
       "local": true,
       "filename": "mat_6_t2_notes",
