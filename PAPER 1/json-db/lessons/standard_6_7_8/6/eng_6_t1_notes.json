@@ -1,180 +1,63 @@
 {
-  "வகுப்பு": "6",
-  "பருவம்": "1",
-  "பாட_எண்": "Grammar",
-  "பாட_தலைப்பு": "English Grammar (Term 1)",
-  "பாடக்குறிப்புகள்": {
-    "பாடச்சுருக்கம்": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English.",
-    "பாடக்கருத்துக்கள்": [
+  "lesson_meta": {
+    "title": "English Grammar (Term 1)",
+    "unit": "Term 1",
+    "grade": "6",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_6_t1_notes"
+  },
+  "material": {
+    "sections": [
       {
-        "தலைப்பு": "1. Subject and Predicate",
-        "விவரங்கள்": [
-          "A sentence is a group of words that makes complete sense.",
-          "Every complete sentence contains two parts: a Subject and a Predicate.",
-          "Subject: The person, place, animal, or thing we are speaking about. (e.g., 'The sun' in 'The sun shines loudly' - Wait, 'The sun shines brightly').",
-          "Predicate: What is said about the subject. It always contains a verb. (e.g., 'shines brightly')."
-        ]
+        "title": "பாடச் சுருக்கம் (Summary)",
+        "content": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English."
       },
       {
-        "தலைப்பு": "2. Parts of Speech",
-        "விவரங்கள்": [
-          "Words are divided into different kinds or classes called Parts of Speech, according to their use and function in a sentence.",
-          "There are 8 parts of speech in English: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection."
-        ]
+        "title": "1. Subject and Predicate",
+        "content": "A sentence is a group of words that makes complete sense.\nEvery complete sentence contains two parts: a Subject and a Predicate.\nSubject: The person, place, animal, or thing we are speaking about. (e.g., 'The sun' in 'The sun shines loudly' - Wait, 'The sun shines brightly').\nPredicate: What is said about the subject. It always contains a verb. (e.g., 'shines brightly')."
       },
       {
-        "தலைப்பு": "3. Nouns and Types of Nouns",
-        "விவரங்கள்": [
-          "A Noun is a word used as the name of a person, place, or thing.",
-          "Proper Noun: The name of a particular person or place (Always starts with a capital letter). Example: Chennai, Ravi.",
-          "Common Noun: A name given in common to every person or thing of the same class or kind. Example: boy, city, dog.",
-          "Collective Noun: The name of a number (or collection) of persons or things taken together and spoken of as one whole. Example: crowd, army, flock.",
-          "Abstract Noun: The name of a quality, action, or state considered apart from the object to which it belongs. Example: honesty, bravery, childhood.",
-          "Material Noun: The name of a raw material or substance out of which things are made. Example: gold, iron, wood."
-        ]
+        "title": "2. Parts of Speech",
+        "content": "Words are divided into different kinds or classes called Parts of Speech, according to their use and function in a sentence.\nThere are 8 parts of speech in English: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection."
       },
       {
-        "தலைப்பு": "4. Pronouns",
-        "விவரங்கள்": [
-          "A Pronoun is a word used instead of a noun to avoid repetition.",
-          "Subject Pronouns (do the action): I, We, You, He, She, It, They.",
-          "Object Pronouns (receive the action): me, us, you, him, her, it, them.",
-          "Possessive Adjectives (show ownership, followed by a noun): my, our, your, his, her, its, their.",
-          "Possessive Pronouns (show ownership, stand alone): mine, ours, yours, his, hers, theirs."
-        ]
+        "title": "3. Nouns and Types of Nouns",
+        "content": "A Noun is a word used as the name of a person, place, or thing.\nProper Noun: The name of a particular person or place (Always starts with a capital letter). Example: Chennai, Ravi.\nCommon Noun: A name given in common to every person or thing of the same class or kind. Example: boy, city, dog.\nCollective Noun: The name of a number (or collection) of persons or things taken together and spoken of as one whole. Example: crowd, army, flock.\nAbstract Noun: The name of a quality, action, or state considered apart from the object to which it belongs. Example: honesty, bravery, childhood.\nMaterial Noun: The name of a raw material or substance out of which things are made. Example: gold, iron, wood."
       },
       {
-        "தலைப்பு": "5. Verbs, Adjectives, and Adverbs",
-        "விவரங்கள்": [
-          "Verb: A word used to express an action or state. Example: run, jump, is, are.",
-          "Adjective: A word used to add something to the meaning of a noun (Describes a noun). Example: brave boy, tall tree.",
-          "Adverb: A word used to add something to the meaning of a verb, an adjective, or another adverb. Example: He ran quickly, very beautiful."
-        ]
+        "title": "4. Pronouns",
+        "content": "A Pronoun is a word used instead of a noun to avoid repetition.\nSubject Pronouns (do the action): I, We, You, He, She, It, They.\nObject Pronouns (receive the action): me, us, you, him, her, it, them.\nPossessive Adjectives (show ownership, followed by a noun): my, our, your, his, her, its, their.\nPossessive Pronouns (show ownership, stand alone): mine, ours, yours, his, hers, theirs."
       },
       {
-        "தலைப்பு": "6. Prepositions, Conjunctions, and Interjections",
-        "விவரங்கள்": [
-          "Preposition: A word used with a noun or pronoun to show how the person or thing denoted by the noun or pronoun stands in relation to something else. Example: on, in, under.",
-          "Conjunction: A word used to join words or sentences. Example: and, but, or, because.",
-          "Interjection: A word which expresses some sudden feeling. Example: Alas!, Hurrah!, Oh!"
-        ]
+        "title": "5. Verbs, Adjectives, and Adverbs",
+        "content": "Verb: A word used to express an action or state. Example: run, jump, is, are.\nAdjective: A word used to add something to the meaning of a noun (Describes a noun). Example: brave boy, tall tree.\nAdverb: A word used to add something to the meaning of a verb, an adjective, or another adverb. Example: He ran quickly, very beautiful."
+      },
+      {
+        "title": "6. Prepositions, Conjunctions, and Interjections",
+        "content": "Preposition: A word used with a noun or pronoun to show how the person or thing denoted by the noun or pronoun stands in relation to something else. Example: on, in, under.\nConjunction: A word used to join words or sentences. Example: and, but, or, because.\nInterjection: A word which expresses some sudden feeling. Example: Alas!, Hurrah!, Oh!"
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "The word 'Noun' comes from the Latin word 'nomen' which means 'name'.\nArticles (a, an, the) are actually a type of Adjective because they describe nouns.\nA sentence can have a single word if it is an imperative verb. Example: 'Stop!' (Here the subject 'You' is understood)."
+      },
+      {
+        "title": "உங்களுக்குத் தெரியுமா?",
+        "content": "Do you know that the word 'I' is always capitalized, no matter where it appears in a sentence?\nDo you know that 'Abstract Nouns' are things you cannot perceive through your five senses? You cannot touch, taste, see, hear, or smell 'bravery'.\nDid you know 'oxymoron' is a figure of speech but 'Noun' is a part of speech? Always distinguish between figures of speech and parts of speech."
+      },
+      {
+        "title": "படம் சார்ந்த குறிப்புகள்",
+        "content": "Tree Diagram of Nouns: The main branch is 'Nouns', splitting into 'Proper', 'Common', 'Collective', 'Material', and 'Abstract'.\nTable of Pronouns: A table showing First Person, Second Person, and Third Person categorized into Subjective, Objective, and Possessive cases."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "A Proper Noun always begins with a capital letter.\nA pronoun must agree with the noun it replaces in number and gender.\nA predicate MUST contain a verb.\nAdjectives describe Nouns. Adverbs describe Verbs, Adjectives, or other Adverbs."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "Noun (பெயர்ச்சொல்): A word that names a person, place, thing, or idea.\nVerb (வினைச்சொல்): A word that expresses an action, an occurrence, or a state of being.\nAdjective (பெயரடை): A word that modifies or describes a noun or pronoun.\nPronoun (பிரதிப் பெயர்ச்சொல்): A word that takes the place of a noun.\nPredicate (பயனிலை): The part of a sentence or clause containing a verb and stating something about the subject."
       }
-    ],
-    "தகவல்_பேழை": [
-      "The word 'Noun' comes from the Latin word 'nomen' which means 'name'.",
-      "Articles (a, an, the) are actually a type of Adjective because they describe nouns.",
-      "A sentence can have a single word if it is an imperative verb. Example: 'Stop!' (Here the subject 'You' is understood)."
-    ],
-    "உங்களுக்கு_தெரியுமா": [
-      "Do you know that the word 'I' is always capitalized, no matter where it appears in a sentence?",
-      "Do you know that 'Abstract Nouns' are things you cannot perceive through your five senses? You cannot touch, taste, see, hear, or smell 'bravery'.",
-      "Did you know 'oxymoron' is a figure of speech but 'Noun' is a part of speech? Always distinguish between figures of speech and parts of speech."
-    ],
-    "படம்_சார்ந்த_குறிப்புகள்": [
-      "Tree Diagram of Nouns: The main branch is 'Nouns', splitting into 'Proper', 'Common', 'Collective', 'Material', and 'Abstract'.",
-      "Table of Pronouns: A table showing First Person, Second Person, and Third Person categorized into Subjective, Objective, and Possessive cases."
-    ],
-    "நினைவில்_கொள்க": [
-      "A Proper Noun always begins with a capital letter.",
-      "A pronoun must agree with the noun it replaces in number and gender.",
-      "A predicate MUST contain a verb.",
-      "Adjectives describe Nouns. Adverbs describe Verbs, Adjectives, or other Adverbs."
-    ],
-    "கலைச்சொற்கள்": [
-      {
-        "சொல்": "Noun (பெயர்ச்சொல்)",
-        "பொருள்": "A word that names a person, place, thing, or idea."
-      },
-      {
-        "சொல்": "Verb (வினைச்சொல்)",
-        "பொருள்": "A word that expresses an action, an occurrence, or a state of being."
-      },
-      {
-        "சொல்": "Adjective (பெயரடை)",
-        "பொருள்": "A word that modifies or describes a noun or pronoun."
-      },
-      {
-        "சொல்": "Pronoun (பிரதிப் பெயர்ச்சொல்)",
-        "பொருள்": "A word that takes the place of a noun."
-      },
-      {
-        "சொல்": "Predicate (பயனிலை)",
-        "பொருள்": "The part of a sentence or clause containing a verb and stating something about the subject."
-      }
-    ],
-    "பாட_பின்புற_வினாக்கள்": {
-      "சரியான_விடையை_தேர்ந்தெடுத்து_எழுதுக": [
-        {
-          "கேள்வி": "Identify the proper noun in the sentence: 'She travelled to London.'",
-          "விடை": "London"
-        },
-        {
-          "கேள்வி": "What part of speech is the word 'beautifully' in 'She sang beautifully'?",
-          "விடை": "Adverb"
-        },
-        {
-          "கேள்வி": "Find the subject in the sentence: 'The old man walked slowly.'",
-          "விடை": "The old man"
-        },
-        {
-          "கேள்வி": "Choose the correct pronoun: 'Ravi and I are friends. ___ play together.'",
-          "விடை": "We"
-        }
-      ],
-      "கோடிட்ட_இடங்களை_நிரப்புக": [
-        {
-          "கேள்வி": "A __________ noun names a collection or group of things.",
-          "விடை": "Collective"
-        },
-        {
-          "கேள்வி": "Words that join two sentences are called __________.",
-          "விடை": "Conjunctions"
-        },
-        {
-          "கேள்வி": "Honesty is the best policy. Here 'Honesty' is an __________ noun.",
-          "விடை": "Abstract"
-        }
-      ],
-      "பொருத்துக": [
-        {
-          "கேள்வி": "Proper Noun",
-          "விடை": "India"
-        },
-        {
-          "கேள்வி": "Material Noun",
-          "விடை": "Gold"
-        },
-        {
-          "கேள்வி": "Collective Noun",
-          "விடை": "Army"
-        },
-        {
-          "கேள்வி": "Abstract Noun",
-          "விடை": "Kindness"
-        }
-      ],
-      "சரியா_தவறா": [
-        {
-          "கேள்வி": "A common noun always begins with a capital letter.",
-          "விடை": "False"
-        },
-        {
-          "கேள்வி": "An adjective describes a verb.",
-          "விடை": "False"
-        },
-        {
-          "கேள்வி": "A sentence always has a subject and a predicate.",
-          "விடை": "True"
-        }
-      ],
-      "கூற்று_காரணம்": [
-        {
-          "கூற்று": "In the sentence 'Stop!', the subject is hidden.",
-          "காரணம்": "In imperative sentences, the subject 'You is always implied or understood.",
-          "விடை": "Both Assertion and Reason are true, and the Reason is the correct explanation."
-        }
-      ]
-    }
+    ]
   },
   "quiz": {
     "questions": [
