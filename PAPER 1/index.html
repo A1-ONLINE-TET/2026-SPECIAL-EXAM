@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 Coaching Centre - Premium Dashboard</title>
+    <title>A1 Coaching Centre - Light Dashboard</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&display=swap">
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --secondary: #10b981;
+            --primary: #1e3a8a;
+            --bg-light: #f3f6ff;
+            --card-bg: #ffffff;
+            --text-dark: #334155;
+            --text-dim: #64748b;
             --accent: #f59e0b;
-            --danger: #ef4444;
-            --bg-dark: #0f172a;
-            --text-main: #f8fafc;
-            --text-dim: #94a3b8;
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.1);
         }
 
         * {
@@ -24,219 +20,180 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            -webkit-tap-highlight-color: transparent;
         }
 
         body {
-            background: var(--bg-dark);
-            color: var(--text-main);
+            background: var(--bg-light);
+            color: var(--text-dark);
             min-height: 100vh;
-            overflow-x: hidden;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.15) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(245, 158, 11, 0.1) 0px, transparent 50%);
+            padding-bottom: 80px; /* Space for bottom nav */
         }
 
-        /* --- Navbar --- */
-        .navbar {
+        .header {
+            background: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--glass-border);
-            padding: 10px 0;
         }
 
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .brand-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-        }
-
-        .brand img {
-            height: 50px;
-            filter: drop-shadow(0 0 10px rgba(37, 99, 235, 0.3));
-        }
-
-        .brand-info {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .brand-name {
-            font-size: 1.4rem;
-            font-weight: 800;
-            color: white;
-            line-height: 1;
-        }
-
-        .brand-tag {
-            font-size: 0.65rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            font-weight: 700;
-        }
-
-        /* --- Hero Section --- */
-        .hero {
-            padding: 60px 20px;
-            text-align: center;
-            position: relative;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 10px;
-            background: linear-gradient(to right, #fff, #94a3b8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero p {
-            color: var(--text-dim);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 0 auto 30px;
-        }
-
-        /* --- Free Exam & Result Buttons --- */
-        .cta-group {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-        }
-
-        .btn-premium {
-            padding: 14px 30px;
-            border-radius: 50px;
-            border: none;
-            font-weight: 800;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-        }
-
-        .btn-exam {
-            background: linear-gradient(135deg, #f59e0b, #ef4444);
-            color: white;
-            box-shadow: 0 10px 25px rgba(245, 158, 11, 0.4);
-        }
-
-        .btn-result {
-            background: rgba(255,255,255,0.1);
-            color: white;
-            border: 1px solid rgba(255,255,255,0.2);
-            backdrop-filter: blur(10px);
-        }
-
-        .btn-premium:hover {
-            transform: translateY(-5px) scale(1.05);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
-        }
-
-        /* --- Subject Cards --- */
-        .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 0 20px 80px;
         }
 
-        .section-header {
-            font-size: 1.5rem;
+        .brand-text {
             font-weight: 800;
-            margin: 40px 0 20px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
+            font-size: 1.2rem;
+            color: var(--primary);
         }
 
-        .section-header::after {
-            content: '';
-            flex-grow: 1;
-            height: 1px;
-            background: linear-gradient(to right, var(--glass-border), transparent);
-        }
-
-        .grid-subjects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            gap: 20px;
-        }
-
-        .card-subject {
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            border-radius: 20px;
-            padding: 25px 15px;
+        .hero-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
             text-align: center;
-            text-decoration: none;
+        }
+
+        .section-title {
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #475569;
+            margin: 10px 0 20px;
+            padding-left: 5px;
+        }
+
+        /* --- Free Exam Buttons --- */
+        .cta-box {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 25px;
             color: white;
-            transition: all 0.4s;
+            box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
             position: relative;
             overflow: hidden;
-            backdrop-filter: blur(10px);
         }
 
-        .card-subject::before {
-            content: '';
-            position: absolute;
-            top: -50%; left: -50%; width: 200%; height: 200%;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-            opacity: 0;
-            transition: opacity 0.4s;
+        .cta-box h2 { font-size: 1.2rem; margin-bottom: 15px; font-weight: 800; }
+        
+        .btn-group { display: flex; gap: 10px; }
+
+        .btn-main {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 800;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: 0.3s;
         }
 
-        .card-subject:hover {
-            transform: translateY(-10px);
-            background: rgba(255,255,255,0.08);
-            border-color: rgba(255,255,255,0.3);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        .btn-free { background: #f59e0b; color: white; }
+        .btn-res { background: rgba(255,255,255,0.2); color: white; backdrop-filter: blur(5px); }
+
+        /* --- Subject List Layout --- */
+        .subject-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 5px;
         }
 
-        .card-subject:hover::before { opacity: 1; }
-
-        .subject-icon {
-            font-size: 2rem;
-            margin-bottom: 15px;
-            display: block;
-            transition: transform 0.3s;
+        .subject-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid #edf2f7;
+            transition: all 0.3s ease;
         }
 
-        .card-subject:hover .subject-icon {
-            transform: scale(1.2) rotate(5deg);
+        .subject-card:active {
+            transform: scale(0.97);
+            background: #f8fafc;
         }
 
-        .subject-name {
-            font-size: 1rem;
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-right: 18px;
+            border: 1px solid #f1f5f9;
+        }
+
+        .subject-info {
+            flex-grow: 1;
             font-weight: 700;
-            letter-spacing: 0.5px;
+            font-size: 1.15rem;
         }
+
+        .chevron {
+            color: #cbd5e1;
+            font-size: 1.2rem;
+        }
+
+        /* --- Theme Colors for Subjects --- */
+        .tamil .subject-info { color: #9f1239; }
+        .english .subject-info { color: #0369a1; }
+        .maths .subject-info { color: #0f766e; }
+        .science .subject-info { color: #15803d; }
+        .social .subject-info { color: #4338ca; }
+        .psy .subject-info { color: #7e22ce; }
+        .std678 .subject-info { color: #1e40af; }
+
+        /* --- Bottom Nav --- */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #64748b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            gap: 4px;
+        }
+
+        .nav-item.active { color: #1e3a8a; }
+
+        .nav-icon { font-size: 1.4rem; }
 
         /* --- Modal --- */
         .modal {
             display: none;
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.8);
-            backdrop-filter: blur(10px);
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
             z-index: 2000;
             align-items: center;
             justify-content: center;
@@ -244,259 +201,178 @@
         }
 
         .modal-content {
-            background: #1e293b;
+            background: white;
             width: 100%;
             max-width: 400px;
-            border-radius: 24px;
+            border-radius: 25px;
             padding: 30px;
-            border: 1px solid var(--glass-border);
             text-align: center;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-            animation: modalIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        @keyframes modalIn { from { opacity: 0; transform: scale(0.9) translateY(20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
-
-        .modal-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 10px; color: white; }
-        .modal-desc { color: var(--text-dim); margin-bottom: 25px; font-size: 0.9rem; line-height: 1.5; }
-
-        .input-group { margin-bottom: 20px; text-align: left; }
-        .input-group label { display: block; font-size: 0.8rem; color: var(--text-dim); margin-bottom: 8px; font-weight: 600; }
-        .input-group input {
+        .input-mobile {
             width: 100%;
-            background: rgba(0,0,0,0.3);
-            border: 1px solid var(--glass-border);
-            padding: 12px 15px;
+            padding: 15px;
             border-radius: 12px;
-            color: white;
+            border: 2px solid #eee;
+            margin: 20px 0;
             font-size: 1.1rem;
             outline: none;
-            transition: 0.3s;
         }
 
-        .input-group input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2); }
+        .input-mobile:focus { border-color: #1e3a8a; }
 
         .btn-submit {
             width: 100%;
-            background: var(--primary);
+            padding: 15px;
+            background: #1e3a8a;
             color: white;
             border: none;
-            padding: 14px;
             border-radius: 12px;
             font-weight: 800;
             cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .btn-submit:hover { background: var(--primary-dark); }
-
-        .close-modal {
-            position: absolute;
-            top: 20px; right: 20px;
-            background: none; border: none; color: var(--text-dim);
-            font-size: 2rem; cursor: pointer;
-        }
-
-        /* --- Footer --- */
-        footer {
-            padding: 40px 20px;
-            text-align: center;
-            border-top: 1px solid var(--glass-border);
-            color: var(--text-dim);
-            font-size: 0.85rem;
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 600px) {
-            .hero h1 { font-size: 1.8rem; }
-            .grid-subjects { grid-template-columns: 1fr 1fr; gap: 12px; }
-            .card-subject { padding: 20px 10px; }
-            .subject-icon { font-size: 1.5rem; }
         }
 
     </style>
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="brand">
-                <img src="images/logo.png" alt="A1 Logo">
-                <div class="brand-info">
-                    <span class="brand-name">A1 COACHING</span>
-                    <span class="brand-tag">Expert Training</span>
-                </div>
-            </a>
-            <div id="authActions">
-                <button id="authBtn" class="btn-premium btn-result" style="padding: 8px 20px; font-size: 0.85rem;">Login</button>
+    <header class="header">
+        <div class="brand-container">
+            <div class="brand-text">A1 COACHING CENTRE</div>
+            <button onclick="window.location.href='login.html'" id="authBtn" style="background:none; border:none; font-weight:800; color:var(--primary);">Login</button>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        
+        <div class="cta-box">
+            <h2>வரவிருக்கும் இலவசத் தேர்வுகள்!</h2>
+            <div class="btn-group">
+                <button onclick="openExamModal()" class="btn-main btn-free">🎁 Free Exam</button>
+                <button onclick="alert('முடிவுகள் விரைவில்!')}" class="btn-main btn-res">📊 Result</button>
             </div>
         </div>
-    </nav>
 
-    <main>
-        <section class="hero">
-            <h1>வெற்றியை நோக்கி முதல் படி!</h1>
-            <p>TNTET மற்றும் போட்டித் தேர்வுகளுக்குத் தேவையான அனைத்துப் பாடக் குறிப்புகளும் மாதிரித் தேர்வுகளும் இங்கே கிடைக்கும்.</p>
-            
-            <div class="cta-group">
-                <button onclick="openExamModal()" class="btn-premium btn-exam">
-                    <span>🎁 FREE Online Exam</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                </button>
-                <button onclick="viewResult()" class="btn-premium btn-result">
-                    <span>📊 Results</span>
-                </button>
-            </div>
-        </section>
+        <h2 class="section-title">பாடத்தைத் தேர்ந்தெடுக்கவும்</h2>
 
-        <div class="container">
-            <h2 class="section-header">📄 TET Paper I (1 - 5)</h2>
-            <div class="grid-subjects">
-                <a href="subject.html?id=tamil&paper=1" class="card-subject">
-                    <span class="subject-icon">📚</span>
-                    <span class="subject-name">தமிழ்</span>
-                </a>
-                <a href="subject.html?id=english&paper=1" class="card-subject">
-                    <span class="subject-icon">📖</span>
-                    <span class="subject-name">English</span>
-                </a>
-                <a href="subject.html?id=maths&paper=1" class="card-subject">
-                    <span class="subject-icon">📐</span>
-                    <span class="subject-name">கணிதம்</span>
-                </a>
-                <a href="subject.html?id=science&paper=1" class="card-subject">
-                    <span class="subject-icon">🌱</span>
-                    <span class="subject-name">அறிவியல்</span>
-                </a>
-                <a href="subject.html?id=social&paper=1" class="card-subject">
-                    <span class="subject-icon">🌍</span>
-                    <span class="subject-name">சமூக அறிவியல்</span>
-                </a>
-            </div>
+        <div class="subject-list">
+            <a href="subject.html?id=tamil&paper=1" class="subject-card tamil">
+                <div class="icon-wrapper">📖</div>
+                <div class="subject-info">தமிழ்</div>
+                <div class="chevron">❯</div>
+            </a>
 
-            <h2 class="section-header">⭐ கூடுதல் பகுதிகள்</h2>
-            <div class="grid-subjects">
-                <a href="subject.html?id=psychology" class="card-subject">
-                    <span class="subject-icon">🧠</span>
-                    <span class="subject-name">உளவியல்</span>
-                </a>
-                <a href="subject.html?id=mocktest" class="card-subject">
-                    <span class="subject-icon">📝</span>
-                    <span class="subject-name">மாதிரித்தேர்வு</span>
-                </a>
-                <a href="subject.html?id=revision" class="card-subject">
-                    <span class="subject-icon">🔄</span>
-                    <span class="subject-name">திருப்புதல் தேர்வு</span>
-                </a>
-                <a href="subject.html?id=standard_6_7_8" class="card-subject">
-                    <span class="subject-icon">🏰</span>
-                    <span class="subject-name">6, 7, 8 வகுப்புகள்</span>
-                </a>
-            </div>
+            <a href="subject.html?id=english&paper=1" class="subject-card english">
+                <div class="icon-wrapper">🔤</div>
+                <div class="subject-info">ஆங்கிலம்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=maths&paper=1" class="subject-card maths">
+                <div class="icon-wrapper">📏</div>
+                <div class="subject-info">கணிதம்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=science&paper=1" class="subject-card science">
+                <div class="icon-wrapper">🌿</div>
+                <div class="subject-info">சூழ்நிலையியல்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=social&paper=1" class="subject-card social">
+                <div class="icon-wrapper">🌍</div>
+                <div class="subject-info">சமூக அறிவியல்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=psychology" class="subject-card psy">
+                <div class="icon-wrapper">🧠</div>
+                <div class="subject-info">உளவியல்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=standard_6_7_8" class="subject-card std678">
+                <div class="icon-wrapper">🍎</div>
+                <div class="subject-info">6, 7, 8 வகுப்புகள்</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=mocktest" class="subject-card std678">
+                <div class="icon-wrapper">📝</div>
+                <div class="subject-info">மாதிரித்தேர்வு</div>
+                <div class="chevron">❯</div>
+            </a>
+
+            <a href="subject.html?id=revision" class="subject-card std678">
+                <div class="icon-wrapper">🔄</div>
+                <div class="subject-info">திருப்புதல் தேர்வு</div>
+                <div class="chevron">❯</div>
+            </a>
         </div>
     </main>
 
-    <!-- Free Exam Modal -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span>முகப்பு</span>
+        </a>
+        <a href="#" class="nav-item" onclick="alert('பாடங்கள் பக்கம் விரைவில்!')">
+            <span class="nav-icon">📚</span>
+            <span>பாடங்கள்</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item" onclick="alert('Pay பக்கம் விரைவில்!')">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+    </nav>
+
+    <!-- Modal -->
     <div id="examModal" class="modal">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal()">&times;</button>
-            <h3 class="modal-title">இலவசத் தேர்வு</h3>
-            <p class="modal-desc">தேர்வைத் தொடங்க உங்கள் மொபைல் எண்ணை உள்ளிடவும். பிறகு எங்கள் டெலிகிராம் குழுவில் இணையவும்.</p>
-            
-            <div class="input-group">
-                <label>Mobile Number</label>
-                <input type="tel" id="student_mobile" placeholder="9876543210" maxlength="10">
-            </div>
-            
-            <button id="submitMobileBtn" class="btn-submit" onclick="handleExamRegister()">தொடரவும்</button>
-            
-            <div id="telegramStep" style="display: none; margin-top: 20px;">
-                <p style="color: var(--accent); font-weight: bold; margin-bottom: 15px;">கடைசிப் படி: டெலிகிராம் குழுவில் இணையவும்!</p>
-                <a href="YOUR_TELEGRAM_LINK" target="_blank" class="btn-submit" style="background: #229ED9; display: block; text-decoration: none;">Join Telegram</a>
-                <button onclick="startFreeExam()" class="btn-submit" style="margin-top: 15px; background: var(--secondary);">தேர்வைத் தொடங்கு</button>
-            </div>
+            <h3 style="font-weight: 800;">இலவசத் தேர்வு</h3>
+            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px;">தொடர உங்கள் மொபைல் எண்ணை உள்ளிடவும்.</p>
+            <input type="tel" id="mobileInput" class="input-mobile" placeholder="9876543210" maxlength="10">
+            <button class="btn-submit" onclick="submitRegistration()">பதிவு செய்</button>
+            <button onclick="closeModal()" style="margin-top: 15px; background:none; border:none; color:#ef4444; font-weight:700;">மூடுக</button>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2026 A1 Coaching Centre. All rights reserved.</p>
-        <p style="margin-top: 10px; font-size: 0.7rem; opacity: 0.5;">📞 6369371452</p>
-    </footer>
-
-    <!-- Firebase SDK (Version 8) -->
+    <!-- Firebase SDK (Minimal for registration) -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 
     <script>
-        // --- Firebase Configuration ---
-        // (இங்கே உங்கள் Firebase Config-ஐ மாற்றவும்)
+        // Firebase Config - நீங்கள் பிறகு மாற்றிக்கொள்ளலாம்
         const firebaseConfig = {
             apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
             databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
             projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_PROJECT_ID.appspot.com",
-            messagingSenderId: "YOUR_SENDER_ID",
-            appId: "YOUR_APP_ID"
         };
         firebase.initializeApp(firebaseConfig);
-        const database = firebase.database();
 
-        // --- Modal Logic ---
-        function openExamModal() {
-            document.getElementById('examModal').style.display = 'flex';
-        }
+        function openExamModal() { document.getElementById('examModal').style.display = 'flex'; }
+        function closeModal() { document.getElementById('examModal').style.display = 'none'; }
 
-        function closeModal() {
-            document.getElementById('examModal').style.display = 'none';
-        }
-
-        async function handleExamRegister() {
-            const mobile = document.getElementById('student_mobile').value;
-            if (mobile.length !== 10) {
-                alert("சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!");
-                return;
-            }
-
-            const btn = document.getElementById('submitMobileBtn');
-            btn.innerText = "பதிவாகிறது...";
-            btn.disabled = true;
-
+        async function submitRegistration() {
+            const mobile = document.getElementById('mobileInput').value;
+            if (mobile.length !== 10) { alert("10 இலக்க எண்ணை உள்ளிடவும்!"); return; }
+            
             try {
-                // Save to Firebase
-                await database.ref('free_exam_registrations').push({
-                    mobile: mobile,
-                    timestamp: firebase.database.ServerValue.TIMESTAMP
-                });
-                
-                // Show Telegram Step
-                document.getElementById('telegramStep').style.display = 'block';
-                btn.style.display = 'none';
-                document.querySelector('.input-group').style.display = 'none';
-                
-            } catch (error) {
-                alert("பிழை ஏற்பட்டது: " + error.message);
-                btn.disabled = false;
-                btn.innerText = "தொடரவும்";
-            }
+                await firebase.database().ref('registrations').push({ mobile, time: Date.now() });
+                alert("பதிவு செய்யப்பட்டது! டெலிகிராம் குழுவில் இணையவும்.");
+                window.open("YOUR_TELEGRAM_LINK", "_blank");
+                closeModal();
+            } catch(e) { alert("பிழை: " + e.message); }
         }
 
-        function startFreeExam() {
-            // Redirect to a specific free exam or common quiz page
-            window.location.href = 'quiz.html?subject=mocktest&class=free&lesson=1&paper=1';
-        }
-
-        function viewResult() {
-            // Placeholder for results view
-            alert("முடிவுகள் விரைவில் அறிவிக்கப்படும்!");
-        }
-
-        // --- Auth Mockup ---
         window.onload = () => {
             const session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
-            if(session) {
-                document.getElementById('authBtn').innerText = 'Logout';
-            }
+            if(session) document.getElementById('authBtn').innerText = 'Logout';
         };
     </script>
 </body>
