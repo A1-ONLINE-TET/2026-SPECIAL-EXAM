@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamil Nanban - Live Monitor</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
         :root {
             --primary: #3b82f6;
@@ -172,12 +172,15 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="brand">
+    <div class="header" style="height: 70px; display: flex; align-items: center; justify-content: space-between; padding: 0 1.5rem; background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+        <div class="brand" style="display: flex; align-items: center; gap: 1rem;">
             <div class="live-dot"></div>
-            <div class="brand-text">TAMIL NANBAN LIVE MONITOR</div>
+            <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                <div style="font-family: 'Baloo Thambi 2', cursive; font-size: 1.6rem; font-weight: 800; color: #002d5b; line-height: 1;">தமிழ் நண்பன்</div>
+                <div style="font-family: 'Outfit', sans-serif; font-size: 0.6rem; font-weight: 800; color: #002d5b; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 2px;">COACHING CENTER</div>
+            </div>
         </div>
-        <div id="status">Syncing with AI...</div>
+        <div id="status" style="font-weight: 800; color: #16a34a; font-size: 0.8rem;">SYNCED</div>
     </div>
     
     <div class="monitor-frame-container">
