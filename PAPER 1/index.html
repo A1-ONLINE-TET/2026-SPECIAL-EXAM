@@ -403,6 +403,7 @@
             } catch(e) { alert("பிழை: " + e.message); }
         }
 
+        window.logout = function() { localStorage.removeItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026'); window.location.href = 'login.html'; };
         window.onload = () => {
             const session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
             if(session) {
@@ -415,3 +416,4 @@
     </script>
 </body>
 </html>
+
