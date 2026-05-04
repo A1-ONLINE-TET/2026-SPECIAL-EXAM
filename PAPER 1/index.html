@@ -30,15 +30,6 @@
             padding-bottom: 80px; /* Space for bottom nav */
         }
 
-        .top-bar {
-            background: #f8fafc;
-            height: 35px;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            padding: 0 1.5rem;
-            border-bottom: 1px solid #e2e8f0;
-        }
         .header {
             background: #ffffff;
             position: sticky;
@@ -52,32 +43,53 @@
         }
         .brand-main {
             font-family: 'Baloo Thambi 2', cursive;
-            font-size: 2rem;
+            font-size: 2.1rem;
             font-weight: 800;
             color: #002d5b;
-            line-height: 1;
+            line-height: 0.9;
             margin: 0;
         }
         .brand-sub {
             font-family: 'Outfit', sans-serif;
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 800;
             color: #002d5b;
             letter-spacing: 0.3em;
             text-transform: uppercase;
-            margin-top: 3px;
+            margin-top: 4px;
         }
-        #authBtn {
-            background: none;
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 0.6rem 0.4rem;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+            z-index: 1000;
+            border-top: 1px solid #f1f5f9;
+        }
+        .nav-item {
+            text-decoration: none;
             color: #64748b;
-            font-size: 0.75rem;
-            font-weight: 700;
-            border: none;
-            cursor: pointer;
-            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.65rem;
+            font-weight: 600;
+            gap: 4px;
+            flex: 1;
         }
-        #authBtn:hover {
+        .nav-item i {
+            font-size: 1.1rem;
+        }
+        .nav-item.active {
             color: #1e3a8a;
+        }
+        .nav-item.logout {
+            color: #ef4444;
         }
         @media (max-width: 480px) {
             .brand-main { font-size: 1.5rem; }
@@ -272,9 +284,6 @@
 </head>
 <body>
 
-    <div class="top-bar">
-        <button onclick="window.location.href='login.html'" id="authBtn">Login</button>
-    </div>
     <header class="header">
         <div style="display: flex; flex-direction: column; align-items: center; cursor: pointer;" onclick="window.location.reload()">
             <div class="brand-main">தமிழ் நண்பன்</div>
