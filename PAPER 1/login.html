@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamil Nanban - Login</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=standard_v2">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
         .login-page {
@@ -68,18 +68,57 @@
             margin-top: 0.5rem;
             display: none;
         }
+        .header {
+            background: #ffffff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #331e24;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="login-page">
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <div class="login-page" style="padding-top: 90px;">
         <div class="card login-card animate-fade">
             <div class="login-header">
-                <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1.5rem;">
-                    <div style="font-family: 'Baloo Thambi 2', cursive; font-size: 2.2rem; font-weight: 800; color: #002d5b; line-height: 1;">தமிழ் நண்பன்</div>
-                    <div style="font-family: 'Outfit', sans-serif; font-size: 0.75rem; font-weight: 800; color: #002d5b; letter-spacing: 0.25em; text-transform: uppercase; margin-top: 4px;">COACHING CENTER</div>
-                </div>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">மாணவர் லாகின் (Student Login)</p>
+                <h2 style="color: #002d5b; font-weight: 800; font-size: 1.5rem; margin-bottom: 0.5rem;">மாணவர் லாகின்</h2>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Student Login Portal</p>
             </div>
 
             <div id="step1">
@@ -131,7 +170,7 @@
     </div>
 
     <!-- Auth Module -->
-    <script type="module" src="js/auth.js?v=4.0"></script>
+    <script type="module" src="js/auth.js?v=standard_v2"></script>
     <script>
         // Check if modules are loaded
         window.addEventListener('load', () => {

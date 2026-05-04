@@ -413,6 +413,14 @@
 </head>
 <body>
 
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+
 <!-- LOGIN SCREEN -->
 <div id="loginScreen">
   <div class="login-box">
@@ -436,19 +444,47 @@
 
 <!-- DASHBOARD -->
 <div id="dashboard">
-  <div class="topbar">
-    <div class="topbar-left">
-      <div style="display: flex; flex-direction: column; align-items: flex-start;">
-        <div style="font-family: 'Baloo Thambi 2', cursive; font-size: 1.8rem; font-weight: 800; color: #002d5b; line-height: 1;">தமிழ் நண்பன்</div>
-        <div style="font-family: 'Outfit', sans-serif; font-size: 0.6rem; font-weight: 800; color: #002d5b; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 2px;">COACHING CENTER</div>
-      </div>
-      <div style="margin-left: 2rem;">
-        <div class="topbar-sub">Admin Dashboard</div>
-      </div>
+  <style>
+    .header-standard {
+        background: #ffffff;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 5px solid #331e24;
+    }
+    .brand-main {
+        font-family: 'Baloo Thambi 2', cursive;
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #002d5b;
+        line-height: 0.9;
+        margin: 0;
+    }
+    .brand-sub {
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 800;
+        color: #002d5b;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        margin-top: 4px;
+    }
+  </style>
+
+  <div class="header-standard">
+    <div style="position: absolute; left: 1.5rem; font-weight: 700; font-size: 0.8rem; color: #64748b; letter-spacing: 1px;">ADMIN PANEL</div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <div class="brand-main">தமிழ் நண்பன்</div>
+        <div class="brand-sub">COACHING CENTER</div>
     </div>
-    <div class="topbar-right">
-      <button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
-      <button class="logout-btn" onclick="adminLogout()">Logout</button>
+    <div style="position: absolute; right: 1.5rem; display: flex; gap: 0.5rem;">
+        <button class="refresh-btn" style="padding: 6px 12px; font-size: 0.75rem;" onclick="loadData()">↻</button>
+        <button class="logout-btn" style="padding: 6px 12px; font-size: 0.75rem;" onclick="adminLogout()">Exit</button>
     </div>
   </div>
 

@@ -169,19 +169,49 @@
             z-index: 10;
             display: none; /* Optional */
         }
+    <style>
+        .header {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #331e24;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
     </style>
 </head>
 <body>
-    <div class="header" style="height: 70px; display: flex; align-items: center; justify-content: space-between; padding: 0 1.5rem; background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-        <div class="brand" style="display: flex; align-items: center; gap: 1rem;">
-            <div class="live-dot"></div>
-            <div style="display: flex; flex-direction: column; align-items: flex-start;">
-                <div style="font-family: 'Baloo Thambi 2', cursive; font-size: 1.6rem; font-weight: 800; color: #002d5b; line-height: 1;">தமிழ் நண்பன்</div>
-                <div style="font-family: 'Outfit', sans-serif; font-size: 0.6rem; font-weight: 800; color: #002d5b; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 2px;">COACHING CENTER</div>
-            </div>
-        </div>
-        <div id="status" style="font-weight: 800; color: #16a34a; font-size: 0.8rem;">SYNCED</div>
-    </div>
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
     
     <div class="monitor-frame-container">
         <div class="scanlines"></div>

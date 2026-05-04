@@ -8,6 +8,48 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <!-- MathJax loaded conditionally via JS -->
     <style>
+        /* --- BRAND HEADER --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #1e3a8a; /* Standard blue top border */
+        }
+        .brand-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;800&family=Outfit:wght@300;400;600;800&display=swap');
         
         :root {
@@ -290,7 +332,11 @@
             background: #dc2626;
             box-shadow: 0 10px 20px rgba(220, 38, 38, 0.2);
         }
+        
+            .brand-sub { font-size: 0.6rem; }
+        }
     </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
 </head>
 <body>
     <div id="loading" class="loading-screen">
@@ -301,32 +347,30 @@
     <div class="watermark">TAMIL NANBAN</div>
     <div class="watermark watermark-lower">TAMIL NANBAN</div>
 
-    <header style="background: white; padding: 0.5rem 1rem; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; min-height: 70px; justify-content: center;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 0.2rem;">
-            <div style="font-family: 'Baloo Thambi 2', cursive; font-size: 2.1rem; font-weight: 800; color: #002d5b; line-height: 0.9;">தமிழ் நண்பன்</div>
-            <div style="font-family: 'Outfit', sans-serif; font-size: 0.75rem; font-weight: 800; color: #002d5b; letter-spacing: 0.3em; text-transform: uppercase; margin-top: 4px;">COACHING CENTER</div>
-        </div>
-        <div style="display: flex; align-items: center; gap: 1rem; width: 100%; justify-content: center;">
-             <h1 id="lessonTitle" style="font-size: 1rem; color: #1e293b; margin: 0;">பாடம்</h1>
-             <div id="langToggle" class="lang-bar-container" style="display: flex;">
-                <button onclick="changeLanguage('en', this)" class="lang-btn active" style="color: #002d5b; font-size: 0.8rem; padding: 2px 8px;">EN</button>
-                <button onclick="changeLanguage('tm', this)" class="lang-btn" style="color: #002d5b; font-size: 0.8rem; padding: 2px 8px;">தமிழ்</button>
-            </div>
-        </div>
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
     </header>
 
-    <!-- Material content -->
-
     <nav class="bottom-nav" style="position: fixed; bottom: 0; left: 0; right: 0; background: white; display: flex; justify-content: space-around; padding: 0.6rem 0.4rem; box-shadow: 0 -4px 20px rgba(0,0,0,0.08); z-index: 1000; border-top: 1px solid #f1f5f9;">
-        <a href="index.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-home" style="font-size: 1.1rem;"></i>Home</a>
-        <a href="subject.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-book" style="font-size: 1.1rem;"></i>Course</a>
-        <a href="quiz.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-vial" style="font-size: 1.1rem;"></i>Quiz</a>
-        <a href="material.html" style="text-decoration: none; color: #1e3a8a; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-file-alt" style="font-size: 1.1rem;"></i>Notes</a>
-        <a href="#" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-credit-card" style="font-size: 1.1rem;"></i>Pay</a>
-        <a href="login.html" style="text-decoration: none; color: #ef4444; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 600; gap: 4px; flex: 1;"><i class="fas fa-sign-out-alt" style="font-size: 1.1rem;"></i>Logout</a>
+        <a href="index.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">🏠</span><span>Home</span></a>
+        <a href="subject.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">📚</span><span>Course</span></a>
+        <a href="quiz.html" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">📝</span><span>Quiz</span></a>
+        <a href="material.html" style="text-decoration: none; color: #1e3a8a; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">📄</span><span>Notes</span></a>
+        <a href="#" style="text-decoration: none; color: #64748b; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">💳</span><span>Pay</span></a>
+        <a href="login.html" style="text-decoration: none; color: #ef4444; display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; font-weight: 700; gap: 4px; flex: 1;"><span style="font-size: 1.2rem;">🚪</span><span>Logout</span></a>
     </nav>
 
-    <div class="container">
+    <div class="container" style="margin-top: 2rem;">
+        <div style="background: white; padding: 1.5rem; border-radius: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 2rem; text-align: center; border: 1px solid #e2e8f0;">
+            <h1 id="lessonTitle" style="font-size: 1.3rem; color: #1e3a8a; margin-bottom: 1rem; font-weight: 800;">பாடம்</h1>
+            <div id="langToggle" class="lang-bar-container" style="display: flex; justify-content: center; gap: 0.5rem;">
+                <button onclick="changeLanguage('en', this)" class="lang-btn active" style="color: #1e3a8a; border: 1px solid #1e3a8a; padding: 5px 15px; border-radius: 20px; font-weight: 700;">English</button>
+                <button onclick="changeLanguage('tm', this)" class="lang-btn" style="color: #1e3a8a; border: 1px solid #1e3a8a; padding: 5px 15px; border-radius: 20px; font-weight: 700;">தமிழ்</button>
+            </div>
+        </div>
         <button id="notesAudioBtn" class="global-audio-btn" onclick="togglePlayNotes()">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
             <span>பாடக் குறிப்புகளைக் கேள் (Listen Notes)</span>

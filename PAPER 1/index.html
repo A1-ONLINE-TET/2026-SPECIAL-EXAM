@@ -6,6 +6,48 @@
     <title>Tamil Nanban - Dashboard</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
+        /* --- BRAND HEADER --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #1e3a8a; /* Standard blue top border */
+        }
+        .brand-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
         :root {
             --primary: #1e3a8a;
             --bg-light: #f3f6ff;
@@ -30,71 +72,8 @@
             padding-bottom: 80px; /* Space for bottom nav */
         }
 
-        .header {
-            background: #ffffff;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .brand-main {
-            font-family: 'Baloo Thambi 2', cursive;
-            font-size: 2.1rem;
-            font-weight: 800;
-            color: #002d5b;
-            line-height: 0.9;
-            margin: 0;
-        }
-        .brand-sub {
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 800;
-            color: #002d5b;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            margin-top: 4px;
-        }
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: white;
-            display: flex;
-            justify-content: space-around;
-            padding: 0.6rem 0.4rem;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
-            z-index: 1000;
-            border-top: 1px solid #f1f5f9;
-        }
-        .nav-item {
-            text-decoration: none;
-            color: #64748b;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-size: 0.65rem;
-            font-weight: 600;
-            gap: 4px;
-            flex: 1;
-        }
-        .nav-item i {
-            font-size: 1.1rem;
-        }
-        .nav-item.active {
-            color: #1e3a8a;
-        }
-        .nav-item.logout {
-            color: #ef4444;
-        }
-        @media (max-width: 480px) {
-            .brand-main { font-size: 1.5rem; }
-            .brand-sub { font-size: 0.55rem; }
-            #authBtn { padding: 0.3rem 0.6rem; font-size: 0.75rem; }
+        
+            .brand-sub { font-size: 0.6rem; }
         }
         #authBtn:hover {
             background: var(--primary);
@@ -284,11 +263,11 @@
 </head>
 <body>
 
-    <header class="header">
-        <div style="display: flex; flex-direction: column; align-items: center; cursor: pointer;" onclick="window.location.reload()">
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
             <div class="brand-main">தமிழ் நண்பன்</div>
             <div class="brand-sub">COACHING CENTER</div>
-        </div>
+        </a>
     </header>
 
     <main class="hero-section">
@@ -363,19 +342,23 @@
     <nav class="bottom-nav">
         <a href="index.html" class="nav-item active">
             <span class="nav-icon">🏠</span>
-            <span>முகப்பு</span>
+            <span>Home</span>
         </a>
-        <a href="#" class="nav-item" onclick="alert('பாடங்கள் பக்கம் விரைவில்!')">
+        <a href="subject.html" class="nav-item">
             <span class="nav-icon">📚</span>
-            <span>பாடங்கள்</span>
+            <span>Course</span>
         </a>
         <a href="tel:6369371452" class="nav-item">
             <span class="nav-icon">📞</span>
             <span>Contact</span>
         </a>
-        <a href="#" class="nav-item" onclick="alert('Pay பக்கம் விரைவில்!')">
+        <a href="#" class="nav-item">
             <span class="nav-icon">💳</span>
             <span>Pay</span>
+        </a>
+        <a href="login.html" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
         </a>
     </nav>
 
@@ -420,7 +403,12 @@
 
         window.onload = () => {
             const session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
-            if(session) document.getElementById('authBtn').innerText = 'Logout';
+            if(session) {
+                const authBtn = document.getElementById('authBtn');
+                if(authBtn) authBtn.innerText = 'Logout';
+            }
+            // Auto-sync to Live Monitor
+            localStorage.setItem('last_preview_url', window.location.href);
         };
     </script>
 </body>

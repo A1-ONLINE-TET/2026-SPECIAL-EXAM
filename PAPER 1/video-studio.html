@@ -6,6 +6,48 @@
     <title>Video Studio Pro v15.0 | Ultimate Tab Capture</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Hind+Madurai:wght@400;700;800&display=swap" rel="stylesheet">
     <style>
+        /* --- BRAND HEADER --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #1e3a8a; /* Standard blue top border */
+        }
+        .brand-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
         :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Outfit', 'Hind Madurai', sans-serif; background: #94a3b8; color: var(--text); overflow: hidden; display: flex; height: 100vh; }
@@ -24,8 +66,17 @@
         .voice-badge { background: #dcfce7; color: #166534; padding: 8px; border-radius: 5px; font-size: 0.8rem; font-weight: bold; border: 1px solid #22c55e; display: flex; align-items: center; gap: 5px; }
         .instruction-box { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 10px; font-size: 0.75rem; color: #92400e; border-radius: 4px; line-height: 1.4; }
     </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
 </head>
 <body>
+
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
 
     <aside>
         <div class="logo">STUDIO v15.0 <span style="font-size:0.5rem; background:#059669; color:white; padding:2px 8px; border-radius:10px;">TAB CAPTURE</span></div>
