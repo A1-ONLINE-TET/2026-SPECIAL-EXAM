@@ -52,14 +52,34 @@
             align-items: center;
             position: relative;
         }
-        .logo-img {
-            height: 60px;
-            width: auto;
-            object-fit: contain;
+        .brand-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
             transition: transform 0.3s ease;
         }
-        .logo-img:hover {
-            transform: scale(1.05);
+        .brand-text-container:hover {
+            transform: scale(1.02);
+        }
+        .brand-main {
+            font-family: 'Hind Madurai', 'Noto Sans Tamil', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #002d5b; /* Navy Blue from logo */
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-top: 2px;
+            opacity: 0.9;
         }
         #authBtn {
             position: absolute;
@@ -263,7 +283,10 @@
 
     <header class="header">
         <div class="brand-container">
-            <img src="images/logo.png" alt="Tamil Nanban" class="logo-img" onclick="window.location.reload()" style="cursor: pointer;">
+            <div class="brand-text-container" onclick="window.location.reload()">
+                <div class="brand-main">தமிழ் நண்பன்</div>
+                <div class="brand-sub">COACHING CENTER</div>
+            </div>
             <button onclick="window.location.href='login.html'" id="authBtn" style="border:none; font-weight:800;">Login</button>
         </div>
     </header>
