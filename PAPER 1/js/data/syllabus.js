@@ -201,6 +201,51 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "இரண்டாம் பருவம்",
+            "topics": [
+              {
+                "title": "திருக்குறள் *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l1"
+              },
+              {
+                "title": "தமிழர்களின் வீரக்கலைகள் *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l2"
+              },
+              {
+                "title": "கங்கை கொண்ட சோழபுரம் *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l3"
+              },
+              {
+                "title": "இணைப்புச்சொற்கள் *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l4"
+              },
+              {
+                "title": "உழவுப் பொங்கல் *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l5"
+              },
+              {
+                "title": "விதைத் திருவிழா *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l6"
+              },
+              {
+                "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்) *",
+                "isUpdated": true,
+                "code": "tam_5_t2_l7"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [

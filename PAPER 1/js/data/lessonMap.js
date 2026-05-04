@@ -12,18 +12,6 @@ export const lessonMap = {
       "grade": "2",
       "title": "விளையாட்டு உலகம்"
     },
-    "செய்து மகிழ்வோம்": {
-      "local": true,
-      "filename": "tam_3_t1_l2",
-      "grade": "3",
-      "title": "செய்து மகிழ்வோம்"
-    },
-    "tam_2_t1_l2": {
-      "local": true,
-      "filename": "tam_2_t1_l2",
-      "grade": "2",
-      "title": "செய்து மகிழ்வோம்"
-    },
     "சொல்லாதே சொல்லாதே": {
       "local": true,
       "filename": "tam_2_t1_l3",
@@ -59,6 +47,12 @@ export const lessonMap = {
       "filename": "tam_3_t1_l1",
       "grade": "3",
       "title": "தமிழ் அமுது"
+    },
+    "செய்து மகிழ்வோம்": {
+      "local": true,
+      "filename": "tam_3_t1_l2",
+      "grade": "3",
+      "title": "செய்து மகிழ்வோம்"
     },
     "tam_3_t1_l2": {
       "local": true,
@@ -318,6 +312,90 @@ export const lessonMap = {
       "grade": "5",
       "title": "கல்விச்செல்வமும் பொருட்செல்வமும் *"
     },
+    "திருக்குறள்": {
+      "local": true,
+      "filename": "tam_6_t3_l15",
+      "grade": "6",
+      "title": "திருக்குறள்"
+    },
+    "tam_5_t2_l1": {
+      "local": true,
+      "filename": "tam_5_t2_l1",
+      "grade": "5",
+      "title": "திருக்குறள்"
+    },
+    "தமிழர்களின் வீரக்கலைகள்": {
+      "local": true,
+      "filename": "tam_5_t2_l2",
+      "grade": "5",
+      "title": "தமிழர்களின் வீரக்கலைகள்"
+    },
+    "tam_5_t2_l2": {
+      "local": true,
+      "filename": "tam_5_t2_l2",
+      "grade": "5",
+      "title": "தமிழர்களின் வீரக்கலைகள்"
+    },
+    "கங்கை கொண்ட சோழபுரம்": {
+      "local": true,
+      "filename": "tam_5_t2_l3",
+      "grade": "5",
+      "title": "கங்கை கொண்ட சோழபுரம்"
+    },
+    "tam_5_t2_l3": {
+      "local": true,
+      "filename": "tam_5_t2_l3",
+      "grade": "5",
+      "title": "கங்கை கொண்ட சோழபுரம்"
+    },
+    "இணைப்புச்சொற்கள்": {
+      "local": true,
+      "filename": "tam_5_t2_l4",
+      "grade": "5",
+      "title": "இணைப்புச்சொற்கள்"
+    },
+    "tam_5_t2_l4": {
+      "local": true,
+      "filename": "tam_5_t2_l4",
+      "grade": "5",
+      "title": "இணைப்புச்சொற்கள்"
+    },
+    "உழவுப் பொங்கல்": {
+      "local": true,
+      "filename": "tam_5_t2_l5",
+      "grade": "5",
+      "title": "உழவுப் பொங்கல்"
+    },
+    "tam_5_t2_l5": {
+      "local": true,
+      "filename": "tam_5_t2_l5",
+      "grade": "5",
+      "title": "உழவுப் பொங்கல்"
+    },
+    "விதைத் திருவிழா": {
+      "local": true,
+      "filename": "tam_5_t2_l6",
+      "grade": "5",
+      "title": "விதைத் திருவிழா"
+    },
+    "tam_5_t2_l6": {
+      "local": true,
+      "filename": "tam_5_t2_l6",
+      "grade": "5",
+      "title": "விதைத் திருவிழா"
+    },
+    "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்)": {
+      "local": true,
+      "filename": "tam_5_t2_l7",
+      "grade": "5",
+      "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்)"
+    },
+    "tam_5_t2_l7": {
+      "local": true,
+      "filename": "tam_5_t2_l7",
+      "grade": "5",
+      "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்)"
+    },
     "இன்பத்தமிழ் *": {
       "local": true,
       "filename": "tam_6_t1_l1",
@@ -449,12 +527,6 @@ export const lessonMap = {
       "filename": "tam_6_t1_l9",
       "grade": "6",
       "title": "கிழவனும் கடலும்"
-    },
-    "திருக்குறள்": {
-      "local": true,
-      "filename": "tam_6_t3_l15",
-      "grade": "6",
-      "title": "திருக்குறள்"
     },
     "tam_6_t3_l15": {
       "local": true,
