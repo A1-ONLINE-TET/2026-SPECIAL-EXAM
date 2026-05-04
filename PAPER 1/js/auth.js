@@ -1,4 +1,4 @@
-// Tamil Winners - Authentication Module (Project 2 - tet1.mygreenpen.com)
+// Tamil Nanban - Authentication Module (Project 2 - tet1.mygreenpen.com)
 import { getDeviceId, checkDeviceLock, registerDevice } from './firebase-device-lock-p2.js';
 
 const CHARSET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
