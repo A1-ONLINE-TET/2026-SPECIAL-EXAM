@@ -128,6 +128,42 @@
             box-shadow: 0 12px 24px rgba(0,0,0,0.06);
             border-color: #e2e8f0;
         }
+        .header {
+            background: white;
+            padding: 0.5rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            height: 75px;
+        }
+        .brand-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .logo-img {
+            height: 65px;
+            width: auto;
+            object-fit: contain;
+        }
+        .back-btn {
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
         .topic-card.expanded {
             background: #f8fbff;
             border-color: #1e3a8a;
@@ -321,18 +357,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-                <img src="images/logo.png" alt="TW" style="height: 50px; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08));" onerror="this.onerror=null; this.src=''; this.alt='TW'; this.style.fontSize='1.8rem'; this.style.fontWeight='900'; this.style.color='var(--primary-dark)';">
-                <div style="display: flex; flex-direction: column; justify-content: center;">
-                    <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1; letter-spacing: -0.05em;">TAMIL NANBAN</span>
-                    <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.1rem;">TNPSC & TET EXPERTS</span>
-                    <span style="font-size: 0.85rem; font-weight: 800; color: #16a34a; margin-top: 0.3rem; animation: pulseMobile 1.5s infinite alternate;">📞 6369371452</span>
-                </div>
-            </a>
+    <header class="header">
+        <div class="brand-container">
+            <a href="index.html" class="back-btn">← Back</a>
+            <img src="images/logo.png" alt="Tamil Nanban" class="logo-img">
         </div>
-    </nav>
+    </header>
 
     <main class="container" style="padding-top: 1rem;">
         <div style="text-align: center; margin-bottom: 2rem;">
