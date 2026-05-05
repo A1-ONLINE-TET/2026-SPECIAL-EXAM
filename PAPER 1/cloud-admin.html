@@ -254,14 +254,7 @@
             <div id="status" class="status"></div>
             <div id="loading" class="loading" style="display:none;">⏳ Processing... Please wait.</div>
 
-            <!-- Live Preview Panel -->
-            <div id="previewPanel" class="preview-panel">
-                <div class="preview-header">
-                    <h3><span class="live-badge">LIVE</span> Result Preview</h3>
-                    <button onclick="refreshPreview()" class="btn" style="padding: 5px 15px; font-size: 14px;">🔄 Refresh</button>
-                </div>
-                <iframe id="livePreview" class="preview-frame" src="about:blank"></iframe>
-            </div>
+
 
             <div class="log-area" id="log"></div>
         </div>
@@ -467,7 +460,7 @@
                 log("✅ Fix successfully deployed!", "success");
                 log("================================", "success");
                 
-                updatePreview(filePath);
+
                 removeImage();
                 transcriptBox.value = "";
                 accumulatedTranscript = "";
@@ -510,29 +503,7 @@
             }
         }
 
-        function updatePreview(filePath) {
-            const parts = filePath.split('/');
-            const subject = parts[2];
-            const grade = parts[3];
-            const fileName = parts[4].replace('.json', '');
-            
-            const previewUrl = `material.html?subject=${subject}&class=${grade}&lesson=${fileName}&paper=1`;
-            
-            // Send to Live Monitor via localStorage
-            localStorage.setItem('last_preview_url', previewUrl);
-            
-            const panel = document.getElementById('previewPanel');
-            const frame = document.getElementById('livePreview');
-            
-            panel.style.display = 'block';
-            frame.src = previewUrl;
-            log('Preview updated & sent to Monitor: ' + previewUrl);
-        }
 
-        function refreshPreview() {
-            const frame = document.getElementById('livePreview');
-            frame.src = frame.src;
-        }
     </script>
 </body>
 </html>

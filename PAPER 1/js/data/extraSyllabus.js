@@ -124,25 +124,61 @@ export const extraSyllabusData = {
           {
             "title": "தமிழ் (Tamil)",
             "topics": [
-              { "title": "தமிழ் - பருவம் 1 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t1_notes" },
-              { "title": "தமிழ் - பருவம் 2 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t2_notes" },
-              { "title": "தமிழ் - பருவம் 3 (பாடக்குறிப்புகள்)", "isUpdated": true, "code": "tam_6_t3_notes" },
-              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_6_full_notes" }
+              {
+                "title": "முக்கிய குறிப்புகள் - பகுதி 1",
+                "isUpdated": true,
+                "code": "tam_6_t1_notes"
+              },
+              {
+                "title": "முக்கிய குறிப்புகள் - பகுதி 2",
+                "isUpdated": true,
+                "code": "tam_6_t2_notes"
+              },
+              {
+                "title": "முக்கிய குறிப்புகள் - பகுதி 3",
+                "isUpdated": true,
+                "code": "tam_6_t3_notes"
+              },
+              {
+                "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "tam_6_full_notes"
+              }
             ]
           },
           {
             "title": "ஆங்கிலம் (English)",
             "topics": [
-              { "title": "English Grammar (Term 1)", "isUpdated": true, "code": "eng_6_t1_notes" },
-              { "title": "English - Full Notes", "isUpdated": true, "code": "eng_6_full_notes" }
+              {
+                "title": "English Grammar (Term 1)",
+                "isUpdated": true,
+                "code": "eng_6_t1_notes"
+              },
+              {
+                "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (6ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "eng_6_full_notes"
+              }
             ]
           },
           {
             "title": "கணிதம் (Maths)",
             "topics": [
-              { "title": "கணிதம் - பருவம் 1", "isUpdated": true, "code": "mat_6_t1_notes" },
-              { "title": "கணிதம் - பருவம் 2", "isUpdated": true, "code": "mat_6_t2_notes" },
-              { "title": "கணிதம் - பருவம் 3", "isUpdated": true, "code": "mat_6_t3_notes" }
+              {
+                "title": "6ஆம் வகுப்பு கணிதம் - முதல் பருவம் - முழுமையான பாடக்குறிப்புகள்",
+                "isUpdated": true,
+                "code": "mat_6_t1_notes"
+              },
+              {
+                "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (இயல் 1 - 5)",
+                "isUpdated": true,
+                "code": "mat_6_t2_notes"
+              },
+              {
+                "title": "கணிதம் - பருவம் 3",
+                "isUpdated": true,
+                "code": "mat_6_t3_notes"
+              }
             ]
           }
         ]
@@ -153,11 +189,31 @@ export const extraSyllabusData = {
           {
             "title": "பாடக்குறிப்புகள் (Study Materials)",
             "topics": [
-              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_7_full_notes" },
-              { "title": "ஆங்கிலம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "eng_7_full_notes" },
-              { "title": "கணிதம் - பருவம் 1", "isUpdated": true, "code": "mat_7_t1_notes" },
-              { "title": "கணிதம் - பருவம் 2", "isUpdated": true, "code": "mat_7_t2_notes" },
-              { "title": "கணிதம் - பருவம் 3", "isUpdated": true, "code": "mat_7_t3_notes" }
+              {
+                "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "tam_7_full_notes"
+              },
+              {
+                "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "eng_7_full_notes"
+              },
+              {
+                "title": "கணிதம் - பருவம் 1",
+                "isUpdated": true,
+                "code": "mat_7_t1_notes"
+              },
+              {
+                "title": "கணிதம் - பருவம் 2",
+                "isUpdated": true,
+                "code": "mat_7_t2_notes"
+              },
+              {
+                "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (7ஆம் வகுப்பு, பருவம் 3, இயல் 1 - 6)",
+                "isUpdated": true,
+                "code": "mat_7_t3_notes"
+              }
             ]
           }
         ]
@@ -168,14 +224,25 @@ export const extraSyllabusData = {
           {
             "title": "பாடக்குறிப்புகள் (Study Materials)",
             "topics": [
-              { "title": "தமிழ் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "tam_8_full_notes" },
-              { "title": "ஆங்கிலம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "eng_8_full_notes" },
-              { "title": "கணிதம் - முழுமையான குறிப்புகள்", "isUpdated": true, "code": "mat_8_full_notes" }
+              {
+                "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "tam_8_full_notes"
+              },
+              {
+                "title": "ஆங்கில இலக்கணம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "eng_8_full_notes"
+              },
+              {
+                "title": "கணிதம் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)",
+                "isUpdated": true,
+                "code": "mat_8_full_notes"
+              }
             ]
           }
         ]
       }
     ]
   }
-
 };

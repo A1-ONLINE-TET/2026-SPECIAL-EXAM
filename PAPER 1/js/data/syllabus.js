@@ -117,7 +117,7 @@ export const syllabusData = {
             "title": "அலகு 3",
             "topics": [
               {
-                "title": "இயல் 7: முயல் அரசன் *",
+                "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்",
                 "isUpdated": true,
                 "code": "tam_4_t1_l7"
               },
@@ -209,37 +209,37 @@ export const syllabusData = {
             "title": "இரண்டாம் பருவம்",
             "topics": [
               {
-                "title": "திருக்குறள் *",
+                "title": "திருக்குறள்",
                 "isUpdated": true,
                 "code": "tam_5_t2_l1"
               },
               {
-                "title": "தமிழர்களின் வீரக்கலைகள் *",
+                "title": "தமிழர்களின் வீரக்கலைகள்",
                 "isUpdated": true,
                 "code": "tam_5_t2_l2"
               },
               {
-                "title": "கங்கை கொண்ட சோழபுரம் *",
+                "title": "கங்கை கொண்ட சோழபுரம்",
                 "isUpdated": true,
                 "code": "tam_5_t2_l3"
               },
               {
-                "title": "இணைப்புச்சொற்கள் *",
+                "title": "இணைப்புச்சொற்கள்",
                 "isUpdated": true,
                 "code": "tam_5_t2_l4"
               },
               {
-                "title": "உழவுப் பொங்கல் *",
+                "title": "உழவுப் பொங்கல்",
                 "isUpdated": true,
                 "code": "tam_5_t2_l5"
               },
               {
-                "title": "விதைத் திருவிழா *",
+                "title": "விதைத் திருவிழா",
                 "isUpdated": true,
                 "code": "tam_5_t2_l6"
               },
               {
-                "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்) *",
+                "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்)",
                 "isUpdated": true,
                 "code": "tam_5_t2_l7"
               }
@@ -956,6 +956,51 @@ export const syllabusData = {
                 "title": "Patriotism and Duty || தேசபக்தி மற்றும் கடமை",
                 "isUpdated": true,
                 "code": "eng_5_t1_l3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "Unit 1: Hospitality",
+            "topics": [
+              {
+                "title": "Unit 1: Hospitality || அலகு 1: விருந்தோம்பல்",
+                "isUpdated": true,
+                "code": "eng_5_t2_l1"
+              },
+              {
+                "title": "Prose: The Gift || உரைநடை: பரிசு",
+                "isUpdated": true,
+                "code": "eng_5_t2_l2"
+              },
+              {
+                "title": "Poem: The Two Pigeons || கவிதை: இரண்டு புறாக்கள்",
+                "isUpdated": true,
+                "code": "eng_5_t2_l3"
+              }
+            ]
+          },
+          {
+            "title": "Unit 2: Sports",
+            "topics": [
+              {
+                "title": "Unit 2: Sports || அலகு 2: விளையாட்டு",
+                "isUpdated": true,
+                "code": "eng_5_t2_l4"
+              },
+              {
+                "title": "Poem: The Swimmer || கவிதை: நீச்சல் வீரர்",
+                "isUpdated": true,
+                "code": "eng_5_t2_l5"
+              },
+              {
+                "title": "Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்",
+                "isUpdated": true,
+                "code": "eng_5_t2_l6"
               }
             ]
           }

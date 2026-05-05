@@ -1,0 +1,702 @@
+{
+  "lesson_meta": {
+    "title": "Poem: The Two Pigeons || கவிதை: இரண்டு புறாக்கள்",
+    "unit": "1",
+    "grade": "5",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_5_t2_l3"
+  },
+  "sections": [
+    {
+      "title": "பாடச் சுருக்கம் (Summary of the Lesson)",
+      "content": "The story revolves around two white pigeons, a cock and a hen, who lived together on a tree. One evening, a heavy rainstorm hits the forest. The hen-pigeon reaches their tree safely, but the cock-pigeon takes shelter in another tree and is caught by a cruel bird catcher. \n\nThe bird catcher, trying to escape the rain, coincidentally takes shelter under the same tree where the hen-pigeon is waiting. He decides to camp there for the night as it is dark and cold. The hen-pigeon discovers her friend in the cage. \n\nSeeing the bird catcher shivering and hungry, the trapped cock-pigeon tells his friend to treat the man as a guest. Demonstrating extreme hospitality, the hen-pigeon gathers dry twigs and flintstones for him to make a fire. Having no food to offer, she decides to jump into the fire so the hunter can eat her. \n\nOverwhelmed by this incredible kindness and self-sacrifice, the bird catcher stops her. His heart changes, and he realizes his cruelty. He sets the cock-pigeon free and promises never to trap birds again. The next morning, the pigeons offer him fruits and nuts before he leaves happily."
+    },
+    {
+      "title": "பாடக்கருத்துக்கள் (Lesson Concepts)",
+      "content": "1. The Life of Pigeons: The peaceful life of the two white pigeons, searching for food and resting on their favourite tree.\n2. The Danger: The sudden heavy rain and the cruel bird catcher who ensnares the cock-pigeon.\n3. The Guest: The bird catcher taking shelter under the tree, shivering and hungry in the cold night.\n4. True Hospitality: The cock-pigeon advising the hen-pigeon to help their 'guest'. The hen-pigeon gathering twigs and flintstones for fire, and offering her own life as food.\n5. The Change of Heart: The bird catcher being emotionally overwhelmed by the bird's sacrifice, leading him to release the captive and give up his cruel profession."
+    },
+    {
+      "title": "தகவல் பேழை (Supplementary Reading: Elephant and the Watermelon)",
+      "content": "In a dry forest, an elephant had a small garden with just one watermelon plant. A hungry rabbit with three babies came searching for food. Seeing the hungry babies, the elephant took pity and gave away her only watermelon. That night, it rained heavily, and her garden flourished with vegetables and fruits. \n\nMoral: If we help someone in need, we will receive twice in return."
+    },
+    {
+      "title": "உங்களுக்கு தெரியுமா ? (Do You Know?)",
+      "content": "- Flintstones are special hard stones. When struck together, they create a spark which is used to light a fire in forests.\n- Pigeons are considered highly social and intelligent birds. Historically, they have been symbols of peace, love, and extreme loyalty.\n- The word 'Hospitality' means the friendly and generous reception and entertainment of guests, visitors, or strangers."
+    },
+    {
+      "title": "கலைச்சொற்கள் (Glossary)",
+      "content": "1. Clamped - fastened or caught tightly.\n2. Flutter - to flap wings quickly and lightly.\n3. Fainted - lost consciousness temporarily.\n4. Shivering - shaking slightly due to cold or fear.\n5. Twigs - small, thin branches of a tree or bush.\n6. Flintstones - hard grey rocks used to produce a spark for fire.\n7. Overwhelmed - having a strong emotional effect on someone.\n8. Meaningless - having no purpose or reason.\n9. Hospitality - taking care of guests in a friendly and generous way."
+    },
+    {
+      "title": "பாட பின்புற வினாக்கள் (Book Back 1-Mark Evaluation)",
+      "content": "A. True or False:\n1. The pigeon started to worry for her friend. - True\n2. They would rest on the tree. - True\n3. The bird catcher’s clothes were dry. - False\n4. The pigeon flew away for dry twigs. - True\n5. The bird catcher let the pigeon jump into the fire. - False\n\nB. Fill in the blanks:\n1. The pigeon returned home when it started to RAIN.\n2. The bird catcher had a pigeon in his CAGE.\n3. The bird catcher decided to sit under the TREE.\n4. The hen-pigeon got dry TWIGS for the bird catcher.\n\nC. Identify the character/speaker:\n1. 'I hope he is safe.' - Hen-pigeon\n2. 'Do not feel sad dear.' - Cock-pigeon\n3. 'I will camp here for the night.' - Bird catcher\n4. 'Oh no! What shall I do now?' - Hen-pigeon\n5. 'I was cruel and selfish.' - Bird catcher"
+    },
+    {
+      "title": "இலக்கணப் பகுதி (Grammar & Vocabulary - 1 Marks)",
+      "content": "A. Suffixes (Adding ending letters to make new words):\n- colour + ful = colourful\n- thank + ful = thankful\n- retire + ment = retirement\n- drive + er = driver\n\nB. Present Perfect Tense (Subject + has/have + Past Participle):\n1. They HAVE STARTED (start) playing.\n2. She HAS WRITTEN (write) a letter."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What was the colour of the two pigeons in the story?",
+      "options": [
+        "Grey",
+        "Black",
+        "White",
+        "Brown"
+      ],
+      "answer": 2,
+      "explanation": "The story begins by introducing two white pigeons who were friends."
+    },
+    {
+      "question": "Where did the pigeons rest during the afternoons?",
+      "options": [
+        "On their favourite tree",
+        "Inside a deep cave",
+        "On top of a mountain",
+        "Near a river bank"
+      ],
+      "answer": 0,
+      "explanation": "During afternoons, they would rest on their favourite tree in the forest."
+    },
+    {
+      "question": "What did the pigeons do before they went to sleep at night?",
+      "options": [
+        "Ate lots of fruits",
+        "Locked their wings",
+        "Flew around the forest",
+        "Sang loudly"
+      ],
+      "answer": 1,
+      "explanation": "Soon, it would be night, they would lock their wings and sleep."
+    },
+    {
+      "question": "How was the weather in the forest one day?",
+      "options": [
+        "It was very hot and sunny",
+        "It was snowing heavily",
+        "It was a windy autumn day",
+        "It was raining heavily"
+      ],
+      "answer": 3,
+      "explanation": "One day it was raining heavily in the forest."
+    },
+    {
+      "question": "Who reached the tree first when it started raining?",
+      "options": [
+        "The cock-pigeon",
+        "The hen-pigeon",
+        "The bird catcher",
+        "A rabbit"
+      ],
+      "answer": 1,
+      "explanation": "The hen-pigeon ran to the tree to escape the rain and started waiting for her friend."
+    },
+    {
+      "question": "What did the hen-pigeon do to remove the water from her body?",
+      "options": [
+        "She wiped herself with leaves",
+        "She ruffled her feathers and shook her body",
+        "She sat near a fire",
+        "She flew fast in the wind"
+      ],
+      "answer": 1,
+      "explanation": "She ruffled her feathers and shook her body to remove the water."
+    },
+    {
+      "question": "Why was the hen-pigeon worried while sitting on the tree?",
+      "options": [
+        "She was very hungry",
+        "She saw a snake",
+        "The cock-pigeon was late",
+        "She lost her nest"
+      ],
+      "answer": 2,
+      "explanation": "The cock-pigeon was late due to the rain, so she whispered, 'He is never so late. I hope he is safe.'"
+    },
+    {
+      "question": "Why did the cock-pigeon perch on a tree before reaching home?",
+      "options": [
+        "To eat some fruits",
+        "To talk to another bird",
+        "To wait till the heavy rain stopped",
+        "To build a new nest"
+      ],
+      "answer": 2,
+      "explanation": "He thought, 'Ah! The rain is heavy let me wait in this tree till it stops.'"
+    },
+    {
+      "question": "Who was standing nearby when the cock-pigeon perched on the tree?",
+      "options": [
+        "A bird catcher",
+        "A woodcutter",
+        "A wild animal",
+        "The hen-pigeon"
+      ],
+      "answer": 0,
+      "explanation": "He did not know there was a bird catcher nearby."
+    },
+    {
+      "question": "How did the bird catcher catch the cock-pigeon?",
+      "options": [
+        "He shot an arrow",
+        "He silently reached near and clamped him",
+        "He threw a large net over the tree",
+        "He offered him seeds"
+      ],
+      "answer": 1,
+      "explanation": "The bird catcher silently reached near the pigeon and CLAMPED! He had caught the pigeon."
+    },
+    {
+      "question": "What was the immediate reaction of the cock-pigeon when he was caught?",
+      "options": [
+        "He fought the bird catcher",
+        "He flew away quickly",
+        "He started singing loudly",
+        "He tried to fly and flutter in vain"
+      ],
+      "answer": 3,
+      "explanation": "The pigeon tried to fly and flutter in vain, then he was tensed and fainted."
+    },
+    {
+      "question": "Where did the hunter place the caught pigeon?",
+      "options": [
+        "In a bag",
+        "In a cage",
+        "In his pocket",
+        "Tied to a tree"
+      ],
+      "answer": 1,
+      "explanation": "The hunter put the pigeon in his cage and started to walk home."
+    },
+    {
+      "question": "Why did the bird catcher take cover under the hen-pigeon's tree?",
+      "options": [
+        "He wanted to sleep",
+        "The sky thundered and it rained heavily",
+        "He saw the hen-pigeon",
+        "He lost his way"
+      ],
+      "answer": 1,
+      "explanation": "The sky thundered and the bird catcher took cover under her tree to escape the rain."
+    },
+    {
+      "question": "What did the hen-pigeon do to get a closer look at the bird catcher's cage?",
+      "options": [
+        "She flew down to the lowest branch",
+        "She flew around his head",
+        "She walked on the ground",
+        "She called out to him"
+      ],
+      "answer": 0,
+      "explanation": "She had to hide, but wanted a closer look, so she flew down to the lowest branch."
+    },
+    {
+      "question": "Why did the bird catcher decide to camp under the tree for the night?",
+      "options": [
+        "He liked the tree",
+        "It was too dark and late in the night",
+        "He was waiting for his friend",
+        "His home was very near"
+      ],
+      "answer": 1,
+      "explanation": "Soon it stopped raining, but it was too dark and late in the night to walk home."
+    },
+    {
+      "question": "How did the bird catcher feel during the night?",
+      "options": [
+        "Very happy and energetic",
+        "Warm and comfortable",
+        "Shivering, wet, cold, and hungry",
+        "Scared of wild animals"
+      ],
+      "answer": 2,
+      "explanation": "It was a wet and cold night, and the man was shivering and hungry."
+    },
+    {
+      "question": "Why couldn't the bird catcher start a fire initially?",
+      "options": [
+        "He did not know how to make a fire",
+        "He could not find any dry twigs",
+        "He had no matchbox",
+        "The wood was stolen"
+      ],
+      "answer": 1,
+      "explanation": "He wanted to start a fire to keep himself warm but he could not find any dry twigs."
+    },
+    {
+      "question": "What woke up the pigeon in the cage?",
+      "options": [
+        "The sound of the rain",
+        "The bird catcher talking",
+        "The hen-pigeon crying",
+        "His wings hitting the cage"
+      ],
+      "answer": 3,
+      "explanation": "The pigeon in the cage woke up and tried to fly only for his wings to hit the cage."
+    },
+    {
+      "question": "Who said, 'We have a guest now. The man is shivering and hungry. He needs your help.'?",
+      "options": [
+        "The hen-pigeon",
+        "The bird catcher",
+        "The cock-pigeon",
+        "The narrator"
+      ],
+      "answer": 2,
+      "explanation": "The trapped cock-pigeon said this to the crying hen-pigeon to comfort her and show hospitality."
+    },
+    {
+      "question": "What did the hen-pigeon gather to help the bird catcher?",
+      "options": [
+        "Fresh green leaves",
+        "Dry twigs and flintstones",
+        "Fruits and nuts",
+        "Water from the rain"
+      ],
+      "answer": 1,
+      "explanation": "She made a big heap of dry twigs and got flintstones for the bird catcher to start the fire."
+    },
+    {
+      "question": "How many twigs did the hen-pigeon get at a time?",
+      "options": [
+        "Ten to twelve",
+        "One at a time",
+        "Two or three",
+        "Five or six"
+      ],
+      "answer": 2,
+      "explanation": "She got two or three twigs at a time and made a big heap."
+    },
+    {
+      "question": "What was the purpose of the flintstones?",
+      "options": [
+        "To build a nest",
+        "To hit the bird catcher",
+        "To break the cage",
+        "To start the fire"
+      ],
+      "answer": 3,
+      "explanation": "She got flintstones for the bird catcher to start the fire."
+    },
+    {
+      "question": "What ultimate sacrifice did the hen-pigeon offer to the bird catcher?",
+      "options": [
+        "She offered her eggs",
+        "She promised to guide him home",
+        "She offered to jump into the fire so he could eat her",
+        "She gave him all her winter food"
+      ],
+      "answer": 2,
+      "explanation": "She said, 'I have no food to give you. I will jump into this fire so that you can eat me.'"
+    },
+    {
+      "question": "How did the bird catcher react to the hen-pigeon's offer?",
+      "options": [
+        "He was overwhelmed by her hospitality and stopped her",
+        "He laughed at her",
+        "He caught her and put her in the cage",
+        "He let her jump"
+      ],
+      "answer": 0,
+      "explanation": "The bird catcher was overwhelmed by the hospitality. He caught her and stopped her from jumping."
+    },
+    {
+      "question": "What did the hen-pigeon ask the bird catcher to do in return?",
+      "options": [
+        "Give her some food",
+        "Set her friend free",
+        "Leave the forest immediately",
+        "Build a house for her"
+      ],
+      "answer": 1,
+      "explanation": "She requested, 'Please set my friend free. My life will be meaningless without him.'"
+    },
+    {
+      "question": "What did the bird catcher realize after the pigeons' kind act?",
+      "options": [
+        "He realized pigeons are tasty",
+        "He realized he was cruel and selfish",
+        "He realized he should buy a better cage",
+        "He realized the forest is dangerous"
+      ],
+      "answer": 1,
+      "explanation": "He said, 'I was cruel and selfish. I will never trap any bird again.'"
+    },
+    {
+      "question": "What did the pigeons give the bird catcher in the morning?",
+      "options": [
+        "Nuts, fruits and seeds",
+        "A golden feather",
+        "Water from the river",
+        "Dry leaves"
+      ],
+      "answer": 0,
+      "explanation": "In the morning, the pigeons got him nuts, fruits and seeds to eat."
+    },
+    {
+      "question": "In the supplementary story, what did the elephant have?",
+      "options": [
+        "A large palace",
+        "A small piece of land",
+        "A big lake",
+        "A watermelon shop"
+      ],
+      "answer": 1,
+      "explanation": "An elephant had a small piece of land where she grew vegetables and fruits."
+    },
+    {
+      "question": "Why did the forest look brown one summer?",
+      "options": [
+        "Because of a forest fire",
+        "Because the trees were painted",
+        "Because it was dry as it did not rain",
+        "Because autumn had arrived"
+      ],
+      "answer": 2,
+      "explanation": "One summer, the forest was dry, as it did not rain. All trees and plants were dry."
+    },
+    {
+      "question": "How many watermelons did the elephant manage to grow during the dry summer?",
+      "options": [
+        "Only one watermelon",
+        "Ten watermelons",
+        "A hundred watermelons",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "The elephant somehow got water for just one watermelon plant which had only one watermelon."
+    },
+    {
+      "question": "Who came in search of food to the elephant's garden?",
+      "options": [
+        "A hungry lion",
+        "A bird catcher",
+        "A rabbit with three babies",
+        "A monkey"
+      ],
+      "answer": 2,
+      "explanation": "A rabbit who had three babies came there in search of food."
+    },
+    {
+      "question": "Why did the elephant give her only watermelon to the rabbit?",
+      "options": [
+        "She did not like watermelon",
+        "She took pity the moment she saw the babies",
+        "The rabbit fought with her",
+        "She had plenty of other fruits"
+      ],
+      "answer": 1,
+      "explanation": "The moment the elephant saw her babies, she took pity and gave the watermelon."
+    },
+    {
+      "question": "What is the main idea of the Elephant and Watermelon story?",
+      "options": [
+        "During difficult times, we should save for ourselves",
+        "Elephants love watermelons",
+        "If we help someone, we will receive twice in return",
+        "Rabbits are very clever"
+      ],
+      "answer": 2,
+      "explanation": "The moral highlights that helping others in need brings back greater rewards (the rain filled her garden the next day)."
+    },
+    {
+      "question": "True or False: The pigeon started to worry for her friend.",
+      "options": [
+        "True",
+        "False",
+        "Cannot be determined",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "Yes, when the rain poured and he was late, the hen-pigeon started to worry."
+    },
+    {
+      "question": "True or False: The bird catcher's clothes were dry.",
+      "options": [
+        "True",
+        "False",
+        "Only his hat was dry",
+        "He had an umbrella"
+      ],
+      "answer": 1,
+      "explanation": "False. It was a wet night and the man was shivering, indicating his clothes were wet."
+    },
+    {
+      "question": "True or False: The bird catcher let the pigeon jump into the fire.",
+      "options": [
+        "False",
+        "True",
+        "He pushed her in",
+        "She fell accidentally"
+      ],
+      "answer": 0,
+      "explanation": "False. He caught the hen pigeon and stopped her from jumping into the fire."
+    },
+    {
+      "question": "Fill in the blank: The pigeon returned home when it started to _______.",
+      "options": [
+        "Rain",
+        "Snow",
+        "Get dark",
+        "Wind"
+      ],
+      "answer": 0,
+      "explanation": "It started raining heavily, so she returned to her tree."
+    },
+    {
+      "question": "Fill in the blank: The bird catcher had a pigeon in his _______.",
+      "options": [
+        "Net",
+        "Hand",
+        "Cage",
+        "Bag"
+      ],
+      "answer": 2,
+      "explanation": "The hunter put the pigeon in his cage."
+    },
+    {
+      "question": "Fill in the blank: The hen-pigeon got dry _______ for the bird catcher.",
+      "options": [
+        "Leaves",
+        "Grass",
+        "Fruits",
+        "Twigs"
+      ],
+      "answer": 3,
+      "explanation": "The pigeon flew from the tree in search of dry twigs."
+    },
+    {
+      "question": "Identify the speaker: 'I hope he is safe.'",
+      "options": [
+        "The bird catcher",
+        "The cock-pigeon",
+        "The rabbit",
+        "The hen-pigeon"
+      ],
+      "answer": 3,
+      "explanation": "The hen-pigeon whispered this while waiting for her friend."
+    },
+    {
+      "question": "Identify the speaker: 'Do not feel sad dear.'",
+      "options": [
+        "The cock-pigeon",
+        "The hen-pigeon",
+        "The elephant",
+        "The bird catcher"
+      ],
+      "answer": 0,
+      "explanation": "The trapped cock-pigeon told his friend not to cry but to help the guest."
+    },
+    {
+      "question": "Identify the speaker: 'I will camp here for the night.'",
+      "options": [
+        "The cock-pigeon",
+        "The bird catcher",
+        "The hen-pigeon",
+        "The rabbit"
+      ],
+      "answer": 1,
+      "explanation": "The bird catcher thought this because it was too dark and late to go home."
+    },
+    {
+      "question": "Identify the speaker: 'Oh no! What shall I do now?'",
+      "options": [
+        "The bird catcher",
+        "The rabbit",
+        "The hen-pigeon",
+        "The elephant"
+      ],
+      "answer": 2,
+      "explanation": "The hen-pigeon worried when she saw her friend inside the catcher's cage."
+    },
+    {
+      "question": "Identify the speaker: 'I was cruel and selfish.'",
+      "options": [
+        "The cock-pigeon",
+        "The bird catcher",
+        "The hen-pigeon",
+        "The narrator"
+      ],
+      "answer": 1,
+      "explanation": "The bird catcher realized his mistake after seeing the pigeon's extreme hospitality."
+    },
+    {
+      "question": "What is the correct suffix for the word 'colour'?",
+      "options": [
+        "ment",
+        "er",
+        "ful",
+        "less"
+      ],
+      "answer": 2,
+      "explanation": "The correct suffix is 'ful', making the word 'colourful'."
+    },
+    {
+      "question": "What is the correct suffix for the word 'thank'?",
+      "options": [
+        "ment",
+        "ful",
+        "er",
+        "ous"
+      ],
+      "answer": 1,
+      "explanation": "The correct suffix is 'ful', making the word 'thankful'."
+    },
+    {
+      "question": "What is the correct suffix for the word 'retire'?",
+      "options": [
+        "ment",
+        "ful",
+        "less",
+        "er"
+      ],
+      "answer": 0,
+      "explanation": "The correct suffix is 'ment', making the word 'retirement'."
+    },
+    {
+      "question": "What is the correct suffix for the word 'drive'?",
+      "options": [
+        "ful",
+        "ous",
+        "ment",
+        "er"
+      ],
+      "answer": 3,
+      "explanation": "The correct suffix is 'er', making the word 'driver'."
+    },
+    {
+      "question": "Choose the correct form for the present perfect tense: They ______ (start) playing.",
+      "options": [
+        "has started",
+        "have started",
+        "started",
+        "are starting"
+      ],
+      "answer": 1,
+      "explanation": "For the plural pronoun 'They', the present perfect uses 'have' + past participle 'started'."
+    },
+    {
+      "question": "Choose the correct form for the present perfect tense: She ______ (write) a letter.",
+      "options": [
+        "have written",
+        "wrote",
+        "has written",
+        "is writing"
+      ],
+      "answer": 2,
+      "explanation": "For the singular pronoun 'She', the present perfect uses 'has' + past participle 'written'."
+    },
+    {
+      "question": "Analogy Question - Bird Catcher : Cage :: Pigeon : ?",
+      "options": [
+        "Fire",
+        "Twigs",
+        "Tree",
+        "Rain"
+      ],
+      "answer": 2,
+      "explanation": "A bird catcher uses a cage to stay/trap, while a pigeon uses a tree to live/rest."
+    },
+    {
+      "question": "Analogy Question - Cruel : Bird Catcher :: Hospitable : ?",
+      "options": [
+        "Elephant",
+        "Hen-pigeon",
+        "Rabbit",
+        "Hunter"
+      ],
+      "answer": 1,
+      "explanation": "The bird catcher was initially cruel, whereas the hen-pigeon demonstrated extreme hospitality."
+    },
+    {
+      "question": "Assertion (A): The bird catcher stayed under the tree for the entire night. \nReason (R): He was invited by the pigeons to stay.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation.",
+        "Both A and R are true, but R is not the correct explanation.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "He stayed because it was dark, raining, and late, not because he was invited. The hospitality came later."
+    },
+    {
+      "question": "Assertion (A): The hen-pigeon decided to jump into the fire. \nReason (R): She wanted to offer herself as food to the hungry guest.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation.",
+        "Both A and R are true, but R is not the correct explanation.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Since she had no food to offer the shivering and hungry guest, she offered her own life as food, fulfilling her duty of hospitality."
+    },
+    {
+      "question": "Real-life Scenario: If a poor, shivering traveler knocks on your door during a stormy night, what does this lesson teach you to do?",
+      "options": [
+        "Ignore them and lock the door",
+        "Show hospitality by offering warmth and whatever food you have",
+        "Ask them to pay money for staying",
+        "Scold them for travelling in the rain"
+      ],
+      "answer": 1,
+      "explanation": "The lesson 'Hospitality' teaches us to treat guests with kindness and help them in their time of need."
+    },
+    {
+      "question": "Match the following based on the story: \n1. Twigs \n2. Flintstones \n3. Nuts \n\nA. Morning breakfast \nB. Start a fire \nC. Make a heap",
+      "options": [
+        "1-B, 2-C, 3-A",
+        "1-A, 2-B, 3-C",
+        "1-C, 2-A, 3-B",
+        "1-C, 2-B, 3-A"
+      ],
+      "answer": 3,
+      "explanation": "Twigs were made into a heap (1-C), flintstones were used to start the fire (2-B), and nuts were given as breakfast (3-A)."
+    },
+    {
+      "question": "What is the meaning of the word 'overwhelmed' as used in the passage?",
+      "options": [
+        "Having a strong emotional effect",
+        "To fly very high in the sky",
+        "To feel very angry and violent",
+        "To sleep deeply without waking up"
+      ],
+      "answer": 0,
+      "explanation": "The bird catcher was deeply moved emotionally (overwhelmed) by the pigeon's self-sacrifice."
+    },
+    {
+      "question": "Which action shows the true meaning of 'Hospitality' in the story?",
+      "options": [
+        "The bird catcher trapping the pigeon",
+        "The pigeons singing and dancing",
+        "The hen-pigeon risking her life to feed a hungry guest",
+        "The cock-pigeon fainting in the net"
+      ],
+      "answer": 2,
+      "explanation": "Hospitality is defined by the generous and selfless reception of guests, which the hen-pigeon demonstrated."
+    },
+    {
+      "question": "Find the odd one out from the context of the story's message:",
+      "options": [
+        "Selfishness",
+        "Kindness",
+        "Hospitality",
+        "Generosity"
+      ],
+      "answer": 0,
+      "explanation": "Kindness, hospitality, and generosity are positive traits shown by the pigeons, whereas selfishness is the negative trait the bird catcher gave up."
+    },
+    {
+      "question": "What was the ultimate reward the hen-pigeon received for her extreme hospitality?",
+      "options": [
+        "She was eaten by the bird catcher",
+        "She got a golden nest",
+        "Her friend was set free",
+        "She became the queen of the forest"
+      ],
+      "answer": 2,
+      "explanation": "Because of her hospitality, the bird catcher's heart melted, and he opened the cage to set her friend free."
+    }
+  ]
+}

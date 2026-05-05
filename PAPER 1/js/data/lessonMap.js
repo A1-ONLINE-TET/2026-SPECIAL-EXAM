@@ -692,6 +692,78 @@ export const lessonMap = {
       "grade": "5",
       "title": "Patriotism and Duty || தேசபக்தி மற்றும் கடமை"
     },
+    "Unit 1: Hospitality || அலகு 1: விருந்தோம்பல்": {
+      "local": true,
+      "filename": "eng_5_t2_l1",
+      "grade": "5",
+      "title": "Unit 1: Hospitality || அலகு 1: விருந்தோம்பல்"
+    },
+    "eng_5_t2_l1": {
+      "local": true,
+      "filename": "eng_5_t2_l1",
+      "grade": "5",
+      "title": "Unit 1: Hospitality || அலகு 1: விருந்தோம்பல்"
+    },
+    "Prose: The Gift || உரைநடை: பரிசு": {
+      "local": true,
+      "filename": "eng_5_t2_l2",
+      "grade": "5",
+      "title": "Prose: The Gift || உரைநடை: பரிசு"
+    },
+    "eng_5_t2_l2": {
+      "local": true,
+      "filename": "eng_5_t2_l2",
+      "grade": "5",
+      "title": "Prose: The Gift || உரைநடை: பரிசு"
+    },
+    "Poem: The Two Pigeons || கவிதை: இரண்டு புறாக்கள்": {
+      "local": true,
+      "filename": "eng_5_t2_l3",
+      "grade": "5",
+      "title": "Poem: The Two Pigeons || கவிதை: இரண்டு புறாக்கள்"
+    },
+    "eng_5_t2_l3": {
+      "local": true,
+      "filename": "eng_5_t2_l3",
+      "grade": "5",
+      "title": "Poem: The Two Pigeons || கவிதை: இரண்டு புறாக்கள்"
+    },
+    "Unit 2: Sports || அலகு 2: விளையாட்டு": {
+      "local": true,
+      "filename": "eng_5_t2_l4",
+      "grade": "5",
+      "title": "Unit 2: Sports || அலகு 2: விளையாட்டு"
+    },
+    "eng_5_t2_l4": {
+      "local": true,
+      "filename": "eng_5_t2_l4",
+      "grade": "5",
+      "title": "Unit 2: Sports || அலகு 2: விளையாட்டு"
+    },
+    "Poem: The Swimmer || கவிதை: நீச்சல் வீரர்": {
+      "local": true,
+      "filename": "eng_5_t2_l5",
+      "grade": "5",
+      "title": "Poem: The Swimmer || கவிதை: நீச்சல் வீரர்"
+    },
+    "eng_5_t2_l5": {
+      "local": true,
+      "filename": "eng_5_t2_l5",
+      "grade": "5",
+      "title": "Poem: The Swimmer || கவிதை: நீச்சல் வீரர்"
+    },
+    "Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்": {
+      "local": true,
+      "filename": "eng_5_t2_l6",
+      "grade": "5",
+      "title": "Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்"
+    },
+    "eng_5_t2_l6": {
+      "local": true,
+      "filename": "eng_5_t2_l6",
+      "grade": "5",
+      "title": "Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்"
+    },
     "Prose: Sea Turtles": {
       "local": true,
       "filename": "eng_6_t1_l1",

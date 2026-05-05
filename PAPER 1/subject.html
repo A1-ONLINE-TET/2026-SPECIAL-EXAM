@@ -445,7 +445,7 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v2";
+            const v = "standard_v3";
             try {
                 // Fetch required data
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
@@ -624,8 +624,7 @@
                     selectClass(allowedClasses[0], true);
                 }
 
-                // Auto-sync to Live Monitor
-                localStorage.setItem('last_preview_url', window.location.href);
+                 }
 
             } catch (err) {
                 console.error("PAGE ERROR:", err);
