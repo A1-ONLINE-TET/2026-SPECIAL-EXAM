@@ -1,0 +1,701 @@
+{
+  "3": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "பாடப்பகுதிகள்",
+          "topics": [
+            {
+              "title": "வா வா முயலே",
+              "isUpdated": true,
+              "code": "soc_3_t1_l1"
+            },
+            {
+              "title": "செய்து மகிழ்வோம்",
+              "isUpdated": true,
+              "code": "soc_3_t1_l2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "பாடங்கள் (Term 1)",
+          "topics": [
+            {
+              "title": "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks",
+              "isUpdated": true,
+              "code": "soc_4_t1_l1"
+            },
+            {
+              "title": "அலகு 2: ஐவகை நிலங்கள்",
+              "isUpdated": true,
+              "code": "soc_4_t1_l2"
+            },
+            {
+              "title": "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி",
+              "isUpdated": true,
+              "code": "soc_4_t1_l3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "பாடங்கள் (Term 1)",
+          "topics": [
+            {
+              "title": "நமது பூமி ",
+              "isUpdated": true,
+              "code": "soc_5_t1_l1"
+            },
+            {
+              "title": "வரலாற்றை நோக்கி ",
+              "isUpdated": true,
+              "code": "soc_5_t1_l2"
+            },
+            {
+              "title": "நல்ல குடிமகன்",
+              "isUpdated": true,
+              "code": "soc_5_t1_l3"
+            },
+            {
+              "title": "வளிமண்டலம்",
+              "isUpdated": true,
+              "code": "soc_5_t1_l4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "units": [
+        {
+          "title": "இரண்டாம் பருவம்",
+          "topics": [
+            {
+              "title": "பண்டைய அகழ்வாராய்ச்சி",
+              "isUpdated": true,
+              "code": "soc_5_t2_l1"
+            },
+            {
+              "title": "நீர்க்கோளம்",
+              "isUpdated": true,
+              "code": "soc_5_t2_l2"
+            },
+            {
+              "title": "உலகில் உள்ள கண்டங்கள்",
+              "isUpdated": true,
+              "code": "soc_5_t2_l3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "units": [
+        {
+          "title": "பாடங்கள்: சமூக அறிவியல்",
+          "topics": [
+            {
+              "title": "கோட்டைகளும் அரண்மனைகளும்",
+              "isUpdated": true,
+              "code": "soc_5_t3_l1"
+            },
+            {
+              "title": "வேளாண்மை",
+              "isUpdated": true,
+              "code": "soc_5_t3_l2"
+            },
+            {
+              "title": "கல்வி உரிமைகள்",
+              "isUpdated": true,
+              "code": "soc_5_t3_l3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "6": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "வரலாறு என்றால் என்ன?",
+              "isUpdated": true,
+              "code": "soc_6_t1_l1"
+            },
+            {
+              "title": "2. மனிதர்களின் பரிணாம வளர்ச்சி",
+              "isUpdated": true,
+              "code": "soc_6_t1_l2"
+            },
+            {
+              "title": "3. சிந்து வெளி நாகரிகம்",
+              "isUpdated": true,
+              "code": "soc_6_t1_l3"
+            },
+            {
+              "title": "4. Ancient Cities of Tamil Nadu || தமிழ்நாட்டின் பண்டைய நகரங்கள்",
+              "isUpdated": true,
+              "code": "soc_6_t1_l4"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. பேரண்டம் மற்றும் சூரியக்குடும்பம்",
+              "isUpdated": false,
+              "code": "soc_6_t1_l5"
+            },
+            {
+              "title": "2. நிலப்பரப்பும் பெருங்கடல்களும்",
+              "isUpdated": true,
+              "code": "soc_6_t1_l6"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. பன்முகத் தன்மையினை அறிவோம்",
+              "isUpdated": true,
+              "code": "soc_6_t1_l7"
+            },
+            {
+              "title": "2. சமத்துவம் பெறுதல்",
+              "isUpdated": true,
+              "code": "soc_6_t1_l8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "1. வடஇந்தியாவில் வேதகாலப் பண்பாடும் தென்னிந்தியாவில் பெருங்கற்காலப் பண்பாடும்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l1"
+            },
+            {
+              "title": "2. மாபெரும் சிந்தனையாளர்களும் புதிய நம்பிக்கைகளும்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l2"
+            },
+            {
+              "title": "3. குடித்தலைமையில் இருந்து பேரரசு வரை",
+              "isUpdated": false,
+              "code": "soc_6_t2_l3"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. வளங்கள்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l4"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. தேசியச் சின்னங்கள்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l5"
+            },
+            {
+              "title": "2. இந்திய அரசியலமைப்புச் சட்டம்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l6"
+            }
+          ]
+        },
+        {
+          "title": "பொருளியல்",
+          "topics": [
+            {
+              "title": "1. பொருளியல் – ஓர் அறிமுகம்",
+              "isUpdated": false,
+              "code": "soc_6_t2_l7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "1. பண்டைக்காலத் தமிழகத்தில் சமூகமும் பண்பாடும்: சங்க காலம்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l1"
+            },
+            {
+              "title": "2. இந்தியா – மௌரியருக்குப் பின்னர்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l2"
+            },
+            {
+              "title": "3. பேரரசுகளின் காலம்: குப்தர், வர்த்தனர்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l3"
+            },
+            {
+              "title": "4. தென்னிந்திய அரசுகள்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l4"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. ஆசியா மற்றும் ஐரோப்பா",
+              "isUpdated": false,
+              "code": "soc_6_t3_l5"
+            },
+            {
+              "title": "2. புவி மாதிரி",
+              "isUpdated": false,
+              "code": "soc_6_t3_l6"
+            },
+            {
+              "title": "3. பேரிடரைப் புரிந்து கொள்ளுதல்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l7"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. மக்களாட்சி",
+              "isUpdated": false,
+              "code": "soc_6_t3_l8"
+            },
+            {
+              "title": "2. உள்ளாட்சி அமைப்பு – ஊரகமும் நகர்ப்புறமும்",
+              "isUpdated": false,
+              "code": "soc_6_t3_l9"
+            },
+            {
+              "title": "3. சாலை பாதுகாப்பு",
+              "isUpdated": false,
+              "code": "soc_6_t3_l10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "7": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "1. இடைக்கால இந்திய வரலாற்று ஆதாரங்கள்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l1"
+            },
+            {
+              "title": "2. வடஇந்தியப் புதிய அரசுகளின் தோற்றம்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l2"
+            },
+            {
+              "title": "3. தென்னிந்தியப் புதிய அரசுகள் பிற்காலச் சோழர்களும், பாண்டியர்களும்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l3"
+            },
+            {
+              "title": "4. டெல்லி சுல்தானியம்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l4"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. புவியின் உள்ளமைப்பு",
+              "isUpdated": false,
+              "code": "soc_7_t1_l5"
+            },
+            {
+              "title": "2. நிலத்தோற்றங்கள்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l6"
+            },
+            {
+              "title": "3. மக்கள் தொகையும், குடியிருப்புகளும்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l7"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. சமத்துவம்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l8"
+            },
+            {
+              "title": "2. அரசியல் கட்சிகள்",
+              "isUpdated": false,
+              "code": "soc_7_t1_l9"
+            }
+          ]
+        },
+        {
+          "title": "பொருளியல்",
+          "topics": [
+            {
+              "title": "1. உற்பத்தி",
+              "isUpdated": false,
+              "code": "soc_7_t1_l10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "1. விஜயநகர், பாமினி அரசுகள்",
+              "isUpdated": false,
+              "code": "soc_7_t2_l1"
+            },
+            {
+              "title": "2. முகலாயப் பேரரசு",
+              "isUpdated": false,
+              "code": "soc_7_t2_l2"
+            },
+            {
+              "title": "3. மராத்தியர்கள் மற்றும் பேஷ்வாக்களின் எழுச்சி",
+              "isUpdated": false,
+              "code": "soc_7_t2_l3"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. வளங்கள்",
+              "isUpdated": false,
+              "code": "soc_7_t2_l4"
+            },
+            {
+              "title": "2. சுற்றுலா",
+              "isUpdated": false,
+              "code": "soc_7_t2_l5"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. மாநில அரசு",
+              "isUpdated": false,
+              "code": "soc_7_t2_l6"
+            },
+            {
+              "title": "2. ஊடகமும் ஜனநாயகமும்",
+              "isUpdated": false,
+              "code": "soc_7_t2_l7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "1. புதிய சமயக் கருத்துக்களும் இயக்கங்களும்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l1"
+            },
+            {
+              "title": "2. தமிழ்நாட்டில் கலையும் கட்டடக்கலைகளும்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l2"
+            },
+            {
+              "title": "3. தமிழகத்தில் சமணம், பௌத்தம், ஆசீவகத் தத்துவங்கள்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l3"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. கண்டங்களை ஆராய்தல் – வடஅமெரிக்கா மற்றும் தென்அமெரிக்கா",
+              "isUpdated": false,
+              "code": "soc_7_t3_l4"
+            },
+            {
+              "title": "2. நிலவரைபடத்தை கற்றறிதல்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l5"
+            },
+            {
+              "title": "3. இயற்கை இடர்கள் – பேரிடர் மேலாண்மை நடவடிக்கைகளை புரிந்து கொள்ளல்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l6"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. பெண்கள் மேம்பாடு",
+              "isUpdated": false,
+              "code": "soc_7_t3_l7"
+            },
+            {
+              "title": "2. சந்தை மற்றும் நுகர்வோர் பாதுகாப்பு",
+              "isUpdated": false,
+              "code": "soc_7_t3_l8"
+            },
+            {
+              "title": "3. சாலைப் பாதுகாப்பு",
+              "isUpdated": false,
+              "code": "soc_7_t3_l9"
+            }
+          ]
+        },
+        {
+          "title": "பொருளியல்",
+          "topics": [
+            {
+              "title": "1. வரி மற்றும் அதன் முக்கியத்துவம்",
+              "isUpdated": false,
+              "code": "soc_7_t3_l10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "8": [
+    {
+      "term": "Annual",
+      "units": [
+        {
+          "title": "வரலாறு",
+          "topics": [
+            {
+              "title": "வரலாறு - ஐரோப்பியர்களின் வருகை",
+              "isUpdated": true,
+              "code": "soc_8_l1"
+            },
+            {
+              "title": "வரலாறு - வர்த்தகத்திலிருந்து பேரரசு வரை",
+              "isUpdated": true,
+              "code": "soc_8_l2"
+            },
+            {
+              "title": "வரலாறு - கிராம சமூகமும் வாழ்க்கை முறையும்",
+              "isUpdated": true,
+              "code": "soc_8_l3"
+            },
+            {
+              "title": "வரலாறு - மக்களின் புரட்சி",
+              "isUpdated": true,
+              "code": "soc_8_l4"
+            },
+            {
+              "title": "வரலாறு - இந்தியாவில் கல்வி வளர்ச்சி",
+              "isUpdated": true,
+              "code": "soc_8_l5"
+            },
+            {
+              "title": "வரலாறு - இந்தியாவில் தொழிலகங்களின் வளர்ச்சி",
+              "isUpdated": true,
+              "code": "soc_8_l6"
+            },
+            {
+              "title": "வரலாறு - ஆங்கிலேயர் ஆட்சியில் நகர்ப்புற மாற்றங்கள்",
+              "isUpdated": true,
+              "code": "soc_8_l7"
+            },
+            {
+              "title": "வரலாறு - காலங்கள்தோறும் இந்தியப் பெண்களின் நிலை",
+              "isUpdated": true,
+              "code": "soc_8_l8"
+            }
+          ]
+        },
+        {
+          "title": "புவியியல்",
+          "topics": [
+            {
+              "title": "1. பாறை மற்றும் மண்",
+              "isUpdated": false,
+              "code": "soc_8_l9"
+            },
+            {
+              "title": "2. வானிலை மற்றும் காலநிலை",
+              "isUpdated": false,
+              "code": "soc_8_l10"
+            },
+            {
+              "title": "3. நீரியல் சுழற்சி",
+              "isUpdated": false,
+              "code": "soc_8_l11"
+            },
+            {
+              "title": "4. இடம் பெயர்தல் மற்றும் நகரமயமாதல்",
+              "isUpdated": false,
+              "code": "soc_8_l12"
+            },
+            {
+              "title": "5. இடர்கள்",
+              "isUpdated": false,
+              "code": "soc_8_l13"
+            },
+            {
+              "title": "6. தொழிலகங்கள்",
+              "isUpdated": false,
+              "code": "soc_8_l14"
+            },
+            {
+              "title": "7. கண்டங்களை ஆராய்தல் (ஆப்பிரிக்கா, ஆஸ்திரேலியா மற்றும் அண்டார்டிகா)",
+              "isUpdated": false,
+              "code": "soc_8_l15"
+            },
+            {
+              "title": "8. நிலவரைபடங்களைக் கற்றறிதல்",
+              "isUpdated": false,
+              "code": "soc_8_l16"
+            }
+          ]
+        },
+        {
+          "title": "குடிமையியல்",
+          "topics": [
+            {
+              "title": "1. மாநில அரசு எவ்வாறு செயல்படுகிறது",
+              "isUpdated": false,
+              "code": "soc_8_l17"
+            },
+            {
+              "title": "2. குடிமக்களும் குடியுரிமையும்",
+              "isUpdated": false,
+              "code": "soc_8_l18"
+            },
+            {
+              "title": "3. சமயச்சார்பின்மையைப் புரிந்துகொள்ளுதல்",
+              "isUpdated": false,
+              "code": "soc_8_l19"
+            },
+            {
+              "title": "4. மனித உரிமைகளும் ஐக்கிய நாடுகள் சபையும்",
+              "isUpdated": false,
+              "code": "soc_8_l20"
+            },
+            {
+              "title": "5. சாலை பாதுகாப்பு விதிகள் மற்றும் நெறிமுறைகள்",
+              "isUpdated": false,
+              "code": "soc_8_l21"
+            },
+            {
+              "title": "6. பாதுகாப்பு மற்றும் வெளியுறவுக் கொள்கை",
+              "isUpdated": false,
+              "code": "soc_8_l22"
+            },
+            {
+              "title": "7. நீதித்துறை",
+              "isUpdated": false,
+              "code": "soc_8_l23"
+            }
+          ]
+        },
+        {
+          "title": "பொருளியல்",
+          "topics": [
+            {
+              "title": "1. பணம், சேமிப்பு மற்றும் முதலீடுகள்",
+              "isUpdated": false,
+              "code": "soc_8_l24"
+            },
+            {
+              "title": "2. பொது மற்றும் தனியார் துறைகள்",
+              "isUpdated": false,
+              "code": "soc_8_l25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "தொடக்க வகுப்பு": [
+    {
+      "term": 1,
+      "units": [
+        {
+          "title": "பாடப்பகுதிகள்",
+          "topics": [
+            {
+              "title": "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)",
+              "isUpdated": true,
+              "code": "soc_தொடக்க வகுப்பு_tமுதல் பருவம்_l1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
