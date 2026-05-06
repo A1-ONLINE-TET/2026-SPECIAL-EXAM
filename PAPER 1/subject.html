@@ -7,25 +7,56 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
-        /* RE-REFINING UI TO MATCH OLD STYLE */
-        .class-tabs-container {
-            margin-bottom: 2rem;
+        .class-select-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1.25rem;
+            margin-top: 2rem;
             animation: fadeIn 0.5s ease;
         }
 
-        .class-tabs-header {
+        .class-select-card {
+            background: white;
+            padding: 2.5rem 1rem;
+            border-radius: 1.5rem;
+            text-align: center;
+            text-decoration: none;
+            color: white !important;
             font-weight: 800;
-            color: #1e3a8a;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
+            font-size: 1.4rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+        }
+
+        .class-select-card:hover {
+            transform: translateY(-8px);
+            filter: brightness(1.1);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .card-color-1 { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+        .card-color-2 { background: linear-gradient(135deg, #10b981, #059669); }
+        .card-color-3 { background: linear-gradient(135deg, #f59e0b, #d97706); }
+        .card-color-4 { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+        .card-color-5 { background: linear-gradient(135deg, #ef4444, #dc2626); }
+
+        .class-select-card span { font-size: 0.8rem; opacity: 0.9; margin-bottom: 0.25rem; }
+
+        .class-tabs-container {
+            margin-bottom: 2rem;
+            display: none; /* Hidden by default, shown when class is selected */
         }
 
         .class-tabs {
             display: flex;
             gap: 0.75rem;
-            flex-wrap: wrap; /* Ensure all classes are visible at once */
+            flex-wrap: wrap;
             padding: 4px;
         }
 
@@ -41,15 +72,12 @@
             min-width: 60px;
             text-align: center;
             font-size: 0.9rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
         }
 
         .class-tab.active {
             background: #1e3a8a;
             color: white;
             border-color: #1e3a8a;
-            box-shadow: 0 8px 15px rgba(30, 58, 138, 0.2);
-            transform: translateY(-2px);
         }
 
         .term-section { margin-bottom: 3rem; }
@@ -58,9 +86,6 @@
             font-size: 1.6rem;
             margin-bottom: 1.5rem;
             color: #1e3a8a;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
             border-bottom: 3px solid #e2e8f0;
             padding-bottom: 0.5rem;
         }
@@ -76,63 +101,21 @@
             border-radius: 1.25rem;
             padding: 1.5rem;
             box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.4s ease;
             border: 1px solid #f1f5f9;
             cursor: pointer;
-            overflow: hidden;
         }
 
-        .topic-card:hover {
-            transform: translateY(-5px) scale(1.01);
-            box-shadow: 0 15px 35px rgba(30, 58, 138, 0.1);
-            border-color: #cbd5e1;
-        }
-
-        .topic-title-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 1rem;
-        }
-
-        .topic-title {
-            font-size: 1.15rem;
-            font-weight: 800;
-            color: #334155;
-            flex: 1;
-        }
-
-        .chevron {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.4s ease;
-            color: #94a3b8;
-        }
-
-        .topic-card.expanded .chevron {
-            transform: rotate(180deg);
-            color: #1e3a8a;
-        }
+        .topic-card.expanded { border-color: #1e3a8a; }
 
         .btn-group {
             display: none;
             grid-template-columns: 1fr 1fr;
             gap: 0.8rem;
             margin-top: 1.25rem;
-            animation: slideDown 0.4s ease;
         }
 
-        .topic-card.expanded .btn-group {
-            display: grid;
-        }
-
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+        .topic-card.expanded .btn-group { display: grid; }
 
         .card-btn {
             padding: 1rem 0.5rem;
@@ -141,34 +124,21 @@
             font-size: 0.95rem;
             font-weight: 800;
             text-align: center;
-            transition: all 0.3s ease;
+            color: white;
             display: flex;
             justify-content: center;
             align-items: center;
-            text-transform: uppercase;
-            color: white;
-            border: none;
         }
 
-        .btn-notes { 
-            background: linear-gradient(135deg, #0d9488, #0f766e); 
-            box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2); 
-        }
-        .btn-quiz { 
-            background: linear-gradient(135deg, #1e40af, #1e3a8a); 
-            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2); 
-        }
-        
-        .card-btn:hover { 
-            transform: translateY(-3px); 
-            filter: brightness(1.1);
-        }
+        .btn-notes { background: linear-gradient(135deg, #0d9488, #0f766e); }
+        .btn-quiz { background: linear-gradient(135deg, #1e40af, #1e3a8a); }
 
         .topic-card.faded { opacity: 0.6; filter: grayscale(0.5); }
         
         @media (max-width: 640px) {
             .topics-grid { grid-template-columns: 1fr; }
             .btn-group { grid-template-columns: 1fr; }
+            .class-select-grid { grid-template-columns: 1fr 1fr; }
         }
     </style>
 </head>
@@ -181,20 +151,30 @@
     </header>
 
     <main class="container" style="padding-top: 1.5rem;">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">பாடம்</h1>
-        </div>
-
-        <div class="class-tabs-container">
-            <div class="class-tabs-header" id="classTabsTitle" style="display: none;">வகுப்புகளைத் தேர்ந்தெடுக்கவும்</div>
-            <div class="class-tabs" id="classToggle">
-                <!-- Tabs injected here -->
+        <div id="gridScreen">
+            <div style="text-align: center; margin-bottom: 1.5rem;">
+                <h1 id="gridTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">வகுப்பைத் தேர்ந்தெடுக்கவும்</h1>
+                <p style="color: #64748b; margin-top: 0.5rem;">Choose your class to see lessons</p>
+            </div>
+            <div class="class-select-grid" id="classSelectGrid">
+                <!-- Grid cards injected here -->
             </div>
         </div>
 
-        <div id="syllabusContainer">
-            <div style="text-align:center; padding:5rem; color:#888;">
-                பாடங்கள் லோடு ஆகின்றன...
+        <div id="lessonScreen" style="display: none;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">பாடம்</h1>
+                <button onclick="showGrid()" style="background: none; border: none; color: #3b82f6; font-weight: 600; cursor: pointer; margin-top: 0.5rem;">❮ வகுப்பை மாற்றவும் (Change Class)</button>
+            </div>
+
+            <div class="class-tabs-container">
+                <div class="class-tabs" id="classToggle">
+                    <!-- Tabs injected here -->
+                </div>
+            </div>
+
+            <div id="syllabusContainer">
+                <!-- Lessons injected here -->
             </div>
         </div>
 
@@ -226,9 +206,8 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v7";
+            const v = "standard_v8";
             try {
-                // Fetch required data
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
                 await waitForAuth();
                 const { syllabusData } = await import(`./js/data/syllabus.js?v=${v}`);
@@ -249,112 +228,71 @@
                     'standard_6_7_8': '6, 7, 8 வகுப்புகள் (Exams)'
                 };
 
-                const titleEl = document.getElementById('subjectTitle');
+                const gridScreen = document.getElementById('gridScreen');
+                const lessonScreen = document.getElementById('lessonScreen');
+                const classSelectGrid = document.getElementById('classSelectGrid');
                 const syllabusContainer = document.getElementById('syllabusContainer');
                 const classToggleEl = document.getElementById('classToggle');
                 const classToggleWrap = document.querySelector('.class-tabs-container');
+                const titleEl = document.getElementById('subjectTitle');
 
                 let currentClass = null;
-                let allowedClasses = ['6', '7', '8'];
+                let allowedClasses = ['1', '2', '3', '4', '5'];
                 let useData = syllabusData;
 
                 if (subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
                     allowedClasses = ['all'];
-                    currentClass = 'all';
                     useData = extraSyllabusData;
+                } else if (paper !== '1') {
+                    allowedClasses = ['6', '7', '8'];
                 }
-                else if (paper === '1') {
-                    allowedClasses = ['1', '2', '3', '4', '5'];
-                } else if (paper === 'extra') allowedClasses = ['9', '10'];
 
-                // RENDER FUNCTIONS
                 const renderLessons = () => {
-                    if (!syllabusContainer) return;
                     const data = useData[subject]?.[currentClass];
-                    
                     if (!data || data.length === 0) {
-                        syllabusContainer.innerHTML = `
-                        <div style="text-align:center;padding:4rem;color:#64748b;">
-                            <div style="font-size:3rem;margin-bottom:1rem;">📂</div>
-                            <b style="color:#1e3a8a;">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
-                            விரைவில் தேர்வுகளுக்காக பதிவேற்றப்படும்.
-                        </div>`;
+                        syllabusContainer.innerHTML = `<div style="text-align:center;padding:4rem;color:#64748b;"><b style="color:#1e3a8a;">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b></div>`;
                         return;
                     }
 
                     let html = '';
-                    let testCounter = 1;
                     data.forEach(term => {
                         const tTitle = (currentClass === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
-                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2>`;
-                        
+                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2><div class="topics-grid">`;
                         term.units.forEach(unit => {
-                            if (currentClass === 'all' && unit.title) {
-                                html += `<h3 style="margin: 2rem 0 1rem; color: #1e40af; font-size: 1.4rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0;">${unit.title}</h3>`;
-                            }
-                            html += `<div class="topics-grid">`;
                             unit.topics.forEach(topic => {
                                 const isReady = topic.isUpdated;
-
-                                let displayTitle = topic.title;
-                                if (paper === 'extra') {
-                                    const testName = (testCounter % 2 === 0) ? 'திருப்புதல் தேர்வு' : 'மாதிரித்தேர்வு';
-                                    displayTitle = `${testName} ${Math.ceil(testCounter/2)}`;
-                                }
-
-                            html += `
+                                html += `
                                 <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
                                     <div class="topic-title-wrapper">
-                                        <h3 class="topic-title">
-                                            ${displayTitle}
-                                            ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
-                                        </h3>
-                                        <div class="chevron">
-                                            ${isReady ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
-                                        </div>
+                                        <h3 class="topic-title">${topic.title}${isReady ? '' : ' <small>(Soon)</small>'}</h3>
+                                        <div class="chevron">${isReady ? '▼' : '🔒'}</div>
                                     </div>
                                     ${isReady ? `
                                     <div class="btn-group">
-                                        <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
-                                            <span>📚</span>&nbsp;பாடக்குறிப்புகள்
-                                        </a>
-                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
-                                            <span>📝</span>&nbsp;தேர்வு
-                                        </a>
+                                        <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes">📚 குறிப்புகள்</a>
+                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz">📝 தேர்வு</a>
                                     </div>` : ''}
                                 </div>`;
-                                if (isReady) testCounter++;
                             });
-                            html += `</div>`; // Close topics-grid
                         });
-                        html += `</div>`; // Close term-section
+                        html += `</div></div>`;
                     });
                     syllabusContainer.innerHTML = html;
                 };
 
-                const setupTabs = () => {
-                    if (!classToggleEl || subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
-                        if (classToggleWrap) classToggleWrap.style.display = 'none';
-                        return;
-                    }
-                    classToggleWrap.style.display = 'block';
-                    const titleElObj = document.getElementById('classTabsTitle');
-                    if(titleElObj) titleElObj.style.display = 'block';
-                    classToggleEl.innerHTML = allowedClasses.map(c => `
-                        <button class="class-tab ${String(c) === String(currentClass) ? 'active' : ''}" data-class="${c}">${c === 'all' ? 'All' : c}</button>
-                    `).join('');
-                    
-                    classToggleEl.querySelectorAll('button').forEach(btn => {
-                        btn.onclick = () => selectClass(btn.dataset.class);
-                    });
-                };
-
                 const selectClass = (c, isPop = false) => {
                     currentClass = c;
+                    gridScreen.style.display = 'none';
+                    lessonScreen.style.display = 'block';
                     titleEl.innerText = titles[subject] || subject;
-                    setupTabs();
-                    renderLessons();
                     
+                    // Show tabs for easy switching
+                    classToggleWrap.style.display = 'block';
+                    classToggleEl.innerHTML = allowedClasses.map(cls => `
+                        <button class="class-tab ${String(cls) === String(currentClass) ? 'active' : ''}" onclick="selectClass('${cls}')">${cls === 'all' ? 'All' : cls}</button>
+                    `).join('');
+
+                    renderLessons();
                     if (!isPop) {
                         const url = new URL(window.location);
                         url.searchParams.set('class', c);
@@ -362,54 +300,39 @@
                     }
                 };
 
-                window.addEventListener('popstate', (e) => {
-                    if (e.state && e.state.class) {
-                        selectClass(e.state.class, true);
-                    }
-                });
+                const showGrid = () => {
+                    currentClass = null;
+                    gridScreen.style.display = 'block';
+                    lessonScreen.style.display = 'none';
+                    const url = new URL(window.location);
+                    url.searchParams.delete('class');
+                    window.history.pushState({}, '', url);
 
-                window.toggleAccordion = (card) => {
-                    const isExpanded = card.classList.contains('expanded');
-                    const isDesktop = window.innerWidth > 640;
-
-                    if (isDesktop) {
-                        const cardTop = card.offsetTop;
-                        const rowCards = Array.from(document.querySelectorAll('.topic-card')).filter(c => c.offsetTop === cardTop);
-
-                        // Close all cards from other rows
-                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
-                            if (c.offsetTop !== cardTop) c.classList.remove('expanded');
-                        });
-
-                        // Toggle the whole row
-                        const shouldExpand = !isExpanded;
-                        rowCards.forEach(c => {
-                            if (shouldExpand) c.classList.add('expanded');
-                            else c.classList.remove('expanded');
-                        });
-                    } else {
-                        // Standard behavior for mobile: close others, toggle selected
-                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
-                            if (c !== card) c.classList.remove('expanded');
-                        });
-                        card.classList.toggle('expanded');
-                    }
+                    classSelectGrid.innerHTML = allowedClasses.map(c => `
+                        <button onclick="selectClass('${c}')" class="class-select-card card-color-${c}">
+                            <span>வகுப்பு</span>
+                            ${c === 'all' ? 'All' : c}
+                        </button>
+                    `).join('');
                 };
 
                 window.selectClass = selectClass;
+                window.showGrid = showGrid;
+                window.toggleAccordion = (card) => card.classList.toggle('expanded');
 
-                // INITIALIZATION — select first class that has data, or the requested class
                 if (urlClass && allowedClasses.includes(urlClass)) {
                     selectClass(urlClass, true);
                 } else {
-                    const firstWithData = allowedClasses.find(c => useData[subject]?.[c] && useData[subject][c].length > 0);
-                    selectClass(firstWithData || allowedClasses[0], true);
+                    showGrid();
                 }
 
+                window.addEventListener('popstate', (e) => {
+                    if (e.state && e.state.class) selectClass(e.state.class, true);
+                    else showGrid();
+                });
+
             } catch (err) {
-                console.error("PAGE ERROR:", err);
-                const container = document.getElementById('syllabusContainer');
-                if (container) container.innerHTML = `<div style="padding:4rem;text-align:center;color:red;">Error loading syllabus. Please refresh. <br><small>${err.message}</small></div>`;
+                console.error(err);
             }
         })();
     </script>
