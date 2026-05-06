@@ -1,6 +1,6 @@
 {
   "lesson_meta": {
-    "title": "Wonders of the Jungle",
+    "title": "Unit 3: Wonders of the Jungle || அலகு 3: காட்டின் அதிசயங்கள்",
     "unit": "3",
     "grade": "2",
     "term": "t2",
@@ -11,301 +11,551 @@
     "questions": [
       {
         "question": "What can Parrots do according to the poem?",
-        "options": ["swim", "run", "fly", "jump"],
+        "options": [
+          "swim",
+          "run",
+          "fly",
+          "jump"
+        ],
         "answer": 2,
         "explanation": "The poem states 'Parrots can fly'."
       },
       {
         "question": "According to the poem, which animal is very tall?",
-        "options": ["Hippo", "Zebra", "Tiger", "Giraffe"],
+        "options": [
+          "Hippo",
+          "Zebra",
+          "Tiger",
+          "Giraffe"
+        ],
         "answer": 3,
         "explanation": "The poem mentions 'Giraffes are tall'."
       },
       {
         "question": "Which animal is described as swift in the poem?",
-        "options": ["Tiger", "Zebra", "Hippo", "Monkey"],
+        "options": [
+          "Tiger",
+          "Zebra",
+          "Hippo",
+          "Monkey"
+        ],
         "answer": 1,
         "explanation": "The poem mentions 'Zebras are swift'."
       },
       {
         "question": "What kind of animal is Chutti?",
-        "options": ["Cat", "Squirrel", "Monkey", "Dog"],
+        "options": [
+          "Cat",
+          "Squirrel",
+          "Monkey",
+          "Dog"
+        ],
         "answer": 1,
         "explanation": "The story begins with 'Chutti was a squirrel'."
       },
       {
         "question": "Which part of her body did Chutti not like?",
-        "options": ["ears", "eyes", "tail", "legs"],
+        "options": [
+          "ears",
+          "eyes",
+          "tail",
+          "legs"
+        ],
         "answer": 2,
         "explanation": "Chutti didn't like her old fluffy and light tail."
       },
       {
         "question": "Which doctor did Chutti visit to change her tail?",
-        "options": ["Doctor Lion", "Doctor Monkey", "Doctor Bear", "Doctor Tiger"],
+        "options": [
+          "Doctor Lion",
+          "Doctor Monkey",
+          "Doctor Bear",
+          "Doctor Tiger"
+        ],
         "answer": 2,
         "explanation": "Chutti went to Doctor Bear to get a new tail."
       },
       {
         "question": "Whose tail did Chutti ask for first to climb trees easily?",
-        "options": ["Cat", "Dog", "Monkey", "Lion"],
+        "options": [
+          "Cat",
+          "Dog",
+          "Monkey",
+          "Lion"
+        ],
         "answer": 2,
         "explanation": "She asked for a monkey's tail first because it helps in climbing trees."
       },
       {
         "question": "How was the monkey's tail described?",
-        "options": ["Short and light", "Long and heavy", "Striped", "Small"],
+        "options": [
+          "Short and light",
+          "Long and heavy",
+          "Striped",
+          "Small"
+        ],
         "answer": 1,
         "explanation": "The monkey's tail was 'long and heavy' for the little squirrel."
       },
       {
         "question": "What was Chutti unable to do after fixing the monkey's tail?",
-        "options": ["fly", "eat", "run", "sleep"],
+        "options": [
+          "fly",
+          "eat",
+          "run",
+          "sleep"
+        ],
         "answer": 2,
         "explanation": "Because the tail was long and heavy, Chutti could not run."
       },
       {
         "question": "Whose tail did Chutti ask for the second time?",
-        "options": ["Cat", "Dog", "Fox", "Rabbit"],
+        "options": [
+          "Cat",
+          "Dog",
+          "Fox",
+          "Rabbit"
+        ],
         "answer": 0,
         "explanation": "Chutti went back and asked for a cat's tail the second time."
       },
       {
         "question": "How did the cat's tail look?",
-        "options": ["Fluffy", "Long", "Heavy", "Striped"],
+        "options": [
+          "Fluffy",
+          "Long",
+          "Heavy",
+          "Striped"
+        ],
         "answer": 3,
         "explanation": "The cat's tail was striped."
       },
       {
         "question": "Which animal chased Chutti thinking she was a cat because of her new tail?",
-        "options": ["Lion", "Bear", "Dog", "Wolf"],
+        "options": [
+          "Lion",
+          "Bear",
+          "Dog",
+          "Wolf"
+        ],
         "answer": 2,
         "explanation": "A dog saw the striped tail, thought Chutti was a cat, and chased her."
       },
       {
         "question": "Finally, which tail did Chutti decide to keep?",
-        "options": ["Monkey's tail", "Cat's tail", "Her own old tail", "Dog's tail"],
+        "options": [
+          "Monkey's tail",
+          "Cat's tail",
+          "Her own old tail",
+          "Dog's tail"
+        ],
         "answer": 2,
         "explanation": "Chutti realized her own old tail was the best and asked for it back."
       },
       {
         "question": "Fill in the blank: I _____ a toy.",
-        "options": ["have", "has", "is", "am"],
+        "options": [
+          "have",
+          "has",
+          "is",
+          "am"
+        ],
         "answer": 0,
         "explanation": "The pronoun 'I' takes 'have'."
       },
       {
         "question": "Fill in the blank: She _____ an umbrella.",
-        "options": ["have", "has", "are", "am"],
+        "options": [
+          "have",
+          "has",
+          "are",
+          "am"
+        ],
         "answer": 1,
         "explanation": "The singular pronoun 'She' takes 'has'."
       },
       {
         "question": "Choose the correct answer: They _____ kites.",
-        "options": ["has", "have", "is", "was"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "was"
+        ],
         "answer": 1,
         "explanation": "The plural pronoun 'They' takes 'have'."
       },
       {
         "question": "Choose the correct answer: Rani _____ an egg.",
-        "options": ["have", "has", "am", "are"],
+        "options": [
+          "have",
+          "has",
+          "am",
+          "are"
+        ],
         "answer": 1,
         "explanation": "Rani is a singular noun representing a person, so it takes 'has'."
       },
       {
         "question": "Which of the following belongs to the noun category 'Person'?",
-        "options": ["School", "Valli", "Crow", "Table"],
+        "options": [
+          "School",
+          "Valli",
+          "Crow",
+          "Table"
+        ],
         "answer": 1,
         "explanation": "Valli is the name of a person."
       },
       {
         "question": "Which of the following belongs to the noun category 'Place'?",
-        "options": ["Chennai", "Dog", "Father", "Fan"],
+        "options": [
+          "Chennai",
+          "Dog",
+          "Father",
+          "Fan"
+        ],
         "answer": 0,
         "explanation": "Chennai is the name of a place."
       },
       {
         "question": "Which of the following belongs to the noun category 'Thing'?",
-        "options": ["Rabbit", "Beach", "Pencil", "Kavya"],
+        "options": [
+          "Rabbit",
+          "Beach",
+          "Pencil",
+          "Kavya"
+        ],
         "answer": 2,
         "explanation": "A pencil is a non-living thing."
       },
       {
         "question": "Match the animals with their actions: \n1. Monkey - a. swim \n2. Turtle - b. run \n3. Cheetah - c. jump",
-        "options": ["1-a, 2-b, 3-c", "1-b, 2-c, 3-a", "1-c, 2-a, 3-b", "1-c, 2-b, 3-a"],
+        "options": [
+          "1-a, 2-b, 3-c",
+          "1-b, 2-c, 3-a",
+          "1-c, 2-a, 3-b",
+          "1-c, 2-b, 3-a"
+        ],
         "answer": 2,
         "explanation": "Monkey can jump, Turtle can swim, Cheetah can run."
       },
       {
         "question": "Which of the following words has a long 'o' (oa) sound?",
-        "options": ["crow", "boat", "pole", "skip"],
+        "options": [
+          "crow",
+          "boat",
+          "pole",
+          "skip"
+        ],
         "answer": 1,
         "explanation": "The word 'boat' has the 'oa' letter combination for the long 'o' sound."
       },
       {
         "question": "Which of the following words has the 'ow' sound?",
-        "options": ["toad", "foam", "snow", "home"],
+        "options": [
+          "toad",
+          "foam",
+          "snow",
+          "home"
+        ],
         "answer": 2,
         "explanation": "The word 'snow' contains the 'ow' sound."
       },
       {
         "question": "Find the odd one out (Phonics):",
-        "options": ["boat", "goat", "toad", "grow"],
+        "options": [
+          "boat",
+          "goat",
+          "toad",
+          "grow"
+        ],
         "answer": 3,
         "explanation": "The other three have the 'oa' sound, while 'grow' has the 'ow' sound."
       },
       {
         "question": "Find the odd one out (Phonics):",
-        "options": ["pole", "note", "rope", "row"],
+        "options": [
+          "pole",
+          "note",
+          "rope",
+          "row"
+        ],
         "answer": 3,
         "explanation": "The other three have the 'o_e' sound pattern, while 'row' has the 'ow' sound."
       },
       {
         "question": "What is an example of the consonant blend formed by s and k?",
-        "options": ["school", "stamp", "skip", "boat"],
+        "options": [
+          "school",
+          "stamp",
+          "skip",
+          "boat"
+        ],
         "answer": 2,
         "explanation": "s + k = sk (e.g., skip)."
       },
       {
         "question": "What is the consonant blend at the end of the word 'stamp'?",
-        "options": ["-mp", "-sk", "-sc", "-st"],
+        "options": [
+          "-mp",
+          "-sk",
+          "-sc",
+          "-st"
+        ],
         "answer": 0,
         "explanation": "sta + mp = stamp. The ending blend is -mp."
       },
       {
         "question": "Which of the following is NOT a 'Sight word'?",
-        "options": ["found", "elephant", "wish", "left"],
+        "options": [
+          "found",
+          "elephant",
+          "wish",
+          "left"
+        ],
         "answer": 1,
         "explanation": "Elephant is an animal name from the lesson; it is not on the sight word list."
       },
       {
         "question": "What was Monty searching for?",
-        "options": ["Bag", "Pen", "Cup", "Toy"],
+        "options": [
+          "Bag",
+          "Pen",
+          "Cup",
+          "Toy"
+        ],
         "answer": 2,
         "explanation": "In the story 'Where is My Cup?', Monty is searching for his cup."
       },
       {
         "question": "Where was Monty's cup found finally?",
-        "options": ["on the mat", "under the bed", "in the tub", "in the bag"],
+        "options": [
+          "on the mat",
+          "under the bed",
+          "in the tub",
+          "in the bag"
+        ],
         "answer": 3,
         "explanation": "The cup was finally found 'in my bag'."
       },
       {
         "question": "Find the analogy: I : have :: He : ?",
-        "options": ["has", "have", "had", "is"],
+        "options": [
+          "has",
+          "have",
+          "had",
+          "is"
+        ],
         "answer": 0,
         "explanation": "Just as 'I' takes 'have', 'He' takes 'has'."
       },
       {
         "question": "Find the analogy: Boat : oa :: Snow : ?",
-        "options": ["oe", "ow", "oa", "ou"],
+        "options": [
+          "oe",
+          "ow",
+          "oa",
+          "ou"
+        ],
         "answer": 1,
         "explanation": "Just as 'Boat' contains 'oa', 'Snow' contains 'ow'."
       },
       {
         "question": "Life situation: You pick up a new pen from the floor. How would you express this in English using a sight word?",
-        "options": ["I bring a pen", "I wish a pen", "I found a pen", "I left a pen"],
+        "options": [
+          "I bring a pen",
+          "I wish a pen",
+          "I found a pen",
+          "I left a pen"
+        ],
         "answer": 2,
         "explanation": "To indicate that you discovered something, you use the word 'found'."
       },
       {
         "question": "Assertion (A): Chutti could not run after fixing the monkey's tail. \nReason (R): Chutti was small, but the tail was long and heavy.",
-        "options": ["Both A and R are true, and R is the correct explanation for A.", "Both A and R are true, but R is not the correct explanation for A.", "A is true but R is false.", "A is false but R is true."],
+        "options": [
+          "Both A and R are true, and R is the correct explanation for A.",
+          "Both A and R are true, but R is not the correct explanation for A.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
         "answer": 0,
         "explanation": "The little squirrel couldn't carry the heavy tail and run, making both statements true and logically connected."
       },
       {
         "question": "What new word is formed when 'e' is added to the word 'hop'?",
-        "options": ["hoep", "hope", "hopp", "hepo"],
+        "options": [
+          "hoep",
+          "hope",
+          "hopp",
+          "hepo"
+        ],
         "answer": 1,
         "explanation": "hop + e = hope."
       },
       {
         "question": "What new word is formed when 'e' is added to the word 'not'?",
-        "options": ["note", "noet", "nott", "neto"],
+        "options": [
+          "note",
+          "noet",
+          "nott",
+          "neto"
+        ],
         "answer": 0,
         "explanation": "not + e = note."
       },
       {
         "question": "What moral can we learn from Chutti getting her old tail back? (Higher Order Thinking Question)",
-        "options": ["Doctor Bear doesn't know how to do surgery.", "We should always ask for a monkey's tail.", "What we naturally have is the best for us.", "We should run when we see dogs."],
+        "options": [
+          "Doctor Bear doesn't know how to do surgery.",
+          "We should always ask for a monkey's tail.",
+          "What we naturally have is the best for us.",
+          "We should run when we see dogs."
+        ],
         "answer": 2,
         "explanation": "The story implies that instead of desiring what others have, we should appreciate our own natural gifts."
       },
       {
         "question": "Choose the correct answer: He _____ a car.",
-        "options": ["have", "has", "are", "am"],
+        "options": [
+          "have",
+          "has",
+          "are",
+          "am"
+        ],
         "answer": 1,
         "explanation": "Because 'He' is singular, it takes 'has'."
       },
       {
         "question": "Choose the correct answer: We _____ kites.",
-        "options": ["has", "have", "is", "was"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "was"
+        ],
         "answer": 1,
         "explanation": "Because 'We' is plural, it takes 'have'."
       },
       {
         "question": "Which of the following does NOT belong to the noun category 'Animal'?",
-        "options": ["Cow", "Rabbit", "Beach", "Pig"],
+        "options": [
+          "Cow",
+          "Rabbit",
+          "Beach",
+          "Pig"
+        ],
         "answer": 2,
         "explanation": "Beach is a Place. The others are animals."
       },
       {
         "question": "Which noun category does the Dog (that chased Chutti) belong to?",
-        "options": ["Person", "Place", "Animal", "Thing"],
+        "options": [
+          "Person",
+          "Place",
+          "Animal",
+          "Thing"
+        ],
         "answer": 2,
         "explanation": "Dog is an animal."
       },
       {
         "question": "How are Tigers described in the poem?",
-        "options": ["Swift", "Strong", "Big", "Tall"],
+        "options": [
+          "Swift",
+          "Strong",
+          "Big",
+          "Tall"
+        ],
         "answer": 1,
         "explanation": "The poem says 'Tigers are strong'."
       },
       {
         "question": "How are Hippos described in the poem?",
-        "options": ["Big", "Tall", "Strong", "Swift"],
+        "options": [
+          "Big",
+          "Tall",
+          "Strong",
+          "Swift"
+        ],
         "answer": 0,
         "explanation": "The poem says 'Hippos are big'."
       },
       {
         "question": "What did Doctor Bear ask first when Chutti went to change her tail?",
-        "options": ["The tail looks very good, does it hurt you?", "I don't have any tails.", "I need a lot of money.", "I'll give you a dog's tail."],
+        "options": [
+          "The tail looks very good, does it hurt you?",
+          "I don't have any tails.",
+          "I need a lot of money.",
+          "I'll give you a dog's tail."
+        ],
         "answer": 0,
         "explanation": "Doctor Bear asked 'It looks very good. Does it hurt you?'"
       },
       {
         "question": "Why did Chutti squirrel's heart beat 'dub-dub'?",
-        "options": ["Because the monkey's tail was heavy.", "Because she got scared when the dog chased her.", "Because she saw the doctor.", "Out of happiness for climbing the tree."],
+        "options": [
+          "Because the monkey's tail was heavy.",
+          "Because she got scared when the dog chased her.",
+          "Because she saw the doctor.",
+          "Out of happiness for climbing the tree."
+        ],
         "answer": 1,
         "explanation": "Her heart was beating fast out of fear when the dog chased her, mistaking her for a cat."
       },
       {
         "question": "Assertion (A): 'You has a car' is a correct English sentence. \nReason (R): The word 'You' takes 'has'.",
-        "options": ["A is true, R is false.", "Both A and R are true.", "A is false, R is true.", "Both A and R are false."],
+        "options": [
+          "A is true, R is false.",
+          "Both A and R are true.",
+          "A is false, R is true.",
+          "Both A and R are false."
+        ],
         "answer": 3,
         "explanation": "The pronoun 'You' takes 'have' (You have a car). Therefore, both the assertion and reason are incorrect."
       },
       {
         "question": "What was the nature of Chutti's first (old) tail?",
-        "options": ["Long and curvy", "Striped", "Fluffy and light", "Short and heavy"],
+        "options": [
+          "Long and curvy",
+          "Striped",
+          "Fluffy and light",
+          "Short and heavy"
+        ],
         "answer": 2,
         "explanation": "At the beginning of the story, her tail was described as fluffy and light."
       },
       {
         "question": "Fill in the blanks to complete the o_e sound pattern: c _ n _",
-        "options": ["o, e", "o, a", "o, w", "e, o"],
+        "options": [
+          "o, e",
+          "o, a",
+          "o, w",
+          "e, o"
+        ],
         "answer": 0,
         "explanation": "The correct word is 'cone'."
       },
       {
         "question": "Which is the sight word in 'Wish you a great day'?",
-        "options": ["great", "day", "you", "wish"],
+        "options": [
+          "great",
+          "day",
+          "you",
+          "wish"
+        ],
         "answer": 3,
         "explanation": "The word 'wish' is given in the Word Wall as a sight word."
       },
       {
         "question": "Higher Order Thinking Question: Monty searched for his cup 'in the bin' as well. What does this indicate about him?",
-        "options": ["He loves trash.", "He does not have the habit of keeping things in their proper places.", "He likes the dustbin.", "He cleans the dustbin every day."],
+        "options": [
+          "He loves trash.",
+          "He does not have the habit of keeping things in their proper places.",
+          "He likes the dustbin.",
+          "He cleans the dustbin every day."
+        ],
         "answer": 1,
         "explanation": "If he has to search for a cup in strange places like the trash bin or under the bed, it shows he lacks the discipline of organizing his belongings properly."
       }

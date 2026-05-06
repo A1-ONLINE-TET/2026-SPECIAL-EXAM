@@ -4,408 +4,266 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syllabus - Tamil Nanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* --- BRAND HEADER --- */
-        .header-standard {
-            background: #ffffff;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-top: 1px solid #1e3a8a;
-            border-bottom: 1px solid #1e3a8a; /* Standard blue top border */
-        }
-        .brand-container {
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .brand-main {
-            font-family: 'Baloo Thambi 2', cursive;
-            font-size: 2.1rem;
-            font-weight: 800;
-            color: #002d5b;
-            line-height: 0.9;
-            margin: 0;
-        }
-        .brand-sub {
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 800;
-            color: #002d5b;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            margin-top: 4px;
-        }
-        @media (max-width: 480px) {
-            .brand-main { font-size: 1.6rem; }
-            .brand-sub { font-size: 0.6rem; }
+        :root {
+            --primary: #1e40af;
+            --primary-light: #3b82f6;
+            --secondary: #f8fafc;
+            --accent: #f59e0b;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --card-radius: 16px;
         }
 
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
         body {
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-            min-height: 100vh;
-            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            font-family: 'Outfit', 'Baloo Thambi 2', sans-serif;
+            background-color: #f1f5f9;
+            color: var(--text-main);
+            line-height: 1.6;
         }
-        .container {
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #1e3a8a);
+            color: var(--white);
+            padding: 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2.5rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-        #subjectTitle {
-            font-size: 2.2rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #1e3a8a, #1a2e5a);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
+
+        .back-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
         }
-        /* Navbar — stick to top */
-        .navbar {
-            position: sticky !important;
-            top: 0;
-            z-index: 1000;
-        }
+
+        .back-btn:hover { background: rgba(255, 255, 255, 0.3); }
+
+        .subject-title { font-family: 'Baloo Thambi 2', sans-serif; font-size: 1.5rem; font-weight: 700; }
+
+        main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
 
         .class-tabs-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            margin: 1rem 0 2rem;
-            padding: 0 1rem;
+            gap: 1rem;
+            margin-bottom: 2rem;
         }
-        .class-tabs-header {
-            font-size: 1.15rem;
-            font-weight: 800;
-            color: #334155;
-            margin-bottom: 0.8rem;
-            text-align: center;
+
+        .tabs-title {
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
+
         .class-tabs {
             display: flex;
-            flex-wrap: wrap; 
-            justify-content: center;
-            gap: 1rem;
-            max-width: 100%;
+            gap: 0.75rem;
+            overflow-x: auto;
+            padding: 4px;
+            scrollbar-width: none;
         }
+        .class-tabs::-webkit-scrollbar { display: none; }
+
         .class-tab {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            border: none;
-            background: #ffffff;
-            color: #64748b;
-            font-weight: 800;
-            font-size: 1.25rem;
+            background: var(--white);
+            border: 2px solid transparent;
+            padding: 0.75rem 1.5rem;
+            border-radius: 14px;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-weight: 600;
+            white-space: nowrap;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+            color: var(--text-muted);
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .class-tab.active {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .term-section { margin-bottom: 3rem; }
+        .term-title {
+            font-family: 'Baloo Thambi 2', sans-serif;
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
             display: flex;
             align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-            flex-shrink: 0;
+            gap: 0.75rem;
         }
-        /* Colorful active tabs per class */
-        .class-tab[data-class="1"].active, .class-tab[data-class="6"].active  { background: linear-gradient(135deg,#2563eb,#1e40af); color:#fff; box-shadow:0 6px 14px rgba(37,99,235,0.35); }
-        .class-tab[data-class="2"].active, .class-tab[data-class="7"].active  { background: linear-gradient(135deg,#059669,#065f46); color:#fff; box-shadow:0 6px 14px rgba(5,150,105,0.35); }
-        .class-tab[data-class="3"].active, .class-tab[data-class="8"].active  { background: linear-gradient(135deg,#d97706,#92400e); color:#fff; box-shadow:0 6px 14px rgba(217,119,6,0.35); }
-        .class-tab[data-class="4"].active, .class-tab[data-class="9"].active  { background: linear-gradient(135deg,#7c3aed,#5b21b6); color:#fff; box-shadow:0 6px 14px rgba(124,58,237,0.35); }
-        .class-tab[data-class="5"].active, .class-tab[data-class="10"].active { background: linear-gradient(135deg,#db2777,#9d174d); color:#fff; box-shadow:0 6px 14px rgba(219,39,119,0.35); }
-        .class-tab:not(.active):hover { background: #f1f5f9; color: #1e293b; }
-        .term-section {
-            margin-bottom: 4.5rem;
-            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .term-section h2 {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: #0f172a;
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-        }
-        .term-section h2::after {
+        .term-title::after {
             content: '';
             flex: 1;
-            height: 4px;
+            height: 2px;
             background: linear-gradient(to right, #e2e8f0, transparent);
-            border-radius: 10px;
         }
+
         .topics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.25rem;
         }
+
         .topic-card {
-            background: #ffffff;
-            padding: 1.25rem 1.5rem;
-            border-radius: 1.25rem;
-            border: 1px solid #f1f5f9;
-            border-left: 6px solid #1e3a8a;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: var(--white);
+            border-radius: var(--card-radius);
+            padding: 1.25rem;
+            box-shadow: var(--shadow);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #e2e8f0;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
+            gap: 1rem;
         }
-        .topic-card:nth-child(2n) { border-left-color: #0ea5e9; }
-        .topic-card:nth-child(3n) { border-left-color: #10b981; }
-        .topic-card:nth-child(4n) { border-left-color: #f59e0b; }
 
         .topic-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
-            border-color: #e2e8f0;
+            border-color: var(--primary-light);
+            box-shadow: 0 12px 25px rgba(30, 64, 175, 0.1);
         }
+
+        .topic-card.faded { opacity: 0.6; cursor: not-allowed; }
+        .topic-card.faded:hover { transform: none; border-color: #e2e8f0; }
+
+        .topic-title-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .topic-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .chevron {
+            color: var(--text-muted);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        .topic-card.expanded .chevron { transform: rotate(180deg); color: var(--primary); }
+
+        .btn-group {
+            display: none;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 0.5rem;
+            animation: slideDown 0.3s ease;
+        }
+
+        .topic-card.expanded .btn-group { display: grid; }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-btn {
+            padding: 0.75rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .btn-notes { background: #eff6ff; color: var(--primary); }
+        .btn-notes:hover { background: var(--primary); color: white; }
+        .btn-quiz { background: #fef3c7; color: #92400e; }
+        .btn-quiz:hover { background: #f59e0b; color: white; }
+
+        /* BOTTOM NAV */
         .bottom-nav {
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
             display: flex;
             justify-content: space-around;
-            padding: 0.6rem 0.4rem;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+            padding: 0.75rem;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
             z-index: 1000;
-            border-top: 1px solid #f1f5f9;
         }
+
         .nav-item {
             text-decoration: none;
-            color: #64748b;
+            color: var(--text-muted);
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 0.65rem;
-            font-weight: 700;
-            gap: 4px;
-            flex: 1;
+            gap: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 500;
         }
-        .nav-icon { font-size: 1.2rem; }
-        .nav-item.active { color: #1e3a8a; }
-        .nav-item.logout { color: #ef4444; }
-        .topic-card.expanded {
-            background: #f8fbff;
-            border-color: #1e3a8a;
-            box-shadow: 0 15px 30px rgba(30, 58, 138, 0.1);
-        }
-        .topic-title-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            gap: 1rem;
-        }
-        .topic-title {
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: #1e293b;
-            margin: 0;
-            line-height: 1.4;
-            transition: color 0.3s ease;
-            flex: 1;
-        }
-        .topic-card.expanded .topic-title {
-            color: #1e3a8a;
-        }
-        .chevron {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            color: #94a3b8;
-        }
-        .topic-card.expanded .chevron {
-            transform: rotate(180deg);
-            color: #1e3a8a;
-        }
-        .btn-group {
-            display: flex;
-            gap: 0.75rem;
-            max-height: 0;
-            opacity: 0;
-            overflow: hidden;
-            margin-top: 0;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .topic-card.expanded .btn-group {
-            max-height: 500px;
-            opacity: 1;
-            margin-top: 1.25rem;
-            padding-bottom: 0.25rem;
-        }
-        .btn-group {
-            display: flex;
-            gap: 0.65rem;
-            margin-top: 0.75rem;
-        }
-        .card-btn {
-            flex: 1;
-            padding: 1rem 0.5rem;
-            border-radius: 14px;
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 800;
-            text-align: center;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-transform: uppercase;
-            letter-spacing: 0.01em;
-            color: white;
-            border: none;
-        }
-        .btn-notes { background: linear-gradient(135deg, #0d9488, #0f766e); box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2); }
-        .btn-quiz { background: linear-gradient(135deg, #1e40af, #1e3a8a); box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2); }
-        
-        .card-btn:hover { 
-            transform: translateY(-4px) scale(1.04); 
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-            filter: brightness(1.1);
-        }
-        .card-btn span:first-child {
-            font-size: 1.3rem;
-        }
+
+        .nav-item.active { color: var(--primary); }
+        .nav-icon { font-size: 1.25rem; }
 
         @media (max-width: 640px) {
             .topics-grid { grid-template-columns: 1fr; }
-            .class-tab { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
-            .card-btn { font-size: 0.85rem; padding: 1rem 0.4rem; width: 100%; }
-            .btn-group { flex-direction: column; gap: 0.8rem; }
-        }
-
-        .topic-card.faded {
-            opacity: 0.6;
-            filter: grayscale(0.8);
-            transform: scale(0.98);
-        }
-        
-        .topic-card.faded .card-btn {
-            background: #cbd5e1 !important;
-            color: #64748b !important;
-            cursor: not-allowed;
-            pointer-events: none;
-        }
-
-        .class-select-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 3rem;
-            animation: fadeIn 0.5s ease-out;
-        }
-
-        .class-select-card {
-            padding: 3.5rem 1.5rem;
-            border-radius: 1.5rem;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            color: white !important;
-            border: none;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        }
-
-        .class-select-card h3 {
-            margin: 0;
-            font-size: 1.8rem;
-            color: white !important;
-            font-weight: 800;
-        }
-
-        /* Vibrant Colors for Class Cards */
-        .card-color-6 { background: linear-gradient(135deg, #2563eb, #1e40af); }
-        .card-color-7 { background: linear-gradient(135deg, #059669, #065f46); }
-        .card-color-8 { background: linear-gradient(135deg, #d97706, #92400e); }
-        .card-color-9 { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
-        .card-color-10 { background: linear-gradient(135deg, #db2777, #9d174d); }
-        .card-color-1 { background: #2563eb; }
-        .card-color-2 { background: #059669; }
-        .card-color-3 { background: #d97706; }
-        .card-color-4 { background: #7c3aed; }
-        .card-color-5 { background: #db2777; }
-
-        .class-select-card:hover {
-            transform: translateY(-8px) scale(1.03);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-            filter: brightness(1.1);
-        }
-
-        .animate-fade-in { animation: fadeIn 0.5s ease; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-        .sticky-back {
-            position: fixed;
-            bottom: 1.5rem;
-            left: 1.2rem;
-            z-index: 1200;
-        }
-        
-        .sticky-btn {
-            width: 48px;
-            height: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #ffffff;
-            color: #1e293b !important;
-            border-radius: 50%;
-            text-decoration: none;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            border: 1px solid #e2e8f0;
-            transition: all 0.3s ease;
-        }
-        
-        .sticky-btn:hover {
-            transform: scale(1.1);
-            border-color: #1e3a8a;
-            color: #1e3a8a !important;
-        }
-        @keyframes pulseMobile {
-            from { transform: scale(1); opacity: 1; }
-            to { transform: scale(1.05); opacity: 0.8; }
+            main { padding: 1rem; }
+            .class-tabs { gap: 0.5rem; }
+            .class-tab { padding: 0.6rem 1rem; min-width: 70px; }
         }
     </style>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
 </head>
 <body>
-    <header class="header-standard">
-        <a href="index.html" class="brand-container">
-            <div class="brand-main">தமிழ் நண்பன்</div>
-            <div class="brand-sub">COACHING CENTER</div>
-        </a>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Back
+            </a>
+            <h1 class="subject-title" id="subjectTitle">Syllabus</h1>
+            <div style="width: 80px;"></div>
+        </div>
     </header>
 
-    <main class="container" style="padding-top: 1rem;">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0;">பாடம் (Subject)</h1>
-        </div>
-
+    <main>
         <div class="class-tabs-container">
-            <div class="class-tabs-header" id="classTabsTitle" style="display: none;">வகுப்புகள்</div>
+            <div class="tabs-title" id="classTabsTitle" style="display:none;">வகுப்பைத் தேர்ந்தெடுக்கவும்</div>
             <div class="class-tabs" id="classToggle">
                 <!-- Class tabs injected here -->
             </div>
@@ -445,7 +303,7 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v3";
+            const v = "standard_v6";
             try {
                 // Fetch required data
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
@@ -617,11 +475,13 @@
 
                 window.selectClass = selectClass; // Export to global for grid clicks
 
-                // INITIALIZATION — directly load first class, no grid screen
+                // INITIALIZATION — select first class that has data, or the requested class
                 if (urlClass && allowedClasses.includes(urlClass)) {
-                    selectClass(urlClass, true); // Don't pushState for initial page load
+                    selectClass(urlClass, true);
                 } else {
-                    selectClass(allowedClasses[0], true);
+                    // Find first class that has lessons
+                    const firstWithData = allowedClasses.find(c => useData[subject]?.[c] && useData[subject][c].length > 0);
+                    selectClass(firstWithData || allowedClasses[0], true);
                 }
 
             } catch (err) {

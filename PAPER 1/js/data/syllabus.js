@@ -842,19 +842,19 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "Our Sweet Home",
+                "title": "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்",
                 "isUpdated": true,
                 "code": "eng_2_t1_l1"
               },
               {
-                "title": "Know Your Feelings",
-                "isUpdated": true,
-                "code": "eng_2_t1_l3"
-              },
-              {
-                "title": "Listen to Your Body & Magic Words",
+                "title": "Unit 2: Listen to Your Body & Magic Words || அலகு 2: உங்கள் உடலைக் கவனியுங்கள்",
                 "isUpdated": true,
                 "code": "eng_2_t1_l2"
+              },
+              {
+                "title": "Unit 3: Know Your Feelings || அலகு 3: உங்கள் உணர்வுகளை அறிந்து கொள்ளுங்கள்",
+                "isUpdated": true,
+                "code": "eng_2_t1_l3"
               }
             ]
           }
@@ -867,39 +867,44 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "Fun with Music",
+                "title": "Unit 1: Look and Say || அலகு 1: பார்த்துச் சொல்லுங்கள்",
+                "isUpdated": false,
+                "code": "eng_2_t2_l1"
+              },
+              {
+                "title": "Unit 2: Fun with Music || அலகு 2: இசையுடன் மகிழ்ச்சி",
                 "isUpdated": true,
                 "code": "eng_2_t2_l2"
               },
               {
-                "title": "Wonders of the Jungle",
+                "title": "Unit 3: Wonders of the Jungle || அலகு 3: காட்டின் அதிசயங்கள்",
                 "isUpdated": true,
                 "code": "eng_2_t2_l3"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "units": [
           {
-            "term": 3,
-            "units": [
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
               {
-                "title": "பாடப்பகுதிகள்",
-                "topics": [
-                  {
-                    "title": "A Visit to the Farm",
-                    "isUpdated": true,
-                    "code": "eng_2_t3_l1"
-                  },
-                  {
-                    "title": "People Who Help Us",
-                    "isUpdated": true,
-                    "code": "eng_2_t3_l2"
-                  },
-                  {
-                    "title": "Food We Eat",
-                    "isUpdated": true,
-                    "code": "eng_2_t3_l3"
-                  }
-                ]
+                "title": "Unit 1: A Visit to the Farm || அலகு 1: பண்ணைக்கு ஒரு பயணம்",
+                "isUpdated": true,
+                "code": "eng_2_t3_l1"
+              },
+              {
+                "title": "Unit 2: People Who Help Us || அலகு 2: நமக்கு உதவும் மனிதர்கள்",
+                "isUpdated": true,
+                "code": "eng_2_t3_l2"
+              },
+              {
+                "title": "Unit 3: Food We Eat || அலகு 3: நாம் உண்ணும் உணவு",
+                "isUpdated": true,
+                "code": "eng_2_t3_l3"
               }
             ]
           }
