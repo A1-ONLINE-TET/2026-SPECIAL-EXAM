@@ -859,6 +859,26 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Fun with Music",
+                "isUpdated": true,
+                "code": "eng_2_t2_l2"
+              },
+              {
+                "title": "Wonders of the Jungle",
+                "isUpdated": true,
+                "code": "eng_2_t2_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "3": [

@@ -1472,6 +1472,30 @@ export const lessonMap = {
       "grade": "2",
       "title": "Listen to Your Body & Magic Words"
     },
+    "eng_2_t2_l2": {
+      "local": true,
+      "filename": "eng_2_t2_l2",
+      "grade": "2",
+      "title": "Fun with Music"
+    },
+    "Fun with Music": {
+      "local": true,
+      "filename": "eng_2_t2_l2",
+      "grade": "2",
+      "title": "Fun with Music"
+    },
+    "eng_2_t2_l3": {
+      "local": true,
+      "filename": "eng_2_t2_l3",
+      "grade": "2",
+      "title": "Wonders of the Jungle"
+    },
+    "Wonders of the Jungle": {
+      "local": true,
+      "filename": "eng_2_t2_l3",
+      "grade": "2",
+      "title": "Wonders of the Jungle"
+    },
     "eng_3_t1_l1": {
       "local": true,
       "filename": "eng_3_t1_l1",
