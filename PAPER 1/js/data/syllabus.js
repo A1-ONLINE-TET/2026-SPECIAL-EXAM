@@ -1550,6 +1550,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வடிவியல் (இருபரிமாண வடிவங்களின் பண்புகள்)",
+                "isUpdated": true,
+                "code": "mat_2_t2_l1"
+              },
+              {
+                "title": "எண்கள்",
+                "isUpdated": true,
+                "code": "mat_2_t2_l2"
+              },
+              {
+                "title": "அமைப்புகள் (Patterns)",
+                "isUpdated": true,
+                "code": "mat_2_t2_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

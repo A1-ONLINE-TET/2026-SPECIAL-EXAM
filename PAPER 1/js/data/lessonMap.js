@@ -2542,6 +2542,42 @@ export const lessonMap = {
       "grade": "5",
       "title": "தகவல் செயலாக்கம்"
     },
+    "mat_2_t2_l1": {
+      "local": true,
+      "filename": "mat_2_t2_l1",
+      "grade": "2",
+      "title": "வடிவியல் (இருபரிமாண வடிவங்களின் பண்புகள்)"
+    },
+    "வடிவியல் (இருபரிமாண வடிவங்களின் பண்புகள்)": {
+      "local": true,
+      "filename": "mat_2_t2_l1",
+      "grade": "2",
+      "title": "வடிவியல் (இருபரிமாண வடிவங்களின் பண்புகள்)"
+    },
+    "mat_2_t2_l2": {
+      "local": true,
+      "filename": "mat_2_t2_l2",
+      "grade": "2",
+      "title": "எண்கள்"
+    },
+    "எண்கள்": {
+      "local": true,
+      "filename": "mat_2_t2_l2",
+      "grade": "2",
+      "title": "எண்கள்"
+    },
+    "mat_2_t2_l3": {
+      "local": true,
+      "filename": "mat_2_t2_l3",
+      "grade": "2",
+      "title": "அமைப்புகள் (Patterns)"
+    },
+    "அமைப்புகள் (Patterns)": {
+      "local": true,
+      "filename": "mat_2_t2_l3",
+      "grade": "2",
+      "title": "அமைப்புகள் (Patterns)"
+    },
     "mat_4_t1_l1": {
       "local": true,
       "filename": "mat_4_t1_l1",
