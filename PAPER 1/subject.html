@@ -4,80 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syllabus - Tamil Nanban</title>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
-        :root {
-            --primary: #1e40af;
-            --primary-light: #3b82f6;
-            --secondary: #f8fafc;
-            --accent: #f59e0b;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --white: #ffffff;
-            --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            --card-radius: 16px;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-
-        body {
-            font-family: 'Outfit', 'Baloo Thambi 2', sans-serif;
-            background-color: #f1f5f9;
-            color: var(--text-main);
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(135deg, var(--primary), #1e3a8a);
-            color: var(--white);
-            padding: 1.5rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .back-btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: none;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 12px;
-            cursor: pointer;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .back-btn:hover { background: rgba(255, 255, 255, 0.3); }
-
-        .subject-title { font-family: 'Baloo Thambi 2', sans-serif; font-size: 1.5rem; font-weight: 700; }
-
-        main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
-
+        /* RE-REFINING UI TO MATCH OLD STYLE */
         .class-tabs-container {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
             margin-bottom: 2rem;
+            animation: fadeIn 0.5s ease;
         }
 
-        .tabs-title {
-            font-weight: 600;
-            color: var(--text-muted);
-            font-size: 0.9rem;
+        .class-tabs-header {
+            font-weight: 800;
+            color: #1e3a8a;
+            margin-bottom: 1rem;
+            font-size: 1rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
@@ -85,31 +25,31 @@
         .class-tabs {
             display: flex;
             gap: 0.75rem;
-            overflow-x: auto;
+            flex-wrap: wrap; /* Ensure all classes are visible at once */
             padding: 4px;
-            scrollbar-width: none;
         }
-        .class-tabs::-webkit-scrollbar { display: none; }
 
         .class-tab {
-            background: var(--white);
-            border: 2px solid transparent;
-            padding: 0.75rem 1.5rem;
-            border-radius: 14px;
+            background: #ffffff;
+            border: 2px solid #e2e8f0;
+            padding: 0.6rem 1.2rem;
+            border-radius: 12px;
             cursor: pointer;
-            font-weight: 600;
-            white-space: nowrap;
+            font-weight: 800;
             transition: all 0.3s ease;
-            box-shadow: var(--shadow);
-            color: var(--text-muted);
-            min-width: 80px;
+            color: #64748b;
+            min-width: 60px;
             text-align: center;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
         }
 
         .class-tab.active {
-            background: var(--primary);
-            color: var(--white);
-            border-color: var(--primary);
+            background: #1e3a8a;
+            color: white;
+            border-color: #1e3a8a;
+            box-shadow: 0 8px 15px rgba(30, 58, 138, 0.2);
+            transform: translateY(-2px);
         }
 
         .term-section { margin-bottom: 3rem; }
@@ -117,47 +57,36 @@
             font-family: 'Baloo Thambi 2', sans-serif;
             font-size: 1.6rem;
             margin-bottom: 1.5rem;
-            color: var(--primary);
+            color: #1e3a8a;
             display: flex;
             align-items: center;
             gap: 0.75rem;
-        }
-        .term-title::after {
-            content: '';
-            flex: 1;
-            height: 2px;
-            background: linear-gradient(to right, #e2e8f0, transparent);
+            border-bottom: 3px solid #e2e8f0;
+            padding-bottom: 0.5rem;
         }
 
         .topics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.25rem;
         }
 
         .topic-card {
-            background: var(--white);
-            border-radius: var(--card-radius);
-            padding: 1.25rem;
-            box-shadow: var(--shadow);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid #e2e8f0;
+            background: #ffffff;
+            border-radius: 1.25rem;
+            padding: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid #f1f5f9;
             cursor: pointer;
-            position: relative;
             overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
         }
 
         .topic-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--primary-light);
-            box-shadow: 0 12px 25px rgba(30, 64, 175, 0.1);
+            transform: translateY(-5px) scale(1.01);
+            box-shadow: 0 15px 35px rgba(30, 58, 138, 0.1);
+            border-color: #cbd5e1;
         }
-
-        .topic-card.faded { opacity: 0.6; cursor: not-allowed; }
-        .topic-card.faded:hover { transform: none; border-color: #e2e8f0; }
 
         .topic-title-wrapper {
             display: flex;
@@ -167,30 +96,38 @@
         }
 
         .topic-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--text-main);
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #334155;
+            flex: 1;
         }
 
         .chevron {
-            color: var(--text-muted);
-            transition: transform 0.3s ease;
-            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s ease;
+            color: #94a3b8;
         }
-        .topic-card.expanded .chevron { transform: rotate(180deg); color: var(--primary); }
+
+        .topic-card.expanded .chevron {
+            transform: rotate(180deg);
+            color: #1e3a8a;
+        }
 
         .btn-group {
             display: none;
             grid-template-columns: 1fr 1fr;
-            gap: 0.75rem;
-            margin-top: 0.5rem;
-            animation: slideDown 0.3s ease;
+            gap: 0.8rem;
+            margin-top: 1.25rem;
+            animation: slideDown 0.4s ease;
         }
 
-        .topic-card.expanded .btn-group { display: grid; }
+        .topic-card.expanded .btn-group {
+            display: grid;
+        }
 
         @keyframes slideDown {
             from { opacity: 0; transform: translateY(-10px); }
@@ -198,74 +135,60 @@
         }
 
         .card-btn {
-            padding: 0.75rem;
-            border-radius: 10px;
+            padding: 1rem 0.5rem;
+            border-radius: 14px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            font-weight: 800;
             text-align: center;
-            transition: all 0.2s ease;
-        }
-
-        .btn-notes { background: #eff6ff; color: var(--primary); }
-        .btn-notes:hover { background: var(--primary); color: white; }
-        .btn-quiz { background: #fef3c7; color: #92400e; }
-        .btn-quiz:hover { background: #f59e0b; color: white; }
-
-        /* BOTTOM NAV */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
             display: flex;
-            justify-content: space-around;
-            padding: 0.75rem;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-            z-index: 1000;
-        }
-
-        .nav-item {
-            text-decoration: none;
-            color: var(--text-muted);
-            display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            gap: 0.25rem;
-            font-size: 0.75rem;
-            font-weight: 500;
+            text-transform: uppercase;
+            color: white;
+            border: none;
         }
 
-        .nav-item.active { color: var(--primary); }
-        .nav-icon { font-size: 1.25rem; }
+        .btn-notes { 
+            background: linear-gradient(135deg, #0d9488, #0f766e); 
+            box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2); 
+        }
+        .btn-quiz { 
+            background: linear-gradient(135deg, #1e40af, #1e3a8a); 
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2); 
+        }
+        
+        .card-btn:hover { 
+            transform: translateY(-3px); 
+            filter: brightness(1.1);
+        }
 
+        .topic-card.faded { opacity: 0.6; filter: grayscale(0.5); }
+        
         @media (max-width: 640px) {
             .topics-grid { grid-template-columns: 1fr; }
-            main { padding: 1rem; }
-            .class-tabs { gap: 0.5rem; }
-            .class-tab { padding: 0.6rem 1rem; min-width: 70px; }
+            .btn-group { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <a href="index.html" class="back-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-                Back
-            </a>
-            <h1 class="subject-title" id="subjectTitle">Syllabus</h1>
-            <div style="width: 80px;"></div>
-        </div>
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
     </header>
 
-    <main>
+    <main class="container" style="padding-top: 1.5rem;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">பாடம்</h1>
+        </div>
+
         <div class="class-tabs-container">
-            <div class="tabs-title" id="classTabsTitle" style="display:none;">வகுப்பைத் தேர்ந்தெடுக்கவும்</div>
+            <div class="class-tabs-header" id="classTabsTitle" style="display: none;">வகுப்புகளைத் தேர்ந்தெடுக்கவும்</div>
             <div class="class-tabs" id="classToggle">
-                <!-- Class tabs injected here -->
+                <!-- Tabs injected here -->
             </div>
         </div>
 
@@ -303,7 +226,7 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v6";
+            const v = "standard_v7";
             try {
                 // Fetch required data
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
@@ -353,7 +276,7 @@
                         syllabusContainer.innerHTML = `
                         <div style="text-align:center;padding:4rem;color:#64748b;">
                             <div style="font-size:3rem;margin-bottom:1rem;">📂</div>
-                            <b style="color:var(--primary);">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
+                            <b style="color:#1e3a8a;">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
                             விரைவில் தேர்வுகளுக்காக பதிவேற்றப்படும்.
                         </div>`;
                         return;
@@ -393,10 +316,10 @@
                                     ${isReady ? `
                                     <div class="btn-group">
                                         <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
-                                            பாடக்குறிப்புகள்
+                                            <span>📚</span>&nbsp;பாடக்குறிப்புகள்
                                         </a>
                                         <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
-                                            தேர்வு
+                                            <span>📝</span>&nbsp;தேர்வு
                                         </a>
                                     </div>` : ''}
                                 </div>`;
@@ -414,7 +337,7 @@
                         if (classToggleWrap) classToggleWrap.style.display = 'none';
                         return;
                     }
-                    classToggleWrap.style.display = 'flex';
+                    classToggleWrap.style.display = 'block';
                     const titleElObj = document.getElementById('classTabsTitle');
                     if(titleElObj) titleElObj.style.display = 'block';
                     classToggleEl.innerHTML = allowedClasses.map(c => `
@@ -473,13 +396,12 @@
                     }
                 };
 
-                window.selectClass = selectClass; // Export to global for grid clicks
+                window.selectClass = selectClass;
 
                 // INITIALIZATION — select first class that has data, or the requested class
                 if (urlClass && allowedClasses.includes(urlClass)) {
                     selectClass(urlClass, true);
                 } else {
-                    // Find first class that has lessons
                     const firstWithData = allowedClasses.find(c => useData[subject]?.[c] && useData[subject][c].length > 0);
                     selectClass(firstWithData || allowedClasses[0], true);
                 }

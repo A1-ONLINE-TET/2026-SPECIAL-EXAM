@@ -868,7 +868,7 @@ export const syllabusData = {
             "topics": [
               {
                 "title": "Unit 1: Look and Say || அலகு 1: பார்த்துச் சொல்லுங்கள்",
-                "isUpdated": false,
+                "isUpdated": true,
                 "code": "eng_2_t2_l1"
               },
               {
