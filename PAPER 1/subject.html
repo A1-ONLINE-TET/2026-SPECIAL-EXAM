@@ -4,141 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syllabus - Tamil Nanban</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
     <style>
-        .class-select-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 1.25rem;
-            margin-top: 2rem;
-            animation: fadeIn 0.5s ease;
+        :root {
+            --primary: #1e3a8a;
+            --bg-light: #f3f6ff;
+            --card-bg: #ffffff;
+            --text-dark: #334155;
+            --text-dim: #64748b;
+            --accent: #f59e0b;
         }
 
-        .class-select-card {
-            background: white;
-            padding: 2.5rem 1rem;
-            border-radius: 1.5rem;
-            text-align: center;
-            text-decoration: none;
-            color: white !important;
-            font-weight: 800;
-            font-size: 1.4rem;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background: var(--bg-light);
+            color: var(--text-dark);
+            min-height: 100vh;
+            padding-bottom: 80px;
+        }
+
+        /* --- BRAND HEADER (Dashboard Style) --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            border: none;
+            border-top: 1px solid #1e3a8a;
+            border-bottom: 1px solid #1e3a8a;
+        }
+        .brand-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
             cursor: pointer;
+            text-decoration: none;
         }
-
-        .class-select-card:hover {
-            transform: translateY(-8px);
-            filter: brightness(1.1);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-        }
-
-        .card-color-1 { background: linear-gradient(135deg, #3b82f6, #2563eb); }
-        .card-color-2 { background: linear-gradient(135deg, #10b981, #059669); }
-        .card-color-3 { background: linear-gradient(135deg, #f59e0b, #d97706); }
-        .card-color-4 { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
-        .card-color-5 { background: linear-gradient(135deg, #ef4444, #dc2626); }
-
-        .class-select-card span { font-size: 0.8rem; opacity: 0.9; margin-bottom: 0.25rem; }
-
-        .class-tabs-container {
-            margin-bottom: 2rem;
-            display: none; /* Hidden by default, shown when class is selected */
-        }
-
-        .class-tabs {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            padding: 4px;
-        }
-
-        .class-tab {
-            background: #ffffff;
-            border: 2px solid #e2e8f0;
-            padding: 0.6rem 1.2rem;
-            border-radius: 12px;
-            cursor: pointer;
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
             font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .section-title {
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #475569;
+            margin: 10px 0 20px;
+            padding-left: 5px;
+        }
+
+        /* --- CLASS/GRADE LIST (Dashboard Style) --- */
+        .item-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .item-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid #edf2f7;
             transition: all 0.3s ease;
-            color: #64748b;
-            min-width: 60px;
-            text-align: center;
-            font-size: 0.9rem;
+            cursor: pointer;
+            color: inherit;
+            width: 100%;
         }
 
-        .class-tab.active {
-            background: #1e3a8a;
-            color: white;
-            border-color: #1e3a8a;
+        .item-card:active {
+            transform: scale(0.97);
+            background: #f8fafc;
         }
 
-        .term-section { margin-bottom: 3rem; }
-        .term-title {
-            font-family: 'Baloo Thambi 2', sans-serif;
-            font-size: 1.6rem;
-            margin-bottom: 1.5rem;
-            color: #1e3a8a;
-            border-bottom: 3px solid #e2e8f0;
-            padding-bottom: 0.5rem;
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-right: 18px;
+            border: 1px solid #f1f5f9;
         }
 
+        .item-info {
+            flex-grow: 1;
+            font-weight: 700;
+            font-size: 1.15rem;
+            text-align: left;
+        }
+
+        .chevron {
+            color: #cbd5e1;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        /* --- TERM SECTION --- */
+        .term-section { margin-bottom: 2rem; }
+        .term-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        .term-header h2 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            font-family: 'Baloo Thambi 2';
+        }
+
+        /* --- TOPIC GRID (Standard Style) --- */
         .topics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.25rem;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
         }
 
         .topic-card {
-            background: #ffffff;
-            border-radius: 1.25rem;
-            padding: 1.5rem;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            transition: all 0.4s ease;
+            background: white;
+            border-radius: 16px;
+            padding: 18px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.04);
             border: 1px solid #f1f5f9;
             cursor: pointer;
+            transition: 0.3s;
         }
-
-        .topic-card.expanded { border-color: #1e3a8a; }
+        .topic-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
 
         .btn-group {
             display: none;
             grid-template-columns: 1fr 1fr;
-            gap: 0.8rem;
-            margin-top: 1.25rem;
+            gap: 10px;
+            margin-top: 15px;
         }
-
         .topic-card.expanded .btn-group { display: grid; }
+        .topic-card.expanded .chevron { transform: rotate(180deg); }
 
         .card-btn {
-            padding: 1rem 0.5rem;
-            border-radius: 14px;
+            padding: 12px 5px;
+            border-radius: 12px;
             text-decoration: none;
-            font-size: 0.95rem;
             font-weight: 800;
+            font-size: 0.85rem;
             text-align: center;
             color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
+        .btn-notes { background: #0d9488; }
+        .btn-quiz { background: #1e3a8a; }
 
-        .btn-notes { background: linear-gradient(135deg, #0d9488, #0f766e); }
-        .btn-quiz { background: linear-gradient(135deg, #1e40af, #1e3a8a); }
+        .topic-card.faded { opacity: 0.6; filter: grayscale(0.6); }
 
-        .topic-card.faded { opacity: 0.6; filter: grayscale(0.5); }
-        
-        @media (max-width: 640px) {
+        /* --- BOTTOM NAV (Dashboard Style) --- */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #64748b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            gap: 4px;
+        }
+        .nav-item.active { color: #1e3a8a; }
+        .nav-icon { font-size: 1.4rem; }
+
+        @media (max-width: 600px) {
             .topics-grid { grid-template-columns: 1fr; }
-            .btn-group { grid-template-columns: 1fr; }
-            .class-select-grid { grid-template-columns: 1fr 1fr; }
         }
     </style>
 </head>
@@ -150,35 +238,26 @@
         </a>
     </header>
 
-    <main class="container" style="padding-top: 1.5rem;">
-        <div id="gridScreen">
-            <div style="text-align: center; margin-bottom: 1.5rem;">
-                <h1 id="gridTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">வகுப்பைத் தேர்ந்தெடுக்கவும்</h1>
-                <p style="color: #64748b; margin-top: 0.5rem;">Choose your class to see lessons</p>
-            </div>
-            <div class="class-select-grid" id="classSelectGrid">
-                <!-- Grid cards injected here -->
+    <main class="container">
+        <!-- Grade Selection Screen -->
+        <div id="gradeSelectionScreen">
+            <h2 class="section-title">வகுப்பைத் தேர்ந்தெடுக்கவும் (Choose Class)</h2>
+            <div class="item-list" id="gradeList">
+                <!-- Grade cards injected here -->
             </div>
         </div>
 
+        <!-- Term/Lesson Screen -->
         <div id="lessonScreen" style="display: none;">
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0; font-family: 'Baloo Thambi 2';">பாடம்</h1>
-                <button onclick="showGrid()" style="background: none; border: none; color: #3b82f6; font-weight: 600; cursor: pointer; margin-top: 0.5rem;">❮ வகுப்பை மாற்றவும் (Change Class)</button>
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <button onclick="showGrades()" style="background:none; border:none; color:var(--primary); font-size:1.5rem; cursor:pointer; margin-right:15px;">❮</button>
+                <h1 id="pageTitle" style="font-size: 1.5rem; font-family: 'Baloo Thambi 2'; color: var(--primary);">பாடம்</h1>
             </div>
-
-            <div class="class-tabs-container">
-                <div class="class-tabs" id="classToggle">
-                    <!-- Tabs injected here -->
-                </div>
-            </div>
-
+            
             <div id="syllabusContainer">
-                <!-- Lessons injected here -->
+                <!-- Terms and Lessons injected here -->
             </div>
         </div>
-
-        <div style="height: 100px;"></div>
     </main>
 
     <nav class="bottom-nav">
@@ -206,7 +285,7 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v8";
+            const v = "standard_v9";
             try {
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
                 await waitForAuth();
@@ -228,15 +307,12 @@
                     'standard_6_7_8': '6, 7, 8 வகுப்புகள் (Exams)'
                 };
 
-                const gridScreen = document.getElementById('gridScreen');
+                const gradeSelectionScreen = document.getElementById('gradeSelectionScreen');
                 const lessonScreen = document.getElementById('lessonScreen');
-                const classSelectGrid = document.getElementById('classSelectGrid');
+                const gradeList = document.getElementById('gradeList');
                 const syllabusContainer = document.getElementById('syllabusContainer');
-                const classToggleEl = document.getElementById('classToggle');
-                const classToggleWrap = document.querySelector('.class-tabs-container');
-                const titleEl = document.getElementById('subjectTitle');
+                const pageTitle = document.getElementById('pageTitle');
 
-                let currentClass = null;
                 let allowedClasses = ['1', '2', '3', '4', '5'];
                 let useData = syllabusData;
 
@@ -247,30 +323,37 @@
                     allowedClasses = ['6', '7', '8'];
                 }
 
-                const renderLessons = () => {
-                    const data = useData[subject]?.[currentClass];
+                const renderLessons = (cls) => {
+                    const data = useData[subject]?.[cls];
                     if (!data || data.length === 0) {
-                        syllabusContainer.innerHTML = `<div style="text-align:center;padding:4rem;color:#64748b;"><b style="color:#1e3a8a;">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b></div>`;
+                        syllabusContainer.innerHTML = `<div style="text-align:center;padding:4rem;color:#64748b;">வகுப்பு ${cls} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</div>`;
                         return;
                     }
 
                     let html = '';
                     data.forEach(term => {
-                        const tTitle = (currentClass === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
-                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2><div class="topics-grid">`;
+                        const tTitle = (cls === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
+                        html += `
+                        <div class="term-section">
+                            <div class="term-header">
+                                <h2>${tTitle}</h2>
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="topics-grid">`;
+                        
                         term.units.forEach(unit => {
                             unit.topics.forEach(topic => {
                                 const isReady = topic.isUpdated;
                                 html += `
-                                <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
-                                    <div class="topic-title-wrapper">
-                                        <h3 class="topic-title">${topic.title}${isReady ? '' : ' <small>(Soon)</small>'}</h3>
-                                        <div class="chevron">${isReady ? '▼' : '🔒'}</div>
+                                <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="this.classList.toggle(\'expanded\')"' : ''}>
+                                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                                        <h3 style="font-size:1.1rem; font-weight:700;">${topic.title}</h3>
+                                        <span class="chevron" style="font-size:0.8rem;">${isReady ? '▼' : '🔒'}</span>
                                     </div>
                                     ${isReady ? `
                                     <div class="btn-group">
-                                        <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes">📚 குறிப்புகள்</a>
-                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz">📝 தேர்வு</a>
+                                        <a href="material.html?subject=${subject}&class=${cls}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes">பாடக்குறிப்புகள்</a>
+                                        <a href="quiz.html?subject=${subject}&class=${cls}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz">தேர்வு</a>
                                     </div>` : ''}
                                 </div>`;
                             });
@@ -280,55 +363,48 @@
                     syllabusContainer.innerHTML = html;
                 };
 
-                const selectClass = (c, isPop = false) => {
-                    currentClass = c;
-                    gridScreen.style.display = 'none';
+                const selectGrade = (cls, isPop = false) => {
+                    gradeSelectionScreen.style.display = 'none';
                     lessonScreen.style.display = 'block';
-                    titleEl.innerText = titles[subject] || subject;
+                    pageTitle.innerText = `${titles[subject] || subject} - Class ${cls}`;
+                    renderLessons(cls);
                     
-                    // Show tabs for easy switching
-                    classToggleWrap.style.display = 'block';
-                    classToggleEl.innerHTML = allowedClasses.map(cls => `
-                        <button class="class-tab ${String(cls) === String(currentClass) ? 'active' : ''}" onclick="selectClass('${cls}')">${cls === 'all' ? 'All' : cls}</button>
-                    `).join('');
-
-                    renderLessons();
                     if (!isPop) {
                         const url = new URL(window.location);
-                        url.searchParams.set('class', c);
-                        window.history.pushState({ class: c }, '', url);
+                        url.searchParams.set('class', cls);
+                        window.history.pushState({ class: cls }, '', url);
                     }
                 };
 
-                const showGrid = () => {
-                    currentClass = null;
-                    gridScreen.style.display = 'block';
+                const showGrades = () => {
+                    gradeSelectionScreen.style.display = 'block';
                     lessonScreen.style.display = 'none';
                     const url = new URL(window.location);
                     url.searchParams.delete('class');
                     window.history.pushState({}, '', url);
 
-                    classSelectGrid.innerHTML = allowedClasses.map(c => `
-                        <button onclick="selectClass('${c}')" class="class-select-card card-color-${c}">
-                            <span>வகுப்பு</span>
-                            ${c === 'all' ? 'All' : c}
-                        </button>
+                    const icons = ['❶', '❷', '❸', '❹', '❺', '❻', '❼', '❽'];
+                    gradeList.innerHTML = allowedClasses.map((cls, idx) => `
+                        <div class="item-card" onclick="selectGrade('${cls}')">
+                            <div class="icon-wrapper">${icons[parseInt(cls)-1] || '🎓'}</div>
+                            <div class="item-info">வகுப்பு ${cls}</div>
+                            <div class="chevron">❯</div>
+                        </div>
                     `).join('');
                 };
 
-                window.selectClass = selectClass;
-                window.showGrid = showGrid;
-                window.toggleAccordion = (card) => card.classList.toggle('expanded');
+                window.selectGrade = selectGrade;
+                window.showGrades = showGrades;
 
                 if (urlClass && allowedClasses.includes(urlClass)) {
-                    selectClass(urlClass, true);
+                    selectGrade(urlClass, true);
                 } else {
-                    showGrid();
+                    showGrades();
                 }
 
                 window.addEventListener('popstate', (e) => {
-                    if (e.state && e.state.class) selectClass(e.state.class, true);
-                    else showGrid();
+                    if (e.state && e.state.class) selectGrade(e.state.class, true);
+                    else showGrades();
                 });
 
             } catch (err) {
