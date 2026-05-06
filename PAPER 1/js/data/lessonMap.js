@@ -1490,6 +1490,24 @@ export const lessonMap = {
       "grade": "2",
       "title": "Wonders of the Jungle"
     },
+    "eng_2_t3_l1": {
+      "local": true,
+      "filename": "eng_2_t3_l1",
+      "grade": "2",
+      "title": "A Visit to the Farm"
+    },
+    "eng_2_t3_l2": {
+      "local": true,
+      "filename": "eng_2_t3_l2",
+      "grade": "2",
+      "title": "People Who Help Us"
+    },
+    "eng_2_t3_l3": {
+      "local": true,
+      "filename": "eng_2_t3_l3",
+      "grade": "2",
+      "title": "Food We Eat"
+    },
     "Wonders of the Jungle": {
       "local": true,
       "filename": "eng_2_t2_l3",

@@ -877,6 +877,31 @@ export const syllabusData = {
                 "code": "eng_2_t2_l3"
               }
             ]
+          },
+          {
+            "term": 3,
+            "units": [
+              {
+                "title": "பாடப்பகுதிகள்",
+                "topics": [
+                  {
+                    "title": "A Visit to the Farm",
+                    "isUpdated": true,
+                    "code": "eng_2_t3_l1"
+                  },
+                  {
+                    "title": "People Who Help Us",
+                    "isUpdated": true,
+                    "code": "eng_2_t3_l2"
+                  },
+                  {
+                    "title": "Food We Eat",
+                    "isUpdated": true,
+                    "code": "eng_2_t3_l3"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
