@@ -1575,6 +1575,36 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "எண்கள் (Numbers)",
+                "isUpdated": true,
+                "code": "mat_2_t3_l1"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_2_t3_l2"
+              },
+              {
+                "title": "அளவீடுகள்",
+                "isUpdated": true,
+                "code": "mat_2_t3_l3"
+              },
+              {
+                "title": "பணம்",
+                "isUpdated": true,
+                "code": "mat_2_t3_l4"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

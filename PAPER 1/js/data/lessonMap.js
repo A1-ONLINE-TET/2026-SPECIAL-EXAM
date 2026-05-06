@@ -2578,6 +2578,54 @@ export const lessonMap = {
       "grade": "2",
       "title": "அமைப்புகள் (Patterns)"
     },
+    "mat_2_t3_l1": {
+      "local": true,
+      "filename": "mat_2_t3_l1",
+      "grade": "2",
+      "title": "எண்கள் (Numbers)"
+    },
+    "எண்கள் (Numbers)": {
+      "local": true,
+      "filename": "mat_2_t3_l1",
+      "grade": "2",
+      "title": "எண்கள் (Numbers)"
+    },
+    "mat_2_t3_l2": {
+      "local": true,
+      "filename": "mat_2_t3_l2",
+      "grade": "2",
+      "title": "அமைப்புகள்"
+    },
+    "அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_2_t3_l2",
+      "grade": "2",
+      "title": "அமைப்புகள்"
+    },
+    "mat_2_t3_l3": {
+      "local": true,
+      "filename": "mat_2_t3_l3",
+      "grade": "2",
+      "title": "அளவீடுகள்"
+    },
+    "அளவீடுகள்": {
+      "local": true,
+      "filename": "mat_2_t3_l3",
+      "grade": "2",
+      "title": "அளவீடுகள்"
+    },
+    "mat_2_t3_l4": {
+      "local": true,
+      "filename": "mat_2_t3_l4",
+      "grade": "2",
+      "title": "பணம்"
+    },
+    "பணம்": {
+      "local": true,
+      "filename": "mat_2_t3_l4",
+      "grade": "2",
+      "title": "பணம்"
+    },
     "mat_4_t1_l1": {
       "local": true,
       "filename": "mat_4_t1_l1",
