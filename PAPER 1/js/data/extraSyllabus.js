@@ -83,30 +83,30 @@ export const extraSyllabusData = {
         "term": "உளவியல் (Psychology)",
         "units": [
           {
-            "title": "குழந்தை மேம்பாடு மற்றும் கற்பித்தல்",
+            "title": "குழந்தை மேம்பாடு மற்றும் கற்பித்தல் (Child Development & Pedagogy)",
             "topics": [
               {
-                "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *",
+                "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்",
                 "isUpdated": true,
                 "code": "psy_6_l1"
               },
               {
-                "title": "கற்றல் கொள்கைகள் (Learning Principles) *",
+                "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்",
                 "isUpdated": true,
                 "code": "psy_6_l2"
               },
               {
-                "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *",
+                "title": "Child Development || குழந்தை மேம்பாடு",
                 "isUpdated": true,
                 "code": "psy_6_l3"
               },
               {
-                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *",
+                "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி",
                 "isUpdated": true,
                 "code": "psy_6_l4"
               },
               {
-                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
+                "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
                 "isUpdated": true,
                 "code": "psy_6_l5"
               }

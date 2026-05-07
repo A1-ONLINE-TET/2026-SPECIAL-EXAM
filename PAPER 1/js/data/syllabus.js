@@ -4705,44 +4705,5 @@ export const syllabusData = {
         ]
       }
     ]
-  },
-  "psychology": {
-    "6": [
-      {
-        "term": 1,
-        "units": [
-          {
-            "title": "உளவியல் பாடங்கள்",
-            "topics": [
-              {
-                "title": "கல்வி உளவியல் அறிமுகம்",
-                "isUpdated": true,
-                "code": "psy_6_l1"
-              },
-              {
-                "title": "வளர்ச்சி மற்றும் முன்னேற்றம்",
-                "isUpdated": true,
-                "code": "psy_6_l2"
-              },
-              {
-                "title": "குழந்தை மேம்பாடு",
-                "isUpdated": true,
-                "code": "psy_6_l3"
-              },
-              {
-                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி",
-                "isUpdated": true,
-                "code": "psy_6_l4"
-              },
-              {
-                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
-                "isUpdated": true,
-                "code": "psy_6_l5"
-              }
-            ]
-          }
-        ]
-      }
-    ]
   }
 };
