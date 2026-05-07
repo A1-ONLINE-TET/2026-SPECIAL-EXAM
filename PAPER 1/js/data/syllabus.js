@@ -964,17 +964,17 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "Our Leafy Friends",
+                "title": "Our Leafy Friends (Trees) || பசுமை நண்பர்கள் (மரங்கள்)",
                 "isUpdated": true,
                 "code": "eng_3_t3_l1"
               },
               {
-                "title": "Tools",
+                "title": "Tools || கருவிகள்",
                 "isUpdated": true,
                 "code": "eng_3_t3_l2"
               },
               {
-                "title": "Places in my Town",
+                "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்",
                 "isUpdated": true,
                 "code": "eng_3_t3_l3"
               }
@@ -1710,32 +1710,32 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "வடிவியல்",
+                "title": "Geometry || வடிவியல்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l1"
               },
               {
-                "title": "எண்கள்",
+                "title": "Numbers || எண்கள்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l2"
               },
               {
-                "title": "அமைப்புகள்",
+                "title": "Patterns || அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l3"
               },
               {
-                "title": "அளவைகள்",
+                "title": "Measurements || அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l4"
               },
               {
-                "title": "காலம்",
+                "title": "Time || காலம்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l5"
               },
               {
-                "title": "தகவல் செயலாக்கம்",
+                "title": "Information Processing || தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l6"
               }

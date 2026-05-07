@@ -553,6 +553,16 @@ export const lessonMap = {
       "filename": "1",
       "grade": "3"
     },
+    "2": {
+      "local": true,
+      "filename": "2",
+      "grade": "3"
+    },
+    "3": {
+      "local": true,
+      "filename": "3",
+      "grade": "3"
+    },
     "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
       "local": true,
       "filename": "eng_2_t1_l1",
@@ -709,41 +719,41 @@ export const lessonMap = {
       "grade": "3",
       "title": "Trip to the store"
     },
-    "Our Leafy Friends": {
+    "Our Leafy Friends (Trees) || பசுமை நண்பர்கள் (மரங்கள்)": {
       "local": true,
       "filename": "eng_3_t3_l1",
       "grade": "3",
-      "title": "Our Leafy Friends"
+      "title": "Our Leafy Friends (Trees) || பசுமை நண்பர்கள் (மரங்கள்)"
     },
     "eng_3_t3_l1": {
       "local": true,
       "filename": "eng_3_t3_l1",
       "grade": "3",
-      "title": "Our Leafy Friends"
+      "title": "Our Leafy Friends (Trees) || பசுமை நண்பர்கள் (மரங்கள்)"
     },
-    "Tools": {
+    "Tools || கருவிகள்": {
       "local": true,
       "filename": "eng_3_t3_l2",
       "grade": "3",
-      "title": "Tools"
+      "title": "Tools || கருவிகள்"
     },
     "eng_3_t3_l2": {
       "local": true,
       "filename": "eng_3_t3_l2",
       "grade": "3",
-      "title": "Tools"
+      "title": "Tools || கருவிகள்"
     },
-    "Places in my Town": {
+    "Places in my Town || எனது ஊரில் உள்ள இடங்கள்": {
       "local": true,
       "filename": "eng_3_t3_l3",
       "grade": "3",
-      "title": "Places in my Town"
+      "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
     },
     "eng_3_t3_l3": {
       "local": true,
       "filename": "eng_3_t3_l3",
       "grade": "3",
-      "title": "Places in my Town"
+      "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
     },
     "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,
@@ -1911,65 +1921,44 @@ export const lessonMap = {
     }
   },
   "maths": {
-    "mat_3_t1_l1": {
-      "local": true,
-      "filename": "mat_3_t1_l1",
-      "grade": "3",
-      "title": "வடிவியல்"
-    },
-    "mat_3_t1_l2": {
-      "local": true,
-      "filename": "mat_3_t1_l2",
-      "grade": "3",
-      "title": "எண்கள்"
-    },
-    "mat_3_t1_l3": {
-      "local": true,
-      "filename": "mat_3_t1_l3",
-      "grade": "3",
-      "title": "அமைப்புகள்"
-    },
-    "mat_3_t1_l4": {
-      "local": true,
-      "filename": "mat_3_t1_l4",
-      "grade": "3",
-      "title": "அளவைகள்"
-    },
-    "mat_3_t1_l5": {
-      "local": true,
-      "filename": "mat_3_t1_l5",
-      "grade": "3",
-      "title": "காலம்"
-    },
-    "mat_3_t1_l6": {
-      "local": true,
-      "filename": "mat_3_t1_l6",
-      "grade": "3",
-      "title": "தகவல் செயலாக்கம்"
-    },
     "1": {
       "local": true,
       "filename": "1",
-      "grade": "2",
-      "title": "எண்கள் (Numbers)"
+      "grade": "t3"
     },
     "2": {
       "local": true,
       "filename": "2",
-      "grade": "2",
-      "title": "அமைப்புகள்"
+      "grade": "t3",
+      "title": "அலகு 2: எண்கள் (வகுத்தல்)"
     },
     "3": {
       "local": true,
       "filename": "3",
-      "grade": "2",
-      "title": "அளவீடுகள்"
+      "grade": "t3"
     },
     "4": {
       "local": true,
       "filename": "4",
-      "grade": "2",
-      "title": "பணம்"
+      "grade": "t3",
+      "title": "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)"
+    },
+    "5": {
+      "local": true,
+      "filename": "5",
+      "grade": "t3"
+    },
+    "6": {
+      "local": true,
+      "filename": "6",
+      "grade": "t3",
+      "title": "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)"
+    },
+    "7": {
+      "local": true,
+      "filename": "7",
+      "grade": "t3",
+      "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
     },
     "எண்கள் (Numbers)": {
       "local": true,
@@ -1979,8 +1968,8 @@ export const lessonMap = {
     },
     "அமைப்புகள்": {
       "local": true,
-      "filename": "mat_2_t3_l2",
-      "grade": "2",
+      "filename": "3",
+      "grade": "t1",
       "title": "அமைப்புகள்"
     },
     "அளவீடுகள்": {
@@ -2039,8 +2028,8 @@ export const lessonMap = {
     },
     "காலம்": {
       "local": true,
-      "filename": "mat_2_t1_l5",
-      "grade": "2",
+      "filename": "4",
+      "grade": "t2",
       "title": "காலம்"
     },
     "mat_2_t1_l5": {
@@ -2087,8 +2076,8 @@ export const lessonMap = {
     },
     "அமைப்புகள் (Patterns)": {
       "local": true,
-      "filename": "mat_2_t2_l3",
-      "grade": "2",
+      "filename": "2",
+      "grade": "t2",
       "title": "அமைப்புகள் (Patterns)"
     },
     "mat_2_t2_l3": {
@@ -2120,6 +2109,120 @@ export const lessonMap = {
       "filename": "mat_2_t3_l4",
       "grade": "2",
       "title": "பணம்"
+    },
+    "Geometry || வடிவியல்": {
+      "local": true,
+      "filename": "mat_3_t1_l1",
+      "grade": "3",
+      "title": "Geometry || வடிவியல்"
+    },
+    "mat_3_t1_l1": {
+      "local": true,
+      "filename": "mat_3_t1_l1",
+      "grade": "3",
+      "title": "Geometry || வடிவியல்"
+    },
+    "Numbers || எண்கள்": {
+      "local": true,
+      "filename": "mat_3_t1_l2",
+      "grade": "3",
+      "title": "Numbers || எண்கள்"
+    },
+    "mat_3_t1_l2": {
+      "local": true,
+      "filename": "mat_3_t1_l2",
+      "grade": "3",
+      "title": "Numbers || எண்கள்"
+    },
+    "Patterns || அமைப்புகள்": {
+      "local": true,
+      "filename": "mat_3_t1_l3",
+      "grade": "3",
+      "title": "Patterns || அமைப்புகள்"
+    },
+    "mat_3_t1_l3": {
+      "local": true,
+      "filename": "mat_3_t1_l3",
+      "grade": "3",
+      "title": "Patterns || அமைப்புகள்"
+    },
+    "Measurements || அளவைகள்": {
+      "local": true,
+      "filename": "mat_3_t1_l4",
+      "grade": "3",
+      "title": "Measurements || அளவைகள்"
+    },
+    "mat_3_t1_l4": {
+      "local": true,
+      "filename": "mat_3_t1_l4",
+      "grade": "3",
+      "title": "Measurements || அளவைகள்"
+    },
+    "Time || காலம்": {
+      "local": true,
+      "filename": "mat_3_t1_l5",
+      "grade": "3",
+      "title": "Time || காலம்"
+    },
+    "mat_3_t1_l5": {
+      "local": true,
+      "filename": "mat_3_t1_l5",
+      "grade": "3",
+      "title": "Time || காலம்"
+    },
+    "Information Processing || தகவல் செயலாக்கம்": {
+      "local": true,
+      "filename": "mat_3_t1_l6",
+      "grade": "3",
+      "title": "Information Processing || தகவல் செயலாக்கம்"
+    },
+    "mat_3_t1_l6": {
+      "local": true,
+      "filename": "mat_3_t1_l6",
+      "grade": "3",
+      "title": "Information Processing || தகவல் செயலாக்கம்"
+    },
+    "அளவைகள் - நீளம்": {
+      "local": true,
+      "filename": "4",
+      "grade": "t1",
+      "title": "அளவைகள் - நீளம்"
+    },
+    "எண்கள் - பெருக்கல்": {
+      "local": true,
+      "filename": "1",
+      "grade": "t2",
+      "title": "எண்கள் - பெருக்கல்"
+    },
+    "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)": {
+      "local": true,
+      "filename": "5",
+      "grade": "t2",
+      "title": "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)"
+    },
+    "அலகு 2: எண்கள் (வகுத்தல்)": {
+      "local": true,
+      "filename": "2",
+      "grade": "t3",
+      "title": "அலகு 2: எண்கள் (வகுத்தல்)"
+    },
+    "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)": {
+      "local": true,
+      "filename": "4",
+      "grade": "t3",
+      "title": "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)"
+    },
+    "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)": {
+      "local": true,
+      "filename": "6",
+      "grade": "t3",
+      "title": "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)"
+    },
+    "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)": {
+      "local": true,
+      "filename": "7",
+      "grade": "t3",
+      "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
     },
     "அலகு 1: வடிவியல்": {
       "local": true,
@@ -2395,49 +2498,7 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_6_t1_l9",
       "grade": "6",
-      "title": "முழு எண்கள் மற்றும் அவற்றின் பண்பப்புகள்"
-    },
-    "mat_3_t3_l1": {
-      "local": true,
-      "filename": "mat_3_t3_l1",
-      "grade": "3",
-      "title": "வடிவியல்"
-    },
-    "mat_3_t3_l2": {
-      "local": true,
-      "filename": "mat_3_t3_l2",
-      "grade": "3",
-      "title": "எண்கள் (வகுத்தல்)"
-    },
-    "mat_3_t3_l3": {
-      "local": true,
-      "filename": "mat_3_t3_l3",
-      "grade": "3",
-      "title": "அமைப்புகள்"
-    },
-    "mat_3_t3_l4": {
-      "local": true,
-      "filename": "mat_3_t3_l4",
-      "grade": "3",
-      "title": "அளவைகள் (முகத்தல் அளவை)"
-    },
-    "mat_3_t3_l5": {
-      "local": true,
-      "filename": "mat_3_t3_l5",
-      "grade": "3",
-      "title": "பணம்"
-    },
-    "mat_3_t3_l6": {
-      "local": true,
-      "filename": "mat_3_t3_l6",
-      "grade": "3",
-      "title": "காலம்"
-    },
-    "mat_3_t3_l7": {
-      "local": true,
-      "filename": "mat_3_t3_l7",
-      "grade": "3",
-      "title": "தகவல் செயலாக்கம்"
+      "title": "முழு எண்கள் மற்றும் அவற்றின் பண்புகள்"
     }
   },
   "revision": {
