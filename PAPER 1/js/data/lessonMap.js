@@ -1277,29 +1277,29 @@ export const lessonMap = {
     "grade": "6",
     "title": "Child Development || குழந்தை மேம்பாடு"
   },
-  "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி": {
+  "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி": {
     "local": true,
     "filename": "psy_6_l4",
     "grade": "6",
-    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
   },
   "psy_6_l4": {
     "local": true,
     "filename": "psy_6_l4",
     "grade": "6",
-    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
   },
-  "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
+  "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
     "local": true,
     "filename": "psy_6_l5",
     "grade": "6",
-    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
   },
   "psy_6_l5": {
     "local": true,
     "filename": "psy_6_l5",
     "grade": "6",
-    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
   },
   "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
     "local": true,
