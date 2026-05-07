@@ -10,336 +10,320 @@
   "material": [
     {
       "type": "summary",
-      "title": "Lesson Summary || பாடச் சுருக்கம்",
-      "content": "This lesson covers numbers up to 1000, including place value, expanded and short forms, comparing numbers, odd and even numbers, and basic arithmetic operations (addition and subtraction with regrouping). It also teaches rounding numbers to the nearest 10.\n\nஇப்பாடத்தில் 1000 வரையிலான எண்கள், அவற்றின் இடமதிப்பு, விரிவான மற்றும் சுருக்கமான வடிவங்கள், எண்களை ஒப்பிடுதல், ஒற்றை மற்றும் இரட்டை எண்கள் மற்றும் அடிப்படை கணிதச் செயல்பாடுகள் (இனமாற்றத்துடன் கூட்டல் மற்றும் கழித்தல்) ஆகியவை விளக்கப்பட்டுள்ளன. மேலும் எண்களை அருகாமையில் உள்ள 10-ஆம் இடத்திற்கு முழுமைப்படுத்துவது குறித்தும் கற்பிக்கப்படுகிறது."
+      "title": "பாடச் சுருக்கம்",
+      "content": "இப்பாடத்தில் 1000 வரையிலான எண்களின் தொடர்கள், அவற்றின் அமைப்பு, ஒற்றை மற்றும் இரட்டை எண்கள், எண்களை ஒப்பிடுதல், ஏறுவரிசை மற்றும் இறங்கு வரிசையில் எழுதுதல் ஆகியவை விளக்கப்பட்டுள்ளன. மேலும் எண்களை உருவாக்குதல், மூன்றிலக்க எண்களின் கூட்டல் மற்றும் கழித்தல் மற்றும் எண்களை 10-ஆம் இடத்திற்கு தோராயப்படுத்துதல் போன்ற கருத்துகள் வாழ்க்கைச் சூழல் கணக்குகளுடன் விரிவாக தரப்பட்டுள்ளன."
     },
     {
       "type": "section",
-      "title": "Number System & Place Value || எண் முறை மற்றும் இடமதிப்பு",
-      "content": "• **Smallest 2-digit number**: 10.\n• **Largest 2-digit number**: 99.\n• **Smallest 3-digit number**: 100.\n• **Largest 3-digit number**: 999.\n• **Smallest 4-digit number**: 1000.\n• **Place Value**: 10 ones = 1 ten; 10 tens = 1 hundred; 10 hundreds = 1 thousand.\n• **Forms**: Expanded form (342 = 300 + 40 + 2) and Short form (500 + 50 + 7 = 557).\n\n• **மிகச்சிறிய ஈரிலக்க எண்**: 10.\n• **மிகப்பெரிய ஈரிலக்க எண்**: 99.\n• **மிகச்சிறிய மூன்றிலக்க எண்**: 100.\n• **மிகப்பெரிய மூன்றிலக்க எண்**: 999.\n• **மிகச்சிறிய நான்கிலக்க எண்**: 1000.\n• **இடமதிப்பு**: 10 ஒன்றுகள் = 1 பத்து; 10 பத்துகள் = 1 நூறு; 10 நூறுகள் = 1 ஆயிரம்.\n• **வடிவங்கள்**: விரிவாக்க வடிவம் (342 = 300 + 40 + 2) மற்றும் சுருக்கிய வடிவம் (500 + 50 + 7 = 557)."
+      "title": "அடிப்படை எண்கள்",
+      "content": "• **ஓரிலக்க எண்கள்**: 0 முதல் 9 வரை.\n• **ஈரிலக்க எண்கள்**: 10 (மிகச்சிறிய) முதல் 99 (மிகப்பெரிய) வரை.\n• **மூன்றிலக்க எண்கள்**: 100 (மிகச்சிறிய) முதல் 999 (மிகப்பெரிய) வரை.\n• **நான்கிலக்க எண்கள்**: 1000 மிகச்சிறிய நான்கிலக்க எண் ஆகும்."
     },
     {
       "type": "section",
-      "title": "Odd and Even Numbers || ஒற்றை மற்றும் இரட்டை எண்கள்",
-      "content": "• **Odd Numbers (ஒற்றை எண்கள்)**: Numbers ending with 1, 3, 5, 7, 9.\n• **Even Numbers (இரட்டை எண்கள்)**: Numbers ending with 0, 2, 4, 6, 8.\n• Every odd number is followed by an even number and vice versa.\n\n• **ஒற்றை எண்கள்**: 1, 3, 5, 7, 9 ஆகிய எண்களில் முடியும் எண்கள்.\n• **இரட்டை எண்கள்**: 0, 2, 4, 6, 8 ஆகிய எண்களில் முடியும் எண்கள்.\n• ஒவ்வொரு ஒற்றை எண்ணிற்குப் பிறகும் ஒரு இரட்டை எண் வரும், அதேபோல் ஒவ்வொரு இரட்டை எண்ணிற்குப் பிறகும் ஒரு ஒற்றை எண் வரும்."
-    },
-    {
-      "type": "section",
-      "title": "Rounding to Nearest 10 || 10-ஆம் இடத்திற்கு முழுமைப்படுத்துதல்",
-      "content": "• Numbers ending with 1, 2, 3, 4 are rounded down to the previous 10. (e.g., 24 -> 20).\n• Numbers ending with 5, 6, 7, 8, 9 are rounded up to the next 10. (e.g., 17 -> 20, 25 -> 30).\n\n• 1, 2, 3, 4 என முடியும் எண்கள் அதற்கு முந்தைய 10-க்கு முழுமைப்படுத்தப்படும். (எ.கா: 24 -> 20).\n• 5, 6, 7, 8, 9 என முடியும் எண்கள் அடுத்த 10-க்கு முழுமைப்படுத்தப்படும். (எ.கா: 17 -> 20, 25 -> 30)."
-    },
-    {
-      "type": "section",
-      "title": "Operations: Addition & Subtraction || கூட்டல் மற்றும் கழித்தல்",
-      "content": "• **Addition**: The result is called 'Sum' (கூடுதல்).\n• **Subtraction**: The result is called 'Difference' (வித்தியாசம்).\n• **Regrouping (இனமாற்றம்)**: Used when a value exceeds 9 in a specific place (Addition) or when a value is smaller than the subtractor (Subtraction).\n\n• **கூட்டல்**: இதன் விடை 'கூடுதல்' எனப்படும்.\n• **கழித்தல்**: இதன் விடை 'வித்தியாசம்' எனப்படும்.\n• **இனமாற்றம்**: ஒரு குறிப்பிட்ட இடத்தில் மதிப்பு 9-ஐத் தாண்டும்போது (கூட்டல்) அல்லது கழிக்கும் எண் பெரியதாக இருக்கும்போது (கழித்தல்) பயன்படுத்தப்படுகிறது."
+      "title": "ஒற்றை மற்றும் இரட்டை எண்கள்",
+      "content": "• **ஒற்றை எண்கள்**: 1, 3, 5, 7, 9 என்ற எண்களில் முடியும் எண்கள்.\n• **இரட்டை எண்கள்**: 0, 2, 4, 6, 8 என்ற எண்களில் முடியும் எண்கள்."
     }
   ],
   "quiz": [
     {
-      "question": "What is the smallest 2-digit number? || மிகச்சிறிய ஈரிலக்க எண் எது?",
+      "question": "மிகச்சிறிய ஈரிலக்க எண் எது?",
       "options": ["11", "99", "10", "9"],
       "answer": 2,
-      "explanation": "10 is the smallest 2-digit number. || 10 என்பது மிகச்சிறிய ஈரிலக்க எண் ஆகும்."
+      "explanation": "10 என்பது மிகச்சிறிய ஈரிலக்க எண் ஆகும்."
     },
     {
-      "question": "What is the largest 2-digit number? || மிகப்பெரிய ஈரிலக்க எண் எது?",
+      "question": "மிகப்பெரிய ஈரிலக்க எண் எது?",
       "options": ["90", "99", "100", "10"],
       "answer": 1,
-      "explanation": "99 is the largest 2-digit number. || 99 என்பது மிகப்பெரிய ஈரிலக்க எண் ஆகும்."
+      "explanation": "99 என்பது மிகப்பெரிய ஈரிலக்க எண் ஆகும்."
     },
     {
-      "question": "What is the smallest 3-digit number? || மிகச்சிறிய மூன்றிலக்க எண் எது?",
+      "question": "மிகச்சிறிய மூன்றிலக்க எண் எது?",
       "options": ["1000", "999", "101", "100"],
       "answer": 3,
-      "explanation": "100 is the smallest 3-digit number. || 100 என்ற எண்ணுரு மிகச்சிறிய மூன்றிலக்க எண் ஆகும்."
+      "explanation": "100 என்ற எண்ணுரு மிகச்சிறிய மூன்றிலக்க எண் ஆகும்."
     },
     {
-      "question": "What is the result of 99 + 1? || 99 உடன் 1 ஐக் கூட்டினால் கிடைக்கும் எண் எது?",
+      "question": "99 உடன் 1 ஐக் கூட்டினால் கிடைக்கும் எண் எது?",
       "options": ["100", "991", "1000", "10"],
       "answer": 0,
-      "explanation": "99 + 1 = 100. || 99 உடன் 1 ஐக் கூட்டினால் 100 கிடைக்கும்."
+      "explanation": "99 உடன் 1 ஐக் கூட்டினால் 100 கிடைக்கும்."
     },
     {
-      "question": "How many tens are there in one hundred? || ஒரு நூறில் எத்தனை பத்துகள் உள்ளன?",
+      "question": "ஒரு நூறில் எத்தனை பத்துகள் உள்ளன?",
       "options": ["1", "10", "100", "1000"],
       "answer": 1,
-      "explanation": "There are 10 tens in one hundred. || ஒரு நூறில் 10 பத்துகள் உள்ளன."
+      "explanation": "ஒரு நூறில் 10 பத்துகள் உள்ளன."
     },
     {
-      "question": "How many ones are there in one hundred? || ஒரு நூறில் எத்தனை ஒன்றுகள் உள்ளன?",
+      "question": "ஒரு நூறில் எத்தனை ஒன்றுகள் உள்ளன?",
       "options": ["100", "10", "1000", "1"],
       "answer": 0,
-      "explanation": "One hundred contains 100 ones. || ஒரு நூறில் 100 ஒன்றுகள் உள்ளன."
+      "explanation": "ஒரு நூறில் 100 ஒன்றுகள் உள்ளன."
     },
     {
-      "question": "What is the largest 3-digit number? || மிகப்பெரிய மூன்றிலக்க எண் எது?",
+      "question": "மிகப்பெரிய மூன்றிலக்க எண் எது?",
       "options": ["100", "900", "999", "1000"],
       "answer": 2,
-      "explanation": "999 is the largest 3-digit number. || மிகப்பெரிய மூவிலக்க எண் 999 ஆகும்."
+      "explanation": "மிகப்பெரிய மூவிலக்க எண் 999 ஆகும்."
     },
     {
-      "question": "What is the result of 999 + 1? || 999 உடன் 1 ஐக் கூட்டினால் கிடைப்பது என்ன?",
+      "question": "999 உடன் 1 ஐக் கூட்டினால் கிடைப்பது என்ன?",
       "options": ["100", "1000", "9991", "10000"],
       "answer": 1,
-      "explanation": "999 + 1 = 1000. || 999 உடன் 1 ஐக் கூட்டும் போது 1000 கிடைக்கிறது."
+      "explanation": "999 உடன் 1 ஐக் கூட்டும் போது 1000 கிடைக்கிறது."
     },
     {
-      "question": "What is the smallest 4-digit number? || மிகச்சிறிய நான்கிலக்க எண் எது?",
+      "question": "மிகச்சிறிய நான்கிலக்க எண் எது?",
       "options": ["999", "1001", "1000", "10000"],
       "answer": 2,
-      "explanation": "1000 is the smallest 4-digit number. || 1000 என்ற எண்ணுரு மிகச்சிறிய நான்கிலக்க எண் ஆகும்."
+      "explanation": "1000 என்ற எண்ணுரு மிகச்சிறிய நான்கிலக்க எண் ஆகும்."
     },
     {
-      "question": "How many hundreds are there in one thousand? || ஓர் ஆயிரத்தில் எத்தனை நூறுகள் உள்ளன?",
+      "question": "ஓர் ஆயிரத்தில் எத்தனை நூறுகள் உள்ளன?",
       "options": ["10", "100", "1000", "1"],
       "answer": 0,
-      "explanation": "There are 10 hundreds in one thousand. || ஓர் ஆயிரத்தில் 10 நூறுகள் உள்ளன."
+      "explanation": "ஓர் ஆயிரத்தில் 10 நூறுகள் உள்ளன."
     },
     {
-      "question": "Numbers 0, 1, 2... 9 are what type of numbers? || 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 என்பன எவ்வகை எண்கள்?",
-      "options": ["2-digit numbers", "3-digit numbers", "Fractions", "Single-digit numbers"],
+      "question": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 என்பன எவ்வகை எண்கள்?",
+      "options": ["ஈரிலக்க எண்கள்", "மூன்றிலக்க எண்கள்", "பின்னங்கள்", "ஓரிலக்க எண்கள்"],
       "answer": 3,
-      "explanation": "These are all single-digit numbers. || இந்த எண்கள் அனைத்தும் ஓரிலக்க எண்கள் ஆகும்."
+      "explanation": "இந்த எண்கள் அனைத்தும் ஓரிலக்க எண்கள் ஆகும்."
     },
     {
-      "question": "Does '0' at the beginning of a number have value? || ஓர் எண்ணின் தொடக்கத்தில் வரும் '0' - ற்கு மதிப்பு உண்டா?",
-      "options": ["Yes", "No value", "Sometimes", "Changes to ten"],
+      "question": "ஓர் எண்ணின் தொடக்கத்தில் வரும் '0' - ற்கு மதிப்பு உண்டா?",
+      "options": ["உண்டு", "மதிப்பு இல்லை", "சில நேரங்களில் உண்டு", "பத்தாக மாறும்"],
       "answer": 1,
-      "explanation": "A '0' at the start of a number has no value. || பாடக்குறிப்பின் படி ஓர் எண்ணின் தொடக்கத்தில் வரும் '0' ற்கு மதிப்பு இல்லை."
+      "explanation": "பாடக்குறிப்பின் படி ஓர் எண்ணின் தொடக்கத்தில் வரும் '0' ற்கு மதிப்பு இல்லை."
     },
     {
-      "question": "What is the expanded form of 342? || 342 என்ற எண்ணின் விரிவாக்க வடிவம் என்ன?",
+      "question": "342 என்ற எண்ணின் விரிவாக்க வடிவம் என்ன?",
       "options": ["30 + 40 + 2", "300 + 40 + 2", "300 + 4 + 2", "3 + 4 + 2"],
       "answer": 1,
-      "explanation": "3 hundreds, 4 tens, and 2 ones = 300 + 40 + 2. || 3 நூறுகள், 4 பத்துகள், 2 ஒன்றுகள் என்பதை 300 + 40 + 2 என எழுதலாம்."
+      "explanation": "3 நூறுகள், 4 பத்துகள், 2 ஒன்றுகள் என்பதை 300 + 40 + 2 என எழுதலாம்."
     },
     {
-      "question": "What is the short form of 500 + 70 + 0? || 500 + 70 + 0 என்பதன் சுருக்கிய வடிவம் என்ன?",
+      "question": "500 + 70 + 0 என்பதன் சுருக்கிய வடிவம் என்ன?",
       "options": ["507", "570", "750", "057"],
       "answer": 1,
-      "explanation": "5 hundreds, 7 tens, and 0 ones make 570. || 5 நூறுகள், 7 பத்துகள் மற்றும் 0 ஒன்றுகள் சேர்ந்து 570 ஆகிறது."
+      "explanation": "5 நூறுகள், 7 பத்துகள் மற்றும் 0 ஒன்றுகள் சேர்ந்து 570 ஆகிறது."
     },
     {
-      "question": "Which digit is in the tens place in 603? || 603 என்ற எண்ணில் பத்துகள் இடத்தில் உள்ள இலக்கம் எது?",
+      "question": "603 என்ற எண்ணில் பத்துகள் இடத்தில் உள்ள இலக்கம் எது?",
       "options": ["6", "3", "0", "9"],
       "answer": 2,
-      "explanation": "In 603, there are 0 tens. || 603 இல் 6 நூறுகள், 0 பத்துகள் மற்றும் 3 ஒன்றுகள் உள்ளன."
+      "explanation": "603 இல் 6 நூறுகள், 0 பத்துகள் மற்றும் 3 ஒன்றுகள் உள்ளன."
     },
     {
-      "question": "10 tens is equal to what? || 10 பத்துகள் என்பது எதற்குச் சமம்?",
-      "options": ["1 ten", "1 hundred", "1 thousand", "1 one"],
+      "question": "10 பத்துகள் என்பது எதற்குச் சமம்?",
+      "options": ["1 பத்து", "1 நூறு", "1 ஆயிரம்", "1 ஒன்று"],
       "answer": 1,
-      "explanation": "10 tens make 1 hundred. || 10 பத்துகள் சேர்ந்தால் 1 நூறு ஆகும்."
+      "explanation": "10 பத்துகள் சேர்ந்தால் 1 நூறு ஆகும்."
     },
     {
-      "question": "What is the number name for 150? || 150 என்ற எண்ணின் எண் பெயர் என்ன?",
-      "options": ["One hundred five", "One hundred fifty", "Five hundred", "Fifty"],
+      "question": "150 என்ற எண்ணின் எண் பெயர் என்ன?",
+      "options": ["நூற்று ஐந்து", "நூற்று ஐம்பது", "ஐநூறு", "ஐம்பது"],
       "answer": 1,
-      "explanation": "150 is read as One Hundred Fifty. || 150 என்பதன் எண் பெயர் நூற்று ஐம்பது."
+      "explanation": "150 என்பதன் எண் பெயர் நூற்று ஐம்பது."
     },
     {
-      "question": "What is the numeral for 'Nine hundred seven'? || 'தொள்ளாயிரத்து ஏழு' என்பதன் எண்ணுரு என்ன?",
+      "question": "'தொள்ளாயிரத்து ஏழு' என்பதன் எண்ணுரு என்ன?",
       "options": ["970", "907", "9007", "709"],
       "answer": 1,
-      "explanation": "Nine hundred seven is written as 907. || தொள்ளாயிரத்து ஏழு என்பது 907 என எழுதப்படும்."
+      "explanation": "தொள்ளாயிரத்து ஏழு என்பது 907 என எழுதப்படும்."
     },
     {
-      "question": "What is the numeral for 'One hundred twenty-eight'? || 'நூற்று இருபத்து எட்டு' என்பதன் எண்ணுரு என்ன?",
+      "question": "'நூற்று இருபத்து எட்டு' என்பதன் எண்ணுரு என்ன?",
       "options": ["128", "182", "821", "1208"],
       "answer": 0,
-      "explanation": "One hundred twenty-eight is 128. || நூற்று இருபத்து எட்டு என்பது 128 ஆகும்."
+      "explanation": "நூற்று இருபத்து எட்டு என்பது 128 ஆகும்."
     },
     {
-      "question": "In 296, what is the place value of the underlined digit 9? || 296 என்ற எண்ணில் 9 இன் இடமதிப்பு என்ன?",
-      "options": ["Nine", "Nine hundred", "Ninety", "Ten"],
+      "question": "296 என்ற எண்ணில் அடிக்கோடிட்ட இலக்கமான 9 இன் இடமதிப்பை எண் பெயராக எழுதுக.",
+      "options": ["ஒன்பது", "தொள்ளாயிரம்", "தொண்ணூறு", "பத்து"],
       "answer": 2,
-      "explanation": "9 is in the tens place, so its value is ninety (90). || 296 இல் 9 என்பது பத்துகள் இடத்தில் உள்ளது, எனவே இதன் மதிப்பு தொண்ணூறு (90)."
+      "explanation": "296 இல் 9 என்பது பத்துகள் இடத்தில் உள்ளது, எனவே இதன் மதிப்பு தொண்ணூறு (90)."
     },
     {
-      "question": "Skip counting by 2: 62, 64, 66, 68, ___, 72. What is the missing number? || 62, 64, 66, 68, ___, 72 - விடுபட்ட எண் எது?",
+      "question": "தாவி எண்ணுதல்: 62, 64, 66, 68, ___, 72 - விடுபட்ட எண் எது?",
       "options": ["69", "70", "71", "74"],
       "answer": 1,
-      "explanation": "Skip counting by 2 gives 70 after 68. || இரண்டிரண்டாகத் தாவி எண்ணும் போது 68-க்குப் பிறகு 70 வரும்."
+      "explanation": "இரண்டிரண்டாகத் தாவி எண்ணும் போது 68-க்குப் பிறகு 70 வரும்."
     },
     {
-      "question": "Skip counting by 5: 250, 255, ___, 265. What is the missing number? || 250, 255, ___, 265. விடுபட்ட எண் என்ன?",
+      "question": "5-ஆல் தாவி எண்ணுதல்: 250, 255, ___, 265. விடுபட்ட எண் என்ன?",
       "options": ["260", "258", "270", "256"],
       "answer": 0,
-      "explanation": "255 + 5 = 260. || 255 உடன் 5 ஐக் கூட்டினால் 260 கிடைக்கும்."
+      "explanation": "255 உடன் 5 ஐக் கூட்டினால் 260 கிடைக்கும்."
     },
     {
-      "question": "Skip counting by 100: 100, 200, 300, ___. What is the missing number? || 100, 200, 300, ___. விடுபட்ட எண் எது?",
+      "question": "100-ஆல் தாவி எண்ணுதல்: 100, 200, 300, ___. விடுபட்ட எண் எது?",
       "options": ["350", "500", "400", "1000"],
       "answer": 2,
-      "explanation": "Skip counting by 100 gives 400 after 300. || நூறு நூறாகத் தாவி எண்ணும் போது 300-க்கு அடுத்து 400 வரும்."
+      "explanation": "நூறு நூறாகத் தாவி எண்ணும் போது 300-க்கு அடுத்து 400 வரும்."
     },
     {
-      "question": "Numbers ending with 1, 3, 5, 7, 9 are called? || 1, 3, 5, 7, 9 என்ற எண்களைக் கொண்டு முடியும் எண்கள் எவை?",
-      "options": ["Even numbers", "Odd numbers", "Prime numbers", "Whole numbers"],
+      "question": "1, 3, 5, 7, 9 என்ற எண்களைக் கொண்டு முடியும் எண்கள் எவை?",
+      "options": ["இரட்டை எண்கள்", "ஒற்றை எண்கள்", "பகா எண்கள்", "முழு எண்கள்"],
       "answer": 1,
-      "explanation": "Numbers ending in 1, 3, 5, 7, 9 are odd. || 1, 3, 5, 7, 9 இல் முடியும் எண்கள் ஒற்றை எண்கள் எனப்படும்."
+      "explanation": "1, 3, 5, 7, 9 இல் முடியும் எண்கள் ஒற்றை எண்கள் எனப்படும்."
     },
     {
-      "question": "Numbers ending with 0, 2, 4, 6, 8 are called? || 0, 2, 4, 6, 8 என்ற எண்களைக் கொண்டு முடியும் எண்கள் எவை?",
-      "options": ["Odd numbers", "Composite numbers", "Even numbers", "Natural numbers"],
+      "question": "0, 2, 4, 6, 8 என்ற எண்களைக் கொண்டு முடியும் எண்கள் எவை?",
+      "options": ["ஒற்றை எண்கள்", "பகு எண்கள்", "இரட்டை எண்கள்", "இயல் எண்கள்"],
       "answer": 2,
-      "explanation": "Numbers ending in 0, 2, 4, 6, 8 are even. || 0, 2, 4, 6, 8 இல் முடியும் எண்கள் இரட்டை எண்கள் எனப்படும்."
+      "explanation": "0, 2, 4, 6, 8 இல் முடியும் எண்கள் இரட்டை எண்கள் எனப்படும்."
     },
     {
-      "question": "Which of the following is an odd number: 84, 156, 303, 610? || பின்வருவனவற்றில் ஒற்றை எண்ணைக் கண்டுபிடி: 84, 156, 303, 610.",
+      "question": "பின்வருவனவற்றில் ஒற்றை எண்ணைக் கண்டுபிடி: 84, 156, 303, 610.",
       "options": ["84", "156", "610", "303"],
       "answer": 3,
-      "explanation": "303 ends in 3, making it an odd number. || 303 என்ற எண் 3-ல் முடிவதால் இது ஓர் ஒற்றை எண் ஆகும்."
+      "explanation": "303 என்ற எண் 3-ல் முடிவதால் இது ஓர் ஒற்றை எண் ஆகும்."
     },
     {
-      "question": "Which of the following is an even number: 33, 125, 232, 555? || பின்வருவனவற்றில் இரட்டை எண்ணைக் கண்டுபிடி: 33, 125, 232, 555.",
+      "question": "பின்வருவனவற்றில் இரட்டை எண்ணைக் கண்டுபிடி: 33, 125, 232, 555.",
       "options": ["232", "33", "125", "555"],
       "answer": 0,
-      "explanation": "232 ends in 2, making it an even number. || 232 என்ற எண் 2-ல் முடிவதால் இது ஓர் இரட்டை எண் ஆகும்."
+      "explanation": "232 என்ற எண் 2-ல் முடிவதால் இது ஓர் இரட்டை எண் ஆகும்."
     },
     {
-      "question": "In a sequence, what follows an odd number? || எண் வரிசையில் ஒவ்வொரு ஒற்றை எண்ணிற்குப் பிறகும் வருவது எது?",
-      "options": ["Another odd number", "An even number", "Zero", "Cannot say"],
+      "question": "எண் வரிசையில் ஒவ்வொரு ஒற்றை எண்ணிற்குப் பிறகும் வருவது எது?",
+      "options": ["மற்றொரு ஒற்றை எண்", "இரட்டை எண்", "பூஜ்ஜியம்", "சொல்ல முடியாது"],
       "answer": 1,
-      "explanation": "Every odd number is followed by an even number (e.g., 2 follows 1). || ஒவ்வொரு ஒற்றை எண்ணிற்குப் பிறகும் ஒரு இரட்டை எண் இருக்கும் (எ.கா: 1 க்குப் பிறகு 2)."
+      "explanation": "ஒவ்வொரு ஒற்றை எண்ணிற்குப் பிறகும் ஒரு இரட்டை எண் இருக்கும்."
     },
     {
-      "question": "In a sequence, what follows an even number? || எண் வரிசையில் ஒவ்வொரு இரட்டை எண்ணிற்குப் பிறகும் வருவது எது?",
-      "options": ["An odd number", "Another even number", "Negative number", "Decimal number"],
+      "question": "எண் வரிசையில் ஒவ்வொரு இரட்டை எண்ணிற்குப் பிறகும் வருவது எது?",
+      "options": ["ஒற்றை எண்", "இரட்டை எண்", "எதிர்மறை எண்", "தசம எண்"],
       "answer": 0,
-      "explanation": "Every even number is followed by an odd number (e.g., 3 follows 2). || ஒவ்வொரு இரட்டை எண்ணிற்குப் பிறகும் ஒரு ஒற்றை எண் இருக்கும் (எ.கா: 2 க்குப் பிறகு 3)."
+      "explanation": "ஒவ்வொரு இரட்டை எண்ணிற்குப் பிறகும் ஒரு ஒற்றை எண் இருக்கும்."
     },
     {
-      "question": "On a number line, how is the number that comes before any given number? || எண்கோட்டில் எந்தவொரு எண்ணுக்கும் முன் வரும் எண் எவ்வாறு இருக்கும்?",
-      "options": ["Larger than that number", "Equal to that number", "Smaller than that number", "None"],
+      "question": "எண்கோட்டில் எந்தவொரு எண்ணுக்கும் முன் வரும் எண் எவ்வாறு இருக்கும்?",
+      "options": ["பெரியதாக", "சமமாக", "சிறியதாக", "எதுவும் இல்லை"],
       "answer": 2,
-      "explanation": "The number before any number on a number line is smaller. || எண்கோட்டில் எந்தவொரு எண்ணுக்கும் முன் வரும் எண் அந்த எண்ணை விடச் சிறிய எண்."
+      "explanation": "எண்கோட்டில் எந்தவொரு எண்ணுக்கும் முன் வரும் எண் அந்த எண்ணை விடச் சிறிய எண்."
     },
     {
-      "question": "Why is 115 greater than 89? || 115 மற்றும் 89 ஆகியவற்றை ஒப்பிடும்போது, ஏன் 115 பெரியது?",
-      "options": ["Because it has 5", "Because it has more digits", "They are equal", "Because 89 has 9"],
+      "question": "115 மற்றும் 89 ஆகியவற்றை ஒப்பிடும்போது, ஏன் 115 பெரியது?",
+      "options": ["5 இருப்பதால்", "அதிக இலக்கங்களை உடையதால்", "இரண்டும் சமம்", "9 இருப்பதால்"],
       "answer": 1,
-      "explanation": "A number with more digits is always greater (3 digits > 2 digits). || எந்த எண் அதிக இலக்கங்களை உடையதோ, அந்த எண்ணே பெரிய எண் (3 இலக்கங்கள் > 2 இலக்கங்கள்)."
+      "explanation": "எந்த எண் அதிக இலக்கங்களை உடையதோ, அந்த எண்ணே பெரிய எண்."
     },
     {
-      "question": "When comparing 160 and 250, which place value do we look at first? || 160 மற்றும் 250 ஆகிய எண்களை ஒப்பிடுகையில் எவ்விடமதிப்பை முதலில் பார்க்க வேண்டும்?",
-      "options": ["Ones place", "Tens place", "Hundreds place", "Number of digits"],
+      "question": "160 மற்றும் 250 ஆகிய எண்களை ஒப்பிடுகையில் எவ்விடமதிப்பை முதலில் பார்க்க வேண்டும்?",
+      "options": ["ஒன்றாம் இடம்", "பத்தாம் இடம்", "நூறாம் இடம்", "இலக்கங்களின் எண்ணிக்கை"],
       "answer": 2,
-      "explanation": "If the number of digits is equal, we compare the hundreds place first. || இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால், நூறாம் இடமதிப்பைப் பொறுத்து ஒப்பிட வேண்டும்."
+      "explanation": "இலக்கங்கள் சமமாக இருந்தால், நூறாம் இடமதிப்பைப் பொறுத்து ஒப்பிட வேண்டும்."
     },
     {
-      "question": "Which is larger: 151 or 143? || 151 மற்றும் 143 ஆகிய எண்களில் எது பெரியது?",
-      "options": ["151", "143", "Both equal", "Cannot calculate"],
+      "question": "151 மற்றும் 143 ஆகிய எண்களில் எது பெரியது?",
+      "options": ["151", "143", "சமம்", "கணக்கிட முடியாது"],
       "answer": 0,
-      "explanation": "Hundreds are same (1=1). In tens place, 5 > 4. So 151 is larger. || நூறாம் இடம் சமம் (1=1). பத்தாம் இடத்தில் 5 > 4. எனவே 151 பெரியது."
+      "explanation": "நூறாம் இடம் சமம் (1=1). பத்தாம் இடத்தில் 5 > 4. எனவே 151 பெரியது."
     },
     {
-      "question": "If the hundreds place digits are equal, which place do we compare next? || இரு எண்களின் நூறாம் இடமதிப்பு சமமாக இருந்தால் அடுத்து எந்த இடமதிப்பை ஒப்பிட வேண்டும்?",
-      "options": ["Thousands place", "Ones place", "Tens place", "No need to compare"],
-      "answer": 2,
-      "explanation": "If hundreds are equal, compare the tens place. || நூறாம் இடம் சமமாக இருந்தால், பத்தாம் இடத்தில் உள்ள எண்களை ஒப்பிட வேண்டும்."
-    },
-    {
-      "question": "What is the method of arranging numbers from smallest to largest? || சிறிய எண்ணிலிருந்து பெரிய எண்ணிற்கு வரிசைப்படுத்தி எழுதும் முறை என்ன?",
-      "options": ["Descending order", "Ascending order", "Equal order", "Fractional order"],
+      "question": "சிறிய எண்ணிலிருந்து பெரிய எண்ணிற்கு வரிசைப்படுத்தி எழுதும் முறை என்ன?",
+      "options": ["இறங்கு வரிசை", "ஏறுவரிசை", "சம வரிசை", "பின்ன வரிசை"],
       "answer": 1,
-      "explanation": "Smallest to largest is called Ascending Order. || சிறியதிலிருந்து பெரியதிற்குச் செல்வது ஏறுவரிசை எனப்படும்."
+      "explanation": "சிறியதிலிருந்து பெரியதிற்குச் செல்வது ஏறுவரிசை எனப்படும்."
     },
     {
-      "question": "What is the method of arranging numbers from largest to smallest? || பெரிய எண்ணிலிருந்து சிறிய எண்ணிற்கு வரிசைப்படுத்தி எழுதும் முறை என்ன?",
-      "options": ["Ascending order", "Descending order", "Odd order", "Even order"],
+      "question": "பெரிய எண்ணிலிருந்து சிறிய எண்ணிற்கு வரிசைப்படுத்தி எழுதும் முறை என்ன?",
+      "options": ["ஏறுவரிசை", "இறங்கு வரிசை", "ஒற்றை வரிசை", "இரட்டை வரிசை"],
       "answer": 1,
-      "explanation": "Largest to smallest is called Descending Order. || பெரியதிலிருந்து சிறியதிற்குச் செல்வது இறங்கு வரிசை எனப்படும்."
+      "explanation": "பெரியதிலிருந்து சிறியதிற்குச் செல்வது இறங்கு வரிசை எனப்படும்."
     },
     {
-      "question": "Arrange 235, 230, 238 in ascending order. || 235, 230, 238 ஆகிய எண்களை ஏறுவரிசையில் எழுதுக.",
-      "options": ["230, 235, 238", "238, 235, 230", "235, 230, 238", "230, 238, 235"],
-      "answer": 0,
-      "explanation": "Smallest to largest: 230 < 235 < 238. || சிறியதிலிருந்து பெரியது: 230 < 235 < 238."
-    },
-    {
-      "question": "What is the largest 3-digit number using 5, 0, 9 once? || 5, 0, 9 ஆகிய எண்களை ஒரு முறை பயன்படுத்தி உருவாக்கப்படும் மிகப்பெரிய எண் எது?",
+      "question": "5, 0, 9 ஆகியவற்றை ஒரே ஒரு முறை பயன்படுத்தி உருவாக்கப்படும் மிகப்பெரிய எண் எது?",
       "options": ["509", "905", "950", "095"],
       "answer": 2,
-      "explanation": "Arrange digits in descending order: 9, 5, 0. || மிகப்பெரிய எண் உருவாக்க இலக்கங்களை இறங்கு வரிசையில் எழுத வேண்டும் (9, 5, 0)."
+      "explanation": "மிகப்பெரிய எண் உருவாக்க இலக்கங்களை இறங்கு வரிசையில் எழுத வேண்டும் (9, 5, 0)."
     },
     {
-      "question": "What is the smallest 3-digit number using 4, 0, 1? || 4, 0, 1 ஆகிய எண்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய மூன்றிலக்க எண் எது?",
+      "question": "4, 0, 1 ஆகிய எண்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய மூன்றிலக்க எண் எது?",
       "options": ["140", "104", "014", "410"],
       "answer": 1,
-      "explanation": "Since '0' cannot be at the start, use 1 then 0: 104. || 0 முதலில் வந்தால் அது ஈரிலக்க எண்ணாகிவிடும். எனவே 1 ஐ முதலில் போட்டு 104 என எழுத வேண்டும்."
+      "explanation": "0 முதலில் வந்தால் அது ஈரிலக்க எண்ணாகிவிடும். எனவே 1 ஐ முதலில் போட்டு 104 என எழுத வேண்டும்."
     },
     {
-      "question": "What is the result of adding numbers called? || எண்களைக் கூட்டக் கிடைப்பது என்ன?",
-      "options": ["Difference", "Product", "Sum", "Quotient"],
+      "question": "எண்களைக் கூட்டக் கிடைப்பது என்ன?",
+      "options": ["வித்தியாசம்", "பெருக்கற்பலன்", "கூடுதல்", "ஈவு"],
       "answer": 2,
-      "explanation": "The result of addition is called the Sum. || எண்களைக் கூட்டக் கிடைப்பது கூடுதல் எனப்படும்."
+      "explanation": "எண்களைக் கூட்டக் கிடைப்பது கூடுதல் எனப்படும்."
     },
     {
-      "question": "What is the result of subtracting one number from another called? || ஓர் எண்ணிலிருந்து மற்றொரு எண்ணைக் கழித்தால் கிடைப்பது என்ன?",
-      "options": ["Sum", "Remainder", "Difference", "Product"],
-      "answer": 2,
-      "explanation": "The result of subtraction is called the Difference. || கழித்தால் கிடைப்பது வேறுபாடு அல்லது வித்தியாசம் எனப்படும்."
-    },
-    {
-      "question": "Round 17 to the nearest 10. || 17 என்ற எண்ணை அருகாமையில் இருக்கும் 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால் கிடைப்பது என்ன?",
+      "question": "17 என்ற எண்ணை அருகாமையில் இருக்கும் 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால்?",
       "options": ["10", "15", "20", "25"],
       "answer": 2,
-      "explanation": "17 is closer to 20 than 10. || 17 என்பது 10 ஐ விட 20-க்கு அருகாமையில் உள்ளதால் 20 என முழுமைப்படுத்தப்படுகிறது."
+      "explanation": "17 என்பது 20-க்கு அருகாமையில் உள்ளதால் 20 என முழுமைப்படுத்தப்படுகிறது."
     },
     {
-      "question": "Round 24 to the nearest 10. || 24 என்ற எண்ணை அருகாமையில் உள்ள 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால் கிடைப்பது என்ன?",
+      "question": "24 என்ற எண்ணை அருகாமையில் உள்ள 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால்?",
       "options": ["30", "20", "25", "10"],
       "answer": 1,
-      "explanation": "24 is closer to 20 than 30. || 24 என்பது 30 ஐ விட 20-க்கு அருகாமையில் உள்ளதால் 20 என முழுமைப்படுத்தப்படுகிறது."
+      "explanation": "24 என்பது 20-க்கு அருகாமையில் உள்ளதால் 20 என முழுமைப்படுத்தப்படுகிறது."
     },
     {
-      "question": "Round 25 to the nearest 10. || 25 என்ற எண்ணை அருகாமையில் உள்ள 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால் கிடைப்பது என்ன?",
+      "question": "25 என்ற எண்ணை அருகாமையில் உள்ள 10 ஆம் இடத்திற்கு முழுமைப்படுத்தினால்?",
       "options": ["20", "30", "25", "35"],
       "answer": 1,
-      "explanation": "25 is midway, so it rounds up to 30. || 25 என்பது நடுவில் உள்ள எண், விதிகளின்படி இது அடுத்த 10-க்கு (30) முழுமைப்படுத்தப்படும்."
+      "explanation": "25 என்பது நடுவில் உள்ள எண், விதிகளின்படி இது அடுத்த 10-க்கு (30) முழுமைப்படுத்தப்படும்."
     },
     {
-      "question": "What is 724 - 386? || 724 லிருந்து 386 ஐக் கழித்தால் கிடைக்கும் விடை என்ன?",
+      "question": "724 லிருந்து 386 ஐக் கழித்தால் கிடைக்கும் விடை என்ன?",
       "options": ["348", "338", "438", "328"],
       "answer": 1,
-      "explanation": "724 - 386 = 338. || 724 - 386 = 338."
+      "explanation": "724 - 386 = 338."
     },
     {
-      "question": "What is 556 + 194? || 556 மற்றும் 194 ஐக் கூட்டினால் கிடைக்கும் விடை என்ன?",
+      "question": "556 மற்றும் 194 ஐக் கூட்டினால் கிடைக்கும் விடை என்ன?",
       "options": ["750", "740", "650", "850"],
       "answer": 0,
-      "explanation": "556 + 194 = 750. || 556 + 194 = 750."
+      "explanation": "556 + 194 = 750."
     },
     {
-      "question": "10 ones is equal to what? || 10 ஒன்றுகள் என்பது எதற்குச் சமம்?",
-      "options": ["1 hundred", "10 tens", "1 ten", "1 thousand"],
+      "question": "10 ஒன்றுகள் என்பது எதற்குச் சமம்?",
+      "options": ["1 நூறு", "10 பத்துகள்", "1 பத்து", "1 ஆயிரம்"],
       "answer": 2,
-      "explanation": "10 ones = 1 ten. || ஆணிமணிச்சட்ட விதிகளின்படி 10 ஒன்றுகள் = 1 பத்து."
+      "explanation": "10 ஒன்றுகள் = 1 பத்து."
     },
     {
-      "question": "How can you regroup 15 tens? || 15 பத்துகளை எவ்வாறு இனமாற்றம் செய்யலாம்?",
-      "options": ["1 hundred + 5 tens", "15 hundreds", "5 hundreds + 1 ten", "1 thousand + 5 tens"],
+      "question": "15 பத்துகளை எவ்வாறு இனமாற்றம் செய்யலாம்?",
+      "options": ["1 நூறு + 5 பத்துகள்", "15 நூறுகள்", "5 நூறுகள் + 1 பத்து", "1 ஆயிரம் + 5 பத்துகள்"],
       "answer": 0,
-      "explanation": "15 tens = 150 = 1 hundred + 5 tens. || 15 பத்துகள் = 150 = 1 நூறு + 5 பத்துகள்."
+      "explanation": "15 பத்துகள் = 150 = 1 நூறு + 5 பத்துகள்."
     },
     {
-      "question": "Farm A has 452 mangoes, Farm B has 349. Total mangoes? || பண்ணை 'அ'-வில் 452, 'ஆ'-வில் 349 மாங்காய்கள். மொத்தம் எத்தனை?",
+      "question": "'அ' பண்ணையில் 452 மாங்காய்கள், 'ஆ' பண்ணையில் 349 மாங்காய்கள் எனில் மொத்தம் எத்தனை?",
       "options": ["800", "791", "801", "811"],
       "answer": 2,
-      "explanation": "452 + 349 = 801. || 452 + 349 = 801."
+      "explanation": "452 + 349 = 801."
     },
     {
-      "question": "Kumar's salary is ₹800. He spent ₹450. Saving? || குமாரின் ஊதியம் ₹800. ₹450 செலவு செய்தார். சேமிப்பு எவ்வளவு?",
+      "question": "குமாரின் ஒரு நாள் ஊதியம் ₹800. அவர் ₹450 ஐ செலவு செய்தார் எனில், சேமிப்பு எவ்வளவு?",
       "options": ["₹450", "₹350", "₹400", "₹1250"],
       "answer": 1,
-      "explanation": "800 - 450 = 350. || 800 - 450 = 350."
+      "explanation": "800 - 450 = 350."
     },
     {
-      "question": "What is 1 less than 100? || 100 ஐ விட 1 குறைவான எண் எது?",
+      "question": "100 ஐ விட 1 குறைவான எண் எது?",
       "options": ["99", "90", "101", "10"],
       "answer": 0,
-      "explanation": "100 - 1 = 99. || 100 - 1 = 99."
+      "explanation": "100 - 1 = 99."
+    },
+    {
+      "question": "405 என்ற எண்ணில் உள்ள இடமதிப்புகள் என்ன?",
+      "options": ["4 நூறு, 0 பத்து, 5 ஒன்று", "40 பத்து, 5 ஒன்று", "4 நூறு, 5 பத்து", "5 நூறு, 4 ஒன்று"],
+      "answer": 0,
+      "explanation": "நூறுகள்(4), பத்துகள்(0), ஒன்றுகள்(5)."
+    },
+    {
+      "question": "மரத்திலுள்ள 352 பழங்களில் 148 பழங்கள் பறிக்கப்பட்டால் மீதமுள்ளவை எத்தனை?",
+      "options": ["500", "204", "214", "104"],
+      "answer": 1,
+      "explanation": "352 - 148 = 204."
     }
   ]
 }

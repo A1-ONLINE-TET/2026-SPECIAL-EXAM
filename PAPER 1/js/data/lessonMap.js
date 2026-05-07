@@ -1911,6 +1911,42 @@ export const lessonMap = {
     }
   },
   "maths": {
+    "mat_3_t1_l1": {
+      "local": true,
+      "filename": "mat_3_t1_l1",
+      "grade": "3",
+      "title": "வடிவியல்"
+    },
+    "mat_3_t1_l2": {
+      "local": true,
+      "filename": "mat_3_t1_l2",
+      "grade": "3",
+      "title": "எண்கள்"
+    },
+    "mat_3_t1_l3": {
+      "local": true,
+      "filename": "mat_3_t1_l3",
+      "grade": "3",
+      "title": "அமைப்புகள்"
+    },
+    "mat_3_t1_l4": {
+      "local": true,
+      "filename": "mat_3_t1_l4",
+      "grade": "3",
+      "title": "அளவைகள்"
+    },
+    "mat_3_t1_l5": {
+      "local": true,
+      "filename": "mat_3_t1_l5",
+      "grade": "3",
+      "title": "காலம்"
+    },
+    "mat_3_t1_l6": {
+      "local": true,
+      "filename": "mat_3_t1_l6",
+      "grade": "3",
+      "title": "தகவல் செயலாக்கம்"
+    },
     "1": {
       "local": true,
       "filename": "1",
