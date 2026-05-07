@@ -75,11 +75,12 @@ export async function getLocalLessonData(subject, className, lessonId) {
         } catch (e) { console.warn("Special map not found"); }
     }
 
-    const subjectMapRegular = lessonMap[subjectKey] || {};
-    const subjectMapSpecial = specialMap.class678 || specialMap.revision || specialMap.model || specialMap.psychology || {};
+    const subjectMapRegular = lessonMap || {};
+    const subjectMapSpecial = specialMap || {};
     
     // Fuzzy match function
     const findMatch = (map, id) => {
+        if (!map || typeof map !== 'object') return null;
         if (map[id]) return map[id];
         const clean = (s) => s.toString().toLowerCase().replace(/[^a-z0-9\u0B80-\u0BFF]/g, '').trim();
         const search = clean(id);
