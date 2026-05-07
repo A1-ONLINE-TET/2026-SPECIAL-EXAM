@@ -22,7 +22,12 @@ export const lessonMap = {
   },
   "science": {},
   "social": {},
-  "psychology": {},
+  "psychology": {
+    "psy_6_l1": { "local": true, "filename": "psy_6_l1", "grade": "6", "title": "கல்வி உளவியல் அறிமுகம்" },
+    "psy_6_l2": { "local": true, "filename": "psy_6_l2", "grade": "6", "title": "வளர்ச்சி மற்றும் முன்னேற்றம்" },
+    "psy_6_l3": { "local": true, "filename": "psy_6_l3", "grade": "6", "title": "குழந்தை மேம்பாடு" },
+    "psy_6_l4": { "local": true, "filename": "psy_6_l4", "grade": "6", "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி" }
+  },
   "revision": {},
   "mocktest": {},
   "standard_6_7_8": {}
