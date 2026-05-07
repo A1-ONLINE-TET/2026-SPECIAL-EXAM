@@ -1968,8 +1968,8 @@ export const lessonMap = {
     },
     "அமைப்புகள்": {
       "local": true,
-      "filename": "3",
-      "grade": "t1",
+      "filename": "mat_3_t1_l3",
+      "grade": "3",
       "title": "அமைப்புகள்"
     },
     "அளவீடுகள்": {
@@ -2028,8 +2028,8 @@ export const lessonMap = {
     },
     "காலம்": {
       "local": true,
-      "filename": "4",
-      "grade": "t2",
+      "filename": "mat_3_t2_l4",
+      "grade": "3",
       "title": "காலம்"
     },
     "mat_2_t1_l5": {
@@ -2076,8 +2076,8 @@ export const lessonMap = {
     },
     "அமைப்புகள் (Patterns)": {
       "local": true,
-      "filename": "2",
-      "grade": "t2",
+      "filename": "mat_3_t2_l2",
+      "grade": "3",
       "title": "அமைப்புகள் (Patterns)"
     },
     "mat_2_t2_l3": {
@@ -2110,94 +2110,88 @@ export const lessonMap = {
       "grade": "2",
       "title": "பணம்"
     },
-    "Geometry || வடிவியல்": {
-      "local": true,
-      "filename": "mat_3_t1_l1",
-      "grade": "3",
-      "title": "Geometry || வடிவியல்"
-    },
     "mat_3_t1_l1": {
       "local": true,
       "filename": "mat_3_t1_l1",
       "grade": "3",
-      "title": "Geometry || வடிவியல்"
-    },
-    "Numbers || எண்கள்": {
-      "local": true,
-      "filename": "mat_3_t1_l2",
-      "grade": "3",
-      "title": "Numbers || எண்கள்"
+      "title": "வடிவியல்"
     },
     "mat_3_t1_l2": {
       "local": true,
       "filename": "mat_3_t1_l2",
       "grade": "3",
-      "title": "Numbers || எண்கள்"
-    },
-    "Patterns || அமைப்புகள்": {
-      "local": true,
-      "filename": "mat_3_t1_l3",
-      "grade": "3",
-      "title": "Patterns || அமைப்புகள்"
+      "title": "எண்கள்"
     },
     "mat_3_t1_l3": {
       "local": true,
       "filename": "mat_3_t1_l3",
       "grade": "3",
-      "title": "Patterns || அமைப்புகள்"
+      "title": "அமைப்புகள்"
     },
-    "Measurements || அளவைகள்": {
+    "அளவைகள் - நீளம்": {
       "local": true,
       "filename": "mat_3_t1_l4",
       "grade": "3",
-      "title": "Measurements || அளவைகள்"
+      "title": "அளவைகள் - நீளம்"
     },
     "mat_3_t1_l4": {
       "local": true,
       "filename": "mat_3_t1_l4",
       "grade": "3",
-      "title": "Measurements || அளவைகள்"
-    },
-    "Time || காலம்": {
-      "local": true,
-      "filename": "mat_3_t1_l5",
-      "grade": "3",
-      "title": "Time || காலம்"
+      "title": "அளவைகள் - நீளம்"
     },
     "mat_3_t1_l5": {
       "local": true,
       "filename": "mat_3_t1_l5",
       "grade": "3",
-      "title": "Time || காலம்"
-    },
-    "Information Processing || தகவல் செயலாக்கம்": {
-      "local": true,
-      "filename": "mat_3_t1_l6",
-      "grade": "3",
-      "title": "Information Processing || தகவல் செயலாக்கம்"
+      "title": "காலம்"
     },
     "mat_3_t1_l6": {
       "local": true,
       "filename": "mat_3_t1_l6",
       "grade": "3",
-      "title": "Information Processing || தகவல் செயலாக்கம்"
-    },
-    "அளவைகள் - நீளம்": {
-      "local": true,
-      "filename": "4",
-      "grade": "t1",
-      "title": "அளவைகள் - நீளம்"
+      "title": "தகவல் செயலாக்கம்"
     },
     "எண்கள் - பெருக்கல்": {
       "local": true,
-      "filename": "1",
-      "grade": "t2",
+      "filename": "mat_3_t2_l1",
+      "grade": "3",
       "title": "எண்கள் - பெருக்கல்"
+    },
+    "mat_3_t2_l1": {
+      "local": true,
+      "filename": "mat_3_t2_l1",
+      "grade": "3",
+      "title": "எண்கள் - பெருக்கல்"
+    },
+    "mat_3_t2_l2": {
+      "local": true,
+      "filename": "mat_3_t2_l2",
+      "grade": "3",
+      "title": "அமைப்புகள் (Patterns)"
+    },
+    "mat_3_t2_l3": {
+      "local": true,
+      "filename": "mat_3_t2_l3",
+      "grade": "3",
+      "title": "அளவைகள்"
+    },
+    "mat_3_t2_l4": {
+      "local": true,
+      "filename": "mat_3_t2_l4",
+      "grade": "3",
+      "title": "காலம்"
     },
     "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)": {
       "local": true,
-      "filename": "5",
-      "grade": "t2",
+      "filename": "mat_3_t2_l5",
+      "grade": "3",
+      "title": "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)"
+    },
+    "mat_3_t2_l5": {
+      "local": true,
+      "filename": "mat_3_t2_l5",
+      "grade": "3",
       "title": "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)"
     },
     "அலகு 2: எண்கள் (வகுத்தல்)": {

@@ -1710,32 +1710,32 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "Geometry || வடிவியல்",
+                "title": "வடிவியல்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l1"
               },
               {
-                "title": "Numbers || எண்கள்",
+                "title": "எண்கள்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l2"
               },
               {
-                "title": "Patterns || அமைப்புகள்",
+                "title": "அமைப்புகள்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l3"
               },
               {
-                "title": "Measurements || அளவைகள்",
+                "title": "அளவைகள் - நீளம்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l4"
               },
               {
-                "title": "Time || காலம்",
+                "title": "காலம்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l5"
               },
               {
-                "title": "Information Processing || தகவல் செயலாக்கம்",
+                "title": "தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_3_t1_l6"
               }
@@ -1750,17 +1750,17 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "பெருக்கல்",
+                "title": "எண்கள் - பெருக்கல்",
                 "isUpdated": true,
                 "code": "mat_3_t2_l1"
               },
               {
-                "title": "அமைப்புகள்",
+                "title": "அமைப்புகள் (Patterns)",
                 "isUpdated": true,
                 "code": "mat_3_t2_l2"
               },
               {
-                "title": "அளவைகள் (நிறுத்தல் அளவை)",
+                "title": "அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_3_t2_l3"
               },
@@ -1770,7 +1770,7 @@ export const syllabusData = {
                 "code": "mat_3_t2_l4"
               },
               {
-                "title": "தகவல் செயலாக்கம்",
+                "title": "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)",
                 "isUpdated": true,
                 "code": "mat_3_t2_l5"
               }
