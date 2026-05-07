@@ -1,0 +1,292 @@
+{
+  "lesson_meta": {
+    "title": "Numbers - Division || எண்கள் - வகுத்தல்",
+    "code": "mat_3_t3_l2",
+    "grade": "3",
+    "term": "3",
+    "unit": "2",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson introduces the concept of division as equal sharing or grouping. It covers various methods like repeated subtraction, equal grouping, and using the number line. It also explains the inverse relationship between multiplication and division.\n\nஇப்பாடம் 'வகுத்தல்' (Division) என்ற கணிதச் செயல்பாட்டை அறிமுகப்படுத்துகிறது. ஒரு குறிப்பிட்ட எண்ணைச் சமமாகப் பகிர்ந்தளிப்பதே வகுத்தல் ஆகும். மீள் கழித்தல், சமக் குழுவாக்கம் ஆகியவற்றின் மூலமாகவும், பெருக்கலுக்கும் வகுத்தலுக்கும் உள்ள தலைகீழ் தொடர்பையும் இப்பாடம் விளக்குகிறது."
+    },
+    {
+      "type": "section",
+      "title": "Division as Repeated Subtraction || மீள் கழித்தல் முறை",
+      "content": "Division is the process of subtracting the same number repeatedly until you reach zero. The number of times you subtract is the answer (Quotient).\nExample: 30 ÷ 5. \n30 - 5 = 25 (Step 1)\n25 - 5 = 20 (Step 2)\n20 - 5 = 15 (Step 3)\n15 - 5 = 10 (Step 4)\n10 - 5 = 5 (Step 5)\n5 - 5 = 0 (Step 6)\nAnswer = 6.\n\nஒரே எண்ணைத் திரும்பத் திரும்பக் கழிப்பதே வகுத்தல் ஆகும். பூஜ்ஜியம் வரும் வரை எத்தனை முறை கழிக்கிறோமோ அதுவே விடை (ஈவு) ஆகும். உதாரணமாக 30-ஐ 5-ஆல் வகுக்க 6 முறைகள் கழிக்க வேண்டும்."
+    },
+    {
+      "type": "section",
+      "title": "Terms in Division || வகுத்தல் உறுப்புகள்",
+      "content": "In a division statement like 30 ÷ 5 = 6:\n• **Dividend (வகுபடும் எண்)**: The total number to be divided (30).\n• **Divisor (வகுத்தி)**: The number we divide by (5).\n• **Quotient (ஈவு)**: The result of the division (6).\n\n30 ÷ 5 = 6 என்ற கூற்றில்:\n• **வகுபடும் எண்**: 30 (வகுக்கப்படும் மொத்த அளவு).\n• **வகுத்தி**: 5 (எந்த எண்ணால் வகுக்கிறோம் என்பது).\n• **ஈவு**: 6 (வகுத்தலின் விடை)."
+    },
+    {
+      "type": "section",
+      "title": "Relationship between Multiplication and Division || பெருக்கலுக்கும் வகுத்தலுக்கும் உள்ள தொடர்பு",
+      "content": "Multiplication and Division are inverse operations. One multiplication fact can give two division facts.\nExample: 2 X 5 = 10\nDivision facts: 10 ÷ 2 = 5 and 10 ÷ 5 = 2.\n\nபெருக்கலும் வகுத்தலும் தலைகீழ் செயல்கள் ஆகும். ஒரு பெருக்கல் கூற்றிலிருந்து இரண்டு வகுத்தல் கூற்றுகளை உருவாக்கலாம். (எ.கா: 2 x 5 = 10 எனில் 10 ÷ 2 = 5 மற்றும் 10 ÷ 5 = 2)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is equal sharing called in mathematics? || சமமாகப் பகிர்ந்தளிப்பது கணிதத்தில் எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": ["Addition", "Subtraction", "Division", "Multiplication"],
+      "answer": 2,
+      "explanation": "Splitting a number into equal parts is division. || ஒரு குறிப்பிட்ட எண்ணிக்கையைச் சமமான குழுக்களாகப் பிரிப்பதே வகுத்தல் (Division) ஆகும்."
+    },
+    {
+      "question": "What is the mathematical symbol for division? || வகுத்தல் என்பதன் கணிதக் குறியீடு என்ன?",
+      "options": ["+", "÷", "-", "X"],
+      "answer": 1,
+      "explanation": "The symbol '÷' represents division. || வகுத்தல் செயல்பாடு '÷' என்ற குறியீட்டால் குறிக்கப்படுகிறது."
+    },
+    {
+      "question": "In 30 ÷ 5 = 6, which is the 'Dividend'? || 30 ÷ 5 = 6 என்ற வகுத்தல் கூற்றில் 'வகுபடும் எண்' எது?",
+      "options": ["5", "6", "30", "0"],
+      "answer": 2,
+      "explanation": "The total number being divided is the dividend. || எந்த எண்ணை நாம் வகுக்கப் போகிறோமோ அதுவே வகுபடும் எண். இங்கு 30 என்பது வகுபடும் எண்ணாகும்."
+    },
+    {
+      "question": "In 8 ÷ 4 = 2, what does '4' represent? || 8 ÷ 4 = 2 என்ற வகுத்தல் கூற்றில் '4' என்பது எதனைக் குறிக்கிறது?",
+      "options": ["Quotient", "Dividend", "Remainder", "Divisor"],
+      "answer": 3,
+      "explanation": "The number we divide by is the divisor. || எந்த எண்ணைக் கொண்டு வகுக்கிறோமோ அது வகுத்தி (Divisor) எனப்படும்."
+    },
+    {
+      "question": "In 30 ÷ 10 = 3, what is the answer '3' called? || 30 ÷ 10 = 3 என்ற கணக்கில் கிடைக்கும் விடையான '3' என்பது என்ன?",
+      "options": ["Divisor", "Quotient", "Dividend", "Product"],
+      "answer": 1,
+      "explanation": "The result of division is the quotient. || வகுத்தல் செயல்பாட்டின் முடிவில் கிடைக்கும் விடை 'ஈவு' (Quotient) எனப்படும்."
+    },
+    {
+      "question": "How many times should you subtract 5 from 30 to reach 0? || மீள் கழித்தல் முறையில் 30 இலிருந்து 5 ஐ எத்தனை முறை கழித்தால் 0 கிடைக்கும்?",
+      "options": ["5 times", "7 times", "6 times", "8 times"],
+      "answer": 2,
+      "explanation": "30 / 5 = 6. || 30 - 5 - 5 - 5 - 5 - 5 - 5 = 0. இங்கு 6 படிகள் கழிக்கப்பட்டுள்ளது."
+    },
+    {
+      "question": "Can you share 2 mangoes among 5 friends equally? || 2 மாங்கனிகளை 5 நண்பர்களுக்குச் சமமாகப் பகிர்ந்தளிக்க முடியுமா?",
+      "options": ["Yes", "No", "Sometimes", "Don't know"],
+      "answer": 1,
+      "explanation": "The dividend must be greater than or equal to the divisor for full sharing. || வகுத்தியை விட வகுபடும் எண் பெரியதாக இருக்க வேண்டும். இல்லையெனில் முழுமையாகப் பகிர முடியாது."
+    },
+    {
+      "question": "If Kapil shares 30 mangoes among 15 people, how many does each get? || 30 மாங்கனிகளை 15 பேருக்குப் பகிர்ந்தளித்தால், ஒவ்வொருவருக்கும் எத்தனை கிடைக்கும்?",
+      "options": ["2", "3", "5", "15"],
+      "answer": 0,
+      "explanation": "30 ÷ 15 = 2. || 30 ÷ 15 = 2. எனவே ஒவ்வொருவருக்கும் 2 மாங்கனிகள் கிடைக்கும்."
+    },
+    {
+      "question": "Rangamma packs 40 lemons with 5 per heap. How many heaps will she have? || 40 எலுமிச்சைகளை ஒரு கூறில் 5 வீதம் அடுக்கினால் எத்தனை கூறுகள் கிடைக்கும்?",
+      "options": ["6", "8", "7", "9"],
+      "answer": 1,
+      "explanation": "40 ÷ 5 = 8. || 40 எலுமிச்சைகள் ÷ 5 = 8 கூறுகள்."
+    },
+    {
+      "question": "36 coconuts are arranged with 4 per heap. Total heaps? || 36 தேங்காய்களை ஒரு கூறில் 4 வீதம் அடுக்கினால் எத்தனை கூறுகள் கிடைக்கும்?",
+      "options": ["7", "8", "10", "9"],
+      "answer": 3,
+      "explanation": "36 ÷ 4 = 9. || 36 ÷ 4 = 9. எனவே 9 கூறுகள் கிடைக்கும்."
+    },
+    {
+      "question": "8 balls are split into groups of 2. How many groups? || 8 பந்துகளை 2 பந்துகள் கொண்ட குழுக்களாகப் பிரித்தால் எத்தனை குழுக்கள் கிடைக்கும்?",
+      "options": ["3", "5", "4", "6"],
+      "answer": 2,
+      "explanation": "8 ÷ 2 = 4. || 8 ÷ 2 = 4 குழுக்கள்."
+    },
+    {
+      "question": "15 oranges are split into groups of 3. How many groups? || 15 ஆரஞ்சுப் பழங்களை 3 பழங்கள் கொண்ட கூறுகளாகப் பிரித்தால் எத்தனை கூறுகள் கிடைக்கும்?",
+      "options": ["5", "4", "6", "3"],
+      "answer": 0,
+      "explanation": "15 ÷ 3 = 5. || 15 ÷ 3 = 5."
+    },
+    {
+      "question": "Multiplication and Division are what kind of operations? || பெருக்கலுக்கும் வகுத்தலுக்கும் என்ன தொடர்பு?",
+      "options": ["Same", "Inverse", "Sequential", "Equal"],
+      "answer": 1,
+      "explanation": "They are inverse operations. || பெருக்கலும் (Multiplication) வகுத்தலும் (Division) தலைகீழ் செயல்கள் (Inverse operations) ஆகும்."
+    },
+    {
+      "question": "Which division fact is derived from 2 X 4 = 8? || 2 X 4 = 8 என்பதன் சரியான வகுத்தல் கூற்று எது?",
+      "options": ["8 X 2 = 16", "8 ÷ 4 = 2", "4 ÷ 2 = 2", "8 ÷ 8 = 1"],
+      "answer": 1,
+      "explanation": "8 divided by 4 gives 2. || 8 ÷ 4 = 2 மற்றும் 8 ÷ 2 = 4 என இரு வகுத்தல் கூற்றுகளை எழுதலாம்."
+    },
+    {
+      "question": "10 flowers are put into groups of 5. How many groups? || 10 மலர்களை ஒரு குழுவிற்கு 5 என வைத்தால் எத்தனை குழுக்கள் கிடைக்கும்?",
+      "options": ["3", "2", "5", "10"],
+      "answer": 1,
+      "explanation": "10 ÷ 5 = 2. || 10 ÷ 5 = 2 குழுக்கள்."
+    },
+    {
+      "question": "Which multiplication fact relates to 12 ÷ 4 = 3? || 12 ÷ 4 = 3 என்பதைக் குறிக்கும் பெருக்கல் கூற்று எது?",
+      "options": ["4 X 4 = 16", "3 X 4 = 12", "12 X 3 = 36", "6 X 2 = 12"],
+      "answer": 1,
+      "explanation": "3 times 4 equals 12. || 12 என்பது 3 முறை 4 ஆகும். எனவே 3 X 4 = 12."
+    },
+    {
+      "question": "Find the quotient: 14 ÷ 2 = ? || ஈவினைக் காண்க: 14 ÷ 2 = ?",
+      "options": ["5", "6", "7", "8"],
+      "answer": 2,
+      "explanation": "7 times 2 is 14. || 2 ஆம் வாய்ப்பாட்டில் 7 X 2 = 14. எனவே 14 ÷ 2 = 7."
+    },
+    {
+      "question": "Calculate: 24 ÷ 3 = ? || கணக்கிடுக: 24 ÷ 3 = ?",
+      "options": ["9", "7", "6", "8"],
+      "answer": 3,
+      "explanation": "8 times 3 is 24. || 3 ஆம் வாய்ப்பாட்டில் 8 X 3 = 24."
+    },
+    {
+      "question": "10 ÷ 10 = ?",
+      "options": ["100", "0", "10", "1"],
+      "answer": 3,
+      "explanation": "Any number divided by itself is 1. || எந்தவொரு எண்ணையும் அதே எண்ணால் வகுத்தால் கிடைக்கும் ஈவு 1 ஆகும்."
+    },
+    {
+      "question": "Calculate: 30 ÷ 5 = ? || கணக்கிடுக: 30 ÷ 5 = ?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "explanation": "6 times 5 is 30. || 5 ஆம் வாய்ப்பாட்டில் 6 X 5 = 30."
+    },
+    {
+      "question": "Calculate: 18 ÷ 9 = ? || கணக்கிடுக: 18 ÷ 9 = ?",
+      "options": ["3", "2", "4", "1"],
+      "answer": 1,
+      "explanation": "2 times 9 is 18. || 9 X 2 = 18."
+    },
+    {
+      "question": "20 ÷ 4 = ?",
+      "options": ["6", "4", "5", "8"],
+      "answer": 2,
+      "explanation": "5 times 4 is 20. || 4 ஆம் வாய்ப்பாட்டில் 5 X 4 = 20."
+    },
+    {
+      "question": "Calculate: 36 ÷ 4 = ? || கணக்கிடுக: 36 ÷ 4 = ?",
+      "options": ["10", "8", "9", "7"],
+      "answer": 2,
+      "explanation": "9 times 4 is 36. || 9 X 4 = 36."
+    },
+    {
+      "question": "25 is five times 5. How to write this as division? || 25 என்பது 5 முறை 5. இதனை வகுத்தல் கூற்றில் எவ்வாறு எழுதுவாய்?",
+      "options": ["25 - 5 = 20", "25 ÷ 5 = 5", "5 X 5 = 25", "25 + 5 = 30"],
+      "answer": 1,
+      "explanation": "Division shows how many times a divisor fits into the dividend. || ஒரு எண்ணை சமமாகப் பிரித்து எழுதுவதே வகுத்தல் கூற்று."
+    },
+    {
+      "question": "Calculate: 100 ÷ 10 = ? || கணக்கிடுக: 100 ÷ 10 = ?",
+      "options": ["10", "100", "1", "0"],
+      "answer": 0,
+      "explanation": "10 times 10 is 100. || 10 X 10 = 100."
+    },
+    {
+      "question": "Analogy: Addition : Subtraction :: Multiplication : ? || ஒப்புமை காண்க: கூட்டல் : கழித்தல் :: பெருக்கல் : ?",
+      "options": ["Equation", "Division", "Addition", "Repeated Sub."],
+      "answer": 1,
+      "explanation": "Subtraction is opposite of addition; Division is opposite of multiplication. || பெருக்கலுக்குத் தலைகீழ் செயல் வகுத்தல் ஆகும்."
+    },
+    {
+      "question": "Match correctly: 1) 16 ÷ 4, 2) 15 ÷ 3, 3) 20 ÷ 10 || பொருத்துக: 1) 16 ÷ 4, 2) 15 ÷ 3, 3) 20 ÷ 10",
+      "options": ["1-4, 2-5, 3-2", "1-5, 2-2, 3-4", "1-2, 2-4, 3-5", "1-4, 2-2, 3-5"],
+      "answer": 0,
+      "explanation": "16/4=4, 15/3=5, 20/10=2. || 16÷4 = 4. 15÷3 = 5. 20÷10 = 2."
+    },
+    {
+      "question": "Assertion (A): Dividing a number by itself gives 1. Reason (R): 10 ÷ 10 = 1. || கூற்று (A): ஒரு எண்ணை அதே எண்ணால் வகுத்தால் விடை 1 கிடைக்கும். காரணம் (R): 10 ÷ 10 = 1.",
+      "options": ["Both A and R true, R explains A", "A true, R false", "A false, R true", "Both false"],
+      "answer": 0,
+      "explanation": "10/10=1 is a specific example of the general rule. || எந்த எண்ணையும் தன்னாற்றலால் வகுக்கும்போது ஈவு 1 ஆகும்."
+    },
+    {
+      "question": "You take 40 chocolates to class. 8 friends are there. How many for each? || 40 சாக்லேட்டுகள், 8 நண்பர்கள். ஒருவருக்கு எத்தனை கிடைக்கும்?",
+      "options": ["4", "6", "8", "5"],
+      "answer": 3,
+      "explanation": "40 ÷ 8 = 5. || 40 ÷ 8 = 5 சாக்லேட்டுகள்."
+    },
+    {
+      "question": "50 pencils shared among 5 kids. How many each? || 50 பென்சில்கள், 5 குழந்தைகள். ஒருவருக்கு எத்தனை கிடைக்கும்?",
+      "options": ["10", "5", "15", "8"],
+      "answer": 0,
+      "explanation": "50 ÷ 5 = 10. || 50 ÷ 5 = 10 பென்சில்கள்."
+    },
+    {
+      "question": "Assertion (A): 5 mangoes can be shared among 10 people equally. Reason (R): Divisor can be larger than dividend. || கூற்று (A): 5 மாங்கனிகளை 10 பேருக்கு சமமாகப் பங்கிடலாம். காரணம் (R): வகுபடும் எண்ணை விட வகுத்தி பெரியதாக இருக்கலாம்.",
+      "options": ["A true", "R true", "Both false", "Both true"],
+      "answer": 2,
+      "explanation": "For sharing whole units, dividend must be larger. || 5 ஐ 10 ஆல் முழுமையாகப் பகிர முடியாது. எனவே இரண்டுமே தவறு."
+    },
+    {
+      "question": "How many times subtract 4 from 20 to get 0? || 20 இலிருந்து 4 ஐ எத்தனை முறை கழித்தால் 0 கிடைக்கும்?",
+      "options": ["4", "6", "5", "3"],
+      "answer": 2,
+      "explanation": "20 ÷ 4 = 5. || 20 - 4 - 4 - 4 - 4 - 4 = 0. ஆக 5 முறை கழிக்க வேண்டும்."
+    },
+    {
+      "question": "If Quotient is 5 and Divisor is 4, what is the Dividend? || ஈவு 5, வகுத்தி 4 எனில் வகுபடும் எண் என்ன?",
+      "options": ["20", "9", "1", "16"],
+      "answer": 0,
+      "explanation": "Dividend = Divisor X Quotient (4 X 5 = 20). || வகுபடும் எண் = வகுத்தி X ஈவு (4 X 5 = 20)."
+    },
+    {
+      "question": "24 flowers in 3 vases. How many per vase? || 24 மலர்கள், 3 குவளைகள். ஒரு குவளையில் எத்தனை மலர்கள் இருக்கும்?",
+      "options": ["6", "7", "9", "8"],
+      "answer": 3,
+      "explanation": "24 ÷ 3 = 8. || 24 ÷ 3 = 8 மலர்கள்."
+    },
+    {
+      "question": "48 gooseberries packed 12 per heap. How many heaps? || 48 நெல்லிக்கனிகளை 12 வீதம் கூறாக்கினால் எத்தனை கூறுகள் கிடைக்கும்?",
+      "options": ["3", "5", "4", "6"],
+      "answer": 2,
+      "explanation": "48 ÷ 12 = 4. || 48 ÷ 12 = 4."
+    },
+    {
+      "question": "The answer of 10 ÷ 2 is the same as 20 divided by what? || 10 ÷ 2-ன் விடை, 20-ஐ எதால் வகுத்தால் கிடைக்கும்?",
+      "options": ["2", "4", "5", "10"],
+      "answer": 1,
+      "explanation": "10 ÷ 2 = 5. 20 ÷ 4 = 5. || 10 ÷ 2 = 5. அதே விடை 5 கிடைக்க 20 ஐ 4 ஆல் வகுக்க வேண்டும்."
+    },
+    {
+      "question": "Divide what by what to get 6 from 48? || 48 ஐ எந்த எண்ணால் வகுத்தால் ஈவு 6 கிடைக்கும்?",
+      "options": ["7", "8", "9", "6"],
+      "answer": 1,
+      "explanation": "48 ÷ 8 = 6. || 48 ÷ 8 = 6 (6 X 8 = 48)."
+    },
+    {
+      "question": "In 10 ÷ 2 = 5, what is '10'? || 10 ÷ 2 = 5 என்ற கூற்றில் '10' என்பது எதனைக் குறிக்கிறது?",
+      "options": ["Quotient", "Divisor", "Dividend", "Remainder"],
+      "answer": 2,
+      "explanation": "10 is the total being split. || வகுக்கப்படும் மொத்தத் தொகையான 10 என்பது வகுபடும் எண் ஆகும்."
+    },
+    {
+      "question": "Calculate: 45 ÷ 5 = ?",
+      "options": ["8", "10", "7", "9"],
+      "answer": 3,
+      "explanation": "9 times 5 is 45. || 9 X 5 = 45."
+    },
+    {
+      "question": "Calculate: 14 ÷ 7 = ?",
+      "options": ["2", "3", "4", "7"],
+      "answer": 0,
+      "explanation": "2 times 7 is 14. || 7 ஆம் வாய்ப்பாட்டில் 2 X 7 = 14."
+    },
+    {
+      "question": "21 ÷ 3 = ?",
+      "options": ["6", "8", "7", "9"],
+      "answer": 2,
+      "explanation": "7 times 3 is 21. || 7 X 3 = 21."
+    },
+    {
+      "question": "50 ÷ 5 = ?",
+      "options": ["5", "10", "15", "20"],
+      "answer": 1,
+      "explanation": "10 times 5 is 50. || 10 X 5 = 50."
+    },
+    {
+      "question": "What happens if you divide any number by 1? || ஒரு எண்ணை 1 ஆல் வகுத்தால் என்ன கிடைக்கும்?",
+      "options": ["Zero", "One", "Same number", "Impossible"],
+      "answer": 2,
+      "explanation": "Any number divided by 1 remains unchanged. || எந்தவொரு எண்ணையும் 1 ஆல் வகுக்கும் போது அதே எண்ணே ஈவாகக் கிடைக்கும்."
+    }
+  ]
+}

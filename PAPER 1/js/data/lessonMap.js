@@ -2359,7 +2359,49 @@ export const lessonMap = {
       "local": true,
       "filename": "mat_6_t1_l9",
       "grade": "6",
-      "title": "முழு எண்கள் மற்றும் அவற்றின் பண்புகள்"
+      "title": "முழு எண்கள் மற்றும் அவற்றின் பண்பப்புகள்"
+    },
+    "mat_3_t3_l1": {
+      "local": true,
+      "filename": "mat_3_t3_l1",
+      "grade": "3",
+      "title": "வடிவியல்"
+    },
+    "mat_3_t3_l2": {
+      "local": true,
+      "filename": "mat_3_t3_l2",
+      "grade": "3",
+      "title": "எண்கள் (வகுத்தல்)"
+    },
+    "mat_3_t3_l3": {
+      "local": true,
+      "filename": "mat_3_t3_l3",
+      "grade": "3",
+      "title": "அமைப்புகள்"
+    },
+    "mat_3_t3_l4": {
+      "local": true,
+      "filename": "mat_3_t3_l4",
+      "grade": "3",
+      "title": "அளவைகள் (முகத்தல் அளவை)"
+    },
+    "mat_3_t3_l5": {
+      "local": true,
+      "filename": "mat_3_t3_l5",
+      "grade": "3",
+      "title": "பணம்"
+    },
+    "mat_3_t3_l6": {
+      "local": true,
+      "filename": "mat_3_t3_l6",
+      "grade": "3",
+      "title": "காலம்"
+    },
+    "mat_3_t3_l7": {
+      "local": true,
+      "filename": "mat_3_t3_l7",
+      "grade": "3",
+      "title": "தகவல் செயலாக்கம்"
     }
   },
   "revision": {

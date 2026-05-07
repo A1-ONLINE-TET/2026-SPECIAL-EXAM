@@ -1,0 +1,310 @@
+{
+  "lesson_meta": {
+    "title": "Time - Chronological and Cyclic Events || நேரம் - கால முறை வரிசை மற்றும் கால சுழற்சி",
+    "code": "mat_3_t3_l6",
+    "grade": "3",
+    "term": "3",
+    "unit": "6",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson explains two key concepts of time: Chronological Order and Cyclic Events. Chronological order is the arrangement of events in the sequence they occur. Cyclic events are those that repeat regularly in the same pattern, like day and night. Events that do not repeat in a loop are called non-cyclic events.\n\nஇப்பாடம் 'கால முறை வரிசை' (Chronological order) மற்றும் 'கால சுழற்சி நிகழ்வுகள்' (Cyclic events) ஆகியவற்றை விளக்குகிறது. நிகழ்வுகள் நடைபெறும் வரிசையை முறைப்படுத்துவது கால முறை வரிசை எனப்படும். ஒரே மாதிரியாகத் திரும்பத் திரும்ப நடைபெறும் நிகழ்வுகள் 'சுழற்சி' எனப்படும். மீளவும் நிகழாத நிகழ்வுகள் சுழற்சியற்ற நிகழ்வுகள் எனப்படும்."
+    },
+    {
+      "type": "section",
+      "title": "Chronological Order || கால முறை வரிசை",
+      "content": "Arranging events based on the time they happen is called Chronological Order.\nExamples:\n• **Human Growth**: Birth -> Walking -> School -> College.\n• **Plant Growth**: Seed -> Sapling -> Flower -> Fruit.\n• **Cooking (Idli)**: Soaking rice -> Grinding -> Fermenting -> Steaming.\n\nநிகழ்வுகளை அவை நடைபெறும் வரிசையில் முறைப்படுத்துவதே கால முறை வரிசை ஆகும். (எ.கா: மனித வளர்ச்சி நிலைகள், வரலாற்று நிகழ்வுகள், ஒரு வேலையைச் செய்யும் படிநிலைகள்)."
+    },
+    {
+      "type": "section",
+      "title": "Cyclic Events || கால சுழற்சி நிகழ்வுகள்",
+      "content": "Events that repeat in the same order again and again are cyclic.\nExamples:\n• **Day and Night**: Sunrise and sunset repeat every day.\n• **Days of the Week**: Monday follows Sunday every week.\n• **Seasons**: Summer, Monsoon, and Winter repeat every year.\n• **Clock**: Hands move around the same numbers repeatedly.\n\nஒரே மாதிரியாக அதிக மாற்றமில்லாமல் திரும்பத் திரும்ப நடைபெறும் நிகழ்வுகள் ஒரு சுழற்சியைக் குறிக்கின்றன. (எ.கா: பகல்-இரவு, வாரத்தின் நாட்கள், வருடத்தின் பருவங்கள், கடிகாரச் சுழற்சி)."
+    },
+    {
+      "type": "section",
+      "title": "Non-Cyclic Events || சுழற்சியற்ற நிகழ்வுகள்",
+      "content": "Events that do not return to the starting point or repeat the same way are non-cyclic.\nExamples:\n• **Building a House**: Once built, you don't start from the first brick again.\n• **Growing up**: An adult cannot become a baby again.\n• **Tree Growth**: A grown tree does not go back into a seed.\n\nசில நிகழ்வுகள் மீளவும் நிகழாது. இவை சுழற்சியை ஏற்படுத்தாது. (எ.கா: வீடு கட்டுதல், செல்லப் பிராணியின் வளர்ச்சி, ஒருமுறை செய்த சமையல்)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the method of arranging events in the order they occur? || நிகழ்வுகளை அவை நடைபெறும் வரிசையில் வரிசைப்படுத்தும் முறை எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": ["Time Cycle", "Chronological Order", "Ascending Order", "Descending Order"],
+      "answer": 1,
+      "explanation": "Arranging events based on time sequence is Chronological Order. || நேரத்தின் அடிப்படையில் ஒன்றன்பின் ஒன்றாக வரிசைப்படுத்துவதே கால முறை வரிசை எனப்படும்."
+    },
+    {
+      "question": "What is the first step in making Idlis? || இட்லி தயாரிக்கும் முறையில் முதல் நிகழ்வு எது?",
+      "options": ["Steaming", "Grinding", "Soaking rice and dal", "Fermenting overnight"],
+      "answer": 2,
+      "explanation": "You must soak the grains first. || இட்லி தயாரிக்கும் போது முதலில் அரிசியும் உளுந்தும் தண்ணீரில் ஊற வைக்கப்படும்."
+    },
+    {
+      "question": "After grinding and adding salt for Idli batter, what is the next step? || இட்லி மாவை அரைத்து உப்பு சேர்த்த பின் அடுத்த நிகழ்வு என்ன?",
+      "options": ["Steaming", "Eating", "Soaking rice", "Fermenting overnight"],
+      "answer": 3,
+      "explanation": "The batter needs time to ferment. || மாவை அரைத்த பிறகு, அது புளிப்பதற்காக ஒரு இரவு முழுவதும் அப்படியே வைக்கப்படும்."
+    },
+    {
+      "question": "What are events that repeat without much change called? || திரும்பத் திரும்ப நடைபெறும் நிகழ்வுகள் எதைக் குறிக்கின்றன?",
+      "options": ["Cycle", "Growth", "History", "Chronological Order"],
+      "answer": 0,
+      "explanation": "Repeating patterns like day-night form a cycle. || பகல்-இரவு போலத் திரும்பத் திரும்ப நடக்கும் நிகழ்வுகள் சுழற்சி (Cycle) எனப்படுகின்றன."
+    },
+    {
+      "question": "Which of these is an example of chronological order? || கால முறை வரிசைக்குப் பொருத்தமான எடுத்துக்காட்டு எது?",
+      "options": ["Educational qualification", "Family tree", "Historical events", "All of the above"],
+      "answer": 3,
+      "explanation": "All these follow a time sequence. || கல்வித் தகுதி, குடும்ப வரைபடம், வரலாற்று நிகழ்வுகள் ஆகிய அனைத்தும் கால முறை வரிசைக்கு உதாரணங்கள்."
+    },
+    {
+      "question": "If 'Cooking' happens first, what is the next logical event? || முதலில் 'சமைத்தல்' நிகழ்ந்தால், அடுத்ததாக நடைபெறும் நிகழ்வு என்ன?",
+      "options": ["Washing dishes", "Buying vegetables", "Eating", "Sleeping"],
+      "answer": 2,
+      "explanation": "We eat after cooking. || உணவைச் சமைத்த பிறகு அடுத்த நிகழ்வாகச் சாப்பிடுதல் நடைபெறும்."
+    },
+    {
+      "question": "Which happens first: 'Reading' or 'Taking book from bag'? || எது முதலில் நடைபெறும்: 'வாசித்தல்' அல்லது 'பையிலிருந்து புத்தகத்தை எடுத்தல்'?",
+      "options": ["Reading", "Taking book from bag", "Both at same time", "Don't know"],
+      "answer": 1,
+      "explanation": "You must take the book out before you can read it. || புத்தகத்தை எடுத்த பின்னரே அதைப் படிக்க முடியும்."
+    },
+    {
+      "question": "In 'Drawing' and 'Coloring', which happens NEXT? || வரைபடம் வரைதல் மற்றும் வண்ணம் தீட்டுதல் ஆகியவற்றில் 'அடுத்ததாக' நடப்பது எது?",
+      "options": ["None", "Coloring", "Drawing", "Buying paper"],
+      "answer": 1,
+      "explanation": "You color after drawing the outline. || முதலில் படத்தை வரைந்து முடித்த பிறகே அதற்கு வண்ணம் தீட்ட முடியும்."
+    },
+    {
+      "question": "In Kayalvizhi's family chronological order, who comes last? || கயல்விழியின் குடும்பத்தில் கால முறை வரிசைப்படி கடைசியாக வருபவர் யார்?",
+      "options": ["Grandmother", "Younger brother", "Kayalvizhi", "Grandfather"],
+      "answer": 1,
+      "explanation": "The youngest child is last in a family tree. || தாத்தா முதல் வரிசைப்படுத்தி இறுதியில் இளைய சகோதரன் வருகிறான்."
+    },
+    {
+      "question": "Which is the correct chronological order for human growth? || மனித வளர்ச்சியின் சரியான கால முறை வரிசை எது?",
+      "options": ["School -> Birth -> Walking", "Walking -> Birth -> School", "Birth -> Walking -> School", "Walking -> School -> Birth"],
+      "answer": 2,
+      "explanation": "Birth occurs before walking or schooling. || முதலில் பிறப்பு, பின் நடப்பது, அதன் பிறகே பள்ளிக்குச் செல்வது."
+    },
+    {
+      "question": "In plant growth, what follows 'Flowering'? || செடியின் வளர்ச்சியில் 'பூ பூத்தல்' நிகழ்வுக்கு அடுத்ததாக வருவது எது?",
+      "options": ["Sowing seeds", "Bearing fruit", "Ripening", "Growth of plant"],
+      "answer": 1,
+      "explanation": "Flowers turn into fruit/vegetables. || பூ பூத்த பிறகு அந்தக் பூ காயாக மாறும் (காய் காய்த்தல்)."
+    },
+    {
+      "question": "Which event creates a cycle? || பின்வருவனவற்றில் எது கால சுழற்சியை ஏற்படுத்துகிறது?",
+      "options": ["Alternate day and night", "Growing a tree", "Building a house", "Making idlis"],
+      "answer": 0,
+      "explanation": "Day and night follow each other repeatedly. || பகலும் இரவும் மாறி மாறி வருவது ஒரு சுழற்சியாகும்."
+    },
+    {
+      "question": "Which is a NON-CYCLIC event? || சுழற்சியை ஏற்படுத்தாத (Non-cyclic) நிகழ்வு எது?",
+      "options": ["Clock movement", "Days of week", "Seasons", "Building a house"],
+      "answer": 3,
+      "explanation": "Once a house is built, the process doesn't restart. || வீடு கட்டுவது மீளவும் நிகழாது, எனவே அது சுழற்சி அல்ல."
+    },
+    {
+      "question": "What type of event is 'Pet's growth'? || 'செல்லப் பிராணியின் வளர்ச்சி' என்பது எவ்வகை நிகழ்வு?",
+      "options": ["Cyclic", "Non-cyclic", "Not chronological", "Fast event"],
+      "answer": 1,
+      "explanation": "A grown animal cannot return to being a baby. || விலங்கு வளர்ந்த பிறகு மீண்டும் குட்டியாக மாறாது, எனவே இது சுழற்சி அல்ல."
+    },
+    {
+      "question": "Days of the week are an example of? || வாரத்தின் நாட்கள் எதற்கான எடுத்துக்காட்டு?",
+      "options": ["Non-cyclic", "Time Cycle", "Historical event", "Education"],
+      "answer": 1,
+      "explanation": "The week restarts every Sunday/Monday. || வாரத்தின் நாட்கள் முடிந்து மீண்டும் தொடங்குவதால் அது கால சுழற்சி."
+    },
+    {
+      "question": "Analogy: Growing a tree : Non-cyclic :: Clock movement : ? || ஒப்புமை: மரம் வளர்தல் : சுழற்சி அல்ல :: கடிகாரச் சுழற்சி : ?",
+      "options": ["Chronological Order", "Is Cyclic", "Natural event", "Artificial event"],
+      "answer": 1,
+      "explanation": "Clock hands repeat the same path. || கடிகாரத்தின் முட்கள் மீண்டும் மீண்டும் சுற்றுவதால் அது சுழற்சி ஆகும்."
+    },
+    {
+      "question": "Assertion (A): Sunrise and sunset are a cycle. Reason (R): This event repeats without much change. || கூற்று (A): சூரிய உதயம் ஒரு சுழற்சி. காரணம் (R): இது அதிக மாற்றமில்லாமல் திரும்பத் திரும்ப நடக்கிறது.",
+      "options": ["A true, R false", "A false, R true", "Both true, R explains A", "Both true, R doesn't explain A"],
+      "answer": 2,
+      "explanation": "Repetition is the definition of a cycle. || மீண்டும் மீண்டும் அதே வரிசையில் நடந்தால் அது சுழற்சி."
+    },
+    {
+      "question": "Match: (1) Opening door, (2) Boarding train || பொருத்துக: (1) கதவைத் திறப்பது, (2) தொடர்வண்டியில் ஏறுவது",
+      "options": ["1-Enter room, 2-Reach destination", "1-Reach, 2-Enter", "Both Reach", "Both Enter"],
+      "answer": 0,
+      "explanation": "Open -> Enter; Board -> Arrive. || கதவைத் திறந்த பின் நுழைவோம். வண்டியில் ஏறிய பின் செல்வோம்."
+    },
+    {
+      "question": "Correct order for higher education sequence? || கல்வித் தகுதியின் சரியான கால முறை வரிசை எது?",
+      "options": ["College -> 10th -> 12th", "12th -> 10th -> College", "10th -> 12th -> College", "12th -> College -> 10th"],
+      "answer": 2,
+      "explanation": "Schooling must be completed before college. || 10, 12 ஆம் வகுப்பை முடித்த பின்னரே கல்லூரியில் சேர முடியும்."
+    },
+    {
+      "question": "Which happens first: 2nd Grade or 3rd Grade? || எது முதலில் நடைபெறும்: 2 ஆம் வகுப்பு அல்லது 3 ஆம் வகுப்பு?",
+      "options": ["2nd Grade", "3rd Grade", "Both same year", "Don't know"],
+      "answer": 0,
+      "explanation": "You finish one grade before the next. || இரண்டாம் வகுப்பை முடித்த பிறகே மூன்றாம் வகுப்பிற்குச் செல்ல முடியும்."
+    },
+    {
+      "question": "Seasons of the year are which type of event? || வருடத்தின் பருவங்கள் எந்த வகை நிகழ்வில் வரும்?",
+      "options": ["Non-cyclic", "Cyclic", "History", "Education"],
+      "answer": 1,
+      "explanation": "Seasons repeat every year. || பருவங்கள் மாறி மாறி வருவதால் இது ஒரு சுழற்சியாகும்."
+    },
+    {
+      "question": "Correct sequence in plant growth? || ஒரு தாவரத்தின் வளர்ச்சியில் சரியான வரிசை எது?",
+      "options": ["Flower -> Seed -> Fruit", "Fruit -> Plant -> Flower", "Plant -> Flower -> Fruit", "Fruit -> Flower -> Ripen"],
+      "answer": 2,
+      "explanation": "A plant grows, then flowers, then bears fruit. || செடி வளர்ந்த பிறகே பூக்கும். பூத்த பிறகே காய்க்கும்."
+    },
+    {
+      "question": "Why is 'Making Idlis' NOT a cyclic event? || 'இட்லி தயாரித்தல்' ஏன் சுழற்சி நிகழ்வு அல்ல?",
+      "options": ["Happens repeatedly", "Steps are sequential, can't be reversed", "Natural event", "Clock based"],
+      "answer": 1,
+      "explanation": "Cooked idli cannot become batter again. || இட்லி வெந்த பிறகு மீண்டும் அரிசியாக மாறாது, எனவே அது சுழலாது."
+    },
+    {
+      "question": "In chronological order, who was born first? || கால முறை வரிசைப்படி முதலில் பிறந்தவர் யார்?",
+      "options": ["Father", "Younger brother", "Grandfather", "All same age"],
+      "answer": 2,
+      "explanation": "Grandfather is the oldest generation. || கால முறை வரிசைப்படி தாத்தாவே முதலில் பிறந்தவர்."
+    },
+    {
+      "question": "Correct order for your morning routine? || காலையில் பள்ளிக்குக் கிளம்பும் சரியான வரிசை எது?",
+      "options": ["Go to school -> Bathe -> Wake up", "Wake up -> Bathe -> Go to school", "Bathe -> Go to school -> Wake up", "Wake up -> Go to school -> Bathe"],
+      "answer": 1,
+      "explanation": "Wake -> Clean -> Leave. || எழுந்து, குளித்து, பள்ளிக்குச் செல்லுதல்."
+    },
+    {
+      "question": "What follows Sunday in the week cycle? || ஞாயிற்றுக்கிழமைக்கு அடுத்ததாக வரும் சுழற்சி நாள் எது?",
+      "options": ["Tuesday", "Monday", "Saturday", "Wednesday"],
+      "answer": 1,
+      "explanation": "Monday follows Sunday. || ஞாயிறு முடிந்து திங்கள் தொடங்கும்."
+    },
+    {
+      "question": "In train travel, 'Arriving' is what type of step? || 'செல்ல வேண்டிய இடத்தைச் சென்றடைதல்' என்பது எவ்வகை நிகழ்வு?",
+      "options": ["First (Initial)", "Next (Subsequent)", "Cyclic", "Not chronological"],
+      "answer": 1,
+      "explanation": "Arrival happens after travel begins. || வண்டியில் ஏறிய பின்னரே (மு) செல்ல வேண்டிய இடத்தை அடைய (அ) முடியும்."
+    },
+    {
+      "question": "Arranging family members by birth year is? || குடும்ப உறுப்பினர்களைப் பிறந்த வருடப்படி வரிசைப்படுத்துவது?",
+      "options": ["Cyclic", "Chronological Order", "Historical", "Geographical"],
+      "answer": 1,
+      "explanation": "Time sequence of birth is chronological. || பிறந்த வருடத்தின் அடிப்படையில் வரிசைப்படுத்துவது கால முறை வரிசையாகும்."
+    },
+    {
+      "question": "Which is NOT a chronological order? || கால முறை வரிசையைக் குறிக்காதது எது?",
+      "options": ["Family tree", "Day-night change", "Historical events", "Education"],
+      "answer": 1,
+      "explanation": "Day-night is a cycle. || பகல்-இரவு மாற்றம் என்பது ஒரு கால சுழற்சி ஆகும்."
+    },
+    {
+      "question": "Assertion (A): Tree growth is a cycle. Reason (R): Trees grow every day. || கூற்று (A): மரம் வளர்தல் ஒரு சுழற்சி. காரணம் (R): மரம் தினமும் வளர்கிறது.",
+      "options": ["A true, R false", "A false, R true", "Both true", "Both false"],
+      "answer": 1,
+      "explanation": "Growth is sequential, not circular. || மரம் வளரும், ஆனால் வளர்ந்த மரம் மீண்டும் விதையாக மாறாது."
+    },
+    {
+      "question": "Which step is 'Grinding batter' in making Idlis? || இட்லி தயாரிப்பதில் 'மாவை அரைத்தல்' எத்தனையாவது படி?",
+      "options": ["1st", "2nd", "3rd", "4th"],
+      "answer": 1,
+      "explanation": "It follows soaking. || இரண்டாவதாக ஊறிய பொருள்களை அரைத்து மாவாக மாற்றுவார்."
+    },
+    {
+      "question": "HOTS: Does 'Sowing seeds' happen immediately after 'Bearing fruit'? || காய் காய்த்த பிறகு நேரடியாக 'விதை விதைத்தல்' நடக்குமா?",
+      "options": ["Yes", "No, ripening happens next", "Both together", "Don't know"],
+      "answer": 1,
+      "explanation": "Fruit must ripen first. || காய்க்குப் பிறகே பழம் வரும்."
+    },
+    {
+      "question": "Identify cyclic events. || சுழற்சி உள்ள நிகழ்வுகளைக் கண்டறிக.",
+      "options": ["Coming to school", "Clock movement", "Days of week", "All of the above"],
+      "answer": 3,
+      "explanation": "These all repeat regularly. || இந்த மூன்றுமே மீண்டும் மீண்டும் நடக்கும் சுழற்சி நிகழ்வுகள்."
+    },
+    {
+      "question": "Which list contains only NON-CYCLIC events? || சுழற்சியற்ற நிகழ்வுகளின் பட்டியல் எது?",
+      "options": ["Building house, making idli, pet's growth", "Day, night, seasons", "Clock, days, months", "Sunrise, sunset"],
+      "answer": 0,
+      "explanation": "These don't loop back to start. || இவை ஒரு முறை மட்டும் நடைபெறும் நிகழ்வுகள்."
+    },
+    {
+      "question": "Analogy: Day, Night : Cyclic :: Making Idli : ? || ஒப்புமை: பகல், இரவு : சுழற்சி :: இட்லி சமைத்தல் : ?",
+      "options": ["Cyclic", "Chronological Order", "History", "Education"],
+      "answer": 1,
+      "explanation": "Cooking has steps in order. || இட்லி சமைப்பது பல படிநிலைகளைக் கொண்ட ஒரு கால முறை வரிசையாகும்."
+    },
+    {
+      "question": "How are historical events arranged? || ஒரு வரலாற்று நிகழ்வை எவ்வாறு வரிசைப்படுத்துவோம்?",
+      "options": ["By location", "By year (chronologically)", "By size", "Alphabetically"],
+      "answer": 1,
+      "explanation": "History uses time sequence. || வரலாற்று நிகழ்வுகள் ஆண்டின் அடிப்படையில் கால முறை வரிசைப்படுத்தப்படும்."
+    },
+    {
+      "question": "Which happens first: 'Opening' or 'Entering'? || எது முதலில்: 'திறத்தல்' அல்லது 'நுழைதல்'?",
+      "options": ["Opening", "Entering", "Both together", "None"],
+      "answer": 0,
+      "explanation": "Open before you enter. || கதவைத் திறந்த பின்னரே உள்ளே நுழைய முடியும்."
+    },
+    {
+      "question": "HOTS: Can you steam idlis immediately after grinding batter? || மாவை அரைத்தவுடன் இட்லி சுட முடியுமா?",
+      "options": ["Yes", "No, must ferment overnight", "If you add water", "If you add salt"],
+      "answer": 1,
+      "explanation": "Fermentation is a necessary step in the order. || புளிக்க வைத்தல் நிகழ்ந்த பிறகே இட்லி செய்ய முடியும்."
+    },
+    {
+      "question": "Match: (1) Cyclic, (2) Chronological || பொருத்துக: (1) சுழற்சி, (2) கால முறை வரிசை",
+      "options": ["1-Clock, 2-Family Tree", "1-Family Tree, 2-Clock", "Both Family", "Both Clock"],
+      "answer": 0,
+      "explanation": "Clock repeats, Tree is sequence. || கடிகாரம் மீண்டும் மீண்டும் சுற்றுவது சுழற்சி. குடும்ப வரைபடம் வரிசை."
+    },
+    {
+      "question": "Which day is between Thursday and Saturday? || வியாழக்கிழமைக்கும் சனிக்கிழமைக்கும் இடையே உள்ள நாள் எது?",
+      "options": ["Monday", "Sunday", "Friday", "Wednesday"],
+      "answer": 2,
+      "explanation": "Friday is between them. || வியாழன் -> வெள்ளி -> சனி என வரும்."
+    },
+    {
+      "question": "HOTS: Is building a house a cyclic event? || வீடு கட்டுவது ஒரு சுழற்சி நிகழ்வா?",
+      "options": ["Yes, work happens daily", "No, it's non-cyclic", "Cyclic once a year", "Don't know"],
+      "answer": 1,
+      "explanation": "The completed house is a final state. || ஒரு வீட்டை கட்டி முடித்துவிட்டால் அது மீளத் தொடங்காது."
+    },
+    {
+      "question": "HOTS: Minute hand going from 12 back to 12 is? || நிமிட முள் 12 இலிருந்து மீண்டும் 12 ஐ வந்தடைவது?",
+      "options": ["Building", "History", "A Cycle (1 hour)", "A Sequence"],
+      "answer": 2,
+      "explanation": "It repeats the same path. || மீண்டும் புறப்பட்ட இடத்திற்கே வந்து செல்வதால் அது ஒரு கால சுழற்சியாகும்."
+    },
+    {
+      "question": "HOTS: When does 'Joining 1st Grade' happen in human growth? || 'முதல் வகுப்பில் சேர்தல்' எதற்குப் பிறகு நடக்கும்?",
+      "options": ["Birth", "Walking", "Both Birth and Walking", "3rd Grade"],
+      "answer": 2,
+      "explanation": "Sequence: Birth -> Walking -> School. || பிறந்து, நடக்கத் தொடங்கிய பின்னரே பள்ளிக்குச் செல்வார்கள்."
+    },
+    {
+      "question": "What cycle does the sun create? || சூரியன் எந்த சுழற்சியை ஏற்படுத்துகிறது?",
+      "options": ["Day-night", "Seasons", "Week", "Months"],
+      "answer": 0,
+      "explanation": "Day-night. || சூரியன் உதிப்பது பகலையும், மறைவது இரவையும் குறிக்கிறது."
+    },
+    {
+      "question": "What happens if an event does NOT loop back to the start? || நிகழ்வுகள் மீண்டும் மீண்டும் நிகழாவிட்டால்?",
+      "options": ["Cyclic", "Non-cyclic", "Fast", "Seasonal Cycle"],
+      "answer": 1,
+      "explanation": "Linear events are non-cyclic. || மீளவும் நிகழாதவை சுழற்சியை ஏற்படுத்தாத நிகழ்வுகள்."
+    },
+    {
+      "question": "HOTS: Summer coming back after a few months is? || வெயில் காலம் சில மாதங்களுக்குப் பின் மீண்டும் வருவது?",
+      "options": ["Not cyclic", "Time Cycle", "History", "Human growth"],
+      "answer": 1,
+      "explanation": "Annual weather loops are cycles. || பருவங்கள் மீண்டும் மீண்டும் அதே வரிசையில் வருவதால் இது சுழற்சியாகும்."
+    }
+  ]
+}

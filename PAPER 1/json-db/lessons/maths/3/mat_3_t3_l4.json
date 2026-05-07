@@ -1,0 +1,268 @@
+{
+  "lesson_meta": {
+    "title": "Measurements - Capacity || அளவைகள் - கொள்ளளவு",
+    "code": "mat_3_t3_l4",
+    "grade": "3",
+    "term": "3",
+    "unit": "4",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson explains how to measure the capacity (volume) of liquids. It introduces non-standard units like cups and pots, highlights the confusion they can cause, and explains the importance of standard units like Liters (L) and Milliliters (ml) for accurate measurement.\n\nஇப்பாடம் திரவங்களின் கொள்ளளவை (Capacity) அளப்பது பற்றியதாகும். குவளை, சொம்பு போன்ற திட்டமில்லா அளவைகளைப் பயன்படுத்துவதில் உள்ள குழப்பங்களையும், துல்லியமாக அளக்க லிட்டர் (L) மற்றும் மில்லி லிட்டர் (ml) போன்ற திட்ட அளவைகள் ஏன் தேவை என்பதையும் இப்பாடம் விளக்குகிறது."
+    },
+    {
+      "type": "section",
+      "title": "Non-standard Units || திட்டமில்லா அளவைகள்",
+      "content": "Measuring capacity using everyday objects like cups, pots, or tumblers is known as non-standard measurement. \nExample: \n• 1 Pot = 5 Cups.\n• 1 Jug = 3 Cups.\n*Limitation*: Different sizes of cups can lead to confusion (Meena's story), making standard units necessary.\n\nகுவளை, சொம்பு போன்ற அன்றாடப் பொருள்களைக் கொண்டு திரவங்களை அளப்பது திட்டமில்லா அளவை முறை எனப்படும். ஒவ்வொருவர் வீட்டிலும் உள்ள குவளை வெவ்வேறு அளவுகளில் இருக்கும் என்பதால் துல்லியமான அளவு கிடைக்காது. இதுவே திட்ட அளவைகளின் தேவையை உணர்த்துகிறது."
+    },
+    {
+      "type": "section",
+      "title": "Standard Units: Liter and Milliliter || திட்ட அளவைகள்: லிட்டர் மற்றும் மில்லி லிட்டர்",
+      "content": "To avoid confusion, we use standard units:\n• **Liter (L)**: Used for measuring large quantities of liquids (e.g., Water tanks, Petrol, Cooking oil).\n• **Milliliter (ml)**: Used for measuring small quantities (e.g., Medicine, Vinegar, small Juice packets).\n*Tools*: Measuring jars are used in shops and petrol stations.\n\nதிரவங்களை அளக்க உலகளாவிய திட்ட அலகுகள் பயன்படுத்தப்படுகின்றன:\n• **லிட்டர் (லி)**: அதிக அளவிலான திரவங்களை அளக்கப் பயன்படுகிறது (எ.கா: தண்ணீர் தொட்டி, பெட்ரோல், சமையல் எண்ணெய்).\n• **மில்லி லிட்டர் (மிலி)**: குறைந்த அளவிலான திரவங்களை அளக்கப் பயன்படுகிறது (எ.கா: மருந்து, வினிகர்)."
+    },
+    {
+      "type": "section",
+      "title": "Daily Life Examples || அன்றாட வாழ்வின் உதாரணங்கள்",
+      "content": "• Cough Syrup: Milliliters (ml)\n• Water in a Tank: Liters (L)\n• Petrol for vehicles: Liters (L)\n• Vinegar for cooking: Milliliters (ml)\n• 1 Liter = 1000 Milliliters.\n\n• இருமல் மருந்து: மில்லி லிட்டர் (மிலி)\n• தொட்டி நீர்: லிட்டர் (லி)\n• வாகன எரிபொருள்: லிட்டர் (லி)\n• 1 லிட்டர் = 1000 மில்லி லிட்டர்."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which standard unit is used to measure the capacity of a container? || ஒரு கொள்கலனின் கொள்ளளவை அளக்கக்கூடிய திட்ட அலகு எது?",
+      "options": ["Meter", "Kilogram", "Liter", "Centimeter"],
+      "answer": 2,
+      "explanation": "Capacity of liquids is measured in Liters. || திரவங்களின் கொள்ளளவை அளக்கும் திட்ட அலகு லிட்டர் ஆகும்."
+    },
+    {
+      "question": "Which unit is used for measuring small quantities of liquid? || குறைந்த அளவிலான திரவங்களை அளக்கப் பயன்படும் அலகு எது?",
+      "options": ["Kilometer", "Milliliter (ml)", "Liter (L)", "Milligram"],
+      "answer": 1,
+      "explanation": "Milliliters are used for small volumes like medicine. || சிறிய அளவுகளை அளக்க மில்லி லிட்டர் பயன்படுகிறது."
+    },
+    {
+      "question": "Why did Meena get confused with her mother's request for water? || மீனாவிற்கும் அவளது அம்மாவிற்கும் இடையே எதனால் குழப்பம் ஏற்பட்டது?",
+      "options": ["Water was hot", "Different sized cups were used", "No water was available", "Milk was spilled"],
+      "answer": 1,
+      "explanation": "The term 'cup' was used for two different sizes, causing confusion. || பெரிய மற்றும் சிறிய குவளைகளை மாற்றிப் பயன்படுத்தியதால் மீனா குழப்பமடைந்தாள்."
+    },
+    {
+      "question": "Give an example of a non-standard unit of capacity. || திட்டமில்லா அளவைகளுக்கு (Non-standard units) ஓர் எடுத்துக்காட்டு தருக.",
+      "options": ["Liter", "Milliliter", "Glass (Cup)", "Measuring Jar"],
+      "answer": 2,
+      "explanation": "A cup size varies, making it non-standard. || குவளை, சொம்பு போன்றவை இடத்திற்கு இடம் மாறுபடும் என்பதால் அவை திட்டமில்லா அளவைகள் ஆகும்."
+    },
+    {
+      "question": "If 1 jug = 3 cups, how many cups fill 2 jugs? || ஒரு சொம்பில் 3 குவளை தண்ணீர் பிடிக்கும் எனில், 2 சொம்புகளில் எத்தனை குவளை பிடிக்கும்?",
+      "options": ["5 cups", "6 cups", "3 cups", "9 cups"],
+      "answer": 1,
+      "explanation": "3 + 3 = 6. || 1 சொம்பு = 3 குவளைகள். எனவே 2 சொம்புகள் = 6 குவளைகள்."
+    },
+    {
+      "question": "A pot holds 5 cups. How many pots can you fill with 15 cups? || ஒரு பானையில் 5 குவளைகள் பிடிக்கும். 15 குவளைகளால் எத்தனை பானைகளை நிரப்பலாம்?",
+      "options": ["2 pots", "4 pots", "3 pots", "5 pots"],
+      "answer": 2,
+      "explanation": "15 ÷ 5 = 3. || 15 ஐ 5 ஆல் வகுத்தால் 3 கிடைக்கும்."
+    },
+    {
+      "question": "Which container has the highest capacity among these? || அதிக கொள்ளளவு கொண்ட பாத்திரம் எது?",
+      "options": ["Water bottle", "Glass", "Metal Pot", "Jug"],
+      "answer": 2,
+      "explanation": "A metal pot generally holds more than a bottle or glass. || கொடுக்கப்பட்டவற்றில் குடம் மட்டுமே அதிக அளவு தண்ணீரைப் பிடிக்கும்."
+    },
+    {
+      "question": "How is cough syrup measured? || இருமல் மருந்து (Cough syrup) எந்த அலகில் அளக்கப்படும்?",
+      "options": ["Liter", "Milliliter", "Meter", "Kilogram"],
+      "answer": 1,
+      "explanation": "Medicines are taken in small doses (ml). || மருந்து குறைந்த அளவில் உட்கொள்ளப்படுவதால் மில்லி லிட்டரில் அளக்கப்படுகிறது."
+    },
+    {
+      "question": "Which unit measures water in an overhead tank? || வீட்டின் மேல் உள்ள தண்ணீர் தொட்டியில் உள்ள நீரின் அலகு எது?",
+      "options": ["Milliliter", "Gram", "Liter", "Centimeter"],
+      "answer": 2,
+      "explanation": "Tanks hold large volumes measured in Liters. || தண்ணீர் தொட்டி அதிக அளவு நீரைக் கொள்ளும் என்பதால் லிட்டர் அலகில் அளக்கப்படுகிறது."
+    },
+    {
+      "question": "Which container holds LESS than 1 Liter? || 1 லிட்டரை விடக் குறைவாகப் பிடிக்கும் பாத்திரம் எது?",
+      "options": ["Big Pot", "Water Tank", "5L Oil Can", "Medicine Bottle"],
+      "answer": 3,
+      "explanation": "A medicine bottle is small (ml). || மருந்துக்குப்பி மிகச் சிறியது, எனவே இது 1 லிட்டரை விடக் குறைவு."
+    },
+    {
+      "question": "Find the largest amount: 500ml, 100ml, 50ml, 75ml. || மிக அதிகமான அளவு எது: 500 மிலி, 100 மிலி, 50 மிலி, 75 மிலி?",
+      "options": ["50ml", "75ml", "100ml", "500ml"],
+      "answer": 3,
+      "explanation": "500 is the largest number in the list. || கொடுக்கப்பட்ட மில்லி லிட்டர் அளவுகளில் 500 மிலி என்பதே மிகப்பெரியது."
+    },
+    {
+      "question": "Find the smallest amount: 250ml, 350ml, 50ml, 750ml. || மிகக் குறைவான அளவு எது: 250 மிலி, 350 மிலி, 50 மிலி, 750 மிலி?",
+      "options": ["750ml", "250ml", "50ml", "350ml"],
+      "answer": 2,
+      "explanation": "50ml is the smallest quantity. || 50 மிலி என்பது மிகச் சிறிய கொள்ளளவாகும்."
+    },
+    {
+      "question": "How is petrol for vehicles measured? || வாகனங்களுக்கு நிரப்பப்படும் பெட்ரோல் எந்த அலகில் அளக்கப்படுகிறது?",
+      "options": ["Milliliter only", "Liter", "Kilogram", "Meter"],
+      "answer": 1,
+      "explanation": "Fuel is typically bought in Liters. || எரிபொருள் பொதுவாக லிட்டர் அலகில் அளக்கப்படுகிறது."
+    },
+    {
+      "question": "Identify the largest volume: 5L, 2L, 8L, 7L. || மிக அதிகமான அளவு எது: 5 லி, 2 லி, 8 லி, 7 லி?",
+      "options": ["8L", "5L", "7L", "2L"],
+      "answer": 0,
+      "explanation": "8 Liters is the most. || 8 என்பது பெரிய எண், எனவே 8 லிட்டர் அதிக அளவாகும்."
+    },
+    {
+      "question": "Identify the smallest volume: 10L, 3L, 9L, 6L. || மிகக் குறைவான அளவு எது: 10 லி, 3 லி, 9 லி, 6 லி?",
+      "options": ["6L", "10L", "9L", "3L"],
+      "answer": 3,
+      "explanation": "3 Liters is the least. || 3 லிட்டர் என்பது குறைவான அளவாகும்."
+    },
+    {
+      "question": "In which unit is vinegar for cooking measured? || சமையல் வினிகர் எந்த அலகில் அளக்கப்படும்?",
+      "options": ["Liter", "Milliliter", "Kilogram", "Gram"],
+      "answer": 1,
+      "explanation": "Only small amounts are used. || வினிகர் குறைந்த அளவிலேயே சமையலில் சேர்க்கப்படுவதால் மில்லி லிட்டர்."
+    },
+    {
+      "question": "Estimated amount of water used for brushing teeth? || பல் துலக்கப் பயன்படுத்தும் நீரின் அளவு தோராயமாக எதில் இருக்கும்?",
+      "options": ["50 Liters", "Milliliters or 1 Liter", "100 Liters", "10 Milliliters"],
+      "answer": 1,
+      "explanation": "A cup or mug is enough. || ஒரு சொம்பு அல்லது குவளை நீர் என்பது மில்லி லிட்டர் அல்லது சுமார் 1 லிட்டர் ஆகும்."
+    },
+    {
+      "question": "Largest value: 3L, 300ml, 30ml, 30L. || மிகப்பெரிய அளவு எது: 3 லி, 300 மிலி, 30 மிலி, 30 லி?",
+      "options": ["30L", "3L", "300ml", "30ml"],
+      "answer": 0,
+      "explanation": "30 Liters is the highest quantity. || லிட்டர் அலகில் 30 லிட்டர் என்பதே மிகப் பெரியது."
+    },
+    {
+      "question": "Smallest value: 3L, 350ml, 5ml, 40L. || மிகச் சிறிய அளவு எது: 3 லி, 350 மிலி, 5 மிலி, 40 லி?",
+      "options": ["5ml", "350ml", "3L", "40L"],
+      "answer": 0,
+      "explanation": "5ml is the smallest quantity shown. || 5 மிலி என்பது மிகச் சிறிய கொள்ளளவாகும்."
+    },
+    {
+      "question": "Unit for water used to mop the floor? || தரை துடைக்கப் பயன்படுத்தும் நீரின் அலகு எது?",
+      "options": ["Milliliter", "Gram", "Liter", "Meter"],
+      "answer": 2,
+      "explanation": "Buckets of water are measured in Liters. || தரை துடைக்க வாளி நிறைய நீர் (லிட்டர்) தேவைப்படும்."
+    },
+    {
+      "question": "A drum holds 10 cups. How many cups for half a drum? || ஒரு டிரம் - 10 குவளைகள். அரை டிரம் - எத்தனை குவளைகள்?",
+      "options": ["10 cups", "5 cups", "20 cups", "2 cups"],
+      "answer": 1,
+      "explanation": "10 / 2 = 5. || பாதி டிரம் = 5 குவளைகள்."
+    },
+    {
+      "question": "Match: (1) Medicine, (2) Water Tank || பொருத்துக: (1) மருந்து, (2) தண்ணீர் தொட்டி",
+      "options": ["1-ml, 2-L", "1-L, 2-ml", "Both L", "Both ml"],
+      "answer": 0,
+      "explanation": "ml for small volumes, L for large. || மருந்து-மிலி, தொட்டி-லிட்டர்."
+    },
+    {
+      "question": "Typical capacity of a student's water bottle? || பள்ளித் தண்ணீர் புட்டியின் அளவு பொதுவாக எப்படி இருக்கும்?",
+      "options": ["20 Liters", "10 Liters", "500ml to 1 Liter", "5 Milliliters"],
+      "answer": 2,
+      "explanation": "Standard bottles are 0.5L to 1L. || தண்ணீர் புட்டிகள் பொதுவாக 500 மிலி முதல் 1 லிட்டர் வரை இருக்கும்."
+    },
+    {
+      "question": "Largest volume: 250ml, 1500ml, 760ml, 75L. || அதிக அளவு எது: 250 மிலி, 1500 மிலி, 760 மிலி, 75 லி?",
+      "options": ["1500ml", "760ml", "250ml", "75L"],
+      "answer": 3,
+      "explanation": "75L is much larger than 1.5L. || 75 லிட்டர் என்பது மற்றவற்றை விட மிகவும் பெரியது."
+    },
+    {
+      "question": "Smallest volume: 2500ml, 100ml, 810ml, 175L. || குறைவான அளவு எது: 2500 மிலி, 100 மிலி, 810 மிலி, 175 லி?",
+      "options": ["2500ml", "100ml", "810ml", "175L"],
+      "answer": 1,
+      "explanation": "100ml is the least. || 100 மிலி என்பது மிகக் குறைவான கொள்ளளவாகும்."
+    },
+    {
+      "question": "Analogy: Length : Meter :: Capacity : ? || ஒப்புமை: நீளம் : மீட்டர் :: கொள்ளளவு : ?",
+      "options": ["Kilogram", "Liter", "Second", "Celsius"],
+      "answer": 1,
+      "explanation": "Liter is the standard unit for capacity. || நீளம் மீட்டர் போல, கொள்ளளவு லிட்டர் ஆகும்."
+    },
+    {
+      "question": "Assertion (A): Non-standard units cause confusion. Reason (R): Their sizes vary between places and people. || கூற்று (A): திட்டமில்லா அளவைகள் குழப்பத்தை ஏற்படுத்தும். காரணம் (R): அவற்றின் அளவுகள் ஆளுக்கு ஆள் மாறும்.",
+      "options": ["Both A and R true, R explains A", "A true, R false", "A false, R true", "Both false"],
+      "answer": 0,
+      "explanation": "Variability leads to inconsistent measurements. || வெவ்வேறு அளவுகளில் இருப்பதால் துல்லியமான கணக்கீடு முடியாது."
+    },
+    {
+      "question": "Estimated unit for water used for bathing? || குளிக்கப் பயன்படுத்தும் நீரின் அலகு எது?",
+      "options": ["Milliliter", "Gram", "Liter", "Milligram"],
+      "answer": 2,
+      "explanation": "Buckets of water (Liters). || குளிக்க வாளி நீர் தேவை என்பதால் லிட்டர்."
+    },
+    {
+      "question": "How many 1L bottles to fill a 5L jar? || 5 லிட்டர் குடுவையை நிரப்ப 1 லிட்டர் புட்டி எத்தனை முறை தேவை?",
+      "options": ["3 times", "10 times", "5 times", "1 time"],
+      "answer": 2,
+      "explanation": "1 x 5 = 5. || 5 முறை ஊற்ற வேண்டும்."
+    },
+    {
+      "question": "How many 2L mugs to fill a 10L bucket? || 10 லிட்டர் வாளியை நிரப்ப 2 லிட்டர் முகவை எத்தனை முறை தேவை?",
+      "options": ["5 times", "8 times", "10 times", "2 times"],
+      "answer": 0,
+      "explanation": "10 / 2 = 5. || 10 ÷ 2 = 5 முறை."
+    },
+    {
+      "question": "One pot holds 10 cups. How many cups for 4 pots? || 1 பாத்திரம் - 10 குவளைகள். 4 பாத்திரங்கள் - எத்தனை குவளைகள்?",
+      "options": ["14 cups", "40 cups", "20 cups", "6 cups"],
+      "answer": 1,
+      "explanation": "4 x 10 = 40. || 10 x 4 = 40 குவளைகள்."
+    },
+    {
+      "question": "Which container holds MORE than 1 Liter? || 1 லிட்டரை விட அதிகமாகப் பிடிக்கும் பாத்திரம் எது?",
+      "options": ["Glass", "Jug", "Tea cup", "Water Pot (Kodam)"],
+      "answer": 3,
+      "explanation": "A pot is a large container. || குடம் என்பது பெரிய பாத்திரம்."
+    },
+    {
+      "question": "Water used for gardening? || தோட்டத்திற்குப் பயன்படுத்தும் நீரின் அலகு எது?",
+      "options": ["Milliliter", "Gram", "Liter", "Milligram"],
+      "answer": 2,
+      "explanation": "Gardening requires bulk water. || செடிகள் வளர அதிக அளவு (லிட்டர்) நீர் தேவை."
+    },
+    {
+      "question": "Standard unit vs Non-standard unit match? || பொருத்துக: (1) திட்ட அளவை, (2) திட்டமில்லா அளவை",
+      "options": ["1-Liter, 2-Cup", "1-Cup, 2-Liter", "Both same", "No match"],
+      "answer": 0,
+      "explanation": "Liter is standard, Cup is not. || லிட்டர்-திட்ட அளவை, குவளை-திட்டமில்லா அளவை."
+    },
+    {
+      "question": "Tool used in milk shops to measure milk? || பால் கடைகளில் பாலை அளக்கப் பயன்படும் கருவி எது?",
+      "options": ["Balance", "Scale", "Measuring Jar", "Thermometer"],
+      "answer": 2,
+      "explanation": "Measuring jars with marked volumes. || அளவை முகவைகளே பாலை அளக்கப் பயன்படுகின்றன."
+    },
+    {
+      "question": "One jug holds 5 cups. How many cups for half a jug? || சொம்பு - 5 குவளைகள். அரை சொம்பு - எத்தனை குவளைகள்?",
+      "options": ["5 cups", "2 cups", "2.5 cups", "10 cups"],
+      "answer": 2,
+      "explanation": "5 / 2 = 2.5. || 5-ன் பாதி இரண்டரை (2.5) குவளைகள்."
+    },
+    {
+      "question": "HOTS: A cup is 250ml. How many cups make 1 Liter? || ஒரு குவளை 250 மிலி. 1 லிட்டர் ஆக எத்தனை குவளைகள் தேவை?",
+      "options": ["4 cups", "2 cups", "1 cup", "8 cups"],
+      "answer": 0,
+      "explanation": "4 x 250 = 1000ml = 1L. || 1000 மிலி என்பது 1 லிட்டர். எனவே 4 முறை."
+    },
+    {
+      "question": "Why do we need standard units for liquids? || திரவங்களை அளக்க 'திட்ட அளவைகள்' ஏன் தேவை?",
+      "options": ["To look good", "To measure accurately without confusion", "They are cheap", "They don't break"],
+      "answer": 1,
+      "explanation": "Consistency across places and people. || அளவுகளில் எந்தக் குழப்பமும் இல்லாமல் துல்லியமாக அளக்க."
+    },
+    {
+      "question": "Typical unit for daily drinking water? || ஒரு நாள் குடிநீர் அளவு எதில் இருக்கும்?",
+      "options": ["Liter", "Milliliter", "Gram", "Milligram"],
+      "answer": 0,
+      "explanation": "Humans drink 2-3 Liters daily. || ஒரு நாளில் பல லிட்டர் தண்ணீர் அருந்துவோம்."
+    }
+  ]
+}

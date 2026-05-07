@@ -1702,6 +1702,128 @@ export const syllabusData = {
         ]
       }
     ],
+    "3": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l1"
+              },
+              {
+                "title": "எண்கள்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l2"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l3"
+              },
+              {
+                "title": "அளவைகள்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l4"
+              },
+              {
+                "title": "காலம்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l5"
+              },
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_3_t1_l6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "பெருக்கல்",
+                "isUpdated": true,
+                "code": "mat_3_t2_l1"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_3_t2_l2"
+              },
+              {
+                "title": "அளவைகள் (நிறுத்தல் அளவை)",
+                "isUpdated": true,
+                "code": "mat_3_t2_l3"
+              },
+              {
+                "title": "காலம்",
+                "isUpdated": true,
+                "code": "mat_3_t2_l4"
+              },
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_3_t2_l5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_3_t3_l1"
+              },
+              {
+                "title": "எண்கள் (வகுத்தல்)",
+                "isUpdated": true,
+                "code": "mat_3_t3_l2"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_3_t3_l3"
+              },
+              {
+                "title": "அளவைகள் (முகத்தல் அளவை)",
+                "isUpdated": true,
+                "code": "mat_3_t3_l4"
+              },
+              {
+                "title": "பணம்",
+                "isUpdated": true,
+                "code": "mat_3_t3_l5"
+              },
+              {
+                "title": "காலம்",
+                "isUpdated": true,
+                "code": "mat_3_t3_l6"
+              },
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_3_t3_l7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "4": [
       {
         "term": 1,

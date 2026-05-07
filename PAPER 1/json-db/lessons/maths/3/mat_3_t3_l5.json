@@ -1,0 +1,322 @@
+{
+  "lesson_meta": {
+    "title": "Money || பணம்",
+    "code": "mat_3_t3_l5",
+    "grade": "3",
+    "term": "3",
+    "unit": "5",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson teaches the practical use of money in daily life. It covers converting Rupees to Paise, adding and subtracting money using decimal points, and understanding shopping documents like Price Lists and Bills (Receipts).\n\nஇப்பாடம் அன்றாட வாழ்வில் பணத்தின் பயன்பாட்டை விளக்குகிறது. ரூபாயை பைசாவாக மாற்றுதல், பணத்தைக் கூட்டுதல் மற்றும் கழித்தல், கடைகளில் பொருட்கள் வாங்கும் போது பயன்படுத்தப்படும் விலைப்பட்டியல் மற்றும் பற்றுச்சீட்டு (Bill) ஆகியவற்றின் பயன்களை இப்பாடம் கற்பிக்கிறது."
+    },
+    {
+      "type": "section",
+      "title": "Converting Rupees to Paise || ரூபாயை பைசாவாக மாற்றுதல்",
+      "content": "The basic rule of money conversion is: **1 Rupee = 100 Paise**.\nTo convert Rupees to Paise, multiply the amount by 100.\nExample: \n• 2 Rupees = 2 x 100 = 200 Paise.\n• 5 Rupees = 5 x 100 = 500 Paise.\n• 10 Rupees = 1000 Paise.\n\n1 ரூபாய் என்பது 100 பைசாக்களுக்குச் சமம். ரூபாயை பைசாவாக மாற்ற அந்த எண்ணை 100-ஆல் பெருக்க வேண்டும். (எ.கா: 5 ரூபாய் = 500 பைசா)."
+    },
+    {
+      "type": "section",
+      "title": "Addition and Subtraction of Money || பணத்தின் கூட்டலும் கழித்தலும்",
+      "content": "Adding and subtracting money is similar to normal numbers, but we must use a **dot (.)** to separate Rupees and Paise.\n• **Example (Addition)**: ₹35.20 + ₹20.20 = ₹55.40.\n• **Example (Subtraction)**: ₹20.20 - ₹10.10 = ₹10.10.\n*Balance Calculation*: If you buy items for ₹51 and give ₹100, the balance is ₹100 - ₹51 = ₹49.\n\nபணத்தின் கூட்டலும் கழித்தலும் சாதாரண எண்களைப் போலவே அமையும். ஆனால், ரூபாய் மற்றும் பைசாவிற்கு இடையில் ஒரு புள்ளியை (Dot) வைக்க வேண்டும். பொருட்கள் வாங்கிய பின் மீதித் தொகையைக் கணக்கிட கழித்தல் செயல்முறை பயன்படுகிறது."
+    },
+    {
+      "type": "section",
+      "title": "Price List and Bills || விலைப்பட்டியலும் பற்றுச்சீட்டும்",
+      "content": "• **Price List**: Shows the cost of each item in the shop for customers to see.\n• **Bill (Receipt)**: A proof of purchase given by the shopkeeper. It contains the shop name, bill number, date, items bought, quantity, price, and total amount.\n\n• **விலைப்பட்டியல்**: கடையிலுள்ள ஒவ்வொரு பொருளின் விலையையும் வாடிக்கையாளர்களுக்குத் தெரிவிக்கும் அட்டையாகும்.\n• **பற்றுச்சீட்டு (Bill)**: பொருட்கள் வாங்கியதற்கான அத்தாட்சியாக வழங்கப்படுவது. இதில் கடையின் பெயர், தேதி, பொருளின் அளவு மற்றும் மொத்தத் தொகை போன்ற விவரங்கள் இருக்கும்."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many Paise make one Rupee? || ஒரு ரூபாய் என்பது எத்தனை பைசாக்களுக்குச் சமம்?",
+      "options": ["10 Paise", "50 Paise", "100 Paise", "1000 Paise"],
+      "answer": 2,
+      "explanation": "1 Rupee = 100 Paise. || நாணய மாற்று முறையின்படி 1 ரூபாய் என்பது 100 பைசாக்கள்."
+    },
+    {
+      "question": "What is 6 Rupees in Paise? || 6 ரூபாய் என்பதை பைசாவாக மாற்றினால் என்ன கிடைக்கும்?",
+      "options": ["60 Paise", "600 Paise", "6000 Paise", "160 Paise"],
+      "answer": 1,
+      "explanation": "6 x 100 = 600. || ரூபாயை பைசாவாக மாற்ற 100-ஆல் பெருக்க வேண்டும்."
+    },
+    {
+      "question": "What is 10 Rupees in Paise? || 10 ரூபாய் என்பது எத்தனை பைசா?",
+      "options": ["100 Paise", "10000 Paise", "1000 Paise", "110 Paise"],
+      "answer": 2,
+      "explanation": "10 x 100 = 1000. || 10-ஐ 100-ஆல் பெருக்கினால் 1000 பைசா கிடைக்கும்."
+    },
+    {
+      "question": "What symbol separates Rupees and Paise in a calculation? || ரூபாயையும் பைசாவையும் பிரித்துக் காட்ட எதை வைக்க வேண்டும்?",
+      "options": ["Comma (,)", "Semicolon (;)", "Dot (.)", "Dash (-)"],
+      "answer": 2,
+      "explanation": "A decimal point (dot) is used to separate Rupees and Paise. || ரூபாயையும் பைசாவையும் பிரித்துக் காட்ட அவற்றுக்கு இடையில் ஒரு புள்ளி (Dot) வைக்க வேண்டும்."
+    },
+    {
+      "question": "Add: ₹35.20 + ₹20.20 = ?",
+      "options": ["55.00", "55.40", "50.40", "55.20"],
+      "answer": 1,
+      "explanation": "35 + 20 = 55 Rupees, 20 + 20 = 40 Paise. || இரண்டையும் கூட்டினால் 55.40 கிடைக்கும்."
+    },
+    {
+      "question": "Add: ₹270.80 + ₹310.00 = ?",
+      "options": ["580.80", "580.00", "500.80", "680.80"],
+      "answer": 0,
+      "explanation": "270 + 310 = 580 Rupees and 80 Paise. || கூட்டினால் 580.80 கிடைக்கும்."
+    },
+    {
+      "question": "Subtract: ₹28.30 - ₹25.10 = ?",
+      "options": ["2.20", "3.10", "3.20", "4.20"],
+      "answer": 2,
+      "explanation": "28 - 25 = 3 and 30 - 10 = 20. || விடை 3.20 ஆகும்."
+    },
+    {
+      "question": "Subtract: ₹540.70 - ₹130.60 = ?",
+      "options": ["410.10", "400.10", "410.00", "310.10"],
+      "answer": 0,
+      "explanation": "540 - 130 = 410 and 70 - 60 = 10. || விடை 410.10."
+    },
+    {
+      "question": "Karkuyil bought a hairband for ₹20.50 and bangles for ₹30.50. Total price? || ₹20.50-க்கு சடை மாட்டியும், ₹30.50-க்கு வளையலும் வாங்கினால் மொத்த விலை என்ன?",
+      "options": ["₹50.00", "₹51.50", "₹51.00", "₹61.00"],
+      "answer": 2,
+      "explanation": "20.50 + 30.50 = 51.00. (50p + 50p = ₹1). || 50 பைசாவும் 50 பைசாவும் சேர்ந்தால் 1 ரூபாய். 20+30+1 = 51."
+    },
+    {
+      "question": "What is the proof of purchase given by shopkeepers? || பொருட்கள் வாங்கியதற்கான அத்தாட்சியாக கடைக்காரர் தருவது எது?",
+      "options": ["Price List", "Bill (Receipt)", "Invitation", "Ad"],
+      "answer": 1,
+      "explanation": "A bill or receipt is the official proof. || பொருட்கள் வாங்கியதற்கான அத்தாட்சி பற்றுச்சீட்டு (Bill/Receipt) எனப்படும்."
+    },
+    {
+      "question": "What shows the price of each item in a shop? || கடையில் உள்ள பொருட்களின் விலையைத் தெரிவிக்கப் பயன்படுவது எது?",
+      "options": ["Bill", "News", "Price List", "Manual"],
+      "answer": 2,
+      "explanation": "A price list displays all item costs. || ஒரு கடையில் உள்ள பொருட்களின் விலைகளைத் தெரிவிப்பது விலைப் பட்டியல் (Price List) ஆகும்."
+    },
+    {
+      "question": "If 4 Idlis cost ₹40, what is the price of 1 Idli? || 4 இட்லி ரூ. 40 எனில், ஒரு இட்லியின் விலை எவ்வளவு?",
+      "options": ["₹8", "₹10", "₹15", "₹20"],
+      "answer": 1,
+      "explanation": "40 ÷ 4 = 10. || 40 ரூபாயை 4-ஆல் வகுத்தால் 10 ரூபாய் கிடைக்கும்."
+    },
+    {
+      "question": "If 6 Pooris cost ₹90, what is the price of 1 Poori? || 6 பூரி ரூ. 90 எனில், ஒரு பூரியின் விலை என்ன?",
+      "options": ["₹12", "₹18", "₹15", "₹20"],
+      "answer": 2,
+      "explanation": "90 ÷ 6 = 15. || 90 ரூபாயை 6-ஆல் வகுத்தால் 15 ரூபாய் கிடைக்கும்."
+    },
+    {
+      "question": "Sengothai bought a bag for ₹210.30 and shoes for ₹260.20. Total? || பையை ₹210.30-க்கும், காலணியை ₹260.20-க்கும் வாங்கினால் மொத்தத் தொகை என்ன?",
+      "options": ["₹470.50", "₹460.50", "₹470.00", "₹480.50"],
+      "answer": 0,
+      "explanation": "210.30 + 260.20 = 470.50. || இரண்டையும் கூட்டினால் 470.50 கிடைக்கும்."
+    },
+    {
+      "question": "Sengothai gave ₹500 for a ₹470.50 bill. Balance? || ₹470.50-க்கு பொருட்களை வாங்கி ₹500 கொடுத்தால் மீதி எவ்வளவு?",
+      "options": ["₹30.50", "₹29.50", "₹39.50", "₹20.50"],
+      "answer": 1,
+      "explanation": "500 - 470.50 = 29.50. || 500 ரூபாயிலிருந்து 470.50-ஐக் கழித்தால் 29.50 கிடைக்கும்."
+    },
+    {
+      "question": "Kumaran needs ₹200 change. Uncle gives ₹100 and ₹50 notes. How much more is needed? || குமரனுக்கு ₹200 தேவை. மாமா ₹100 மற்றும் ₹50 கொடுத்தார். மேலும் எவ்வளவு வேண்டும்?",
+      "options": ["₹100", "₹50", "₹150", "₹20"],
+      "answer": 1,
+      "explanation": "100 + 50 = 150. Needed: 200 - 150 = 50. || 200 ரூபாயில் 150-ஐக் கழித்தால் 50 ரூபாய் இன்னும் தர வேண்டும்."
+    },
+    {
+      "question": "Which detail is generally NOT in a bill? || பற்றுச்சீட்டில் பொதுவாக எது இருக்காது?",
+      "options": ["Date", "Item Price", "Bill Number", "Customer's Age"],
+      "answer": 3,
+      "explanation": "Bills track transaction details, not personal info like age. || பற்றுச்சீட்டில் வயது போன்ற தனிப்பட்ட விவரங்கள் இருக்காது."
+    },
+    {
+      "question": "Add: ₹440.40 + ₹440.40 = ?",
+      "options": ["880.80", "880.40", "800.80", "840.80"],
+      "answer": 0,
+      "explanation": "440 + 440 = 880 and 40 + 40 = 80. || விடை 880.80."
+    },
+    {
+      "question": "Subtract: ₹820.80 - ₹110.20 = ?",
+      "options": ["710.80", "710.60", "700.60", "720.60"],
+      "answer": 1,
+      "explanation": "820 - 110 = 710 and 80 - 20 = 60. || விடை 710.60."
+    },
+    {
+      "question": "Assertion (A): Money can be added like normal numbers. Reason (R): You don't need to put a dot between Rupees and Paise. || கூற்று (A): பணத்தைச் சாதாரண எண்களைப் போலவே கூட்டலாம். காரணம் (R): ரூபாய்க்கும் பைசாவிற்கும் இடையில் புள்ளி வைக்கத் தேவையில்லை.",
+      "options": ["A true, R false", "Both true", "A false, R true", "Both false"],
+      "answer": 0,
+      "explanation": "You MUST put a dot to separate Rupees and Paise. || எண்கள் போலக் கூட்டினாலும், ரூபாய்க்கும் பைசாவிற்கும் இடையில் கட்டாயம் புள்ளி வைக்க வேண்டும்."
+    },
+    {
+      "question": "Match: (1) ₹5, (2) ₹7, (3) ₹9 || பொருத்துக: (1) ₹5, (2) ₹7, (3) ₹9",
+      "options": ["1-500p, 2-700p, 3-900p", "1-700p, 2-500p, 3-900p", "1-900p, 2-700p, 3-500p", "1-500p, 2-900p, 3-700p"],
+      "answer": 0,
+      "explanation": "₹1 = 100p. || 5 ரூபாய் = 500 பைசா, 7 ரூபாய் = 700 பைசா, 9 ரூபாய் = 900 பைசா."
+    },
+    {
+      "question": "Analogy: ₹1 : 100p :: ₹8 : ? || ஒப்புமை: ₹1 : 100p :: ₹8 : ?",
+      "options": ["80p", "800p", "8000p", "8p"],
+      "answer": 1,
+      "explanation": "8 x 100 = 800. || 8 ரூபாய்க்கு 800 பைசாக்கள்."
+    },
+    {
+      "question": "You buy a chart for ₹5 and eraser for ₹10. You give ₹20. Balance? || ₹5 சார்ட், ₹10 அழிப்பான் வாங்கி ₹20 கொடுத்தால் மீதி எவ்வளவு?",
+      "options": ["₹5", "₹15", "₹10", "₹0"],
+      "answer": 0,
+      "explanation": "20 - (5 + 10) = 5. || மொத்த செலவு 15 ரூபாய். கொடுத்தது 20 ரூபாய். மீதி 5 ரூபாய்."
+    },
+    {
+      "question": "Color pen is ₹50. Ramya gives ₹100. Balance? || வண்ணப் பேனா ₹50. ரம்யா ₹100 கொடுத்தால் மீதி எவ்வளவு?",
+      "options": ["₹40", "₹50", "₹60", "₹150"],
+      "answer": 1,
+      "explanation": "100 - 50 = 50. || 100 ரூபாயில் 50 போனால் மீதி 50 ரூபாய்."
+    },
+    {
+      "question": "Ravi buys Eraser (₹10), Sharpener (₹5), and 2 Pens (₹20 each). Total? || அழிப்பான் (10), துருவி (5), 2 பேனாக்கள் (தலா 20). மொத்தம் எவ்வளவு?",
+      "options": ["₹35", "₹45", "₹55", "₹65"],
+      "answer": 2,
+      "explanation": "10 + 5 + (2 x 20) = 55. || 10 + 5 + 40 = 55 ரூபாய்."
+    },
+    {
+      "question": "Ramya buys 2 Pens (₹20 each), 3 Erasers (₹10 each), and 1 Color Pen (₹50). Total? || 2 பேனா (தலா 20), 3 அழிப்பான் (தலா 10), 1 வண்ணப் பேனா (50). மொத்தம்?",
+      "options": ["₹100", "₹110", "₹120", "₹130"],
+      "answer": 2,
+      "explanation": "40 + 30 + 50 = 120. || (2x20=40) + (3x10=30) + 50 = 120 ரூபாய்."
+    },
+    {
+      "question": "In a bill, 4 Ravadosas cost ₹200. Price of 1? || பற்றுச்சீட்டில் 4 ரவா தோசை ₹200 எனில் ஒன்றின் விலை?",
+      "options": ["₹40", "₹50", "₹60", "₹25"],
+      "answer": 1,
+      "explanation": "200 ÷ 4 = 50. || 200 ஐ 4-ஆல் வகுத்தால் 50 ரூபாய் கிடைக்கும்."
+    },
+    {
+      "question": "4 Vadais cost ₹20. Price of 1? || 4 வடை ரூ. 20 எனில் ஒன்றின் விலை?",
+      "options": ["₹4", "₹5", "₹10", "₹8"],
+      "answer": 1,
+      "explanation": "20 ÷ 4 = 5. || 20 ஐ 4-ஆல் வகுத்தால் 5 ரூபாய் கிடைக்கும்."
+    },
+    {
+      "question": "Total items: 4 Ravadosa, 4 Vadai, 6 Poori. || 4 ரவா தோசை, 4 வடை, 6 பூரி. மொத்தம் எத்தனை?",
+      "options": ["14", "12", "16", "10"],
+      "answer": 0,
+      "explanation": "4 + 4 + 6 = 14. || மொத்த உணவுப் பண்டங்களின் எண்ணிக்கை 14."
+    },
+    {
+      "question": "1kg rice is ₹55. Cost of 2kg? || 1 கிலோ அரிசி ₹55 எனில் 2 கிலோ அரிசி விலை?",
+      "options": ["₹100", "₹110", "₹120", "₹105"],
+      "answer": 1,
+      "explanation": "55 x 2 = 110. || 55-ஐ இரண்டால் பெருக்கினால் 110 கிடைக்கும்."
+    },
+    {
+      "question": "1kg sugar is ₹42. Cost of 4kg? || 1 கிலோ சர்க்கரை ₹42 எனில் 4 கிலோ விலை?",
+      "options": ["₹168", "₹164", "₹172", "₹158"],
+      "answer": 0,
+      "explanation": "42 x 4 = 168. || 42-ஐ நான்கால் பெருக்கினால் 168 கிடைக்கும்."
+    },
+    {
+      "question": "One towel is ₹50. Cost of 2? || ஒரு துண்டு ரூ. 50 எனில் 2 துண்டுகள் விலை?",
+      "options": ["₹50", "₹100", "₹150", "₹200"],
+      "answer": 1,
+      "explanation": "50 x 2 = 100. || 50 x 2 = 100 ரூபாய்."
+    },
+    {
+      "question": "HOTS: How to write 350 Paise in Rupees? || 350 பைசாவை ரூபாயாக மாற்றினால் எவ்வாறு குறிக்க வேண்டும்?",
+      "options": ["₹35.0", "₹3.50", "₹350.00", "₹0.35"],
+      "answer": 1,
+      "explanation": "350 Paise = 3 Rupees and 50 Paise. || 300 பைசா என்பது 3 ரூபாய். மீதி 50 பைசா. ஆக ரூ. 3.50."
+    },
+    {
+      "question": "Subtract: ₹20.20 - ₹10.10 = ?",
+      "options": ["10.00", "10.10", "9.10", "11.10"],
+      "answer": 1,
+      "explanation": "20.20 minus 10.10 is 10.10. || விடை 10.10 ஆகும்."
+    },
+    {
+      "question": "Add: ₹90.10 + ₹05.20 = ?",
+      "options": ["95.30", "95.20", "90.30", "105.30"],
+      "answer": 0,
+      "explanation": "90 + 5 = 95, 10 + 20 = 30. || விடை 95.30."
+    },
+    {
+      "question": "Subtract: ₹35.80 - ₹25.70 = ?",
+      "options": ["10.20", "10.10", "11.10", "9.10"],
+      "answer": 1,
+      "explanation": "35 - 25 = 10, 80 - 70 = 10. || விடை 10.10."
+    },
+    {
+      "question": "Add: ₹220.20 + ₹220.20 = ?",
+      "options": ["440.00", "440.40", "400.40", "444.40"],
+      "answer": 1,
+      "explanation": "220 + 220 = 440, 20 + 20 = 40. || விடை 440.40."
+    },
+    {
+      "question": "Subtract: ₹754.90 - ₹123.50 = ?",
+      "options": ["631.40", "631.50", "621.40", "641.40"],
+      "answer": 0,
+      "explanation": "754 - 123 = 631, 90 - 50 = 40. || விடை 631.40."
+    },
+    {
+      "question": "HOTS: 1 item is ₹10.50, another is ₹20.50, third is ₹30.50. Total? || மூன்று பொருட்களின் விலைகள் ₹10.50, ₹20.50, ₹30.50. மொத்தம் எவ்வளவு?",
+      "options": ["₹60.50", "₹61.50", "₹61.00", "₹62.00"],
+      "answer": 1,
+      "explanation": "10.50 + 20.50 + 30.50 = 61.50. || மூன்றையும் கூட்டினால் 61.50 கிடைக்கும்."
+    },
+    {
+      "question": "HOTS: You have ₹100 note. You buy 2 Ravadosas (₹50 each). Balance? || ₹100 வைத்து 2 ரவா தோசைகள் (தலா 50) வாங்கினால் மீதி எவ்வளவு?",
+      "options": ["₹50", "₹0", "₹10", "₹100"],
+      "answer": 1,
+      "explanation": "2 x 50 = 100. 100 - 100 = 0. || 100 ரூபாயும் செலவாகிவிட்டதால் மீதி ஏதுமில்லை."
+    },
+    {
+      "question": "HOTS: What does the dot (.) mean in ₹25.50? || ₹25.50 என்பதில் புள்ளி (.) எதைக் குறிக்கிறது?",
+      "options": ["Punctuation", "Separates whole Rupees from Paise fractional part", "Continues", "Multiplication"],
+      "answer": 1,
+      "explanation": "It separates the whole units (Rupees) from subunits (Paise). || முழு ரூபாயையும் அதன் பின்னப்பகுதியான பைசாவையும் பிரித்துக் காட்ட உதவுகிறது."
+    },
+    {
+      "question": "Which document lists the price of each item in a shop? || ஒவ்வொரு பொருளின் விலையையும் கடைக்காரர் எதன் மூலம் அறிவார்?",
+      "options": ["Bill", "Price List", "Attendance", "Menu"],
+      "answer": 1,
+      "explanation": "Price List shows all item costs. || ஒரு பொருளின் விலையைத் தெரிவிக்க 'விலைப்பட்டியல்' பயன்படுகிறது."
+    },
+    {
+      "question": "Which statement is CORRECT? || எது சரியானது?",
+      "options": ["100 Rupees = 1 Paise", "Bills are given by customers to shopkeepers", "Price lists help know item costs", "Dots are not needed in money subtraction"],
+      "answer": 2,
+      "explanation": "Price lists are for checking costs. || விலைப்பட்டியல் பொருட்களின் விலையைத் தெரிந்துகொள்ள உதவுகிறது என்பதே சரி."
+    },
+    {
+      "question": "Price of a pencil in the stationery shop? || புத்தகத்தில் உள்ள விலைப்பட்டியலின்படி பென்சில் விலை என்ன?",
+      "options": ["₹5", "₹10", "₹20", "₹50"],
+      "answer": 1,
+      "explanation": "Price of pencil is ₹10. || பாடப்புத்தக விலைப்பட்டியலில் கரிக்கோலின் விலை ரூ. 10."
+    },
+    {
+      "question": "Price of 1 Trouser (Bill 82)? || பற்றுச்சீட்டு 82-ன் படி 1 கால் சட்டையின் விலை என்ன?",
+      "options": ["₹200", "₹350", "₹700", "₹50"],
+      "answer": 2,
+      "explanation": "Trouser price is ₹700. || அந்தப் பற்றுச்சீட்டில் கால் சட்டையின் விலை ரூ. 700."
+    },
+    {
+      "question": "Cost of 3 Pooris at ₹15 each? || ஒரு பூரி ரூ. 15 எனில் 3 பூரிகள் விலை?",
+      "options": ["₹30", "₹45", "₹50", "₹60"],
+      "answer": 1,
+      "explanation": "3 x 15 = 45. || 3 x 15 = 45 ரூபாய்."
+    },
+    {
+      "question": "Karkuyil gave ₹100, cost was ₹51. Balance? || கார்குயில் 100 கொடுத்து 51 செலவு செய்தால் மீதி என்ன?",
+      "options": ["₹59.00", "₹49.00", "₹39.00", "₹41.00"],
+      "answer": 1,
+      "explanation": "100 - 51 = 49. || 100 ரூபாயில் 51 கழித்தால் மீதி 49 ரூபாய்."
+    },
+    {
+      "question": "Cost of a Chart in the stationery shop? || வரைபட அட்டையின் (Chart) விலை என்ன?",
+      "options": ["₹10.00", "₹20.00", "₹5.00", "₹50.00"],
+      "answer": 2,
+      "explanation": "Chart price is ₹5.00. || விலைப்பட்டியலில் சார்ட்டின் விலை ரூ. 5.00."
+    }
+  ]
+}

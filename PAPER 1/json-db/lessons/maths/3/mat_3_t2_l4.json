@@ -1,0 +1,334 @@
+{
+  "lesson_meta": {
+    "title": "Time || காலம்",
+    "code": "mat_3_t2_l4",
+    "grade": "3",
+    "term": "2",
+    "unit": "4",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson explains how to read time using a clock. It covers identifying the hands of the clock, differentiating between the hour hand and minute hand, reading exact hours, and calculating time before or after a specific point.\n\nஇப்பாடப்பகுதி கடிகாரத்தைப் பார்த்து நேரத்தைக் கணக்கிடும் முறையைப் பற்றி விளக்குகிறது. கடிகாரத்தில் உள்ள முட்களை அடையாளம் காணுதல், மணி முள் மற்றும் நிமிட முள் ஆகியவற்றை வேறுபடுத்துதல், முழுமையான மணிநேரத்தைக் (Exact hour) கணக்கிடுதல் மற்றும் குறிப்பிட்ட நேரத்திற்குப் பின்பு அல்லது முன்பு உள்ள நேரத்தைக் கணக்கிடுதல் ஆகியவை விளக்கப்பட்டுள்ளன."
+    },
+    {
+      "type": "section",
+      "title": "Clock Hands || கடிகாரத்தின் முட்கள்",
+      "content": "A clock generally has two main hands to show time:\n1. **Big Hand (நிமிட முள்)**: This is the minute hand. It shows the time in minutes.\n2. **Small Hand (மணி முள்)**: This is the hour hand. It shows the time in hours.\n\nகடிகாரத்தில் பொதுவாக நேரத்தைக் கணக்கிட இரண்டு முக்கிய முட்கள் உள்ளன:\n1. **பெரிய முள்**: இது நிமிட முள் ஆகும். அது நிமிடங்களைக் காட்டும்.\n2. **சிறிய முள்**: இது மணி முள் ஆகும். அது மணிகளைக் காட்டும்."
+    },
+    {
+      "type": "section",
+      "title": "Reading Exact Hours || சரியான மணிநேரம் பார்த்தல்",
+      "content": "When the minute hand (big hand) is at 12, the number pointed to by the hour hand (small hand) is the exact time. For example, if the small hand is at 5 and the big hand is at 12, the time is 5:00.\n\nநிமிடமுள் (பெரிய முள்) 12-இல் இருக்கும் போது, மணி முள் (சிறிய முள்) எந்த எண்ணில் இருக்கிறதோ அதுவே சரியான மணியைக் குறிக்கும். உதாரணமாக, சிறிய முள் 5-இலும் பெரிய முள் 12-இலும் இருந்தால், நேரம் 5 மணி (5:00) ஆகும்."
+    },
+    {
+      "type": "section",
+      "title": "Calculating Time || நேரத்தைக் கணக்கிடுதல்",
+      "content": "• **After (கழித்து/பிறகு)**: To find the time after a certain duration, add the hours. (e.g., 1 hour after 5:00 is 6:00).\n• **Before (முன்பு)**: To find the time before a certain duration, subtract the hours. (e.g., 2 hours before 7:00 is 5:00).\n\n• **கழித்து/பிறகு**: நேரத்தைக் கூட்ட வேண்டும். (எ.கா: 5 மணிக்கு ஒரு மணி நேரம் கழித்து 6 மணி).\n• **முன்பு**: நேரத்தைக் கழிக்க வேண்டும். (எ.கா: 7 மணிக்கு 2 மணி நேரத்திற்கு முன்பு 5 மணி)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the big hand in a clock called? || கடிகாரத்தில் உள்ள பெரிய முள் எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": ["Hour hand", "Seconds hand", "Minute hand", "Small hand"],
+      "answer": 2,
+      "explanation": "The big hand represents minutes, so it is called the minute hand. || கடிகாரத்தில் உள்ள பெரிய முள் நிமிட முள் ஆகும்."
+    },
+    {
+      "question": "What does the small hand in a clock represent? || கடிகாரத்தில் உள்ள சிறிய முள் எதைக் குறிக்கிறது?",
+      "options": ["Minutes", "Hours", "Days", "Seconds"],
+      "answer": 1,
+      "explanation": "The small hand is the hour hand. || சிறிய முள் மணி முள் ஆகும். அது நேரத்தை மணிகளில் காட்டும்."
+    },
+    {
+      "question": "In what unit does the big hand show time? || பெரிய முள் நேரத்தை எந்த அலகில் காட்டுகிறது?",
+      "options": ["Hours", "Seconds", "Minutes", "Days"],
+      "answer": 2,
+      "explanation": "The big hand is the minute hand. || பெரிய முள் என்பது நிமிட முள் ஆகும். அது நேரத்தை நிமிடங்களில் காட்டும்."
+    },
+    {
+      "question": "When the minute hand is at 12, what does the hour hand show? || நிமிடமுள் 12-இல் இருக்கும் போது, மணி முள் எதைக் குறித்துக் காட்டுகிறது?",
+      "options": ["Exact minutes", "Exact hour", "Exact seconds", "Exact date"],
+      "answer": 1,
+      "explanation": "When the big hand is at 12, the hour hand shows the exact time. || நிமிடமுள் 12-இல் இருக்கும் போது, மணி முள் சரியான மணியைக் குறித்துக்காட்டுகிறது."
+    },
+    {
+      "question": "If the small hand is at 5 and the big hand is at 12, what is the time? || கடிகாரத்தின் சிறிய முள் 5-இலும் பெரிய முள் 12-இலும் இருந்தால் நேரம் என்ன?",
+      "options": ["12 o'clock", "5 o'clock", "7 o'clock", "6 o'clock"],
+      "answer": 1,
+      "explanation": "The small hand points to the hour. || சிறிய முள் காட்டும் எண்ணே சரியான மணி ஆகும். எனவே இது 5 மணி."
+    },
+    {
+      "question": "How do you write 5 o'clock in numbers? || 5 மணி என்பதை எண்களால் எவ்வாறு எழுதுவோம்?",
+      "options": ["5:12", "12:05", "5:00", "50:0"],
+      "answer": 2,
+      "explanation": "Minutes are written as 00 for exact hours. || முழுமையான மணியைக் குறிக்கும்போது நிமிடங்களை 00 என எழுத வேண்டும். எனவே 5:00 மணி."
+    },
+    {
+      "question": "If the time is 5:00, what will be the time after 1 hour? || நேரம் 5 மணியாக இருக்கும்போது, ஒரு மணி நேரம் கழித்து நேரம் என்னவாக இருக்கும்?",
+      "options": ["4:00", "6:00", "7:00", "12:00"],
+      "answer": 1,
+      "explanation": "5 + 1 = 6. || 5 மணியுடன் 1 மணி நேரத்தைக் கூட்டினால் 6 மணி கிடைக்கும்."
+    },
+    {
+      "question": "At exactly 6 o'clock, where will the small hand be? || சரியான 6 மணி ஆகும்போது, சிறிய முள் எந்த எண்ணைக் காட்டும்?",
+      "options": ["12", "5", "6", "1"],
+      "answer": 2,
+      "explanation": "The small hand points to the hour. || நேரம் 6 மணி எனில், மணி முள்ளான சிறிய முள் 6-ஐக் காட்டும்."
+    },
+    {
+      "question": "At exactly 6 o'clock, where will the big hand be? || சரியான 6 மணி ஆகும்போது, பெரிய முள் எந்த எண்ணைக் காட்டும்?",
+      "options": ["6", "12", "1", "3"],
+      "answer": 1,
+      "explanation": "For exact hours, the big hand is always at 12. || முழுமையான மணி நேரங்களில் பெரிய முள் எப்போதும் 12-ஐக் காட்டும்."
+    },
+    {
+      "question": "To show 11:00 on a clock, where should the big hand be? || 11 மணி என்பதை கடிகாரத்தில் காட்ட பெரிய முள் எங்கு இருக்க வேண்டும்?",
+      "options": ["11", "1", "12", "10"],
+      "answer": 2,
+      "explanation": "The minute hand must be at 12 for any exact hour. || முழு நேரத்தைக் காட்ட பெரிய முள் (நிமிட முள்) எப்போதும் 12-ல் இருக்க வேண்டும்."
+    },
+    {
+      "question": "If it is 7:00 now, what was the time 2 hours before? || தற்போது நேரம் 7 மணி. 2 மணி நேரத்திற்கு முன்பு நேரம் என்னவாக இருந்திருக்கும்?",
+      "options": ["5:00", "9:00", "8:00", "6:00"],
+      "answer": 0,
+      "explanation": "7 - 2 = 5. || 7 மணியிலிருந்து 2 மணி நேரத்தைக் கழித்தால் (முன்பு) 5 மணி கிடைக்கும்."
+    },
+    {
+      "question": "If it is 3:00 now, what will be the time after 3 hours? || தற்போது நேரம் 3 மணி. 3 மணி நேரம் கழித்து நேரம் என்னவாகும்?",
+      "options": ["12:00", "5:00", "6:00", "9:00"],
+      "answer": 2,
+      "explanation": "3 + 3 = 6. || 3 + 3 = 6 மணி."
+    },
+    {
+      "question": "Match: (1) Hour Hand, (2) Minute Hand, (3) 5:00, (4) 1 hour after || பொருத்துக: (1) மணி முள், (2) நிமிட முள், (3) 5:00 மணி, (4) 1 மணி கழித்து",
+      "options": ["1-Small, 2-Big, 3-Small at 5, 4-Add time", "1-Big, 2-Small, 3-Add time, 4-Small at 5", "1-Small at 5, 2-Big, 3-Small, 4-Add time", "1-Small, 2-Small at 5, 3-Big, 4-Add time"],
+      "answer": 0,
+      "explanation": "1-Small hand, 2-Big hand, 3-Small hand at 5, 4-Addition. || மணி முள் என்பது சிறிய முள், நிமிட முள் என்பது பெரிய முள், 5:00 மணி என்பது சிறிய முள் 5-ல் இருப்பது, கழித்து என்பது கூட்ட வேண்டும்."
+    },
+    {
+      "question": "Assertion (A): If the big hand is at 12 and the small hand is at 1, the time is 1:00. Reason (R): The small hand shows minutes. || கூற்று (A): பெரிய முள் 12-இலும் சிறிய முள் 1-இலும் இருந்தால் நேரம் 1 மணி ஆகும். காரணம் (R): சிறிய முள் நிமிடங்களைக் குறிக்கிறது.",
+      "options": ["A and R true", "A true, R false", "A false, R true", "Both false"],
+      "answer": 1,
+      "explanation": "Small hand shows hours, not minutes. || நேரம் 1 மணி என்பது சரி. ஆனால் சிறிய முள் மணிகளைக் குறிக்கும், நிமிடங்களை அல்ல."
+    },
+    {
+      "question": "Analogy: Small hand : Hours :: Big hand : ? || ஒப்புமை தருக: சிறிய முள் : மணிகள் :: பெரிய முள் : ?",
+      "options": ["Days", "Months", "Minutes", "Seconds"],
+      "answer": 2,
+      "explanation": "Big hand shows minutes. || சிறிய முள் மணிகளைக் காட்டும், பெரிய முள் நிமிடங்களைக் காட்டும்."
+    },
+    {
+      "question": "If it is 8:00 now, where was the small hand 1 hour before? || தற்போது 8 மணி. 1 மணி நேரத்திற்கு முன்பு கடிகாரத்தின் சிறிய முள் எங்கு இருந்திருக்கும்?",
+      "options": ["7", "9", "8", "12"],
+      "answer": 0,
+      "explanation": "8 - 1 = 7. || 8 மணிக்கு 1 மணி நேரத்திற்கு முன்பு 7 மணி ஆகும். எனவே சிறிய முள் 7-ல் இருக்கும்."
+    },
+    {
+      "question": "When it is 9:00, where will the big hand be? || கடிகாரத்தில் 9 மணி ஆகும்போது பெரிய முள் எங்கு இருக்கும்?",
+      "options": ["9", "3", "12", "6"],
+      "answer": 2,
+      "explanation": "For any exact hour, the big hand is at 12. || முழுமையான மணி நேரத்தில் நிமிட முள் (பெரிய முள்) 12-ல் தான் இருக்கும்."
+    },
+    {
+      "question": "If it is 10:00 now, what will be the time after 2 hours? || தற்போது நேரம் 10 மணி. 2 மணிகள் கழித்து நேரம் என்ன?",
+      "options": ["8:00", "12:00", "11:00", "1:00"],
+      "answer": 1,
+      "explanation": "10 + 2 = 12. || 10-உடன் 2 மணி நேரத்தைக் கூட்டினால் 12 மணி ஆகும்."
+    },
+    {
+      "question": "In writing exact hours, what is written to the right of the ':' symbol? || முழுமையான மணியை எண்களில் எழுதும்போது ' : ' என்ற குறியீட்டிற்கு வலதுபுறம் என்ன எண்கள் வரும்?",
+      "options": ["12", "00", "60", "Hour"],
+      "answer": 1,
+      "explanation": "00 represents zero minutes. || முழுமையான மணி நேரத்தில் நிமிடங்கள் பூஜ்ஜியமாக இருக்கும். எனவே 00 என எழுத வேண்டும்."
+    },
+    {
+      "question": "If both hands are at 12, what is the time? || ஒரு கடிகாரத்தில் சிறிய முள் மற்றும் பெரிய முள் ஆகிய இரண்டுமே 12-ல் இருந்தால் நேரம் என்ன?",
+      "options": ["1:00", "12:00", "0:00", "12:12"],
+      "answer": 1,
+      "explanation": "Both hands overlapping at 12 means exactly 12:00. || இரண்டு முட்களும் 12-ல் இருக்கும்போது அது சரியாக 12 மணியைக் குறிக்கும்."
+    },
+    {
+      "question": "If your school ends at 4:00, where will the small hand be? || பள்ளி மாலை 4 மணிக்கு முடிகிறது எனில், சிறிய முள் எந்த எண்ணைக் காட்டும்?",
+      "options": ["12", "4", "5", "3"],
+      "answer": 1,
+      "explanation": "Hour hand points to 4. || நேரம் 4 மணி என்பதால் சிறிய முள் 4-ல் இருக்கும்."
+    },
+    {
+      "question": "If it is 2:00 now, what was the time 3 hours before? || தற்போது 2 மணி. 3 மணி நேரத்திற்கு முன்பு கடிகாரம் என்ன மணியைக் காட்டியிருக்கும்?",
+      "options": ["11:00", "5:00", "12:00", "10:00"],
+      "answer": 0,
+      "explanation": "Counting back 3 hours from 2: 1, 12, 11. || 2 மணியிலிருந்து பின்னோக்கி 3 மணி நேரம் கணக்கிட்டால் 1, 12, 11 என வரும். விடை 11 மணி."
+    },
+    {
+      "question": "Assertion (A): One hour after 7:00 is 6:00. Reason (R): 'After' means add time. || கூற்று (A): 7 மணியிலிருந்து 1 மணி நேரம் கழித்து 6 மணி ஆகும். காரணம் (R): 'கழித்து' என்றால் நேரத்தைக் கூட்ட வேண்டும்.",
+      "options": ["A and R true", "A true, R false", "A false, R true", "Both false"],
+      "answer": 2,
+      "explanation": "7 + 1 = 8, so the assertion is false. || 7 மணியிலிருந்து 1 மணி கழித்து (பிறகு) 8 மணி ஆகும். எனவே கூற்று தவறு."
+    },
+    {
+      "question": "If the hands are in a straight line in opposite directions, what time could it be? || முட்கள் நேர்க்கோட்டில் எதிரெதிர் திசையில் இருந்தால் அது எதைக் குறிக்கலாம்?",
+      "options": ["12:00", "3:00", "6:00", "9:00"],
+      "answer": 2,
+      "explanation": "At 6:00, small hand is at 6 and big hand is at 12. || 6 மணியாகும்போது சிறிய முள் 6-இலும் பெரிய முள் 12-இலும் இருக்கும். இவை ஒன்றுக்கொன்று நேர்கோட்டில் அமையும்."
+    },
+    {
+      "question": "If it is 1:00 now, what will be the time after 4 hours? || தற்போது நேரம் 1 மணி. 4 மணி நேரம் கழித்து நேரம் என்ன?",
+      "options": ["4:00", "5:00", "6:00", "3:00"],
+      "answer": 1,
+      "explanation": "1 + 4 = 5. || 1 + 4 = 5 மணி."
+    },
+    {
+      "question": "If the small hand is at 9 and the big hand is at 12, how do you write the time? || சிறிய முள் 9-ஐயும் பெரிய முள் 12-ஐயும் காட்டினால் நேரத்தை எவ்வாறு எழுதுவாய்?",
+      "options": ["12:09", "9:12", "9:00", "12:00"],
+      "answer": 2,
+      "explanation": "Small hand at 9 = 9 hours. Big hand at 12 = 00 mins. || சிறிய முள் 9-ல் உள்ளதால் 9 மணி. பெரிய முள் 12-ல் உள்ளதால் 00 நிமிடங்கள்."
+    },
+    {
+      "question": "Your friend meets you at 10:00. He leaves 2 hours later. What time did he leave? || நண்பன் காலை 10 மணிக்கு வருகிறான். 2 மணி நேரம் கழித்துச் சென்றான் எனில், எந்த நேரத்திற்குச் சென்றான்?",
+      "options": ["10:00", "8:00", "11:00", "12:00"],
+      "answer": 3,
+      "explanation": "10 + 2 = 12. || 10 மணியுடன் 2 மணி நேரத்தைக் கூட்டினால் 12 மணி."
+    },
+    {
+      "question": "Match: (1) 11:00, (2) 5:00, (3) 1:00, (4) 7:00 || பொருத்துக: (1) 11 மணி, (2) 5 மணி, (3) 1 மணி, (4) 7 மணி",
+      "options": ["1-Small at 11, 2-Small at 5, 3-Small at 1, 4-Small at 7", "1-Small at 1, 2-Small at 7, 3-Small at 11, 4-Small at 5", "1-Small at 5, 2-Small at 11, 3-Small at 7, 4-Small at 1", "1-Small at 7, 2-Small at 1, 3-Small at 5, 4-Small at 11"],
+      "answer": 0,
+      "explanation": "Hour hand points to the respective number. || அந்தந்த நேரங்களுக்குரிய எண்ணில் சிறிய முள் இருக்க வேண்டும்."
+    },
+    {
+      "question": "What is another name for the big hand? || கடிகாரத்தில் பெரிய முள்ளுக்கு வழங்கப்படும் வேறு பெயர் என்ன?",
+      "options": ["Indicator", "Hour hand", "Seconds hand", "Minute hand"],
+      "answer": 3,
+      "explanation": "It shows minutes. || பெரிய முள் நிமிடங்களைக் குறிப்பதால் அது நிமிட முள் எனப்படும்."
+    },
+    {
+      "question": "How many times does the small hand pass 12 in a full day? || ஒரு நாளில் கடிகாரத்தின் சிறிய முள் எத்தனை முறை 12-ஐக் கடந்து செல்லும்?",
+      "options": ["1 time", "2 times", "12 times", "24 times"],
+      "answer": 1,
+      "explanation": "A day has 24 hours (12x2). || ஒரு நாளுக்கு 24 மணி நேரம். கடிகாரத்தில் 12 எண்கள் மட்டுமே உள்ளதால் அது இரண்டு முறை சுழலும்."
+    },
+    {
+      "question": "If it is 4:00 now, where was the big hand 1 hour before? || தற்போது 4 மணி. ஒரு மணி நேரத்திற்கு முன்பு பெரிய முள் எங்கு இருந்திருக்கும்?",
+      "options": ["12", "3", "4", "1"],
+      "answer": 0,
+      "explanation": "One hour before 4:00 is 3:00. In both cases, the big hand is at 12. || ஒரு மணி நேரத்திற்கு முன்பு 3 மணி ஆகியிருக்கும். அப்போதும் பெரிய முள் 12-ல் தான் இருந்திருக்கும்."
+    },
+    {
+      "question": "At exactly 8:00, where is the small hand? || சரியான 8:00 மணிக்கு சிறிய முள் எங்கு இருக்கும்?",
+      "options": ["12", "7", "8", "9"],
+      "answer": 2,
+      "explanation": "Hour hand points to 8. || நேரம் 8 மணி என்பதால் சிறிய முள் 8-ல் இருக்கும்."
+    },
+    {
+      "question": "Analogy: Clock : Time :: Small hand : ? || ஒப்புமை தருக: கடிகாரம் : நேரம் :: சிறிய முள் : ?",
+      "options": ["Minute", "Days", "Seconds", "Hour"],
+      "answer": 3,
+      "explanation": "Small hand represents hours. || கடிகாரம் நேரத்தைக் காட்டும். சிறிய முள் மணிகளைக் காட்டும்."
+    },
+    {
+      "question": "If the small hand is at 10 and the big hand at 12, what was the time 2 hours ago? || சிறிய முள் 10-ஐயும் பெரிய முள் 12-ஐயும் காட்டுகிறது. 2 மணி நேரத்திற்கு முன்பு நேரம் என்ன?",
+      "options": ["12:00", "8:00", "9:00", "11:00"],
+      "answer": 1,
+      "explanation": "10 - 2 = 8. || தற்போதைய நேரம் 10 மணி. 2 மணி நேரத்திற்கு முன்பு (கழித்தல்) 8 மணி ஆகும்."
+    },
+    {
+      "question": "Assertion (A): If the big hand moves from 12, it's not an exact hour. Reason (R): Minutes are zero only at 12. || கூற்று (A): பெரிய முள் 12-ஐ விட்டு நகர்ந்தால் நேரம் சரியான மணிநேரமாக இருக்காது. காரணம் (R): 12-ல் பெரிய முள் இருக்கும்போது மட்டுமே நிமிடங்கள் பூஜ்ஜியமாக இருக்கும்.",
+      "options": ["A and R true, R explains A", "A true, R false", "A false, R true", "Both false"],
+      "answer": 0,
+      "explanation": "Exact hours (e.g., 5:00) require the big hand at 12. || சரியான மணிநேரம் ஆக பெரிய முள் 12-ல் இருக்க வேண்டும்."
+    },
+    {
+      "question": "What is the time 3 hours after 11:00? || 11 மணியிலிருந்து 3 மணிகள் கழித்து நேரம் என்ன?",
+      "options": ["14:00", "2:00", "1:00", "8:00"],
+      "answer": 1,
+      "explanation": "11 -> 12 -> 1 -> 2. || 11 மணியுடன் 3 கூட்டினால் 14. சாதாரண 12-மணி நேர கடிகாரத்தில் இது 2 மணி ஆகும்."
+    },
+    {
+      "question": "If it is 12:00 now, what was the time 1 hour ago? || தற்போது 12 மணி. 1 மணி நேரத்திற்கு முன்பு நேரம் என்ன?",
+      "options": ["1:00", "13:00", "11:00", "10:00"],
+      "answer": 2,
+      "explanation": "12 - 1 = 11. || 12 மணியிலிருந்து 1 மணி நேரம் பின்னோக்கிச் சென்றால் 11 மணி ஆகும்."
+    },
+    {
+      "question": "If it is 2:00 now, where will the small hand be after 5 hours? || சிறிய முள் 2-ஐயும் பெரிய முள் 12-ஐயும் காட்டுகிறது. 5 மணி நேரம் கழித்து சிறிய முள் எங்கு இருக்கும்?",
+      "options": ["7", "5", "12", "2"],
+      "answer": 0,
+      "explanation": "2 + 5 = 7. || தற்போது நேரம் 2 மணி. 5 மணி நேரம் கழித்து 7 மணி ஆகும். எனவே சிறிய முள் 7-ல் இருக்கும்."
+    },
+    {
+      "question": "Father leaves for work at 9:00. He woke up 4 hours earlier. What time did he wake up? || அப்பா காலை 9 மணிக்கு வேலைக்குச் செல்கிறார். 4 மணி நேரத்திற்கு முன்பு அவர் எழுந்திருந்தார் எனில் நேரம் என்ன?",
+      "options": ["6:00", "5:00", "4:00", "13:00"],
+      "answer": 1,
+      "explanation": "9 - 4 = 5. || 9 மணியிலிருந்து 4 மணி நேரத்தைக் கழித்தால் 5 மணி ஆகும்."
+    },
+    {
+      "question": "At what time do both hands overlap at 12? || எந்த நேரத்தில் சிறிய முள்ளும் பெரிய முள்ளும் ஒன்றுடன் ஒன்று இணையும்?",
+      "options": ["6:00", "12:00", "9:00", "3:00"],
+      "answer": 1,
+      "explanation": "At 12:00, both hands point to 12. || 12:00 மணிக்கு இரண்டு முட்களும் 12 என்ற எண்ணில் இணையும்."
+    },
+    {
+      "question": "Match the angle/shape: (1) 6:00, (2) 9:00, (3) 3:00 || பொருத்துக: (1) 6:00, (2) 9:00, (3) 3:00",
+      "options": ["1-Straight line, 2-Left Right angle, 3-Right Right angle", "1-Right angle, 2-Straight, 3-Left angle", "1-Straight, 2-Right angle, 3-Left angle", "All Straight"],
+      "answer": 0,
+      "explanation": "At 6:00 hands are straight. At 3:00 and 9:00 they form right angles. || 6 மணிக்கு நேர்கோடு, 3 மணிக்கு வலப்பக்கம் செங்கோணம், 9 மணிக்கு இடப்பக்கம் செங்கோணம் போன்ற அமைப்பு ஏற்படும்."
+    },
+    {
+      "question": "What does 1:00 mean? || கடிகாரத்தில் 1:00 மணி என்பதை எவ்வாறு கூறலாம்?",
+      "options": ["One zero hour", "12 hours 1 min", "One o'clock", "One fourteen hour"],
+      "answer": 2,
+      "explanation": "It refers to one hour. || 1:00 என்பது ஒரு மணியைக் குறிக்கும்."
+    },
+    {
+      "question": "A boy goes to school at 9:00. Lunch is after 4 hours. Where will the big hand be then? || சிறுவன் 9 மணிக்கு பள்ளிக்குச் செல்கிறான். 4 மணி நேரம் கழித்து உணவு இடைவேளை வரும்போது பெரிய முள் எங்கு இருக்கும்?",
+      "options": ["1", "4", "12", "9"],
+      "answer": 2,
+      "explanation": "Lunch is at 1:00. For exact hours, the big hand is always at 12. || 9 + 4 = 1 மணி ஆகும். 1:00 மணிக்கு பெரிய முள் (நிமிட முள்) 12-ல் தான் இருக்கும்."
+    },
+    {
+      "question": "If it is 10:00 now, how many hours until it is exactly 12:00? || தற்போது நேரம் 10 மணி. இன்னும் எத்தனை மணி நேரம் கழித்து சரியாக 12 மணி ஆகும்?",
+      "options": ["3 hours", "1 hour", "2 hours", "4 hours"],
+      "answer": 2,
+      "explanation": "10 + 2 = 12. || 10-உடன் 2 மணி நேரத்தைக் கூட்டினால் 12 கிடைக்கும்."
+    },
+    {
+      "question": "If the small hand is between 3 and 4 and the big hand is at 6, is it an exact hour? || சிறிய முள் 3-க்கும் 4-க்கும் இடையில் உள்ளது, பெரிய முள் 6-ல் உள்ளது. இது முழுமையான மணி நேரமா?",
+      "options": ["Yes", "No", "Cannot say", "Broken clock"],
+      "answer": 1,
+      "explanation": "For an exact hour, the big hand must be at 12. || முழுமையான மணிக்கு பெரிய முள் 12-ல் இருக்க வேண்டும். 6-ல் இருந்தால் அது அரை மணியைக் (3:30) குறிக்கும்."
+    },
+    {
+      "question": "If a clock in a mirror shows small hand at 9 and big hand at 12, what is the actual time? || கண்ணாடியில் சிறிய முள் 9-ஐயும் பெரிய முள் 12-ஐயும் காட்டினால் உண்மையான நேரம் என்ன?",
+      "options": ["9:00", "3:00", "6:00", "12:00"],
+      "answer": 1,
+      "explanation": "9 in mirror is 3 in reality. || கண்ணாடியில் 9 என்பது வலதுபுறமாக மாறி 3 ஆகத் தெரியும். 12 மாறுவதில்லை. எனவே நேரம் 3:00 மணி."
+    },
+    {
+      "question": "You go to a movie at 6:00. It lasts 3 hours. Where will the small hand be when it ends? || திரைப்படத்திற்கு 6 மணிக்குச் செல்கிறாய். படம் 3 மணி நேரம் ஓடுகிறது. படம் முடியும் போது சிறிய முள் எங்கு இருக்கும்?",
+      "options": ["6", "12", "9", "3"],
+      "answer": 2,
+      "explanation": "6 + 3 = 9. || 6 + 3 = 9. எனவே படம் முடியும் போது 9 மணி ஆகிறது. சிறிய முள் 9-ல் இருக்கும்."
+    },
+    {
+      "question": "If it is 7:00 now, where was the big hand 5 hours ago? || தற்போது 7 மணி. 5 மணி நேரத்திற்கு முன்பு கடிகாரத்தில் பெரிய முள் எங்கு இருந்திருக்கும்?",
+      "options": ["2", "7", "12", "5"],
+      "answer": 2,
+      "explanation": "The time was 2:00. Big hand was at 12. || 5 மணி நேரத்திற்கு முன்பு 2 மணி ஆகும். 2:00 மணிக்கு பெரிய முள் 12-ல் தான் இருக்கும்."
+    },
+    {
+      "question": "How many hours difference between 10:00 and 2:00? || 10:00 மணிக்கும் 2:00 மணிக்கும் இடையே எத்தனை மணி நேர வித்தியாசம் உள்ளது?",
+      "options": ["8 hours", "2 hours", "4 hours", "12 hours"],
+      "answer": 2,
+      "explanation": "10 to 11, 12, 1, 2 = 4 hours. || 10-லிருந்து 11, 12, 1, 2 எனக் கணக்கிட்டால் 4 மணி நேரம் வித்தியாசம் வரும்."
+    },
+    {
+      "question": "To show 5:00, in which direction should the small hand be drawn? || 5 மணி என்ற நேரத்தைக் காட்ட சிறிய முள் எங்கு இருக்க வேண்டும்?",
+      "options": ["Towards 12", "Towards 5", "Towards 6", "Anywhere"],
+      "answer": 1,
+      "explanation": "The hour hand points to the hour number. || நேரம் 5 மணி என்பதால் சிறிய முள் (மணி முள்) 5-ஐ நோக்கியே வரையப்பட வேண்டும்."
+    }
+  ]
+}

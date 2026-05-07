@@ -1,0 +1,329 @@
+{
+  "lesson_meta": {
+    "title": "Information Processing - Fast Math || தகவல் செயலாக்கம் - விரைவுக் கணக்கீடு",
+    "code": "mat_3_t3_l7",
+    "grade": "3",
+    "term": "3",
+    "unit": "7",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson teaches shortcuts and mental math techniques for addition and subtraction. It covers basic rules for adding/subtracting 0, 1, 2, and 10, doubling methods, and strategies to subtract large numbers ending in zero without borrowing.\n\nஇப்பாடம் கூட்டல் மற்றும் கழித்தல் கணக்குகளை எளிதாகவும் விரைவாகவும் செய்வதற்கான வழிமுறைகளை (Shortcuts) விளக்குகிறது. 0, 1, 2, 10 ஆகிய எண்களைக் கையாளுதல், இரட்டிப்பாக்கல் முறை மற்றும் கடன்பெறாமல் கழிக்கும் நுட்பங்களை இப்பாடம் கற்பிக்கிறது."
+    },
+    {
+      "type": "section",
+      "title": "Rules for 0, 1, and 10 || 0, 1, 10 ஆகியவற்றுக்கான விதிகள்",
+      "content": "• **+/- 0**: The number remains the same (e.g., 5 + 0 = 5, 10 - 0 = 10).\n• **+ 1**: Results in the next number (Successor).\n• **- 1**: Results in the previous number (Predecessor).\n• **+/- 10**: The tens digit increases/decreases by 1, while the ones digit stays the same.\n• **Subtracting self**: Any number minus itself is 0 (e.g., 978 - 978 = 0).\n\n• 0-ஐக் கூட்டினால் அல்லது கழித்தால் மதிப்பு மாறாது.\n• 1-ஐக் கூட்டினால் அடுத்த எண்ணும், 1-ஐக் கழித்தால் முந்தைய எண்ணும் கிடைக்கும்.\n• 10-ஐக் கையாளும்போது பத்தாம் இலக்கம் மட்டுமே மாறும். ஓர் எண்ணிலிருந்து அதே எண்ணைக் கழித்தால் 0 கிடைக்கும்."
+    },
+    {
+      "type": "section",
+      "title": "Fast Addition Techniques || விரைவுக் கூட்டல் நுட்பங்கள்",
+      "content": "1. **Pairs of 10**: Group numbers that add up to 10 first. Example: 7+4+6+3 = (7+3) + (6+4) = 10 + 10 = 20.\n2. **Doubling**: Use 5+5=10 to solve near doubles. 5+6 = (2x5)+1 = 11.\n3. **Expansion**: Add hundreds, tens, and ones separately. 576 + 323 = (500+300) + (70+20) + (6+3) = 800 + 90 + 9 = 899.\n\nவிரைவாகக் கூட்ட எண்களை 10-இன் இணைகளாகப் பிரிக்கலாம். எண்களை விரிவாக்கம் செய்து (நூறுகள், பத்துகள், ஒன்றுகள்) தனித்தனியாகக் கூட்டுவது மனக்கணக்கிற்கு எளிதானது."
+    },
+    {
+      "type": "section",
+      "title": "Fast Subtraction (Ending in 0) || விரைவுக் கழித்தல் (0-வில் முடியும் எண்கள்)",
+      "content": "To subtract from numbers ending in 0 (like 1000 or 500) without borrowing:\n1. Subtract 1 from both numbers.\n2. Subtract the new numbers.\nExample: 1000 - 574 becomes 999 - 573.\n999 - 573 = 426. The answer is the same but the process is easier.\n\nகடன் வாங்காமல் கழிக்க ஒரு எளிய வழி: கொடுக்கப்பட்ட இரண்டு எண்களிலிருந்தும் 1-ஐக் குறைத்துவிட்டுப் பின் கழிக்கலாம். (எ.கா: 1000 - 574 என்பதை 999 - 573 என மாற்றி எளிதாகக் கழிக்கலாம்)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the result when you add 0 to a number? || ஓர் எண்ணுடன் 0 ஐக் கூட்டினால் விடை என்ன கிடைக்கும்?",
+      "options": ["0", "1", "The number remains the same", "Next number"],
+      "answer": 2,
+      "explanation": "Adding 0 does not change the value. || எந்த எண்ணுடன் 0-ஐக் கூட்டினாலும் அதன் மதிப்பு மாறாது (5+0=5)."
+    },
+    {
+      "question": "What is the result when you subtract 0 from a number? || எந்த எண்ணிலிருந்தும் 0 ஐக் கழித்தால் கிடைக்கும் விடை என்ன?",
+      "options": ["0", "The same number again", "Previous number", "Undefined"],
+      "answer": 1,
+      "explanation": "Subtracting 0 results in the original number. || 0-ஐக் கழிப்பதாலும் எண்ணின் மதிப்பில் எந்த மாற்றமும் ஏற்படாது."
+    },
+    {
+      "question": "Adding 1 to a number gives its? || ஓர் எண்ணுடன் 1 ஐக் கூட்டும்போது என்ன கிடைக்கும்?",
+      "options": ["Same number", "Previous number", "Next number", "10"],
+      "answer": 2,
+      "explanation": "Adding 1 gives the successor. || 1-ஐக் கூட்டும்போது எண்கள் வரிசையில் அடுத்த எண்ணிற்குத் தாவுவோம்."
+    },
+    {
+      "question": "Subtracting 1 from a number gives its? || எந்த எண்ணிலிருந்தும் 1 ஐக் கழித்தால் கிடைக்கும் விடை என்ன?",
+      "options": ["Next number", "Same number", "Previous number", "0"],
+      "answer": 2,
+      "explanation": "Subtracting 1 gives the predecessor. || 1-ஐக் குறைப்பதால் எண்கள் வரிசையில் ஒரு படி பின்னால் செல்வோம்."
+    },
+    {
+      "question": "When adding 10 to a number, which digit increases by 1? || ஓர் எண்ணுடன் 10 ஐக் கூட்டும்போது எந்த இலக்கம் 1 ஆல் அதிகரிக்கும்?",
+      "options": ["Ones digit", "Tens digit", "Hundreds digit", "Thousands digit"],
+      "answer": 1,
+      "explanation": "The value in the tens place increases by 1. || 10-ஐக் கூட்டும்போது பத்தாம் இலக்கம் 1 அதிகரிக்கும்."
+    },
+    {
+      "question": "When subtracting 10, which digit remains UNCHANGED? || ஓர் எண்ணிலிருந்து 10 ஐக் கழிக்கும்போது எந்த இலக்கத்தில் மாற்றம் இருக்காது?",
+      "options": ["Tens digit", "Hundreds digit", "Ones digit", "All digits change"],
+      "answer": 2,
+      "explanation": "The ones digit stays the same. || 10-ஐக் கழிக்கும்போது ஒன்றாம் இலக்கம் மாறாது."
+    },
+    {
+      "question": "What is the remainder when a number is subtracted from itself? || ஓர் எண்ணிலிருந்து அதே எண்ணைக் கழிக்கும்போது கிடைக்கும் மீதம் என்ன?",
+      "options": ["1", "Same number", "0", "10"],
+      "answer": 2,
+      "explanation": "x - x = 0. || தன்னிடமுள்ள அனைத்தையும் கழித்துவிட்டால் மீதம் பூஜ்ஜியமே இருக்கும்."
+    },
+    {
+      "question": "Solve: 978 - 978 = ?",
+      "options": ["978", "1", "0", "1956"],
+      "answer": 2,
+      "explanation": "Subtracting self gives 0. || ஓர் எண்ணிலிருந்து அதே எண்ணைக் கழிக்கும்போது விடை 0."
+    },
+    {
+      "question": "In 7+4+6+3, which pairs make 10? || 7+4+6+3 இல் 10-ஐக் கொடுக்கக்கூடிய இணைகள் (Pairs) எவை?",
+      "options": ["7+4 and 6+3", "7+3 and 6+4", "7+6 and 4+3", "None"],
+      "answer": 1,
+      "explanation": "7+3=10 and 6+4=10. || விரைவாகக் கூட்ட 10-இன் இணைகளாகப் பிரிக்க வேண்டும்."
+    },
+    {
+      "question": "Total: 5+3+2+6+4 = ?",
+      "options": ["18", "20", "22", "19"],
+      "answer": 1,
+      "explanation": "(5+3+2) + (6+4) = 10 + 10 = 20.",
+      "explanation_tamil": "6+4=10 மற்றும் 5+3+2=10. எனவே 20."
+    },
+    {
+      "question": "Total of 5+1+5+9 using fast math? || 5+1+5+9 இன் விரைவுக் கூட்டல் விடை என்ன?",
+      "options": ["15", "18", "20", "21"],
+      "answer": 2,
+      "explanation": "(5+5) + (1+9) = 10 + 10 = 20."
+    },
+    {
+      "question": "Total of 3+6+1+2+8 using fast math? || 3+6+1+2+8 இன் விரைவுக் கூட்டல் விடை என்ன?",
+      "options": ["20", "18", "19", "21"],
+      "answer": 0,
+      "explanation": "(8+2) + (6+3+1) = 10 + 10 = 20."
+    },
+    {
+      "question": "How can 5 + 5 be written using doubling? || இரட்டிப்பாக்கல் முறைப்படி 5 + 5 என்பதை எவ்வாறு எழுதலாம்?",
+      "options": ["5 x 5", "2 x 5", "5 + 2", "10 x 5"],
+      "answer": 1,
+      "explanation": "Adding twice is 2 times. || ஒரே எண் இருமுறை சேர்க்கப்படுவதால் அது 2 x 5."
+    },
+    {
+      "question": "How to calculate 5 + 6 easily using doubling? || 5 + 6 என்பதை இரட்டிப்பாக்கல் முறையில் எவ்வாறு கணக்கிடலாம்?",
+      "options": ["2 X 6 + 1", "2 X 5 + 1", "2 X 5 - 1", "5 X 6"],
+      "answer": 1,
+      "explanation": "(2 x 5) + 1 = 10 + 1 = 11. || 5-ஐ இரட்டிப்பாக்கி அதனுடன் 1-ஐக் கூட்டலாம்."
+    },
+    {
+      "question": "How to calculate 4 + 5 using doubling? || 4 + 5 என்பதை இரட்டிப்பாக்கல் முறையில் எவ்வாறு எழுதலாம்?",
+      "options": ["2 X 4 + 1", "2 X 5 - 1", "Both of these", "2 X 5 + 1"],
+      "answer": 2,
+      "explanation": "4+4+1 = 9 and 5+5-1 = 9. || 2x4+1 அல்லது 2x5-1 ஆகிய இரு வழிகளிலும் கணக்கிடலாம்."
+    },
+    {
+      "question": "To add 7 + 12 mentally, which digits should be added first? || 7 + 12 ஐ மனக்கணக்காகக் கூட்ட முதலில் எவற்றைக் கூட்ட வேண்டும்?",
+      "options": ["7 and 10", "7 and 2", "7 and 12", "1 and 2"],
+      "answer": 1,
+      "explanation": "Add the ones place first: 7 + 2 = 9. || ஒன்றுகளை முதலில் கூட்ட வேண்டும் (7+2=9)."
+    },
+    {
+      "question": "Total: 25 + 33 = ?",
+      "options": ["56", "58", "68", "55"],
+      "answer": 1,
+      "explanation": "(20+30) + (5+3) = 50 + 8 = 58."
+    },
+    {
+      "question": "Mental Math: 37 + 24 = ?",
+      "options": ["51", "61", "54", "64"],
+      "answer": 1,
+      "explanation": "7+4=11, 30+20=50. 50+11 = 61. || 30+20=50 மற்றும் 7+4=11. விடை 61."
+    },
+    {
+      "question": "Expansion of 576 based on place value? || 576 என்பதை விரிவாக்கல் முறையில் எவ்வாறு பிரிக்க வேண்டும்?",
+      "options": ["50 + 76", "500 + 70 + 6", "5 + 7 + 6", "57 + 6"],
+      "answer": 1,
+      "explanation": "5 in hundreds, 7 in tens, 6 in ones. || இடமதிப்பின்படி நூறுகள், பத்துகள், ஒன்றுகளாகப் பிரிக்க வேண்டும்."
+    },
+    {
+      "question": "Easiest way to subtract from 340 - 229? || 340 - 229 கழிக்க எளிய வழி எது?",
+      "options": ["Add 10 to both", "Subtract 1 from both", "Make both 0", "No shortcut"],
+      "answer": 1,
+      "explanation": "339 - 228 is easier as there is no borrowing. || இரண்டிலிருந்தும் 1-ஐக் குறைத்தால் கடன் வாங்க வேண்டிய அவசியமிருக்காது."
+    },
+    {
+      "question": "340 - 1 = ?",
+      "options": ["330", "341", "339", "300"],
+      "answer": 2,
+      "explanation": "The predecessor of 340 is 339. || 340-க்கு முந்தைய எண் 339."
+    },
+    {
+      "question": "1000 - 574 is same as? || 1000 - 574 என்பது எதற்குச் சமம்?",
+      "options": ["999 - 573", "1001 - 575", "990 - 570", "100 - 57"],
+      "answer": 0,
+      "explanation": "Subtracting 1 from both maintains the difference. || இரண்டு எண்களிலிருந்தும் 1-ஐக் கழித்தால் வித்தியாசம் மாறாது."
+    },
+    {
+      "question": "Solve: 1000 - 574 = ?",
+      "options": ["436", "426", "526", "326"],
+      "answer": 1,
+      "explanation": "999 - 573 = 426. || 999 இலிருந்து 573 ஐக் கழித்தால் 426 கிடைக்கும்."
+    },
+    {
+      "question": "Mental Math: 6 coconut saplings + 5 neem saplings = ? || 6 தென்னை + 5 வேம்பு = மொத்தம் எத்தனை?",
+      "options": ["10", "12", "11", "13"],
+      "answer": 2,
+      "explanation": "6 + 5 = 11."
+    },
+    {
+      "question": "5 coconuts, 3 picked. Remaining? || 5 இளநீர்களில் 3 பறிக்கப்பட்டன. மீதம்?",
+      "options": ["8", "2", "3", "0"],
+      "answer": 1,
+      "explanation": "5 - 3 = 2."
+    },
+    {
+      "question": "46 men and 27 women in a park. Total? || 46 ஆண்கள், 27 பெண்கள். மொத்தம்?",
+      "options": ["73", "63", "83", "69"],
+      "answer": 0,
+      "explanation": "46 + 27 = 73."
+    },
+    {
+      "question": "70 pens, 54 given away. Remaining? || 70 பேனாவில் 54 கொடுத்தால் மீதம்?",
+      "options": ["26", "16", "24", "14"],
+      "answer": 1,
+      "explanation": "70 - 54 = 16."
+    },
+    {
+      "question": "70 balls for 7 people. How many each? || 70 பந்துகள் 7 பேருக்குச் சமமாகப் பகிர்ந்தால்?",
+      "options": ["7", "10", "70", "1"],
+      "answer": 1,
+      "explanation": "70 / 7 = 10."
+    },
+    {
+      "question": "48 books, 8 per row. How many rows? || 48 புத்தகங்களை ஒரு வரிசைக்கு 8 வீதம் அடுக்கினால்?",
+      "options": ["5 rows", "7 rows", "6 rows", "8 rows"],
+      "answer": 2,
+      "explanation": "48 / 8 = 6."
+    },
+    {
+      "question": "100 pens, 10 per box. How many boxes? || 100 பேனாக்கள், பெட்டிக்கு 10 வீதம்?",
+      "options": ["10 boxes", "100 boxes", "5 boxes", "20 boxes"],
+      "answer": 0,
+      "explanation": "100 / 10 = 10."
+    },
+    {
+      "question": "Assertion (A): 340 - 229 is same as 339 - 228. Reason (R): Reducing same amount from both doesn't change difference. || கூற்று (A): 340-229 மற்றும் 339-228 விடைகள் சமம். காரணம் (R): சம அளவில் குறைப்பதால் வித்தியாசம் மாறாது.",
+      "options": ["A true, R false", "A false, R true", "Both true, R explains A", "Both true, R doesn't explain A"],
+      "answer": 2,
+      "explanation": "A key fast math subtraction rule. || இது விரைவுக் கழித்தலுக்கான சரியான வழிமுறையாகும்."
+    },
+    {
+      "question": "Analogy: Add 1 : Next number :: Subtract 1 : ? || ஒப்புமை: கூட்டல் 1 : அடுத்த எண் :: கழித்தல் 1 : ?",
+      "options": ["Same number", "Previous number", "0", "10"],
+      "answer": 1,
+      "explanation": "Subtracting 1 gives the predecessor. || 1-ஐக் கழித்தால் முந்தைய எண் கிடைக்கும்."
+    },
+    {
+      "question": "Analogy: 5+5 : 10 :: 7+7 : ?",
+      "options": ["12", "14", "77", "0"],
+      "answer": 1,
+      "explanation": "7 x 2 = 14."
+    },
+    {
+      "question": "Match: (1) + 10, (2) - 10, (3) - 0 || பொருத்துக: (1) + 10, (2) - 10, (3) - 0",
+      "options": ["1-Tens increases, 2-Tens decreases, 3-Same", "1-Same, 2-Tens inc, 3-Tens dec", "1-Tens dec, 2-Tens inc, 3-Same", "None"],
+      "answer": 0,
+      "explanation": "10 affects only the tens place. || 10-ஆல் கூட்டும்போது பத்தாம் இலக்கம் கூடும், கழிக்கும்போது குறையும்."
+    },
+    {
+      "question": "HOTS: What is 86 + 10? || 86 உடன் 10 ஐக் கூட்டினால்?",
+      "options": ["87", "76", "96", "860"],
+      "answer": 2,
+      "explanation": "8 tens becomes 9 tens. || பத்தாம் இலக்கம் (8) ஒன்று கூடி 9 ஆகும். விடை 96."
+    },
+    {
+      "question": "HOTS: What is 791 - 10? || 791 இலிருந்து 10 ஐக் கழித்தால்?",
+      "options": ["781", "790", "801", "691"],
+      "answer": 0,
+      "explanation": "9 tens becomes 8 tens. || பத்தாம் இலக்கம் (9) ஒன்று குறைந்து 8 ஆகும். விடை 781."
+    },
+    {
+      "question": "Solve: 298 + 501 = ?",
+      "options": ["799", "899", "699", "789"],
+      "answer": 0,
+      "explanation": "(200+500) + (90+0) + (8+1) = 799."
+    },
+    {
+      "question": "Total: 543 + 218 = ?",
+      "options": ["761", "751", "661", "760"],
+      "answer": 0,
+      "explanation": "543 + 218 = 761."
+    },
+    {
+      "question": "Sum: 716 + 540 = ?",
+      "options": ["1256", "1356", "1156", "1246"],
+      "answer": 0,
+      "explanation": "716 + 540 = 1256."
+    },
+    {
+      "question": "Difference: 543 - 210 = ?",
+      "options": ["333", "233", "343", "353"],
+      "answer": 0,
+      "explanation": "5-2=3, 4-1=3, 3-0=3."
+    },
+    {
+      "question": "Subtract: 348 - 111 = ?",
+      "options": ["237", "227", "459", "247"],
+      "answer": 0,
+      "explanation": "All digits reduced by 1. || எல்லா இலக்கங்களும் ஒன்றால் குறையும்."
+    },
+    {
+      "question": "HOTS: Result of 450 - 349 using fast math (-1 rule)? || 450 - 349 இன் விரைவுக் கழித்தல் விடை?",
+      "options": ["101", "100", "99", "111"],
+      "answer": 0,
+      "explanation": "449 - 348 = 101."
+    },
+    {
+      "question": "560 - 325 = ?",
+      "options": ["235", "245", "135", "335"],
+      "answer": 0,
+      "explanation": "559 - 324 = 235."
+    },
+    {
+      "question": "980 - 575 = ?",
+      "options": ["405", "415", "305", "495"],
+      "answer": 0,
+      "explanation": "979 - 574 = 405."
+    },
+    {
+      "question": "HOTS: What number added to 228 gives 238? || 228 உடன் எதைக் கூட்டினால் 238 கிடைக்கும்?",
+      "options": ["10", "1", "100", "0"],
+      "answer": 0,
+      "explanation": "Only tens place changed by 1. || பத்தாம் இலக்கம் மட்டும் ஒன்று கூடியுள்ளது, எனவே 10."
+    },
+    {
+      "question": "HOTS: 999 - ? = 998",
+      "options": ["1", "10", "0", "2"],
+      "answer": 0,
+      "explanation": "Gives the predecessor. || முந்தைய எண் கிடைக்க 1-ஐக் கழிக்க வேண்டும்."
+    },
+    {
+      "question": "What does 'Add 2' rule mean? || '2-ஐக் கூட்டுதல்' எதைக் குறிக்கிறது?",
+      "options": ["Next number", "Skip one and get next", "Same number", "Previous"],
+      "answer": 1,
+      "explanation": "Skip the next number to get the following one. || அவ்வவெண்ணிலிருந்து 2 எண்ணைத் தாண்டிச் செல்லும்."
+    },
+    {
+      "question": "You have ₹25, friend has ₹33. Total? || உங்களிடம் ₹25, நண்பரிடம் ₹33. மொத்தம்?",
+      "options": ["₹58", "₹68", "₹48", "₹55"],
+      "answer": 0,
+      "explanation": "25 + 33 = 58."
+    },
+    {
+      "question": "Book costs ₹798. You gave ₹654. How much more to give? || ₹798 புத்தகத்திற்கு ₹654 கொடுத்தால் மீதி எவ்வளவு தர வேண்டும்?",
+      "options": ["₹144", "₹154", "₹244", "₹134"],
+      "answer": 0,
+      "explanation": "798 - 654 = 144."
+    }
+  ]
+}

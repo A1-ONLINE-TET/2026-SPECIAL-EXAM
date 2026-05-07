@@ -1,0 +1,334 @@
+{
+  "lesson_meta": {
+    "title": "Geometry || வடிவியல்",
+    "code": "mat_3_t1_l1",
+    "grade": "3",
+    "term": "1",
+    "unit": "1",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "In this lesson, we learn about the basic properties of 2D shapes (Square, Rectangle, Triangle, Circle) and 3D objects (Cube, Cuboid, Sphere, Cylinder, Cone). We explore their sides, corners, diagonals, and the types of surfaces (Flat and Curved).\n\nஇப்பாடத்தில் சதுரம், செவ்வகம், முக்கோணம் மற்றும் வட்டம் போன்ற இருபரிமாண வடிவங்களின் பண்புகளையும், கனசதுரம், கனசெவ்வகம், கோளம், உருளை மற்றும் கூம்பு போன்ற முப்பரிமாண உருவங்களின் பண்புகளையும் கற்கிறோம். அவற்றின் பக்கங்கள், முனைகள், மூலைவிட்டங்கள் மற்றும் மேற்பரப்பு வகைகள் (சமதளம் மற்றும் வளைதளம்) பற்றி விரிவாகக் கற்கிறோம்."
+    },
+    {
+      "type": "section",
+      "title": "2D Shapes || இருபரிமாண வடிவங்கள்",
+      "content": "• **Square (சதுரம்)**: 4 equal sides, 4 corners, 2 equal diagonals.\n• **Rectangle (செவ்வகம்)**: 4 sides, opposite sides are equal, 4 corners, 2 equal diagonals.\n• **Triangle (முக்கோணம்)**: 3 sides, 3 corners. Can be formed by folding a square diagonally.\n• **Circle (வட்டம்)**: No sides, no corners, has one center point.\n\n• **சதுரம்**: 4 சமமான பக்கங்கள், 4 முனைகள், 2 சமமான மூலைவிட்டங்கள்.\n• **செவ்வகம்**: 4 பக்கங்கள், எதிர்ப்பக்கங்கள் சமம், 4 முனைகள், 2 சமமான மூலைவிட்டங்கள்.\n• **முக்கோணம்**: 3 பக்கங்கள், 3 முனைகள். சதுரத்தை மூலைவிட்டம் வழியாக மடித்தால் முக்கோணம் கிடைக்கும்.\n• **வட்டம்**: பக்கங்கள் இல்லை, முனைகள் இல்லை, ஒரு மையப்புள்ளி உண்டு."
+    },
+    {
+      "type": "section",
+      "title": "3D Shapes || முப்பரிமாண உருவங்கள்",
+      "content": "• **Cube (கனசதுரம்)**: Made of squares. 6 faces, 12 edges, 8 corners.\n• **Cuboid (கனசெவ்வகம்)**: Made of rectangles. 6 faces, 12 edges, 8 corners.\n• **Sphere (கோளம்)**: 1 face, no edges or corners. Examples: Ball.\n• **Cylinder (உருளை)**: Has curved surfaces. Examples: Water pipe.\n• **Cone (கூம்பு)**: Has a base and a pointed top. Examples: Birthday cap.\n\n• **கனசதுரம்**: சதுரங்களால் ஆனது. 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள்.\n• **கனசெவ்வகம்**: செவ்வகங்களால் ஆனது. 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள்.\n• **கோளம்**: 1 முகம், விளிம்புகள் அல்லது முனைகள் இல்லை. உதாரணம்: பந்து.\n• **உருளை**: வளைதளங்களைக் கொண்டது. உதாரணம்: தண்ணீர் குழாய்.\n• **கூம்பு**: அடிப்பகுதி மற்றும் ஒரு கூர்மையான முனை கொண்டது. உதாரணம்: பிறந்தநாள் தொப்பி."
+    },
+    {
+      "type": "section",
+      "title": "Types of Surfaces || தளங்களின் வகைகள்",
+      "content": "• **Flat Surface (சமதளம்)**: A flat top surface. Examples: Walls, Floor, Table top. Cube and Cuboid have flat surfaces.\n• **Curved Surface (வளைதளம்)**: A curved surface. Examples: Sphere, Cone, Cylinder.\n\n• **சமதளம்**: ஒரு தட்டையான மேற்பரப்பு. உதாரணம்: சுவர்கள், தரை, மேசை மேற்புறம். கனசதுரம் மற்றும் கனசெவ்வகம் சமதளங்களைக் கொண்டவை.\n• **வளைதளம்**: வளைவான பக்கப்பரப்பு. உதாரணம்: கோளம், கூம்பு, உருளை."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many sides are there in a square? || ஒரு சதுரத்திற்கு எத்தனை பக்கங்கள் உள்ளன?",
+      "options": ["3", "4", "5", "2"],
+      "answer": 1,
+      "explanation": "A square has four equal sides. || சதுரத்திற்கு நான்கு பக்கங்கள் உள்ளன மற்றும் அவை அனைத்தும் சமம்."
+    },
+    {
+      "question": "How are the diagonals of a square? || சதுரத்தின் மூலைவிட்டங்கள் எவ்வாறு இருக்கும்?",
+      "options": ["Not equal to each other", "Perpendicular to each other", "Equal to each other", "None of these"],
+      "answer": 2,
+      "explanation": "A square has two diagonals, and both are equal. || சதுரத்திற்கு இரண்டு மூலைவிட்டங்கள் உள்ளன, அதன் இரண்டு மூலைவிட்டங்களும் சமம்."
+    },
+    {
+      "question": "In which of the following shapes are only the opposite sides equal? || பின்வருவனவற்றில் எந்த வடிவத்திற்கு எதிர்ப்பக்கங்கள் மட்டும் சமமாக இருக்கும்?",
+      "options": ["Square", "Circle", "Triangle", "Rectangle"],
+      "answer": 3,
+      "explanation": "One of the properties of a rectangle is that its opposite sides are equal. || செவ்வகத்தின் பண்புகளில் ஒன்று அதன் எதிர்ப்பக்கங்கள் சமம் என்பதாகும்."
+    },
+    {
+      "question": "How many corners are there in a triangle? || ஒரு முக்கோணத்திற்கு எத்தனை முனைகள் உள்ளன?",
+      "options": ["3", "4", "0", "2"],
+      "answer": 0,
+      "explanation": "A triangle has three sides and three corners. || ஒரு முக்கோணத்திற்கு மூன்று பக்கங்களும் மூன்று முனைகளும் உள்ளன."
+    },
+    {
+      "question": "Which shape has no sides and no corners? || பக்கங்களும் முனைகளும் இல்லாத வடிவம் எது?",
+      "options": ["Square", "Circle", "Rectangle", "Triangle"],
+      "answer": 1,
+      "explanation": "A circle has no sides, no corners, and only one center point. || வட்டத்திற்கு பக்கங்கள் இல்லை, முனைகள் இல்லை, ஒரு மையப்புள்ளி மட்டுமே உண்டு."
+    },
+    {
+      "question": "How many center points does a circle have? || வட்டத்திற்கு எத்தனை மையப்புள்ளிகள் உண்டு?",
+      "options": ["2", "0", "1", "Infinite"],
+      "answer": 2,
+      "explanation": "According to the lesson, a circle has one center point. || பாடக்குறிப்பின்படி வட்டத்திற்கு ஒரு மையப்புள்ளி உண்டு."
+    },
+    {
+      "question": "What shape do we get when we fold a square sheet through its diagonal? || ஒரு சதுரத் தாளை அதன் மூலைவிட்டம் வழியாக மடித்தால் நமக்குக் கிடைக்கும் வடிவம் என்ன?",
+      "options": ["Rectangle", "Circle", "Triangle", "Small Square"],
+      "answer": 2,
+      "explanation": "The fold in the middle of the square is the diagonal, which divides the square into two triangles. || சதுரத்தின் நடுவே உள்ள மடிப்பு மூலைவிட்டம் ஆகும். இது சதுரத்தை இரு முக்கோணங்களாகப் பிரிக்கிறது."
+    },
+    {
+      "question": "Into how many types can triangles be divided based on side lengths? || பக்கங்களின் நீளங்களை அடிப்படையாகக் கொண்டு முக்கோணங்களை எத்தனை வகைகளாகப் பிரிக்கலாம்?",
+      "options": ["2", "4", "5", "3"],
+      "answer": 3,
+      "explanation": "Triangles are divided into 3 types: Isosceles, Equilateral, and Scalene. || முக்கோணங்கள் இருசமபக்க, சமபக்க மற்றும் அசமபக்க முக்கோணம் என 3 வகைப்படும்."
+    },
+    {
+      "question": "How many diagonals are there in a rectangle? || செவ்வகத்திற்கு எத்தனை மூலைவிட்டங்கள் உள்ளன?",
+      "options": ["4", "2", "3", "0"],
+      "answer": 1,
+      "explanation": "A rectangle has two diagonals. || செவ்வகத்திற்கு இரண்டு மூலைவிட்டங்கள் உள்ளன."
+    },
+    {
+      "question": "Which color is suggested to draw a square in the textbook? || சதுரத்தை வரைய எந்த நிறம் பாடப்புத்தகத்தில் பரிந்துரைக்கப்பட்டுள்ளது?",
+      "options": ["Red", "Green", "Blue", "Yellow"],
+      "answer": 0,
+      "explanation": "The lesson suggests coloring squares in red and rectangles in green. || சதுரங்களை சிவப்பு நிறத்திலும், செவ்வகங்களை பச்சை நிறத்திலும் வண்ணமிட பாடக்குறிப்பு கூறுகிறது."
+    },
+    {
+      "question": "What shape do we get if we trace around a bangle with a pencil? || வளையலின் வெளிவிளிம்பினை ஒட்டி பென்சிலால் படி எடுத்தால் நமக்குக் கிடைக்கும் வடிவம் எது?",
+      "options": ["Square", "Rectangle", "Circle", "Sphere"],
+      "answer": 2,
+      "explanation": "A bangle is circular in shape, so tracing it gives a circle. || வளையல் வட்ட வடிவம் கொண்டது. அதை வைத்து வரையும்போது வட்டம் கிடைக்கும்."
+    },
+    {
+      "question": "How many dimensions do solid shapes (3D) have? || திட வடிவங்கள் (3D) எத்தனை பரிமாணங்களைக் கொண்டுள்ளன?",
+      "options": ["2", "3", "4", "1"],
+      "answer": 1,
+      "explanation": "Solid shapes have 3 dimensions: Length, Width, and Height. || திட வடிவங்கள் நீளம், அகலம் மற்றும் உயரம் ஆகிய 3 பரிமாணங்களைப் பெற்றுள்ளன."
+    },
+    {
+      "question": "What are examples of walls, floors, and table tops? || சுவர்கள், தரை, மேசையின் மேற்புறம் போன்றவை எதற்கு எடுத்துக்காட்டுகள்?",
+      "options": ["Curved surface", "Flat surface", "Sphere", "Straight line"],
+      "answer": 1,
+      "explanation": "A flat surface is a level top surface. Walls and floors are examples. || சமதளம் என்பது ஒரு தட்டையான மேற்பரப்பு ஆகும். சுவர்கள், தரை போன்றவை இதற்கு எடுத்துக்காட்டு."
+    },
+    {
+      "question": "Which 3D shape has a curved surface? || பின்வருவனவற்றில் வளைதளத்தைக் கொண்ட முப்பரிமாண உருவம் எது?",
+      "options": ["Cube", "Cuboid", "Sphere", "Triangle"],
+      "answer": 2,
+      "explanation": "Sphere, cone, and cylinder have curved surfaces. || கோளம், கூம்பு, உருளை ஆகியவை வளைதளங்களைக் கொண்டவை."
+    },
+    {
+      "question": "Which 2D shape is a cube made of? || கனசதுரம் எந்த இருபரிமாண வடிவத்தால் ஆனது?",
+      "options": ["Triangle", "Rectangle", "Square", "Circle"],
+      "answer": 2,
+      "explanation": "A cube is a solid figure made of squares. || ஒரு கனசதுரம் என்பது சதுரங்களால் ஆன திட உருவமாகும்."
+    },
+    {
+      "question": "How many faces does a cuboid have? || கனசெவ்வகத்திற்கு எத்தனை முகங்கள் உள்ளன?",
+      "options": ["8", "6", "12", "4"],
+      "answer": 1,
+      "explanation": "A cuboid has 6 faces, 12 edges, and 8 corners. || ஒரு கனசெவ்வகத்திற்கு 6 முகங்கள், 12 விளிம்புகள் மற்றும் 8 முனைகள் உண்டு."
+    },
+    {
+      "question": "How many edges does a sphere have? || கோளத்திற்கு எத்தனை விளிம்புகள் உள்ளன?",
+      "options": ["1", "12", "0", "8"],
+      "answer": 2,
+      "explanation": "A sphere is a solid round shape. it has no edges or corners. || கோளம் என்பது வட்டத்தின் திட சுற்று வடிவமாகும். இதற்கு விளிம்புகள் மற்றும் முனைகள் கிடையாது."
+    },
+    {
+      "question": "What is the common property of a cube and a cuboid? || கனசதுரத்திற்கும் கனசெவ்வகத்திற்கும் உள்ள பொதுவான பண்பு என்ன?",
+      "options": ["Both are made of circles", "Both have 6 faces, 12 edges, 8 corners", "Both have curved surfaces", "Both have no edges"],
+      "answer": 1,
+      "explanation": "Both cube and cuboid have 6 faces, 12 edges, and 8 corners. || கனசதுரம் மற்றும் கனசெவ்வகம் ஆகிய இரண்டிற்கும் 6 முகங்கள், 12 விளிம்புகள் மற்றும் 8 முனைகள் உண்டு."
+    },
+    {
+      "question": "A piece of paper is a best example for which shape? || காகிதம் என்பது எவ்வடிவத்திற்கு ஒரு சிறந்த எடுத்துக்காட்டு?",
+      "options": ["Square", "Triangle", "Rectangle", "Circle"],
+      "answer": 2,
+      "explanation": "Paper is given as an example for a rectangle in the activity. || பாடத்தின் செயல்பாடு 1-ல் 'காகிதம் - செவ்வகம்' என எடுத்துக்காட்டு கொடுக்கப்பட்டுள்ளது."
+    },
+    {
+      "question": "Which dimension is NOT found in 3D figures? || முப்பரிமாண உருவங்களில் (3D) காணப்படாத பரிமாணம் எது?",
+      "options": ["Length", "Width", "Height", "Perimeter"],
+      "answer": 3,
+      "explanation": "3D shapes refer only to Length, Width, and Height. || 3D வடிவங்கள் நீளம், அகலம், உயரம் ஆகிய 3 பரிமாணங்களை மட்டுமே குறிக்கின்றன."
+    },
+    {
+      "question": "Match the following: 1. Square - All sides equal, 2. Rectangle - Opposite sides equal, 3. Circle - Center point, 4. Triangle - 3 Corners.",
+      "options": ["1-c, 2-d, 3-a, 4-b", "1-a, 2-b, 3-c, 4-d", "1-d, 2-c, 3-b, 4-a", "1-c, 2-a, 3-d, 4-b"],
+      "answer": 0,
+      "explanation": "Square (all sides equal), Rectangle (opposite sides equal), Circle (center point), Triangle (3 corners). || சதுரம் - அனைத்து பக்கங்களும் சமம், செவ்வகம் - எதிர்ப்பக்கங்கள் சமம், வட்டம் - மையப்புள்ளி, முக்கோணம் - 3 முனைகள்."
+    },
+    {
+      "question": "Assertion (A): A sphere has no corners. Reason (R): A sphere is a round solid shape with a curved surface.",
+      "options": ["A and R are false", "A is true, R is false", "Both A and R are true, R is the correct explanation", "Both A and R are true, but R is not the explanation"],
+      "answer": 2,
+      "explanation": "Since a sphere is a curved surface, it has no edges or corners. || கோளம் ஒரு வளைதளம் என்பதால் அதற்கு விளிம்புகளோ முனைகளோ இருப்பதில்லை."
+    },
+    {
+      "question": "Complete the analogy: 2D shape : Rectangle :: 3D figure : ?",
+      "options": ["Square", "Cuboid", "Triangle", "Circle"],
+      "answer": 1,
+      "explanation": "Rectangle is 2D, its 3D version is a cuboid. || செவ்வகம் ஒரு இருபரிமாண வடிவம், கனசெவ்வகம் அதன் முப்பரிமாண உருவம் ஆகும்."
+    },
+    {
+      "question": "The floor of Ravi's house is flat. What type of surface is it? || ரவியின் வீட்டின் தரைத்தளம் தட்டையாக உள்ளது. இது எந்த வகையான தளத்திற்கு எடுத்துக்காட்டு?",
+      "options": ["Curved surface", "Flat surface", "Spherical surface", "Triangular surface"],
+      "answer": 1,
+      "explanation": "Floors and walls are flat surfaces. || தரை, சுவர்கள் போன்றவை தட்டையான மேற்பரப்பைக் கொண்ட சமதளங்கள் ஆகும்."
+    },
+    {
+      "question": "How many corners does a cube have? || ஒரு கனசதுரத்திற்கு எத்தனை முனைகள் உள்ளன?",
+      "options": ["6", "12", "8", "10"],
+      "answer": 2,
+      "explanation": "A cube has 6 faces, 12 edges, and 8 corners. || கனசதுரத்திற்கு 6 முகங்கள், 12 விளிம்புகள் மற்றும் 8 முனைகள் உண்டு."
+    },
+    {
+      "question": "Which shape contains only a curved line? || எந்த வடிவத்தில் வளைகோடு மட்டுமே காணப்படுகிறது?",
+      "options": ["Triangle", "Square", "Rectangle", "Circle"],
+      "answer": 3,
+      "explanation": "A circle is made entirely of a curved line. || வட்டத்திற்கு நேர்க்கோடுகளால் ஆன பக்கங்கள் இல்லை, இது முழுமையான வளைகோட்டால் ஆனது."
+    },
+    {
+      "question": "When folding a rectangle, which sides match each other? || செவ்வகத்தை மடிக்கும்போது எந்தப் பக்கங்கள் ஒன்றின் மீது ஒன்று பொருந்துகின்றன?",
+      "options": ["Adjacent sides", "Opposite sides", "All sides", "Do not match"],
+      "answer": 1,
+      "explanation": "Opposite sides of a rectangle match when folded, showing they are equal. || செவ்வகத்தின் எதிர்ப்பக்கங்களை மடிக்கும்போது ஒன்றின் மீது ஒன்று பொருந்துவதால் எதிர்ப்பக்கங்கள் சமமாக உள்ளதை அறிகிறோம்."
+    },
+    {
+      "question": "What is the basic 2D shape used to form a cuboid? || கனசெவ்வகத்தை உருவாக்கப் பயன்படும் அடிப்படை 2D வடிவம் எது?",
+      "options": ["Square", "Circle", "Triangle", "Rectangle"],
+      "answer": 3,
+      "explanation": "A cuboid is a solid figure made of rectangles. || ஒரு கனசெவ்வகம் என்பது செவ்வகங்களால் ஆன திட உருவமாகும்."
+    },
+    {
+      "question": "Assertion: At least 2 triangles can be made from a square sheet. Reason: The diagonal of a square divides it into two triangles.",
+      "options": ["A true, R false", "A false, R true", "Both A and R are true", "Both A and R are false"],
+      "answer": 2,
+      "explanation": "A diagonal divides a square into two triangles. || சதுரத்தின் நடுவே உள்ள மடிப்பு (மூலைவிட்டம்) சதுரத்தை இரு முக்கோணங்களாகப் பிரிக்கிறது."
+    },
+    {
+      "question": "Which 3D figure has flat surfaces? || பின்வருவனவற்றில் எந்த 3D உருவம் சமதளங்களைக் கொண்டது?",
+      "options": ["Sphere", "Cone", "Cylinder", "Cube"],
+      "answer": 3,
+      "explanation": "Cube and Cuboid have flat surfaces. || கனசதுரம் மற்றும் கனசெவ்வகம் சமதளங்களைக் கொண்டவை."
+    },
+    {
+      "question": "What type of surface does a cylinder have? || உருளை எவ்வகையான தளத்தைக் கொண்டுள்ளது?",
+      "options": ["Flat surface only", "Curved surface only", "Flat and Curved surface", "No surface"],
+      "answer": 1,
+      "explanation": "Sphere, cone, and cylinder have curved surfaces. || கோளம், கூம்பு, உருளை போன்றவை வளைதளங்களைக் கொண்டவை என பாடக்குறிப்பு கூறமுறை."
+    },
+    {
+      "question": "Analogy: Square : 4 sides :: Triangle : ?",
+      "options": ["2 sides", "3 sides", "4 sides", "No sides"],
+      "answer": 1,
+      "explanation": "A triangle has 3 sides. || முக்கோணத்திற்கு 3 பக்கங்கள் உள்ளன."
+    },
+    {
+      "question": "Front view and side view are drawn for which type of figures? || ஒரு பொருளின் முன் தோற்றமும் பக்கவாட்டு தோற்றமும் எவ்வகையான உருவங்களுக்கு வரையப்படுகிறது?",
+      "options": ["1D shapes", "2D shapes", "3D shapes", "Points"],
+      "answer": 2,
+      "explanation": "Front and side views are drawn for 3D objects. || முப்பரிமாண (3D) பொருள்களை அளித்து அவற்றின் முன் மற்றும் பக்கவாட்டு தோற்றத்தை வரையக் கூறப்பட்டுள்ளது."
+    },
+    {
+      "question": "Match the following: 1. Cube - 6 Faces, 2. Sphere - 1 Face, 3. Triangle - 3 Sides.",
+      "options": ["1-a, 2-b, 3-c", "1-b, 2-a, 3-c", "1-c, 2-b, 3-a", "1-b, 2-c, 3-a"],
+      "answer": 1,
+      "explanation": "Cube (6 faces), Sphere (1 face), Triangle (3 sides). || கனசதுரத்திற்கு 6 முகங்கள், கோளத்திற்கு 1 முகம், முக்கோணத்திற்கு 3 பக்கங்கள் உள்ளன."
+    },
+    {
+      "question": "Ramu buys a birthday cap. What is its shape? || ராமு ஒரு பிறந்தநாள் தொப்பியை வாங்குகிறான். அதன் வடிவம் என்ன?",
+      "options": ["Cube", "Cylinder", "Cone", "Sphere"],
+      "answer": 2,
+      "explanation": "A birthday cap is cone-shaped. || பிறந்தநாள் தொப்பி கூம்பு வடிவ அமைப்பைக் கொண்டது."
+    },
+    {
+      "question": "Which category does an 'Isosceles triangle' belong to? || இருசமபக்க முக்கோணம் என்பது எந்த வடிவத்தின் வகையைச் சேர்ந்தது?",
+      "options": ["Square", "Rectangle", "Triangle", "Circle"],
+      "answer": 2,
+      "explanation": "Isosceles is a type of triangle. || முக்கோணத்தின் வகைகளில் ஒன்று இருசமபக்க முக்கோணம்."
+    },
+    {
+      "question": "How many faces does a sphere have? || கோளத்திற்கு எத்தனை முகங்கள் உள்ளன?",
+      "options": ["0", "1", "2", "Infinite"],
+      "answer": 1,
+      "explanation": "A sphere has one continuous face. || ஒரு கோளம் என்பது வட்டத்தின் திட சுற்று வடிவமாகும், அதற்கு 1 முகம் உண்டு."
+    },
+    {
+      "question": "Which of the following is FALSE about a square? || சதுரத்தின் பண்புகளில் தவறானது எது?",
+      "options": ["4 sides equal", "4 corners", "2 diagonals", "Diagonals are not equal"],
+      "answer": 3,
+      "explanation": "In a square, the diagonals are always equal. || சதுரத்தின் இரண்டு மூலைவிட்டங்களும் சமம் என்பதே சரியான பண்பு."
+    },
+    {
+      "question": "How many edges does a cuboid have? || கனசெவ்வகத்திற்கு எத்தனை விளிம்புகள் உள்ளன?",
+      "options": ["6", "8", "12", "14"],
+      "answer": 2,
+      "explanation": "A cuboid has 12 edges. || ஒரு கனசெவ்வகத்திற்கு 12 விளிம்புகள் உள்ளன."
+    },
+    {
+      "question": "If you open a paper after folding and cutting it in triangle shape, what shape do you get? || ஒரு காகிதத்தை முக்கோண வடிவில் மடித்துக் கிழித்தபின் திறந்தால் கிடைக்கும் வடிவம்?",
+      "options": ["Rectangle", "Square", "Circle", "Sphere"],
+      "answer": 1,
+      "explanation": "Opening the triangle-folded cut paper gives a square. || பாடத்தின் செயல்பாட்டின்படி, காகிதத்தை மடித்துக் கிழித்துத் திறந்தால் சதுரம் கிடைக்கும்."
+    },
+    {
+      "question": "Assertion: The two diagonals of a rectangle are equal. Reason: The two diagonals of a square are also equal.",
+      "options": ["Both are true", "A true, R false", "A false, R true", "Both are false"],
+      "answer": 0,
+      "explanation": "Both squares and rectangles have equal diagonals. || சதுரம் மற்றும் செவ்வகம் ஆகிய இரண்டிற்கும் தலா 2 மூலைவிட்டங்கள் உள்ளன மற்றும் அவை சமம்."
+    },
+    {
+      "question": "What are solid figures made of? || திட உருவங்கள் எவற்றால் ஆனவை?",
+      "options": ["Straight lines only", "Base of 2D shapes", "Curved lines only", "Points only"],
+      "answer": 1,
+      "explanation": "Solid figures like cubes are made of 2D shapes like squares. || எடுத்துக்காட்டாக கனசதுரம் சதுரங்களாலும், கனசெவ்வகம் செவ்வகங்களாலும் ஆன திட உருவங்கள் ஆகும்."
+    },
+    {
+      "question": "What indicates length, width, and height of an object? || ஒரு பொருளின் நீளம், அகலம், உயரம் ஆகியவற்றைக் குறிப்பது எது?",
+      "options": ["1D", "2D", "3D", "4D"],
+      "answer": 2,
+      "explanation": "3D stands for 3 Dimensions (Length, Width, Height). || திட வடிவங்கள் நீளம், அகலம், உயரம் ஆகிய 3 பரிமாணங்களைப் பெற்றிருக்கிறது (3D)."
+    },
+    {
+      "question": "Match colors: 1. Square - Red, 2. Rectangle - Green, 3. Triangle - Yellow.",
+      "options": ["1-c, 2-b, 3-a", "1-a, 2-b, 3-c", "1-b, 2-c, 3-a", "1-c, 2-a, 3-b"],
+      "answer": 0,
+      "explanation": "Square (Red), Rectangle (Green), Triangle (Yellow). || அடிப்படை வடிவங்கள் செயல்பாட்டில், சதுரம்-சிவப்பு, செவ்வகம்-பச்சை, முக்கோணம்-மஞ்சள் என வண்ணமிடக் கூறப்பட்டுள்ளது."
+    },
+    {
+      "question": "How many diagonals does a circle have? || ஒரு வட்டத்திற்கு எத்தனை மூலைவிட்டங்கள் உள்ளன?",
+      "options": ["1", "2", "0", "Infinite"],
+      "answer": 2,
+      "explanation": "A circle has no sides or corners, so it has no diagonals. || வட்டத்திற்கு பக்கங்களோ முனைகளோ இல்லை, எனவே மூலைவிட்டங்களும் இல்லை."
+    },
+    {
+      "question": "HOTS: A student makes a box with 6 faces, 12 edges, and 8 corners, but all faces are NOT equal. What shape did he make? || ஒரு மாணவன் 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள் கொண்ட பெட்டியை உருவாக்குகிறான், முகங்கள் சமமாக இல்லை. அது என்ன?",
+      "options": ["Cube", "Cuboid", "Cylinder", "Prism"],
+      "answer": 1,
+      "explanation": "If faces are not equal (made of rectangles), it is a cuboid. || முகங்கள் சமமாக இல்லை எனில் அது செவ்வகங்களால் ஆன 'கனசெவ்வகம்' ஆகும்."
+    },
+    {
+      "question": "HOTS: Folding a rectangle sheet so that opposite corners meet creates a fold that represents what? || ஒரு செவ்வகத் தாளை எடுத்து அதன் இரு எதிர் முனைகளை மடித்தால், அந்த மடிப்பு எதனைக் குறிக்கிறது?",
+      "options": ["Side", "Center", "Diagonal", "Perimeter"],
+      "answer": 2,
+      "explanation": "The line connecting opposite corners is the diagonal. || எதிர் முனைகளை மடிக்கும் போது உருவாகும் கோடு செவ்வகத்தின் மூலைவிட்டத்தைக் குறிக்கிறது."
+    },
+    {
+      "question": "HOTS: No flat surface, no edges, and no corners, but it is a 3D shape. What is it? || சமதளமும் இல்லை, விளிம்புகளும் இல்லை, முனைகளும் இல்லை ஆனால் அது ஒரு 3D வடிவம். அது எது?",
+      "options": ["Circle", "Cylinder", "Cone", "Sphere"],
+      "answer": 3,
+      "explanation": "A sphere is the only 3D shape without flat surfaces, edges, or corners. || சமதளமும் விளிம்புகளும் முனைகளும் இல்லாத ஒரே 3D வடிவம் கோளம் ஆகும்."
+    },
+    {
+      "question": "HOTS: If you draw both diagonals in a square, how many small triangles are formed? || ஒரு சதுரத்தின் இரு மூலைவிட்டங்களையும் வரைந்தால், எத்தனை சிறிய முக்கோணங்கள் உருவாகும்?",
+      "options": ["2", "3", "4", "6"],
+      "answer": 2,
+      "explanation": "Two intersecting diagonals divide a square into 4 small triangles. || இரு மூலைவிட்டங்களும் குறுக்காக வெட்டும்போது 4 சிறிய முக்கோணங்கள் உருவாகும்."
+    },
+    {
+      "question": "HOTS: What can you guess about the 'Scalene Triangle' from its name? || 'அசமபக்க முக்கோணம்' என்ற பெயரில் இருந்து அதன் பண்பை எவ்வாறு யூகிக்கலாம்?",
+      "options": ["All sides equal", "Two sides equal", "No sides are equal", "It is curved"],
+      "answer": 2,
+      "explanation": "Scalene means sides are unequal. || அசமபக்கம் (அ+சம+பக்கம்) என்பது பக்கங்கள் சமமாக இல்லாத நிலையைக் குறிக்கிறது. எனவே எந்தப் பக்கமும் சமம் இல்லை."
+    }
+  ]
+}

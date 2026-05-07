@@ -1,0 +1,509 @@
+{
+  "lesson_meta": {
+    "title": "Measurements - Weight || அளவைகள் - பொருள்களின் எடை",
+    "code": "mat_3_t2_l3",
+    "grade": "3",
+    "term": "2",
+    "unit": "3",
+    "subject": "Mathematics"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson teaches how to measure the weight of objects. It distinguishes between non-standard units (seeds, stones, erasers) and standard units (weighting stones). Standard units are used for accurate measurement. Heavy objects are measured in kilograms (kg) and light objects in grams (g).\n\nஇப்பாடம் பொருள்களின் எடையை அளத்தல் பற்றியதாகும். எளிய தராசின் மூலம் விதைகள், கற்கள் ஆகியவற்றைப் பயன்படுத்தி அளப்பது 'திட்டமற்ற அளவைகள்' எனப்படும். எடையைத் துல்லியமாக அளக்க 'திட்டமான எடைக்கற்கள்' பயன்படுத்தப்படுகின்றன. அதிக எடையுடைய பொருள்கள் கிலோகிராமிலும் (கிகி), குறைவான எடையுள்ள பொருள்கள் கிராமிலும் (கி) அளக்கப்படுகின்றன."
+    },
+    {
+      "type": "section",
+      "title": "Units of Weight || எடையின் அலகுகள்",
+      "content": "• **Kilogram (kg)**: Used for heavy items. 1 kg = 1000 g.\n• **Gram (g)**: Used for lighter items. 1 g = 1000 mg.\n• **Milligram (mg)**: The smallest unit for very light items.\n\n• **கிலோகிராம் (கிகி)**: அதிக எடையுள்ள பொருள்களுக்கு. 1 கிகி = 1000 கிராம்.\n• **கிராம் (கி)**: குறைந்த எடையுள்ள பொருள்களுக்கு. 1 கிராம் = 1000 மிகி.\n• **மில்லிகிராம் (மிகி)**: மிகச் சிறிய அளவிற்கான அலகு."
+    },
+    {
+      "type": "section",
+      "title": "Fractional Weights || பின்ன எடைகள்",
+      "content": "• **1/2 kg (Half kg)** = 500 grams\n• **1/4 kg (Quarter kg)** = 250 grams\n• **3/4 kg (Three-quarters kg)** = 750 grams\n\n• **½ கிகி (அரை கிலோ)** = 500 கிராம்\n• **¼ கிகி (கால் கிலோ)** = 250 கிராம்\n• **¾ கிகி (முக்கால் கிலோ)** = 750 கிராம்"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What type of measurement is it when you measure using tamarind seeds or stones? || புளியங்கொட்டைகள் அல்லது கற்களைக் கொண்டு எடையை அளப்பது எவ்வகை அளவை?",
+      "options": ["Standard measurement", "Non-standard measurement", "Accurate measurement", "Linear measurement"],
+      "answer": 1,
+      "explanation": "Tamarind seeds and stones vary in size, so they are non-standard units. || புளியங்கொட்டைகள் ஒவ்வொன்றும் வெவ்வேறு எடையைக் கொண்டிருப்பதால் அவை திட்டமற்ற அளவைகள் ஆகும்."
+    },
+    {
+      "question": "In Activity 1, what was compared with the geometry box to measure weight? || பாடத்தில் உள்ள செயல்பாட்டில் கணித உபகரணப் பெட்டியை எதனுடன் ஒப்பிட்டு அளவிட்டனர்?",
+      "options": ["Leaves", "Tamarind seeds and stones", "Coins", "Sand"],
+      "answer": 1,
+      "explanation": "Tamarind seeds, pebbles, and erasers were used for non-standard comparison. || கணித உபகரணப் பெட்டியை புளியங்கொட்டைகள், கூழாங்கற்கள் மற்றும் அழிப்பான் ஆகியவற்றுடன் ஒப்பிட்டனர்."
+    },
+    {
+      "question": "How are results obtained through non-standard measurements? || திட்டமற்ற அளவைகள் மூலம் கிடைக்கும் முடிவுகள் எவ்வாறு இருக்கும்?",
+      "options": ["Accurate", "Same", "Different", "Zero"],
+      "answer": 2,
+      "explanation": "Because seeds and stones vary in weight, results will be different each time. || கற்கள் மற்றும் விதைகளின் அளவுகள் மாறுபடுவதால் எடையும் வெவ்வேறாக இருக்கும்."
+    },
+    {
+      "question": "What do we use to measure weight accurately? || பொருள்களின் எடையைத் துல்லியமாக அளக்க நாம் எதைப் பயன்படுத்துகிறோம்?",
+      "options": ["Pebbles", "Weight stones", "Erasers", "Tamarind seeds"],
+      "answer": 1,
+      "explanation": "Standard weights provide accurate and consistent measurements. || எடைக்கற்கள் (Standard weights) திட்டமான எடையைக் காட்டும் கருவிகளாகும்."
+    },
+    {
+      "question": "In which unit are heavy objects measured? || அதிக எடையுடைய பொருள்கள் எந்த அலகில் அளக்கப்படுகின்றன?",
+      "options": ["Gram", "Milligram", "Kilogram", "Meter"],
+      "answer": 2,
+      "explanation": "Kilogram is used for heavy items like rice bags or pumpkins. || அதிக எடையுடைய பொருள்கள் கிலோகிராமில் அளக்கப்படுகின்றன."
+    },
+    {
+      "question": "In which unit are light objects measured? || குறைவான எடையுள்ள பொருள்கள் எந்த அலகில் அளக்கப்படுகின்றன?",
+      "options": ["Kilogram", "Gram", "Liter", "Centimeter"],
+      "answer": 1,
+      "explanation": "Gram is used for lighter items like gold or spices. || குறைவான எடையுள்ள பொருள்கள் கிராமில் அளக்கப்படுகின்றன."
+    },
+    {
+      "question": "What is the short form of 'Kilogram'? || 'கிலோகிராம்' என்பதன் சுருக்கிய வடிவம் என்ன?",
+      "options": ["g", "kg", "mg", "km"],
+      "answer": 1,
+      "explanation": "Kilogram is shortened to 'kg' (in Tamil 'கிகி'). || கிலோகிராம் என்பதைச் சுருக்கமாக 'கிகி' எனக் கூறுகிறோம்."
+    },
+    {
+      "question": "What is the short form of 'Gram'? || 'கிராம்' என்பதன் சுருக்கிய வடிவம் என்ன?",
+      "options": ["kg", "km", "g", "mg"],
+      "answer": 2,
+      "explanation": "Gram is shortened to 'g' (in Tamil 'கி'). || கிராம் என்பதைச் சுருக்கமாக 'கி' எனக் கூறுகிறோம்."
+    },
+    {
+      "question": "How many grams are there in 1 Kilogram? || 1 கிலோகிராம் என்பது எத்தனை கிராம்களுக்குச் சமம்?",
+      "options": ["100 grams", "1000 grams", "10 grams", "10000 grams"],
+      "answer": 1,
+      "explanation": "1 kg = 1000 g. || 1 கிலோகிராம் = 1000 கிராம் ஆகும்."
+    },
+    {
+      "question": "How many milligrams are there in 1 Gram? || 1 கிராம் என்பது எத்தனை மில்லிகிராம்களுக்குச் சமம்?",
+      "options": ["100 mg", "1000 mg", "500 mg", "10 mg"],
+      "answer": 1,
+      "explanation": "1 g = 1000 mg. || 1 கிராம் = 1000 மில்லிகிராம் ஆகும்."
+    },
+    {
+      "question": "How many 100g packets make 1 kg? || 1 கிகி என்பது எத்தனை 100 கி பொட்டலங்களைக் கொண்டது?",
+      "options": ["10", "20", "5", "100"],
+      "answer": 0,
+      "explanation": "10 x 100g = 1000g = 1 kg. || 10 × 100 கி = 1000 கி (1 கிகி). எனவே 10 பொட்டலங்கள்."
+    },
+    {
+      "question": "How many 100g packets make 2 kg? || 2 கிகி என்பது எத்தனை 100 கி பொட்டலங்களைக் கொண்டது?",
+      "options": ["10", "20", "30", "50"],
+      "answer": 1,
+      "explanation": "20 x 100g = 2000g = 2 kg. || 20 × 100 கி = 2000 கி (2 கிகி). எனவே 20 பொட்டலங்கள்."
+    },
+    {
+      "question": "How many 100g packets are needed to fill 3 kg of rice? || 3 கிகி அரிசியை நிரப்பத் தேவைப்படும் 100கி பொட்டலங்களின் எண்ணிக்கை எத்தனை?",
+      "options": ["10", "20", "30", "40"],
+      "answer": 2,
+      "explanation": "3 kg = 3000g. 3000 / 100 = 30 packets. || 3 கிகி = 3000 கி. 3000 ÷ 100 = 30 பொட்டலங்கள்."
+    },
+    {
+      "question": "How many grams are in 1/2 kg (Half Kilogram)? || ½ கிகி (அரை கிலோகிராம்) என்பது எத்தனை கிராம்?",
+      "options": ["250 g", "500 g", "750 g", "100 g"],
+      "answer": 1,
+      "explanation": "Half of 1000g is 500g. || 1000 கிராமில் பாதி 500 கிராம் ஆகும்."
+    },
+    {
+      "question": "How many grams are in 1/4 kg (Quarter Kilogram)? || ¼ கிகி (கால் கிலோகிராம்) என்பது எத்தனை கிராம்?",
+      "options": ["250 g", "500 g", "750 g", "1000 g"],
+      "answer": 0,
+      "explanation": "One-fourth of 1000g is 250g. || 1000 கிராமில் நான்கில் ஒரு பங்கு 250 கிராம் ஆகும்."
+    },
+    {
+      "question": "How many grams are in 3/4 kg (Three-quarters Kilogram)? || ¾ கிகி (முக்கால் கிலோகிராம்) என்பது எத்தனை கிராம்?",
+      "options": ["250 g", "500 g", "750 g", "1000 g"],
+      "answer": 2,
+      "explanation": "500g (Half) + 250g (Quarter) = 750g. || அரை கிலோவும் கால் கிலோவும் சேர்ந்தால் முக்கால் கிலோ (500+250=750)."
+    },
+    {
+      "question": "Which one is different? Gram, Kilogram, Meter. || பொருந்தாத ஒன்றை வட்டமிடுக: கிராம், கிலோகிராம், மீட்டர்.",
+      "options": ["Gram", "Kilogram", "Meter", "None"],
+      "answer": 2,
+      "explanation": "Gram and kg measure weight; Meter measures length. || கிராம், கிகி ஆகியவை எடையின் அலகுகள். மீட்டர் என்பது நீளத்தின் அலகு."
+    },
+    {
+      "question": "Which one is different? 50g, 500kg, 100cm. || பொருந்தாத ஒன்றை வட்டமிடுக: 50கி, 500கிகி, 100செமீ.",
+      "options": ["50g", "500kg", "100cm", "All"],
+      "answer": 2,
+      "explanation": "cm (Centimeter) measures length, while others measure weight. || செமீ (சென்டிமீட்டர்) என்பது நீளத்தை அளக்கும் அலகு."
+    },
+    {
+      "question": "Which one is different? 1 m, 2 kg, 5 kg. || பொருந்தாத ஒன்றை வட்டமிடுக: 1 மீ, 2 கிகி, 5 கிகி.",
+      "options": ["1 m", "2 kg", "5 kg", "kg"],
+      "answer": 0,
+      "explanation": "Meter is a unit of length. || மீட்டர் என்பது நீளத்தின் அலகு."
+    },
+    {
+      "question": "1000 grams = __________ kg || 1000 கிராம் = __________ கிகி.",
+      "options": ["1", "10", "100", "2"],
+      "answer": 0,
+      "explanation": "One thousand grams make one Kilogram. || ஓர் ஆயிரம் கிராம் என்பது ஒரு கிலோகிராம் ஆகும்."
+    },
+    {
+      "question": "2 Kilograms = __________ grams || 2 கிலோகிராம் = __________ கிராம்.",
+      "options": ["20", "200", "2000", "1000"],
+      "answer": 2,
+      "explanation": "2 x 1000 = 2000 grams. || 2 x 1000 = 2000 கிராம்."
+    },
+    {
+      "question": "If a packet holds 100g of pepper, how many packets for 1 kg? || 100கி மிளகுத்தூள் ஒரு பையில் அடைக்கலாம் எனில், 1 கிகிக்கு எத்தனை பைகள் தேவை?",
+      "options": ["5", "10", "20", "50"],
+      "answer": 1,
+      "explanation": "1000 / 100 = 10 packets. || 1 கிகி = 1000 கி. 1000 ÷ 100 = 10 பைகள்."
+    },
+    {
+      "question": "How many 100g packets for 2 kg of coriander powder? || 2 கிகி தனியா தூளை அடைக்க 100கி அளவுள்ள பைகள் எத்தனை தேவை?",
+      "options": ["10", "20", "30", "40"],
+      "answer": 1,
+      "explanation": "2000 / 100 = 20 packets. || 2 கிகி = 2000 கி. 2000 ÷ 100 = 20 பைகள்."
+    },
+    {
+      "question": "How many 100g packets for 5 kg of coffee powder? || 5 கிகி காபிதூளை 100கி பைகளில் அடைக்க எத்தனை பைகள் தேவை?",
+      "options": ["10", "20", "50", "100"],
+      "answer": 2,
+      "explanation": "5000 / 100 = 50 packets. || 5 கிகி = 5000 கி. 5000 ÷ 100 = 50 பைகள்."
+    },
+    {
+      "question": "How many 100g packets for 10 kg of lentils? || 10 கிகி பருப்பை அடைக்க 100கி அளவுள்ள பைகள் எத்தனை தேவை?",
+      "options": ["10", "50", "100", "1000"],
+      "answer": 2,
+      "explanation": "10000 / 100 = 100 packets. || 10 கிகி = 10000 கி. 10000 ÷ 100 = 100 பைகள்."
+    },
+    {
+      "question": "How many 100g packets for 2 kg of mustard seeds? || 2 கிகி கடுகை 100கி அளவுள்ள பைகளில் நிரப்ப எத்தனை பைகள் தேவைப்படும்?",
+      "options": ["10", "20", "30", "50"],
+      "answer": 1,
+      "explanation": "2000 / 100 = 20 packets. || 2 கிகி = 2000 கி. 2000 ÷ 100 = 20 பைகள்."
+    },
+    {
+      "question": "How many 100g packets for 500g of cashews? || 500 கி முந்திரிப்பருப்பை அடைக்க 100கி பைகள் எத்தனை தேவை?",
+      "options": ["2", "5", "10", "50"],
+      "answer": 1,
+      "explanation": "500 / 100 = 5 packets. || 500 ÷ 100 = 5 பைகள்."
+    },
+    {
+      "question": "100g of ice cream costs ₹20. How much for 1 kg of ice cream? || 100கி பனிக்கூழின் விலை ₹ 20 எனில், 1 கிகிக்கு மலர் செலுத்த வேண்டிய தொகை என்ன?",
+      "options": ["₹ 100", "₹ 200", "₹ 500", "₹ 1000"],
+      "answer": 1,
+      "explanation": "10 packets x ₹20 = ₹200. || 1 கிகி = 10 முறை 100கி. எனவே 10 x ₹20 = ₹200."
+    },
+    {
+      "question": "1 kg sugar costs ₹50. How much should Ranjith pay for 2000g? || 1கிகி சர்க்கரையின் விலை ₹ 50 எனில், 2000கிக்கு எவ்வளவு செலுத்த வேண்டும்?",
+      "options": ["₹ 50", "₹ 100", "₹ 150", "₹ 200"],
+      "answer": 1,
+      "explanation": "2000g = 2 kg. 2 x ₹50 = ₹100. || 2000கி = 2 கிகி. 2 x ₹50 = ₹100."
+    },
+    {
+      "question": "Saranya has 3 kg of flour. If she makes 500g packets, how many will she get? || 3கிகி மாவை 500கி பொட்டலங்களாகப் பிரித்தால் எத்தனை கிடைக்கும்?",
+      "options": ["4", "5", "6", "8"],
+      "answer": 2,
+      "explanation": "1 kg = two 500g packets. 3 kg = 6 packets. || 1 கிகி = இரண்டு 500கி. அப்படியானால் 3 கிகி = 3 x 2 = 6 பொட்டலங்கள்."
+    },
+    {
+      "question": "What is the total weight of two 500g packets? || 500 கிராம் எடையுள்ள இரண்டு பொட்டலங்கள் சேர்ந்தால் மொத்த எடை எவ்வளவு?",
+      "options": ["1 kg", "2 kg", "1/2 kg", "1/4 kg"],
+      "answer": 0,
+      "explanation": "500g + 500g = 1000g = 1 kg. || 500 கி + 500 கி = 1000 கி = 1 கிகி."
+    },
+    {
+      "question": "How many 250g packets make 1 kg? || 250 கிராம் எடையுள்ள எத்தனை பொட்டலங்கள் சேர்ந்தால் 1 கிகி ஆகும்?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "250g x 4 = 1000g. || 250 x 4 = 1000 கிராம் (1 கிகி)."
+    },
+    {
+      "question": "750g is equal to what? || 750 கிராம் என்பது கீழ்க்கண்ட எதற்குச் சமம்?",
+      "options": ["Three 250g", "Two 500g", "Four 250g", "Two 250g"],
+      "answer": 0,
+      "explanation": "250g + 250g + 250g = 750g. || 250 + 250 + 250 = 750 கிராம்."
+    },
+    {
+      "question": "10 x 100 g = ? || 10 × 100 கி = ?",
+      "options": ["100 g", "1000 g", "10000 g", "10 kg"],
+      "answer": 1,
+      "explanation": "10 times 100 is 1000. || 10-ஐ 100-ஆல் பெருக்கினால் 1000 கிடைக்கும்."
+    },
+    {
+      "question": "20 x 100 g = ? || 20 × 100 கி = ?",
+      "options": ["200 g", "2000 g", "2000 kg", "20 kg"],
+      "answer": 1,
+      "explanation": "20 times 100 is 2000. || 20-ஐ 100-ஆல் பெருக்கினால் 2000 கிடைக்கும்."
+    },
+    {
+      "question": "1000 milligrams is equal to what? || 1000 மில்லிகிராம் என்பது எதற்குச் சமம்?",
+      "options": ["1 kg", "10 g", "1 g", "100 g"],
+      "answer": 2,
+      "explanation": "1 gram = 1000 mg. || 1 கிராம் = 1000 மில்லிகிராம்."
+    },
+    {
+      "question": "2 grams is how many milligrams? || 2 கிராம் என்பது எத்தனை மில்லிகிராம்?",
+      "options": ["200 mg", "20 mg", "2000 mg", "2 mg"],
+      "answer": 2,
+      "explanation": "2 x 1000 = 2000 mg. || 2 x 1000 = 2000 மில்லிகிராம்."
+    },
+    {
+      "question": "3000 grams is how many kilograms? || 3000 கிராம் என்பது எத்தனை கிலோகிராம்?",
+      "options": ["2 kg", "3 kg", "30 kg", "300 kg"],
+      "answer": 1,
+      "explanation": "3000 / 1000 = 3 kg. || 3000 ÷ 1000 = 3 கிகி."
+    },
+    {
+      "question": "4 kilograms is how many grams? || 4 கிலோகிராம் என்பது எத்தனை கிராம்?",
+      "options": ["400 g", "4000 g", "40 g", "40000 g"],
+      "answer": 1,
+      "explanation": "4 x 1000 = 4000 g. || 4 x 1000 = 4000 கிராம்."
+    },
+    {
+      "question": "If an object weighs 5000g, how do you say it in kilograms? || ஒரு பொருளின் எடை 5000 கிராம் எனில், அதை கிலோகிராமில் எவ்வாறு கூறுவாய்?",
+      "options": ["50 kg", "5 kg", "0.5 kg", "500 kg"],
+      "answer": 1,
+      "explanation": "5000 / 1000 = 5 kg. || 5000 ÷ 1000 = 5 கிகி."
+    },
+    {
+      "question": "Between mg, g, and kg, which one is used for the heaviest weight? || மில்லிகிராம், கிராம், கிலோகிராம் - இவற்றில் மிகப்பெரிய எடையை அளக்கப் பயன்படும் அலகு எது?",
+      "options": ["Gram", "Milligram", "Kilogram", "All equal"],
+      "answer": 2,
+      "explanation": "Kilogram is used for large quantities. || அதிக எடையுடைய பொருள்கள் கிலோகிராமில் அளக்கப்படுகின்றன."
+    },
+    {
+      "question": "Between mg, g, and kg, which is the smallest unit? || மிகச்சிறிய அலகு எது?",
+      "options": ["Gram", "Milligram", "Kilogram", "Gram and kg"],
+      "answer": 1,
+      "explanation": "Milligram is the smallest among these three. || ஒரு கிராமிலேயே 1000 மில்லிகிராம்கள் உள்ளதால் இதுவே மிகச்சிறியது."
+    },
+    {
+      "question": "If a bag contains 15 packets of 100g each, what is the total weight? || ஒரு பையில் 100 கி எடையுள்ள 15 பொட்டலங்கள் உள்ளன. பையின் மொத்த எடை எவ்வளவு?",
+      "options": ["1000 g", "1500 g", "150 g", "15000 g"],
+      "answer": 1,
+      "explanation": "15 x 100g = 1500g. || 15 x 100 = 1500 கி."
+    },
+    {
+      "question": "If 1 kg of ice cream is ₹200, how much for half a kg (500g)? || 1 கிகி ₹ 200 எனில், அரை கிலோ (500 கி) பனிக்கூழின் விலை என்ன?",
+      "options": ["₹ 50", "₹ 100", "₹ 150", "₹ 400"],
+      "answer": 1,
+      "explanation": "Half of 200 is 100. || 1 கிலோவில் பாதி அரை கிலோ. எனவே 200-ல் பாதி 100 ரூபாய்."
+    },
+    {
+      "question": "If 2000g of sugar costs ₹100, what is the price for 1000g? || 2000கி ₹ 100 எனில், 1000கி சர்க்கரையின் விலை என்ன?",
+      "options": ["₹ 200", "₹ 50", "₹ 150", "₹ 25"],
+      "answer": 1,
+      "explanation": "2000g is 2 kg. Price of 1 kg is 100 / 2 = 50. || 2000கி என்பது 2 கிகி. 2 கிகி ₹100 எனில் 1 கிகி ₹50."
+    },
+    {
+      "question": "If 1 kg pepper is packed in 10 equal bags, what is the weight of one bag? || 1 கிகி மிளகுத்தூள் 10 பைகளில் அடைக்கப்பட்டால், ஒரு பையின் எடை என்ன?",
+      "options": ["100 g", "10 g", "1000 g", "50 g"],
+      "answer": 0,
+      "explanation": "1000 / 10 = 100g. || 1000 ÷ 10 = 100 கி."
+    },
+    {
+      "question": "5 kg of coffee powder is equal to how many grams? || 5 கிகி காபி தூள் எத்தனை கிராம்களுக்குச் சமம்?",
+      "options": ["500 g", "5000 g", "50 g", "50000 g"],
+      "answer": 1,
+      "explanation": "5 x 1000 = 5000 g. || 5 x 1000 = 5000 கி."
+    },
+    {
+      "question": "10 kg of lentils is equal to how many grams? || 10 கிகி பருப்பு எத்தனை கிராம்களுக்குச் சமம்?",
+      "options": ["1000 g", "10000 g", "100 g", "100000 g"],
+      "answer": 1,
+      "explanation": "10 x 1000 = 10000 g. || 10 x 1000 = 10000 கி."
+    },
+    {
+      "question": "Analogy: Light weight : Gram :: Heavy weight : ? || ஒப்புமை காண்க: குறைந்த எடை : கிராம் :: அதிக எடை : ?",
+      "options": ["Milligram", "Liter", "Meter", "Kilogram"],
+      "answer": 3,
+      "explanation": "Heavy items are measured in kg. || குறைந்த எடையை கிராமில் அளப்பது போல அதிக எடையைக் கிலோகிராமில் அளப்போம்."
+    },
+    {
+      "question": "Analogy: 1000 g : 1 kg :: 500 g : ? || ஒப்புமை காண்க: 1000 கி : 1 கிகி :: 500 கி : ?",
+      "options": ["1/4 kg", "1/2 kg", "3/4 kg", "2 kg"],
+      "answer": 1,
+      "explanation": "500g is half of a kg. || 500 கி என்பது அரை கிலோ (½ கிகி) ஆகும்."
+    },
+    {
+      "question": "Assertion (A): Weight measured using stones varies. Reason (R): Stones are non-standard units. || கூற்று (A): கற்களைக் கொண்டு அளக்கப்படும் எடை மாறுபடும். காரணம் (R): அவை திட்டமற்ற அளவைகள்.",
+      "options": ["A is false, R is true", "Both A and R are true, R explains A", "Both are true, but R doesn't explain A", "A is true, R is false"],
+      "answer": 1,
+      "explanation": "Since they are not standardized, weight varies. || திட்டமற்ற அளவைகள் என்பதால் தான் எடை துல்லியமாக இல்லாமல் மாறுபடுகிறது."
+    },
+    {
+      "question": "Assertion (A): 1000 mg is 1 kg. Reason (R): mg is the smallest unit of weight. || கூற்று (A): 1000 மிகி என்பது 1 கிகி. காரணம் (R): எடையின் மிகச்சிறிய அலகு மிகி.",
+      "options": ["Both A and R are true", "A is true, R is false", "A is false, R is true", "Both false"],
+      "answer": 2,
+      "explanation": "1000 mg is 1 gram, not 1 kg. || 1000 மில்லிகிராம் என்பது 1 கிராம் (1 கிலோகிராம் அல்ல). எனவே கூற்று தவறு, காரணம் சரி."
+    },
+    {
+      "question": "Match: (1) 1/2 kg, (2) 1/4 kg, (3) 3/4 kg || பொருத்துக: (1) ½ கிகி, (2) ¼ கிகி, (3) ¾ கிகி",
+      "options": ["1-500g, 2-250g, 3-750g", "1-250g, 2-750g, 3-500g", "1-750g, 2-500g, 3-250g", "1-500g, 2-750g, 3-250g"],
+      "answer": 0,
+      "explanation": "1 matches 500g, 2 matches 250g, 3 matches 750g. || ½ கிகி = 500கி, ¼ கிகி = 250கி, ¾ கிகி = 750கி."
+    },
+    {
+      "question": "You ask for 2 kg of rice. If the shopkeeper says it in grams, what will it be? || 2 கிலோ அரிசி கிராமில் எவ்வளவு?",
+      "options": ["1000 g", "2000 g", "500 g", "200 g"],
+      "answer": 1,
+      "explanation": "2 kg = 2 x 1000 = 2000 g. || 2 கிலோ = 2000 கிராம்."
+    },
+    {
+      "question": "You have eight 100g weight stones. What is the total weight? || உன்னிடம் 100 கிராம் எடையுள்ள 8 எடைக்கற்கள் உள்ளன. மொத்த எடை என்ன?",
+      "options": ["80 g", "800 g", "8000 g", "8 kg"],
+      "answer": 1,
+      "explanation": "8 x 100 = 800g. || 8 x 100 = 800 கிராம்."
+    },
+    {
+      "question": "If you take away 250g from 1 kg of flour, how much remains? || 1 கிகி மாவில் இருந்து 250 கி மாவை எடுத்துவிட்டால் மீதம் எவ்வளவு?",
+      "options": ["250 g", "500 g", "750 g", "1000 g"],
+      "answer": 2,
+      "explanation": "1000 - 250 = 750g (Three-quarters). || 1 கிகி = 1000 கி. 1000 - 250 = 750 கி (முக்கால் கிலோ)."
+    },
+    {
+      "question": "How many 50g stones are needed for 1 kg weight? || 1 கிகி எடையை அளக்க 50 கிராம் எடைக்கற்கள் எத்தனை தேவைப்படும்?",
+      "options": ["10", "15", "20", "25"],
+      "answer": 2,
+      "explanation": "1000 / 50 = 20. || 1000 ÷ 50 = 20 எடைக்கற்கள்."
+    },
+    {
+      "question": "If 100g ice cream is ₹20, what is the cost of quarter kg (250g)? || 100கி ₹20 எனில், ¼ கிகி பனிக்கூழின் விலை என்ன?",
+      "options": ["₹ 40", "₹ 50", "₹ 60", "₹ 100"],
+      "answer": 1,
+      "explanation": "2.5 x ₹20 = ₹50. || கால் கிலோ = 250 கி. 100கி=₹20, 100கி=₹20, 50கி=₹10. மொத்தம் 20+20+10 = ₹50."
+    },
+    {
+      "question": "What is the total weight of half a kg sugar and quarter kg lentils? || அரை கிலோ சர்க்கரையும், கால் கிலோ பருப்பும் சேர்ந்தால் மொத்த எடை எவ்வளவு?",
+      "options": ["500 g", "1 kg", "750 g", "250 g"],
+      "answer": 2,
+      "explanation": "500g + 250g = 750g. || அரை கிலோ = 500கி. கால் கிலோ = 250கி. 500 + 250 = 750 கி."
+    },
+    {
+      "question": "How many 100g packets are needed for 3 kg 200 g of product? || 3 கிகி 200 கி பொருளை வைக்க 100கி பைகள் எத்தனை தேவை?",
+      "options": ["30", "32", "34", "40"],
+      "answer": 1,
+      "explanation": "3200 / 100 = 32. || 3 கிகி 200 கி = 3200 கி. 3200 ÷ 100 = 32 பைகள்."
+    },
+    {
+      "question": "Which of these was NOT mentioned as a tool for Activity 1? || செயல்பாட்டில் கூறப்படாத பொருள் எது?",
+      "options": ["Seeds", "Pebbles", "Eraser", "Leaves"],
+      "answer": 3,
+      "explanation": "Leaves were not used in the comparison activity. || செயல்பாட்டில் விதைகள், கற்கள், அழிப்பான் மட்டுமே பயன்படுத்தப்பட்டன."
+    },
+    {
+      "question": "Which of these shows 1 kg correctly? || 1 கிகி என்பதை எது சரியாகக் குறிக்கிறது?",
+      "options": ["10 x 10 g", "10 x 100 g", "100 x 100 g", "100 x 1000 g"],
+      "answer": 1,
+      "explanation": "10 times 100g equals 1000g (1 kg). || 10 முறை 100 கி சேர்ந்தால் 1000 கி (1 கிகி) கிடைக்கும்."
+    },
+    {
+      "question": "Which of these shows 2 kg correctly? || 2 கிகி என்பதை எது சரியாகக் குறிக்கிறது?",
+      "options": ["20 x 10 g", "20 x 100 g", "20 x 1000 g", "200 x 100 g"],
+      "answer": 1,
+      "explanation": "20 times 100g equals 2000g (2 kg). || 20 முறை 100 கி சேர்ந்தால் 2000 கி (2 கிகி) கிடைக்கும்."
+    },
+    {
+      "question": "What is the fractional form of '500 grams'? || '500 கிராம்' என்பதன் பின்ன வடிவம் எது?",
+      "options": ["1/4 kg", "1/2 kg", "3/4 kg", "1 kg"],
+      "answer": 1,
+      "explanation": "500g is half (1/2) of a kilogram. || 1000 கிராமில் பாதி (½) 500 கிராம் ஆகும்."
+    },
+    {
+      "question": "What is the fractional form of '250 grams'? || '250 கிராம்' என்பதன் பின்ன வடிவம் எது?",
+      "options": ["1/4 kg", "1/2 kg", "3/4 kg", "1 kg"],
+      "answer": 0,
+      "explanation": "250g is a quarter (1/4) of a kilogram. || 1000 கிராமில் நான்கில் ஒரு பங்கு (¼) 250 கிராம் ஆகும்."
+    },
+    {
+      "question": "What is the fractional form of '750 grams'? || '750 கிராம்' என்பதன் பின்ன வடிவம் எது?",
+      "options": ["1/4 kg", "1/2 kg", "3/4 kg", "1 kg"],
+      "answer": 2,
+      "explanation": "750g is three-quarters (3/4) of a kilogram. || 1000 கிராமில் முக்கால் பங்கு (¾) 750 கிராம் ஆகும்."
+    },
+    {
+      "question": "5 kilograms = __________ grams || 5 கிலோகிராம் = __________ கிராம்.",
+      "options": ["50", "500", "5000", "50000"],
+      "answer": 2,
+      "explanation": "5 x 1000 = 5000 g. || 5 x 1000 = 5000 கிராம்."
+    },
+    {
+      "question": "10 kilograms = __________ grams || 10 கிலோகிராம் = __________ கிராம்.",
+      "options": ["100", "1000", "10000", "100000"],
+      "answer": 2,
+      "explanation": "10 x 1000 = 10000 g. || 10 x 1000 = 10000 கிராம்."
+    },
+    {
+      "question": "7 kg is how many 100g packets? || 7 கிகி என்பது எத்தனை 100 கி பொட்டலங்களைக் கொண்டது?",
+      "options": ["7", "70", "700", "7000"],
+      "answer": 1,
+      "explanation": "7000 / 100 = 70 packets. || 7 கிகி = 7000 கி. 7000 ÷ 100 = 70 பொட்டலங்கள்."
+    },
+    {
+      "question": "How many 100g packets for 4 kg of rice? || 4 கிகி அரிசியை நிரப்ப எத்தனை 100கி பொட்டலங்கள் தேவை?",
+      "options": ["20", "40", "60", "80"],
+      "answer": 1,
+      "explanation": "4000 / 100 = 40. || 4 கிகி = 4000 கி. 4000 ÷ 100 = 40 பொட்டலங்கள்."
+    },
+    {
+      "question": "100g cashews cost ₹100. How much for 500g? || 100கி முந்திரிப்பருப்பு விலை ₹ 100 எனில், 500கி விலை என்ன?",
+      "options": ["₹ 200", "₹ 300", "₹ 400", "₹ 500"],
+      "answer": 3,
+      "explanation": "5 x 100 = ₹500. || 5 முறை 100கி என்பதால் 5 x ₹100 = ₹500."
+    },
+    {
+      "question": "If you use 500g from 1 kg of flour to make bread, how much remains? || 1 கிகி மாவில் 500 கி மாவை பயன்படுத்தினால், மீதம் எவ்வளவு இருக்கும்?",
+      "options": ["250 g", "500 g", "750 g", "0 g"],
+      "answer": 1,
+      "explanation": "1000 - 500 = 500g. || 1000 கி - 500 கி = 500 கி (அரை கிலோ)."
+    },
+    {
+      "question": "If you take away quarter kg (250g) from 2 kg of sugar, how much remains? || 2 கிகி சர்க்கரையில் இருந்து ¼ கிகி (250 கி) சர்க்கரையை எடுத்துவிட்டால் மீதம் எவ்வளவு?",
+      "options": ["1500 g", "1750 g", "1250 g", "1000 g"],
+      "answer": 1,
+      "explanation": "2000 - 250 = 1750g. || 2000 கி - 250 கி = 1750 கி."
+    },
+    {
+      "question": "3000 milligrams is how many grams? || 3000 மில்லிகிராம் என்பது எத்தனை கிராம்?",
+      "options": ["3 g", "30 g", "300 g", "3 kg"],
+      "answer": 0,
+      "explanation": "3000 / 1000 = 3 grams. || 3000 ÷ 1000 = 3 கிராம்."
+    },
+    {
+      "question": "5000 milligrams is how many grams? || 5000 மில்லிகிராம் என்பது எத்தனை கிராம்?",
+      "options": ["50 g", "5 kg", "5 g", "500 g"],
+      "answer": 2,
+      "explanation": "5000 / 1000 = 5 grams. || 5000 ÷ 1000 = 5 கிராம்."
+    },
+    {
+      "question": "Analogy: 10 packets : 1 kg :: 50 packets : ? || ஒப்புமை காண்க: 10 பொட்டலங்கள் : 1 கிகி :: 50 பொட்டலங்கள் : ?",
+      "options": ["2 kg", "3 kg", "4 kg", "5 kg"],
+      "answer": 3,
+      "explanation": "50 packets of 100g each make 5 kg. || 10 பொட்டலங்கள் (100கி) = 1 கிகி எனில், 50 பொட்டலங்கள் = 5 கிகி."
+    },
+    {
+      "question": "Analogy: 1000 mg : 1 g :: 2000 mg : ? || ஒப்புமை காண்க: 1000 மிகி : 1 கி :: 2000 மிகி : ?",
+      "options": ["2 g", "20 g", "2 kg", "200 g"],
+      "answer": 0,
+      "explanation": "2000 mg = 2 grams. || 1000 மிகி = 1 கி எனில், 2000 மிகி = 2 கி."
+    },
+    {
+      "question": "Assertion (A): Heavy objects are measured in grams. Reason (R): Light objects are measured in kilograms. || கூற்று (A): அதிக எடையுடைய பொருள்கள் கிராமில் அளக்கப்படுகின்றன. காரணம் (R): குறைவான எடையுள்ள பொருள்கள் கிலோகிராமில் அளக்கப்படுகின்றன.",
+      "options": ["Both A and R are true", "A is true, R is false", "A is false, R is true", "Both A and R are false"],
+      "answer": 3,
+      "explanation": "Both statements are reversed. || அதிக எடைக்கு கிலோகிராமும், குறைவான எடைக்கு கிராமும் பயன்படுத்தப்பட வேண்டும். இரண்டுமே தவறாகக் கொடுக்கப்பட்டுள்ளன."
+    },
+    {
+      "question": "How many 200g stones are needed for 1 kg? || 1 கிகி எடையை அளக்க 200 கி எடைக்கற்கள் எத்தனை தேவைப்படும்?",
+      "options": ["2", "4", "5", "10"],
+      "answer": 2,
+      "explanation": "1000 / 200 = 5. || 1000 ÷ 200 = 5 எடைக்கற்கள்."
+    },
+    {
+      "question": "How many 500g stones are needed for 2 kg? || 2 கிகி எடையை அளக்க 500 கி எடைக்கற்கள் எத்தனை தேவைப்படும்?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "2000 / 500 = 4. || 2 கிகி = 2000 கி. 2000 ÷ 500 = 4 எடைக்கற்கள்."
+    }
+  ]
+}
