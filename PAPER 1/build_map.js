@@ -18,26 +18,15 @@ const subjectMapping = {
     'Standard_6_7_8': 'standard_6_7_8'
 };
 
-let mainMap = {
-    tamil: {},
-    english: {},
-    science: {},
-    social: {},
-    psychology: {},
-    maths: {},
-    revision: {},
-    mocktest: {},
-    standard_6_7_8: {}
-};
+let mainMap = {};
 
 function addToMap(dbSubject, key, data) {
-    if (!key || !dbSubject || !mainMap[dbSubject]) return;
+    if (!key) return;
     const cleanKey = key.trim();
     if (!cleanKey) return;
     
-    // Don't overwrite if already exists with more info, 
-    // but allow multiple keys to point to the same file.
-    mainMap[dbSubject][cleanKey] = data;
+    // Don't overwrite if already exists with more info
+    mainMap[cleanKey] = data;
 }
 
 // 1. Scan Repos (Priority)
@@ -76,7 +65,6 @@ if (fs.existsSync(localDbPath)) {
     const subjects = fs.readdirSync(localDbPath);
     for (const sub of subjects) {
         const dbSubject = sub.toLowerCase();
-        if (!mainMap[dbSubject]) continue;
 
         const subPath = path.join(localDbPath, sub);
         if (!fs.lstatSync(subPath).isDirectory()) continue;
