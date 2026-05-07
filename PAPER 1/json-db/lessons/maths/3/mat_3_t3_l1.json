@@ -11,305 +11,307 @@
     {
       "type": "summary",
       "title": "Lesson Summary || பாடச் சுருக்கம்",
-      "content": "This lesson covers the basic elements of geometry: straight and curved lines, diagonals of 2D shapes, and the properties of 3D shapes (faces, vertices, edges). It also introduces the traditional Chinese Tangram puzzle and the concept of Tessellations (filling space without gaps).\n\nஇப்பாடம் வடிவியலின் அடிப்படை கூறுகளான நேர்க்கோடுகள், வளைக்கோடுகள், இரு பரிமாண (2D) வடிவங்களின் மூலைவிட்டங்கள் மற்றும் பண்புகள், முப்பரிமாண (3D) வடிவங்களின் பண்புகள், புதிர்கட்டுக் கட்டங்கள் (Tangrams) மற்றும் தள நிரப்பிகள் (Tessellations) ஆகியவற்றை விளக்குகிறது."
+      "content": "This lesson covers fundamental geometric concepts: straight and curved lines, properties of 2D shapes (diagonals of squares and rectangles), properties of 3D shapes (faces, edges, vertices), Tangrams (Chinese puzzles), and Tessellations (tiling patterns).\n\nஇப்பாடம் வடிவியலின் அடிப்படை கூறுகளான நேர்க்கோடுகள், வளைக்கோடுகள், இரு பரிமாண (2D) வடிவங்களின் மூலைவிட்டங்கள் மற்றும் பண்புகள், முப்பரிமாண (3D) வடிவங்களின் பண்புகள் (முகங்கள், முனைகள், விளிம்புகள்), புதிர்கட்டுக் கட்டங்கள் (Tangrams), மற்றும் தள நிரப்பிகள் (Tessellations) ஆகியவற்றை விளக்குகிறது."
     },
     {
       "type": "section",
-      "title": "Straight and Curved Lines || நேர்க்கோடுகளும் வளைக்கோடுகளும்",
-      "content": "• **Straight Line**: Found in objects like scales, books, and pencils.\n• **Curved Line**: Found in objects like bangles, balls, and apples.\n• **Both**: Some objects like coins and cylinders have both types of lines.\n\n• **நேர்க்கோடு**: அளவுகோல், புத்தகம், பென்சில் போன்ற பொருள்களில் உள்ளது.\n• **வளைக்கோடு**: வளையல், பந்து, ஆப்பிள் போன்ற பொருள்களில் உள்ளது.\n• **இரண்டும்**: நாணயம், உருளை போன்ற பொருள்கள் நேர்க்கோடு மற்றும் வளைக்கோடு இரண்டையும் கொண்டுள்ளன."
+      "title": "Lines and 2D Shapes || கோடுகள் மற்றும் 2D வடிவங்கள்",
+      "content": "• **Lines**: Shapes are formed by straight lines (ruler, book) or curved lines (bangle, ball). || நேர்க்கோடுகள் (அளவுகோல்) அல்லது வளைக்கோடுகள் (வளையல்) மூலம் வடிவங்கள் உருவாகின்றன.\n• **Diagonal (மூலைவிட்டம்)**: A straight line connecting the opposite corners of a shape. || வடிவத்தின் எதிர்முனைகளை இணைக்கும் நேர்க்கோடு.\n• **2D Properties**: Square (4 equal sides, 2 diagonals), Rectangle (opposite sides equal, 2 diagonals), Triangle (3 sides, 3 vertices), Circle (no sides, no vertices). || சதுரம் (4 சமப்பக்கங்கள்), செவ்வகம் (எதிர்ப்பக்கங்கள் சமம்), முக்கோணம் (3 பக்கங்கள்), வட்டம் (பக்கங்கள் இல்லை)."
     },
     {
       "type": "section",
-      "title": "Diagonals || மூலைவிட்டம்",
-      "content": "A diagonal is a straight line connecting opposite corners of a shape.\n• **Square**: 2 diagonals.\n• **Cube/Cuboid**: 16 diagonals (12 face diagonals + 4 internal diagonals).\n\nமூலைவிட்டம் என்பது ஒரு வடிவத்தின் எதிர்முனைகளை இணைக்கும் நேர்க்கோடு ஆகும்.\n• **சதுரம்**: 2 மூலைவிட்டங்கள்.\n• **கனச்சதுரம் / கனச்செவ்வகம்**: 16 மூலைவிட்டங்கள் (12 முக மூலைவிட்டங்கள் + 4 உட்பக்க மூலைவிட்டங்கள்)."
-    },
-    {
-      "type": "section",
-      "title": "Properties of 3D Shapes || முப்பரிமாண வடிவங்களின் பண்புகள்",
-      "content": "• **Sphere (கோளம்)**: 1 Curved Face, 0 Edges, 0 Vertices.\n• **Cone (கூம்பு)**: 2 Faces (1 flat, 1 curved), 1 Edge, 1 Vertex.\n• **Cylinder (உருளை)**: 3 Faces (2 flat, 1 curved), 2 Edges, 0 Vertices.\n• **Cube/Cuboid (கனச்சதுரம்/கனச்செவ்வகம்)**: 6 Faces, 12 Edges, 8 Vertices.\n\n• **கோளம்**: 1 வளைந்த முகம், 0 விளிம்புகள், 0 முனைகள்.\n• **கூம்பு**: 2 முகங்கள் (1 தட்டை, 1 வளைந்தது), 1 விளிம்பு, 1 முனை.\n• **உருளை**: 3 முகங்கள் (2 தட்டை, 1 வளைந்தது), 2 விளிம்புகள், 0 முனைகள்.\n• **கனச்சதுரம்/கனச்செவ்வகம்**: 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள்."
-    },
-    {
-      "type": "section",
-      "title": "Tangrams and Tessellations || புதிர்கட்டுக் கட்டங்கள் மற்றும் தள நிரப்பிகள்",
-      "content": "• **Tangram**: A Chinese puzzle consisting of 7 pieces cut from a square to form various shapes.\n• **Tessellation**: Filling a surface using a shape repeatedly without gaps or overlaps (e.g., floor tiles). Squares and Hexagons are tessellators; Pentagons are not.\n\n• **Tangram**: ஒரு சதுரத்திலிருந்து எடுக்கப்பட்ட 7 வடிவத் துண்டுகளைக் கொண்டு உருவங்களை உருவாக்கும் சீனப் புதிர்.\n• **தள நிரப்பிகள்**: ஒரு வடிவத்தை இடைவெளி இன்றி ஒரு தளத்தில் நிரப்புவது (எ.கா: தரை ஓடுகள்). சதுரம் மற்றும் அறுங்கோணம் தள நிரப்பிகள்; ஐங்கோணம் தளம் நிரப்பாது."
+      "title": "3D Shapes and Patterns || 3D வடிவங்கள் மற்றும் அமைப்புகள்",
+      "content": "• **Cube & Cuboid**: Both have 6 faces, 12 edges, 8 vertices, and 16 diagonals. || கனச்சதுரம் மற்றும் கனச்செவ்வகம் ஆகிய இரண்டிற்கும் 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள் மற்றும் 16 மூலைவிட்டங்கள் உள்ளன.\n• **Tangrams**: A traditional Chinese puzzle consisting of 7 shapes cut from a square. || ஒரு சதுரத்திலிருந்து வெட்டப்பட்ட 7 வடிவத் துண்டுகளைக் கொண்ட சீனப் புதிர்.\n• **Tessellations (தள நிரப்பிகள்)**: Creating a tiling pattern without gaps using shapes like triangles, squares, or hexagons. || முக்கோணம், சதுரம் அல்லது அறுங்கோணம் கொண்டு இடைவெளியின்றி ஒரு தளத்தை நிரப்புதல்."
     }
   ],
   "quiz": [
     {
-      "question": "What is a diagonal? || மூலைவிட்டம் (Diagonal) என்பது என்ன?",
-      "options": ["A line connecting sides", "A straight line connecting opposite corners", "The center of a circle", "A curved surface"],
+      "question": "What is a 'Diagonal'? || மூலைவிட்டம் (Diagonal) என்பது என்ன?",
+      "options": ["Line connecting sides", "Straight line connecting opposite corners || எதிர்முனைகளை இணைக்கும் நேர்க்கோடு", "Center of a circle", "Curved surface"],
       "answer": 1,
-      "explanation": "A diagonal connects two opposite vertices of a polygon. || மூலைவிட்டம் என்பது ஒரு வடிவத்தின் எதிர்முனைகளை இணைக்க வரையப்படும் நேர்க்கோடு ஆகும்."
+      "explanation": "A diagonal connects two non-adjacent vertices. || மூலைவிட்டம் என்பது ஒரு வடிவத்தின் எதிர்முனைகளை இணைக்க வரையப்படும் நேர்க்கோடு ஆகும்."
     },
     {
       "question": "How many diagonals does a square have? || ஒரு சதுரத்திற்கு எத்தனை மூலைவிட்டங்கள் உள்ளன?",
       "options": ["1", "4", "2", "8"],
       "answer": 2,
-      "explanation": "A square has two diagonals. || ஒரு சதுரத்தின் எதிர்முனைகளை இணைத்தால் இரண்டு மூலைவிட்டங்கள் கிடைக்கும்."
+      "explanation": "A square has two diagonals. || சதுரத்தின் எதிர்முனைகளை இணைத்தால் சரியாக இரண்டு மூலைவிட்டங்கள் கிடைக்கும்."
     },
     {
-      "question": "How many faces does a cube have? || ஒரு கனச்சதுரத்திற்கு (Cube) எத்தனை முகங்கள் உள்ளன?",
+      "question": "How many square faces does a cube have? || ஒரு கனச்சதுரத்திற்கு (Cube) எத்தனை சதுர முகங்கள் உள்ளன?",
       "options": ["4", "8", "12", "6"],
       "answer": 3,
-      "explanation": "A cube consists of 6 identical square faces. || ஒரு கனச்சதுரம் என்பது 6 சமமான சதுர முகங்களைக் கொண்டது."
+      "explanation": "A cube is made of 6 identical square faces. || ஒரு கனச்சதுரம் என்பது 6 சமமான சதுர முகங்களைக் கொண்ட வடிவம் ஆகும்."
     },
     {
       "question": "What is the total number of diagonals in a cube? || கனச்சதுரத்தின் மொத்த மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
       "options": ["12", "16", "8", "4"],
       "answer": 1,
-      "explanation": "12 face diagonals + 4 internal diagonals = 16. || 12 முக மூலைவிட்டங்கள் மற்றும் 4 உட்பக்க மூலைவிட்டங்கள் என மொத்தம் 16 உள்ளன."
+      "explanation": "12 on faces + 4 internal = 16. || முகங்களின் மூலைவிட்டங்கள் (12) மற்றும் உட்புற மூலைவிட்டங்கள் (4) என மொத்தம் 16 உள்ளன."
     },
     {
-      "question": "Match: (1) Opposite sides equal, (2) Four sides equal, (3) No sides or corners, (4) 3 sides || பொருத்துக: (1) எதிர்ப்பக்கங்கள் சமம், (2) நான்கு பக்கங்களும் சமம், (3) பக்கங்களும் முனைகளும் இல்லை, (4) 3 பக்கங்கள்",
-      "options": ["1-Rectangle, 2-Square, 3-Circle, 4-Triangle", "1-Square, 2-Rectangle, 3-Triangle, 4-Circle", "1-Circle, 2-Triangle, 3-Rectangle, 4-Square", "1-Rectangle, 2-Circle, 3-Square, 4-Triangle"],
+      "question": "Match: (1) Opp. sides equal, (2) 4 equal sides, (3) No vertices - (a) Circle, (b) Rectangle, (c) Square || பொருத்துக: (1) எதிர்ப்பக்கங்கள் சமம், (2) 4 சமப்பக்கங்கள், (3) முனைகள் இல்லை",
+      "options": ["1-b, 2-c, 3-a", "1-c, 2-b, 3-a", "1-a, 2-c, 3-b", "1-b, 2-a, 3-c"],
       "answer": 0,
-      "explanation": "Rectangle-Opposite sides equal, Square-4 equal sides, Circle-No corners, Triangle-3 sides. || செவ்வகத்திற்கு எதிர்ப்பக்கங்கள் சமம். சதுரத்திற்கு நான்கு பக்கங்களும் சமம். வட்டத்திற்குப் பக்கங்களும் முனைகளும் இல்லை. முக்கோணத்திற்கு மூன்று பக்கங்கள்."
+      "explanation": "Rectangle-Opposite equal; Square-All equal; Circle-No corners. || செவ்வகத்திற்கு எதிர்ப்பக்கங்கள் சமம். சதுரத்திற்கு நான்கு பக்கங்களும் சமம். வட்டத்திற்கு முனைகள் இல்லை."
     },
     {
-      "question": "Which 3D shape has only a curved surface? || வளைந்த பரப்பு மட்டுமே கொண்ட முப்பரிமாண (3D) வடிவம் எது?",
-      "options": ["Cube", "Cylinder", "Sphere", "Cone"],
+      "question": "Which 3D shape has ONLY a curved surface? || வளைந்த பரப்பு மட்டுமே கொண்ட முப்பரிமாண (3D) வடிவம் எது?",
+      "options": ["Cube", "Cylinder", "Sphere || கோளம்", "Cone"],
       "answer": 2,
-      "explanation": "A sphere has no flat surfaces. || கோளம் (Sphere) முழுமையாக வளைந்த பரப்பை மட்டுமே கொண்டது."
+      "explanation": "A sphere is perfectly round with no flat faces. || கோளம் (Sphere) முழுமையாக வளைந்த பரப்பை மட்டுமே கொண்டது."
     },
     {
       "question": "How many faces does a cylinder have? || உருளை (Cylinder) வடிவத்திற்கு எத்தனை முகங்கள் உள்ளன?",
       "options": ["2", "1", "4", "3"],
       "answer": 3,
-      "explanation": "2 flat circular faces and 1 curved face = 3 total. || உருளைக்கு 2 தட்டையான முகங்களும், 1 வளைந்த முகமும் என மொத்தம் 3 முகங்கள் உள்ளன."
+      "explanation": "2 flat ends + 1 curved side = 3 faces. || உருளைக்கு 2 தட்டையான முகங்களும், 1 வளைந்த முகமும் என மொத்தம் 3 முகங்கள் உள்ளன."
     },
     {
       "question": "How many vertices (corners) does a cone have? || கூம்பிற்கு (Cone) எத்தனை முனைகள் உள்ளன?",
       "options": ["2", "0", "1", "3"],
       "answer": 2,
-      "explanation": "A cone has one single vertex at the top. || கூம்பு வடிவத்தின் உச்சியில் ஒரு முனை மட்டுமே உள்ளது."
+      "explanation": "A cone has exactly one vertex at the top. || கூம்பு வடிவத்தின் உச்சியில் சரியாக ஒரு முனை மட்டுமே உள்ளது."
     },
     {
-      "question": "What is the number of edges in a cuboid? || கனச்செவ்வகத்தின் (Cuboid) விளிம்புகளின் (Edges) எண்ணிக்கை என்ன?",
+      "question": "How many edges does a cuboid have? || கனச்செவ்வகத்தின் (Cuboid) விளிம்புகளின் (Edges) எண்ணிக்கை என்ன?",
       "options": ["8", "6", "16", "12"],
       "answer": 3,
-      "explanation": "A cuboid has 12 edges where faces meet. || கனச்செவ்வகத்திற்கு 12 விளிம்புகள் உள்ளன."
+      "explanation": "A cuboid has 12 edges. || கனச்செவ்வகத்திற்கு 12 விளிம்புகள் உள்ளன."
     },
     {
-      "question": "Tangram is a traditional puzzle from which country? || புதிர்கட்டுக் கட்டங்கள் (Tangrams) எந்த நாட்டைச் சேர்ந்த பாரம்பரிய புதிர்?",
-      "options": ["India", "Japan", "China", "Greece"],
+      "question": "Tangrams are a traditional puzzle from which country? || புதிர்கட்டுக் கட்டங்கள் (Tangrams) எந்த நாட்டைச் சேர்ந்தது?",
+      "options": ["India", "Japan", "China || சீனா", "Greece"],
       "answer": 2,
-      "explanation": "It originated in China. || Tangram என்பது ஒரு பாரம்பரிய சீனப் புதிர் ஆகும்."
+      "explanation": "Tangrams originated in China. || Tangram என்பது சீனப் பாரம்பரிய புதிர் ஆகும்."
     },
     {
-      "question": "How many pieces are there in a Tangram puzzle? || புதிர்கட்டுக் கட்டங்களில் (Tangrams) மொத்தம் எத்தனை வடிவத் துண்டுகள் உள்ளன?",
+      "question": "How many pieces are in a Tangram set? || புதிர்கட்டுக் கட்டங்களில் (Tangrams) மொத்தம் எத்தனை துண்டுகள் உள்ளன?",
       "options": ["5", "7", "9", "8"],
       "answer": 1,
-      "explanation": "A Tangram consists of exactly 7 pieces. || புதிர்கட்டுக் கட்டத்தில் சரியாக 7 வடிவத் துண்டுகள் மட்டுமே இருக்கும்."
+      "explanation": "A standard set has 7 pieces. || புதிர்கட்டுக் கட்டத்தில் சரியாக 7 வடிவத் துண்டுகள் மட்டுமே இருக்கும்."
     },
     {
-      "question": "What are Tessellations? || தள நிரப்பிகள் (Tessellations) என்றால் என்ன?",
-      "options": ["Random shapes", "Overlapping shapes", "Repeating a shape to fill a surface without gaps", "Coloring spaces"],
+      "question": "What is a 'Tessellation'? || தள நிரப்பிகள் (Tessellations) என்றால் என்ன?",
+      "options": ["Drawing random shapes", "Overlapping shapes", "Tiling a surface without gaps || இடைவெளியின்றி ஒரு தளத்தை நிரப்புவது", "Empty spaces only"],
       "answer": 2,
-      "explanation": "Like floor tiles, they fill a surface perfectly. || ஒரு வடிவம் பலமுறை பயன்படுத்தப்பட்டு இடைவெளி இன்றி ஒரு தளத்தை நிரப்புவதே தள நிரப்பிகள் ஆகும்."
+      "explanation": "Tessellation is like tiling a floor where shapes fit perfectly. || வடிவங்களை இடைவெளி இன்றி சுழற்சி முறையில் நிரப்புவதே தள நிரப்பிகள் ஆகும்."
     },
     {
-      "question": "Which of these shapes will NOT form a Tessellation? || கீழ்க்கண்ட வடிவங்களில் எது தள நிரப்பிகள் ஆகாது?",
-      "options": ["Triangle", "Square", "Hexagon", "Pentagon"],
+      "question": "Which shape will NOT tessellate (leaves gaps)? || கீழ்க்கண்ட வடிவங்களில் எது ஒரு தளத்தை இடைவெளியின்றி நிரப்பாது?",
+      "options": ["Triangle", "Square", "Hexagon", "Pentagon || ஐங்கோணம்"],
       "answer": 3,
-      "explanation": "Pentagons leave gaps when placed next to each other. || ஐங்கோணம் மற்றும் எண்கோணங்களை அடுத்தடுத்து அடுக்கும் போது இடைவெளிகள் தோன்றும்."
+      "explanation": "Pentagons leave gaps when arranged together. || ஐங்கோணம் மற்றும் எண்கோணங்களை அடுக்கும் போது இடைவெளிகள் தோன்றும்."
     },
     {
-      "question": "Which shape is a good Tessellator? || கீழ்க்கண்டவற்றுள் எது தள நிரப்பியாக பயன்படும்?",
-      "options": ["Octagon", "Pentagon", "Circle", "Hexagon"],
+      "question": "Which shape IS used for tessellations? || கீழ்க்கண்டவற்றுள் எது தள நிரப்பியாகப் பயன்படும்?",
+      "options": ["Octagon", "Pentagon", "Circle", "Hexagon || அறுங்கோணம்"],
       "answer": 3,
-      "explanation": "Hexagons fill space without gaps (like a honeycomb). || அறுங்கோணம் (Hexagon) ஒரு தளத்தை முழுமையாக இடைவெளியின்றி நிரப்பும்."
+      "explanation": "Triangles, squares, and hexagons fit perfectly. || முக்கோணம், சதுரம், அறுங்கோணம் ஆகிய வடிவங்கள் ஒரு தளத்தை முழுமையாக நிரப்பும்."
     },
     {
-      "question": "Which shape has both flat and curved surfaces? || தட்டையான பரப்பு மற்றும் வளைந்த பரப்பு என இரண்டையும் கொண்ட வடிவம் எது?",
-      "options": ["Sphere", "Cube", "Cylinder", "Cuboid"],
+      "question": "Assertion (A): A cuboid has 16 diagonals. Reason (R): A cuboid has 6 faces and 8 vertices. || கூற்று (A): கனச்செவ்வகத்தில் 16 மூலைவிட்டங்கள் உள்ளன. காரணம் (R): இது 6 முகங்களையும் 8 முனைகளையும் கொண்டது.",
+      "options": ["A true, R false", "Both false", "A false, R true", "Both true || இரண்டும் சரி"],
+      "answer": 3,
+      "explanation": "The 6 faces provide 12 diagonals, and internal vertices provide 4. || 6 முகங்கள் (12 மூலைவிட்டங்கள்) மற்றும் 4 உட்பக்க மூலைவிட்டங்கள் என மொத்தம் 16 உள்ளன."
+    },
+    {
+      "question": "Which shape has both flat and curved surfaces? || தட்டையான மற்றும் வளைந்த பரப்பு என இரண்டையும் கொண்ட வடிவம் எது?",
+      "options": ["Sphere", "Cube", "Cylinder || உருளை", "Cuboid"],
       "answer": 2,
-      "explanation": "Cylinders and cones have both. || உருளை மற்றும் கூம்பு ஆகிய முப்பரிமாண வடிவங்கள் தட்டையான மற்றும் வளைந்த முகங்களைக் கொண்டுள்ளன."
+      "explanation": "Cylinders and cones have both types. || உருளை மற்றும் கூம்பு தட்டையான முகத்தையும், வளைந்த முகத்தையும் கொண்டுள்ளன."
     },
     {
-      "question": "How many internal diagonals are there in a cube? || கனச்சதுரத்தின் உட்பக்கங்களின் 4 முனைகளை இணைக்கும் மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
+      "question": "How many internal diagonals connect the 4 pairs of opposite vertices in a cube? || கனச்சதுரத்தின் உட்பக்க முனைகளை இணைக்கும் மூலைவிட்டங்கள் எத்தனை?",
       "options": ["2", "6", "12", "4"],
       "answer": 3,
-      "explanation": "There are 4 diagonals passing through the center. || உட்புறம் உள்ள 4 முனைகளை இணைக்கும் 4 மூலைவிட்டங்கள் உள்ளன."
+      "explanation": "There are 4 main internal diagonals. || கனச்சதுரத்தின் உட்புறம் உள்ள 4 முனைகளை இணைக்கும் 4 மூலைவிட்டங்கள் காணப்படுகின்றன."
     },
     {
-      "question": "Analogy: Square : 2 diagonals :: Cube : ? || ஒப்புமை தருக: சதுரம் : 2 மூலைவிட்டங்கள் :: கனச்சதுரம் : ?",
-      "options": ["4 diagonals", "8 diagonals", "12 diagonals", "16 diagonals"],
+      "question": "Analogy: Square : 2 Diagonals :: Cube : ? || ஒப்புமை: சதுரம் : 2 மூலைவிட்டங்கள் :: கனச்சதுரம் : ?",
+      "options": ["4 Diagonals", "8 Diagonals", "12 Diagonals", "16 Diagonals || 16 மூலைவிட்டங்கள்"],
       "answer": 3,
-      "explanation": "A 2D square has 2; a 3D cube has 16. || இரு பரிமாண சதுரத்திற்கு 2; முப்பரிமாண கனச்சதுரத்திற்கு 16 மூலைவிட்டங்கள்."
+      "explanation": "A 2D square has 2, while a 3D cube has 16 total. || இரு பரிமாண சதுரத்திற்கு 2 மூலைவிட்டங்கள், முப்பரிமாண கனச்சதுரத்திற்கு மொத்தம் 16 உள்ளன."
     },
     {
-      "question": "Which 3D shape has NO diagonals? || எந்த 3D வடிவத்திற்கு மூலைவிட்டங்கள் கிடையாது?",
-      "options": ["Cube", "Cuboid", "Cylinder", "All have them"],
+      "question": "Which 3D shape has ZERO diagonals? || எந்த 3D வடிவத்திற்கு மூலைவிட்டங்கள் கிடையாது?",
+      "options": ["Cube", "Cuboid", "Cylinder || உருளை", "All have diagonals"],
       "answer": 2,
-      "explanation": "Sphere, cone, and cylinder have zero diagonals. || கோளம், கூம்பு, உருளை ஆகிய வடிவங்களுக்கு மூலைவிட்டங்கள் இல்லை."
+      "explanation": "Spheres, cones, and cylinders have 0 diagonals. || கோளம், கூம்பு, உருளை ஆகிய வடிவங்களுக்கு மூலைவிட்டங்கள் இல்லை."
     },
     {
-      "question": "A shape has 3 sides and 3 corners. What is it? || ஒரு வடிவத்திற்கு மூன்று பக்கங்களும் மூன்று முனைகளும் உள்ளன. அது என்ன வடிவம்?",
-      "options": ["Square", "Circle", "Triangle", "Rectangle"],
+      "question": "A shape has 3 sides and 3 vertices. What is it? || மூன்று பக்கங்களும் மூன்று முனைகளும் கொண்ட வடிவம் எது?",
+      "options": ["Square", "Circle", "Triangle || முக்கோணம்", "Rectangle"],
       "answer": 2,
-      "explanation": "A triangle is defined by its 3 sides and vertices. || முக்கோணம் (Triangle) மூன்று பக்கங்களையும் முனைகளையும் கொண்டது."
+      "explanation": "A triangle has 3 sides and vertices. || முக்கோணம் (Triangle) மூன்று பக்கங்களையும் முனைகளையும் கொண்டது."
     },
     {
-      "question": "How many corners does a sphere have? || கோளத்திற்கு (Sphere) எத்தனை முனைகள் உள்ளன?",
+      "question": "How many vertices does a sphere have? || கோளத்திற்கு (Sphere) எத்தனை முனைகள் உள்ளன?",
       "options": ["1", "2", "8", "0"],
       "answer": 3,
-      "explanation": "A sphere has no corners. || கோளம் முழுமையாக வளைந்த பரப்பைக் கொண்டது. அதற்கு முனைகள் கிடையாது."
+      "explanation": "A sphere has no corners/vertices. || கோளம் வளைந்த பரப்பைக் கொண்டது. அதற்கு முனைகள் கிடையாது."
     },
     {
-      "question": "What is the number of edges in a cone? || கூம்பின் (Cone) விளிம்புகளின் எண்ணிக்கை என்ன?",
+      "question": "How many edges does a cone have? || கூம்பின் (Cone) விளிம்புகளின் எண்ணிக்கை என்ன?",
       "options": ["0", "2", "1", "3"],
       "answer": 2,
-      "explanation": "A cone has 1 curved edge at the base. || கூம்பின் அடிப்பகுதியில் ஒரு வளைந்த விளிம்பு மட்டுமே உள்ளது."
+      "explanation": "A cone has 1 curved edge at its base. || கூம்பின் அடிப்பகுதியில் ஒரு வளைந்த விளிம்பு (Edge) மட்டுமே உள்ளது."
     },
     {
-      "question": "Which property of a rectangle is true? || செவ்வகத்தின் பண்புகளில் கீழ்க்கண்டவற்றுள் எது சரியானது?",
-      "options": ["4 equal sides", "Opposite sides equal", "No corners", "Cannot have diagonals"],
+      "question": "Which is true for a Rectangle? || செவ்வகத்தின் பண்புகளில் எது சரியானது?",
+      "options": ["All sides equal", "Opposite sides equal || எதிர்ப்பக்கங்கள் சமம்", "No vertices", "Cannot draw diagonals"],
       "answer": 1,
-      "explanation": "In a rectangle, only opposite sides are equal in length. || செவ்வகத்திற்கு எதிர்ப்பக்கங்கள் சம நீளம் கொண்டவை."
+      "explanation": "In a rectangle, only opposite sides are equal. || செவ்வகத்திற்கு எதிர் எதிரே உள்ள பக்கங்கள் மட்டுமே சம நீளம் கொண்டவை."
     },
     {
-      "question": "What can you create using Tangram pieces? || Tangram துண்டுகளைக் கொண்டு எதனை உருவாக்க முடியும்?",
-      "options": ["Rocket", "Horse", "Swan", "All of these"],
+      "question": "What can you create with Tangram pieces? || Tangram துண்டுகளைக் கொண்டு எதனை உருவாக்க முடியும்?",
+      "options": ["Rocket", "Horse", "Swan", "All of these || இவை அனைத்தும்"],
       "answer": 3,
-      "explanation": "Tangrams can be arranged into many artistic shapes. || Tangram துண்டுகளைப் பயன்படுத்திப் பல வகையான வடிவங்களை உருவாக்கலாம்."
+      "explanation": "Tangrams can form many creative shapes. || Tangram துண்டுகளைப் பயன்படுத்தி விலங்குகள், வாகனங்கள் எனப் பலவற்றை உருவாக்கலாம்."
     },
     {
-      "question": "If you want to tile a floor without gaps, which shape tiles should you buy? || தரைக்கு இடைவெளியின்றி டைல்ஸ் பதிக்க எந்த வடிவத்தைப் பயன்படுத்தலாம்?",
-      "options": ["Octagon", "Square", "Pentagon", "Circle"],
+      "question": "To tile a floor without gaps, which shape should you use? || தரைக்கு இடைவெளியின்றி டைல்ஸ் பதிக்க எந்த வடிவம் சிறந்தது?",
+      "options": ["Octagon", "Square || சதுரம்", "Pentagon", "Circle"],
       "answer": 1,
-      "explanation": "Squares fit together perfectly without leaving gaps. || சதுரம் ஒரு தள நிரப்பி ஆகும். இதனை அடுக்கும் போது எவ்வித வெற்றிடமும் தோன்றாது."
+      "explanation": "Squares fit together without leaving any space. || சதுரம் ஒரு தள நிரப்பி (Tessellation) ஆகும். இதில் இடைவெளி தோன்றாது."
     },
     {
-      "question": "You have a ball, a brick, and a soda bottle. Which has both flat and curved surfaces? || பந்து, செங்கல், பாட்டில் - இவற்றில் வளைந்த மற்றும் தட்டையான பரப்பு கொண்டது எது?",
-      "options": ["Ball", "Brick", "Soda Bottle", "None"],
+      "question": "Which object has both flat and curved surfaces? || வளைந்த மற்றும் தட்டையான பரப்பு இரண்டையும் கொண்டது எது?",
+      "options": ["Ball", "Brick", "Soda bottle || பாட்டில்", "None"],
       "answer": 2,
-      "explanation": "A bottle is cylindrical, having both surfaces. || குளிர்பான பாட்டில் உருளை வடிவமானது. இதன் பரப்பு தட்டையாகவும் வளைந்தும் காணப்படும்."
+      "explanation": "A bottle (cylinder) has flat ends and a curved body. || குளிர்பான பாட்டில் உருளை வடிவமானது. இதில் இரண்டுமே உண்டு."
     },
     {
-      "question": "What is a similarity between a Cube and a Cuboid? || கனச்சதுரம் மற்றும் கனச்செவ்வகம் இடையே உள்ள ஒற்றுமை என்ன?",
-      "options": ["Curved surfaces", "All sides always equal", "Same number of faces, edges, and vertices", "No diagonals"],
+      "question": "What is common between a Cube and a Cuboid? || கனச்சதுரம் மற்றும் கனச்செவ்வகத்திற்கு இடையே உள்ள ஒற்றுமை என்ன?",
+      "options": ["Curved surface", "All sides always equal", "Same number of vertices, edges, and faces || முனைகள், விளிம்புகள், முகங்கள் எண்ணிக்கை சமம்", "No diagonals"],
       "answer": 2,
-      "explanation": "Both have 6 faces, 12 edges, and 8 vertices. || இரண்டிற்குமே 6 முகங்கள், 12 விளிம்புகள் மற்றும் 8 முனைகள் உள்ளன."
+      "explanation": "Both have 6 faces, 12 edges, and 8 vertices. || இரண்டிற்குமே 6 முகங்கள், 12 விளிம்புகள், 8 முனைகள் மற்றும் 16 மூலைவிட்டங்கள் உள்ளன."
     },
     {
-      "question": "Which object is made only of curved lines? || வளைக்கோடுகளால் மட்டும் ஆன உருவம் எது?",
-      "options": ["Scale", "Book", "Bangle", "Board"],
+      "question": "Which object is made ONLY of curved lines? || வளைக்கோடுகளால் மட்டும் ஆன உருவம் எது?",
+      "options": ["Ruler", "Book", "Bangle || வளையல்", "Board"],
       "answer": 2,
-      "explanation": "A circular bangle consists only of a curved line. || வளையல் ஒரு வட்ட வடிவப் பொருளாகும். இது முழுவதும் வளைக்கோட்டால் ஆனது."
+      "explanation": "A bangle is a circle, made of a single curved line. || வளையல் ஒரு வட்ட வடிவப் பொருள். இது வளைக்கோட்டால் ஆனது."
     },
     {
-      "question": "Which object is made only of straight lines? || நேர்க்கோடுகளால் மட்டும் ஆன உருவம் எது?",
-      "options": ["Coin", "Book", "Ball", "Apple"],
+      "question": "Which object is made ONLY of straight lines? || நேர்க்கோடுகளால் மட்டும் ஆன உருவம் எது?",
+      "options": ["Coin", "Book || புத்தகம்", "Ball", "Apple"],
       "answer": 1,
-      "explanation": "A rectangular book is made of straight segments. || புத்தகம் செவ்வக வடிவம் கொண்டது. செவ்வகம் என்பது நேர்க்கோடுகளால் ஆன வடிவம்."
+      "explanation": "A book is a cuboid/rectangle made of straight lines. || புத்தகம் செவ்வக வடிவம் கொண்டது. அது நேர்க்கோடுகளால் ஆனது."
     },
     {
-      "question": "Example of an object with both straight and curved lines? || நேர்க்கோடு மற்றும் வளைக்கோடு இரண்டையும் கொண்ட பொருள் எது?",
-      "options": ["Pencil", "Coin", "Scale", "Brick"],
+      "question": "Which object has both straight and curved lines? || நேர்க்கோடுகள் மற்றும் வளைக்கோடுகள் இரண்டையும் கொண்டது எது?",
+      "options": ["Pencil", "Coin || நாணயம்", "Ruler", "Brick"],
       "answer": 1,
-      "explanation": "A coin has flat faces (straight profile) and a curved edge. || ஒரு நாணயத்தின் மேற்பரப்பு தட்டையாகவும், விளிம்புகள் வளைந்தும் காணப்படும்."
+      "explanation": "A coin's face is flat, and its edge is curved. || நாணயத்தின் மேற்பரப்பு தட்டையாகவும், விளிம்புகள் வளைந்தும் காணப்படும்."
     },
     {
-      "question": "How many diagonals per face does a cube have? || ஒரு கனச்சதுரத்தின் முகங்களின் மூலைவிட்டங்களைக் கணக்கிடும் சூத்திரம் எது?",
+      "question": "Assertion (A): Octagons can be tessellated. Reason (R): Octagons leave no gaps when arranged. || கூற்று (A): எண்கோணம் ஒரு தள நிரப்பி. காரணம் (R): எண்கோணங்கள் இடைவெளி விடாது.",
+      "options": ["A true, R false", "Both true", "Both false || இரண்டும் தவறு", "A false, R true"],
+      "answer": 2,
+      "explanation": "Octagons leave gaps when tiled together. || எண்கோணங்களை அடுக்கும் போது வெற்றிடம் தோன்றும். எனவே இரண்டும் தவறு."
+    },
+    {
+      "question": "How do you calculate total diagonals on the faces of a cube? || கனச்சதுர முகங்களின் மூலைவிட்டங்களைக் கணக்கிடுவது எப்படி?",
       "options": ["Faces x 4", "Faces x 2", "Faces x 6", "Faces + 2"],
       "answer": 1,
-      "explanation": "Each square face has 2 diagonals. || ஒவ்வொரு சதுர முகத்திற்கும் 2 மூலைவிட்டங்கள் உள்ளன."
+      "explanation": "6 faces x 2 diagonals each = 12. || 6 முகங்கள் x 2 மூலைவிட்டங்கள் = 12."
     },
     {
-      "question": "From which shape are Tangram pieces cut? || Tangram துண்டுகள் எந்த வடிவத்திலிருந்து வெட்டி எடுக்கப்படுகின்றன?",
-      "options": ["Circle", "Triangle", "Rectangle", "Square"],
+      "question": "Which 2D shape are Tangram pieces cut from? || Tangram துண்டுகள் எந்த வடிவத்திலிருந்து வெட்டப்படுகின்றன?",
+      "options": ["Circle", "Triangle", "Rectangle", "Square || சதுரம்"],
       "answer": 3,
-      "explanation": "Tangram pieces are segments of a larger square. || Tangram என்பது ஒரு பெரிய சதுரத்தை 7 துண்டுகளாக வெட்டிப் பயன்படுத்தும் விளையாட்டு."
+      "explanation": "Tangrams are cut from a single large square. || Tangram என்பது ஒரு பெரிய சதுரத்தை 7 துண்டுகளாக வெட்டி விளையாடுவது."
     },
     {
       "question": "How many flat faces does a cylinder have? || உருளைக்கு (Cylinder) எத்தனை தட்டையான முகங்கள் உள்ளன?",
       "options": ["3", "0", "2", "1"],
       "answer": 2,
-      "explanation": "Top and bottom circular faces are flat. || உருளைக்கு மேலேயும் கீழேயும் என 2 தட்டையான வட்ட முகங்கள் உள்ளன."
+      "explanation": "A cylinder has 2 flat circular ends. || உருளைக்கு மேலேயும் கீழேயும் என 2 தட்டையான வட்ட முகங்கள் உள்ளன."
     },
     {
-      "question": "Which 3D shape has diagonals? || கீழ்க்கண்ட எந்த முப்பரிமாண (3D) வடிவத்திற்கு மூலைவிட்டங்கள் உள்ளன?",
-      "options": ["Cuboid", "Sphere", "Cone", "Cylinder"],
+      "question": "Which 3D shape has diagonals? || எந்த முப்பரிமாண (3D) வடிவத்திற்கு மூலைவிட்டங்கள் உள்ளன?",
+      "options": ["Cuboid || கனச்செவ்வகம்", "Sphere", "Cone", "Cylinder"],
       "answer": 0,
-      "explanation": "Only polyhedrons like cuboids have vertices for diagonals. || கனச்செவ்வகத்திற்கு 16 மூலைவிட்டங்கள் உள்ளன."
+      "explanation": "Only box shapes like cubes/cuboids have diagonals. || கனச்செவ்வகத்திற்கு 16 மூலைவிட்டங்கள் உள்ளன."
     },
     {
-      "question": "Number of diagonals in a sphere? || கோளத்தின் (Sphere) மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
+      "question": "How many diagonals does a sphere have? || கோளத்தின் (Sphere) மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
       "options": ["1", "0", "2", "4"],
       "answer": 1,
-      "explanation": "Zero. Spheres have no vertices to connect. || கோளத்திற்கு முனைகளே கிடையாது என்பதால் மூலைவிட்டங்கள் இல்லை (0)."
+      "explanation": "Spheres have no corners to connect. || கோளத்திற்கு முனைகளே கிடையாது என்பதால் மூலைவிட்டங்களும் 0 ஆகும்."
     },
     {
-      "question": "How many diagonals in a cone? || கூம்பின் (Cone) மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
+      "question": "How many diagonals does a cone have? || கூம்பின் (Cone) மூலைவிட்டங்களின் எண்ணிக்கை எத்தனை?",
       "options": ["1", "2", "0", "3"],
       "answer": 2,
-      "explanation": "Zero. It only has one vertex. || கூம்பிற்கு ஒரே ஒரு முனை மட்டுமே உள்ளது. எனவே மூலைவிட்டம் கிடையாது."
+      "explanation": "A cone has only 1 vertex, so no diagonal is possible. || கூம்பிற்கு ஒரே ஒரு முனை மட்டுமே உள்ளது. எனவே மூலைவிட்டம் கிடையாது."
     },
     {
-      "question": "Which of these is a 3D object? || முப்பரிமாண (3D) பொருள்களுக்கு உதாரணம் எது?",
-      "options": ["Dice", "Ball", "Book", "All of these"],
+      "question": "Which of these are 3D objects? || முப்பரிமாண (3D) பொருள்களுக்கு உதாரணம் எது?",
+      "options": ["Dice", "Ball", "Book", "All of these || இவை அனைத்தும்"],
       "answer": 3,
-      "explanation": "All have length, width, and height. || இவை அனைத்துமே முப்பரிமாணப் பொருள்கள் ஆகும்."
+      "explanation": "All listed items have volume. || இவை அனைத்துமே நீளம், அகலம், உயரம் கொண்ட முப்பரிமாணப் பொருள்கள்."
     },
     {
-      "question": "Match: (1) Curved surface, (2) Flat surface, (3) Both || பொருத்துக: (1) வளைந்த பரப்பு, (2) தட்டையான பரப்பு, (3) இரண்டும்",
-      "options": ["1-Sphere, 2-Cube, 3-Cylinder", "1-Cube, 2-Cylinder, 3-Sphere", "1-Cylinder, 2-Sphere, 3-Cube", "All are flat"],
+      "question": "Match: (1) Curved surf. only, (2) Flat surf. only, (3) Both - (a) Cube, (b) Cylinder, (c) Sphere || பொருத்துக: (1) வளைந்த பரப்பு, (2) தட்டையான பரப்பு, (3) இரண்டும்",
+      "options": ["1-c, 2-a, 3-b", "1-a, 2-b, 3-c", "1-b, 2-c, 3-a", "1-c, 2-b, 3-a"],
       "answer": 0,
-      "explanation": "Sphere-Curved, Cube-Flat, Cylinder-Both. || கோளத்திற்கு வளைந்த பரப்பு. கனச்சதுரத்திற்குத் தட்டைப் பரப்பு. உருளைக்கு இரண்டும்."
+      "explanation": "Sphere-Curved; Cube-Flat; Cylinder-Both. || கோளத்திற்கு வளைந்த பரப்பு, கனச்சதுரத்திற்குத் தட்டையான பரப்பு, உருளைக்கு இரண்டும் உண்டு."
     },
     {
-      "question": "Which shape cannot fill a surface without gaps? || எந்த வடிவத்தால் ஒரு தளத்தை இடைவெளியின்றி நிரப்ப முடியாது?",
-      "options": ["Triangle", "Square", "Octagon", "Hexagon"],
+      "question": "Which shape cannot tile a surface perfectly? || எந்த வடிவத்தால் ஒரு தளத்தை இடைவெளியின்றி நிரப்ப முடியாது?",
+      "options": ["Triangle", "Square", "Octagon || எண்கோணம்", "Hexagon"],
       "answer": 2,
-      "explanation": "Octagons leave square gaps. || எண்கோணங்களை அடுக்கினால் இடையில் வெற்றிடங்கள் தோன்றும்."
+      "explanation": "Octagons leave square gaps. || எண்கோணங்களை அடுக்கினால் இடையில் சதுர வெற்றிடங்கள் தோன்றும்."
     },
     {
-      "question": "A system where a shape is used repeatedly to fill a surface without gaps? || ஒரு வடிவம் பலமுறை பயன்படுத்தப்பட்டு இடைவெளியின்றி நிரப்பும் அமைப்பு எது?",
-      "options": ["Tangrams", "Diagonals", "Tessellations", "Curves"],
+      "question": "What is the term for tiling a plane with geometric shapes without overlaps or gaps? || இடைவெளியின்றி ஒரு தளத்தை நிரப்பும் அமைப்பிற்கு என்ன பெயர்?",
+      "options": ["Tangrams", "Diagonals", "Tessellations || தள நிரப்பிகள்", "Curved lines"],
       "answer": 2,
-      "explanation": "This is the definition of Tessellation. || இடைவெளியின்றி ஒரு தளத்தை நிரப்பும் வடிவங்களை தள நிரப்பிகள் என்கிறோம்."
+      "explanation": "This pattern is called tessellation. || இடைவெளியின்றி சுழற்சி முறையில் ஒரு தளத்தை நிரப்புவது தள நிரப்பிகள் ஆகும்."
     },
     {
-      "question": "Which cannot be perfectly made with Tangram pieces? || Tangram துண்டுகளைப் பயன்படுத்தி எதை உருவாக்க முடியாது?",
-      "options": ["House", "A perfect round ball", "Boat", "Rabbit"],
+      "question": "Which of these CANNOT be made by Tangrams? || Tangram துண்டுகளைப் பயன்படுத்தி எதனை உருவாக்க முடியாது?",
+      "options": ["House", "Perfect round ball || வட்டமான பந்து", "Boat", "Rabbit"],
       "answer": 1,
-      "explanation": "Tangram pieces are polygons; they can't form a perfect curve. || Tangram துண்டுகள் நேர்க்கோடுகளால் ஆனவை என்பதால் முழுமையான வட்டத்தை உருவாக்க முடியாது."
+      "explanation": "Tangram pieces are all straight-edged. || அதில் வளைந்த துண்டுகள் இல்லை என்பதால் வட்டமான பந்தை உருவாக்க முடியாது."
     },
     {
-      "question": "What basic shapes are in a 7-piece Tangram? || Tangram புதிரில் உள்ள 7 துண்டுகள் யாவை?",
-      "options": ["Triangle, Square, Parallelogram", "Circle, Square, Triangle", "Pentagon, Circle, Square", "Hexagon, Rectangle, Circle"],
+      "question": "What are the base shapes found in a Tangram set? || Tangram புதிரில் பொதுவாக எந்த அடிப்படை வடிவங்கள் இருக்கும்?",
+      "options": ["Triangle, Square, Parallelogram || முக்கோணம், சதுரம், இணைகரம்", "Circle, Square, Triangle", "Pentagon, Circle, Square", "Hexagon, Rectangle, Circle"],
       "answer": 0,
-      "explanation": "It contains 5 triangles, 1 square, and 1 parallelogram. || இதில் 5 முக்கோணங்கள், 1 சதுரம் மற்றும் 1 இணைகரம் இருக்கும்."
+      "explanation": "Includes 5 triangles, 1 square, 1 parallelogram. || இதில் 5 முக்கோணங்கள், 1 சதுரம் மற்றும் 1 இணைகரம் இருக்கும்."
     },
     {
-      "question": "In a cube with 16 diagonals, how many are on the outer faces? || கனச்சதுரத்தின் வெளிப்புற முகங்களில் உள்ள மூலைவிட்டங்கள் எத்தனை?",
+      "question": "How many external face diagonals does a cube have? || கனச்சதுரத்தின் வெளிப்புற முகங்களில் உள்ள மூலைவிட்டங்கள் எத்தனை?",
       "options": ["4", "16", "12", "8"],
       "answer": 2,
-      "explanation": "6 faces x 2 per face = 12. || 6 முகங்களுக்கு தலா 2 என 12 மூலைவிட்டங்கள் முகங்களில் அமைகின்றன."
+      "explanation": "6 faces x 2 per face = 12. || 6 முகங்கள். முகத்திற்கு 2 வீதம் 6 x 2 = 12 மூலைவிட்டங்கள் வெளிப்புறம் உள்ளன."
     },
     {
-      "question": "If you walk from one corner of a square room to the opposite corner, what path are you on? || சதுர அறையின் ஒரு மூலையிலிருந்து நேர் எதிரே உள்ள மூலைக்கு நடந்தால் எதன் வழியாக நடக்கிறீர்கள்?",
-      "options": ["Edge", "Curve", "Diagonal", "Center"],
+      "question": "Walking from one corner of a square room to the opposite corner means walking along the? || சதுர அறையின் ஒரு மூலையிலிருந்து எதிர் மூலைக்கு நடந்தால் அது?",
+      "options": ["Edge", "Curve", "Diagonal || மூலைவிட்டம்", "Center"],
       "answer": 2,
-      "explanation": "The path connecting opposite vertices is the diagonal. || எதிரெதிர் முனைகளை இணைக்கும் கோடு மூலைவிட்டம் ஆகும்."
+      "explanation": "Connecting opposite corners follows the diagonal. || எதிர் முனையை இணைக்கும் கோடு மூலைவிட்டம் ஆகும்."
     },
     {
-      "question": "Why can't pentagons be used for tessellation? || ஐங்கோணங்களை தள நிரப்பிகளாகப் பயன்படுத்த முடியாததற்குக் காரணம் என்ன?",
-      "options": ["Too small", "They leave gaps when tiled", "They have curves", "No diagonals"],
+      "question": "Why can't pentagons be used for tessellations? || ஐங்கோணங்களை தள நிரப்பிகளாகப் பயன்படுத்த முடியாததற்குக் காரணம்?",
+      "options": ["Too small", "They leave gaps || வெற்றிடம் ஏற்படும்", "They are curved", "No diagonals"],
       "answer": 1,
-      "explanation": "Their angles don't allow them to fit perfectly together. || அவற்றைத் தையல் பதிக்கும் போது இடையில் வெற்றிடம் ஏற்படும்."
+      "explanation": "Their internal angles don't sum to 360 at a vertex without gaps. || ஐங்கோணங்களை அடுக்கும்போது இடையில் வெற்றிடம் தோன்றும்."
     },
     {
-      "question": "What shape do you get if you assemble all 7 Tangram pieces correctly? || Tangram புதிரின் 7 துண்டுகளையும் சேர்த்தால் என்ன வடிவம் கிடைக்கும்?",
-      "options": ["Big Rectangle", "Big Triangle", "Big Circle", "Big Square"],
+      "question": "If you assemble all 7 Tangram pieces correctly, what large shape do you get? || 7 Tangram துண்டுகளையும் சரியாகச் சேர்த்தால் என்ன வடிவம் கிடைக்கும்?",
+      "options": ["Rectangle", "Triangle", "Circle", "Square || சதுரம்"],
       "answer": 3,
-      "explanation": "The pieces fit back into the original square. || அவற்றைத் துல்லியமாக இணைத்தால் ஒரு பெரிய சதுரம் கிடைக்கும்."
+      "explanation": "They reform the original large square. || துண்டுகளை சரியாக இணைத்தால் மீண்டும் பெரிய சதுரம் கிடைக்கும்."
     },
     {
-      "question": "If you place a ball and a box on a slope, what happens? || பந்தையும் பெட்டியையும் சாய்வான தரையில் வைத்தால் என்ன நடக்கும்?",
-      "options": ["Both roll", "Ball slides, Box rolls", "Ball rolls, Box slides", "Both slide"],
+      "question": "Placing a ball and a cube on a slope: What happens? || பந்தையும் பெட்டியையும் சரிவில் வைத்தால் என்ன நடக்கும்?",
+      "options": ["Both roll", "Ball slides, box rolls", "Ball rolls, box slides || பந்து உருளும், பெட்டி சறுக்கும்", "Both slide"],
       "answer": 2,
-      "explanation": "Curved surfaces roll; flat surfaces slide. || பந்து வளைந்த பரப்பு என்பதால் உருளும்; பெட்டி தட்டை என்பதால் சறுக்கும்."
+      "explanation": "Ball rolls due to curved surface; Cube slides due to flat faces. || பந்து உருளும், ஆனால் கனச்சதுரம் சறுக்கிக் கொண்டு செல்லும்."
     }
   ]
 }

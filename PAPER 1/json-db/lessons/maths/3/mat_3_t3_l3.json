@@ -11,312 +11,319 @@
     {
       "type": "summary",
       "title": "Lesson Summary || பாடச் சுருக்கம்",
-      "content": "This lesson explores patterns in shapes and numbers. It covers growing patterns in Rangoli and kolams using dots and lines, as well as mathematical patterns. It explains how different pairs of numbers can result in the same sum, and introduces multiplication as repeated addition and division as repeated subtraction.\n\nஇப்பாடம் வடிவங்கள் மற்றும் எண்களில் உள்ள அமைப்புகளை விளக்குகிறது. புள்ளிகள் மற்றும் கோடுகளைப் பயன்படுத்தி ரங்கோலி மற்றும் கோலங்களில் ஏற்படும் வளரும் அமைப்புகள், ஒரே கூட்டற்பலனைத் தரும் எண் இணைகள், மீள்கூட்டலாகப் பெருக்கல் மற்றும் மீள்கழித்தலாக வகுத்தல் ஆகியவை கற்பிக்கப்படுகின்றன."
+      "content": "This lesson explores patterns in shapes, designs, and numbers. It covers iterative patterns in Rangoli and kolams using dots, straight lines, and curved lines. In numbers, it explains patterns in addition (multiple pairs for a sum), multiplication as repeated addition, and division as repeated subtraction.\n\nஇப்பாடம் வடிவங்கள், கோலங்கள் மற்றும் எண்களில் உள்ள அமைப்புகளை (Patterns) விளக்குகிறது. புள்ளிகள், நேர்க்கோடுகள் மற்றும் வளைக்கோடுகளைப் பயன்படுத்தி கோலங்களில் உருவாகும் தொடர் அமைப்புகளை இது கற்பிக்கிறது. எண்கணிதத்தில், கூட்டல் அமைப்புகள், பெருக்கல் (மீள் கூட்டல்) மற்றும் வகுத்தல் (மீள் கழித்தல்) ஆகியவற்றில் உள்ள அமைப்புகளை விளக்குகிறது."
     },
     {
       "type": "section",
-      "title": "Growing Patterns (Rangoli) || வளரும் அமைப்புகள் (கோலங்கள்)",
-      "content": "• **Rangoli**: Created using colors and shapes like triangles, circles, and squares.\n• **Kolams**: Drawn using dots with straight and curved lines. These patterns can be extended or grown into larger designs.\n\n• **ரங்கோலி**: முக்கோணம், வட்டம், சதுரம் போன்ற வடிவங்கள் மற்றும் வண்ணங்களைக் கொண்டு அமைக்கப்படுகிறது.\n• **புள்ளிக் கோலங்கள்**: புள்ளிகளில் நேர்க்கோடுகளையும் வளைக்கோடுகளையும் பயன்படுத்தி வரையப்படுகின்றன. இந்த அமைப்புகளைத் தொடர்ந்து நீட்சி செய்து பெரிய கோலங்களாக மாற்றலாம்."
+      "title": "Patterns in Designs (Rangoli) || கோலங்களில் அமைப்புகள்",
+      "content": "• **Rangoli**: Created using patterns of colors and shapes like triangles, circles, and squares. || வண்ணங்கள் மற்றும் வடிவங்களைக் (முக்கோணம், வட்டம், சதுரம்) கொண்டு ரங்கோலிகள் அமைக்கப்படுகின்றன.\n• **Kolams**: Drawn using dots with straight and curved lines. These can be extended by following the same pattern. || நேர்க்கோடுகளும் வளைக்கோடுகளும் கொண்டு புள்ளிக் கோலங்கள் வரையப்படுகின்றன.\n• **Continuous Motion**: Some patterns are drawn in a single attempt without lifting the hand. || கைகளை எடுக்காமலேயே ஒரே முயற்சியில் வரையும் அமைப்புகளும் உள்ளன."
     },
     {
       "type": "section",
-      "title": "Addition Patterns || கூட்டல் அமைப்புகள்",
-      "content": "There are many ways to get the same sum. \nExample (Sum of 10): 0+10, 1+9, 2+8, 3+7, 4+6, 5+5, 6+4, 7+3, 8+2, 9+1, 10+0.\nFinding missing numbers involves understanding these patterns (e.g., 23 + 37 = 60).\n\nஒரே எண்ணைக் கூட்டற்பலனாகப் பெற பல வழிகள் உள்ளன. உதாரணமாக 10-ஐப் பெற 0+10 முதல் 10+0 வரை பல சோடிகள் உள்ளன. விடுபட்ட எண்களைக் கண்டறிய இக்கூட்டல் அமைப்புகள் உதவுகின்றன."
-    },
-    {
-      "type": "section",
-      "title": "Multiplication and Division Patterns || பெருக்கல் மற்றும் வகுத்தல் அமைப்புகள்",
-      "content": "• **Multiplication is Repeated Addition**: 3 + 3 + 3 + 3 = 12 is written as 4 X 3 = 12.\n• **Division is Repeated Subtraction**: Subtracting the same number until zero. 20 ÷ 4 = 5 means 4 is subtracted 5 times from 20.\n\n• **பெருக்கல் (மீள் கூட்டல்)**: 3-ஐ 4 முறை கூட்டினால் 12 (4 x 3 = 12).\n• **வகுத்தல் (மீள் கழித்தல்)**: பூஜ்ஜியம் வரும் வரை ஒரே எண்ணைத் திரும்பத் திரும்பக் கழிப்பதாகும். 20-லிருந்து 4-ஐ 5 முறை கழித்தால் பூஜ்ஜியம் வரும் (20 ÷ 4 = 5)."
+      "title": "Patterns in Arithmetic || எண்கணித அமைப்புகள்",
+      "content": "• **Addition Pairs**: A single number can be formed by different pairs (e.g., 10 = 1+9, 2+8, 3+7). || ஒரே எண்ணைப் பெறப் பல்வேறு கூட்டல் இணைகளைப் பயன்படுத்தலாம்.\n• **Multiplication (Repeated Addition)**: 4 x 3 means adding 3 four times (3+3+3+3=12). || பெருக்கல் என்பது மீள் கூட்டலைக் குறிக்கும்.\n• **Division (Repeated Subtraction)**: 20 ÷ 4 means subtracting 4 from 20 until you reach zero (5 steps). || வகுத்தல் என்பது பூஜ்ஜியம் வரும் வரை மீண்டும் மீண்டும் கழிப்பதைக் குறிக்கும் (மீள் கழித்தல்)."
     }
   ],
   "quiz": [
     {
-      "question": "What are Rangoli designs based on? || ரங்கோலி (வண்ணக் கோலங்கள்) எவற்றைக் கொண்டு அமைக்கப்படுகின்றன?",
-      "options": ["Colors and patterns of shapes", "Numbers and letters", "Stones and sand", "Water and oil"],
+      "question": "What are Rangolis (colorful designs) made of? || ரங்கோலி (வண்ணக் கோலங்கள்) எவற்றைக் கொண்டு அமைக்கப்படுகின்றன?",
+      "options": ["Patterns of colors and shapes || வண்ணங்கள் மற்றும் வடிவங்கள்", "Numbers and letters", "Stones and sand", "Water and oil"],
       "answer": 0,
-      "explanation": "Rangoli uses colors and geometric shapes in a pattern. || வண்ணங்கள் மற்றும் வடிவங்களின் அமைப்புகளைக் கொண்டு ரங்கோலிகள் அமைக்கப்படுகின்றன."
+      "explanation": "Rangolis use repeating shapes and colors. || வண்ணங்கள் மற்றும் வடிவங்களின் அமைப்புகளைக் கொண்டு ரங்கோலிகள் அமைக்கப்படுகின்றன."
     },
     {
       "question": "Which lines are used to draw dot kolams? || புள்ளிக் கோலங்களை வரையப் பயன்படும் கோடுகள் எவை?",
-      "options": ["Straight lines only", "Straight and curved lines", "Curved lines only", "None"],
+      "options": ["Straight lines only", "Straight and curved lines || நேர்க்கோடுகளும் வளைக்கோடுகளும்", "Curved lines only", "None"],
       "answer": 1,
-      "explanation": "Both types of lines are used in dot designs. || புள்ளிகளில் நேர்க்கோடுகளையும் வளைக்கோடுகளையும் பயன்படுத்தி புள்ளிக் கோலங்கள் வரையப்படுகின்றன."
+      "explanation": "Both types of lines are used to create intricate dot designs. || புள்ளிகளில் நேர்க்கோடுகளையும் வளைக்கோடுகளையும் பயன்படுத்தி கோலங்கள் வரையப்படுகின்றன."
     },
     {
-      "question": "Which chart helps find different pairs for the same sum? || ஒரே எண்ணைக் கூட்டற்பலனாகத் தரும் எண் சோடிகளை எதன் மூலம் அறியலாம்?",
-      "options": ["Multiplication chart", "Subtraction chart", "Addition chart", "Division chart"],
+      "question": "Which table helps us find different pairs that give the same sum? || ஒரே எண்ணைக் கூட்டற்பலனாகத் தரும் பல எண் சோடிகள் உள்ளதை எந்த அட்டவணை மூலம் அறியலாம்?",
+      "options": ["Multiplication Table", "Subtraction Table", "Addition Table || கூட்டல் அட்டவணை", "Division Table"],
       "answer": 2,
-      "explanation": "The addition table shows multiple ways to get a result. || கூட்டல் அட்டவணையை உற்று நோக்குவதன் மூலம் ஒரே எண்ணைக் கூட்டற்பலனாகத் தரும் பல வழிகளை அறியலாம்."
+      "explanation": "An addition table shows all possible combinations for a sum. || கூட்டல் அட்டவணையை உற்று நோக்குவதன் மூலம் ஒரே எண்ணைக் கூட்டற்பலனாகத் தரும் பல வழிகளை அறியலாம்."
     },
     {
-      "question": "Which pair sums to 10? || கீழ்க்கண்டவற்றுள் 10-ஐ கூட்டற்பலனாகத் தரும் எண் சோடி எது?",
+      "question": "Which pair gives the sum of 10? || கீழ்க்கண்டவற்றுள் 10-ஐ கூட்டற்பலனாகத் தரும் எண் சோடி எது?",
       "options": ["4 + 5", "6 + 4", "7 + 2", "8 + 3"],
       "answer": 1,
-      "explanation": "6 + 4 = 10. || கொடுக்கப்பட்ட ஆப்ஷன்களில் 6 + 4 மட்டுமே 10-ஐத் தருகிறது."
+      "explanation": "6 + 4 = 10. || 6 + 4 என்பது மட்டுமே 10-ஐ கூட்டற்பலனாகத் தருகிறது."
     },
     {
-      "question": "Find the missing number: 7 + __ = 10 || விடுபட்ட எண்: 7 + __ = 10",
+      "question": "Find the missing number: 7 + __ = 10",
       "options": ["2", "4", "3", "5"],
       "answer": 2,
-      "explanation": "10 - 7 = 3. || 10-இன் கூட்டல் கூற்றில் 7 + 3 = 10 ஆகும்."
+      "explanation": "7 + 3 = 10. || 10-இன் கூட்டல் கூற்றில் 7 + 3 = 10 என்பதே சரி."
     },
     {
-      "question": "Which pair sums to 11? || 11-ஐ கூட்டற்பலனாகத் தரும் எண் கூற்று எது?",
+      "question": "Which of these gives the sum 11? || 11-ஐ கூட்டற்பலனாகத் தரும் எண் கூற்று எது?",
       "options": ["5 + 5", "6 + 5", "7 + 5", "8 + 4"],
       "answer": 1,
-      "explanation": "6 + 5 = 11. || 11-இன் கூட்டல் கூற்றில் 6 + 5 = 11 என்பது சரி."
+      "explanation": "6 + 5 = 11. || 11-இன் கூட்டல் கூற்றில் 6 + 5 = 11 என்பதே சரியான விடையாகும்."
     },
     {
-      "question": "Which pair sums to 12? || கீழ்க்கண்டவற்றுள் 12-இன் கூட்டல் கூற்று எது?",
+      "question": "Which of these is an addition fact for 12? || கீழ்க்கண்டவற்றுள் 12-இன் கூட்டல் கூற்று எது?",
       "options": ["8 + 4", "9 + 4", "7 + 6", "10 + 3"],
       "answer": 0,
       "explanation": "8 + 4 = 12. || 8 + 4 என்பதை கூட்டினால் 12 கிடைக்கும்."
     },
     {
-      "question": "Find missing digit: 23 + 3_ = 60 || விடுபட்ட எண்: 23 + 3_ = 60",
+      "question": "Find the missing number: 23 + 3_ = 60",
       "options": ["5", "7", "6", "8"],
       "answer": 1,
-      "explanation": "23 + 37 = 60. || 60 - 23 = 37. எனவே விடுபட்ட எண் 7."
+      "explanation": "60 - 23 = 37. So the missing digit is 7. || 60 இலிருந்து 23 ஐ கழித்தால் 37 கிடைக்கும். எனவே விடுபட்ட எண் 7 (23 + 37 = 60)."
     },
     {
-      "question": "Find missing digit: 74 + 5_ = 130 || விடுபட்ட எண்: 74 + 5_ = 130",
+      "question": "Find the missing number: 74 + 5_ = 130",
       "options": ["6", "4", "5", "7"],
       "answer": 0,
-      "explanation": "74 + 56 = 130. || 130 - 74 = 56. எனவே விடுபட்ட எண் 6."
+      "explanation": "130 - 74 = 56. So the missing digit is 6. || 130 இலிருந்து 74 ஐ கழித்தால் 56 கிடைக்கும். எனவே விடுபட்ட எண் 6 (74 + 56 = 130)."
     },
     {
-      "question": "Find missing digit: 45 + 1_ = 61 || விடுபட்ட எண்: 45 + 1_ = 61",
+      "question": "Find the missing number: 45 + 1_ = 61",
       "options": ["8", "7", "5", "6"],
       "answer": 3,
-      "explanation": "45 + 16 = 61. || 61 - 45 = 16. எனவே விடுபட்ட எண் 6."
+      "explanation": "61 - 45 = 16. So the missing digit is 6. || 61 இலிருந்து 45 ஐ கழித்தால் 16 கிடைக்கும். எனவே விடுபட்ட எண் 6."
     },
     {
-      "question": "Find missing digit: 12 + _3 = 105 || விடுபட்ட எண்: 12 + _3 = 105",
+      "question": "Find the missing number: 12 + _3 = 105",
       "options": ["8", "7", "9", "6"],
       "answer": 2,
-      "explanation": "12 + 93 = 105. || 105 - 12 = 93. எனவே விடுபட்ட இடத்தில் 9 வர வேண்டும்."
+      "explanation": "105 - 12 = 93. So the missing digit is 9. || 105 இலிருந்து 12 ஐ கழித்தால் 93 கிடைக்கும். விடுபட்ட எண் 9."
     },
     {
-      "question": "Find missing digit: 25 + _3 = 118 || விடுபட்ட எண்: 25 + _3 = 118",
+      "question": "Find the missing number: 25 + _3 = 118",
       "options": ["8", "9", "7", "6"],
       "answer": 1,
-      "explanation": "25 + 93 = 118. || 118 - 25 = 93. விடுபட்ட எண் 9."
+      "explanation": "118 - 25 = 93. So the missing digit is 9. || 118 இலிருந்து 25 ஐ கழித்தால் 93 கிடைக்கும். விடுபட்ட எண் 9."
     },
     {
-      "question": "What is Multiplication? || பெருக்கல் என்பது எதைக் குறிக்கும்?",
-      "options": ["Repeated Subtraction", "Repeated Division", "Repeated Addition", "Fractions"],
+      "question": "Multiplication represents what process? || பெருக்கல் என்பது எதைக் குறிக்கும்?",
+      "options": ["Repeated Subtraction", "Repeated Division", "Repeated Addition || மீள் கூட்டல்", "Fractions"],
       "answer": 2,
-      "explanation": "Multiplication is the shorthand for repeated addition. || 'பெருக்கல் என்பது மீள் கூட்டலைக் குறிக்கும்' (Multiplication is repeated addition)."
+      "explanation": "Multiplication is a shortcut for adding the same number repeatedly. || 'பெருக்கல் என்பது மீள் கூட்டலைக் குறிக்கும்' (Multiplication is repeated addition)."
     },
     {
       "question": "What is the multiplication fact for 3 + 3 + 3 + 3? || 3 + 3 + 3 + 3 என்பதன் பெருக்கல் கூற்று என்ன?",
       "options": ["3 x 3 = 9", "4 x 3 = 12", "5 x 3 = 15", "4 x 4 = 16"],
       "answer": 1,
-      "explanation": "3 is added 4 times. || 3 என்ற எண் 4 முறை கூட்டப்படுவதால் 4 x 3 = 12 ஆகும்."
+      "explanation": "Adding 3 four times is 4 x 3 = 12. || 3 என்ற எண் 4 முறை கூட்டப்படுவதால், இதன் பெருக்கல் கூற்று 4 x 3 = 12 ஆகும்."
     },
     {
-      "question": "What is the repeated addition for 5 x 4 = 20? || 5 x 4 = 20 என்பதன் மீள்கூட்டல் கூற்று எது?",
+      "question": "What is the repeated addition fact for 5 x 4 = 20? || 5 x 4 = 20 என்பதன் மீள்கூட்டல் கூற்று எது?",
       "options": ["5 + 5 + 5 + 5", "4 + 4 + 4 + 4 + 4", "4 + 5", "20 + 20"],
       "answer": 1,
-      "explanation": "4 added 5 times. || 4 என்ற எண்ணை 5 முறை கூட்டுவதே (4+4+4+4+4) இதன் மீள்கூட்டல் ஆகும்."
+      "explanation": "4 added 5 times equals 20. || 4 என்ற எண்ணை 5 முறை கூட்டுவதே (4+4+4+4+4) 5 x 4 = 20 ஆகும்."
     },
     {
-      "question": "What is Division? || வகுத்தல் என்பது எதைக் குறிக்கும்?",
-      "options": ["Repeated Addition", "Repeated Multiplication", "Repeated Subtraction", "Repeated Measurement"],
+      "question": "Division represents what process? || வகுத்தல் என்பது எதைக் குறிக்கும்?",
+      "options": ["Repeated Addition", "Repeated Multiplication", "Repeated Subtraction || மீள் கழித்தல்", "Measurement"],
       "answer": 2,
-      "explanation": "Division is subtracting the same number repeatedly. || 'வகுத்தல் என்பது மீள் கழித்தைலக் குறிக்கும்' (Division is repeated subtraction)."
+      "explanation": "Division is a process of repeated subtraction until zero. || 'வகுத்தல் என்பது மீள் கழித்தைலக் குறிக்கும்' (Division is repeated subtraction)."
     },
     {
-      "question": "First step of repeated subtraction for 20 ÷ 4? || 20 ÷ 4 என்பதன் முதல் படி என்ன?",
+      "question": "What is the first step in repeated subtraction for 20 ÷ 4? || 20 ÷ 4 என்பதனை மீள்கழித்தல் முறையில் செய்யும்போது முதல் படி என்ன?",
       "options": ["20 - 5 = 15", "20 - 4 = 16", "16 - 4 = 12", "20 - 2 = 18"],
       "answer": 1,
-      "explanation": "Subtract the divisor once. || 20 ஐ 4 ஆல் வகுக்கும் போது, முதல் படியாக 20 - 4 = 16 செய்ய வேண்டும்."
+      "explanation": "Step 1: Subtract 4 from 20 once. || 20 ஐ 4 ஆல் வகுக்கும் போது, முதல் படியாக 20 இலிருந்து 4 ஐ கழிக்க வேண்டும் (20 - 4 = 16)."
     },
     {
-      "question": "How many steps to reach 0 for 20 ÷ 4? || 20 ÷ 4 என்பதை மீள்கழித்தல் முறையில் செய்தால் எத்தனை படிகள் வரும்?",
+      "question": "How many steps are there in 20 ÷ 4 using repeated subtraction? || 20 ÷ 4 என்பதை மீள்கழித்தல் முறையில் செய்தால் மொத்தம் எத்தனை படிகள் வரும்?",
       "options": ["4", "6", "5", "3"],
       "answer": 2,
-      "explanation": "20 / 4 = 5. || 20-லிருந்து 4-ஐ ஐந்து முறை கழித்தால் பூஜ்ஜியம் வரும். எனவே 5 படிகள்."
+      "explanation": "It takes 5 steps to reach zero (20-4, 16-4, 12-4, 8-4, 4-4). || 20-லிருந்து 4-ஐ ஐந்து முறை கழித்தால் பூஜ்ஜியம் வரும். எனவே 5 படிகள்."
     },
     {
-      "question": "Which pair sums to 14? || கீழ்க்கண்டவற்றுள் 14-இன் கூட்டல் கூற்று எது?",
+      "question": "Which pair gives the sum 14? || கீழ்க்கண்டவற்றுள் 14-இன் கூட்டல் கூற்று எது?",
       "options": ["7 + 8", "6 + 8", "9 + 4", "10 + 5"],
       "answer": 1,
       "explanation": "6 + 8 = 14. || 6 மற்றும் 8 ஐ கூட்டினால் 14 கிடைக்கும்."
     },
     {
-      "question": "Repeated addition for 3 x 3 = 9? || 3 x 3 = 9 என்பதன் மீள்கூட்டல் எது?",
+      "question": "What is the repeated addition structure for 3 x 3 = 9? || 3 x 3 = 9 என்பதன் சரியான மீள்கூட்டல் அமைப்பு எது?",
       "options": ["3 + 3", "3 + 3 + 3", "9 + 9 + 9", "3 + 3 + 3 + 3"],
       "answer": 1,
-      "explanation": "3 added 3 times. || 3 என்ற எண்ணை மூன்று முறை கூட்டுவதே (3+3+3) 3 x 3 = 9 ஆகும்."
+      "explanation": "Adding 3 three times gives 9. || 3 என்ற எண்ணை மூன்று முறை கூட்டுவதே (3+3+3) 3 x 3 = 9 ஆகும்."
     },
     {
-      "question": "Assertion (A): Dot kolams cannot be expanded. Reason (R): They must stay within specific dots. || கூற்று (A): புள்ளிக் கோலங்களை பெரிதாக்க முடியாது. காரணம் (R): கோலங்கள் குறிப்பிட்ட புள்ளிகளுக்குள் மட்டுமே வரையப்பட வேண்டும்.",
-      "options": ["A true, R false", "Both false", "A false, R true", "Both true"],
+      "question": "Assertion (A): Kolam designs cannot be extended. Reason (R): Designs must only be within fixed dots. || கூற்று (A): கோலங்களை பெரிதாக்க முடியாது. காரணம் (R): கோலங்கள் புள்ளிகளுக்குள் மட்டுமே இருக்க வேண்டும்.",
+      "options": ["A true, R false", "Both false || இரண்டும் தவறு", "A false, R true", "Both true"],
       "answer": 1,
-      "explanation": "Kolams can be extended and grown. || கோலங்களைத் தொடர்ந்து நீட்சி செய்து பெரிதாக்கலாம். எனவே கூற்று, காரணம் இரண்டும் தவறு."
+      "explanation": "Kolams can be extended by following the established pattern. || கோலங்களை நீட்சி செய்து பெரிதாக்கலாம் என்று பாடத்தில் கூறப்பட்டுள்ளது. எனவே இரண்டும் தவறு."
     },
     {
-      "question": "Match: (1) 2x4, (2) 5x3, (3) 4x3, (4) 4x4 || பொருத்துக: (1) 2x4, (2) 5x3, (3) 4x3, (4) 4x4",
-      "options": ["1-8, 2-15, 3-12, 4-16", "1-12, 2-8, 3-16, 4-15", "1-16, 2-12, 3-8, 4-15", "1-15, 2-16, 3-12, 4-8"],
+      "question": "Match: (1) 2x4, (2) 5x3, (3) 4x3 - (a) 12, (b) 8, (c) 15 || பொருத்துக: (1) 2x4, (2) 5x3, (3) 4x3",
+      "options": ["1-b, 2-c, 3-a", "1-a, 2-b, 3-c", "1-c, 2-a, 3-b", "1-b, 2-a, 3-c"],
       "answer": 0,
-      "explanation": "2x4=8, 5x3=15, 4x3=12, 4x4=16. || 2x4=8, 5x3=15, 4x3=12, 4x4=16."
+      "explanation": "2x4=8, 5x3=15, 4x3=12. || 2×4=8, 5×3=15, 4×3=12."
     },
     {
-      "question": "First step for 24 ÷ 3? || 24 ÷ 3 மீள்கழித்தலின் முதல் படி என்ன?",
+      "question": "What is the first step in repeated subtraction for 24 ÷ 3? || 24 ÷ 3 என்பதை மீள்கழித்தல் முறையில் எழுதினால் முதல் படி என்ன?",
       "options": ["24 - 4 = 20", "24 - 3 = 21", "21 - 3 = 18", "24 - 8 = 16"],
       "answer": 1,
-      "explanation": "24 - 3 = 21. || 24 இலிருந்து 3 ஐ கழிப்பதே முதல் படியாகும்."
+      "explanation": "First step: 24 - 3 = 21. || 24 இலிருந்து 3 ஐ கழிப்பதே வகுத்தலின் முதல் படியாகும்."
     },
     {
-      "question": "How many steps for 22 ÷ 2? || 22 ÷ 2 மீள்கழித்தல் படிகளின் எண்ணிக்கை?",
+      "question": "How many steps in 22 ÷ 2 using repeated subtraction? || 22 ÷ 2 என்பதை மீள்கழித்தல் முறையில் செய்தால் மொத்தம் எத்தனை படிகள் வரும்?",
       "options": ["10", "12", "11", "9"],
       "answer": 2,
-      "explanation": "22 / 2 = 11. || 22 இலிருந்து 2 ஐ 11 முறை கழிக்க வேண்டும்."
+      "explanation": "22 divided by 2 is 11 steps. || 22 இலிருந்து 2 ஐ கழித்துக்கொண்டே வந்தால் 11 வது படியில் பூஜ்ஜியம் வரும்."
     },
     {
-      "question": "Which pair sums to 15? || 15-ஐ கூட்டற்பலனாகத் தரும் எண்கள் எவை?",
+      "question": "Which numbers give a sum of 15? || 15 ஐ கூட்டற்பலனாகத் தரும் எண்கள் எவை?",
       "options": ["8 + 6", "9 + 6", "10 + 4", "7 + 7"],
       "answer": 1,
       "explanation": "9 + 6 = 15. || 9 மற்றும் 6 ஐ கூட்டினால் 15 கிடைக்கும்."
     },
     {
-      "question": "In 20 ÷ 4, what is the 3rd step? || 20 ÷ 4 கணக்கில் 3 வது படி என்ன?",
-      "options": ["20 - 4 = 16", "16 - 4 = 12", "12 - 4 = 8", "8 - 4 = 4"],
+      "question": "In 20 ÷ 4, what step is 12 - 4 = 8? || மீள்கழித்தல் முறையில் 12 - 4 = 8 என்பது எத்தனையாவது படி (20 ÷ 4 கணக்கில்)?",
+      "options": ["Step 1", "Step 2", "Step 3", "Step 4"],
       "answer": 2,
-      "explanation": "20->16 (1), 16->12 (2), 12->8 (3). || படி 3: 12-4=8."
+      "explanation": "Step 1: 20-4=16; Step 2: 16-4=12; Step 3: 12-4=8. || 20-4=16(1), 16-4=12(2), 12-4=8(3)."
     },
     {
-      "question": "Which is NOT a sum of 13? || எது 13-இன் கூட்டல் கூற்று அல்ல?",
+      "question": "Which of these is NOT an addition fact for 13? || கீழ்க்கண்டவற்றுள் எது 13-இன் கூட்டல் கூற்று அல்ல?",
       "options": ["7 + 6", "8 + 5", "9 + 4", "8 + 6"],
       "answer": 3,
-      "explanation": "8 + 6 = 14. || 8 + 6 = 14 என்பதால் அது 13-இன் கூற்று அல்ல."
+      "explanation": "8 + 6 = 14, not 13. || 8 + 6 = 14. எனவே இது 13-இன் கூட்டல் கூற்று அல்ல."
     },
     {
-      "question": "Multiplication fact for 4 + 4? || 4 + 4 என்பதன் பெருக்கல் கூற்று?",
+      "question": "What is the multiplication fact for 4 + 4 = 8? || 4 + 4 = 8 என்பதன் பெருக்கல் கூற்று என்ன?",
       "options": ["4 x 1 = 4", "2 x 4 = 8", "4 x 4 = 16", "8 x 1 = 8"],
       "answer": 1,
-      "explanation": "4 added 2 times. || 4 என்ற எண்ணை 2 முறை கூட்டுவதால் 2 x 4 = 8."
+      "explanation": "4 added twice is 2 x 4. || 4 என்ற எண்ணை 2 முறை கூட்டுவதால் 2 x 4 = 8."
     },
     {
-      "question": "Steps for 15 ÷ 3? || 15 ÷ 3 மீள்கழித்தல் படிகளின் எண்ணிக்கை?",
+      "question": "How many steps in 15 ÷ 3 using repeated subtraction? || 15 ÷ 3 என்பதை மீள்கழித்தல் முறையில் செய்தால் கிடைக்கும் படிகளின் எண்ணிக்கை?",
       "options": ["3", "4", "5", "6"],
       "answer": 2,
-      "explanation": "15 / 3 = 5. || 15-லிருந்து 3-ஐ 5 முறை கழிக்கலாம்."
+      "explanation": "15 ÷ 3 = 5 steps. || 15-லிருந்து 3-ஐ 5 முறை கழித்தால் பூஜ்ஜியம் வரும்."
     },
     {
-      "question": "Which is a wrong sum? || தவறான கூட்டல் எது?",
+      "question": "Which addition pair is WRONG? || கீழ்க்கண்டவற்றுள் எது தவறான கூட்டல் அமைப்பு?",
       "options": ["10 + 7 = 17", "9 + 8 = 17", "8 + 8 = 17", "11 + 6 = 17"],
       "answer": 2,
-      "explanation": "8 + 8 = 16. || 8 + 8 = 16 என்பதால் இது தவறு."
+      "explanation": "8 + 8 = 16, not 17. || 8 + 8 = 16. எனவே இது தவறான கூற்று."
+    },
+    {
+      "question": "Assertion (A): Multiplcation and division only increase values. Reason (R): Multiplication is repeated addition; Division is repeated subtraction. || கூற்று (A): பெருக்கல், வகுத்தல் மதிப்பை உயர்த்தும். காரணம் (R): பெருக்கல் மீள் கூட்டல்; வகுத்தல் மீள் கழித்தல்.",
+      "options": ["A true, R false", "A false, R true || கூற்று தவறு, காரணம் சரி", "Both true", "Both false"],
+      "answer": 1,
+      "explanation": "Division (subtraction) decreases the value. || பெருக்கல் மதிப்பை அதிகரிக்கும், ஆனால் வகுத்தல் (மீள் கழித்தல்) மதிப்பை குறைக்கும்."
     },
     {
       "question": "Analogy: Repeated Addition : Multiplication :: Repeated Subtraction : ? || ஒப்புமை: மீள்கூட்டல் : பெருக்கல் :: மீள்கழித்தல் : ?",
-      "options": ["Addition", "Subtraction", "Division", "Fraction"],
+      "options": ["Addition", "Subtraction", "Division || வகுத்தல்", "Fraction"],
       "answer": 2,
-      "explanation": "Inverse operations. || மீள்கூட்டல் பெருக்கல் என்றால், மீள்கழித்தல் வகுத்தல் ஆகும்."
+      "explanation": "Subtraction repeated leads to division. || மீள்கூட்டல் என்பது பெருக்கலைக் குறிப்பது போல, மீள்கழித்தல் என்பது வகுத்தலைக் குறிக்கும்."
     },
     {
-      "question": "To what number must you subtract until in division? || வகுத்தலில் எந்த எண் வரும் வரை கழிக்க வேண்டும்?",
-      "options": ["1", "0", "Same number", "2"],
+      "question": "Until which number should we subtract in repeated subtraction? || வகுத்தல் செயல்பாட்டில் எந்த எண் வரும் வரை நாம் தொடர்ந்து கழிக்க வேண்டும்?",
+      "options": ["1", "Zero (0) || பூஜ்ஜியம்", "Same number", "2"],
       "answer": 1,
-      "explanation": "Subtraction stops at zero. || மீதி பூஜ்ஜியம் (0) வரும் வரை தொடர்ந்து கழிக்க வேண்டும்."
+      "explanation": "Subtraction continues until the remainder is zero. || மீள்கழித்தல் முறையில் மீதி பூஜ்ஜியம் (0) வரும் வரை தொடர்ந்து கழிக்க வேண்டும்."
     },
     {
-      "question": "Which pair sums to 18? || 18-ஐ கூட்டற்பலனாகத் தரும் இண எது?",
+      "question": "Which numbers give a sum of 18? || கீழ்க்கண்ட எந்த எண்கள் 18-ஐ கூட்டற்பலனாகத் தரும்?",
       "options": ["9 + 8", "10 + 9", "9 + 9", "8 + 8"],
       "answer": 2,
       "explanation": "9 + 9 = 18. || 9 மற்றும் 9 ஐ கூட்டினால் 18 கிடைக்கும்."
     },
     {
-      "question": "Steps for 32 ÷ 4? || 32 ÷ 4 மீள்கழித்தல் படிகளின் எண்ணிக்கை?",
+      "question": "How many steps are required for 32 ÷ 4 in repeated subtraction? || 32 ÷ 4 என்பதை மீள்கழித்தல் முறையில் செய்தால் படிகளின் எண்ணிக்கை என்ன?",
       "options": ["6", "7", "8", "9"],
       "answer": 2,
-      "explanation": "32 / 4 = 8. || 32 ஐ 4 ஆல் வகுத்தால் 8 கிடைக்கும்."
+      "explanation": "32 ÷ 4 = 8 steps. || 32 ஐ 4 ஆல் வகுத்தால் 8 கிடைக்கும்."
     },
     {
-      "question": "Another pair for 10? || 10-ஐத் தரும் மற்றொரு இணை?",
+      "question": "Following 1 + 9 = 10, what is another pair for 10? || 1 + 9 = 10 என்ற அமைப்பைப் பின்பற்றி, 10 ஐத் தரும் மற்றொரு இணை எது?",
       "options": ["8 + 1", "2 + 8", "3 + 6", "5 + 4"],
       "answer": 1,
-      "explanation": "2 + 8 = 10. || 2 + 8 என்பது 10-ஐத் தரும் மற்றொரு சோடியாகும்."
+      "explanation": "2 + 8 = 10. || 2 + 8 என்பது 10 ஐ கூட்டற்பலனாகத் தரும் மற்றொரு இணை."
     },
     {
-      "question": "Which Rangoli types are in the book? || புத்தகத்தில் உள்ள ரங்கோலி அமைப்புகள் யாவை?",
-      "options": ["Triangle & Square", "Triangle & Circle", "Both", "None"],
+      "question": "Which shape patterns are shown in the Rangoli section of the book? || ரங்கோலி கோலங்களில் எந்த வகையான அமைப்புகள் பயன்படுத்தப்பட்டுள்ளன?",
+      "options": ["Square and Triangle", "Triangle and Circle", "Both Correct || இரண்டும் சரி", "Both Wrong"],
       "answer": 2,
-      "explanation": "Both designs are shown. || முக்கோணமும் வட்டமும், சதுரமும் முக்கோணமும் என இரு அமைப்புகளும் உண்டு."
+      "explanation": "Both Triangle-Circle and Square-Triangle patterns are taught. || முக்கோணமும் வட்டமும், சதுரமும் முக்கோணமும் சேர்ந்த ரங்கோலிகள் உள்ளன."
     },
     {
-      "question": "Process for 25 + ___ = 118? || விடுபட்ட எண்ணைக் கண்டறியும் முறை?",
-      "options": ["Add 118 + 25", "Subtract 118 - 25", "Divide 118 / 25", "Multiply 118 x 25"],
+      "question": "Which operation helps find the missing number in 25 + ___ = 118? || 25 + ___ = 118 கணக்கில் விடுபட்ட எண்ணைக் கண்டுபிடிக்க எது உதவும்?",
+      "options": ["Add 118 and 25", "Subtract 25 from 118 || 118 இலிருந்து 25 ஐக் கழித்தல்", "Divide 118 by 25", "Multiply 118 and 25"],
       "answer": 1,
-      "explanation": "Subtract the given part from the total. || 118 இலிருந்து 25 ஐ கழித்தால் விடுபட்ட எண் கிடைக்கும்."
+      "explanation": "Subtract the known part from the total to find the missing part. || மொத்தத் தொகையிலிருந்து கொடுக்கப்பட்ட ஒரு எண்ணைக் கழித்தால் விடுபட்ட எண் கிடைக்கும்."
     },
     {
-      "question": "Repeated addition for 16? || 16-இன் மீள்கூட்டல் அமைப்பு?",
-      "options": ["3 + 3 + 3 + 3 + 3", "4 + 4 + 4 + 4", "5 + 5 + 5", "6 + 6 + 6"],
+      "question": "Which represents the repeated addition for 16? || எது 16-இன் மீள்கூட்டல் அமைப்பைக் குறிக்கிறது?",
+      "options": ["3+3+3+3+3", "4+4+4+4", "5+5+5", "6+6+6"],
       "answer": 1,
-      "explanation": "4 + 4 + 4 + 4 = 16. || 4 + 4 + 4 + 4 = 16."
+      "explanation": "4 + 4 + 4 + 4 = 16. || 4 + 4 + 4 + 4 = 16 (4 x 4 = 16)."
     },
     {
-      "question": "In 15 ÷ 3 = 5, what does '5' mean? || 15 ÷ 3 = 5 என்பதில் 5 எதைக் குறிக்கிறது?",
-      "options": ["Number subtracted", "Total value", "Number of steps", "Remainder"],
+      "question": "In 15 ÷ 3 = 5, what does the 5 represent? || வகுத்தல் கூற்று 15 ÷ 3 = 5 என்பதில் 5 எதைக் குறிக்கிறது?",
+      "options": ["Number subtracted", "Total value", "Number of subtraction steps || மீள்கழித்தல் படிகளின் எண்ணிக்கை", "Remainder"],
       "answer": 2,
-      "explanation": "The quotient is the count of subtractions. || மீள்கழித்தல் செய்யப்படும் படிகளின் எண்ணிக்கையை ஈவு குறிக்கிறது."
+      "explanation": "The quotient 5 is the number of times 3 is subtracted. || 15 இலிருந்து 3 ஐ எத்தனை முறை கழிக்கிறோம் என்பதையே ஈவு 5 குறிக்கிறது."
     },
     {
-      "question": "Next in pattern: 9+2=11, 8+3=11, 7+4=11, ...? || 9+2=11, 8+3=11, 7+4=11 அடுத்து வருவது?",
-      "options": ["6+5=11", "5+7=11", "4+8=11", "6+6=11"],
+      "question": "Following 9+2=11, 8+3=11, 7+4=11, what is next? || 9+2=11, 8+3=11, 7+4=11 என்ற அமைப்பில் அடுத்தது எது?",
+      "options": ["6 + 5 = 11", "5 + 7 = 11", "4 + 8 = 11", "6 + 6 = 11"],
       "answer": 0,
-      "explanation": "Numbers change by 1. || அடுத்த கூற்று 6 + 5 = 11."
+      "explanation": "Pattern: First number -1, Second number +1. || முதல் எண் 1 குறைந்தும், இரண்டாவது 1 அதிகரித்தும் வருவதால் அடுத்தது 6+5=11."
     },
     {
-      "question": "Pair for 19? || 19-இன் கூட்டல் கூற்று எது?",
+      "question": "Which of these is an addition fact for 19? || கீழ்க்கண்டவற்றுள் எது 19-இன் கூட்டல் கூற்று?",
       "options": ["9 + 9", "10 + 9", "8 + 10", "11 + 7"],
       "answer": 1,
       "explanation": "10 + 9 = 19. || 10 மற்றும் 9 ஐ கூட்டினால் 19 கிடைக்கும்."
     },
     {
-      "question": "Step 3 for 32 ÷ 4? || 32 ÷ 4 மீள்கழித்தல் படி 3 என்ன?",
-      "options": ["32 - 4 = 28", "28 - 4 = 24", "24 - 4 = 20", "20 - 4 = 16"],
+      "question": "What is the 3rd step in repeated subtraction for 32 ÷ 4? || 32 ÷ 4 மீள்கழித்தலின் 3 வது படி என்ன?",
+      "options": ["32-4=28", "28-4=24", "24-4=20", "20-4=16"],
       "answer": 2,
-      "explanation": "32->28(1), 28->24(2), 24->20(3). || படி 3: 24-4=20."
+      "explanation": "Step 1: 32-4=28; Step 2: 28-4=24; Step 3: 24-4=20. || படி 1: 28, படி 2: 24, படி 3: 20."
     },
     {
-      "question": "Next number: 2, 4, 6, 8, __? || விடுபட்ட எண்: 2, 4, 6, 8, __?",
+      "question": "In the pattern 2, 4, 6, 8, __ what is next? || 2, 4, 6, 8, __ என வந்தால் விடுபட்ட எண் என்ன?",
       "options": ["9", "10", "12", "11"],
       "answer": 1,
-      "explanation": "Adding 2. || 8-க்கு அடுத்த எண் 10."
+      "explanation": "The pattern follows multiples of 2. || இது 2-இன் கூட்டல் அல்லது பெருக்கல் அமைப்பு. அடுத்த எண் 10."
     },
     {
-      "question": "Operation to find answer faster than repeated addition? || மீள்கூட்டலை விட எளிதான வழி?",
-      "options": ["Addition", "Subtraction", "Division", "Multiplication"],
+      "question": "Which operation simplifies adding the same number repeatedly? || ஒரே எண்ணை மீண்டும் மீண்டும் கூட்டாமல் எளிதாக விடையைக் காண எது உதவும்?",
+      "options": ["Addition", "Subtraction", "Division", "Multiplication || பெருக்கல்"],
       "answer": 3,
-      "explanation": "Multiplication is faster. || மீள்கூட்டலை சுருக்கமாக செய்ய பெருக்கல் பயன்படுகிறது."
+      "explanation": "Multiplication is efficient repeated addition. || மீள்கூட்டலை சுருக்கமாக செய்யவே பெருக்கல் பயன்படுகிறது."
     },
     {
-      "question": "HOTS: 10 dots in 5 rows. Total? || 10 புள்ளிகள், 5 வரிசைகள். மொத்தம்?",
-      "options": ["10 + 5", "10 + 10 + 10 + 10 + 10", "5 + 5", "10 - 5"],
+      "question": "You place 10 dots in 5 rows. Which fact calculates the total? || 10 புள்ளிகளை 5 வரிசைகளில் வைத்தால் மொத்தப் புள்ளிகளைக் கணக்கிட எது உதவும்?",
+      "options": ["10 + 5", "10+10+10+10+10", "5 + 5", "10 - 5"],
       "answer": 1,
-      "explanation": "10 added 5 times. || 10 ஐ 5 முறை கூட்ட வேண்டும் (50)."
+      "explanation": "Add 10 five times. || ஒவ்வொரு வரிசையிலும் 10 புள்ளிகள் என 5 வரிசைகள் உள்ளதால் 10 ஐ 5 முறை கூட்ட வேண்டும்."
     },
     {
-      "question": "HOTS: How many pairs for sum 15 (0 to 15)? || 15-ஐத் தரும் சோடிகள் எத்தனை?",
+      "question": "You have 24 chocolates and divide them among 3 friends. Which describes this? || 24 சாக்லேட்டுகளை 3 நண்பர்களுக்குப் பிரித்துக்கொடுத்தால் இதை எது விளக்கும்?",
+      "options": ["24 x 3", "24 + 3", "24 ÷ 3", "24 - 3"],
+      "answer": 2,
+      "explanation": "Sharing/Dividing is Division. || பகிர்ந்தளித்தல் என்பது வகுத்தலைக் குறிக்கும் (24 ÷ 3)."
+    },
+    {
+      "question": "How many unique addition pairs for 15 (using numbers 0-15)? || 15 ஐ கூட்டற்பலனாகப் பெற எத்தனை விதமான எண் சோடிகளை உருவாக்கலாம்?",
       "options": ["8", "15", "16", "10"],
       "answer": 2,
-      "explanation": "0 to 15 is 16 numbers. || 0+15 முதல் 15+0 வரை 16 சோடிகள்."
+      "explanation": "Pairs from 0+15 to 15+0 total 16 combinations. || 0+15 முதல் 15+0 வரை மொத்தம் 16 எண் சோடிகள் உள்ளன."
     },
     {
-      "question": "HOTS: 4 x 3 vs 3 x 4? || 4 x 3 மற்றும் 3 x 4 வேறுபாடு?",
-      "options": ["Same structure", "4x3 is 3 added 4 times; 3x4 is 4 added 3 times", "Both wrong", "4x3 is 4 added 4 times"],
+      "question": "How do 4 x 3 and 3 x 4 differ in structure? || 4 x 3 மற்றும் 3 x 4 அமைப்பில் எவ்வாறு வேறுபடும்?",
+      "options": ["Same structure", "4x3 adds 3 four times; 3x4 adds 4 three times || 4x3 என்பது 3 ஐ 4 முறை கூட்டுவது; 3x4 என்பது 4 ஐ 3 முறை கூட்டுவது", "Both wrong", "4x3 adds 4 four times"],
       "answer": 1,
-      "explanation": "Structures differ, answer same. || 4x3 என்பது 3 ஐ 4 முறை கூட்டுவது; 3x4 என்பது 4 ஐ 3 முறை கூட்டுவது."
+      "explanation": "4x3 = 3+3+3+3; 3x4 = 4+4+4. Result is same, structure differs. || 4x3 என்பது 3 ஐ 4 முறை கூட்டுவது; 3x4 என்பது 4 ஐ 3 முறை கூட்டுவது."
     },
     {
-      "question": "HOTS: If you split 20 kids into 4 groups (20 ÷ 4 = 5), what does 5 mean? || 20 பேரை 4 குழுக்களாக்கினால் (20 ÷ 4 = 5) இதில் 5 என்பது?",
-      "options": ["Total kids", "Kids per group", "Number of groups", "Leftover kids"],
+      "question": "A teacher divides 20 students into 4 groups. She subtracts 4 five times. What does '5' mean? || 20 மாணவர்களை 4 குழுக்களாகப் பிரிக்க 4 ஐ 5 முறை கழித்தால், 5 எதைக் குறிக்கிறது?",
+      "options": ["Total students", "Students per group || ஒரு குழுவில் உள்ள மாணவர்களின் எண்ணிக்கை", "Number of groups", "Remainder"],
       "answer": 1,
-      "explanation": "Answer is count per group. || ஒரு குழுவில் உள்ள மாணவர்களின் எண்ணிக்கை 5."
+      "explanation": "20 ÷ 4 = 5 students per group. || 20 பேரை 4 குழுக்களாகப் பிரிக்கும் போது ஒவ்வொரு குழுவிலும் 5 மாணவர்கள் இருப்பார்கள்."
     }
   ]
 }
