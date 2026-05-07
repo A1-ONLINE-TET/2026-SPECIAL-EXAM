@@ -1,0 +1,604 @@
+{
+  "Class": "Class 3",
+  "Term": "Term 3",
+  "Subject": "English",
+  "Topic": "Places in my Town / Public Places",
+  "Notes": {
+    "Full_Summary": "This lesson helps students learn the English names of various public places in our town. Furthermore, through the story 'A Cloud of Trash', it creates awareness about the importance of not littering in public places. The supplementary reading 'A Day in the Park' describes the games and activities children enjoy in a park. In the grammar section, students learn about 'Action Words' (Verbs) and their various tense forms.",
+    "Additional_Sections_and_Notes": {
+      "Public_Places_and_their_Names": [
+        "Hospital",
+        "Library",
+        "Post office",
+        "Police station",
+        "School",
+        "Railway station",
+        "Market",
+        "Park",
+        "Bus stop",
+        "Zoo"
+      ],
+      "Poem_Breezy_Beach": "This poem describes a breezy morning, dark clouds growing as a sign of rain, Daya and his father going horse riding, the vast blue sea, the waves coming running to the shore, building a sandcastle, and decorating it with shells.",
+      "Story_A_Cloud_of_Trash": "Charu was a smart and kind girl, but nobody wanted to play with her. The reason was that a 'cloud of trash' was always hanging over her head. It contained orange peels, biscuit packets, broken toys, pencil shavings, plastic bottles, and bags. Flies buzzed around it. Her mother had warned her not to litter and to throw garbage in the dustbin, but Charu never listened. As a result, this trash cloud formed. Friends like Sona and Jancy avoided her. One day, when a boy named Bala threw a banana peel, Charu stopped him and made him put it in the dustbin. When Amutha aunty threw plastic bags, Charu asked her to reuse them. She also stopped her schoolmates from littering. Because of this, the village became cleaner, and her trash cloud became smaller and eventually disappeared.",
+      "Phonics": "Pronunciation of letter clusters ear, air, are:\near (Examples: pear, bear, tear, wear, swear)\nare (Examples: rare, dare, care, aware, share, bare, stare, fare)\nair (Examples: air, hair, fair, pair, stair, chair)",
+      "Conversation_Practice": "When you want to end a conversation, you should say 'Goodbye...'. If someone says goodbye to you, you can reply by saying 'Goodbye... It was nice talking to you.'",
+      "Grammar_Action_Words": "Words that tell us the action that a person or thing does are called 'Action words' (Verbs). We can find action words by asking the question 'What does she/he/it do?'. Examples: play, work, write, give, walk, draw, jump, read, eat.",
+      "Verb_Forms": [
+        "walk - walks - walked - walked - walking",
+        "jump - jumps - jumped - jumped - jumping",
+        "run - runs - ran - run - running",
+        "sing - sings - sang - sung - singing",
+        "give - gives - gave - given - giving"
+      ],
+      "Supplementary_A_Day_in_the_Park": "Describes children playing in the park, enjoying the swing, slide, playing with a ball, resting on the grass, playing on monkey bars, and playing hide and seek."
+    },
+    "Points_to_Remember": "Do not litter in public places. Littering causes diseases (as symbolized by the buzzing flies). Action words (Verbs) change their forms according to the tense of the sentence.",
+    "Book_Back_Evaluation_Questions": {
+      "Circle_the_odd_one": "litter, letter, rain, trash, cloud, hospital, hotel (Answer: letter)",
+      "Match_the_following": [
+        "Amutha - plastic covers",
+        "Charu - a cloud of trash",
+        "Jancy - changed her seat",
+        "Amma - Angry at Charu",
+        "Sona - ran off"
+      ],
+      "Fill_in_the_blanks_A_Day_in_the_Park": [
+        "He loves to play in the (park / beach) - Answer: park",
+        "They first play on the (slide / swing) - Answer: slide",
+        "They eat snacks like (sweets / fruits) - Answer: fruits"
+      ]
+    }
+  },
+  "Quiz_Questions": [
+    {
+      "Question": "Which of the following public places is primarily used for sending and receiving letters?",
+      "Options": [
+        "Post office",
+        "Police station",
+        "Library",
+        "Bus stop"
+      ],
+      "Answer": "Post office",
+      "Explanation": "A Post office is the public place where we drop our letters, buy stamps, and send parcels."
+    },
+    {
+      "Question": "What was always hanging over Charu's head?",
+      "Options": [
+        "A dark rain cloud",
+        "A cloud of trash",
+        "A garland of flowers",
+        "A flock of birds"
+      ],
+      "Answer": "A cloud of trash",
+      "Explanation": "Because Charu kept littering everywhere, a cloud of trash formed and hung over her head."
+    },
+    {
+      "Question": "In the poem 'Breezy Beach', what did Daya ride?",
+      "Options": [
+        "Horse",
+        "Elephant",
+        "Camel",
+        "Boat"
+      ],
+      "Answer": "Horse",
+      "Explanation": "The poem states, 'Daya and his father go horse riding!'"
+    },
+    {
+      "Question": "Which of the following words does NOT end with the 'ear' letter cluster sound?",
+      "Options": [
+        "pear",
+        "bear",
+        "hair",
+        "tear"
+      ],
+      "Answer": "hair",
+      "Explanation": "The word 'hair' uses the 'air' letter cluster, while the others use the 'ear' cluster."
+    },
+    {
+      "Question": "What is the Past Participle form of the action word 'jump'?",
+      "Options": [
+        "jumps",
+        "jumping",
+        "jumped",
+        "jump"
+      ],
+      "Answer": "jumped",
+      "Explanation": "The verb forms are: jump - jumps - jumped - jumped - jumping. So, the past participle is 'jumped'."
+    },
+    {
+      "Question": "What did Jancy do when Charu asked to borrow her pencil?",
+      "Options": [
+        "She smiled",
+        "She made a face and changed her seat",
+        "She gave her the pencil",
+        "She cried"
+      ],
+      "Answer": "She made a face and changed her seat",
+      "Explanation": "Jancy was disgusted by the trash cloud over Charu's head, so she made a face and went to sit with Asha."
+    },
+    {
+      "Question": "What did Charu tell Bala when he threw a banana peel on the road?",
+      "Options": [
+        "Pick it up and eat it",
+        "Don't throw the peel on the road. Someone will slip.",
+        "Throw some more trash",
+        "She didn't say anything"
+      ],
+      "Answer": "Don't throw the peel on the road. Someone will slip.",
+      "Explanation": "Charu scolded him and said, 'Don't throw the peel on the road. Someone will slip', making him put it in the dustbin."
+    },
+    {
+      "Question": "What is the proper way to end a conversation in English?",
+      "Options": [
+        "Hello...",
+        "Welcome...",
+        "Goodbye...",
+        "Good morning..."
+      ],
+      "Answer": "Goodbye...",
+      "Explanation": "When you want to end a conversation, it is polite and standard to say 'Goodbye'."
+    },
+    {
+      "Question": "Match correctly: 1. Hospital - a. Animals, 2. Library - b. Books, 3. Zoo - c. Doctors",
+      "Options": [
+        "1-c, 2-b, 3-a",
+        "1-b, 2-a, 3-c",
+        "1-a, 2-c, 3-b",
+        "1-c, 2-a, 3-b"
+      ],
+      "Answer": "1-c, 2-b, 3-a",
+      "Explanation": "Doctors are found in a Hospital, Books are in a Library, and Animals are kept in a Zoo."
+    },
+    {
+      "Question": "Assertion (A): Charu's trash cloud became smaller day by day. Reason (R): Charu started throwing trash in the dustbin and stopped others from littering.",
+      "Options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true, and R is the correct explanation for A",
+        "Both A and R are true, but R is not the correct explanation for A"
+      ],
+      "Answer": "Both A and R are true, and R is the correct explanation for A",
+      "Explanation": "As Charu began keeping her surroundings clean, the cloud of trash over her head shrunk and eventually disappeared."
+    },
+    {
+      "Question": "What is the Past Tense form of the word 'Run'?",
+      "Options": [
+        "Runs",
+        "Running",
+        "Ran",
+        "Runned"
+      ],
+      "Answer": "Ran",
+      "Explanation": "The verb forms are: run - runs - ran - run - running. The past tense is 'Ran'."
+    },
+    {
+      "Question": "In the story 'A Day in the Park', what did the kids play on first?",
+      "Options": [
+        "Monkey bars",
+        "Swing",
+        "Hide and seek",
+        "Ball"
+      ],
+      "Answer": "Swing",
+      "Explanation": "In the textbook sequence, the first activity the children suggest is 'Let's swing'."
+    },
+    {
+      "Question": "What should we do to keep our surroundings clean?",
+      "Options": [
+        "Throw trash on the street",
+        "Put trash in the dustbin",
+        "Burn all the garbage",
+        "Do nothing"
+      ],
+      "Answer": "Put trash in the dustbin",
+      "Explanation": "Disposing of waste properly in a dustbin is the best way to maintain hygiene in public places."
+    },
+    {
+      "Question": "What can we do in a 'Library'?",
+      "Options": [
+        "Buy groceries",
+        "Read books",
+        "Board a train",
+        "Play football"
+      ],
+      "Answer": "Read books",
+      "Explanation": "A library is a public place designated for reading and borrowing books."
+    },
+    {
+      "Question": "Where did Amutha aunty throw the plastic bags?",
+      "Options": [
+        "Near the school",
+        "Near the hospital",
+        "Near the park",
+        "At the bus stop"
+      ],
+      "Answer": "Near the hospital",
+      "Explanation": "The text states: 'Then Charu saw Amutha Aunty throwing away plastic bags near the hospital.'"
+    },
+    {
+      "Question": "Find the odd pair out.",
+      "Options": [
+        "stair - air",
+        "care - are",
+        "tear - ear",
+        "chair - are"
+      ],
+      "Answer": "chair - are",
+      "Explanation": "The word 'chair' ends with the 'air' letter cluster, but it is incorrectly paired with 'are' in the options."
+    },
+    {
+      "Question": "'What do these words tell us? They tell us the action that the person does.' - What are these words called?",
+      "Options": [
+        "Naming words",
+        "Describing words",
+        "Action words",
+        "Pronouns"
+      ],
+      "Answer": "Action words",
+      "Explanation": "Words that describe an action performed by a person, animal, or thing are called Action words or Verbs."
+    },
+    {
+      "Question": "Analogy: Books : Library :: Trains : ?",
+      "Options": [
+        "Bus stop",
+        "Railway station",
+        "Post office",
+        "Police station"
+      ],
+      "Answer": "Railway station",
+      "Explanation": "Just as books are found in a library, trains are found at a railway station."
+    },
+    {
+      "Question": "Life Skill Question: You are playing in the park. Your friend throws a biscuit wrapper on the ground. What will you do?",
+      "Options": [
+        "Throw my wrapper on the ground too",
+        "Chase him away from the park",
+        "Ask him to pick it up and put it in the dustbin",
+        "Ignore it and keep playing"
+      ],
+      "Answer": "Ask him to pick it up and put it in the dustbin",
+      "Explanation": "As a responsible citizen, you should advise your friend to use the dustbin, just like Charu did."
+    },
+    {
+      "Question": "Which of the following items was NOT in Charu's cloud of trash?",
+      "Options": [
+        "Broken toys",
+        "Pencil shavings",
+        "Broken glass pieces",
+        "Orange peels"
+      ],
+      "Answer": "Broken glass pieces",
+      "Explanation": "The story mentions orange peels, biscuit packets, broken toys, pencil shavings, plastic bottles, and plastic bags. Broken glass is not mentioned."
+    },
+    {
+      "Question": "What did Charu's mother warn her about?",
+      "Options": [
+        "If you don't study, you will fail",
+        "Soon all this trash will start following you",
+        "I will not give you food anymore",
+        "I will not let you inside the house"
+      ],
+      "Answer": "Soon all this trash will start following you",
+      "Explanation": "When Charu kept littering, her Amma became angry and said, 'Soon all this trash will start following you.'"
+    },
+    {
+      "Question": "What is the Present Participle form of the word 'sing'?",
+      "Options": [
+        "sang",
+        "sung",
+        "singing",
+        "sings"
+      ],
+      "Answer": "singing",
+      "Explanation": "The '-ing' form representing a continuous action is the Present Participle (sing -> singing)."
+    },
+    {
+      "Question": "How did Charu try to chase away the trash cloud initially?",
+      "Options": [
+        "She tried to sweep the cloud down with a broom",
+        "She tried to wash it away with water",
+        "She tried to burn it",
+        "She tried to cut it with scissors"
+      ],
+      "Answer": "She tried to sweep the cloud down with a broom",
+      "Explanation": "The story mentions, 'She tried to sweep the cloud down with a broom, only to find the cloud over her head.'"
+    },
+    {
+      "Question": "In the poem 'Breezy Beach', what did Daya use to decorate his sandcastle?",
+      "Options": [
+        "Flowers",
+        "Shells",
+        "Stones",
+        "Leaves"
+      ],
+      "Answer": "Shells",
+      "Explanation": "The final line of the poem is: 'And decorated it with the shells in his hand!'"
+    },
+    {
+      "Question": "Which public place is responsible for maintaining safety, law, and order?",
+      "Options": [
+        "Library",
+        "Market",
+        "Police station",
+        "Park"
+      ],
+      "Answer": "Police station",
+      "Explanation": "The Police station is where police officers work to ensure the safety of the public."
+    },
+    {
+      "Question": "Find the odd word out.",
+      "Options": [
+        "Park",
+        "Zoo",
+        "Market",
+        "Cloud"
+      ],
+      "Answer": "Cloud",
+      "Explanation": "Park, Zoo, and Market are names of 'Public places', whereas Cloud is a natural element in the sky."
+    },
+    {
+      "Question": "Which of the following words is NOT an Action word?",
+      "Options": [
+        "Play",
+        "Walk",
+        "Apple",
+        "Think"
+      ],
+      "Answer": "Apple",
+      "Explanation": "Apple is a naming word (Noun). The others describe an action and are Verbs."
+    },
+    {
+      "Question": "In 'A Day in the Park', what snacks did the children share?",
+      "Options": [
+        "Biryani",
+        "Biscuits and fruits",
+        "Chocolates",
+        "Ice cream"
+      ],
+      "Answer": "Biscuits and fruits",
+      "Explanation": "The story says, 'We share biscuits, fruits and some water.'"
+    },
+    {
+      "Question": "What is the purpose of saying 'Goodbye, it was nice talking to you'?",
+      "Options": [
+        "To greet someone when you first meet them",
+        "To bid farewell to someone in a polite and pleasant manner",
+        "To apologize for a mistake",
+        "To show that you are angry"
+      ],
+      "Answer": "To bid farewell to someone in a polite and pleasant manner",
+      "Explanation": "This is a standard positive phrase used when ending a conversation in English."
+    },
+    {
+      "Question": "Assertion (A): Nobody wanted to play with Charu anymore. Reason (R): They were afraid that a rotten banana peel might fall on their heads from her trash cloud.",
+      "Options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true, and R is the correct explanation for A",
+        "Both A and R are true, but R is not the correct explanation for A"
+      ],
+      "Answer": "Both A and R are true, and R is the correct explanation for A",
+      "Explanation": "The text explains: 'Nobody wanted to play with a girl who had a cloud of trash... What if a rotten banana peel fell on your head? YUCK!'"
+    },
+    {
+      "Question": "What is the Past Tense form of the word 'Give'?",
+      "Options": [
+        "Gives",
+        "Given",
+        "Gaving",
+        "Gave"
+      ],
+      "Answer": "Gave",
+      "Explanation": "The verb forms are: give - gives - gave - given - giving. The past tense is 'gave'."
+    },
+    {
+      "Question": "How did Charu feel after her village became completely clean and the cloud vanished?",
+      "Options": [
+        "She became very angry",
+        "She was perhaps the happiest girl in the world",
+        "She felt sad",
+        "She kept crying"
+      ],
+      "Answer": "She was perhaps the happiest girl in the world",
+      "Explanation": "The story concludes that once the trash cloud was completely gone, 'Charu was now perhaps the happiest girl in the world.'"
+    },
+    {
+      "Question": "Match the words with their rhyming phonics cluster: 1. dare - a. ear, 2. fair - b. are, 3. tear - c. air",
+      "Options": [
+        "1-b, 2-c, 3-a",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-a, 3-c"
+      ],
+      "Answer": "1-b, 2-c, 3-a",
+      "Explanation": "Based on the phonics groupings: d-are, f-air, t-ear is the correct match."
+    },
+    {
+      "Question": "Where do we need to go if we want to travel by train?",
+      "Options": [
+        "Airport",
+        "Railway station",
+        "Bus stop",
+        "Post office"
+      ],
+      "Answer": "Railway station",
+      "Explanation": "Trains arrive at and depart from a Railway station."
+    },
+    {
+      "Question": "To which place would a person go to 'deposit' their money safely?",
+      "Options": [
+        "Library",
+        "Park",
+        "Bank",
+        "Zoo"
+      ],
+      "Answer": "Bank",
+      "Explanation": "A Bank is the public place designated for financial transactions like depositing money."
+    },
+    {
+      "Question": "What action did the children perform with the ball in the park?",
+      "Options": [
+        "They threw it with their hands",
+        "They kicked it",
+        "They hid it away",
+        "They took it home"
+      ],
+      "Answer": "They kicked it",
+      "Explanation": "The child in the story says, 'I kick the ball far. We run very fast to get it.'"
+    },
+    {
+      "Question": "Analogy: Present : Walk :: Past Participle : ?",
+      "Options": [
+        "Walks",
+        "Walking",
+        "Walk",
+        "Walked"
+      ],
+      "Answer": "Walked",
+      "Explanation": "The past and past participle forms of the regular verb 'walk' are both 'walked'."
+    },
+    {
+      "Question": "Where did Charu collect the twisted plastic bottles?",
+      "Options": [
+        "Near the school",
+        "Near the park",
+        "Near the hotel",
+        "Near the post office"
+      ],
+      "Answer": "Near the hotel",
+      "Explanation": "The story mentions: 'She picked up every twisted plastic bottle near the hotel and put it in the dustbin.'"
+    },
+    {
+      "Question": "What is the common name for the container used for throwing waste in public places?",
+      "Options": [
+        "Bucket",
+        "Dustbin",
+        "Box",
+        "Bag"
+      ],
+      "Answer": "Dustbin",
+      "Explanation": "A dustbin (or trash can) is the designated container for disposing of garbage."
+    },
+    {
+      "Question": "Life Skill Question: While walking on the road, you see an injured person. Where should you take them or call an ambulance to?",
+      "Options": [
+        "School",
+        "Market",
+        "Hospital",
+        "Park"
+      ],
+      "Answer": "Hospital",
+      "Explanation": "A hospital is the public place equipped to treat injured and sick people."
+    },
+    {
+      "Question": "Which action word is used in English to describe sticking a stamp on a letter?",
+      "Options": [
+        "Cut",
+        "Paste",
+        "Run",
+        "Jump"
+      ],
+      "Answer": "Paste",
+      "Explanation": "The action of sticking something, like a stamp in a post office activity, is called 'Paste'."
+    },
+    {
+      "Question": "Where did Charu have to eat her lunch every day?",
+      "Options": [
+        "Under a tree",
+        "In the classroom alone",
+        "In the restroom",
+        "In the teacher's room"
+      ],
+      "Answer": "In the classroom alone",
+      "Explanation": "Because no one wanted to sit near her trash cloud, 'Charu even had to eat her lunch alone.'"
+    },
+    {
+      "Question": "Where can you find 'Monkey bars' to play on?",
+      "Options": [
+        "Zoo",
+        "Post office",
+        "Park",
+        "Bank"
+      ],
+      "Answer": "Park",
+      "Explanation": "Monkey bars are a piece of playground equipment typically found in a park."
+    },
+    {
+      "Question": "When Charu asked Sona to walk to school together, in which direction did Sona run?",
+      "Options": [
+        "Straight ahead",
+        "In the opposite direction",
+        "Towards the school",
+        "Towards the pond"
+      ],
+      "Answer": "In the opposite direction",
+      "Explanation": "Sona was scared of the trash cloud, so she 'ran off in the opposite direction'."
+    },
+    {
+      "Question": "Which of the following sentences contains a proper Action word?",
+      "Options": [
+        "I read a story every day.",
+        "The apple is red.",
+        "He is a good boy.",
+        "It is a big tree."
+      ],
+      "Answer": "I read a story every day.",
+      "Explanation": "In this sentence, 'read' is an action word representing the act of reading. The other sentences only describe nouns."
+    },
+    {
+      "Question": "In the poem 'Breezy Beach', what do the sea waves do?",
+      "Options": [
+        "They fly to the sky",
+        "The waves come running to you",
+        "They follow ships",
+        "They catch fishes"
+      ],
+      "Answer": "The waves come running to you",
+      "Explanation": "The poem beautifully describes the ocean: 'The waves come running to you'."
+    },
+    {
+      "Question": "Assertion (A): We must not litter in public places. Reason (R): Public places belong to everyone, and keeping them clean is our shared responsibility.",
+      "Options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true, and R is the correct explanation for A",
+        "Both A and R are true, but R is not the correct explanation for A"
+      ],
+      "Answer": "Both A and R are true, and R is the correct explanation for A",
+      "Explanation": "Keeping public places clean prevents the spread of diseases and shows good citizenship."
+    },
+    {
+      "Question": "Why should a person wear a helmet while riding a two-wheeler?",
+      "Options": [
+        "To escape the sun",
+        "To be safe",
+        "To look beautiful",
+        "To fool the police"
+      ],
+      "Answer": "To be safe",
+      "Explanation": "According to the picture comprehension exercise in the book, 'He wears the helmet to be safe'."
+    },
+    {
+      "Question": "'I saw a sparrow there in the morning' - Which tense does the action word in this sentence belong to?",
+      "Options": [
+        "Present tense",
+        "Past tense",
+        "Future tense",
+        "Present participle"
+      ],
+      "Answer": "Past tense",
+      "Explanation": "The word 'saw' is the past tense form of 'see', indicating an action that already happened in the morning."
+    },
+    {
+      "Question": "What was Charu's secret fear even after her village became clean?",
+      "Options": [
+        "Her mother would scold her",
+        "Someone would steal the dustbin",
+        "The trash cloud would come back someday",
+        "She would fail her exams"
+      ],
+      "Answer": "The trash cloud would come back someday",
+      "Explanation": "At the very end of the story, it says, 'But she was also scared that the trash cloud would come back someday', which is why she never littered again."
+    }
+  ]
+}

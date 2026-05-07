@@ -956,6 +956,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Our Leafy Friends",
+                "isUpdated": true,
+                "code": "eng_3_t3_l1"
+              },
+              {
+                "title": "Tools",
+                "isUpdated": true,
+                "code": "eng_3_t3_l2"
+              },
+              {
+                "title": "Places in my Town",
+                "isUpdated": true,
+                "code": "eng_3_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

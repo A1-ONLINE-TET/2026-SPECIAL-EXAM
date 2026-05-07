@@ -1,938 +1,602 @@
 {
-  "வகுப்பு": "3rd Standard",
-  "பருவம்": "Term 2",
-  "பாட_எண்": "Unit II",
-  "பாட_தலைப்பு": "Trip to the store",
-  "பாடக்குறிப்புகள்": [
+  "class_details": {
+    "class": "Class 3",
+    "term": "Term 3",
+    "unit_number": "Unit 2",
+    "unit_title": "Tools"
+  },
+  "study_notes": [
     {
-      "தலைப்பு": "1. Complete Lesson Summary",
-      "விவரங்கள்": "This unit revolves around grocery shopping, preparing for a picnic, and fireless cooking. It introduces children to various grocery items, vegetables, and fruits. It features a poem 'At the Grocery Store', a story about Varun's picnic with his mother where they shop and cook together, and a supplementary story about Gayathri who participates in a fireless cooking contest. It also teaches phonics sounds (/ar/ and /or/), action words related to cooking, adverb usage (how and when), and asking for permission using 'Let me'."
+      "title": "Complete Summary of the Lesson",
+      "details": "This lesson introduces students to various tools used in daily life, basic repair work, and mechanical concepts through stories and poems. The poem 'The Little Doctor' highlights the stethoscope used by doctors to listen to the heartbeat. The main story 'A Stitch in Time' follows two friends, Shyam and Veni. When Shyam's shirt tears, his grandfather fixes it with a needle and thread. Later, when Shyam tries to iron his shirt, the iron box breaks. The children try to fix it, fail, and take it to Daisy Aunty at the Repair Shop. She uses a multimeter to find a broken wire and fixes it, teaching them about electrical repairs. The supplementary story 'Ammachi's Coconut Barfi' involves Sabari and his grandmother using simple machines like a pulley, a crank machine (husk remover), and a cleaver to harvest coconuts and make sweet barfi. The grammar section focuses on joining sentences using 'and', asking the time, and using 'Whose' to show possession. The phonics section covers the soft 'g' sound spelled as 'ge', 'gi', and 'dge'."
     },
     {
-      "தலைப்பு": "2. Look and Say - Grocery Items (Vocabulary)",
-      "விவரங்கள்": "The lesson lists numerous grocery items: Rice, Bengal gram, Wheat, Blackgram, Garlic, Chickpeas, Onion, Ginger, Sugar, Cardamom, Oil, Ghee, Milk, Honey, Greengram, Ragi, Dates, Salt, Cashew nuts, Red Chilly, Tamarind, Pepper, Cumin, Turmeric, Ground nuts, Mint, Curry leaves, and Coriander leaves."
+      "title": "Vocabulary: Tools and Their Uses",
+      "details": "1. Saw (used for cutting wood)\n2. Nail & Hammer (used for fixing things to walls/wood)\n3. Plier (used for gripping or bending wire)\n4. Screwdriver (used for turning screws)\n5. Drill (used for making holes)\n6. Spanner / Wrench (used for turning nuts and bolts)\n7. Tape (used for measuring or sticking)\n8. Toolbox (a box to keep all tools)\n9. Axe (used for chopping wood)\n10. Scissors (used for cutting paper/cloth)\n11. Spade (used for digging soil)\n12. Nut & Bolt (used to fasten things together)\n13. Multimeter (used to test if parts allow electric current to flow)\n14. Needle & Thread (used to stitch clothes)\n15. Cleaver (a heavy knife used to crack hard shells like coconut)."
     },
     {
-      "தலைப்பு": "3. Poem: At the Grocery store",
-      "விவரங்கள்": "At the grocery store, find everything you need and more! Saffron and cinnamon, are not very common! Grains and sprout, eat them without a doubt! Almonds and dates, share them with mates! Milk and oil, can't pack them with a foil! Now, get these to your door, from the grocery store!"
+      "title": "Poem: The Little Doctor",
+      "details": "The poem is about a doctor holding a stethoscope. The stethoscope hears the chest going 'Thud Thud', showing that the heart is never at rest. The doctor listens to the 'Thud Thud' and reassures that 'All is well, no need to fear'."
     },
     {
-      "தலைப்பு": "4. Story: Varun's day out!",
-      "விவரங்கள்": "It was a warm sunny day. Varun was bored, so Amma suggested a picnic in the park. They made a list and took an auto to the market. At the vegetable shop, they bought fresh carrots to make a salad. Varun learned that the vegetable white inside is an ash gourd, and the other is a pumpkin. At the fruit shop, Varun chose a big, green, juicy watermelon and a reddish-yellow ripe mango. Amma bought maida, rice, and black gram from the cereal section. At home, they soaked rice and black gram, and grinded them to make dosa batter. They packed dosas in a round tiffin box and coriander and tomato chutneys in two small square boxes. They made a salad by grating carrots, squeezing lemon, and adding salt. While cutting fruits, Varun bit the mango, and the juice dripped on his shirt, making Amma and Varun laugh. Finally, they went to the park, played on the swing and slide, spread a cloth on the grass, ate, and Varun thanked his mother for a wonderful day."
+      "title": "Story 1: A Stitch in Time",
+      "details": "Shyam is sad because the seams of his favorite shirt have come apart. His grandfather (Thatha) takes a needle and some blue thread to fix it, showing Shyam how to stitch. Later, his friend Veni comes to take him cycling. Shyam wants to iron his shirt first, but the iron box doesn't work (no light, remains cold). Shyam complains about wearing a 'crumpled' shirt. Veni, who recently observed a repairman, tries to open the iron box with a screwdriver but cannot fix it. They secretly take it to the Repair Shop on their cycles. Daisy Aunty uses a 'multimeter' to check the electrical current. She finds a broken wire near the plug. She cuts the old wire and fixes a new one. The iron box starts working, making it a day well spent."
     },
     {
-      "தலைப்பு": "5. Let us practise (Action Words)",
-      "விவரங்கள்": "Action words related to food preparation: break (I break the coconut), peel, taste, spread, sprinkle, saute, wash."
+      "title": "Supplementary Story: Ammachi (Making Coconut Barfi)",
+      "details": "Sabari asks his grandmother (Ammachi) to make coconut barfi. They pick ripe, brown coconuts by going up using a seat tied to a pulley. They remove the husk using a machine with a lever that goes 'GRRRRR' (Crank). They crack the hard coconut shell with a cleaver ('KHATAK'). Then, they grate the fruit ('KRRRR'). They toss the grated coconut into a pan with sugar, wait for it to cool on a tray, and cut it into neat little pieces to eat."
     },
     {
-      "தலைப்பு": "6. Phonics (ar and or sounds)",
-      "விவரங்கள்": "Words with 'ar' sound: dollar, collar, caterpillar, sugar, polar, sonar. Words with 'or' sound: mirror, doctor, visitor, sailor, actor, tractor, donor. Sentences: 'This is a green caterpillar.', 'Actor donates in dollars.', 'The sailor travels in ship.', 'Sugar is carried by tractor.'"
+      "title": "Phonics: 'ge', 'gi', 'dge' sounds (Soft 'g' sound /dʒ/)",
+      "details": "The letters 'ge', 'gi', and 'dge' make the 'j' sound.\nWords with 'ge': gem, germs, gender, gentle, danger, general.\nWords with 'gi': gist, magic, ginger, giraffe, imagine, genius.\nWords with 'dge': edge, judge, badge, fridge, bridge, lodge."
     },
     {
-      "தலைப்பு": "7. Grammar: Asking Permission (Let us use)",
-      "விவரங்கள்": "We use 'Let me' for asking permission. Example: 'Let me play.' The answer can be 'Yes, you can' or 'No, you cannot'. Other examples: 'Let me taste the soup?', 'Let me throw the ball?'"
+      "title": "Grammar: Joining Words (Conjunction 'and')",
+      "details": "When we want to join two sentences that are the same, we use 'and'.\nStep 1: Write two sentences (I like apple. I like orange.)\nStep 2: Strike the repeating words.\nStep 3: Put 'and' where the words were cut.\nExample: Kalai rides a bicycle. Kalai rides a bike. -> Kalai rides a bicycle and a bike.\nExample: He bought a book. He bought a pen. -> He bought a book and a pen."
     },
     {
-      "தலைப்பு": "8. Grammar: Adverbs (Let us know)",
-      "விவரங்கள்": "Words that help us know more about the action and describe it (Adverbs). How the action is done: happily, really, gently, slowly, loudly, sadly, angrily, roughly, carefully, peacefully. When the action is done: tomorrow, today, now, yesterday. Examples: 'John cried loudly' (How? Loudly). 'Shyam will meet his friend tomorrow' (When? Tomorrow). 'He came yesterday.' 'She speaks gently.'"
+      "title": "Conversations: Time and Possession",
+      "details": "Asking the time: 'What is the time?' -> Response: 'The time is 10.15.'\nAsking about possession: We use 'Whose...?' (e.g., Whose house is near the pond? Whose bag is this? Whose shirt is red in colour?)"
     },
     {
-      "தலைப்பு": "9. Supplementary Story: THE GREAT COOKING CONTEST",
-      "விவரங்கள்": "Gayathri was a cute girl who liked to cook and make crafts but wasn't allowed near the stove. Her school announced 'THE GREAT COOKING CONTEST' - cooking without fire. Her mom suggested making AVAL LADDU. On the contest day, Gayathri soaked a cup of AVAL in water, added nuts and honey, and rolled them into eight LADDUS. When her name was called, she ran, fell down (CRASH!), and her laddus got crushed. She sadly gave them to the school head. The head tasted it and said, 'Your AVAL BOONDHI is really tasty!' Gayathri won the first prize."
+      "title": "Action Words and Word Wall",
+      "details": "Action words: wind, drill, fix, dig, strike, open, close, join.\nWord wall: crank, machine, squeak, pieces, warm, already, finally, understand, mind, outside, problem, follow."
     },
     {
-      "தலைப்பு": "10. Anjaraipetti (Spice Box)",
-      "விவரங்கள்": "Items in an Anjaraipetti: 1. Mustard seeds, 2. Black gram, 3. Fenugreek seeds, 4. Black pepper, 5. Cumin seeds, 6. Cardamom, 7. Clove."
-    },
-    {
-      "தலைப்பு": "11. Grammar: Asking Questions (Which...?)",
-      "விவரங்கள்": "Using 'Which' to identify specific items. Example: 'Which book is under the table? Red book is under the table.' 'Which bottle is filled with water?'"
-    },
-    {
-      "தலைப்பு": "12. Book Back Evaluation & One Mark Questions",
-      "விவரங்கள்": "1. Match the words: coriander -> leaves, ash gourd -> white vegetable, blackgram -> dal. 2. Varun's Day Out Questions: Where did they plan to go? (Park for a picnic). What did they buy in the vegetable shop? (Carrot). What did they cut? (Watermelon and mango). 3. Fill in the blanks with ar/or: tractor, sailor, sugar, collar, polar, doctor. 4. Circle the correct word (Contest): nuts, honey, aval, water. 5. Cooking contest questions: Aval Laddu is prepared without fire. Her mom taught how to prepare Aval Laddu. 6. I Can Do: Write names of groceries: ragi, pepper, bengalgram. 7. Circle word with 'or': sailor, tractor, visitor. Circle word with 'ar': dollar, sugar, polar, regular."
+      "title": "Book Back 1-Mark Questions & Answers",
+      "details": "1. Who is the main person in the story? Answer: Shyam.\n2. What happened to Shyam's shirt? Answer: The seams came apart.\n3. Why did Veni visit Shyam? Answer: To go cycling.\n4. What was wrong with the iron box? Answer: It wouldn't switch on / broken wire.\n5. Match the tool with its use: Open and close things -> Screwdriver; Test electrical things -> Multimeter; Stitch clothes -> Needle.\n6. Choose the correct word: Sabari asked his Ammachi to prepare -> barfi. They picked -> ripe coconut. They poured the barfi all out onto a -> tray."
     }
   ],
-  "தேர்வுகள்": [
+  "quiz_questions": [
     {
-      "கேள்வி": "What is the colour of a ripe mango as described in the lesson?",
-      "ஆப்ஷன்கள்": [
-        "Greenish yellow",
-        "Reddish yellow",
-        "Pure red",
-        "Light green"
+      "question": "What is the name of the tool used by a doctor to listen to a patient's heartbeat?",
+      "options": [
+        "Multimeter",
+        "Microscope",
+        "Stethoscope",
+        "Screwdriver"
       ],
-      "விடை": "Reddish yellow",
-      "விளக்கம்": "Varun wanted the reddish yellow ripe mango from the stalls."
+      "answer": "Stethoscope",
+      "explanation": "As mentioned in the poem 'The Little Doctor', a doctor holds a stethoscope to listen to the chest saying 'Thud Thud'."
     },
     {
-      "கேள்வி": "Match the following items to their category:\n1. Ragi\n2. Cumin\n3. Mint\n4. Cashew\na. Leaves\nb. Nut\nc. Spice\nd. Cereal",
-      "ஆப்ஷன்கள்": [
-        "1-d, 2-c, 3-a, 4-b",
-        "1-a, 2-b, 3-c, 4-d",
-        "1-c, 2-d, 3-b, 4-a",
-        "1-b, 2-a, 3-d, 4-c"
+      "question": "What sound does the heart make in 'The Little Doctor' poem?",
+      "options": [
+        "Beep Beep",
+        "Thud Thud",
+        "Tick Tock",
+        "Ring Ring"
       ],
-      "விடை": "1-d, 2-c, 3-a, 4-b",
-      "விளக்கம்": "Ragi is a cereal/grain, Cumin is a spice, Mint is a leaf, and Cashew is a nut."
+      "answer": "Thud Thud",
+      "explanation": "The poem says, 'Thud Thud says your chest, Your heart is never at rest!'"
     },
     {
-      "கேள்வி": "Which of the following is NOT found in the poem 'At the Grocery store'?",
-      "ஆப்ஷன்கள்": [
-        "Saffron",
-        "Watermelon",
-        "Cinnamon",
-        "Almonds"
+      "question": "Who fixed Shyam's favorite shirt when its seams came apart?",
+      "options": [
+        "His mother",
+        "Veni",
+        "Daisy Aunty",
+        "His grandfather (Thatha)"
       ],
-      "விடை": "Watermelon",
-      "விளக்கம்": "Watermelon is mentioned in Varun's story, not in the poem."
+      "answer": "His grandfather (Thatha)",
+      "explanation": "Shyam's grandfather (Thatha) took a needle and blue thread to fix his shirt."
     },
     {
-      "கேள்வி": "Assertion (A): Amma and Varun bought ash gourd for the picnic salad.\nReason (R): Ash gourd is white inside.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true, and R is the correct explanation of A.",
-        "Both A and R are true, but R is not the correct explanation of A.",
-        "A is true, but R is false.",
-        "A is false, but R is true."
+      "question": "What did Veni ask Shyam to do when she came to his house?",
+      "options": [
+        "To play cricket",
+        "To go cycling",
+        "To repair an iron box",
+        "To eat coconut barfi"
       ],
-      "விடை": "A is false, but R is true.",
-      "விளக்கம்": "They bought fresh carrots for the salad, not ash gourd, though ash gourd is indeed white inside."
+      "answer": "To go cycling",
+      "explanation": "Veni came to Shyam's house and said, 'Let's go cycling'."
     },
     {
-      "கேள்வி": "Analogy: Dosa tiffin box : Round :: Chutney box : ?",
-      "ஆப்ஷன்கள்": [
-        "Rectangle",
-        "Oval",
-        "Square",
-        "Triangle"
+      "question": "Why did Shyam refuse to go cycling immediately?",
+      "options": [
+        "He wanted to sleep",
+        "He wanted to stitch his shirt",
+        "He wanted to iron his shirt first",
+        "His cycle was broken"
       ],
-      "விடை": "Square",
-      "விளக்கம்": "They packed the chutneys in two small square boxes."
+      "answer": "He wanted to iron his shirt first",
+      "explanation": "Shyam said, 'In a minute. Let me iron my shirt first.'"
     },
     {
-      "கேள்வி": "What phrase is used in the poem to describe how we should eat grains and sprouts?",
-      "ஆப்ஷன்கள்": [
-        "Without a doubt",
-        "With a foil",
-        "With our mates",
-        "Not very common"
-      ],
-      "விடை": "Without a doubt",
-      "விளக்கம்": "The poem says: 'Grains and sprout, eat them without a doubt!'"
-    },
-    {
-      "கேள்வி": "What did Gayathri use to sweeten the Aval Laddu?",
-      "ஆப்ஷன்கள்": [
-        "Sugar",
-        "Jaggery",
-        "Honey",
-        "Dates"
-      ],
-      "விடை": "Honey",
-      "விளக்கம்": "She added nuts and honey to the soaked aval."
-    },
-    {
-      "கேள்வி": "Situational: You want to ask your teacher's permission to drink water. Which is the correct structure based on the lesson?",
-      "ஆப்ஷன்கள்": [
-        "I drink water.",
-        "Let me drink water?",
-        "Give me water.",
-        "You let me drink."
-      ],
-      "விடை": "Let me drink water?",
-      "விளக்கம்": "The lesson teaches 'Let me...' to ask for permission."
-    },
-    {
-      "கேள்வி": "Which of these words ends with the 'or' sound as taught in the phonics section?",
-      "ஆப்ஷன்கள்": [
-        "Dollar",
-        "Polar",
-        "Tractor",
-        "Collar"
-      ],
-      "விடை": "Tractor",
-      "விளக்கம்": "Tractor ends with the 'or' sound."
-    },
-    {
-      "கேள்வி": "Identify the adverb in the sentence: 'She speaks gently.'",
-      "ஆப்ஷன்கள்": [
-        "She",
-        "Speaks",
-        "Gently",
-        "None of the above"
-      ],
-      "விடை": "Gently",
-      "விளக்கம்": "Gently describes 'how' she speaks."
-    },
-    {
-      "கேள்வி": "How did Amma clean the rice and black gram?",
-      "ஆப்ஷன்கள்": [
-        "By boiling them",
-        "By roasting them",
-        "By washing them",
-        "By peeling them"
-      ],
-      "விடை": "By washing them",
-      "விளக்கம்": "She washed the rice and black gram to clean it."
-    },
-    {
-      "கேள்வி": "What happened to Varun's shirt?",
-      "ஆப்ஷன்கள்": [
-        "Mud splashed on it",
-        "Mango juice dripped on it",
-        "Tomato chutney fell on it",
-        "Watermelon juice stained it"
-      ],
-      "விடை": "Mango juice dripped on it",
-      "விளக்கம்": "The juice of the mango dripped and fell on his shirt."
-    },
-    {
-      "கேள்வி": "Which of the following is NOT a spice mentioned in the Anjaraipetti list?",
-      "ஆப்ஷன்கள்": [
-        "Clove",
-        "Cardamom",
-        "Mint",
-        "Fenugreek seeds"
-      ],
-      "விடை": "Mint",
-      "விளக்கம்": "Mint is a herb/leaf, while the others are listed under Anjaraipetti spices."
-    },
-    {
-      "கேள்வி": "According to the poem, what things cannot be packed with a foil?",
-      "ஆப்ஷன்கள்": [
-        "Milk and oil",
-        "Almonds and dates",
-        "Saffron and cinnamon",
-        "Grains and sprout"
-      ],
-      "விடை": "Milk and oil",
-      "விளக்கம்": "The poem states: 'Milk and oil, can't pack them with a foil!'"
-    },
-    {
-      "கேள்வி": "Analogy: Actor : dollars :: Sailor : ?",
-      "ஆப்ஷன்கள்": [
-        "Tractor",
-        "Ship",
-        "Sugar",
-        "Doctor"
-      ],
-      "விடை": "Ship",
-      "விளக்கம்": "Based on the phonics practice sentences: 'Actor donates in dollars.' and 'The sailor travels in ship.'"
-    },
-    {
-      "கேள்வி": "How many Aval Laddus did Gayathri make?",
-      "ஆப்ஷன்கள்": [
-        "Six",
-        "Ten",
-        "Eight",
-        "Twelve"
-      ],
-      "விடை": "Eight",
-      "விளக்கம்": "She mixed them well and rolled them into eight LADDUS."
-    },
-    {
-      "கேள்வி": "Assertion (A): Gayathri made Aval Boondhi intentionally for the contest.\nReason (R): The contest was about cooking without fire.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "A is false but R is true.",
-        "Both A and R are false."
-      ],
-      "விடை": "A is false but R is true.",
-      "விளக்கம்": "She made Aval Laddus intentionally, but they crushed and accidentally became Boondhi. The contest was indeed without fire."
-    },
-    {
-      "கேள்வி": "Which word tells us 'when' the action happens in the sentence: 'He came yesterday.'?",
-      "ஆப்ஷன்கள்": [
-        "He",
-        "Came",
-        "Yesterday",
-        "None"
-      ],
-      "விடை": "Yesterday",
-      "விளக்கம்": "Yesterday is an adverb of time."
-    },
-    {
-      "கேள்வி": "Fill in the blank with the correct sound: c a t e r p i l l _ _",
-      "ஆப்ஷன்கள்": [
-        "er",
-        "or",
-        "ur",
-        "ar"
-      ],
-      "விடை": "ar",
-      "விளக்கம்": "The correct spelling is caterpillar."
-    },
-    {
-      "கேள்வி": "What did Varun say to his mother at the end of the picnic?",
-      "ஆப்ஷன்கள்": [
-        "I am very tired.",
-        "Thank you Amma. I had a wonderful day!",
-        "Let us go home now.",
-        "I want more mangoes."
-      ],
-      "விடை": "Thank you Amma. I had a wonderful day!",
-      "விளக்கம்": "He thanked his mother and hugged her."
-    },
-    {
-      "கேள்வி": "Match the action words to their items based on general use:\n1. Peel\n2. Break\n3. Squeeze\n4. Wash\na. Coconut\nb. Rice\ c. Banana\nd. Lemon",
-      "ஆப்ஷன்கள்": [
-        "1-c, 2-a, 3-d, 4-b",
-        "1-a, 2-b, 3-c, 4-d",
-        "1-d, 2-c, 3-b, 4-a",
-        "1-b, 2-d, 3-a, 4-c"
-      ],
-      "விடை": "1-c, 2-a, 3-d, 4-b",
-      "விளக்கம்": "We peel a banana, break a coconut, squeeze a lemon, and wash rice."
-    },
-    {
-      "கேள்வி": "Situational: Your friend asks, 'Let me play with your toy?' How do you politely agree?",
-      "ஆப்ஷன்கள்": [
-        "No, you cannot.",
-        "Yes, I do.",
-        "Yes, you can.",
-        "You take it."
-      ],
-      "விடை": "Yes, you can.",
-      "விளக்கம்": "The correct response structure taught in the lesson is 'Yes, you can'."
-    },
-    {
-      "கேள்வி": "Which of the following describes the watermelon chosen by Varun?",
-      "ஆப்ஷன்கள்": [
-        "Small, red and sweet",
-        "Big, green and juicy",
-        "Round, yellow and ripe",
-        "Long, green and hard"
-      ],
-      "விடை": "Big, green and juicy",
-      "விளக்கம்": "He wanted the big, green and juicy watermelon."
-    },
-    {
-      "கேள்வி": "What did Amma and Varun do right after taking an auto?",
-      "ஆப்ஷன்கள்": [
-        "They went to the park",
-        "They went to the market to buy groceries",
-        "They made dosa batter",
-        "They played on the swing"
-      ],
-      "விடை": "They went to the market to buy groceries",
-      "விளக்கம்": "They took an auto to the market to buy groceries."
-    },
-    {
-      "கேள்வி": "What is the opposite of 'Loudly' as an action-describing word?",
-      "ஆப்ஷன்கள்": [
-        "Roughly",
-        "Softly",
-        "Happily",
-        "Angrily"
-      ],
-      "விடை": "Softly",
-      "விளக்கம்": "Softly is the opposite of loudly in describing an action."
-    },
-    {
-      "கேள்வி": "Which ingredient was NOT bought by Amma at the cereal section?",
-      "ஆப்ஷன்கள்": [
-        "Maida",
-        "Rice",
-        "Black gram",
-        "Wheat"
-      ],
-      "விடை": "Wheat",
-      "விளக்கம்": "Amma bought some maida, rice and black gram."
-    },
-    {
-      "கேள்வி": "Analogy: Varun : Picnic :: Gayathri : ?",
-      "ஆப்ஷன்கள்": [
-        "Market",
-        "Grocery store",
-        "Cooking contest",
-        "Park"
-      ],
-      "விடை": "Cooking contest",
-      "விளக்கம்": "Varun's story is about a picnic, Gayathri's story is about a cooking contest."
-    },
-    {
-      "கேள்வி": "Why was Gayathri not allowed near the stove?",
-      "ஆப்ஷன்கள்": [
-        "She didn't know how to cook",
-        "She was a little girl and it could be dangerous",
-        "Her mother hated cooking",
-        "She was too busy making crafts"
-      ],
-      "விடை": "She was a little girl and it could be dangerous",
-      "விளக்கம்": "The story implies she is a young girl ('cute girl') who helps in the kitchen but is kept away from the stove for safety."
-    },
-    {
-      "கேள்வி": "Assertion (A): The school head announced Gayathri as the winner.\nReason (R): Her Aval Laddus looked very beautiful in shape.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "A is false but R is true.",
-        "Both A and R are false."
-      ],
-      "விடை": "A is true but R is false.",
-      "விளக்கம்": "She won, but her laddus were crushed into boondhi and did not have a beautiful shape; she won because it tasted really good."
-    },
-    {
-      "கேள்வி": "What did they add to the grated carrots to make the salad?",
-      "ஆப்ஷன்கள்": [
-        "Sugar and honey",
-        "Lemon and salt",
-        "Pepper and cumin",
-        "Oil and mustard"
-      ],
-      "விடை": "Lemon and salt",
-      "விளக்கம்": "They grated the carrots, squeezed lemon and added salt to make a salad."
-    },
-    {
-      "கேள்வி": "Fill in the blanks: S a i l _ _",
-      "ஆப்ஷன்கள்": [
-        "ar",
-        "er",
-        "or",
-        "ur"
-      ],
-      "விடை": "or",
-      "விளக்கம்": "The correct spelling is Sailor."
-    },
-    {
-      "கேள்வி": "What question word is used when asking someone to point out a specific item from a group?",
-      "ஆப்ஷன்கள்": [
-        "What",
-        "Where",
-        "Which",
-        "How"
-      ],
-      "விடை": "Which",
-      "விளக்கம்": "As taught in 'Big Picture': 'Which book is under the table?'"
-    },
-    {
-      "கேள்வி": "Which of these adverbs tells us 'how' an action is done?",
-      "ஆப்ஷன்கள்": [
-        "Tomorrow",
-        "Carefully",
-        "Now",
-        "Today"
-      ],
-      "விடை": "Carefully",
-      "விளக்கம்": "Carefully describes the manner (how) of the action."
-    },
-    {
-      "கேள்வி": "Find the odd word out based on the phonics sound.",
-      "ஆப்ஷன்கள்": [
-        "Dollar",
-        "Sugar",
-        "Doctor",
-        "Polar"
-      ],
-      "விடை": "Doctor",
-      "விளக்கம்": "Doctor ends in 'or', while dollar, sugar, and polar end in 'ar'."
-    },
-    {
-      "கேள்வி": "What did Varun want to do with the rice and black gram?",
-      "ஆப்ஷன்கள்": [
-        "Eat them raw",
-        "Grind them with Amma",
-        "Throw them away",
-        "Plant them in the garden"
-      ],
-      "விடை": "Grind them with Amma",
-      "விளக்கம்": "Varun asked, 'Amma, can I grind them with you?'"
-    },
-    {
-      "கேள்வி": "Situational: You accidentally drop the dish you prepared for a contest. What should you do according to Gayathri's story?",
-      "ஆப்ஷன்கள்": [
-        "Cry and run away",
-        "Throw it in the dustbin",
-        "Not panic and present it anyway if it is clean and tasty",
-        "Blame someone else"
-      ],
-      "விடை": "Not panic and present it anyway if it is clean and tasty",
-      "விளக்கம்": "Gayathri took her crushed laddus to the head, who loved the taste and gave her the prize."
-    },
-    {
-      "கேள்வி": "Which spice is NOT mentioned in the Anjaraipetti list?",
-      "ஆப்ஷன்கள்": [
-        "Cardamom",
-        "Black pepper",
-        "Turmeric",
-        "Mustard seeds"
-      ],
-      "விடை": "Turmeric",
-      "விளக்கம்": "Turmeric is in the general grocery list but not listed in the 7 Anjaraipetti items exercise."
-    },
-    {
-      "கேள்வி": "What was the weather like on the day of the picnic?",
-      "ஆப்ஷன்கள்": [
-        "Cold and rainy",
-        "Warm sunny day",
-        "Cloudy and windy",
-        "Stormy"
-      ],
-      "விடை": "Warm sunny day",
-      "விளக்கம்": "It was a warm sunny day, perfect for a picnic."
-    },
-    {
-      "கேள்வி": "Match the describing words with the fruits from the lesson:\n1. Big and juicy\n2. Ripe and reddish yellow\n3. Fresh\na. Carrot\nb. Mango\nc. Watermelon",
-      "ஆப்ஷன்கள்": [
+      "question": "Match the tools to their specific uses:\n1. Screwdriver - a. Test electrical things\n2. Needle - b. Stitch clothes\n3. Multimeter - c. Open and close things",
+      "options": [
         "1-b, 2-a, 3-c",
         "1-c, 2-b, 3-a",
         "1-a, 2-c, 3-b",
         "1-c, 2-a, 3-b"
       ],
-      "விடை": "1-c, 2-b, 3-a",
-      "விளக்கம்": "Watermelon is big and juicy, Mango is ripe and reddish-yellow, Carrots are fresh."
+      "answer": "1-c, 2-b, 3-a",
+      "explanation": "Screwdriver is used to open/close things. Needle is to stitch clothes. Multimeter tests electrical things."
     },
     {
-      "கேள்வி": "Assertion (A): Varun's mother packed the chutneys in round boxes.\nReason (R): Round boxes save space.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "A is false but R is true.",
-        "Both A and R are false."
+      "question": "What was the actual problem with Shyam's iron box?",
+      "options": [
+        "The light bulb was completely burnt",
+        "There was a broken wire next to the plug",
+        "There was no electricity in the house",
+        "The iron plates were rusted"
       ],
-      "விடை": "Both A and R are false.",
-      "விளக்கம்": "She packed dosas in a round box, and chutneys in square boxes. The reason is not mentioned."
+      "answer": "There was a broken wire next to the plug",
+      "explanation": "Daisy Aunty tested the iron box and found a small, broken wire next to the plug."
     },
     {
-      "கேள்வி": "Which word correctly completes the sentence: 'Shyam will meet his friend ______.'",
-      "ஆப்ஷன்கள்": [
-        "loudly",
-        "tomorrow",
-        "happily",
-        "sadly"
+      "question": "Who helped Veni and Shyam repair the iron box?",
+      "options": [
+        "George Uncle",
+        "Thatha",
+        "Ammachi",
+        "Daisy Aunty"
       ],
-      "விடை": "tomorrow",
-      "விளக்கம்": "Tomorrow is an adverb of time fitting the future tense."
+      "answer": "Daisy Aunty",
+      "explanation": "They took the iron box to the Repair Shop, where Daisy Aunty helped them."
     },
     {
-      "கேள்வி": "What did Gayathri's school post a note about?",
-      "ஆப்ஷன்கள்": [
-        "A dance competition",
-        "A sports day",
-        "The Great Cooking Contest",
-        "A drawing contest"
+      "question": "Which tool did Daisy Aunty use to check if all parts of the iron were allowing electric current to flow?",
+      "options": [
+        "Plier",
+        "Spanner",
+        "Multimeter",
+        "Drill"
       ],
-      "விடை": "The Great Cooking Contest",
-      "விளக்கம்": "Her school posted a note with the name 'THE GREAT COOKING CONTEST'."
+      "answer": "Multimeter",
+      "explanation": "Daisy Aunty took out a little box with wires and knobs called a multimeter to test the electrical current."
     },
     {
-      "கேள்வி": "What is the meaning of cooking 'without fire'?",
-      "ஆப்ஷன்கள்": [
-        "Using a gas stove",
-        "Making dishes without heating or using a stove",
-        "Cooking in an oven",
-        "Frying things"
+      "question": "Assertion (A): Veni successfully repaired the iron box at Shyam's house. \nReason (R): Veni had a screwdriver and she opened the back of the iron box.",
+      "options": [
+        "Both A and R are true",
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are false"
       ],
-      "விடை": "Making dishes without heating or using a stove",
-      "விளக்கம்": "Cooking without fire means preparing food items that don't need to be cooked on a flame."
+      "answer": "A is false, R is true",
+      "explanation": "Veni did use a screwdriver to open the back of the iron box (Reason is true), but she could not fix it, so they took it to the repair shop (Assertion is false)."
     },
     {
-      "கேள்வி": "Which word has the 'ar' sound?",
-      "ஆப்ஷன்கள்": [
-        "Visitor",
-        "Donor",
-        "Collar",
-        "Mirror"
+      "question": "What did Sabari ask his Ammachi to make?",
+      "options": [
+        "Mango juice",
+        "Coconut barfi",
+        "Jelly and ice cream",
+        "Bread and butter"
       ],
-      "விடை": "Collar",
-      "விளக்கம்": "Collar ends with 'ar'."
+      "answer": "Coconut barfi",
+      "explanation": "In the supplementary story, Sabari excitedly asks his grandmother to make coconut barfi."
     },
     {
-      "கேள்வி": "Analogy: Sugar : Sweet :: Tamarind : ?",
-      "ஆப்ஷன்கள்": [
-        "Sour",
-        "Spicy",
-        "Salty",
-        "Bitter"
+      "question": "Which type of coconuts did Ammachi say they should pick?",
+      "options": [
+        "Tender, green coconuts",
+        "Ripe coconuts that are brown all over",
+        "Small, yellow coconuts",
+        "Rotten coconuts"
       ],
-      "விடை": "Sour",
-      "விளக்கம்": "Sugar is sweet, while tamarind is known for its sour taste."
+      "answer": "Ripe coconuts that are brown all over",
+      "explanation": "Ammachi specifically instructed Sabari, 'We will only pick ripe coconuts, okay? The ones that are brown all over.'"
     },
     {
-      "கேள்வி": "What did Amma and Varun do before grinding the batter?",
-      "ஆப்ஷன்கள்": [
-        "Roasted the rice",
-        "Washed and soaked the rice and black gram",
-        "Dried the black gram",
-        "Boiled the rice"
+      "question": "What simple machine did Ammachi and Sabari use to go up the coconut tree?",
+      "options": [
+        "A long ladder",
+        "A seat tied to a pulley",
+        "An elevator",
+        "A rope and a drill"
       ],
-      "விடை": "Washed and soaked the rice and black gram",
-      "விளக்கம்": "She then washed the rice and black gram to clean it. She then mixed and soaked them in water."
+      "answer": "A seat tied to a pulley",
+      "explanation": "Ammachi sat on a seat tied to a pulley to be pulled 'Up! Up! And Up!' into the tree."
     },
     {
-      "கேள்வி": "Situational: If someone is sleeping, how should you speak?",
-      "ஆப்ஷன்கள்": [
-        "Loudly",
-        "Gently/Softly",
-        "Angrily",
-        "Roughly"
+      "question": "What tool did Ammachi use to crack the coconut shell?",
+      "options": [
+        "A hammer",
+        "A plier",
+        "A cleaver",
+        "An axe"
       ],
-      "விடை": "Gently/Softly",
-      "விளக்கம்": "You should speak softly to not wake them up."
+      "answer": "A cleaver",
+      "explanation": "Ammachi said, 'Then we crack the shell with the cleaver.' (KHATAK!)"
     },
     {
-      "கேள்வி": "What was the first thing Gayathri thought of making, which she later rejected?",
-      "ஆப்ஷன்கள்": [
-        "Aval Laddu",
-        "Fruit salad",
-        "Sandwich",
-        "Juice"
+      "question": "After cooking the coconut with sugar in the pan, where did they pour it?",
+      "options": [
+        "Into a glass",
+        "Onto a tray to cool",
+        "Into a wooden box",
+        "Onto a banana leaf"
       ],
-      "விடை": "Fruit salad",
-      "விளக்கம்": "Gayathri said, 'A fruit salad will not make me win.'"
+      "answer": "Onto a tray to cool",
+      "explanation": "They poured the hot mixture onto a tray to let it cool before cutting it into pieces."
     },
     {
-      "கேள்வி": "Assertion (A): Saffron and cinnamon are very common items.\nReason (R): They are found in every grocery store easily.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "Both A and R are false.",
-        "A is false but R is true."
+      "question": "Identify the word that contains the 'ge' spelling for the /j/ sound.",
+      "options": [
+        "Magic",
+        "Bridge",
+        "Gem",
+        "Giraffe"
       ],
-      "விடை": "Both A and R are false.",
-      "விளக்கம்": "The poem says: 'Saffron and cinnamon, are NOT very common!'"
+      "answer": "Gem",
+      "explanation": "Among the options, 'Gem' uses the 'ge' spelling. Magic and Giraffe use 'gi', and Bridge uses 'dge'."
     },
     {
-      "கேள்வி": "Which vehicle did Varun and Amma use to go to the market?",
-      "ஆப்ஷன்கள்": [
-        "Bus",
-        "Car",
-        "Auto",
-        "Bicycle"
+      "question": "Identify the odd one out based on the phonics sounds/letter clusters.",
+      "options": [
+        "Judge",
+        "Badge",
+        "Fridge",
+        "Ginger"
       ],
-      "விடை": "Auto",
-      "விளக்கம்": "Then, they took an auto to the market to buy groceries."
+      "answer": "Ginger",
+      "explanation": "Judge, Badge, and Fridge end with the 'dge' cluster. Ginger uses the 'gi' and 'ge' clusters."
     },
     {
-      "கேள்வி": "Which action word means 'to cook food in a little oil'?",
-      "ஆப்ஷன்கள்": [
-        "Sprinkle",
-        "Wash",
-        "Saute",
-        "Peel"
+      "question": "Join the sentences using the correct joining word: 'Malar is writing. Malar is reading.'",
+      "options": [
+        "Malar is writing but reading.",
+        "Malar is writing and reading.",
+        "Malar is writing or reading.",
+        "Malar is writing because reading."
       ],
-      "விடை": "Saute",
-      "விளக்கம்": "Saute is one of the action words given in the word wall."
+      "answer": "Malar is writing and reading.",
+      "explanation": "When joining two similar sentences, we remove the repeating words and add 'and'. Therefore, 'Malar is writing and reading'."
     },
     {
-      "கேள்வி": "Fill in the blank with the correct adverb: The boy goes to school ________.",
-      "ஆப்ஷன்கள்": [
-        "tomorrow",
-        "happily",
-        "water",
-        "round"
+      "question": "Which of the following is a joining word?",
+      "options": [
+        "What",
+        "Whose",
+        "And",
+        "Time"
       ],
-      "விடை": "happily",
-      "விளக்கம்": "Happily is the correct adverb describing how he goes."
+      "answer": "And",
+      "explanation": "The word 'and' is a conjunction used to join words or sentences together."
     },
     {
-      "கேள்வி": "What are the two chutneys made by Amma?",
-      "ஆப்ஷன்கள்": [
-        "Coconut and mint",
-        "Coriander and tomato",
-        "Onion and garlic",
-        "Ginger and tamarind"
-      ],
-      "விடை": "Coriander and tomato",
-      "விளக்கம்": "They also packed coriander chutney and tomato chutney."
-    },
-    {
-      "கேள்வி": "Match the phonics words to their sounds:\n1. Sugar\n2. Mirror\n3. Doctor\n4. Sonar\na. /or/\nb. /ar/",
-      "ஆப்ஷன்கள்": [
-        "1-b, 2-a, 3-a, 4-b",
-        "1-a, 2-b, 3-a, 4-b",
-        "1-b, 2-b, 3-a, 4-a",
-        "1-a, 2-a, 3-b, 4-b"
-      ],
-      "விடை": "1-b, 2-a, 3-a, 4-b",
-      "விளக்கம்": "Sugar and Sonar end in 'ar'. Mirror and Doctor end in 'or'."
-    },
-    {
-      "கேள்வி": "Which of these is NOT an adverb of time?",
-      "ஆப்ஷன்கள்": [
-        "Yesterday",
-        "Today",
-        "Happily",
-        "Tomorrow"
-      ],
-      "விடை": "Happily",
-      "விளக்கம்": "Happily is an adverb of manner (how), not time (when)."
-    },
-    {
-      "கேள்வி": "What game equipment did Varun play on at the park?",
-      "ஆப்ஷன்கள்": [
-        "See-saw and merry-go-round",
-        "Swing and slide",
-        "Football and bat",
-        "Sandpit"
-      ],
-      "விடை": "Swing and slide",
-      "விளக்கம்": "Varun played on the swing and slide."
-    },
-    {
-      "கேள்வி": "What was Amma's reaction when Varun asked if they could buy fresh carrots?",
-      "ஆப்ஷன்கள்": [
-        "She got angry",
-        "She said 'No'",
-        "She smiled and said, 'Sure.'",
-        "She bought pumpkin instead"
-      ],
-      "விடை": "She smiled and said, 'Sure.'",
-      "விளக்கம்": "Amma smiled, 'Sure.'"
-    },
-    {
-      "கேள்வி": "Analogy: Coriander : leaves :: Bengal : ?",
-      "ஆப்ஷன்கள்": [
-        "Tiger",
-        "Gram",
-        "Sweet",
-        "Spice"
-      ],
-      "விடை": "Gram",
-      "விளக்கம்": "Bengal gram is a grocery item listed in the book."
-    },
-    {
-      "கேள்வி": "Situational: If you want to share almonds and dates, who does the poem suggest sharing them with?",
-      "ஆப்ஷன்கள்": [
-        "Teachers",
-        "Parents",
-        "Mates",
-        "Pets"
-      ],
-      "விடை": "Mates",
-      "விளக்கம்": "The poem says: 'Almonds and dates, share them with mates!'"
-    },
-    {
-      "கேள்வி": "Assertion (A): Varun and Amma ate their food sitting on chairs in the park.\nReason (R): The park had many wooden benches.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "A is false but R is true.",
-        "Both A and R are false."
-      ],
-      "விடை": "Both A and R are false.",
-      "விளக்கம்": "Amma and Varun spread a cloth on the grass and laid out all the food."
-    },
-    {
-      "கேள்வி": "Which word helps us know more about the action in the sentence: 'They quietly celebrate their function'?",
-      "ஆப்ஷன்கள்": [
-        "They",
-        "Quietly",
-        "Celebrate",
-        "Function"
-      ],
-      "விடை": "Quietly",
-      "விளக்கம்": "Quietly describes how they celebrate."
-    },
-    {
-      "கேள்வி": "What sound does the object falling make in the story of Gayathri?",
-      "ஆப்ஷன்கள்": [
-        "BANG!",
-        "THUD!",
-        "CRASH!",
-        "SMASH!"
-      ],
-      "விடை": "CRASH!",
-      "விளக்கம்": "The story text says: 'CRASH! She fell down...'"
-    },
-    {
-      "கேள்வி": "Identify the odd one out among the grocery items.",
-      "ஆப்ஷன்கள்": [
-        "Wheat",
-        "Ragi",
-        "Rice",
-        "Honey"
-      ],
-      "விடை": "Honey",
-      "விளக்கம்": "Wheat, Ragi, and Rice are grains/cereals. Honey is a liquid sweetener."
-    },
-    {
-      "கேள்வி": "Where did they sit down to make a list?",
-      "ஆப்ஷன்கள்": [
-        "At home",
-        "In the auto",
-        "At the park",
-        "At the market"
-      ],
-      "விடை": "At home",
-      "விளக்கம்": "They sat down (at home) and made a list before taking an auto to the market."
-    },
-    {
-      "கேள்வி": "What did Varun say when he tasted the salad?",
-      "ஆப்ஷன்கள்": [
-        "Yuck!",
-        "Yummm!",
-        "Spicy!",
-        "Salty!"
-      ],
-      "விடை": "Yummm!",
-      "விளக்கம்": "Amma gave Varun some salad. 'Yummm!' said Varun."
-    },
-    {
-      "கேள்வி": "Match the shapes with the items from the picnic story:\n1. Watermelon\n2. Dosa tiffin box\n3. Chutney box\na. Round\nb. Square\nc. Big and round (implied)",
-      "ஆப்ஷன்கள்": [
-        "1-c, 2-a, 3-b",
-        "1-a, 2-b, 3-c",
-        "1-b, 2-c, 3-a",
-        "1-c, 2-b, 3-a"
-      ],
-      "விடை": "1-c, 2-a, 3-b",
-      "விளக்கம்": "Dosas were in a round box, chutneys in square boxes. Watermelon is described as big."
-    },
-    {
-      "கேள்வி": "What is the correct way to complete this sentence? 'Actor donates in _______.'",
-      "ஆப்ஷன்கள்": [
-        "rupees",
-        "dollars",
-        "coins",
-        "sugar"
-      ],
-      "விடை": "dollars",
-      "விளக்கம்": "The phonics practice sentence is 'Actor donates in dollars.'"
-    },
-    {
-      "கேள்வி": "Assertion (A): Gayathri's classmates also participated in the contest.\nReason (R): All in Gayathri's class took part in the contest.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true, and R is the correct explanation of A.",
-        "Both A and R are true, but R is not the correct explanation of A.",
-        "A is true but R is false.",
-        "A is false but R is true."
-      ],
-      "விடை": "Both A and R are true, and R is the correct explanation of A.",
-      "விளக்கம்": "The text says, 'All in Gayathri’s class took part in the contest.'"
-    },
-    {
-      "கேள்வி": "Which vegetable is curious because of its white inside, according to Varun?",
-      "ஆப்ஷன்கள்": [
-        "Carrot",
-        "Ash gourd",
-        "Pumpkin",
-        "Tomato"
-      ],
-      "விடை": "Ash gourd",
-      "விளக்கம்": "Amma said, 'The one that is white inside is called ash gourd...'"
-    },
-    {
-      "கேள்வி": "Analogy: Break : Coconut :: Peel : ?",
-      "ஆப்ஷன்கள்": [
-        "Water",
-        "Banana",
-        "Salt",
-        "Knife"
-      ],
-      "விடை": "Banana",
-      "விளக்கம்": "You break a coconut, but you peel a fruit like a banana or orange."
-    },
-    {
-      "கேள்வி": "What ingredient is common between Varun's dosa batter and Anjaraipetti spices?",
-      "ஆப்ஷன்கள்": [
-        "Rice",
-        "Black gram",
-        "Cumin",
-        "Mustard"
-      ],
-      "விடை": "Black gram",
-      "விளக்கம்": "Black gram is used for dosa and is also item 2 in the Anjaraipetti."
-    },
-    {
-      "கேள்வி": "Situational: The school head tasted Gayathri's crushed laddus. How did the head describe them?",
-      "ஆப்ஷன்கள்": [
-        "Too sweet",
-        "Needs more honey",
-        "Really tasty",
-        "Very bad"
-      ],
-      "விடை": "Really tasty",
-      "விளக்கம்": "The head tasted the crushed LADDUS and said, 'Your AVAL BOONDHI is really tasty!'"
-    },
-    {
-      "கேள்வி": "Which of these words ends with 'ar'?",
-      "ஆப்ஷன்கள்": [
-        "Visitor",
-        "Tractor",
-        "Regular",
-        "Actor"
-      ],
-      "விடை": "Regular",
-      "விளக்கம்": "Regular ends in 'ar', the others end in 'or'."
-    },
-    {
-      "கேள்வி": "What was the shape of the box used to pack the dosas?",
-      "ஆப்ஷன்கள்": [
-        "Square",
-        "Round",
-        "Rectangle",
-        "Triangle"
-      ],
-      "விடை": "Round",
-      "விளக்கம்": "They packed the dosas in a round tiffin box."
-    },
-    {
-      "கேள்வி": "What did they use to travel back from the market?",
-      "ஆப்ஷன்கள்": [
-        "Auto",
-        "Bus",
-        "They walked",
-        "Not mentioned specifically, but they 'came back home'"
-      ],
-      "விடை": "Not mentioned specifically, but they 'came back home'",
-      "விளக்கம்": "The text says 'After coming back home...' without specifying the return vehicle."
-    },
-    {
-      "கேள்வி": "Assertion (A): Varun was sad at the end of the picnic.\nReason (R): His shirt was ruined by mango juice.",
-      "ஆப்ஷன்கள்": [
-        "Both A and R are true.",
-        "A is true but R is false.",
-        "Both A and R are false.",
-        "A is false but R is true."
-      ],
-      "விடை": "Both A and R are false.",
-      "விளக்கம்": "He was very happy ('I had a wonderful day!') and he and Amma laughed about the shirt."
-    },
-    {
-      "கேள்வி": "Which among these is NOT a grain/cereal mentioned in the lesson?",
-      "ஆப்ஷன்கள்": [
-        "Wheat",
-        "Rice",
-        "Ragi",
-        "Cardamom"
-      ],
-      "விடை": "Cardamom",
-      "விளக்கம்": "Cardamom is a spice, not a cereal."
-    },
-    {
-      "கேள்வி": "Which question word should be used here: '______ toy is bigger?'",
-      "ஆப்ஷன்கள்": [
-        "Who",
+      "question": "Fill in the blank with the correct question word: '______ bag is this?'",
+      "options": [
         "When",
-        "Which",
+        "Whose",
+        "What",
         "Where"
       ],
-      "விடை": "Which",
-      "விளக்கம்": "We use 'Which' to ask about a specific item from choices."
+      "answer": "Whose",
+      "explanation": "'Whose' is used to ask who something belongs to."
     },
     {
-      "கேள்வி": "Find the odd one out based on adverbs.",
-      "ஆப்ஷன்கள்": [
-        "Happily",
-        "Gently",
-        "Loudly",
-        "Today"
+      "question": "Which tool would you use to hit a nail into a piece of wood?",
+      "options": [
+        "Saw",
+        "Tape",
+        "Hammer",
+        "Spade"
       ],
-      "விடை": "Today",
-      "விளக்கம்": "Today is an adverb of time (when), while the others are adverbs of manner (how)."
+      "answer": "Hammer",
+      "explanation": "A hammer is the appropriate tool for driving a nail into wood."
     },
     {
-      "கேள்வி": "What word is used to describe the day out that Varun had?",
-      "ஆப்ஷன்கள்": [
-        "Boring",
-        "Tiring",
-        "Wonderful",
-        "Sad"
+      "question": "Which tool is best used for digging soil in a garden?",
+      "options": [
+        "Wrench",
+        "Spade",
+        "Screwdriver",
+        "Drill"
       ],
-      "விடை": "Wonderful",
-      "விளக்கம்": "Varun said, 'Thank you Amma. I had a wonderful day!'"
+      "answer": "Spade",
+      "explanation": "A spade is a tool with a sharp edge, specifically designed for digging dirt or soil."
+    },
+    {
+      "question": "Analogy Question: Cloth : Scissors :: Wood : ______",
+      "options": [
+        "Hammer",
+        "Saw",
+        "Tape",
+        "Spanner"
+      ],
+      "answer": "Saw",
+      "explanation": "Scissors are used to cut cloth, just as a saw is used to cut wood."
+    },
+    {
+      "question": "How do you ask someone for the current time in English?",
+      "options": [
+        "Who is the time?",
+        "When is the time?",
+        "What is the time?",
+        "Whose is the time?"
+      ],
+      "answer": "What is the time?",
+      "explanation": "According to the grammar section, the correct way to ask is 'What is the time?'"
+    },
+    {
+      "question": "Find the word with the 'gi' spelling.",
+      "options": [
+        "Germs",
+        "Gentle",
+        "Magic",
+        "Lodge"
+      ],
+      "answer": "Magic",
+      "explanation": "The word 'Magic' uses the 'gi' cluster for the soft g /j/ sound."
+    },
+    {
+      "question": "What is the action word associated with turning a screw?",
+      "options": [
+        "Dig",
+        "Strike",
+        "Fix / Wind",
+        "Pluck"
+      ],
+      "answer": "Fix / Wind",
+      "explanation": "You fix or wind a screw using a screwdriver."
+    },
+    {
+      "question": "What is the meaning of the word 'crumpled' in the story?",
+      "options": [
+        "Very clean",
+        "Wrinkled and unironed",
+        "Torn into pieces",
+        "Stitched neatly"
+      ],
+      "answer": "Wrinkled and unironed",
+      "explanation": "Shyam grumbled about wearing a 'crumpled' shirt because he couldn't iron it, meaning it was wrinkled."
+    },
+    {
+      "question": "Join the sentences: 'He bought a book. He bought a pen.'",
+      "options": [
+        "He bought a book a pen.",
+        "He bought a book and a pen.",
+        "He bought a book or a pen.",
+        "He bought a book and bought pen."
+      ],
+      "answer": "He bought a book and a pen.",
+      "explanation": "Strike out the repeating 'He bought' and add 'and' -> He bought a book and a pen."
+    },
+    {
+      "question": "What is a 'Spanner' used for?",
+      "options": [
+        "Cutting wires",
+        "Turning nuts and bolts",
+        "Measuring length",
+        "Making holes in the wall"
+      ],
+      "answer": "Turning nuts and bolts",
+      "explanation": "A spanner (or wrench) is used to grip and turn nuts and bolts."
+    },
+    {
+      "question": "Situational Question: Your bicycle chain has come off and you need to tighten a bolt. Which tool from the toolbox would be most helpful?",
+      "options": [
+        "Spanner",
+        "Needle",
+        "Axe",
+        "Saw"
+      ],
+      "answer": "Spanner",
+      "explanation": "A spanner (wrench) is specifically used to tighten or loosen bolts."
+    },
+    {
+      "question": "In the poem, what did the little doctor say after listening to the heartbeat?",
+      "options": [
+        "Take medicine immediately",
+        "All is well, no need to fear",
+        "Go to the hospital",
+        "Eat an apple a day"
+      ],
+      "answer": "All is well, no need to fear",
+      "explanation": "The doctor assures the patient by saying, 'All is well, no need to fear'."
+    },
+    {
+      "question": "What did Thatha use to fix Shyam's torn shirt?",
+      "options": [
+        "A sewing machine",
+        "Tape and glue",
+        "A needle and blue thread",
+        "A scissors and stapler"
+      ],
+      "answer": "A needle and blue thread",
+      "explanation": "Thatha took a needle and some blue thread to stitch Shyam's shirt."
+    },
+    {
+      "question": "Why did Veni think she could repair the iron box?",
+      "options": [
+        "Because she read a book about it",
+        "Because she watched George Uncle repairing an iron box closely last week",
+        "Because she is an electrician",
+        "Because her father taught her"
+      ],
+      "answer": "Because she watched George Uncle repairing an iron box closely last week",
+      "explanation": "Veni said she was at the Repair Shop last week and watched George Uncle repairing an iron closely."
+    },
+    {
+      "question": "Identify the word from the word wall that means 'to finally happen after a long time'.",
+      "options": [
+        "Already",
+        "Finally",
+        "Outside",
+        "Problem"
+      ],
+      "answer": "Finally",
+      "explanation": "'Finally' refers to something happening at the end, usually after a delay or a process."
+    },
+    {
+      "question": "Choose the word with the correct 'dge' spelling.",
+      "options": [
+        "Bage",
+        "Badge",
+        "Bagge",
+        "Baj"
+      ],
+      "answer": "Badge",
+      "explanation": "The correct spelling with the /j/ sound cluster is 'Badge'."
+    },
+    {
+      "question": "Analogy Question: Carpenter : Saw :: Electrician : ______",
+      "options": [
+        "Needle",
+        "Multimeter",
+        "Axe",
+        "Spade"
+      ],
+      "answer": "Multimeter",
+      "explanation": "A carpenter uses a saw for wood, while an electrician (like Daisy Aunty) uses a multimeter for electrical work."
+    },
+    {
+      "question": "What did Ammachi use to take the husk off the coconut?",
+      "options": [
+        "A cleaver",
+        "A crank machine with a lever",
+        "A knife",
+        "Her hands"
+      ],
+      "answer": "A crank machine with a lever",
+      "explanation": "Ammachi used a crank machine. When she pulled the lever, it went 'GRRRRR' and took the husk off."
+    },
+    {
+      "question": "Fill in the blank with the appropriate joining word: 'I like jelly ______ ice cream.'",
+      "options": [
+        "but",
+        "or",
+        "and",
+        "so"
+      ],
+      "answer": "and",
+      "explanation": "'And' is the conjunction used to join two similar or related items."
+    },
+    {
+      "question": "What is the action associated with using a 'Drill'?",
+      "options": [
+        "Making a hole",
+        "Cutting wood",
+        "Stitching cloth",
+        "Measuring length"
+      ],
+      "answer": "Making a hole",
+      "explanation": "A drill is a tool that rapidly spins a bit to make holes in wood, walls, or metal."
+    },
+    {
+      "question": "Situational Question: You find a broken electrical wire near a plug at home. What is the safest thing to do?",
+      "options": [
+        "Fix it yourself using a screwdriver",
+        "Touch it to see if it is hot",
+        "Tell an adult or call an electrician",
+        "Wrap it with paper"
+      ],
+      "answer": "Tell an adult or call an electrician",
+      "explanation": "Electrical wires are dangerous. Children should never touch them and should always seek help from a knowledgeable adult or an electrician."
+    },
+    {
+      "question": "Assertion (A): We use a spade to chop wood. \nReason (R): A spade has a sharp, heavy metal blade attached to a wooden handle.",
+      "options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true",
+        "Both A and R are false"
+      ],
+      "answer": "Both A and R are false",
+      "explanation": "A spade is used for digging, not chopping wood (Assertion is false). An Axe is the tool with a heavy metal blade for chopping wood, not a spade."
+    },
+    {
+      "question": "How did Veni and Shyam travel to the Repair Shop?",
+      "options": [
+        "By bus",
+        "They walked",
+        "On their cycles",
+        "In a car"
+      ],
+      "answer": "On their cycles",
+      "explanation": "The story mentions that they sneaked out on their cycles to the Repair Shop."
+    },
+    {
+      "question": "Which of the following contains the 'ge' sound?",
+      "options": [
+        "Imagine",
+        "Pledge",
+        "Danger",
+        "Edge"
+      ],
+      "answer": "Danger",
+      "explanation": "The word 'Danger' contains the 'ge' cluster. Imagine uses 'gi', and Pledge/Edge use 'dge'."
+    },
+    {
+      "question": "What is a 'Toolbox'?",
+      "options": [
+        "A box to keep electrical wires",
+        "A box designed to store and carry various tools safely",
+        "A box containing toys",
+        "A machine used to test current"
+      ],
+      "answer": "A box designed to store and carry various tools safely",
+      "explanation": "A toolbox is a container specifically meant for holding and organizing tools."
+    },
+    {
+      "question": "Fill in the blank with the correct possession word: '______ cycle is bigger?'",
+      "options": [
+        "Who",
+        "When",
+        "Whose",
+        "Which"
+      ],
+      "answer": "Whose",
+      "explanation": "'Whose' is the correct question word to ask about the ownership of the cycle."
+    },
+    {
+      "question": "HOTS Question: Why did Daisy Aunty use a multimeter before opening up the entire iron box?",
+      "options": [
+        "Because it is a magical tool that fixes everything instantly",
+        "To safely locate exactly which part was not allowing electricity to flow, avoiding guesswork",
+        "To clean the iron box",
+        "To check the temperature of the iron"
+      ],
+      "answer": "To safely locate exactly which part was not allowing electricity to flow, avoiding guesswork",
+      "explanation": "A multimeter allows a repair person to safely test the electrical circuits piece by piece to find the exact fault without dismantling parts unnecessarily."
+    },
+    {
+      "question": "HOTS Question: Why did Ammachi use a pulley to get the coconuts instead of climbing the tree directly?",
+      "options": [
+        "Because pulleys make it easier to lift heavy weights or pull someone up with less effort",
+        "Because the tree was too short",
+        "Because she wanted to play a game",
+        "Because coconuts fall faster with a pulley"
+      ],
+      "answer": "Because pulleys make it easier to lift heavy weights or pull someone up with less effort",
+      "explanation": "A pulley is a simple machine that changes the direction of the force, making it much easier and safer to lift someone up a tall tree."
+    },
+    {
+      "question": "What did the sound 'WHOOSH! THUD!' represent in the Ammachi story?",
+      "options": [
+        "The sound of the coconut barfi cooking",
+        "The sound of the machine removing the husk",
+        "The sound of the ripe coconuts falling to the ground",
+        "The sound of Sabari's tummy"
+      ],
+      "answer": "The sound of the ripe coconuts falling to the ground",
+      "explanation": "After picking the coconuts up in the tree, Ammachi said 'Watch out! Here they come!' followed by WHOOSH! THUD!, indicating the coconuts hitting the ground."
+    },
+    {
+      "question": "HOTS Question: When Shyam's shirt tore, Veni called him to cycle, but he wanted to iron his shirt. What does this tell us about Shyam?",
+      "options": [
+        "He doesn't like cycling at all",
+        "He likes to wear neat, unwrinkled clothes even when going out to play",
+        "He is lazy and making excuses",
+        "He wants to become a tailor"
+      ],
+      "answer": "He likes to wear neat, unwrinkled clothes even when going out to play",
+      "explanation": "Shyam was determined to fix and iron his favorite shirt because he didn't want to wear a 'crumpled' shirt, showing he cares about being neat."
+    },
+    {
+      "question": "Which set of tools and actions is paired incorrectly?",
+      "options": [
+        "Saw - Cutting wood",
+        "Screwdriver - Turning screws",
+        "Axe - Digging soil",
+        "Scissors - Cutting paper"
+      ],
+      "answer": "Axe - Digging soil",
+      "explanation": "An axe is used for chopping wood, not digging soil. A spade is used for digging soil."
     }
   ]
 }

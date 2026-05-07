@@ -709,6 +709,42 @@ export const lessonMap = {
       "grade": "3",
       "title": "Trip to the store"
     },
+    "Our Leafy Friends": {
+      "local": true,
+      "filename": "eng_3_t3_l1",
+      "grade": "3",
+      "title": "Our Leafy Friends"
+    },
+    "eng_3_t3_l1": {
+      "local": true,
+      "filename": "eng_3_t3_l1",
+      "grade": "3",
+      "title": "Our Leafy Friends"
+    },
+    "Tools": {
+      "local": true,
+      "filename": "eng_3_t3_l2",
+      "grade": "3",
+      "title": "Tools"
+    },
+    "eng_3_t3_l2": {
+      "local": true,
+      "filename": "eng_3_t3_l2",
+      "grade": "3",
+      "title": "Tools"
+    },
+    "Places in my Town": {
+      "local": true,
+      "filename": "eng_3_t3_l3",
+      "grade": "3",
+      "title": "Places in my Town"
+    },
+    "eng_3_t3_l3": {
+      "local": true,
+      "filename": "eng_3_t3_l3",
+      "grade": "3",
+      "title": "Places in my Town"
+    },
     "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,
       "filename": "eng_4_t1_l1",
