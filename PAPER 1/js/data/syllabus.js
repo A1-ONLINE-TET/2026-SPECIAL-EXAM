@@ -936,6 +936,26 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Seasons' Story",
+                "isUpdated": true,
+                "code": "eng_3_t2_l1"
+              },
+              {
+                "title": "Trip to the store",
+                "isUpdated": true,
+                "code": "eng_3_t2_l2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

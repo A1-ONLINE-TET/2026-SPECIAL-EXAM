@@ -548,6 +548,11 @@ export const lessonMap = {
     }
   },
   "english": {
+    "1": {
+      "local": true,
+      "filename": "1",
+      "grade": "3"
+    },
     "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
       "local": true,
       "filename": "eng_2_t1_l1",
@@ -679,6 +684,30 @@ export const lessonMap = {
       "filename": "eng_3_t1_l3",
       "grade": "3",
       "title": "The World Around Us"
+    },
+    "Seasons' Story": {
+      "local": true,
+      "filename": "eng_3_t2_l1",
+      "grade": "3",
+      "title": "Seasons' Story"
+    },
+    "eng_3_t2_l1": {
+      "local": true,
+      "filename": "eng_3_t2_l1",
+      "grade": "3",
+      "title": "Seasons' Story"
+    },
+    "Trip to the store": {
+      "local": true,
+      "filename": "eng_3_t2_l2",
+      "grade": "3",
+      "title": "Trip to the store"
+    },
+    "eng_3_t2_l2": {
+      "local": true,
+      "filename": "eng_3_t2_l2",
+      "grade": "3",
+      "title": "Trip to the store"
     },
     "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,

@@ -1,0 +1,546 @@
+{
+  "lesson_meta": {
+    "title": "Trip to the store",
+    "unit": "2",
+    "grade": "3",
+    "term": "t2",
+    "subject": "english",
+    "code": "eng_3_t2_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "1. Complete Lesson Summary",
+        "content": "This unit revolves around grocery shopping, preparing for a picnic, and fireless cooking. It introduces children to various grocery items, vegetables, and fruits. It features a poem 'At the Grocery Store', a story about Varun's picnic with his mother where they shop and cook together, and a supplementary story about Gayathri who participates in a fireless cooking contest. It also teaches phonics sounds (/ar/ and /or/), action words related to cooking, adverb usage (how and when), and asking for permission using 'Let me'."
+      },
+      {
+        "title": "2. Look and Say - Grocery Items (Vocabulary)",
+        "content": "The lesson lists numerous grocery items: Rice, Bengal gram, Wheat, Blackgram, Garlic, Chickpeas, Onion, Ginger, Sugar, Cardamom, Oil, Ghee, Milk, Honey, Greengram, Ragi, Dates, Salt, Cashew nuts, Red Chilly, Tamarind, Pepper, Cumin, Turmeric, Ground nuts, Mint, Curry leaves, and Coriander leaves."
+      },
+      {
+        "title": "3. Poem: At the Grocery store",
+        "content": "At the grocery store, find everything you need and more! Saffron and cinnamon, are not very common! Grains and sprout, eat them without a doubt! Almonds and dates, share them with mates! Milk and oil, can't pack them with a foil! Now, get these to your door, from the grocery store!"
+      },
+      {
+        "title": "4. Story: Varun's day out!",
+        "content": "It was a warm sunny day. Varun was bored, so Amma suggested a picnic in the park. They made a list and took an auto to the market. At the vegetable shop, they bought fresh carrots to make a salad. Varun learned that the vegetable white inside is an ash gourd, and the other is a pumpkin. At the fruit shop, Varun chose a big, green, juicy watermelon and a reddish-yellow ripe mango. Amma bought maida, rice, and black gram from the cereal section. At home, they soaked rice and black gram, and grinded them to make dosa batter. They packed dosas in a round tiffin box and coriander and tomato chutneys in two small square boxes. They made a salad by grating carrots, squeezing lemon, and adding salt. While cutting fruits, Varun bit the mango, and the juice dripped on his shirt, making Amma and Varun laugh. Finally, they went to the park, played on the swing and slide, spread a cloth on the grass, ate, and Varun thanked his mother for a wonderful day."
+      },
+      {
+        "title": "5. Let us practise (Action Words)",
+        "content": "Action words related to food preparation: break (I break the coconut), peel, taste, spread, sprinkle, saute, wash."
+      },
+      {
+        "title": "6. Phonics (ar and or sounds)",
+        "content": "Words with 'ar' sound: dollar, collar, caterpillar, sugar, polar, sonar. Words with 'or' sound: mirror, doctor, visitor, sailor, actor, tractor, donor. Sentences: 'This is a green caterpillar.', 'Actor donates in dollars.', 'The sailor travels in ship.', 'Sugar is carried by tractor.'"
+      },
+      {
+        "title": "7. Grammar: Asking Permission (Let us use)",
+        "content": "We use 'Let me' for asking permission. Example: 'Let me play.' The answer can be 'Yes, you can' or 'No, you cannot'. Other examples: 'Let me taste the soup?', 'Let me throw the ball?'"
+      },
+      {
+        "title": "8. Grammar: Adverbs (Let us know)",
+        "content": "Words that help us know more about the action and describe it (Adverbs). How the action is done: happily, really, gently, slowly, loudly, sadly, angrily, roughly, carefully, peacefully. When the action is done: tomorrow, today, now, yesterday. Examples: 'John cried loudly' (How? Loudly). 'Shyam will meet his friend tomorrow' (When? Tomorrow). 'He came yesterday.' 'She speaks gently.'"
+      },
+      {
+        "title": "9. Supplementary Story: THE GREAT COOKING CONTEST",
+        "content": "Gayathri was a cute girl who liked to cook and make crafts but wasn't allowed near the stove. Her school announced 'THE GREAT COOKING CONTEST' - cooking without fire. Her mom suggested making AVAL LADDU. On the contest day, Gayathri soaked a cup of AVAL in water, added nuts and honey, and rolled them into eight LADDUS. When her name was called, she ran, fell down (CRASH!), and her laddus got crushed. She sadly gave them to the school head. The head tasted it and said, 'Your AVAL BOONDHI is really tasty!' Gayathri won the first prize."
+      },
+      {
+        "title": "10. Anjaraipetti (Spice Box)",
+        "content": "Items in an Anjaraipetti: 1. Mustard seeds, 2. Black gram, 3. Fenugreek seeds, 4. Black pepper, 5. Cumin seeds, 6. Cardamom, 7. Clove."
+      },
+      {
+        "title": "11. Grammar: Asking Questions (Which...?)",
+        "content": "Using 'Which' to identify specific items. Example: 'Which book is under the table? Red book is under the table.' 'Which bottle is filled with water?'"
+      },
+      {
+        "title": "12. Book Back Evaluation & One Mark Questions",
+        "content": "1. Match the words: coriander -> leaves, ash gourd -> white vegetable, blackgram -> dal. 2. Varun's Day Out Questions: Where did they plan to go? (Park for a picnic). What did they buy in the vegetable shop? (Carrot). What did they cut? (Watermelon and mango). 3. Fill in the blanks with ar/or: tractor, sailor, sugar, collar, polar, doctor. 4. Circle the correct word (Contest): nuts, honey, aval, water. 5. Cooking contest questions: Aval Laddu is prepared without fire. Her mom taught how to prepare Aval Laddu. 6. I Can Do: Write names of groceries: ragi, pepper, bengalgram. 7. Circle word with 'or': sailor, tractor, visitor. Circle word with 'ar': dollar, sugar, polar, regular."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the colour of a ripe mango as described in the lesson?",
+        "options": ["Greenish yellow", "Reddish yellow", "Pure red", "Light green"],
+        "answer": 1,
+        "explanation": "Varun wanted the reddish yellow ripe mango from the stalls."
+      },
+      {
+        "question": "Match the following items to their category:\\n1. Ragi\\n2. Cumin\\n3. Mint\\n4. Cashew\\na. Leaves\\nb. Nut\\nc. Spice\\nd. Cereal",
+        "options": ["1-d, 2-c, 3-a, 4-b", "1-a, 2-b, 3-c, 4-d", "1-c, 2-d, 3-b, 4-a", "1-b, 2-a, 3-d, 4-c"],
+        "answer": 0,
+        "explanation": "Ragi is a cereal/grain, Cumin is a spice, Mint is a leaf, and Cashew is a nut."
+      },
+      {
+        "question": "Which of the following is NOT found in the poem 'At the Grocery store'?",
+        "options": ["Saffron", "Watermelon", "Cinnamon", "Almonds"],
+        "answer": 1,
+        "explanation": "Watermelon is mentioned in Varun's story, not in the poem."
+      },
+      {
+        "question": "Assertion (A): Amma and Varun bought ash gourd for the picnic salad.\\nReason (R): Ash gourd is white inside.",
+        "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+        "answer": 3,
+        "explanation": "They bought fresh carrots for the salad, not ash gourd, though ash gourd is indeed white inside."
+      },
+      {
+        "question": "Analogy: Dosa tiffin box : Round :: Chutney box : ?",
+        "options": ["Rectangle", "Oval", "Square", "Triangle"],
+        "answer": 2,
+        "explanation": "They packed the chutneys in two small square boxes."
+      },
+      {
+        "question": "What phrase is used in the poem to describe how we should eat grains and sprouts?",
+        "options": ["Without a doubt", "With a foil", "With our mates", "Not very common"],
+        "answer": 0,
+        "explanation": "The poem says: 'Grains and sprout, eat them without a doubt!'"
+      },
+      {
+        "question": "What did Gayathri use to sweeten the Aval Laddu?",
+        "options": ["Sugar", "Jaggery", "Honey", "Dates"],
+        "answer": 2,
+        "explanation": "She added nuts and honey to the soaked aval."
+      },
+      {
+        "question": "Situational: You want to ask your teacher's permission to drink water. Which is the correct structure based on the lesson?",
+        "options": ["I drink water.", "Let me drink water?", "Give me water.", "You let me drink."],
+        "answer": 1,
+        "explanation": "The lesson teaches 'Let me...' to ask for permission."
+      },
+      {
+        "question": "Which of these words ends with the 'or' sound as taught in the phonics section?",
+        "options": ["Dollar", "Polar", "Tractor", "Collar"],
+        "answer": 2,
+        "explanation": "Tractor ends with the 'or' sound."
+      },
+      {
+        "question": "Identify the adverb in the sentence: 'She speaks gently.'",
+        "options": ["She", "Speaks", "Gently", "None of the above"],
+        "answer": 2,
+        "explanation": "Gently describes 'how' she speaks."
+      },
+      {
+        "question": "How did Amma clean the rice and black gram?",
+        "options": ["By boiling them", "By roasting them", "By washing them", "By peeling them"],
+        "answer": 2,
+        "explanation": "She washed the rice and black gram to clean it."
+      },
+      {
+        "question": "What happened to Varun's shirt?",
+        "options": ["Mud splashed on it", "Mango juice dripped on it", "Tomato chutney fell on it", "Watermelon juice stained it"],
+        "answer": 1,
+        "explanation": "The juice of the mango dripped and fell on his shirt."
+      },
+      {
+        "question": "Which of the following is NOT a spice mentioned in the Anjaraipetti list?",
+        "options": ["Clove", "Cardamom", "Mint", "Fenugreek seeds"],
+        "answer": 2,
+        "explanation": "Mint is a herb/leaf, while the others are listed under Anjaraipetti spices."
+      },
+      {
+        "question": "According to the poem, what things cannot be packed with a foil?",
+        "options": ["Milk and oil", "Almonds and dates", "Saffron and cinnamon", "Grains and sprout"],
+        "answer": 0,
+        "explanation": "The poem states: 'Milk and oil, can't pack them with a foil!'"
+      },
+      {
+        "question": "Analogy: Actor : dollars :: Sailor : ?",
+        "options": ["Tractor", "Ship", "Sugar", "Doctor"],
+        "answer": 1,
+        "explanation": "Based on the phonics practice sentences: 'Actor donates in dollars.' and 'The sailor travels in ship.'"
+      },
+      {
+        "question": "How many Aval Laddus did Gayathri make?",
+        "options": ["Six", "Ten", "Eight", "Twelve"],
+        "answer": 2,
+        "explanation": "She mixed them well and rolled them into eight LADDUS."
+      },
+      {
+        "question": "Assertion (A): Gayathri made Aval Boondhi intentionally for the contest.\\nReason (R): The contest was about cooking without fire.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "A is false but R is true.", "Both A and R are false."],
+        "answer": 2,
+        "explanation": "She made Aval Laddus intentionally, but they crushed and accidentally became Boondhi. The contest was indeed without fire."
+      },
+      {
+        "question": "Which word tells us 'when' the action happens in the sentence: 'He came yesterday.'?",
+        "options": ["He", "Came", "Yesterday", "None"],
+        "answer": 2,
+        "explanation": "Yesterday is an adverb of time."
+      },
+      {
+        "question": "Fill in the blank with the correct sound: c a t e r p i l l _ _",
+        "options": ["er", "or", "ur", "ar"],
+        "answer": 3,
+        "explanation": "The correct spelling is caterpillar."
+      },
+      {
+        "question": "What did Varun say to his mother at the end of the picnic?",
+        "options": ["I am very tired.", "Thank you Amma. I had a wonderful day!", "Let us go home now.", "I want more mangoes."],
+        "answer": 1,
+        "explanation": "He thanked his mother and hugged her."
+      },
+      {
+        "question": "Match the action words to their items based on general use:\\n1. Peel\\n2. Break\\n3. Squeeze\\n4. Wash\\na. Coconut\\nb. Rice\\nc. Banana\\nd. Lemon",
+        "options": ["1-c, 2-a, 3-d, 4-b", "1-a, 2-b, 3-c, 4-d", "1-d, 2-c, 3-b, 4-a", "1-b, 2-d, 3-a, 4-c"],
+        "answer": 0,
+        "explanation": "We peel a banana, break a coconut, squeeze a lemon, and wash rice."
+      },
+      {
+        "question": "Situational: Your friend asks, 'Let me play with your toy?' How do you politely agree?",
+        "options": ["No, you cannot.", "Yes, I do.", "Yes, you can.", "You take it."],
+        "answer": 2,
+        "explanation": "The correct response structure taught in the lesson is 'Yes, you can'."
+      },
+      {
+        "question": "Which of the following describes the watermelon chosen by Varun?",
+        "options": ["Small, red and sweet", "Big, green and juicy", "Round, yellow and ripe", "Long, green and hard"],
+        "answer": 1,
+        "explanation": "He wanted the big, green and juicy watermelon."
+      },
+      {
+        "question": "What did Amma and Varun do right after taking an auto?",
+        "options": ["They went to the park", "They went to the market to buy groceries", "They made dosa batter", "They played on the swing"],
+        "answer": 1,
+        "explanation": "They took an auto to the market to buy groceries."
+      },
+      {
+        "question": "What is the opposite of 'Loudly' as an action-describing word?",
+        "options": ["Roughly", "Softly", "Happily", "Angrily"],
+        "answer": 1,
+        "explanation": "Softly is the opposite of loudly in describing an action."
+      },
+      {
+        "question": "Which ingredient was NOT bought by Amma at the cereal section?",
+        "options": ["Maida", "Rice", "Black gram", "Wheat"],
+        "answer": 3,
+        "explanation": "Amma bought some maida, rice and black gram."
+      },
+      {
+        "question": "Analogy: Varun : Picnic :: Gayathri : ?",
+        "options": ["Market", "Grocery store", "Cooking contest", "Park"],
+        "answer": 2,
+        "explanation": "Varun's story is about a picnic, Gayathri's story is about a cooking contest."
+      },
+      {
+        "question": "Why was Gayathri not allowed near the stove?",
+        "options": ["She didn't know how to cook", "She was a little girl and it could be dangerous", "Her mother hated cooking", "She was too busy making crafts"],
+        "answer": 1,
+        "explanation": "The story implies she is a young girl ('cute girl') who helps in the kitchen but is kept away from the stove for safety."
+      },
+      {
+        "question": "Assertion (A): The school head announced Gayathri as the winner.\\nReason (R): Her Aval Laddus looked very beautiful in shape.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "A is false but R is true.", "Both A and R are false."],
+        "answer": 1,
+        "explanation": "She won, but her laddus were crushed into boondhi and did not have a beautiful shape; she won because it tasted really good."
+      },
+      {
+        "question": "What did they add to the grated carrots to make the salad?",
+        "options": ["Sugar and honey", "Lemon and salt", "Pepper and cumin", "Oil and mustard"],
+        "answer": 1,
+        "explanation": "They grated the carrots, squeezed lemon and added salt to make a salad."
+      },
+      {
+        "question": "Fill in the blanks: S a i l _ _",
+        "options": ["ar", "er", "or", "ur"],
+        "answer": 2,
+        "explanation": "The correct spelling is Sailor."
+      },
+      {
+        "question": "What question word is used when asking someone to point out a specific item from a group?",
+        "options": ["What", "Where", "Which", "How"],
+        "answer": 2,
+        "explanation": "As taught in 'Big Picture': 'Which book is under the table?'"
+      },
+      {
+        "question": "Which of these adverbs tells us 'how' an action is done?",
+        "options": ["Tomorrow", "Carefully", "Now", "Today"],
+        "answer": 1,
+        "explanation": "Carefully describes the manner (how) of the action."
+      },
+      {
+        "question": "Find the odd word out based on the phonics sound.",
+        "options": ["Dollar", "Sugar", "Doctor", "Polar"],
+        "answer": 2,
+        "explanation": "Doctor ends in 'or', while dollar, sugar, and polar end in 'ar'."
+      },
+      {
+        "question": "What did Varun want to do with the rice and black gram?",
+        "options": ["Eat them raw", "Grind them with Amma", "Throw them away", "Plant them in the garden"],
+        "answer": 1,
+        "explanation": "Varun asked, 'Amma, can I grind them with you?'"
+      },
+      {
+        "question": "Situational: You accidentally drop the dish you prepared for a contest. What should you do according to Gayathri's story?",
+        "options": ["Cry and run away", "Throw it in the dustbin", "Not panic and present it anyway if it is clean and tasty", "Blame someone else"],
+        "answer": 2,
+        "explanation": "Gayathri took her crushed laddus to the head, who loved the taste and gave her the prize."
+      },
+      {
+        "question": "Which spice is NOT mentioned in the Anjaraipetti list?",
+        "options": ["Cardamom", "Black pepper", "Turmeric", "Mustard seeds"],
+        "answer": 2,
+        "explanation": "Turmeric is in the general grocery list but not listed in the 7 Anjaraipetti items exercise."
+      },
+      {
+        "question": "What was the weather like on the day of the picnic?",
+        "options": ["Cold and rainy", "Warm sunny day", "Cloudy and windy", "Stormy"],
+        "answer": 1,
+        "explanation": "It was a warm sunny day, perfect for a picnic."
+      },
+      {
+        "question": "Match the describing words with the fruits from the lesson:\\n1. Big and juicy\\n2. Ripe and reddish yellow\\n3. Fresh\\na. Carrot\\nb. Mango\\nc. Watermelon",
+        "options": ["1-b, 2-a, 3-c", "1-c, 2-b, 3-a", "1-a, 2-c, 3-b", "1-c, 2-a, 3-b"],
+        "answer": 1,
+        "explanation": "Watermelon is big and juicy, Mango is ripe and reddish-yellow, Carrots are fresh."
+      },
+      {
+        "question": "Assertion (A): Varun's mother packed the chutneys in round boxes.\\nReason (R): Round boxes save space.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "A is false but R is true.", "Both A and R are false."],
+        "answer": 3,
+        "explanation": "She packed dosas in a round box, and chutneys in square boxes. The reason is not mentioned."
+      },
+      {
+        "question": "Which word correctly completes the sentence: 'Shyam will meet his friend ______.'",
+        "options": ["loudly", "tomorrow", "happily", "sadly"],
+        "answer": 1,
+        "explanation": "Tomorrow is an adverb of time fitting the future tense."
+      },
+      {
+        "question": "What did Gayathri's school post a note about?",
+        "options": ["A dance competition", "A sports day", "The Great Cooking Contest", "A drawing contest"],
+        "answer": 2,
+        "explanation": "Her school posted a note with the name 'THE GREAT COOKING CONTEST'."
+      },
+      {
+        "question": "What is the meaning of cooking 'without fire'?",
+        "options": ["Using a gas stove", "Making dishes without heating or using a stove", "Cooking in an oven", "Frying things"],
+        "answer": 1,
+        "explanation": "Cooking without fire means preparing food items that don't need to be cooked on a flame."
+      },
+      {
+        "question": "Which word has the 'ar' sound?",
+        "options": ["Visitor", "Donor", "Collar", "Mirror"],
+        "answer": 2,
+        "explanation": "Collar ends with 'ar'."
+      },
+      {
+        "question": "Analogy: Sugar : Sweet :: Tamarind : ?",
+        "options": ["Sour", "Spicy", "Salty", "Bitter"],
+        "answer": 0,
+        "explanation": "Sugar is sweet, while tamarind is known for its sour taste."
+      },
+      {
+        "question": "What did Amma and Varun do before grinding the batter?",
+        "options": ["Roasted the rice", "Washed and soaked the rice and black gram", "Dried the black gram", "Boiled the rice"],
+        "answer": 1,
+        "explanation": "She then washed the rice and black gram to clean it. She then mixed and soaked them in water."
+      },
+      {
+        "question": "Situational: If someone is sleeping, how should you speak?",
+        "options": ["Loudly", "Gently/Softly", "Angrily", "Roughly"],
+        "answer": 1,
+        "explanation": "You should speak softly to not wake them up."
+      },
+      {
+        "question": "What was the first thing Gayathri thought of making, which she later rejected?",
+        "options": ["Aval Laddu", "Fruit salad", "Sandwich", "Juice"],
+        "answer": 1,
+        "explanation": "Gayathri said, 'A fruit salad will not make me win.'"
+      },
+      {
+        "question": "Assertion (A): Saffron and cinnamon are very common items.\\nReason (R): They are found in every grocery store easily.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "Both A and R are false.", "A is false but R is true."],
+        "answer": 2,
+        "explanation": "The poem says: 'Saffron and cinnamon, are NOT very common!'"
+      },
+      {
+        "question": "Which vehicle did Varun and Amma use to go to the market?",
+        "options": ["Bus", "Car", "Auto", "Bicycle"],
+        "answer": 2,
+        "explanation": "Then, they took an auto to the market to buy groceries."
+      },
+      {
+        "question": "Which action word means 'to cook food in a little oil'?",
+        "options": ["Sprinkle", "Wash", "Saute", "Peel"],
+        "answer": 2,
+        "explanation": "Saute is one of the action words given in the word wall."
+      },
+      {
+        "question": "Fill in the blank with the correct adverb: The boy goes to school ________.",
+        "options": ["tomorrow", "happily", "water", "round"],
+        "answer": 1,
+        "explanation": "Happily is the correct adverb describing how he goes."
+      },
+      {
+        "question": "What are the two chutneys made by Amma?",
+        "options": ["Coconut and mint", "Coriander and tomato", "Onion and garlic", "Ginger and tamarind"],
+        "answer": 1,
+        "explanation": "They also packed coriander chutney and tomato chutney."
+      },
+      {
+        "question": "Match the phonics words to their sounds:\\n1. Sugar\\n2. Mirror\\n3. Doctor\\n4. Sonar\\na. /or/\\nb. /ar/",
+        "options": ["1-b, 2-a, 3-a, 4-b", "1-a, 2-b, 3-a, 4-b", "1-b, 2-b, 3-a, 4-a", "1-a, 2-a, 3-b, 4-b"],
+        "answer": 0,
+        "explanation": "Sugar and Sonar end in 'ar'. Mirror and Doctor end in 'or'."
+      },
+      {
+        "question": "Which of these is NOT an adverb of time?",
+        "options": ["Yesterday", "Today", "Happily", "Tomorrow"],
+        "answer": 2,
+        "explanation": "Happily is an adverb of manner (how), not time (when)."
+      },
+      {
+        "question": "What game equipment did Varun play on at the park?",
+        "options": ["See-saw and merry-go-round", "Swing and slide", "Football and bat", "Sandpit"],
+        "answer": 1,
+        "explanation": "Varun played on the swing and slide."
+      },
+      {
+        "question": "What was Amma's reaction when Varun asked if they could buy fresh carrots?",
+        "options": ["She got angry", "She said 'No'", "She smiled and said, 'Sure.'", "She bought pumpkin instead"],
+        "answer": 2,
+        "explanation": "Amma smiled, 'Sure.'"
+      },
+      {
+        "question": "Analogy: Coriander : leaves :: Bengal : ?",
+        "options": ["Tiger", "Gram", "Sweet", "Spice"],
+        "answer": 1,
+        "explanation": "Bengal gram is a grocery item listed in the book."
+      },
+      {
+        "question": "Situational: If you want to share almonds and dates, who does the poem suggest sharing them with?",
+        "options": ["Teachers", "Parents", "Mates", "Pets"],
+        "answer": 2,
+        "explanation": "The poem says: 'Almonds and dates, share them with mates!'"
+      },
+      {
+        "question": "Assertion (A): Varun and Amma ate their food sitting on chairs in the park.\\nReason (R): The park had many wooden benches.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "A is false but R is true.", "Both A and R are false."],
+        "answer": 3,
+        "explanation": "Amma and Varun spread a cloth on the grass and laid out all the food."
+      },
+      {
+        "question": "Which word helps us know more about the action in the sentence: 'They quietly celebrate their function'?",
+        "options": ["They", "Quietly", "Celebrate", "Function"],
+        "answer": 1,
+        "explanation": "Quietly describes how they celebrate."
+      },
+      {
+        "question": "What sound does the object falling make in the story of Gayathri?",
+        "options": ["BANG!", "THUD!", "CRASH!", "SMASH!"],
+        "answer": 2,
+        "explanation": "The story text says: 'CRASH! She fell down...'"
+      },
+      {
+        "question": "Identify the odd one out among the grocery items.",
+        "options": ["Wheat", "Ragi", "Rice", "Honey"],
+        "answer": 3,
+        "explanation": "Wheat, Ragi, and Rice are grains/cereals. Honey is a liquid sweetener."
+      },
+      {
+        "question": "Where did they sit down to make a list?",
+        "options": ["At home", "In the auto", "At the park", "At the market"],
+        "answer": 0,
+        "explanation": "They sat down (at home) and made a list before taking an auto to the market."
+      },
+      {
+        "question": "What did Varun say when he tasted the salad?",
+        "options": ["Yuck!", "Yummm!", "Spicy!", "Salty!"],
+        "answer": 1,
+        "explanation": "Amma gave Varun some salad. 'Yummm!' said Varun."
+      },
+      {
+        "question": "Match the shapes with the items from the picnic story:\\n1. Watermelon\\n2. Dosa tiffin box\\n3. Chutney box\\na. Round\\nb. Square\\nc. Big and round (implied)",
+        "options": ["1-c, 2-a, 3-b", "1-a, 2-b, 3-c", "1-b, 2-c, 3-a", "1-c, 2-b, 3-a"],
+        "answer": 0,
+        "explanation": "Dosas were in a round box, chutneys in square boxes. Watermelon is described as big."
+      },
+      {
+        "question": "What is the correct way to complete this sentence? 'Actor donates in _______.'",
+        "options": ["rupees", "dollars", "coins", "sugar"],
+        "answer": 1,
+        "explanation": "The phonics practice sentence is 'Actor donates in dollars.'"
+      },
+      {
+        "question": "Assertion (A): Gayathri's classmates also participated in the contest.\\nReason (R): All in Gayathri's class took part in the contest.",
+        "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true but R is false.", "A is false but R is true."],
+        "answer": 0,
+        "explanation": "The text says, 'All in Gayathri’s class took part in the contest.'"
+      },
+      {
+        "question": "Which vegetable is curious because of its white inside, according to Varun?",
+        "options": ["Carrot", "Ash gourd", "Pumpkin", "Tomato"],
+        "answer": 1,
+        "explanation": "Amma said, 'The one that is white inside is called ash gourd...'"
+      },
+      {
+        "question": "Analogy: Break : Coconut :: Peel : ?",
+        "options": ["Water", "Banana", "Salt", "Knife"],
+        "answer": 1,
+        "explanation": "You break a coconut, but you peel a fruit like a banana or orange."
+      },
+      {
+        "question": "What ingredient is common between Varun's dosa batter and Anjaraipetti spices?",
+        "options": ["Rice", "Black gram", "Cumin", "Mustard"],
+        "answer": 1,
+        "explanation": "Black gram is used for dosa and is also item 2 in the Anjaraipetti."
+      },
+      {
+        "question": "Situational: The school head tasted Gayathri's crushed laddus. How did the head describe them?",
+        "options": ["Too sweet", "Needs more honey", "Really tasty", "Very bad"],
+        "answer": 2,
+        "explanation": "The head tasted the crushed LADDUS and said, 'Your AVAL BOONDHI is really tasty!'"
+      },
+      {
+        "question": "Which of these words ends with 'ar'?",
+        "options": ["Visitor", "Tractor", "Regular", "Actor"],
+        "answer": 2,
+        "explanation": "Regular ends in 'ar', the others end in 'or'."
+      },
+      {
+        "question": "What was the shape of the box used to pack the dosas?",
+        "options": ["Square", "Round", "Rectangle", "Triangle"],
+        "answer": 1,
+        "explanation": "They packed the dosas in a round tiffin box."
+      },
+      {
+        "question": "What did they use to travel back from the market?",
+        "options": ["Auto", "Bus", "They walked", "Not mentioned specifically, but they 'came back home'"],
+        "answer": 3,
+        "explanation": "The text says 'After coming back home...' without specifying the return vehicle."
+      },
+      {
+        "question": "Assertion (A): Varun was sad at the end of the picnic.\\nReason (R): His shirt was ruined by mango juice.",
+        "options": ["Both A and R are true.", "A is true but R is false.", "Both A and R are false.", "A is false but R is true."],
+        "answer": 2,
+        "explanation": "He was very happy ('I had a wonderful day!') and he and Amma laughed about the shirt."
+      },
+      {
+        "question": "Which among these is NOT a grain/cereal mentioned in the lesson?",
+        "options": ["Wheat", "Rice", "Ragi", "Cardamom"],
+        "answer": 3,
+        "explanation": "Cardamom is a spice, not a cereal."
+      },
+      {
+        "question": "Which question word should be used here: '______ toy is bigger?'",
+        "options": ["Who", "When", "Which", "Where"],
+        "answer": 2,
+        "explanation": "We use 'Which' to ask about a specific item from choices."
+      },
+      {
+        "question": "Find the odd one out based on adverbs.",
+        "options": ["Happily", "Gently", "Loudly", "Today"],
+        "answer": 3,
+        "explanation": "Today is an adverb of time (when), while the others are adverbs of manner (how)."
+      },
+      {
+        "question": "What word is used to describe the day out that Varun had?",
+        "options": ["Boring", "Tiring", "Wonderful", "Sad"],
+        "answer": 2,
+        "explanation": "Varun said, 'Thank you Amma. I had a wonderful day!'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "lesson_meta": {
+    "title": "Seasons' Story",
+    "unit": "1",
+    "grade": "3",
+    "term": "t2",
+    "subject": "english",
+    "code": "eng_3_t2_l1"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "1. Complete Lesson Summary",
+        "content": "This lesson is about the different seasons: Summer, Spring, Rainy, and Winter, explaining the characteristics of each.\n\n1. Welcoming Spring (Poem): During spring, green leaves sprout, and flowers swing. Animals come out of their caves and holes. Birds hatch from eggs in their nests. Bugs, spiders in black, bears, rabbits, and bees hum happily to welcome the spring.\n\n2. Raincoat (Story): Nalan's parents got him a red raincoat on Sunday. He wanted to wear it in the rain. He asked his mother every day if it would rain: Monday (bright and sunny), Tuesday (just one white cloud), Wednesday (hot), Thursday (went on a picnic - white clouds were too high), and Friday (dark clouds low down in the sky). Finally, on Saturday, it started to rain with thunder. However, when Nalan ran out to play, he forgot to wear his raincoat.\n\n3. A Winter Morning (Supplementary): Banu and Janu were getting ready to play on a cold winter morning. Shivering from the cold, they searched for their warm hat and socks. They found two rats taking their warm clothes into a small hole in the wall to stay warm.\n\n4. Grammar (Describing Words): Words that tell us more about naming words are called describing words (Adjectives). (e.g., 'Pink' flower, 'Tall' boy)."
+      },
+      {
+        "title": "2. Additional Sections and Notes",
+        "content": "1. Summer Vocabulary: Sunglasses, kite, hat, shovel, tender coconut, watermelon, buttermilk, juice.\n2. Greetings: When you meet someone for the first time, you should say 'Nice to meet you'. You can reply by saying 'Nice to meet you too'.\n3. Phonics (Letter Clusters): The lesson focuses on the sounds aw (prawn, saw, jaw), all (ball, fall, hall), or (horse, born, short), and ore (shore, store, score)."
+      },
+      {
+        "title": "3. Points to Remember and One-Mark Sections",
+        "content": "- Color of Nalan's raincoat: Red.\n- Day Nalan got the raincoat: Sunday.\n- Monday's weather: Bright and sunny.\n- Tuesday's weather: Just one white cloud.\n- Wednesday's weather: Hot (might rain before noon).\n- Thursday's weather: Went on a picnic; little white clouds were too high.\n- Friday's weather: Dark clouds low down in the sky.\n- Saturday's weather: Thunder (Dadum-Dadum-Dadum!) and Rain.\n- How is the flower? It is a 'pink' flower. (Describing word: pink).\n- Banu and Janu's feet were numb with cold."
+      },
+      {
+        "title": "4. Book Back Evaluation Questions",
+        "content": "▸ What comes next?: cap -> coat -> cloudy -> sunny -> hot -> cool\n▸ Match the following: 1. Sunday -> Got raincoat, 2. Wednesday -> clear sky / hot, 3. Saturday -> rain (Note: Match the words given in the book exercise based on the story).\n▸ Listen, think and write:\na. What did Nalan get from his parents? Ans: A red raincoat.\nb. How was the Sun on Monday? Ans: Bright and sunny.\nc. Where did Nalan go on Thursday? Ans: Picnic.\nd. How did the Saturday begin? Ans: With a bang! (Dadum-Dadum-Dadum!).\n▸ Circle the odd word:\na. horse, dance, storm, born (Ans: dance)\nb. jaw, flaw, plow, law (Ans: plow)\nc. fall, hill, call, ball (Ans: hill)\nd. north, store, shore, score (Ans: north)\n▸ Choose the correct word:\n1. The girls shivered due to the _________ [hot, cold]. Ans: cold.\n2. They found their socks and hat in the _________ [hole, cupboard]. Ans: hole.\n3. They felt numb in their _________ [teeth, feet]. Ans: feet."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which of the following items do we generally use in Summer?",
+        "options": ["Raincoat", "Sweater", "Sunglasses", "Blanket"],
+        "answer": 2,
+        "explanation": "Sunglasses, hat, tender coconut, etc., are given as summer items at the beginning of the lesson."
+      },
+      {
+        "question": "What colour raincoat did Nalan's parents get for him?",
+        "options": ["Blue", "Red", "Yellow", "Green"],
+        "answer": 1,
+        "explanation": "The story mentions, 'Nalan's parents got him a red raincoat'."
+      },
+      {
+        "question": "In the poem 'Welcoming Spring', what hatched from the egg in the nest?",
+        "options": ["Spider", "Bird", "Rabbit", "Bear"],
+        "answer": 1,
+        "explanation": "The poem says, 'Hatch from egg in the nest, The birds too join the fest'."
+      },
+      {
+        "question": "On which day did Nalan receive his red raincoat?",
+        "options": ["Monday", "Wednesday", "Sunday", "Saturday"],
+        "answer": 2,
+        "explanation": "The first line of the story is 'On Sunday, Nalan's parents got him a red raincoat'."
+      },
+      {
+        "question": "How did Nalan's mother describe the weather on Monday?",
+        "options": ["Dark clouds", "Bright and sunny", "Thunder and rain", "Cool and breezy"],
+        "answer": 1,
+        "explanation": "On Monday, his mother said, 'It is bright and sunny'."
+      },
+      {
+        "question": "Where did Nalan go on Thursday?",
+        "options": ["School", "Market", "Picnic", "Beach"],
+        "answer": 2,
+        "explanation": "The story mentions, 'On Thursday during picnic...'."
+      },
+      {
+        "question": "When were the dark clouds low down in the sky?",
+        "options": ["Tuesday", "Thursday", "Friday", "Wednesday"],
+        "answer": 2,
+        "explanation": "It was on Friday that his mother noticed 'some dark clouds low down in the sky'."
+      },
+      {
+        "question": "How did Saturday begin?",
+        "options": ["Dadum-Dadum-Dadum!", "Pitter-patter!", "Swoosh-swoosh!", "Ding-dong!"],
+        "answer": 0,
+        "explanation": "Saturday began with a bang and the sound of thunder (Dadum-Dadum-Dadum!)."
+      },
+      {
+        "question": "What did Nalan do when it finally started to rain?",
+        "options": ["He wore the raincoat and went out", "He forgot his raincoat and ran out", "He hid inside the house", "He took an umbrella"],
+        "answer": 1,
+        "explanation": "At the end of the story, Nalan ran out to enjoy the rain but forgot his raincoat."
+      },
+      {
+        "question": "Find the odd one out.",
+        "options": ["horse", "born", "storm", "dance"],
+        "answer": 3,
+        "explanation": "The words horse, born, and storm have the 'or' sound. 'dance' has a different sound."
+      },
+      {
+        "question": "'The prawn is sold in the store' - Which word in this sentence has the 'aw' sound?",
+        "options": ["store", "sold", "prawn", "The"],
+        "answer": 2,
+        "explanation": "The word pr'aw'n contains the 'aw' letter cluster."
+      },
+      {
+        "question": "What should you say when you meet someone for the first time?",
+        "options": ["How are you?", "Nice to meet you.", "See you later.", "Thank you."],
+        "answer": 1,
+        "explanation": "The lesson teaches us to say 'Nice to meet you' when meeting someone for the first time."
+      },
+      {
+        "question": "'Rithik is a tall boy' - Which is the describing word in this sentence?",
+        "options": ["boy", "is", "tall", "Rithik"],
+        "answer": 2,
+        "explanation": "The word 'tall' describes how the boy (Rithik) is."
+      },
+      {
+        "question": "In the story 'A Winter Morning', what are the names of the girls getting ready to play?",
+        "options": ["Malar and Kani", "Banu and Janu", "Mandria and Prithinga", "Rani and Vani"],
+        "answer": 1,
+        "explanation": "The supplementary story is about two girls named Banu and Janu."
+      },
+      {
+        "question": "Who took Banu and Janu's hat and socks?",
+        "options": ["A Dog", "A Cat", "Two rats", "A bird"],
+        "answer": 2,
+        "explanation": "Two rats took their warm clothes into a small hole."
+      },
+      {
+        "question": "'The girls shivered due to the _________.' (Choose the correct word)",
+        "options": ["fear", "fever", "cold", "heat"],
+        "answer": 2,
+        "explanation": "Since it was a winter morning, they shivered due to the cold."
+      },
+      {
+        "question": "What colour are the spiders mentioned in the 'Welcoming Spring' poem?",
+        "options": ["Black", "Brown", "Red", "Green"],
+        "answer": 0,
+        "explanation": "The poem says, 'And little spiders in black!'."
+      },
+      {
+        "question": "Which of the following is NOT an 'all' sound word?",
+        "options": ["ball", "tall", "hill", "fall"],
+        "answer": 2,
+        "explanation": "The word 'hill' has an 'ill' sound, whereas the others have an 'all' sound."
+      },
+      {
+        "question": "On which day did Nalan's mother say there was 'just one white cloud in the sky'?",
+        "options": ["Tuesday", "Wednesday", "Monday", "Friday"],
+        "answer": 0,
+        "explanation": "On Tuesday, there was only one white cloud in the sky."
+      },
+      {
+        "question": "'It is a pink flower' - Identify the describing word.",
+        "options": ["It", "flower", "is", "pink"],
+        "answer": 3,
+        "explanation": "The word 'pink' describes the colour of the flower."
+      },
+      {
+        "question": "Which part of their body did Banu and Janu feel was numb with cold?",
+        "options": ["Hands", "Feet", "Teeth", "Ears"],
+        "answer": 1,
+        "explanation": "Janu said, 'My feet are numb with cold'."
+      },
+      {
+        "question": "In which season do leaves turn green and flowers swing?",
+        "options": ["Winter", "Summer", "Spring", "Rainy"],
+        "answer": 2,
+        "explanation": "The poem 'Welcoming Spring' describes these features of the spring season."
+      },
+      {
+        "question": "Match the following: 1. Watermelon - a. Winter, 2. Raincoat - b. Summer, 3. Sweater - c. Rainy",
+        "options": ["1-c, 2-b, 3-a", "1-b, 2-c, 3-a", "1-a, 2-b, 3-c", "1-b, 2-a, 3-c"],
+        "answer": 1,
+        "explanation": "Watermelon is for Summer, Raincoat for Rainy season, and Sweater for Winter."
+      },
+      {
+        "question": "'The fawn runs in the _______.' (Complete the sentence based on phonics practice)",
+        "options": ["hall", "lawn", "store", "shore"],
+        "answer": 1,
+        "explanation": "The phonics reading practice section includes the sentence 'The fawn runs in the lawn'."
+      },
+      {
+        "question": "How should you reply if someone says 'Nice to meet you'?",
+        "options": ["Hello", "Nice to meet you too.", "Who are you?", "Thank you."],
+        "answer": 1,
+        "explanation": "This is the appropriate response taught in the 'Let us use' section."
+      },
+      {
+        "question": "Which of the following beverages are suitable for Summer?",
+        "options": ["Hot tea and coffee", "Tender coconut and buttermilk", "Hot soup", "Warm milk"],
+        "answer": 1,
+        "explanation": "Tender coconut and buttermilk are listed under the Summer vocabulary section."
+      },
+      {
+        "question": "In 'A Winter Morning', where were the missing hat and socks found?",
+        "options": ["In the cupboard", "On the table", "In a small hole in the wall", "Under the bed"],
+        "answer": 2,
+        "explanation": "The girls looked into a hole in the wall and found their clothes there."
+      },
+      {
+        "question": "Which of the following words does NOT end with the 'ore' sound?",
+        "options": ["store", "score", "shore", "prawn"],
+        "answer": 3,
+        "explanation": "'prawn' ends with the 'aw' sound, not 'ore'."
+      },
+      {
+        "question": "What did Nalan's mother say when he asked if it would rain on Wednesday?",
+        "options": ["It will not rain today", "It will rain before noon", "It is thundering", "There are dark clouds"],
+        "answer": 1,
+        "explanation": "Because it was hot on Wednesday, she thought it might rain before noon."
+      },
+      {
+        "question": "Why does the poem say 'The bugs are back' in Spring?",
+        "options": ["Because winter is over and spring has arrived", "Because it is raining", "Because night has fallen", "Because it is summer"],
+        "answer": 0,
+        "explanation": "In spring, nature awakens, and insects/animals become active again after the cold winter."
+      },
+      {
+        "question": "'The rock is _______.' Choose the suitable describing word.",
+        "options": ["soft", "thin", "hard", "funny"],
+        "answer": 2,
+        "explanation": "A rock is characterized by being 'hard'."
+      },
+      {
+        "question": "After which day did Nalan finally get to use his raincoat?",
+        "options": ["Friday", "Sunday", "Monday", "Wednesday"],
+        "answer": 0,
+        "explanation": "It finally rained on Saturday, which is the day after Friday."
+      },
+      {
+        "question": "Which animals came out of the cave and hole to welcome spring?",
+        "options": ["Lion and tiger", "Rabbit and foal", "Elephant and dog", "Cat and rat"],
+        "answer": 1,
+        "explanation": "The poem states: 'Out of the cave! Out of the hole! Came the rabbit and the foal'."
+      },
+      {
+        "question": "Which of the following is a correct describing sentence?",
+        "options": ["Millet porridge is a junk food.", "Millet porridge is a nutritious food.", "Millet porridge is a bad food.", "Millet porridge is a modern food."],
+        "answer": 1,
+        "explanation": "As per the book exercise on describing words, millet porridge is a nutritious food."
+      },
+      {
+        "question": "'The horse stands in the big hall' - Which word has the 'all' sound?",
+        "options": ["horse", "stands", "big", "hall"],
+        "answer": 3,
+        "explanation": "h'all' contains the 'all' letter cluster."
+      },
+      {
+        "question": "Who said, 'Where did the hat go? It was here' in the story 'A Winter Morning'?",
+        "options": ["Banu", "Ma", "Janu", "Nalan"],
+        "answer": 0,
+        "explanation": "Banu said this when she couldn't find her warm hat."
+      },
+      {
+        "question": "'jaw, flaw, law, paw' - What sound do these words represent?",
+        "options": ["or", "aw", "all", "ore"],
+        "answer": 1,
+        "explanation": "All these words end with the 'aw' sound cluster."
+      },
+      {
+        "question": "Assertion (A): On Monday, Nalan's mother said it would be funny to wear a raincoat.\\nReason (R): The weather was bright and sunny that day.",
+        "options": ["Both A and R are true, and R is the correct explanation for A", "Both A and R are true, but R is NOT the correct explanation", "A is true, but R is false", "A is false, but R is true"],
+        "answer": 0,
+        "explanation": "Wearing a raincoat on a bright and sunny day would look funny, which is why she stopped him."
+      },
+      {
+        "question": "Analogy: Summer : Sunglasses :: Winter : ?",
+        "options": ["Raincoat", "Sweater", "Umbrella", "Cotton shirt"],
+        "answer": 1,
+        "explanation": "Just as sunglasses protect us in summer, a sweater keeps us warm in winter."
+      },
+      {
+        "question": "Life-situation: You meet a new student in your classroom. What should you say first?",
+        "options": ["Give me your pen.", "Nice to meet you.", "Go away.", "What is this?"],
+        "answer": 1,
+        "explanation": "This is the polite greeting taught for meeting someone for the first time."
+      },
+      {
+        "question": "What does the word 'cave' mean in the poem 'Welcoming Spring'?",
+        "options": ["A tree", "A large hole in the side of a hill or cliff", "A nest", "A mountain peak"],
+        "answer": 1,
+        "explanation": "A cave is a natural underground space or hollow where animals often live."
+      },
+      {
+        "question": "'The storm hits the shore' - Identify the phonics words in this sentence.",
+        "options": ["The, hits", "storm, shore", "hits, the", "storm, the"],
+        "answer": 1,
+        "explanation": "st'or'm and sh'ore' are the focus words for the 'or' and 'ore' letter clusters."
+      },
+      {
+        "question": "What was Nalan eagerly waiting for every day?",
+        "options": ["Sunday to buy a raincoat", "Thursday to go on a picnic", "A rainy day to wear his new raincoat", "A school day"],
+        "answer": 2,
+        "explanation": "He kept asking his mother every day if it would rain so he could wear his red raincoat."
+      },
+      {
+        "question": "Why did the rats take the girls' hat and socks in 'A Winter Morning'?",
+        "options": ["To eat them", "To play with them", "To keep themselves warm", "To block the hole"],
+        "answer": 2,
+        "explanation": "Since it was a cold winter morning, the rats took the 'warm coat' (clothes) into their hole for warmth."
+      },
+      {
+        "question": "What does the word 'bang' refer to in Nalan's story?",
+        "options": ["A knock on the door", "The sound of thunder", "The sound of rain falling", "The chirping of birds"],
+        "answer": 1,
+        "explanation": "'Saturday begins with a bang! Dadum-Dadum-Dadum!' refers to the loud noise of thunder."
+      },
+      {
+        "question": "Assertion (A): Bugs, spiders, and bees become active again in Spring.\\nReason (R): Spring brings new leaves and flowers, waking up nature after the cold winter.",
+        "options": ["A is false, R is true", "Both A and R are true, and R is the correct explanation", "Both A and R are true, but R is a wrong explanation", "A is true, R is false"],
+        "answer": 1,
+        "explanation": "The poem beautifully illustrates how nature and creatures become active as spring arrives."
+      },
+      {
+        "question": "Match the character with their item/place: 1. Nalan - a. Warm hat, 2. Banu - b. Red raincoat, 3. Rats - c. Hole",
+        "options": ["1-a, 2-c, 3-b", "1-b, 2-a, 3-c", "1-c, 2-b, 3-a", "1-b, 2-c, 3-a"],
+        "answer": 1,
+        "explanation": "Nalan has a red raincoat, Banu was looking for her warm hat, and the rats live in a hole."
+      },
+      {
+        "question": "Life-situation: Today, you see 'dark clouds low down in the sky'. What must you carry when you step outside?",
+        "options": ["Sunglasses", "Cotton cap", "Umbrella / Raincoat", "Water bottle"],
+        "answer": 2,
+        "explanation": "Dark clouds low in the sky indicate that it might rain soon, just like on Friday in the story."
+      },
+      {
+        "question": "'Just like me they hum, That spring has come!' - Who does 'they' refer to?",
+        "options": ["Trees and leaves", "Bears, rabbits and bees", "Sun and moon", "Cloud and rain"],
+        "answer": 1,
+        "explanation": "The previous line says 'Bears, rabbits and bees' who hum along to welcome the spring."
+      },
+      {
+        "question": "Assertion (A): Nalan wore his red raincoat while playing in the rain on Saturday.\\nReason (R): He loves to play in the rain.",
+        "options": ["Both A and R are true", "A is true, R is false", "Both A and R are false", "A is false, but R is true"],
+        "answer": 3,
+        "explanation": "Nalan loves to play in the rain (R is true). However, in his excitement, he forgot to wear his raincoat when he ran out (A is false)."
+      }
+    ]
+  }
+}
