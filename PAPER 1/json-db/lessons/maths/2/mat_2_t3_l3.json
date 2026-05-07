@@ -230,15 +230,15 @@
         "explanation": "பல் துலக்கக் குறைந்த அளவே நீர் தேவை. எனவே, குவளையைப் பயன்படுத்துவது சரியான அளவாக இருக்கும்."
       },
       {
-        "question": "கூற்று (A): காற்றில் ஊதும்போது சருகு பறந்தது, சாவி பறக்கவில்லை.\nகாரணம் (R): இலேசான பொருள்கள் காற்றில் எளிதில் நகரும் தன்மை கொண்டவை.",
+        "question": "கூற்று (A): காற்றில் ஊதும்போது சருகு பறந்தது, சாவி பறக்கவில்லை.\nகாரணம் (R): இலேசான பொருள்கள் காற்றில் எளிதில் நகரும் தன்மை கொண்டவை.\n(Assertion (A): When blowing air, the dry leaf flew away, but the key did not.\nReason (R): Light objects tend to move easily in the air.)",
         "options": [
-          "A தவறு, R சரி",
-          "A மற்றும் R இரண்டும் சரி. R என்பது A-க்கு சரியான விளக்கம்.",
-          "A மற்றும் R இரண்டும் சரி. ஆனால் R, A-க்கு சரியான விளக்கம் அல்ல.",
-          "A சரி, R தவறு"
+          "A தவறு, R சரி (A is false, R is true)",
+          "A மற்றும் R இரண்டும் சரி. R என்பது A-க்கு சரியான விளக்கம். (Both A and R are true. R is the correct explanation for A.)",
+          "A மற்றும் R இரண்டும் சரி. ஆனால் R, A-க்கு சரியான விளக்கம் அல்ல. (Both A and R are true. But R is not the correct explanation for A.)",
+          "A சரி, R தவறு (A is true, R is false)"
         ],
         "answer": 1,
-        "explanation": "சருகு இலேசானது என்பதால் பறந்தது, சாவி கனமானது என்பதால் பறக்கவில்லை. எனவே காரணமும் கூற்றும் சரி."
+        "explanation": "சருகு இலேசானது என்பதால் பறந்தது, சாவி கனமானது என்பதால் பறக்கவில்லை. எனவே காரணமும் கூற்றும் சரி. (The dry leaf flew because it is light, the key did not fly because it is heavy. Therefore, both the assertion and reason are correct.)"
       },
       {
         "question": "பொருத்துக:\n1. தங்கக் காதணி - a. பெரிய தராசு\n2. அரிசி மூட்டை - b. எளிய தராசு (தத்துவம்)\n3. சம எடை - c. சிறிய தராசு\n4. கூறு போடுதல் - d. சரியான முறையல்ல",
