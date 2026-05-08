@@ -1301,6 +1301,30 @@ export const lessonMap = {
     "grade": "all",
     "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *"
   },
+  "லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு (Lev Vygotsky's Socio-Cultural Theory)": {
+    "local": true,
+    "filename": "psy_6_l6",
+    "grade": "all",
+    "title": "லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு (Lev Vygotsky's Socio-Cultural Theory)"
+  },
+  "psy_6_l6": {
+    "local": true,
+    "filename": "psy_6_l6",
+    "grade": "all",
+    "title": "லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு (Lev Vygotsky's Socio-Cultural Theory)"
+  },
+  "உள்ளடக்கிய கல்வி (Inclusive Education)": {
+    "local": true,
+    "filename": "psy_6_l7",
+    "grade": "all",
+    "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
+  },
+  "psy_6_l7": {
+    "local": true,
+    "filename": "psy_6_l7",
+    "grade": "all",
+    "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
+  },
   "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
     "local": true,
     "filename": "mock_test_2",

@@ -109,6 +109,16 @@ export const extraSyllabusData = {
                 "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
                 "isUpdated": true,
                 "code": "psy_6_l5"
+              },
+              {
+                "title": "Lev Vygotsky's Socio-Cultural Theory || லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு",
+                "isUpdated": true,
+                "code": "psy_6_l6"
+              },
+              {
+                "title": "Inclusive Education || உள்ளடக்கிய கல்வி",
+                "isUpdated": true,
+                "code": "psy_6_l7"
               }
             ]
           }
