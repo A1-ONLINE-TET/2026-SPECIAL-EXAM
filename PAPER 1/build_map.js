@@ -1,65 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const repoPath = path.join(__dirname, 'subjects');
 const localDbPath = path.join(__dirname, 'json-db', 'lessons');
-const mapOutputPath = path.join(__dirname, 'js', 'data', 'lessonMap.js');
+const lessonMapFile = path.join(__dirname, 'js', 'data', 'lessonMap.js');
 
-const subjectMapping = {
-    'Tamil': 'tamil',
-    'English_Paper2': 'english',
-    'English_General': 'english',
-    'Science': 'science',
-    'Social': 'social',
-    'Psychology': 'psychology',
-    'Maths': 'maths',
-    'Revision': 'revision',
-    'MockTest': 'mocktest',
-    'Standard_6_7_8': 'standard_6_7_8'
-};
+let lessonMap = {};
 
-let mainMap = {};
-
-function addToMap(dbSubject, key, data) {
+function addToMap(subject, key, entry) {
     if (!key) return;
-    const cleanKey = key.trim();
-    if (!cleanKey) return;
-    
-    // Don't overwrite if already exists with more info
-    mainMap[cleanKey] = data;
+    lessonMap[key] = entry;
 }
 
-// 1. Scan Repos (Priority)
-if (fs.existsSync(repoPath)) {
-    console.log("🔍 Scanning repositories...");
-    const repos = fs.readdirSync(repoPath);
-    for (const repo of repos) {
-        let dbSubject = subjectMapping[repo];
-        if (!dbSubject) continue;
-
-        const dataPath = path.join(repoPath, repo, 'data');
-        if (fs.existsSync(dataPath)) {
-            const files = fs.readdirSync(dataPath).filter(f => f.endsWith('.json'));
-            
-            for (const file of files) {
-                try {
-                    const content = JSON.parse(fs.readFileSync(path.join(dataPath, file), 'utf8'));
-                    const title = (content.lesson_meta && content.lesson_meta.title) || content.title;
-                    const filename = file.replace('.json', '');
-                    const entry = { repo, filename };
-                    if (title) entry.title = title;
-                    
-                    if (title) addToMap(dbSubject, title, entry);
-                    addToMap(dbSubject, filename, entry); // Filename as key
-                } catch (e) {
-                    console.error('Error parsing repo file:', file);
-                }
-            }
-        }
-    }
-}
-
-// 2. Scan Local DB (Fallback/Additions)
 if (fs.existsSync(localDbPath)) {
     console.log("🔍 Scanning local database...");
     const subjects = fs.readdirSync(localDbPath);
@@ -87,7 +38,9 @@ if (fs.existsSync(localDbPath)) {
 
                         if (title) addToMap(dbSubject, title, entry);
                         addToMap(dbSubject, filename, entry); // Filename as key
-                    } catch (e) {}
+                    } catch (e) {
+                        // Skip invalid JSON
+                    }
                 }
             }
         }
@@ -96,7 +49,7 @@ if (fs.existsSync(localDbPath)) {
     }
 }
 
-// Write out the map
-const code = `export const lessonMap = ${JSON.stringify(mainMap, null, 2)};`;
-fs.writeFileSync(mapOutputPath, code, 'utf8');
+// Generate the JS file
+const content = `export const lessonMap = ${JSON.stringify(lessonMap, null, 2)};`;
+fs.writeFileSync(lessonMapFile, content);
 console.log("✅ Successfully regenerated lessonMap.js with robust keys!");

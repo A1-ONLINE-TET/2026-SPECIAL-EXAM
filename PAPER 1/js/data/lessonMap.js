@@ -1244,62 +1244,62 @@ export const lessonMap = {
   "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்": {
     "local": true,
     "filename": "psy_6_l1",
-    "grade": "6",
+    "grade": "all",
     "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்"
   },
   "psy_6_l1": {
     "local": true,
     "filename": "psy_6_l1",
-    "grade": "6",
+    "grade": "all",
     "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்"
   },
   "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்": {
     "local": true,
     "filename": "psy_6_l2",
-    "grade": "6",
+    "grade": "all",
     "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்"
   },
   "psy_6_l2": {
     "local": true,
     "filename": "psy_6_l2",
-    "grade": "6",
+    "grade": "all",
     "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்"
   },
   "Child Development || குழந்தை மேம்பாடு": {
     "local": true,
     "filename": "psy_6_l3",
-    "grade": "6",
+    "grade": "all",
     "title": "Child Development || குழந்தை மேம்பாடு"
   },
   "psy_6_l3": {
     "local": true,
     "filename": "psy_6_l3",
-    "grade": "6",
+    "grade": "all",
     "title": "Child Development || குழந்தை மேம்பாடு"
   },
-  "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி": {
+  "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி": {
     "local": true,
     "filename": "psy_6_l4",
-    "grade": "6",
-    "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "grade": "all",
+    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
   },
   "psy_6_l4": {
     "local": true,
     "filename": "psy_6_l4",
-    "grade": "6",
-    "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "grade": "all",
+    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
   },
-  "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
+  "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
     "local": true,
     "filename": "psy_6_l5",
-    "grade": "6",
-    "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "grade": "all",
+    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
   },
   "psy_6_l5": {
     "local": true,
     "filename": "psy_6_l5",
-    "grade": "6",
-    "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "grade": "all",
+    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
   },
   "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
     "local": true,
