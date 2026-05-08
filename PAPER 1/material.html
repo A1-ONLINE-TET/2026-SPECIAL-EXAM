@@ -680,7 +680,7 @@
                                 } else if (section.type === 'evaluation') {
                                     const ed = section.evaluationData;
                                     contentHTML = `<div style="background:#f8fafc; border:1px solid #e2e8f0; padding:1.5rem; border-radius:1rem;">
-                                        ${ed.mcqs ? ed.mcqs.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                        ${ed.mcqs ? ed.mcqs.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.options[m.answer] || m.answer)}</div></div>`).join('') : ''}
                                         ${ed.fillBlanks ? ed.fillBlanks.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
                                         ${ed.trueFalse ? ed.trueFalse.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
                                         ${ed.match ? ed.match.map(m => `<div style="display:flex; justify-content:space-between; margin-bottom:0.5rem; border-bottom:1px dashed #eee; padding-bottom:0.3rem;"><span>${m.key}</span><span> - ${m.value}</span></div>`).join('') : ''}

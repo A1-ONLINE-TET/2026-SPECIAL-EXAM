@@ -1241,65 +1241,65 @@ export const lessonMap = {
     "grade": "all",
     "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)"
   },
-  "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்": {
+  "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
     "local": true,
     "filename": "psy_6_l1",
     "grade": "all",
-    "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்"
+    "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *"
   },
   "psy_6_l1": {
     "local": true,
     "filename": "psy_6_l1",
     "grade": "all",
-    "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்"
+    "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *"
   },
-  "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்": {
+  "கற்றல் கொள்கைகள் (Learning Principles) *": {
     "local": true,
     "filename": "psy_6_l2",
     "grade": "all",
-    "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்"
+    "title": "கற்றல் கொள்கைகள் (Learning Principles) *"
   },
   "psy_6_l2": {
     "local": true,
     "filename": "psy_6_l2",
     "grade": "all",
-    "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்"
+    "title": "கற்றல் கொள்கைகள் (Learning Principles) *"
   },
-  "Child Development || குழந்தை மேம்பாடு": {
+  "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *": {
     "local": true,
     "filename": "psy_6_l3",
     "grade": "all",
-    "title": "Child Development || குழந்தை மேம்பாடு"
+    "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *"
   },
   "psy_6_l3": {
     "local": true,
     "filename": "psy_6_l3",
     "grade": "all",
-    "title": "Child Development || குழந்தை மேம்பாடு"
+    "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *"
   },
-  "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி": {
+  "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *": {
     "local": true,
     "filename": "psy_6_l4",
     "grade": "all",
-    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *"
   },
   "psy_6_l4": {
     "local": true,
     "filename": "psy_6_l4",
     "grade": "all",
-    "title": "Jean Piaget's Theory || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி"
+    "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *"
   },
-  "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு": {
+  "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *": {
     "local": true,
     "filename": "psy_6_l5",
     "grade": "all",
-    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *"
   },
   "psy_6_l5": {
     "local": true,
     "filename": "psy_6_l5",
     "grade": "all",
-    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு"
+    "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *"
   },
   "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
     "local": true,
@@ -1883,7 +1883,7 @@ export const lessonMap = {
     "grade": "4",
     "title": "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி"
   },
-  "நமது பூமி": {
+  "நமது பூமி ": {
     "local": true,
     "filename": "soc_5_t1_l1",
     "grade": "5",
@@ -1895,7 +1895,7 @@ export const lessonMap = {
     "grade": "5",
     "title": "நமது பூமி "
   },
-  "வரலாற்றை நோக்கி": {
+  "வரலாற்றை நோக்கி ": {
     "local": true,
     "filename": "soc_5_t1_l2",
     "grade": "5",

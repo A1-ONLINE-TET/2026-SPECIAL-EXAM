@@ -944,6 +944,14 @@
                 }
                 
                 questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                
+                // Fallback for original Psychology format (sections -> evaluation -> evaluationData -> mcqs)
+                if (questions.length === 0 && data.sections) {
+                    const evalSection = data.sections.find(s => s.type === 'evaluation');
+                    if (evalSection && evalSection.evaluationData && evalSection.evaluationData.mcqs) {
+                        questions = evalSection.evaluationData.mcqs;
+                    }
+                }
                 if (questions.length === 0 && data.தேர்வு_வினாக்கள்) {
                     questions = data.தேர்வு_வினாக்கள்.map(q => {
                         let opts = q.விருப்பங்கள் || q.ஆப்ஷன்கள் || q.options || [];
