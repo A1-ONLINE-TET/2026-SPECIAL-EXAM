@@ -955,6 +955,10 @@
                 if (questions.length === 0 && data.தேர்வு_வினாக்கள்) {
                     questions = data.தேர்வு_வினாக்கள்.map(q => {
                         let opts = q.விருப்பங்கள் || q.ஆப்ஷன்கள் || q.options || [];
+                        if (!Array.isArray(opts) && typeof opts === 'object') {
+                            // Convert {A: '...', B: '...'} to ['(A) ...', '(B) ...']
+                            opts = Object.entries(opts).map(([key, val]) => `(${key}) ${val}`);
+                        }
                         let ansText = q.விடை || q.answer || "";
                         let ansIdx = -1;
                         if (typeof ansText === 'number') {

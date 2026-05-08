@@ -654,11 +654,20 @@
                     if (data) {
                         let sections = data.sections || (data.material && data.material.sections);
                         if (!sections && data.பாடக்குறிப்புகள்) {
-                            sections = data.பாடக்குறிப்புகள்.map(p => ({
-                                title: p.தலைப்பு || p.title,
-                                content: p.விவரங்கள் || p.content,
-                                type: 'content'
-                            }));
+                            if (Array.isArray(data.பாடக்குறிப்புகள்)) {
+                                sections = data.பாடக்குறிப்புகள்.map(p => ({
+                                    title: p.தலைப்பு || p.title,
+                                    content: p.விவரங்கள் || p.content,
+                                    type: 'content'
+                                }));
+                            } else {
+                                // Handle Object structure (e.g., Grade 3 Maths)
+                                sections = Object.entries(data.பாடக்குறிப்புகள்).map(([key, value]) => ({
+                                    title: key.replace(/_/g, ' '),
+                                    content: value,
+                                    type: 'content'
+                                }));
+                            }
                         }
                         const summary = data.summary || (data.material && data.material.summary);
                         
