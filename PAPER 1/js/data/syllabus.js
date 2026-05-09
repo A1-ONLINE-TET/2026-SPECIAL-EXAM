@@ -97,30 +97,15 @@ export const syllabusData = {
             "title": "அலகு 2",
             "topics": [
               {
-                "title": "இயல் 4: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் *",
-                "isUpdated": true,
-                "code": "tam_4_t1_l4"
-              },
-              {
                 "title": "இயல் 5: முளைப்பாரி - பாடல் *",
                 "isUpdated": true,
                 "code": "tam_4_t1_l5"
-              },
-              {
-                "title": "இயல் 6: பண்படுத்தும் பழமொழிகள் *",
-                "isUpdated": true,
-                "code": "tam_4_t1_l6"
               }
             ]
           },
           {
             "title": "அலகு 3",
             "topics": [
-              {
-                "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்",
-                "isUpdated": true,
-                "code": "tam_4_t1_l7"
-              },
               {
                 "title": "இயல் 8: வெற்றி வேற்கை *",
                 "isUpdated": true,
