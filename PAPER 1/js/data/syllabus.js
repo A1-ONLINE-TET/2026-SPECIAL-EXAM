@@ -4043,6 +4043,56 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வரலாற்றுச் சிறப்புமிக்க இடங்கள்",
+                "isUpdated": true,
+                "code": "soc_3_t2_l1"
+              },
+              {
+                "title": "சரணாலயங்கள்",
+                "isUpdated": true,
+                "code": "soc_3_t2_l2"
+              },
+              {
+                "title": "மாவட்ட நிர்வாகம்",
+                "isUpdated": true,
+                "code": "soc_3_t2_l3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "பணம்",
+                "isUpdated": true,
+                "code": "soc_3_t3_l1"
+              },
+              {
+                "title": "கனிம வளங்கள்",
+                "isUpdated": true,
+                "code": "soc_3_t3_l2"
+              },
+              {
+                "title": "குழந்தைகளின் பாதுகாப்பு",
+                "isUpdated": true,
+                "code": "soc_3_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

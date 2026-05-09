@@ -691,8 +691,8 @@ export const lessonMap = {
   },
   "பணம்": {
     "local": true,
-    "filename": "mat_5_t3_l5",
-    "grade": "5",
+    "filename": "soc_3_t3_l1",
+    "grade": "3",
     "title": "பணம்"
   },
   "வடிவியல்": {
@@ -1972,6 +1972,72 @@ export const lessonMap = {
     "filename": "soc_3_t1_l2",
     "grade": "3",
     "title": "செய்து மகிழ்வோம்"
+  },
+  "வரலாற்றுச் சிறப்புமிக்க இடங்கள்": {
+    "local": true,
+    "filename": "soc_3_t2_l1",
+    "grade": "3",
+    "title": "வரலாற்றுச் சிறப்புமிக்க இடங்கள்"
+  },
+  "soc_3_t2_l1": {
+    "local": true,
+    "filename": "soc_3_t2_l1",
+    "grade": "3",
+    "title": "வரலாற்றுச் சிறப்புமிக்க இடங்கள்"
+  },
+  "சரணாலயங்கள்": {
+    "local": true,
+    "filename": "soc_3_t2_l2",
+    "grade": "3",
+    "title": "சரணாலயங்கள்"
+  },
+  "soc_3_t2_l2": {
+    "local": true,
+    "filename": "soc_3_t2_l2",
+    "grade": "3",
+    "title": "சரணாலயங்கள்"
+  },
+  "மாவட்ட நிருவாகம்": {
+    "local": true,
+    "filename": "soc_3_t2_l3",
+    "grade": "3",
+    "title": "மாவட்ட நிருவாகம்"
+  },
+  "soc_3_t2_l3": {
+    "local": true,
+    "filename": "soc_3_t2_l3",
+    "grade": "3",
+    "title": "மாவட்ட நிருவாகம்"
+  },
+  "soc_3_t3_l1": {
+    "local": true,
+    "filename": "soc_3_t3_l1",
+    "grade": "3",
+    "title": "பணம்"
+  },
+  "அலகு 2: கனிம வளங்கள் (Mineral Resources)": {
+    "local": true,
+    "filename": "soc_3_t3_l2",
+    "grade": "3",
+    "title": "அலகு 2: கனிம வளங்கள் (Mineral Resources)"
+  },
+  "soc_3_t3_l2": {
+    "local": true,
+    "filename": "soc_3_t3_l2",
+    "grade": "3",
+    "title": "அலகு 2: கனிம வளங்கள் (Mineral Resources)"
+  },
+  "குழந்தைகளின் பாதுகாப்பு": {
+    "local": true,
+    "filename": "soc_3_t3_l3",
+    "grade": "3",
+    "title": "குழந்தைகளின் பாதுகாப்பு"
+  },
+  "soc_3_t3_l3": {
+    "local": true,
+    "filename": "soc_3_t3_l3",
+    "grade": "3",
+    "title": "குழந்தைகளின் பாதுகாப்பு"
   },
   "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
     "local": true,
