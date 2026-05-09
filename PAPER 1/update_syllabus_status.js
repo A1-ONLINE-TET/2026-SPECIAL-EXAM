@@ -12,12 +12,7 @@ const lessonMap = JSON.parse(jsonStr);
 
 // Helper to find entry by code
 function findMapEntryByCode(code) {
-    for (const subject in lessonMap) {
-        if (lessonMap[subject][code]) {
-            return lessonMap[subject][code];
-        }
-    }
-    return null;
+    return lessonMap[code] || null;
 }
 
 // 2. Process Syllabus Files

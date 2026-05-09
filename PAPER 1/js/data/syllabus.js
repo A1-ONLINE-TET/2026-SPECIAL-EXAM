@@ -1790,17 +1790,17 @@ export const syllabusData = {
                 "code": "mat_3_t3_l1"
               },
               {
-                "title": "எண்கள் (வகுத்தல்)",
+                "title": "அலகு 2: எண்கள் (வகுத்தல்)",
                 "isUpdated": true,
                 "code": "mat_3_t3_l2"
               },
               {
-                "title": "அமைப்புகள்",
+                "title": "அமைப்புகள் (Patterns)",
                 "isUpdated": true,
                 "code": "mat_3_t3_l3"
               },
               {
-                "title": "அளவைகள் (முகத்தல் அளவை)",
+                "title": "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)",
                 "isUpdated": true,
                 "code": "mat_3_t3_l4"
               },
@@ -1810,12 +1810,12 @@ export const syllabusData = {
                 "code": "mat_3_t3_l5"
               },
               {
-                "title": "காலம்",
+                "title": "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)",
                 "isUpdated": true,
                 "code": "mat_3_t3_l6"
               },
               {
-                "title": "தகவல் செயலாக்கம்",
+                "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)",
                 "isUpdated": true,
                 "code": "mat_3_t3_l7"
               }

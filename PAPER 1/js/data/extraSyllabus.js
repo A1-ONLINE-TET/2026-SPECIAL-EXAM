@@ -86,37 +86,37 @@ export const extraSyllabusData = {
             "title": "குழந்தை மேம்பாடு மற்றும் கற்பித்தல் (Child Development & Pedagogy)",
             "topics": [
               {
-                "title": "Introduction to Educational Psychology || கல்வி உளவியல் அறிமுகம்",
+                "title": "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *",
                 "isUpdated": true,
                 "code": "psy_6_l1"
               },
               {
-                "title": "Growth and Development || வளர்ச்சி மற்றும் முன்னேற்றம்",
+                "title": "கற்றல் கொள்கைகள் (Learning Principles) *",
                 "isUpdated": true,
                 "code": "psy_6_l2"
               },
               {
-                "title": "Child Development || குழந்தை மேம்பாடு",
+                "title": "கற்பித்தல் மற்றும் கற்றல் முறை (Pedagogy) *",
                 "isUpdated": true,
                 "code": "psy_6_l3"
               },
               {
-                "title": "Jean Piaget's Cognitive Development || ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சி",
+                "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) *",
                 "isUpdated": true,
                 "code": "psy_6_l4"
               },
               {
-                "title": "Kohlberg's Moral Development || லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு",
+                "title": "லாரன்ஸ் கோல்பெர்க்கின் தார்மீக வளர்ச்சிக் கோட்பாடு (Lawrence Kohlberg's Moral Development Theory) *",
                 "isUpdated": true,
                 "code": "psy_6_l5"
               },
               {
-                "title": "Lev Vygotsky's Socio-Cultural Theory || லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு",
+                "title": "லெவ் வைகோட்ஸ்கியின் சமூக-பண்பாட்டு கோட்பாடு (Lev Vygotsky's Socio-Cultural Theory)",
                 "isUpdated": true,
                 "code": "psy_6_l6"
               },
               {
-                "title": "Inclusive Education || உள்ளடக்கிய கல்வி",
+                "title": "உள்ளடக்கிய கல்வி (Inclusive Education)",
                 "isUpdated": true,
                 "code": "psy_6_l7"
               }
