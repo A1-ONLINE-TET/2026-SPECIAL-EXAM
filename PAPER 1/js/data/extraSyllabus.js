@@ -70,6 +70,11 @@ export const extraSyllabusData = {
                 "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_2"
+              },
+              {
+                "title": "தாள் 1 - மாதிரி வினாத்தாள் 3 (TN TET Psychology)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_3"
               }
             ]
           }
