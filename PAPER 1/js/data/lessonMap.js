@@ -1949,29 +1949,53 @@ export const lessonMap = {
     "grade": "5",
     "title": "காற்று"
   },
-  "வா வா முயலே": {
+  "குடும்பம்": {
     "local": true,
     "filename": "soc_3_t1_l1",
     "grade": "3",
-    "title": "வா வா முயலே"
+    "title": "குடும்பம்"
   },
   "soc_3_t1_l1": {
     "local": true,
     "filename": "soc_3_t1_l1",
     "grade": "3",
-    "title": "வா வா முயலே"
+    "title": "குடும்பம்"
   },
-  "செய்து மகிழ்வோம்": {
+  "நமது நண்பர்கள்": {
     "local": true,
-    "filename": "tam_3_t1_l2",
+    "filename": "soc_3_t1_l2",
     "grade": "3",
-    "title": "செய்து மகிழ்வோம்"
+    "title": "நமது நண்பர்கள்"
   },
   "soc_3_t1_l2": {
     "local": true,
     "filename": "soc_3_t1_l2",
     "grade": "3",
-    "title": "செய்து மகிழ்வோம்"
+    "title": "நமது நண்பர்கள்"
+  },
+  "ஊராட்சி மன்றம்": {
+    "local": true,
+    "filename": "soc_3_t1_l3",
+    "grade": "3",
+    "title": "ஊராட்சி மன்றம்"
+  },
+  "soc_3_t1_l3": {
+    "local": true,
+    "filename": "soc_3_t1_l3",
+    "grade": "3",
+    "title": "ஊராட்சி மன்றம்"
+  },
+  "பாதுகாப்பு": {
+    "local": true,
+    "filename": "soc_3_t1_l4",
+    "grade": "3",
+    "title": "பாதுகாப்பு"
+  },
+  "soc_3_t1_l4": {
+    "local": true,
+    "filename": "soc_3_t1_l4",
+    "grade": "3",
+    "title": "பாதுகாப்பு"
   },
   "வரலாற்றுச் சிறப்புமிக்க இடங்கள்": {
     "local": true,
@@ -2015,17 +2039,17 @@ export const lessonMap = {
     "grade": "3",
     "title": "பணம்"
   },
-  "அலகு 2: கனிம வளங்கள் (Mineral Resources)": {
+  "கனிம வளங்கள் (Mineral Resources)": {
     "local": true,
     "filename": "soc_3_t3_l2",
     "grade": "3",
-    "title": "அலகு 2: கனிம வளங்கள் (Mineral Resources)"
+    "title": "கனிம வளங்கள் (Mineral Resources)"
   },
   "soc_3_t3_l2": {
     "local": true,
     "filename": "soc_3_t3_l2",
     "grade": "3",
-    "title": "அலகு 2: கனிம வளங்கள் (Mineral Resources)"
+    "title": "கனிம வளங்கள் (Mineral Resources)"
   },
   "குழந்தைகளின் பாதுகாப்பு": {
     "local": true,
@@ -2410,6 +2434,12 @@ export const lessonMap = {
     "filename": "tam_3_t1_l1",
     "grade": "3",
     "title": "தமிழ் அமுது"
+  },
+  "செய்து மகிழ்வோம்": {
+    "local": true,
+    "filename": "tam_3_t1_l2",
+    "grade": "3",
+    "title": "செய்து மகிழ்வோம்"
   },
   "tam_3_t1_l2": {
     "local": true,

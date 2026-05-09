@@ -4031,14 +4031,24 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "வா வா முயலே",
+                "title": "குடும்பம்",
                 "isUpdated": true,
                 "code": "soc_3_t1_l1"
               },
               {
-                "title": "செய்து மகிழ்வோம்",
+                "title": "நமது நண்பர்கள்",
                 "isUpdated": true,
                 "code": "soc_3_t1_l2"
+              },
+              {
+                "title": "ஊராட்சி மன்றம்",
+                "isUpdated": true,
+                "code": "soc_3_t1_l3"
+              },
+              {
+                "title": "பாதுகாப்பு",
+                "isUpdated": true,
+                "code": "soc_3_t1_l4"
               }
             ]
           }
