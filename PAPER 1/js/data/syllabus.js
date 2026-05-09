@@ -187,6 +187,31 @@ export const syllabusData = {
                 "code": "tam_4_t2_l6"
               }
             ]
+          },
+          {
+            "title": "அலகு 3",
+            "topics": [
+              {
+                "title": "பனிமலைப் பயணம்",
+                "isUpdated": true,
+                "code": "tam_4_t2_l7"
+              },
+              {
+                "title": "திருக்குறள் கதைகள்",
+                "isUpdated": true,
+                "code": "tam_4_t2_l8"
+              },
+              {
+                "title": "வேலைக்கேற்ற கூலி",
+                "isUpdated": true,
+                "code": "tam_4_t2_l9"
+              },
+              {
+                "title": "அகரமுதலி",
+                "isUpdated": true,
+                "code": "tam_4_t2_l10"
+              }
+            ]
           }
         ]
       }
