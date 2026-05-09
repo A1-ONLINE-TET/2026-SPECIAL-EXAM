@@ -144,6 +144,51 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "அலகு 1",
+            "topics": [
+              {
+                "title": "காவல்காரர்",
+                "isUpdated": true,
+                "code": "tam_4_t2_l1"
+              },
+              {
+                "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!",
+                "isUpdated": true,
+                "code": "tam_4_t2_l2"
+              },
+              {
+                "title": "யானைக்கும் பானைக்கும் சரி",
+                "isUpdated": true,
+                "code": "tam_4_t2_l3"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 2",
+            "topics": [
+              {
+                "title": "நன்னெறி",
+                "isUpdated": true,
+                "code": "tam_4_t2_l4"
+              },
+              {
+                "title": "ஆராய்ந்திட வேண்டும்",
+                "isUpdated": true,
+                "code": "tam_4_t2_l5"
+              },
+              {
+                "title": "பசுவுக்குக் கிடைத்த நீதி",
+                "isUpdated": true,
+                "code": "tam_4_t2_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

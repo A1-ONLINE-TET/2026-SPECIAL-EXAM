@@ -2,26 +2,38 @@ export const lessonMap = {
   "1": {
     "local": true,
     "filename": "1",
-    "grade": "2",
-    "title": "எண்கள் (Numbers)"
+    "grade": "4",
+    "title": "காவல்காரர்"
   },
   "2": {
     "local": true,
     "filename": "2",
-    "grade": "2",
-    "title": "அமைப்புகள்"
+    "grade": "4",
+    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
   },
   "3": {
     "local": true,
     "filename": "3",
-    "grade": "2",
-    "title": "அளவீடுகள்"
+    "grade": "4",
+    "title": "யானைக்கும் பானைக்கும் சரி"
   },
   "4": {
     "local": true,
     "filename": "4",
-    "grade": "2",
-    "title": "பணம்"
+    "grade": "4",
+    "title": "நன்னெறி"
+  },
+  "5": {
+    "local": true,
+    "filename": "5",
+    "grade": "4",
+    "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "6": {
+    "local": true,
+    "filename": "6",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,
@@ -2483,6 +2495,42 @@ export const lessonMap = {
     "grade": "3",
     "title": "பாட்டு வண்டியிலே..."
   },
+  "காவல்காரர்": {
+    "local": true,
+    "filename": "tam_4_t2_l1",
+    "grade": "4",
+    "title": "காவல்காரர்"
+  },
+  "எல்லாரும் இப்படியே இருந்துவிட்டால்!": {
+    "local": true,
+    "filename": "tam_4_t2_l2",
+    "grade": "4",
+    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+  },
+  "யானைக்கும் பானைக்கும் சரி": {
+    "local": true,
+    "filename": "tam_4_t2_l3",
+    "grade": "4",
+    "title": "யானைக்கும் பானைக்கும் சரி"
+  },
+  "நன்னெறி": {
+    "local": true,
+    "filename": "tam_4_t2_l4",
+    "grade": "4",
+    "title": "நன்னெறி"
+  },
+  "ஆராய்ந்திட வேண்டும்": {
+    "local": true,
+    "filename": "tam_4_t2_l5",
+    "grade": "4",
+    "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "பசுவுக்குக் கிடைத்த நீதி": {
+    "local": true,
+    "filename": "tam_4_t2_l6",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
+  },
   "அன்னைத் தமிழே": {
     "local": true,
     "filename": "tam_4_t1_l1",
@@ -2614,6 +2662,42 @@ export const lessonMap = {
     "filename": "tam_4_t1_l9",
     "grade": "4",
     "title": "இயல் 9: விடியும் வேளை *"
+  },
+  "tam_4_t2_l1": {
+    "local": true,
+    "filename": "tam_4_t2_l1",
+    "grade": "4",
+    "title": "காவல்காரர்"
+  },
+  "tam_4_t2_l2": {
+    "local": true,
+    "filename": "tam_4_t2_l2",
+    "grade": "4",
+    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+  },
+  "tam_4_t2_l3": {
+    "local": true,
+    "filename": "tam_4_t2_l3",
+    "grade": "4",
+    "title": "யானைக்கும் பானைக்கும் சரி"
+  },
+  "tam_4_t2_l4": {
+    "local": true,
+    "filename": "tam_4_t2_l4",
+    "grade": "4",
+    "title": "நன்னெறி"
+  },
+  "tam_4_t2_l5": {
+    "local": true,
+    "filename": "tam_4_t2_l5",
+    "grade": "4",
+    "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "tam_4_t2_l6": {
+    "local": true,
+    "filename": "tam_4_t2_l6",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "தமிழின் இனிமை *": {
     "local": true,
