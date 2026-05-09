@@ -787,7 +787,7 @@ export const lessonMap = {
   },
   "அமைப்புகள் (Patterns)": {
     "local": true,
-    "filename": "mat_3_t2_l2",
+    "filename": "mat_3_t3_l3",
     "grade": "3",
     "title": "அமைப்புகள் (Patterns)"
   },
@@ -904,6 +904,72 @@ export const lessonMap = {
     "filename": "mat_3_t2_l5",
     "grade": "3",
     "title": "வழித்தடங்கள் மற்றும் எண்கள் (தகவல் செயலாக்கம்)"
+  },
+  "mat_3_t3_l1": {
+    "local": true,
+    "filename": "mat_3_t3_l1",
+    "grade": "3",
+    "title": "வடிவியல்"
+  },
+  "அலகு 2: எண்கள் (வகுத்தல்)": {
+    "local": true,
+    "filename": "mat_3_t3_l2",
+    "grade": "3",
+    "title": "அலகு 2: எண்கள் (வகுத்தல்)"
+  },
+  "mat_3_t3_l2": {
+    "local": true,
+    "filename": "mat_3_t3_l2",
+    "grade": "3",
+    "title": "அலகு 2: எண்கள் (வகுத்தல்)"
+  },
+  "mat_3_t3_l3": {
+    "local": true,
+    "filename": "mat_3_t3_l3",
+    "grade": "3",
+    "title": "அமைப்புகள் (Patterns)"
+  },
+  "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)": {
+    "local": true,
+    "filename": "mat_3_t3_l4",
+    "grade": "3",
+    "title": "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)"
+  },
+  "mat_3_t3_l4": {
+    "local": true,
+    "filename": "mat_3_t3_l4",
+    "grade": "3",
+    "title": "அலகு 4: அளவைகள் (Measurement - கொள்ளளவு)"
+  },
+  "mat_3_t3_l5": {
+    "local": true,
+    "filename": "mat_3_t3_l5",
+    "grade": "3",
+    "title": "பணம்"
+  },
+  "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)": {
+    "local": true,
+    "filename": "mat_3_t3_l6",
+    "grade": "3",
+    "title": "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)"
+  },
+  "mat_3_t3_l6": {
+    "local": true,
+    "filename": "mat_3_t3_l6",
+    "grade": "3",
+    "title": "அலகு 6: நேரம் (கால முறை வரிசை மற்றும் கால சுழற்சி நிகழ்வுகள்)"
+  },
+  "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)": {
+    "local": true,
+    "filename": "mat_3_t3_l7",
+    "grade": "3",
+    "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
+  },
+  "mat_3_t3_l7": {
+    "local": true,
+    "filename": "mat_3_t3_l7",
+    "grade": "3",
+    "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
   },
   "அலகு 1: வடிவியல்": {
     "local": true,
