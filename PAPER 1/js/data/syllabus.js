@@ -162,7 +162,7 @@ export const syllabusData = {
                 "code": "tam_4_t2_l2"
               },
               {
-                "title": "யானைக்கும் பானைக்கும் சரி",
+                "title": "பசுவுக்குக் கிடைத்த நீதி",
                 "isUpdated": true,
                 "code": "tam_4_t2_l3"
               }
@@ -177,12 +177,12 @@ export const syllabusData = {
                 "code": "tam_4_t2_l4"
               },
               {
-                "title": "ஆராய்ந்திட வேண்டும்",
+                "title": "யானைக்கும் பானைக்கும் சரி",
                 "isUpdated": true,
                 "code": "tam_4_t2_l5"
               },
               {
-                "title": "பசுவுக்குக் கிடைத்த நீதி",
+                "title": "ஆராய்ந்திட வேண்டும்",
                 "isUpdated": true,
                 "code": "tam_4_t2_l6"
               }
@@ -4141,7 +4141,7 @@ export const syllabusData = {
                 "code": "soc_3_t2_l2"
               },
               {
-                "title": "மாவட்ட நிர்வாகம்",
+                "title": "மாவட்ட நிருவாகம்",
                 "isUpdated": true,
                 "code": "soc_3_t2_l3"
               }
@@ -4161,7 +4161,7 @@ export const syllabusData = {
                 "code": "soc_3_t3_l1"
               },
               {
-                "title": "கனிம வளங்கள்",
+                "title": "கனிம வளங்கள் (Mineral Resources)",
                 "isUpdated": true,
                 "code": "soc_3_t3_l2"
               },

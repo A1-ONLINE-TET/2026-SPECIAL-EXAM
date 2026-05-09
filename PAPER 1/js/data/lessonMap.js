@@ -35,28 +35,6 @@ export const lessonMap = {
     "grade": "4",
     "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
-  "7": {
-    "local": true,
-    "filename": "7",
-    "grade": "4",
-    "title": "பனிமலைப் பயணம்"
-  },
-  "8": {
-    "local": true,
-    "filename": "8",
-    "grade": "4"
-  },
-  "9": {
-    "local": true,
-    "filename": "9",
-    "grade": "4"
-  },
-  "10": {
-    "local": true,
-    "filename": "10",
-    "grade": "4",
-    "title": "அகரமுதலி - சொற்பொருள்"
-  },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,
     "filename": "eng_2_t1_l1",
@@ -2523,12 +2501,6 @@ export const lessonMap = {
     "grade": "4",
     "title": "காவல்காரர்"
   },
-  "அகரமுதலி - சொற்பொருள்": {
-    "local": true,
-    "filename": "10",
-    "grade": "4",
-    "title": "அகரமுதலி - சொற்பொருள்"
-  },
   "எல்லாரும் இப்படியே இருந்துவிட்டால்!": {
     "local": true,
     "filename": "tam_4_t2_l2",
@@ -2537,7 +2509,7 @@ export const lessonMap = {
   },
   "யானைக்கும் பானைக்கும் சரி": {
     "local": true,
-    "filename": "tam_4_t2_l3",
+    "filename": "tam_4_t2_l5",
     "grade": "4",
     "title": "யானைக்கும் பானைக்கும் சரி"
   },
@@ -2549,21 +2521,15 @@ export const lessonMap = {
   },
   "ஆராய்ந்திட வேண்டும்": {
     "local": true,
-    "filename": "tam_4_t2_l5",
+    "filename": "tam_4_t2_l6",
     "grade": "4",
     "title": "ஆராய்ந்திட வேண்டும்"
   },
   "பசுவுக்குக் கிடைத்த நீதி": {
     "local": true,
-    "filename": "tam_4_t2_l6",
+    "filename": "tam_4_t2_l3",
     "grade": "4",
     "title": "பசுவுக்குக் கிடைத்த நீதி"
-  },
-  "பனிமலைப் பயணம்": {
-    "local": true,
-    "filename": "tam_4_t2_l7",
-    "grade": "4",
-    "title": "பனிமலைப் பயணம்"
   },
   "அன்னைத் தமிழே": {
     "local": true,
@@ -2637,30 +2603,6 @@ export const lessonMap = {
     "grade": "4",
     "title": "இயல் 5: முளைப்பாரி - பாடல் *"
   },
-  "இயல் 6: பண்படுத்தும் பழமொழிகள் *": {
-    "local": true,
-    "filename": "tam_4_t1_l6",
-    "grade": "4",
-    "title": "இயல் 6: பண்படுத்தும் பழமொழிகள் *"
-  },
-  "tam_4_t1_l6": {
-    "local": true,
-    "filename": "tam_4_t1_l6",
-    "grade": "4",
-    "title": "இயல் 6: பண்படுத்தும் பழமொழிகள் *"
-  },
-  "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்": {
-    "local": true,
-    "filename": "tam_4_t1_l7",
-    "grade": "4",
-    "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்"
-  },
-  "tam_4_t1_l7": {
-    "local": true,
-    "filename": "tam_4_t1_l7",
-    "grade": "4",
-    "title": "ஏழு இறக்கைக் குருவியும் தெனாலிராமனும்"
-  },
   "இயல் 8: வெற்றி வேற்கை *": {
     "local": true,
     "filename": "tam_4_t1_l8",
@@ -2713,7 +2655,7 @@ export const lessonMap = {
     "local": true,
     "filename": "tam_4_t2_l3",
     "grade": "4",
-    "title": "யானைக்கும் பானைக்கும் சரி"
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "tam_4_t2_l4": {
     "local": true,
@@ -2725,13 +2667,19 @@ export const lessonMap = {
     "local": true,
     "filename": "tam_4_t2_l5",
     "grade": "4",
-    "title": "ஆராய்ந்திட வேண்டும்"
+    "title": "யானைக்கும் பானைக்கும் சரி"
   },
   "tam_4_t2_l6": {
     "local": true,
     "filename": "tam_4_t2_l6",
     "grade": "4",
-    "title": "பசுவுக்குக் கிடைத்த நீதி"
+    "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "பனிமலைப் பயணம்": {
+    "local": true,
+    "filename": "tam_4_t2_l7",
+    "grade": "4",
+    "title": "பனிமலைப் பயணம்"
   },
   "tam_4_t2_l7": {
     "local": true,
