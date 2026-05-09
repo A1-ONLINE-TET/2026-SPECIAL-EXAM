@@ -1307,10 +1307,41 @@ export const lessonMap = {
     "grade": "all",
     "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)"
   },
+  "TN TET Psychology Quiz - Paper 1 & 2": {
+    "local": true,
+    "filename": "tntet_paper1_model_3",
+    "grade": "all",
+    "title": "TN TET Psychology Quiz - Paper 1 & 2"
+  },
   "tntet_paper1_model_3": {
     "local": true,
     "filename": "tntet_paper1_model_3",
-    "grade": "all"
+    "grade": "all",
+    "title": "TN TET Psychology Quiz - Paper 1 & 2"
+  },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
+    "local": true,
+    "filename": "tntet_paper1_model_4",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் (150 வினாக்கள்)"
+  },
+  "tntet_paper1_model_4": {
+    "local": true,
+    "filename": "tntet_paper1_model_4",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் (150 வினாக்கள்)"
+  },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)": {
+    "local": true,
+    "filename": "tntet_paper1_model_5",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)"
+  },
+  "tntet_paper1_model_5": {
+    "local": true,
+    "filename": "tntet_paper1_model_5",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)"
   },
   "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
     "local": true,

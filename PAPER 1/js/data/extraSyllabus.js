@@ -72,9 +72,19 @@ export const extraSyllabusData = {
                 "code": "tntet_paper1_model_2"
               },
               {
-                "title": "தாள் 1 - மாதிரி வினாத்தாள் 3 (TN TET Psychology)",
+                "title": "TN TET Psychology Quiz - Paper 1 & 2",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_3"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_4"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_5"
               }
             ]
           }
