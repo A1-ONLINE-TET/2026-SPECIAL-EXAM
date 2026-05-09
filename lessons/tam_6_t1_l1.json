@@ -1,0 +1,426 @@
+{
+  "title": "இன்பத்தமிழ் *",
+  "lessonId": "இன்பத்தமிழ் *",
+  "material": {
+    "sections": [
+      {
+        "title": "1. பாடல் ஒப்பீடுகள் (Metaphors)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாரதிதாசன் தமிழை எவற்றுடன் ஒப்பிட்டு எங்கள் 'உயிருக்கு' இணையானது என்கிறார்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அமுது</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">உயிருக்கு</span> நேர்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சமூகத்தின் வளர்ச்சிக்குத் தமிழ் எதைப் போன்றது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">விளைவுக்கு (வளர்ச்சிக்கு) நீர்</span> (தமிழுக்கு <span style=\"color:var(--primary);font-weight:700;\">நிலவு</span> என்று பெயர்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எங்கள் வாழ்விற்காகவே உருவாக்கப்பட்ட ஊராகக் கருதப்படுவது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நிருமித்த (உருவாக்கிய) ஊர்</span> (தமிழுக்கு <span style=\"color:var(--primary);font-weight:700;\">மணம்</span> என்று பெயர்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் எங்கள் இளமைக்கு எதைப் போன்றது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பால்</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">இளமைக்கு</span> ஆதாரமானது)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் புகழ்மிக்க புலவர்க்கு எதைப் போன்றது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">வேல்</span> (<span style=\"color:var(--primary);font-weight:700;\">புலவர்க்கு</span> கூர்மையான கருவி)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எங்கள் உயர்வுக்கு எல்லையாகத் தமிழ் எவ்வாறு உருவகப்படுத்தப்படுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">வான்</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">உயர்வுக்கு</span> எல்லை)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எங்கள் சோர்வை நீக்கக் கூடிய ஒளியாகத் தமிழ் எவ்வாறு உருவகப்படுத்தப்படுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 சுடர் தந்த <span style=\"color:var(--primary);font-weight:700;\">தேன்</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">அசதிக்கு (சோர்வுக்கு)</span>)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அறிவுக்குத் துணையாகத் தமிழ் எவற்றுடன் ஒப்பிடப்படுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 துணை நிற்கும் <span style=\"color:var(--primary);font-weight:700;\">தோள்</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">அறிவுக்குத்</span>)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கவிதைக்கு உறுதியாகத் தமிழ் எவற்றுடன் ஒப்பிடப்படுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வைரத்தின் <span style=\"color:var(--primary);font-weight:700;\">வாள்</span> (எங்கள் <span style=\"color:var(--primary);font-weight:700;\">கவிதைக்கு</span>)</div>\n        </div>\n    "
+      },
+      {
+        "title": "2. சொல்லும் பொருளும் (Vocabulary)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ நிருமித்த</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">உருவாக்கிய</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ விளைவு</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">வளர்ச்சி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சமூகம்</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">மக்கள் குழு</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அசதி</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">சோர்வு</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "3. நூல் வெளி (ஆசிரியர் குறிப்பு)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாரதிதாசனின் இயற்பெயர் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கனகசுப்புரத்தினம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாரதியார் கவிதைகள் மீது கொண்ட பற்றால் கனகசுப்புரத்தினம் தன் பெயரை எவ்வாறு மாற்றிக் கொண்டார்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாரதிதாசன்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாரதிதாசன் தன் கவிதைகளில் பாடிய புரட்சிகரமான பாடுபொருட்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பெண்கல்வி</span>, <span style=\"color:var(--primary);font-weight:700;\">கைம்பெண் மறுமணம்</span>, <span style=\"color:var(--primary);font-weight:700;\">பொதுவுடைமை</span>, <span style=\"color:var(--primary);font-weight:700;\">பகுத்தறிவு</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ புரட்சிக்கவி என்று போற்றப்படுபவர் யார்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாரதிதாசன்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாரதிதாசனுக்கு வழங்கும் மற்றொரு சிறப்புப் பெயர் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாவேந்தர்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இன்பத்தமிழ் பாடல் எந்த நூலில் இடம்பெற்றுள்ளது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாரதிதாசன் கவிதைகள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இன்பத்தமிழ் பாடல் எந்தத் தலைப்பின் கீழ் இடம்பெற்றுள்ளது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தமிழ்</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "4. மதிப்பீடு - இலக்கணம்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 'அமுதென்று' - பிரித்து எழுதுக</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அமுது + என்று</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 'செம்பயிர்' - பிரித்து எழுதுக</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">செம்மை + பயிர்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 'நிலவு + என்று' - சேர்த்து எழுதுக</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நிலவென்று</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 'தமிழ் + எங்கள்' - சேர்த்து எழுதுக</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தமிழெங்கள்</span></div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "பாரதிதாசன் தமிழை எவற்றுடன் ஒப்பிட்டு எங்கள் 'உயிருக்கு' இணையானது என்கிறார்?",
+      "a": "அமுது (எங்கள் உயிருக்கு நேர்)"
+    },
+    {
+      "q": "சமூகத்தின் வளர்ச்சிக்குத் தமிழ் எதைப் போன்றது?",
+      "a": "விளைவுக்கு (வளர்ச்சிக்கு) நீர் (தமிழுக்கு நிலவு என்று பெயர்)"
+    },
+    {
+      "q": "எங்கள் வாழ்விற்காகவே உருவாக்கப்பட்ட ஊராகக் கருதப்படுவது எது?",
+      "a": "நிருமித்த (உருவாக்கிய) ஊர் (தமிழுக்கு மணம் என்று பெயர்)"
+    },
+    {
+      "q": "தமிழ் எங்கள் இளமைக்கு எதைப் போன்றது?",
+      "a": "பால் (எங்கள் இளமைக்கு ஆதாரமானது)"
+    },
+    {
+      "q": "தமிழ் புகழ்மிக்க புலவர்க்கு எதைப் போன்றது?",
+      "a": "வேல் (புலவர்க்கு கூர்மையான கருவி)"
+    },
+    {
+      "q": "எங்கள் உயர்வுக்கு எல்லையாகத் தமிழ் எவ்வாறு உருவகப்படுத்தப்படுகிறது?",
+      "a": "வான் (எங்கள் உயர்வுக்கு எல்லை)"
+    },
+    {
+      "q": "எங்கள் சோர்வை நீக்கக் கூடிய ஒளியாகத் தமிழ் எவ்வாறு உருவகப்படுத்தப்படுகிறது?",
+      "a": "சுடர் தந்த தேன் (எங்கள் அசதிக்கு (சோர்வுக்கு))"
+    },
+    {
+      "q": "அறிவுக்குத் துணையாகத் தமிழ் எவற்றுடன் ஒப்பிடப்படுகிறது?",
+      "a": "துணை நிற்கும் தோள் (எங்கள் அறிவுக்குத்)"
+    },
+    {
+      "q": "கவிதைக்கு உறுதியாகத் தமிழ் எவற்றுடன் ஒப்பிடப்படுகிறது?",
+      "a": "வைரத்தின் வாள் (எங்கள் கவிதைக்கு)"
+    },
+    {
+      "q": "நிருமித்த",
+      "a": "உருவாக்கிய"
+    },
+    {
+      "q": "விளைவு",
+      "a": "வளர்ச்சி"
+    },
+    {
+      "q": "சமூகம்",
+      "a": "மக்கள் குழு"
+    },
+    {
+      "q": "அசதி",
+      "a": "சோர்வு"
+    },
+    {
+      "q": "பாரதிதாசனின் இயற்பெயர் என்ன?",
+      "a": "கனகசுப்புரத்தினம்"
+    },
+    {
+      "q": "பாரதியார் கவிதைகள் மீது கொண்ட பற்றால் கனகசுப்புரத்தினம் தன் பெயரை எவ்வாறு மாற்றிக் கொண்டார்?",
+      "a": "பாரதிதாசன்"
+    },
+    {
+      "q": "பாரதிதாசன் தன் கவிதைகளில் பாடிய புரட்சிகரமான பாடுபொருட்கள் யாவை?",
+      "a": "பெண்கல்வி, கைம்பெண் மறுமணம், பொதுவுடைமை, பகுத்தறிவு"
+    },
+    {
+      "q": "புரட்சிக்கவி என்று போற்றப்படுபவர் யார்?",
+      "a": "பாரதிதாசன்"
+    },
+    {
+      "q": "பாரதிதாசனுக்கு வழங்கும் மற்றொரு சிறப்புப் பெயர் என்ன?",
+      "a": "பாவேந்தர்"
+    },
+    {
+      "q": "இன்பத்தமிழ் பாடல் எந்த நூலில் இடம்பெற்றுள்ளது?",
+      "a": "பாரதிதாசன் கவிதைகள்"
+    },
+    {
+      "q": "இன்பத்தமிழ் பாடல் எந்தத் தலைப்பின் கீழ் இடம்பெற்றுள்ளது?",
+      "a": "தமிழ்"
+    },
+    {
+      "q": "'அமுதென்று' - பிரித்து எழுதுக",
+      "a": "அமுது + என்று"
+    },
+    {
+      "q": "'செம்பயிர்' - பிரித்து எழுதுக",
+      "a": "செம்மை + பயிர்"
+    },
+    {
+      "q": "'நிலவு + என்று' - சேர்த்து எழுதுக",
+      "a": "நிலவென்று"
+    },
+    {
+      "q": "'தமிழ் + எங்கள்' - சேர்த்து எழுதுக",
+      "a": "தமிழெங்கள்"
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "தமிழுக்கு அமுதென்று பேர் - அந்தத் தமிழ் எங்கள் உயிருக்கு ____?",
+        "options": [
+          "தேன்",
+          "நேர்",
+          "வான்",
+          "தோள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "சமூகத்தின் விளைவுக்குத் தமிழ் எதைப் போன்றது?",
+        "options": [
+          "நீர்",
+          "பால்",
+          "வேல்",
+          "தேன்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "தமிழுக்கு நிலவென்று பேர் - இன்பத் தமிழ் எங்கள் சமூகத்தின் ____ நீர்?",
+        "options": [
+          "வாழ்வுக்கு",
+          "வளர்ச்சிக்கு",
+          "விளைவுக்கு",
+          "அறிவுக்கு"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "தமிழுக்கு மணமென்று பேர் - அது எங்கள் வாழ்வுக்காகவே ____ ஊர்?",
+        "options": [
+          "அமைத்த",
+          "நிருமித்த",
+          "தோற்றுவித்த",
+          "வளர்த்த"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ் எங்கள் இளமைக்குப் ____?",
+        "options": [
+          "நீர்",
+          "வேல்",
+          "பால்",
+          "தேன்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "புகழ்மிக்க புலவர்க்குத் தமிழ் எதைப் போன்றது?",
+        "options": [
+          "வாள்",
+          "வேல்",
+          "தோள்",
+          "கோல்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ் எங்கள் உயர்வுக்கு ____?",
+        "options": [
+          "நிலவு",
+          "வான்",
+          "தேன்",
+          "தோள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எங்கள் அசதிக்குச் சுடர் தந்த ____ போன்றது தமிழ்?",
+        "options": [
+          "தேன்",
+          "நீர்",
+          "பால்",
+          "அமுது"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "தமிழ் எங்கள் அறிவுக்குத் ____?",
+        "options": [
+          "வேல்",
+          "வாள்",
+          "தோள்",
+          "பால்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "எங்கள் கவிதைக்கு வைரத்தின் ____ போன்றது தமிழ்?",
+        "options": [
+          "வேல்",
+          "தோள்",
+          "வாள்",
+          "வான்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "'நிருமித்த' என்பதன் பொருள் யாது?",
+        "options": [
+          "வளர்ந்த",
+          "உருவாக்கிய",
+          "மறைந்த",
+          "அழித்த"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "'விளைவு' என்பதன் பொருள் யாது?",
+        "options": [
+          "சோர்வு",
+          "வளர்ச்சி",
+          "மகிழ்ச்சி",
+          "துக்கம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "'சமூகம்' என்பதன் பொருள் யாது?",
+        "options": [
+          "மக்கள் குழு",
+          "விலங்கு கூட்டம்",
+          "பறவை இனம்",
+          "நாடு"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "'அசதி' என்பதன் பொருள் யாது?",
+        "options": [
+          "மகிழ்ச்சி",
+          "சோர்வு",
+          "கோபம்",
+          "அமைதி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாரதிதாசனின் இயற்பெயர் என்ன?",
+        "options": [
+          "சுப்பிரமணியம்",
+          "கனகசுப்புரத்தினம்",
+          "முத்துசாமி",
+          "வீரராகவன்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாரதிதாசன் யாரிடம் கொண்ட பற்றால் தன் பெயரை மாற்றிக் கொண்டார்?",
+        "options": [
+          "கம்பர்",
+          "பாரதியார்",
+          "ஔவையார்",
+          "திருவள்ளுவர்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாரதிதாசன் கவிதைகளில் இடம்பெறும் புரட்சிகரமான கருத்து எது?",
+        "options": [
+          "பெண்கல்வி",
+          "கைம்பெண் மறுமணம்",
+          "பொதுவுடைமை",
+          "இவை அனைத்தும்"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "பாரதிதாசன் எவ்வாறு போற்றப்படுகிறார்?",
+        "options": [
+          "தேசியக்கவி",
+          "புரட்சிக்கவி",
+          "கவிமணி",
+          "நாமக்கல் கவிஞர்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாரதிதாசனின் மற்றொரு சிறப்புப் பெயர் யாது?",
+        "options": [
+          "பாவேந்தர்",
+          "மகாக்கவி",
+          "கவிக்கோ",
+          "கலைக்கோ"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "இன்பத்தமிழ் பாடல் எந்தத் தலைப்பின் கீழ் இடம்பெற்றுள்ளது?",
+        "options": [
+          "இயற்கை",
+          "தமிழ்",
+          "நாடு",
+          "பெண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "ஏற்றத்தாழ்வற்ற ____ அமைய வேண்டும்?",
+        "options": [
+          "சமூகம்",
+          "நாடு",
+          "வீடு",
+          "தெரு"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "நாள் முழுவதும் வேலை செய்து களைத்தவருக்கு ____ ஆக இருக்கும்?",
+        "options": [
+          "மகிழ்ச்சி",
+          "சோர்வு",
+          "வருத்தம்",
+          "அசதி"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "'நிலவு + என்று' - சேர்த்தெழுதுக:",
+        "options": [
+          "நிலாவென்று",
+          "நிலவென்று",
+          "நிலவுஎன்று",
+          "நிலாவென்று"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "'தமிழ் + எங்கள்' - சேர்த்தெழுதுக:",
+        "options": [
+          "தமிழங்கள்",
+          "தமிழெங்கள்",
+          "தமிழுங்கள்",
+          "தமிழெங்கள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "'அமுதென்று' - பிரித்தெழுதுக:",
+        "options": [
+          "அமுது + என்று",
+          "அமு + தென்று",
+          "அமுது + தென்று",
+          "அமு + என்று"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "'செம்பயிர்' - பிரித்தெழுதுக:",
+        "options": [
+          "செம் + பயிர்",
+          "செம்மை + பயிர்",
+          "செமை + பயிர்",
+          "செம்பு + பயிர்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "அறிவுக்குத் தோள் என்பது எப்பாடலின் கருத்து?",
+        "options": [
+          "தமிழ் கும்மி",
+          "இன்பத்தமிழ்",
+          "வளர் தமிழ்",
+          "சிலப்பதிகாரம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "புலவர்க்கு வேல் என்பது எதனைக் குறிக்கிறது?",
+        "options": [
+          "தமிழ்",
+          "அறிவு",
+          "சமூகம்",
+          "வான்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "இன்பத்தமிழ் பாடல் இடம்பெற்ற நூல் எது?",
+        "options": [
+          "பாரதியார் கவிதைகள்",
+          "பாரதிதாசன் கவிதைகள்",
+          "தேசிய கவிதைகள்",
+          "தமிழ் தேன்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழுக்கு மணம் என்று பேர் - இது எதற்காக உருவான ஊர்?",
+        "options": [
+          "அறிவுக்கு",
+          "வாழ்வுக்கு",
+          "இளமைக்கு",
+          "புலவர்க்கு"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

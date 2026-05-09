@@ -1,0 +1,490 @@
+{
+  "title": "இடமதிப்பு & ஒப்பிடுதல் (Place Value & Comparison)",
+  "lessonId": "இடமதிப்பு_ஒப்பிடுதல்",
+  "material": {
+    "sections": [
+      {
+        "title": "1. இடமதிப்பு விளக்கம் (Place Value System)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இந்திய எண் முறையில் இடமதிப்புகள் எவ்வாறு பிரிக்கப்படுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஒன்றுகள், பத்துகள், நூறுகள்</span>, <span style=\"color:var(--primary);font-weight:700;\">ஆயிரங்கள், பத்தாயிரங்கள்</span>, <span style=\"color:var(--primary);font-weight:700;\">லட்சங்கள், பத்து லட்சங்கள்</span>, <span style=\"color:var(--primary);font-weight:700;\">கோடிகள், பத்து கோடிகள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பன்னாட்டு எண் முறையில் இடமதிப்புகள் எவ்வாறு பிரிக்கப்படுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">Ones, Tens, Hundreds</span>, <span style=\"color:var(--primary);font-weight:700;\">Thousands, Ten Thousands, Hundred Thousands</span>, <span style=\"color:var(--primary);font-weight:700;\">Millions, Ten Millions, Hundred Millions</span>, <span style=\"color:var(--primary);font-weight:700;\">Billions</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இந்திய முறையில் 'கால்புள்ளி' (Comma) இடும் முறை என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வலமிருந்து முதல் <span style=\"color:var(--primary);font-weight:700;\">3 இலக்கங்களுக்கு</span> முன்னும், பின் ஒவ்வொரு <span style=\"color:var(--primary);font-weight:700;\">2 இலக்கங்களுக்கு</span> முன்னும் இட வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பன்னாட்டு முறையில் 'கால்புள்ளி' (Comma) இடும் முறை என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வலமிருந்து ஒவ்வொரு <span style=\"color:var(--primary);font-weight:700;\">3 இலக்கங்களுக்கு</span> முன்னும் இட வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 100 லட்சம் என்பது இந்திய முறையில் எதற்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1 கோடி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1 மில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10 லட்சம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1 பில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100 கோடி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 100 மில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10 கோடி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண்களை வாசிக்கவும் எழுதவும் உதவுவது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இடமதிப்பு அட்டவணை</span> மற்றும் <span style=\"color:var(--primary);font-weight:700;\">கால்புள்ளிகள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 6 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9,99,999</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "2. எண்களை ஒப்பிடுதல் (Comparison of Numbers)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வெவ்வேறு இலக்கங்களைக் கொண்ட எண்களை ஒப்பிடும்போது எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அதிக இலக்கங்கள்</span> கொண்ட எண் பெரியது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரே எண்ணிக்கையிலான இலக்கங்கள் இருந்தால் எண்களை எவ்வாறு ஒப்பிட வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இடது ஓரத்தில்</span> உள்ள உயர்ந்த இடமதிப்பு இலக்கத்திலிருந்து ஒப்பிட வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பெரியது என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">></span> (Greater than)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சிறியது என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\"><</span> (Less than)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சமம் என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">=</span> (Equal to)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஏறுவரிசை (Ascending Order) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 எண்களை <span style=\"color:var(--primary);font-weight:700;\">சிறியதிலிருந்து பெரியதாக</span> வரிசைப்படுத்துதல்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இறங்குவரிசை (Descending Order) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 எண்களை <span style=\"color:var(--primary);font-weight:700;\">பெரியதிலிருந்து சிறியதாக</span> வரிசைப்படுத்துதல்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 54,678 மற்றும் 5,46,780 இதில் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">5,46,780</span> (ஏனெனில் இது 6 இலக்கங்களைக் கொண்டது)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 9,99,999-ன் தொடரி (Successor) எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,00,000</span> (10 லட்சம்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1,00,000-ன் முன்னி (Predecessor) எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">99,999</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "3. முக்கிய விதிகள் & குறியீடுகள்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பூஜ்ஜியத்தைக் கொண்டு ஒரு எண்ணைத் தொடங்கலாமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கூடாது</span>, பூஜ்ஜியத்தில் தொடங்கினால் அந்த இலக்கம் கணக்கில் வராது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இலக்கங்களை இடமாற்றினால் எண்ணின் மதிப்பு மாறுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், இலக்கங்களின் <span style=\"color:var(--primary);font-weight:700;\">இடமதிப்பு</span> மாறுவதால் மதிப்பு மாறும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகச்சிறிய 7 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,00,000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">மிகச்சிறிய 5 இலக்க எண்</span> (10,000)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 10-ன் அடுக்குகள் கொண்டு ஒரு எண்ணை எழுதுவது எவ்வாறு அழைக்கப்படும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">விரிவு குறியீடு</span> (Expanded form)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பத்து கோடியின் இடமதிப்பு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,00,00,000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண்களை ஒப்பிடும்போது முதலில் எதை கவனிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இலக்கங்களின் எண்ணிக்கை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0, 1, 2 ஆகிய இலக்கங்களை ஒருமுறை மட்டும் பயன்படுத்தி உருவாகும் மிகப்பெரிய எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">210</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0, 1, 2 ஆகிய இலக்கங்களை ஒருமுறை மட்டும் பயன்படுத்தி உருவாகும் மிகச்சிறிய எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">102</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எண்ணின் தொடரிக்கும் முன்னிக்கும் உள்ள வித்தியாசம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">2</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "4. பயிற்சிகள் & முயற்சிக்க (Try these)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 10 லட்சத்தில் எத்தனை பத்தாயிரங்கள் உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100</span> பத்தாயிரங்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கோடியில் எத்தனை பத்தாயிரங்கள் உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1,000</span> பத்தாயிரங்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1000 மில்லியன்கள் என்பது என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1 பில்லியன்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இந்திய முறையில் 98470562-க்கு கமா இடுக:</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9,84,70,562</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பன்னாட்டு முறையில் 98470562-க்கு கமா இடுக:</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">98,470,562</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எந்த எண்ணுக்கும் முன்னி கிடையாது (இயல் எண்கள் தொகுப்பில்)?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ முழு எண்கள் தொகுப்பில் முன்னி இல்லாத எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 99,999 + 1 = ?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1,00,000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 8 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9,99,99,999</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இடமதிப்பு அட்டவணையில் இடமிருந்து வலமாகச் செல்லும்போது மதிப்பு எவ்வாறு மாறும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 மதிப்பு <span style=\"color:var(--primary);font-weight:700;\">10 மடங்கு குறையும்</span></div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "இந்திய எண் முறையில் இடமதிப்புகள் எவ்வாறு பிரிக்கப்படுகின்றன?",
+      "a": "ஒன்றுகள், பத்துகள், நூறுகள், ஆயிரங்கள், பத்தாயிரங்கள், லட்சங்கள், பத்து லட்சங்கள், கோடிகள், பத்து கோடிகள்"
+    },
+    {
+      "q": "பன்னாட்டு எண் முறையில் இடமதிப்புகள் எவ்வாறு பிரிக்கப்படுகின்றன?",
+      "a": "Ones, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions, Hundred Millions, Billions"
+    },
+    {
+      "q": "இந்திய முறையில் 'கால்புள்ளி' (Comma) இடும் முறை என்ன?",
+      "a": "வலமிருந்து முதல் 3 இலக்கங்களுக்கு முன்னும், பின் ஒவ்வொரு 2 இலக்கங்களுக்கு முன்னும் இட வேண்டும்."
+    },
+    {
+      "q": "பன்னாட்டு முறையில் 'கால்புள்ளி' (Comma) இடும் முறை என்ன?",
+      "a": "வலமிருந்து ஒவ்வொரு 3 இலக்கங்களுக்கு முன்னும் இட வேண்டும்."
+    },
+    {
+      "q": "100 லட்சம் என்பது இந்திய முறையில் எதற்குச் சமம்?",
+      "a": "1 கோடி"
+    },
+    {
+      "q": "1 மில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?",
+      "a": "10 லட்சம்"
+    },
+    {
+      "q": "1 பில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?",
+      "a": "100 கோடி"
+    },
+    {
+      "q": "100 மில்லியன் என்பது இந்திய முறையில் எதற்குச் சமம்?",
+      "a": "10 கோடி"
+    },
+    {
+      "q": "எண்களை வாசிக்கவும் எழுதவும் உதவுவது எது?",
+      "a": "இடமதிப்பு அட்டவணை மற்றும் கால்புள்ளிகள்"
+    },
+    {
+      "q": "மிகப்பெரிய 6 இலக்க எண் எது?",
+      "a": "9,99,999"
+    },
+    {
+      "q": "வெவ்வேறு இலக்கங்களைக் கொண்ட எண்களை ஒப்பிடும்போது எது பெரியது?",
+      "a": "அதிக இலக்கங்கள் கொண்ட எண் பெரியது."
+    },
+    {
+      "q": "ஒரே எண்ணிக்கையிலான இலக்கங்கள் இருந்தால் எண்களை எவ்வாறு ஒப்பிட வேண்டும்?",
+      "a": "இடது ஓரத்தில் உள்ள உயர்ந்த இடமதிப்பு இலக்கத்திலிருந்து ஒப்பிட வேண்டும்."
+    },
+    {
+      "q": "பெரியது என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": "> (Greater than)"
+    },
+    {
+      "q": "சிறியது என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": "< (Less than)"
+    },
+    {
+      "q": "சமம் என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": "= (Equal to)"
+    },
+    {
+      "q": "ஏறுவரிசை (Ascending Order) என்றால் என்ன?",
+      "a": "எண்களை சிறியதிலிருந்து பெரியதாக வரிசைப்படுத்துதல்."
+    },
+    {
+      "q": "இறங்குவரிசை (Descending Order) என்றால் என்ன?",
+      "a": "எண்களை பெரியதிலிருந்து சிறியதாக வரிசைப்படுத்துதல்."
+    },
+    {
+      "q": "54,678 மற்றும் 5,46,780 இதில் எது பெரியது?",
+      "a": "5,46,780 (ஏனெனில் இது 6 இலக்கங்களைக் கொண்டது)"
+    },
+    {
+      "q": "9,99,999-ன் தொடரி (Successor) எது?",
+      "a": "10,00,000 (10 லட்சம்)"
+    },
+    {
+      "q": "1,00,000-ன் முன்னி (Predecessor) எது?",
+      "a": "99,999"
+    },
+    {
+      "q": "பூஜ்ஜியத்தைக் கொண்டு ஒரு எண்ணைத் தொடங்கலாமா?",
+      "a": "கூடாது, பூஜ்ஜியத்தில் தொடங்கினால் அந்த இலக்கம் கணக்கில் வராது."
+    },
+    {
+      "q": "இலக்கங்களை இடமாற்றினால் எண்ணின் மதிப்பு மாறுமா?",
+      "a": "ஆம், இலக்கங்களின் இடமதிப்பு மாறுவதால் மதிப்பு மாறும்."
+    },
+    {
+      "q": "மிகச்சிறிய 7 இலக்க எண் எது?",
+      "a": "10,00,000"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது?",
+      "a": "மிகச்சிறிய 5 இலக்க எண் (10,000)"
+    },
+    {
+      "q": "10-ன் அடுக்குகள் கொண்டு ஒரு எண்ணை எழுதுவது எவ்வாறு அழைக்கப்படும்?",
+      "a": "விரிவு குறியீடு (Expanded form)"
+    },
+    {
+      "q": "பத்து கோடியின் இடமதிப்பு என்ன?",
+      "a": "10,00,00,000"
+    },
+    {
+      "q": "எண்களை ஒப்பிடும்போது முதலில் எதை கவனிக்க வேண்டும்?",
+      "a": "இலக்கங்களின் எண்ணிக்கை"
+    },
+    {
+      "q": "0, 1, 2 ஆகிய இலக்கங்களை ஒருமுறை மட்டும் பயன்படுத்தி உருவாகும் மிகப்பெரிய எண்?",
+      "a": "210"
+    },
+    {
+      "q": "0, 1, 2 ஆகிய இலக்கங்களை ஒருமுறை மட்டும் பயன்படுத்தி உருவாகும் மிகச்சிறிய எண்?",
+      "a": "102"
+    },
+    {
+      "q": "ஓர் எண்ணின் தொடரிக்கும் முன்னிக்கும் உள்ள வித்தியாசம்?",
+      "a": "2"
+    },
+    {
+      "q": "10 லட்சத்தில் எத்தனை பத்தாயிரங்கள் உள்ளன?",
+      "a": "100 பத்தாயிரங்கள்"
+    },
+    {
+      "q": "ஒரு கோடியில் எத்தனை பத்தாயிரங்கள் உள்ளன?",
+      "a": "1,000 பத்தாயிரங்கள்"
+    },
+    {
+      "q": "1000 மில்லியன்கள் என்பது என்ன?",
+      "a": "1 பில்லியன்"
+    },
+    {
+      "q": "இந்திய முறையில் 98470562-க்கு கமா இடுக:",
+      "a": "9,84,70,562"
+    },
+    {
+      "q": "பன்னாட்டு முறையில் 98470562-க்கு கமா இடுக:",
+      "a": "98,470,562"
+    },
+    {
+      "q": "எந்த எண்ணுக்கும் முன்னி கிடையாது (இயல் எண்கள் தொகுப்பில்)?",
+      "a": "1"
+    },
+    {
+      "q": "முழு எண்கள் தொகுப்பில் முன்னி இல்லாத எண் எது?",
+      "a": "0"
+    },
+    {
+      "q": "99,999 + 1 = ?",
+      "a": "1,00,000"
+    },
+    {
+      "q": "மிகப்பெரிய 8 இலக்க எண் எது?",
+      "a": "9,99,99,999"
+    },
+    {
+      "q": "இடமதிப்பு அட்டவணையில் இடமிருந்து வலமாகச் செல்லும்போது மதிப்பு எவ்வாறு மாறும்?",
+      "a": "மதிப்பு 10 மடங்கு குறையும்"
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "இந்திய முறைப்படி 10 மில்லியனுக்குச் சமமானது எது?",
+        "options": [
+          "100 லட்சம்",
+          "1 கோடி",
+          "10 லட்சம்",
+          "100 கோடி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பன்னாட்டு முறையில் 123,456,789 என்பதில் 4-ன் இடமதிப்பு என்ன?",
+        "options": [
+          "4 நூறு ஆயிரங்கள்",
+          "4 பத்து ஆயிரங்கள்",
+          "4 மில்லியன்",
+          "400"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "9,99,999 என்ற எண்ணின் தொடரி என்ன?",
+        "options": [
+          "9,99,998",
+          "1,00,000",
+          "10,00,000",
+          "9,99,99,999"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "மிகச்சிறிய 6 இலக்க எண்ணுக்கும் மிகப்பெரிய 5 இலக்க எண்ணுக்கும் உள்ள வித்தியாசம்?",
+        "options": [
+          "10",
+          "1",
+          "100",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது சரியான ஏறுவரிசை?",
+        "options": [
+          "10, 20, 5, 30",
+          "5, 10, 20, 30",
+          "30, 20, 10, 5",
+          "5, 20, 10, 30"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "1 பில்லியன் என்பது எத்தனை கோடிகளுக்குச் சமம்?",
+        "options": [
+          "10 கோடி",
+          "100 கோடி",
+          "1000 கோடி",
+          "1 கோடி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0, 5, 9 ஆகிய இலக்கங்களை ஒருமுறை பயன்படுத்தி உருவாகும் மிகச்சிறிய 3 இலக்க எண்?",
+        "options": [
+          "059",
+          "509",
+          "950",
+          "590"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இந்திய முறையில் 7,34,56,789 என்பதில் 3-ன் இடமதிப்பு?",
+        "options": [
+          "3 லட்சம்",
+          "30 லட்சம்",
+          "3 கோடி",
+          "3 பத்தாயிரம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "6,70,905 என்ற எண்ணின் விரிவான வடிவம் எது?",
+        "options": [
+          "6x100000 + 7x10000 + 9x100 + 5x1",
+          "6x10000 + 7x1000 + 9x100",
+          "6x100000 + 7x1000",
+          "எதுவுமில்லை"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "மிகப்பெரிய 4 இலக்க எண் எது?",
+        "options": [
+          "1000",
+          "9999",
+          "9000",
+          "999"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "5,67,890 < 5,67,___90. கோடிட்ட இடத்தில் வரக்கூடிய மிகப்பெரிய இலக்கம் எது?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "6"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "ஒரு மில்லியனில் எத்தனை ஆயிரங்கள் உள்ளன?",
+        "options": [
+          "100",
+          "1000",
+          "10",
+          "10000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "8, 0, 7 ஆகிய இலக்கங்களை பயன்படுத்தி உருவாகும் மிகப்பெரிய எண்?",
+        "options": [
+          "807",
+          "708",
+          "870",
+          "087"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "ஏழு கோடி எழுபது லட்சம் எழுபது - இதன் எண் வடிவம்?",
+        "options": [
+          "7,70,00,070",
+          "7,07,07,070",
+          "7,70,70,000",
+          "7,00,70,070"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "இறங்குவரிசை என்பது எண்களை ____ வரிசைப்படுத்துவது.",
+        "options": [
+          "சிறியதிலிருந்து பெரியதாக",
+          "பெரியதிலிருந்து சிறியதாக",
+          "சமமாக",
+          "மாறி மாறி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பன்னாட்டு முறையில் 6,345,678 என்பதில் 6-ன் இடமதிப்பு?",
+        "options": [
+          "6 மில்லியன்",
+          "60 லட்சம்",
+          "60 மில்லியன்",
+          "600"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "எந்த குறியீடு 'பெரியது' என்பதைக் குறிக்கிறது?",
+        "options": [
+          "<",
+          "=",
+          ">",
+          "+"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "100 பத்தாயிரங்கள் என்பது என்ன?",
+        "options": [
+          "1 லட்சம்",
+          "10 லட்சம்",
+          "1 கோடி",
+          "1000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகச்சிறிய 8 இலக்க எண் எது?",
+        "options": [
+          "10,00,00,000",
+          "1,00,00,000",
+          "9,99,99,999",
+          "1,00,000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "99,99,99,999-ன் தொடரி எது?",
+        "options": [
+          "100 கோடி",
+          "10 கோடி",
+          "1000 கோடி",
+          "1 கோடி"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "பன்னாட்டு முறையில் ஒரு எண்ணை வாசிக்க வலமிருந்து எத்தனை இலக்கங்களாக பிரிக்க வேண்டும்?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0, 2, 4, 6 ஆகிய இலக்கங்களை பயன்படுத்தி உருவாகும் மிகச்சிறிய 4 இலக்க எண்?",
+        "options": [
+          "0246",
+          "2046",
+          "6420",
+          "2406"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "10 கோடியில் எத்தனை மில்லியன்கள் உள்ளன?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "6,78,530 என்ற எண்ணில் 8-ன் இடமதிப்பு?",
+        "options": [
+          "800",
+          "8000",
+          "80000",
+          "80"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகப்பெரிய 3 இலக்க எண்ணுக்கும் மிகச்சிறிய 2 இலக்க எண்ணுக்கும் உள்ள வித்தியாசம்?",
+        "options": [
+          "989",
+          "900",
+          "990",
+          "998"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "எண்களை ஒப்பிடும்போது இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால் எந்த பக்கத்தில் இருந்து பார்க்க வேண்டும்?",
+        "options": [
+          "வலப்பக்கம்",
+          "இடப்பக்கம்",
+          "நடுவில்",
+          "எந்தப் பக்கமும்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "1000 மில்லியன்கள் என்பது ____ பில்லியன்.",
+        "options": [
+          "10",
+          "100",
+          "1",
+          "0"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "தொடரிக்கும் முன்னிக்கும் இடையில் உள்ள வித்தியாசம் என்ன?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "இந்திய முறையில் 1,23,45,678 என்பதில் 2-ன் இடமதிப்பு?",
+        "options": [
+          "20 லட்சம்",
+          "2 லட்சம்",
+          "2 கோடி",
+          "20 ஆயிரம்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "முழு எண்கள் தொகுப்பில் 0-ன் முன்னி என்ன?",
+        "options": [
+          "-1",
+          "1",
+          "கிடையாது",
+          "0"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

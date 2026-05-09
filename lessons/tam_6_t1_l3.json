@@ -1,0 +1,494 @@
+{
+  "title": "வளர்தமிழ்",
+  "lessonId": "வளர்தமிழ்",
+  "material": {
+    "sections": [
+      {
+        "title": "1. தமிழ் மொழியின் சிறப்பு",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ உலகில் எத்தனைக்கும் மேற்பட்ட மொழிகள் உள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆயிரத்திற்கும்</span> மேற்பட்ட</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ யாமறிந்த மொழிகளிலே தமிழ்மொழி போல் இனிதாவது எங்கும் காணோம் - பாடியவர்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாரதியார்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ என்று பிறந்தவள் என்று உணராத இயல்பினளாம் எங்கள் தாய் - யாருடைய கூற்று?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாரதியார்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழில் கிடைத்துள்ள மிகப்பழமையான இலக்கண நூல் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தொல்காப்பியம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் எழுத்துக்கள் பெரும்பாலும் எவ்வகை எழுத்துக்களாக அமைகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">வலஞ்சுழி</span> எழுத்துக்கள்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வலஞ்சுழி எழுத்துக்களுக்கு உதாரணங்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அ, எ, ஒ, ண, ஞ</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இடஞ்சுழி எழுத்துக்களுக்கு உதாரணங்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ட, ய, ழ</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தொல்காப்பியம்</span> (தமிழன் கிளவியும் அதனோரற்றே)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ்நாடு என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">சிலப்பதிகாரம்</span> (வஞ்சிக்காண்டம்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழன் என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அப்பர் தேவாரம்</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "2. சீர்மை மற்றும் சொல் விளக்கம்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சீர்மை என்பது எதனைக் குறிக்கும் சொல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஒழுங்குமுறையைக்</span> குறிக்கும் சொல்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ உயர்திணையின் எதிர்ச்சொல் தாழ் திணை என அமையாமல் எவ்வாறு பெயரிடப்பட்டுள்ளது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அஃறிணை</span> (அல் + திணை = உயர்வு அல்லாத திணை)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாகற்காய் - பிரித்து எழுதுக?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பாகு + அல் + காய்</span> (இனிப்பு அல்லாத காய்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பூவின் நிலைகள் எத்தனை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஏழு</span> நிலைகள் (அரும்பு, மொட்டு, முகை, மலர், அலர், வி , செம்மல்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எழுத்தே ஒரு சொல்லாகிப் பொருள் தருவது எவ்வாறு அழைக்கப்படும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஓரெழுத்து ஒருமொழி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மா என்னும் சொல்லின் பொருள்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">விலங்கு, பெரிய, திருமகள், அழகு, அறிவு, அளவு, அழைத்தல், துகள், மேன்மை, வயல், வண்டு</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "3. தமிழ் இலக்கிய வகைகள்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழின் கவிதை வடிவங்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">துளிப்பா, புதுக்கவிதை, கவிதை, செய்யுள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழின் உரைநடை வடிவங்கள் யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கட்டுரை, புதினம், சிறுகதை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இயல் தமிழ் எதனை வெளிப்படுத்தும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">எண்ணத்தை</span> வெளிப்படுத்தும்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இசைத் தமிழ் எதனை வெளிப்படுத்தும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">உள்ளத்தை</span> மகிழ்விக்கும்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ நாடகத் தமிழ் எதனை வெளிப்படுத்தும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 உணர்வில் கலந்து <span style=\"color:var(--primary);font-weight:700;\">வாழ்வை நல்வழிப்படுத்தும்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தாவர இலைப்பெயர்கள் - ஆலி, அரசு, பலா, வாழை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இலை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தாவர இலைப்பெயர்கள் - அகத்தி, பசலை, முருங்கை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கீரை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தாவர இலைப்பெயர்கள் - அருகு, கோரை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">புல்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தாவர இலைப்பெயர்கள் - நெல், வரகு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தாள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தாவர இலைப்பெயர்கள் - மல்லி?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தழை</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "4. கணினித் தமிழ் மற்றும் எண்கள்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தொலைபேசி, இணையம் போன்றவற்றில் பயன்படுத்தப்படுவது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கணினித் தமிழ்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் எண்கள் 1 முதல் 5 வரை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 1-<span style=\"color:var(--primary);font-weight:700;\">க</span>, 2-<span style=\"color:var(--primary);font-weight:700;\">உ</span>, 3-<span style=\"color:var(--primary);font-weight:700;\">ங</span>, 4-<span style=\"color:var(--primary);font-weight:700;\">ச</span>, 5-<span style=\"color:var(--primary);font-weight:700;\">ரு</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தமிழ் எண்கள் 6 முதல் 10 வரை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 6-<span style=\"color:var(--primary);font-weight:700;\">சூர்</span>, 7-<span style=\"color:var(--primary);font-weight:700;\">எ</span>, 8-<span style=\"color:var(--primary);font-weight:700;\">அ</span>, 9-<span style=\"color:var(--primary);font-weight:700;\">கூ</span>, 10-<span style=\"color:var(--primary);font-weight:700;\">க0</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ நூல்களைக் கணினியில் பயன்படுத்த எதன் அடிப்படையில் வடிவமைக்கப்பட வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">எண்களின்</span> அடிப்படையில்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ தொல்காப்பியம், நன்னூல் போன்றவை எதற்கும் ஏற்ற வகையில் அமைந்துள்ளன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கணினிக்கும்</span> ஏற்ற வகையில்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மூத்த மொழி எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தமிழ் மொழி</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வளர்மொழி எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தமிழ் மொழி</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "5. சொல்லும் பயிலும் நூலும்",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வேளாண்மை என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கலித்தொகை</span>, <span style=\"color:var(--primary);font-weight:700;\">திருக்குறள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ உழவர் என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நற்றிணை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பாம்பு, முதலை, மீன் ஆகிய சொற்கள் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">குறுந்தொகை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வெள்ளம் என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பதிற்றுப்பத்து</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அரசு என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">திருக்குறள்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ செல் என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தொல்காப்பியம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மகிழ்ச்சி என்ற சொல் இடம்பெறும் நூல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">திருக்குறள்</span>, <span style=\"color:var(--primary);font-weight:700;\">தொல்காப்பியம்</span></div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "உலகில் எத்தனைக்கும் மேற்பட்ட மொழிகள் உள்ளன?",
+      "a": "ஆயிரத்திற்கும் மேற்பட்ட"
+    },
+    {
+      "q": "யாமறிந்த மொழிகளிலே தமிழ்மொழி போல் இனிதாவது எங்கும் காணோம் - பாடியவர்?",
+      "a": "பாரதியார்"
+    },
+    {
+      "q": "என்று பிறந்தவள் என்று உணராத இயல்பினளாம் எங்கள் தாய் - யாருடைய கூற்று?",
+      "a": "பாரதியார்"
+    },
+    {
+      "q": "தமிழில் கிடைத்துள்ள மிகப்பழமையான இலக்கண நூல் எது?",
+      "a": "தொல்காப்பியம்"
+    },
+    {
+      "q": "தமிழ் எழுத்துக்கள் பெரும்பாலும் எவ்வகை எழுத்துக்களாக அமைகின்றன?",
+      "a": "வலஞ்சுழி எழுத்துக்கள்"
+    },
+    {
+      "q": "வலஞ்சுழி எழுத்துக்களுக்கு உதாரணங்கள் யாவை?",
+      "a": "அ, எ, ஒ, ண, ஞ"
+    },
+    {
+      "q": "இடஞ்சுழி எழுத்துக்களுக்கு உதாரணங்கள் யாவை?",
+      "a": "ட, ய, ழ"
+    },
+    {
+      "q": "தமிழ் என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?",
+      "a": "தொல்காப்பியம் (தமிழன் கிளவியும் அதனோரற்றே)"
+    },
+    {
+      "q": "தமிழ்நாடு என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?",
+      "a": "சிலப்பதிகாரம் (வஞ்சிக்காண்டம்)"
+    },
+    {
+      "q": "தமிழன் என்ற சொல் முதன்முதலில் இடம்பெறும் நூல்?",
+      "a": "அப்பர் தேவாரம்"
+    },
+    {
+      "q": "சீர்மை என்பது எதனைக் குறிக்கும் சொல்?",
+      "a": "ஒழுங்குமுறையைக் குறிக்கும் சொல்"
+    },
+    {
+      "q": "உயர்திணையின் எதிர்ச்சொல் தாழ் திணை என அமையாமல் எவ்வாறு பெயரிடப்பட்டுள்ளது?",
+      "a": "அஃறிணை (அல் + திணை = உயர்வு அல்லாத திணை)"
+    },
+    {
+      "q": "பாகற்காய் - பிரித்து எழுதுக?",
+      "a": "பாகு + அல் + காய் (இனிப்பு அல்லாத காய்)"
+    },
+    {
+      "q": "பூவின் நிலைகள் எத்தனை?",
+      "a": "ஏழு நிலைகள் (அரும்பு, மொட்டு, முகை, மலர், அலர், வி , செம்மல்)"
+    },
+    {
+      "q": "ஓர் எழுத்தே ஒரு சொல்லாகிப் பொருள் தருவது எவ்வாறு அழைக்கப்படும்?",
+      "a": "ஓரெழுத்து ஒருமொழி"
+    },
+    {
+      "q": "மா என்னும் சொல்லின் பொருள்கள் யாவை?",
+      "a": "விலங்கு, பெரிய, திருமகள், அழகு, அறிவு, அளவு, அழைத்தல், துகள், மேன்மை, வயல், வண்டு"
+    },
+    {
+      "q": "தமிழின் கவிதை வடிவங்கள் யாவை?",
+      "a": "துளிப்பா, புதுக்கவிதை, கவிதை, செய்யுள்"
+    },
+    {
+      "q": "தமிழின் உரைநடை வடிவங்கள் யாவை?",
+      "a": "கட்டுரை, புதினம், சிறுகதை"
+    },
+    {
+      "q": "இயல் தமிழ் எதனை வெளிப்படுத்தும்?",
+      "a": "எண்ணத்தை வெளிப்படுத்தும்"
+    },
+    {
+      "q": "இசைத் தமிழ் எதனை வெளிப்படுத்தும்?",
+      "a": "உள்ளத்தை மகிழ்விக்கும்"
+    },
+    {
+      "q": "நாடகத் தமிழ் எதனை வெளிப்படுத்தும்?",
+      "a": "உணர்வில் கலந்து வாழ்வை நல்வழிப்படுத்தும்"
+    },
+    {
+      "q": "தாவர இலைப்பெயர்கள் - ஆலி, அரசு, பலா, வாழை?",
+      "a": "இலை"
+    },
+    {
+      "q": "தாவர இலைப்பெயர்கள் - அகத்தி, பசலை, முருங்கை?",
+      "a": "கீரை"
+    },
+    {
+      "q": "தாவர இலைப்பெயர்கள் - அருகு, கோரை?",
+      "a": "புல்"
+    },
+    {
+      "q": "தாவர இலைப்பெயர்கள் - நெல், வரகு?",
+      "a": "தாள்"
+    },
+    {
+      "q": "தாவர இலைப்பெயர்கள் - மல்லி?",
+      "a": "தழை"
+    },
+    {
+      "q": "தொலைபேசி, இணையம் போன்றவற்றில் பயன்படுத்தப்படுவது எது?",
+      "a": "கணினித் தமிழ்"
+    },
+    {
+      "q": "தமிழ் எண்கள் 1 முதல் 5 வரை?",
+      "a": "1-க, 2-உ, 3-ங, 4-ச, 5-ரு"
+    },
+    {
+      "q": "தமிழ் எண்கள் 6 முதல் 10 வரை?",
+      "a": "6-சூர், 7-எ, 8-அ, 9-கூ, 10-க0"
+    },
+    {
+      "q": "நூல்களைக் கணினியில் பயன்படுத்த எதன் அடிப்படையில் வடிவமைக்கப்பட வேண்டும்?",
+      "a": "எண்களின் அடிப்படையில்"
+    },
+    {
+      "q": "தொல்காப்பியம், நன்னூல் போன்றவை எதற்கும் ஏற்ற வகையில் அமைந்துள்ளன?",
+      "a": "கணினிக்கும் ஏற்ற வகையில்"
+    },
+    {
+      "q": "மூத்த மொழி எது?",
+      "a": "தமிழ் மொழி"
+    },
+    {
+      "q": "வளர்மொழி எது?",
+      "a": "தமிழ் மொழி"
+    },
+    {
+      "q": "வேளாண்மை என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "கலித்தொகை, திருக்குறள்"
+    },
+    {
+      "q": "உழவர் என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "நற்றிணை"
+    },
+    {
+      "q": "பாம்பு, முதலை, மீன் ஆகிய சொற்கள் இடம்பெறும் நூல்?",
+      "a": "குறுந்தொகை"
+    },
+    {
+      "q": "வெள்ளம் என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "பதிற்றுப்பத்து"
+    },
+    {
+      "q": "அரசு என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "திருக்குறள்"
+    },
+    {
+      "q": "செல் என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "தொல்காப்பியம்"
+    },
+    {
+      "q": "மகிழ்ச்சி என்ற சொல் இடம்பெறும் நூல்?",
+      "a": "திருக்குறள், தொல்காப்பியம்"
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "யாமறிந்த மொழிகளிலே தமிழ்மொழி போல் இனிதாவது எங்கும் காணோம் - பாடியவர் யார்?",
+        "options": [
+          "பாரதிதாசன்",
+          "பாரதியார்",
+          "வாணிதாசன்",
+          "கவிமணி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழில் கிடைத்துள்ள மிகப்பழமையான இலக்கண நூல் எது?",
+        "options": [
+          "நன்னூல்",
+          "தொல்காப்பியம்",
+          "அகத்தியம்",
+          "யாப்பருங்கலம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ் எழுத்துக்கள் பெரும்பாலும் எவ்வகை எழுத்துக்களாக அமைகின்றன?",
+        "options": [
+          "இடஞ்சுழி",
+          "வலஞ்சுழி",
+          "மெய்யெழுத்து",
+          "உயிரெழுத்து"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "அஃறிணை என்னும் சொல்லைப் பிரித்து எழுதக் கிடைப்பது?",
+        "options": [
+          "அஃகு + திணை",
+          "அல் + திணை",
+          "அருமை + திணை",
+          "அக + திணை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாகற்காய் என்னும் சொல்லைப் பிரித்து எழுதக் கிடைப்பது?",
+        "options": [
+          "பாகல் + காய்",
+          "பாகு + அல் + காய்",
+          "பக + அல் + காய்",
+          "பாகு + காய்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மா என்னும் சொல்லின் பொருள் யாது?",
+        "options": [
+          "மரம்",
+          "விலங்கு",
+          "பூமி",
+          "காற்று"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எண்ணத்தை வெளிப்படுத்தும் தமிழ் எது?",
+        "options": [
+          "இசைத் தமிழ்",
+          "நாடகத் தமிழ்",
+          "இயல் தமிழ்",
+          "அறிவியல் தமிழ்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "உள்ளத்தை மகிழ்விக்கும் தமிழ் எது?",
+        "options": [
+          "இயல் தமிழ்",
+          "இசைத் தமிழ்",
+          "நாடகத் தமிழ்",
+          "கணினித் தமிழ்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ்நாடு என்ற சொல் முதன்முதலில் பயின்று வந்த நூல் எது?",
+        "options": [
+          "தொல்காப்பியம்",
+          "சிலப்பதிகாரம்",
+          "மணிமேகலை",
+          "திருவாசகம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழன் கிளவியும் அதனோரற்றே - இத்தொடர் இடம்பெறும் நூல்?",
+        "options": [
+          "தொல்காப்பியம்",
+          "தேவாரம்",
+          "நன்னூல்",
+          "கலித்தொகை"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "உழவர் என்ற சொல் இடம்பெற்றுள்ள நூல் எது?",
+        "options": [
+          "குறுந்தொகை",
+          "நற்றிணை",
+          "பதிற்றுப்பத்து",
+          "கலித்தொகை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பாம்பு என்ற சொல் இடம்பெற்றுள்ள நூல் எது?",
+        "options": [
+          "நற்றிணை",
+          "குறுந்தொகை",
+          "திருக்குறள்",
+          "தேவாரம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "வெள்ளம் என்ற சொல் இடம்பெற்றுள்ள நூல் எது?",
+        "options": [
+          "பதிற்றுப்பத்து",
+          "கலித்தொகை",
+          "நற்றிணை",
+          "குறுந்தொகை"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "அரசு என்ற சொல் இடம்பெற்றுள்ள நூல் எது?",
+        "options": [
+          "தொல்காப்பியம்",
+          "திருக்குறள்",
+          "நன்னூல்",
+          "தேவாரம்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ் எண் 5-க்கு இணையான வடிவம் எது?",
+        "options": [
+          "க",
+          "உ",
+          "ரு",
+          "ச"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "தமிழ் எண் 8-க்கு இணையான வடிவம் எது?",
+        "options": [
+          "அ",
+          "ச",
+          "எ",
+          "கூ"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "பூவின் நிலைகள் எத்தனை?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "தொலைபேசி, இணையம் போன்றவற்றில் பயன்படும் தமிழ் எது?",
+        "options": [
+          "நாடகத் தமிழ்",
+          "கணினித் தமிழ்",
+          "இசைத் தமிழ்",
+          "பழந் தமிழ்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "அகத்தி, பசலை, முருங்கை ஆகியவை எவ்வகைத் தாவரப் பெயர்?",
+        "options": [
+          "இலை",
+          "கீரை",
+          "புல்",
+          "தாள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "அருகு, கோரை ஆகியவை எவ்வகைத் தாவரப் பெயர்?",
+        "options": [
+          "புல்",
+          "கீரை",
+          "இலை",
+          "தழை"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "கூற்று: தமிழ் மொழியைத் தொன்மையான மொழி என்று கூறுகிறோம். <br>காரணம்: இது பல ஆயிரம் ஆண்டுகளுக்கு முன்பே மிகச்சிறந்த இலக்கண நூல்களைப் பெற்றுள்ளது.",
+        "options": [
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று தவறு, காரணம் சரி",
+          "கூற்று, காரணம் இரண்டும் சரி",
+          "கூற்று, காரணம் இரண்டும் தவறு"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "கூற்று: பாகற்காய் என்பது கசப்புடைய காய் ஆகும். <br>காரணம்: இதனை கசப்புக்காய் எனக் கூறாமல் பாகு + அல் + காய் எனச் சீர்மைப்பட அழைக்கிறோம்.",
+        "options": [
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று தவறு, காரணம் சரி",
+          "கூற்று, காரணம் இரண்டும் சரி",
+          "கூற்று, காரணம் இரண்டும் தவறு"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "தமிழன் என்ற சொல் முதன்முதலில் எங்கு இடம்பெற்றுள்ளது?",
+        "options": [
+          "சிலப்பதிகாரம்",
+          "அப்பர் தேவாரம்",
+          "தொல்காப்பியம்",
+          "திருக்குறள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "நெல், வரகு ஆகியவை எவ்வகைத் தாவரப் பெயர்?",
+        "options": [
+          "புல்",
+          "தாள்",
+          "கீரை",
+          "இலை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மகிழ்ச்சி என்ற சொல் எந்நூலில் இடம்பெற்றுள்ளது?",
+        "options": [
+          "தொல்காப்பியம்",
+          "திருக்குறள்",
+          "மேற்கண்ட இரண்டும்",
+          "எதுவுமில்லை"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "அறிவு, அளவு, அழகு போன்ற பல பொருள்களைத் தரும் சொல் எது?",
+        "options": [
+          "பூ",
+          "மா",
+          "கா",
+          "பா"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "தமிழ் எண்களில் 'கூ' என்பதன் மதிப்பு என்ன?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "உயர்வு அல்லாத திணையை எவ்வாறு அழைக்கிறோம்?",
+        "options": [
+          "தாழ் திணை",
+          "அஃறிணை",
+          "பெண் திணை",
+          "ஆண் திணை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "புதுக்கவிதை என்பது தமிழின் எவ்வகை வடிவம்?",
+        "options": [
+          "உரைநடை",
+          "கவிதை",
+          "நாடகம்",
+          "அறிவியல்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "சிறுகதை, புதினம் போன்றவை தமிழின் எவ்வகை வடிவம்?",
+        "options": [
+          "கவிதை",
+          "உரைநடை",
+          "இசை",
+          "இயல்"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

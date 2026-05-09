@@ -1,0 +1,490 @@
+{
+  "title": "எண்கள்: செயலிகளின் வரிசை & மதிப்பீடு",
+  "lessonId": "செயலிகளின்_வரிசை_மதிப்பீடு",
+  "material": {
+    "sections": [
+      {
+        "title": "1. செயலிகளின் வரிசை (Order of Operations - BIDMAS)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதத்தில் ஒன்றுக்கு மேற்பட்ட செயலிகள் வரும்போது எதைப் பின்பற்ற வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">BIDMAS</span> விதியைப் பின்பற்ற வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS என்பதன் விரிவாக்கம் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 B-Brackets, I-Indices, D-Division, M-Multiplication, A-Addition, S-Subtraction.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகள் (Brackets) எதற்காகப் பயன்படுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரு குறிப்பிட்ட செயலியை <span style=\"color:var(--primary);font-weight:700;\">முதலில்</span> செய்ய வேண்டும் என்பதைக் குறிக்கப் பயன்படுகின்றன.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அடைப்புக்குறிகளில் பல வகைகள் இருந்தால் எதை முதலில் தீர்க்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">சாதாரண அடைப்புக்குறி</span> ( ), பிறகு <span style=\"color:var(--primary);font-weight:700;\">கண அடைப்புக்குறி</span> { }, இறுதியில் <span style=\"color:var(--primary);font-weight:700;\">சதுர அடைப்புக்குறி</span> [ ] ஆகியவற்றைத் தீர்க்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 10 + 2 × 5 என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 சரியான விடை <span style=\"color:var(--primary);font-weight:700;\">20</span>. ஏனெனில் BIDMAS விதிப்படி கூட்டலுக்கு முன் <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலை</span> செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதியில் 'I' என்பது எதைக் குறிக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அடுக்குகள்</span> (Indices) அல்லது எண்களின் அடுக்கினைக் குறிக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரு செயலிகள் (எ.கா: கூட்டல், கழித்தல்) ஒரே முன்னுரிமை பெற்றால் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 அவற்றை <span style=\"color:var(--primary);font-weight:700;\">இடமிருந்து வலமாக</span> வரிசையாகச் செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ (12 + 8) ÷ 2-ன் மதிப்பு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10</span>. முதலில் அடைப்புக்குறிக்குள் உள்ள 12+8=20-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ செயலிகளின் வரிசையை மாற்றினால் விடை மாறுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">நிச்சயமாக மாறும்</span>. விதியை முறையாகப் பின்பற்றாவிட்டால் தவறான விடை கிடைக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ BIDMAS விதி இல்லாவிட்டால் என்ன நிகழும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரே கணக்கிற்குப் <span style=\"color:var(--primary);font-weight:700;\">பலவிதமான விடைகள்</span> கிடைத்து குழப்பத்தை உண்டாக்கும்.</div>\n        </div>\n    "
+      },
+      {
+        "title": "2. எண்களின் மதிப்பீடு (Estimation of Numbers)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு (Estimation) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒரு மதிப்பை அதற்கு மிக அருகிலுள்ள <span style=\"color:var(--primary);font-weight:700;\">எளிமையான மதிப்பிற்கு</span> மாற்றுவது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு எண்ணைப் பத்துகளுக்கு முழுமையாக்க எந்த இலக்கத்தைக் கவனிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஒன்றாம் இட</span> இலக்கத்தைக் கவனிக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒன்றாம் இட இலக்கம் 5 அல்லது அதற்கு மேல் இருந்தால் என்ன செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பத்தாம் இட இலக்கத்துடன் <span style=\"color:var(--primary);font-weight:700;\">1-ஐக் கூட்டி</span>, ஒன்றாம் இடத்தை பூஜ்ஜியமாக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 4,567-ஐ நூறுகளுக்கு முழுமையாக்கினால் கிடைப்பது என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4,600</span>. ஏனெனில் பத்தாம் இட இலக்கம் 6 (5-ஐ விடப் பெரியது).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 8,432-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் கிடைப்பது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">8,000</span>. ஏனெனில் நூறாம் இட இலக்கம் 4 (5-ஐ விடச் சிறியது).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு எப்போது அவசியம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 துல்லியமான விடை தேவையில்லாத போது மற்றும் <span style=\"color:var(--primary);font-weight:700;\">வேகமாக கணக்கிட</span> வேண்டிய போது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கூட்டல் மற்றும் கழித்தலில் மதிப்பீடு எவ்வாறு உதவுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பெரிய எண்களைக் கையாளும் போது விடை <span style=\"color:var(--primary);font-weight:700;\">தோராயமாக</span> எவ்வளவு வரும் என்பதை அறிய உதவுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கடையில் ₹98 மற்றும் ₹195-க்கு பொருள் வாங்கினால், மொத்தத் தொகையை எவ்வாறு மதிப்பிடலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ₹100 + ₹200 = <span style=\"color:var(--primary);font-weight:700;\">₹300</span> என மதிப்பிடலாம்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பெருக்கலில் மதிப்பீடு செய்யும் போது எவற்றைக் கவனிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஒவ்வொரு எண்ணையும் அதன் <span style=\"color:var(--primary);font-weight:700;\">உயர்ந்த இடமதிப்பிற்கு</span> முழுமையாக்குவது எளிது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு செய்வதால் கிடைக்கும் விடை துல்லியமான விடைக்குச் சமமாக இருக்குமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை, அது <span style=\"color:var(--primary);font-weight:700;\">துல்லியமான விடைக்கு அருகிலுள்ள</span> மதிப்பாக மட்டுமே இருக்கும்.</div>\n        </div>\n    "
+      },
+      {
+        "title": "3. அன்றாட வாழ்வியல் பயன்பாடுகள் (Applying & Understanding)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு திருமண விழாவிற்கு வருபவர்களின் எண்ணிக்கை 1,245 எனில், எவ்வளவு பேருக்கு உணவு தயார் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">1,300</span> பேருக்கு (பாதுகாப்பு கருதி நூறுகளுக்கு முழுமையாக்கலாம்).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு பேருந்துப் பயணச் சீட்டின் விலை ₹42. 10 பேருக்கு எவ்வளவு செலவாகும் எனத் தோராயமாகச் சொல்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">₹400</span> (40 x 10).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மாதச் சம்பளம் ₹18,700 பெறுபவர் தன் செலவு ₹12,300 போக மீதியை எவ்வாறு மதிப்பிடுவார்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ₹19,000 - ₹12,000 = <span style=\"color:var(--primary);font-weight:700;\">₹7,000</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு வண்டியில் 2,450 கிலோ எடையை ஏற்றலாம். 8,000 கிலோவை ஏற்றிச் செல்ல எத்தனை முறை பயணிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">4 முறை</span> (8000 / 2000 = 4).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ செயலிகளின் வரிசையைத் தவறாகப் பயன்படுத்தினால் என்ன விபத்து ஏற்படலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணினி நிரல்கள், விண்வெளி ஆய்வுகள் மற்றும் <span style=\"color:var(--primary);font-weight:700;\">பொருளாதாரக் கணக்கீடுகள்</span> தவறாக முடிந்து பெரும் இழப்பு ஏற்படும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1 கிலோ ஆப்பிள் ₹185. 5 கிலோ வாங்கினால் தோராயமாக எவ்வளவு தொகை தேவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">₹1,000</span> (200 x 5).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு பள்ளியில் 38 வகுப்பறைகள் உள்ளன, ஒவ்வொரு அறையிலும் 42 மாணவர்கள் இருந்தால் மொத்த மாணவர் எண்ணிக்கை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">1,600</span> (40 x 40).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு செய்யும் போது விடை எப்போதும் அதிகமாகத்தான் இருக்க வேண்டுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை, அது மிக அருகிலுள்ள எண்ணைப் பொறுத்து <span style=\"color:var(--primary);font-weight:700;\">குறையவும் செய்யலாம்</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கிரிக்கெட் மைதானத்தில் 48,760 பேர் அமரலாம் எனில் செய்தித்தாள்கள் இதை எப்படி குறிப்பிடும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 தோராயமாக <span style=\"color:var(--primary);font-weight:700;\">50,000</span> பேர் என குறிப்பிடும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு மற்றும் துல்லியமான கணக்கீடு இவற்றுள் எது சிறந்தது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 சூழலைப் பொறுத்தது; திட்டமிடுதலுக்கு <span style=\"color:var(--primary);font-weight:700;\">மதிப்பீடு</span>, கணக்கிற்குத் <span style=\"color:var(--primary);font-weight:700;\">துல்லியமான கணக்கீடு</span> சிறந்தது.</div>\n        </div>\n    "
+      },
+      {
+        "title": "4. மதிப்பீடு மற்றும் ஆய்ந்தறிதல் (Analyzing)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 20 + (10 ÷ 2) மற்றும் (20 + 10) ÷ 2 சமமானவையா? ஆராய்க.</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை. முதல் விடை <span style=\"color:var(--primary);font-weight:700;\">25</span>, இரண்டாம் விடை <span style=\"color:var(--primary);font-weight:700;\">15</span>. அடைப்புக்குறி இடத்தைக் காட்டுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 678-ஐப் பத்துகளுக்கு முழுமையாக்குவதற்கும் நூறுகளுக்கு முழுமையாக்குவதற்கும் உள்ள வேறுபாடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பத்துகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">680</span>, நூறுகளுக்கு: <span style=\"color:var(--primary);font-weight:700;\">700</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு எண்ணின் ஒன்றாம் இட இலக்கம் 5 எனில், ஏன் அடுத்த பத்திற்கு மாற்றுகிறோம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணித மரபுப்படி 5 என்பது <span style=\"color:var(--primary);font-weight:700;\">பாதித் தொலைவைக்</span> குறிப்பதால் அடுத்த உயர் மதிப்பிற்கு மாற்றப்படுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5 + 5 ÷ 5 என்பதில் எதை முதலில் செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முதலில் <span style=\"color:var(--primary);font-weight:700;\">வகுத்தலை</span> (5/5 = 1) செய்ய வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய எண்களை முழுமையாக்கும்போது துல்லியம் குறையுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், உயர்ந்த இடமதிப்பிற்கு முழுமையாக்கும்போது <span style=\"color:var(--primary);font-weight:700;\">பிழை இடைவெளி</span> (Error margin) அதிகமாகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மதிப்பீடு செய்வதன் மூலம் நேரத்தைச் சேமிக்க முடியுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 நிச்சயமாக, சிக்கலான பெருக்கல் மற்றும் வகுத்தல்களை <span style=\"color:var(--primary);font-weight:700;\">மனக்கணக்காக</span> செய்ய உதவுகிறது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 100 - (20 + 30) மற்றும் 100 - 20 + 30 இதில் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100 - 20 + 30</span> பெரியது (விடை 110), மற்றொன்று 50.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கணிதச் செயலிகளைச் செய்யும் போது வரிசை ஏன் முக்கியம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஏனெனில் கணிதம் என்பது தர்க்கரீதியான <span style=\"color:var(--primary);font-weight:700;\">ஒழுங்குமுறை</span> கொண்டது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 7,500-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் என்ன கிடைக்கும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">8,000</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு கணக்கில் அடைப்புக்குறிகள் இல்லாவிட்டால் நாம் எதை முன்னுரிமை அளிக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வகுத்தல் அல்லது <span style=\"color:var(--primary);font-weight:700;\">பெருக்கலுக்கு</span> முன்னுரிமை அளிக்க வேண்டும்.</div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "கணிதத்தில் ஒன்றுக்கு மேற்பட்ட செயலிகள் வரும்போது எதைப் பின்பற்ற வேண்டும்?",
+      "a": "BIDMAS விதியைப் பின்பற்ற வேண்டும்."
+    },
+    {
+      "q": "BIDMAS என்பதன் விரிவாக்கம் என்ன?",
+      "a": "B-Brackets, I-Indices, D-Division, M-Multiplication, A-Addition, S-Subtraction."
+    },
+    {
+      "q": "அடைப்புக்குறிகள் (Brackets) எதற்காகப் பயன்படுகின்றன?",
+      "a": "ஒரு குறிப்பிட்ட செயலியை முதலில் செய்ய வேண்டும் என்பதைக் குறிக்கப் பயன்படுகின்றன."
+    },
+    {
+      "q": "அடைப்புக்குறிகளில் பல வகைகள் இருந்தால் எதை முதலில் தீர்க்க வேண்டும்?",
+      "a": "முதலில் சாதாரண அடைப்புக்குறி ( ), பிறகு கண அடைப்புக்குறி { }, இறுதியில் சதுர அடைப்புக்குறி [ ] ஆகியவற்றைத் தீர்க்க வேண்டும்."
+    },
+    {
+      "q": "10 + 2 × 5 என்ற கணக்கில் விடை 60-ஆ அல்லது 20-ஆ? ஏன்?",
+      "a": "சரியான விடை 20. ஏனெனில் BIDMAS விதிப்படி கூட்டலுக்கு முன் பெருக்கலை செய்ய வேண்டும்."
+    },
+    {
+      "q": "BIDMAS விதியில் 'I' என்பது எதைக் குறிக்கும்?",
+      "a": "அடுக்குகள் (Indices) அல்லது எண்களின் அடுக்கினைக் குறிக்கும்."
+    },
+    {
+      "q": "இரு செயலிகள் (எ.கா: கூட்டல், கழித்தல்) ஒரே முன்னுரிமை பெற்றால் எதை முதலில் செய்ய வேண்டும்?",
+      "a": "அவற்றை இடமிருந்து வலமாக வரிசையாகச் செய்ய வேண்டும்."
+    },
+    {
+      "q": "(12 + 8) ÷ 2-ன் மதிப்பு என்ன?",
+      "a": "10. முதலில் அடைப்புக்குறிக்குள் உள்ள 12+8=20-ஐச் செய்ய வேண்டும், பின் 2-ஆல் வகுக்க வேண்டும்."
+    },
+    {
+      "q": "செயலிகளின் வரிசையை மாற்றினால் விடை மாறுமா?",
+      "a": "நிச்சயமாக மாறும். விதியை முறையாகப் பின்பற்றாவிட்டால் தவறான விடை கிடைக்கும்."
+    },
+    {
+      "q": "BIDMAS விதி இல்லாவிட்டால் என்ன நிகழும்?",
+      "a": "ஒரே கணக்கிற்குப் பலவிதமான விடைகள் கிடைத்து குழப்பத்தை உண்டாக்கும்."
+    },
+    {
+      "q": "மதிப்பீடு (Estimation) என்றால் என்ன?",
+      "a": "ஒரு மதிப்பை அதற்கு மிக அருகிலுள்ள எளிமையான மதிப்பிற்கு மாற்றுவது."
+    },
+    {
+      "q": "ஒரு எண்ணைப் பத்துகளுக்கு முழுமையாக்க எந்த இலக்கத்தைக் கவனிக்க வேண்டும்?",
+      "a": "ஒன்றாம் இட இலக்கத்தைக் கவனிக்க வேண்டும்."
+    },
+    {
+      "q": "ஒன்றாம் இட இலக்கம் 5 அல்லது அதற்கு மேல் இருந்தால் என்ன செய்ய வேண்டும்?",
+      "a": "பத்தாம் இட இலக்கத்துடன் 1-ஐக் கூட்டி, ஒன்றாம் இடத்தை பூஜ்ஜியமாக்க வேண்டும்."
+    },
+    {
+      "q": "4,567-ஐ நூறுகளுக்கு முழுமையாக்கினால் கிடைப்பது என்ன?",
+      "a": "4,600. ஏனெனில் பத்தாம் இட இலக்கம் 6 (5-ஐ விடப் பெரியது)."
+    },
+    {
+      "q": "8,432-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் கிடைப்பது?",
+      "a": "8,000. ஏனெனில் நூறாம் இட இலக்கம் 4 (5-ஐ விடச் சிறியது)."
+    },
+    {
+      "q": "மதிப்பீடு எப்போது அவசியம்?",
+      "a": "துல்லியமான விடை தேவையில்லாத போது மற்றும் வேகமாக கணக்கிட வேண்டிய போது."
+    },
+    {
+      "q": "கூட்டல் மற்றும் கழித்தலில் மதிப்பீடு எவ்வாறு உதவுகிறது?",
+      "a": "பெரிய எண்களைக் கையாளும் போது விடை தோராயமாக எவ்வளவு வரும் என்பதை அறிய உதவுகிறது."
+    },
+    {
+      "q": "கடையில் ₹98 மற்றும் ₹195-க்கு பொருள் வாங்கினால், மொத்தத் தொகையை எவ்வாறு மதிப்பிடலாம்?",
+      "a": "₹100 + ₹200 = ₹300 என மதிப்பிடலாம்."
+    },
+    {
+      "q": "பெருக்கலில் மதிப்பீடு செய்யும் போது எவற்றைக் கவனிக்க வேண்டும்?",
+      "a": "ஒவ்வொரு எண்ணையும் அதன் உயர்ந்த இடமதிப்பிற்கு முழுமையாக்குவது எளிது."
+    },
+    {
+      "q": "மதிப்பீடு செய்வதால் கிடைக்கும் விடை துல்லியமான விடைக்குச் சமமாக இருக்குமா?",
+      "a": "இல்லை, அது துல்லியமான விடைக்கு அருகிலுள்ள மதிப்பாக மட்டுமே இருக்கும்."
+    },
+    {
+      "q": "ஒரு திருமண விழாவிற்கு வருபவர்களின் எண்ணிக்கை 1,245 எனில், எவ்வளவு பேருக்கு உணவு தயார் செய்ய வேண்டும்?",
+      "a": "தோராயமாக 1,300 பேருக்கு (பாதுகாப்பு கருதி நூறுகளுக்கு முழுமையாக்கலாம்)."
+    },
+    {
+      "q": "ஒரு பேருந்துப் பயணச் சீட்டின் விலை ₹42. 10 பேருக்கு எவ்வளவு செலவாகும் எனத் தோராயமாகச் சொல்?",
+      "a": "தோராயமாக ₹400 (40 x 10)."
+    },
+    {
+      "q": "மாதச் சம்பளம் ₹18,700 பெறுபவர் தன் செலவு ₹12,300 போக மீதியை எவ்வாறு மதிப்பிடுவார்?",
+      "a": "₹19,000 - ₹12,000 = ₹7,000."
+    },
+    {
+      "q": "ஒரு வண்டியில் 2,450 கிலோ எடையை ஏற்றலாம். 8,000 கிலோவை ஏற்றிச் செல்ல எத்தனை முறை பயணிக்க வேண்டும்?",
+      "a": "தோராயமாக 4 முறை (8000 / 2000 = 4)."
+    },
+    {
+      "q": "செயலிகளின் வரிசையைத் தவறாகப் பயன்படுத்தினால் என்ன விபத்து ஏற்படலாம்?",
+      "a": "கணினி நிரல்கள், விண்வெளி ஆய்வுகள் மற்றும் பொருளாதாரக் கணக்கீடுகள் தவறாக முடிந்து பெரும் இழப்பு ஏற்படும்."
+    },
+    {
+      "q": "1 கிலோ ஆப்பிள் ₹185. 5 கிலோ வாங்கினால் தோராயமாக எவ்வளவு தொகை தேவை?",
+      "a": "தோராயமாக ₹1,000 (200 x 5)."
+    },
+    {
+      "q": "ஒரு பள்ளியில் 38 வகுப்பறைகள் உள்ளன, ஒவ்வொரு அறையிலும் 42 மாணவர்கள் இருந்தால் மொத்த மாணவர் எண்ணிக்கை?",
+      "a": "தோராயமாக 1,600 (40 x 40)."
+    },
+    {
+      "q": "மதிப்பீடு செய்யும் போது விடை எப்போதும் அதிகமாகத்தான் இருக்க வேண்டுமா?",
+      "a": "இல்லை, அது மிக அருகிலுள்ள எண்ணைப் பொறுத்து குறையவும் செய்யலாம்."
+    },
+    {
+      "q": "ஒரு கிரிக்கெட் மைதானத்தில் 48,760 பேர் அமரலாம் எனில் செய்தித்தாள்கள் இதை எப்படி குறிப்பிடும்?",
+      "a": "தோராயமாக 50,000 பேர் என குறிப்பிடும்."
+    },
+    {
+      "q": "மதிப்பீடு மற்றும் துல்லியமான கணக்கீடு இவற்றுள் எது சிறந்தது?",
+      "a": "சூழலைப் பொறுத்தது; திட்டமிடுதலுக்கு மதிப்பீடு, கணக்கிற்குத் துல்லியமான கணக்கீடு சிறந்தது."
+    },
+    {
+      "q": "20 + (10 ÷ 2) மற்றும் (20 + 10) ÷ 2 சமமானவையா? ஆராய்க.",
+      "a": "இல்லை. முதல் விடை 25, இரண்டாம் விடை 15. அடைப்புக்குறி இடத்தைக் காட்டுகிறது."
+    },
+    {
+      "q": "678-ஐப் பத்துகளுக்கு முழுமையாக்குவதற்கும் நூறுகளுக்கு முழுமையாக்குவதற்கும் உள்ள வேறுபாடு?",
+      "a": "பத்துகளுக்கு: 680, நூறுகளுக்கு: 700."
+    },
+    {
+      "q": "ஒரு எண்ணின் ஒன்றாம் இட இலக்கம் 5 எனில், ஏன் அடுத்த பத்திற்கு மாற்றுகிறோம்?",
+      "a": "கணித மரபுப்படி 5 என்பது பாதித் தொலைவைக் குறிப்பதால் அடுத்த உயர் மதிப்பிற்கு மாற்றப்படுகிறது."
+    },
+    {
+      "q": "5 + 5 ÷ 5 என்பதில் எதை முதலில் செய்ய வேண்டும்?",
+      "a": "முதலில் வகுத்தலை (5/5 = 1) செய்ய வேண்டும்."
+    },
+    {
+      "q": "மிகப்பெரிய எண்களை முழுமையாக்கும்போது துல்லியம் குறையுமா?",
+      "a": "ஆம், உயர்ந்த இடமதிப்பிற்கு முழுமையாக்கும்போது பிழை இடைவெளி (Error margin) அதிகமாகும்."
+    },
+    {
+      "q": "மதிப்பீடு செய்வதன் மூலம் நேரத்தைச் சேமிக்க முடியுமா?",
+      "a": "நிச்சயமாக, சிக்கலான பெருக்கல் மற்றும் வகுத்தல்களை மனக்கணக்காக செய்ய உதவுகிறது."
+    },
+    {
+      "q": "100 - (20 + 30) மற்றும் 100 - 20 + 30 இதில் எது பெரியது?",
+      "a": "100 - 20 + 30 பெரியது (விடை 110), மற்றொன்று 50."
+    },
+    {
+      "q": "கணிதச் செயலிகளைச் செய்யும் போது வரிசை ஏன் முக்கியம்?",
+      "a": "ஏனெனில் கணிதம் என்பது தர்க்கரீதியான ஒழுங்குமுறை கொண்டது."
+    },
+    {
+      "q": "7,500-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் என்ன கிடைக்கும்?",
+      "a": "8,000."
+    },
+    {
+      "q": "ஒரு கணக்கில் அடைப்புக்குறிகள் இல்லாவிட்டால் நாம் எதை முன்னுரிமை அளிக்க வேண்டும்?",
+      "a": "வகுத்தல் அல்லது பெருக்கலுக்கு முன்னுரிமை அளிக்க வேண்டும்."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "24 + 2 × 8-ன் மதிப்பு என்ன?",
+        "options": [
+          "208",
+          "40",
+          "192",
+          "48"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "10 + (8 ÷ 2) + 1-ன் மதிப்பு என்ன?",
+        "options": [
+          "10",
+          "15",
+          "11",
+          "9"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "8,457-ஐ நூறுகளுக்கு முழுமையாக்கினால் கிடைப்பது எது?",
+        "options": [
+          "8,400",
+          "8,500",
+          "8,000",
+          "9,000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "20 ÷ (5 × 2)-ன் விடை என்ன?",
+        "options": [
+          "8",
+          "2",
+          "4",
+          "20"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "BIDMAS விதியில் 'A' மற்றும் 'S' ஆகியவற்றில் எதை முதலில் செய்ய வேண்டும்?",
+        "options": [
+          "கூட்டல் மட்டும்",
+          "கழித்தல் மட்டும்",
+          "இடமிருந்து வலமாக வரும் வரிசையில்",
+          "விருப்பம் போல"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "9,995-ஐ ஆயிரங்களுக்கு முழுமையாக்கினால் கிடைப்பது?",
+        "options": [
+          "9,000",
+          "10,000",
+          "9,900",
+          "11,000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எதற்கு அதிக முன்னுரிமை அளிக்க வேண்டும்?",
+        "options": [
+          "பெருக்கல்",
+          "வகுத்தல்",
+          "அடைப்புக்குறி",
+          "அடுக்குகள்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "12 × 3 + 2-ன் மதிப்பு?",
+        "options": [
+          "60",
+          "38",
+          "36",
+          "17"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "100 - 10 × 10-ன் விடை?",
+        "options": [
+          "900",
+          "0",
+          "100",
+          "90"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "67-ஐ மிக அருகிலுள்ள பத்துகளுக்கு முழுமையாக்கு:",
+        "options": [
+          "60",
+          "70",
+          "65",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இரு எண்களின் கூடுதல் ₹4,500 என மதிப்பிடப்பட்டுள்ளது. எனில் அந்த எண்கள் எவையாக இருக்கலாம்?",
+        "options": [
+          "2000, 2400",
+          "2500, 2000",
+          "4000, 1000",
+          "1500, 2000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "20 - 4 + 2 = ?",
+        "options": [
+          "14",
+          "18",
+          "22",
+          "16"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "2 × (5 + 5)-ன் மதிப்பு என்ன?",
+        "options": [
+          "15",
+          "20",
+          "10",
+          "25"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "543-ஐ நூறுகளுக்கு முழுமையாக்கினால் கிடைப்பது?",
+        "options": [
+          "600",
+          "500",
+          "540",
+          "550"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "7, 8, 0 ஆகிய இலக்கங்களைக் கொண்டு உருவாகும் மிகப்பெரிய 3 இலக்க எண்ணை ஆயிரங்களுக்கு முழுமையாக்கினால்?",
+        "options": [
+          "870",
+          "900",
+          "1,000",
+          "800"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "12 + (3 × 2) - 5-ன் விடை?",
+        "options": [
+          "13",
+          "11",
+          "25",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "மதிப்பீடு செய்வதன் முக்கிய நோக்கம் என்ன?",
+        "options": [
+          "துல்லியமாக கணக்கிட",
+          "தோராயமான மதிப்பை விரைவில் அறிய",
+          "கணக்கை கடினமாக்க",
+          "எண்களை குறைக்க"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "189-ஐப் பத்துகளுக்கு முழுமையாக்கினால்?",
+        "options": [
+          "180",
+          "190",
+          "200",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "பன்னாட்டு முறையில் 'ஒரு பில்லியன்' என்பது இந்திய முறையில் எத்தனை கோடிகள் என மதிப்பிடப்படுகிறது?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "(15 ÷ 3) × 2 + 10 = ?",
+        "options": [
+          "20",
+          "30",
+          "15",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு கடைக்காரர் ₹48-க்கு பேனா மற்றும் ₹152-க்கு புத்தகம் விற்றால், தோராயமாக அவருக்குக் கிடைக்கும் தொகை?",
+        "options": [
+          "₹100",
+          "₹250",
+          "₹200",
+          "₹150"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "50 - (20 + 30) = ?",
+        "options": [
+          "0",
+          "60",
+          "100",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "7,501-ஐ ஆயிரங்களுக்கு முழுமையாக்கு:",
+        "options": [
+          "7,000",
+          "8,000",
+          "7,500",
+          "7,600"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "4 x 5 + 6 x 2 = ?",
+        "options": [
+          "52",
+          "20",
+          "32",
+          "40"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "எந்த எண்ணை நூறுகளுக்கு முழுமையாக்கினால் 500 கிடைக்கும்?",
+        "options": [
+          "449",
+          "550",
+          "487",
+          "580"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "12 / 2 * 3 = ?",
+        "options": [
+          "2",
+          "18",
+          "12",
+          "6"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "89 + 11-ன் மதிப்பிடப்பட்ட கூடுதல் (பத்துகளுக்கு)?",
+        "options": [
+          "90",
+          "100",
+          "110",
+          "120"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகப்பெரிய 2 இலக்க எண்ணை நூறுகளுக்கு முழுமையாக்கினால்?",
+        "options": [
+          "90",
+          "100",
+          "200",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "BIDMAS விதியில் முதலில் செய்ய வேண்டிய அடைப்புக்குறி வடிவம்?",
+        "options": [
+          "( )",
+          "{ }",
+          "[ ]",
+          "ஏதேனும் ஒன்று"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "ஒரு நபர் ₹12,450-க்கு மொபைல் வாங்கினார். இதை ஆயிரங்களுக்கு முழுமையாக்கி கூறினால்?",
+        "options": [
+          "₹12,000",
+          "₹13,000",
+          "₹12,500",
+          "₹10,000"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
