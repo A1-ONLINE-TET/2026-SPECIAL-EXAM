@@ -20,14 +20,20 @@ export const lessonMap = {
   "4": {
     "local": true,
     "filename": "4",
-    "grade": "2",
-    "title": "பணம்"
+    "grade": "4",
+    "title": "நன்னெறி"
   },
   "5": {
     "local": true,
     "filename": "5",
     "grade": "4",
     "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "6": {
+    "local": true,
+    "filename": "6",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,
@@ -2507,11 +2513,23 @@ export const lessonMap = {
     "grade": "4",
     "title": "யானைக்கும் பானைக்கும் சரி"
   },
+  "நன்னெறி": {
+    "local": true,
+    "filename": "tam_4_t2_l4",
+    "grade": "4",
+    "title": "நன்னெறி"
+  },
   "ஆராய்ந்திட வேண்டும்": {
     "local": true,
     "filename": "tam_4_t2_l6",
     "grade": "4",
     "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "பசுவுக்குக் கிடைத்த நீதி": {
+    "local": true,
+    "filename": "tam_4_t2_l3",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "அன்னைத் தமிழே": {
     "local": true,
@@ -2633,23 +2651,11 @@ export const lessonMap = {
     "grade": "4",
     "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
   },
-  "பசுவுக்குக் கிடைத்த நீதி": {
-    "local": true,
-    "filename": "tam_4_t2_l3",
-    "grade": "4",
-    "title": "பசுவுக்குக் கிடைத்த நீதி"
-  },
   "tam_4_t2_l3": {
     "local": true,
     "filename": "tam_4_t2_l3",
     "grade": "4",
     "title": "பசுவுக்குக் கிடைத்த நீதி"
-  },
-  "நன்னெறி": {
-    "local": true,
-    "filename": "tam_4_t2_l4",
-    "grade": "4",
-    "title": "நன்னெறி"
   },
   "tam_4_t2_l4": {
     "local": true,
