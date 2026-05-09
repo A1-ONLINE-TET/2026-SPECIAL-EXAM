@@ -1,0 +1,702 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Hospitality || அலகு 1: விருந்தோம்பல்",
+    "unit": "1",
+    "grade": "5",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_5_t2_l1"
+  },
+  "sections": [
+    {
+      "title": "பாடச் சுருக்கம் (Summary of 'The Gift')",
+      "content": "The story 'The Gift' revolves around the theme of true hospitality. An old beggar, who was starving for two days, approaches a luxurious house for food. The rich man arrogantly shouts at him and denies food. Later, the beggar sees wasted food being thrown into the trash. He then goes to another house, but is turned away there as well. Tired and hungry, he sleeps under a tree. \n\nA poor farm worker named Kaliyan wakes him up and invites him to his small hut. Despite having very little, Kaliyan, his wife Viji, and their two children welcome the stranger warmly. They help him wash up, feed him their simple 'gruel' from an earthen pot first, and give him a mat to sleep on. \n\nThe next morning, the beggar reveals his true identity. He is not a beggar but a wealthy landlord who disguised himself to find a kind-hearted family. Having lost his own wife and son, he wanted to hand over his wealth and social service activities to a good family. Impressed by their selfless hospitality, he persuades the reluctant Kaliyan to accept his wealth and continue his legacy."
+    },
+    {
+      "title": "பட விளக்க அகராதி (My Little Pictionary)",
+      "content": "1. Twig (n) : small, thin branch of a tree or bush.\n2. Shadow (n) : the dark area, seen under an object in light.\n3. Gruel (n) : thin, watery porridge.\n4. Disguise (v) : to change the appearance to hide identity.\n5. Guest (n) : the person who is invited to a function or to stay at one's house."
+    },
+    {
+      "title": "கலைச்சொற்கள் (Glossary)",
+      "content": "1. shrank - an adverse reaction / disgust.\n2. feeble - weak.\n3. denied - refused.\n4. shabby - worn out.\n5. reluctant - hesitant.\n6. persuaded - convinced."
+    },
+    {
+      "title": "பாடக்கருத்துக்கள் (Key Points of the Lesson)",
+      "content": "- The contrast between the wealthy but selfish man and the poor but generous Kaliyan.\n- True hospitality does not depend on how much wealth you have, but on how much love you share.\n- The landlord used a 'disguise' to find a genuine inheritor for his wealth.\n- The poor family served 'gruel' from an 'earthen pot' but with immense respect (serving the guest first)."
+    },
+    {
+      "title": "மதிப்பீட்டு வினாக்கள் - ஒரு மதிப்பெண் (Book Back - Objective Questions)",
+      "content": "A. Fill in the blanks:\n1. The rich man **shouted** at the beggar.\n2. A man in **shabby** clothes stopped near him.\n3. The hut was very **small**.\n4. Kaliyan worked in a **farm**.\n5. The old man helped **the poor** and **the needy**.\n\nB. Match the following:\n1. garden - well maintained\n2. trash can - wasted food\n3. old man - hungry and tired\n4. hut - very small\n5. gruel - earthen pot"
+    },
+    {
+      "title": "மதிப்பீட்டு வினாக்கள் - வினா விடை (Book Back - Q & A)",
+      "content": "1. How did the rich man maintain his house?\nAnswer: The rich man's house was very big and luxurious. There was a beautiful and well-maintained garden around the house.\n\n2. Where was the old man sleeping?\nAnswer: The tired old man was sleeping under a tree.\n\n3. What was the dish served to the old man?\nAnswer: The old man was served 'gruel' (thin, watery porridge) from an earthen pot.\n\n4. Why did the old man need someone?\nAnswer: The old man's wife and son died two years ago. As he grew older, he needed someone kind-hearted to take care of his wealth and continue his service to the poor.\n\n5. How did the old man disguise himself?\nAnswer: The old man disguised himself as a hungry and tired beggar wearing old clothes to test the true nature of people."
+    },
+    {
+      "title": "இலக்கணம் - பின்னொட்டுகள் (Grammar - Let Us Build: Suffixes)",
+      "content": "A suffix is a letter combination fixed at the end of the word. Suffixes add new meaning to the word.\n\n- **less** : Gives the meaning 'without'. (e.g., toothless, careless, penniless)\n- **ful** : Gives the meaning 'full of'. (e.g., joyful, beautiful, fearful, peaceful)\n- **er** : Denotes a person who does the action. (e.g., singer, painter, dancer, teacher)\n- **ment** : Denotes the name of the action (turns verb to noun). (e.g., judgement, treatment, entertainment, development)\n\nExamples from Text:\n1. dance + er = dancer\n2. entertain + ment = entertainment\n3. fear + ful = fearful\n4. peace + ful = peaceful\n5. drive + er = driver\n6. rest + less = restless\n7. govern + ment = government"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who was hungry and looking for something to eat at the beginning of the story?",
+      "options": [
+        "A poor farmer",
+        "A little boy",
+        "An old beggar",
+        "A rich merchant"
+      ],
+      "answer": 2,
+      "explanation": "The story begins with an old beggar who was very hungry and went to a big house looking for food."
+    },
+    {
+      "question": "How did the first house look from the outside?",
+      "options": [
+        "Very big and luxurious",
+        "Small and cozy",
+        "Dilapidated and old",
+        "Like a small hut"
+      ],
+      "answer": 0,
+      "explanation": "The first house the beggar approached was described as very big and luxurious with a beautiful garden."
+    },
+    {
+      "question": "What could the beggar smell as he neared the big house?",
+      "options": [
+        "Fresh flowers",
+        "Tasty food",
+        "Wet soil",
+        "Burning wood"
+      ],
+      "answer": 1,
+      "explanation": "As the old man neared the luxurious house, he could smell the aroma of tasty food."
+    },
+    {
+      "question": "Who opened the door when the beggar knocked on the big house?",
+      "options": [
+        "A servant",
+        "A well-dressed man",
+        "A little girl",
+        "An old woman"
+      ],
+      "answer": 1,
+      "explanation": "A well-dressed man opened the door and his face shrank on seeing the old beggar."
+    },
+    {
+      "question": "How many days had passed since the old beggar last had food?",
+      "options": [
+        "One day",
+        "Two days",
+        "Three days",
+        "A week"
+      ],
+      "answer": 1,
+      "explanation": "The old man replied in a feeble voice that it had been two days since he had any food."
+    },
+    {
+      "question": "What did the rich man shout at the old beggar?",
+      "options": [
+        "\"Please come inside!\"",
+        "\"Wait for ten minutes.\"",
+        "\"Do you think I am running a free food service?\"",
+        "\"Take this food and leave.\""
+      ],
+      "answer": 2,
+      "explanation": "The rich man got angry and arrogantly shouted that he was not running a free food service."
+    },
+    {
+      "question": "What happened to the door of the rich man's house?",
+      "options": [
+        "It was left wide open",
+        "It was gently closed",
+        "It was painted green",
+        "It was slammed shut"
+      ],
+      "answer": 3,
+      "explanation": "The rich man told the beggar to get out of his sight and slammed the door forcefully."
+    },
+    {
+      "question": "What did the beggar see a lady doing in the compound of the first house?",
+      "options": [
+        "Watering the plants",
+        "Dropping banana leaves with food in the trash can",
+        "Playing with a dog",
+        "Washing clothes"
+      ],
+      "answer": 1,
+      "explanation": "While walking away, the old man saw a lady throwing banana leaves with leftover food into the trash can, which made him sad."
+    },
+    {
+      "question": "When the beggar knocked on the second house, what did the voice from inside say?",
+      "options": [
+        "\"Come inside.\"",
+        "\"We don't have food.\"",
+        "\"Nobody is home. Try the next house.\"",
+        "\"Wait a moment.\""
+      ],
+      "answer": 2,
+      "explanation": "After repeated knocks, a voice from the second house lied by saying 'Nobody is home'."
+    },
+    {
+      "question": "Why did the man in the second house deny food to the beggar?",
+      "options": [
+        "He did not have enough food for himself",
+        "Because the richest man of the village denied it",
+        "He was afraid of beggars",
+        "He wanted money instead"
+      ],
+      "answer": 1,
+      "explanation": "The man asked how he could be expected to help when the richest man of the village himself had denied help."
+    },
+    {
+      "question": "Where did the tired old man sit and soon fall asleep?",
+      "options": [
+        "On a bench in the park",
+        "Inside a temple",
+        "Under a tree",
+        "Near the trash can"
+      ],
+      "answer": 2,
+      "explanation": "Being exhausted and unable to walk anymore, the old man sat under a tree and soon fell asleep."
+    },
+    {
+      "question": "Who woke the old man up from his sleep under the tree?",
+      "options": [
+        "A man in shabby clothes",
+        "The rich landlord",
+        "A police officer",
+        "A small boy"
+      ],
+      "answer": 0,
+      "explanation": "A poor man wearing shabby clothes woke him up and enquired why he was lying there."
+    },
+    {
+      "question": "What did the old man say to Kaliyan when he was invited to his hut?",
+      "options": [
+        "\"I want a luxurious bed.\"",
+        "\"I don't want to be a burden to you.\"",
+        "\"I need some money.\"",
+        "\"I will not eat your food.\""
+      ],
+      "answer": 1,
+      "explanation": "The old man was considerate and told the poor man that he didn't want to be a burden and just needed some food."
+    },
+    {
+      "question": "How did Kaliyan's hut look?",
+      "options": [
+        "Very big and strong",
+        "Filled with modern furniture",
+        "Very small and barely enough for the family",
+        "Painted in bright colors"
+      ],
+      "answer": 2,
+      "explanation": "The hut was very small, without any furniture, and barely enough for the poor family."
+    },
+    {
+      "question": "Where did Kaliyan work?",
+      "options": [
+        "In a school",
+        "In a textile mill",
+        "In a rich man's house",
+        "In the farm nearby"
+      ],
+      "answer": 3,
+      "explanation": "When Kaliyan introduced himself, he mentioned that he worked in the nearby farm."
+    },
+    {
+      "question": "Who is Kaliyan's wife?",
+      "options": [
+        "Rathika",
+        "Sita",
+        "Viji",
+        "Gowri"
+      ],
+      "answer": 2,
+      "explanation": "Kaliyan introduced his family, mentioning his wife's name as Viji."
+    },
+    {
+      "question": "What are the names of Kaliyan's children?",
+      "options": [
+        "Gopi and Viji",
+        "Gopi and Rathika",
+        "Rathika and Ramu",
+        "Viji and Kaliyan"
+      ],
+      "answer": 1,
+      "explanation": "Kaliyan's children were named Gopi and Rathika."
+    },
+    {
+      "question": "What did Kaliyan do as soon as the old man entered the hut?",
+      "options": [
+        "He asked for rent",
+        "He went to sleep",
+        "He helped the man wash his face and hands",
+        "He started scolding his children"
+      ],
+      "answer": 2,
+      "explanation": "Showing true hospitality, Kaliyan helped the tired old man wash his face and hands before the meal."
+    },
+    {
+      "question": "What dish did Viji serve the old man?",
+      "options": [
+        "Biryani",
+        "Gruel",
+        "Fruits",
+        "Bread"
+      ],
+      "answer": 1,
+      "explanation": "Viji served gruel (a thin, watery porridge) to the old man and her family."
+    },
+    {
+      "question": "From what kind of vessel was the gruel served?",
+      "options": [
+        "A silver bowl",
+        "A plastic container",
+        "An earthen pot",
+        "A glass jar"
+      ],
+      "answer": 2,
+      "explanation": "Viji served the gruel from a simple earthen pot, showing their poor economic condition."
+    },
+    {
+      "question": "Who was served first during the dinner?",
+      "options": [
+        "Kaliyan",
+        "The children",
+        "Viji",
+        "The old man"
+      ],
+      "answer": 3,
+      "explanation": "Respecting the guest, Viji served the hungry old man first before her own family."
+    },
+    {
+      "question": "Where did the old man sleep that night?",
+      "options": [
+        "On a luxurious bed",
+        "On a mat laid by Kaliyan",
+        "Outside the hut",
+        "On the roof"
+      ],
+      "answer": 1,
+      "explanation": "After dinner, Kaliyan laid a simple mat for the old man to sleep on."
+    },
+    {
+      "question": "What surprising instruction did the old man give Kaliyan's family the next morning?",
+      "options": [
+        "To clean the house",
+        "To cook more food",
+        "To pack their things",
+        "To leave him alone"
+      ],
+      "answer": 2,
+      "explanation": "The next morning, the beggar surprisingly asked Kaliyan's family to pack all their things."
+    },
+    {
+      "question": "What was the real identity of the old beggar?",
+      "options": [
+        "A magician",
+        "A landlord from a nearby town",
+        "A king from another country",
+        "A thief in disguise"
+      ],
+      "answer": 1,
+      "explanation": "The old man revealed that he was not a beggar but a wealthy landlord from a nearby town."
+    },
+    {
+      "question": "What happened to the landlord's wife and son?",
+      "options": [
+        "They went abroad",
+        "They died two years back",
+        "They were living in the city",
+        "They abandoned him"
+      ],
+      "answer": 1,
+      "explanation": "The landlord mentioned that his wife and son had died two years ago, leaving him alone."
+    },
+    {
+      "question": "Why did the landlord disguise himself as a beggar?",
+      "options": [
+        "He lost all his money",
+        "He wanted to find someone to take care of his wealth and continue his service",
+        "He was running away from enemies",
+        "He loved begging"
+      ],
+      "answer": 1,
+      "explanation": "He disguised himself to find a genuinely kind-hearted person who could inherit his wealth and continue helping the poor."
+    },
+    {
+      "question": "How did Kaliyan initially react to the landlord's offer?",
+      "options": [
+        "He was extremely greedy and grabbed it",
+        "He was angry",
+        "He was reluctant",
+        "He ran away"
+      ],
+      "answer": 2,
+      "explanation": "Kaliyan was initially reluctant (hesitant) to accept such a huge gift from the landlord."
+    },
+    {
+      "question": "What does the word 'Twig' mean according to the Pictionary?",
+      "options": [
+        "A large trunk",
+        "A small, thin branch of a tree or bush",
+        "A type of bird",
+        "A deep root"
+      ],
+      "answer": 1,
+      "explanation": "A twig is defined as a small, thin branch of a tree or bush."
+    },
+    {
+      "question": "Choose the correct meaning for 'Shadow'.",
+      "options": [
+        "Bright light from the sun",
+        "A reflective surface like a mirror",
+        "The dark area seen under an object in light",
+        "A painting of a person"
+      ],
+      "answer": 2,
+      "explanation": "A shadow is the dark area that is cast by an object blocking the light."
+    },
+    {
+      "question": "What is 'Gruel'?",
+      "options": [
+        "A thick piece of meat",
+        "Thin, watery porridge",
+        "A sweet dessert",
+        "A type of clothing"
+      ],
+      "answer": 1,
+      "explanation": "Gruel is a very simple, thin, and watery porridge, usually eaten by the poor."
+    },
+    {
+      "question": "Find the meaning for the word 'Disguise'.",
+      "options": [
+        "To change the appearance to hide identity",
+        "To reveal the truth",
+        "To wear new clothes for a festival",
+        "To wash oneself cleanly"
+      ],
+      "answer": 0,
+      "explanation": "Disguise means changing one's appearance so that others cannot recognize their true identity."
+    },
+    {
+      "question": "Who is a 'Guest'?",
+      "options": [
+        "A person who attacks the house",
+        "The owner of the house",
+        "A person who is invited to a function or to stay at one's house",
+        "A person who begs on the street"
+      ],
+      "answer": 2,
+      "explanation": "A guest is someone invited to visit or stay in a person's home."
+    },
+    {
+      "question": "According to the glossary, what does 'shrank' mean in the context 'The man's face shrank'?",
+      "options": [
+        "Became smaller in size",
+        "An adverse reaction",
+        "Smiled broadly",
+        "Turned red"
+      ],
+      "answer": 1,
+      "explanation": "In this context, 'shrank' denotes an adverse, disgusted, or unwelcoming reaction on the rich man's face."
+    },
+    {
+      "question": "What is the synonym for the word 'feeble'?",
+      "options": [
+        "Strong",
+        "Loud",
+        "Weak",
+        "Energetic"
+      ],
+      "answer": 2,
+      "explanation": "Feeble means weak. The old man had a feeble voice because he hadn't eaten for two days."
+    },
+    {
+      "question": "What does the word 'denied' mean?",
+      "options": [
+        "Accepted",
+        "Refused",
+        "Ignored",
+        "Allowed"
+      ],
+      "answer": 1,
+      "explanation": "Denied means to refuse to give or grant something."
+    },
+    {
+      "question": "The poor man was wearing 'shabby' clothes. What does 'shabby' mean?",
+      "options": [
+        "Worn out",
+        "Brand new",
+        "Very expensive",
+        "Colorful"
+      ],
+      "answer": 0,
+      "explanation": "Shabby refers to items, especially clothes, that are old, worn out, and in poor condition."
+    },
+    {
+      "question": "Kaliyan was 'reluctant' to accept the landlord's offer. 'Reluctant' means:",
+      "options": [
+        "Eager",
+        "Hesitant",
+        "Confident",
+        "Greedy"
+      ],
+      "answer": 1,
+      "explanation": "Reluctant means feeling hesitant or unwilling to do something."
+    },
+    {
+      "question": "The old man 'persuaded' Kaliyan and his family. What is the meaning of 'persuaded'?",
+      "options": [
+        "Forced physically",
+        "Threatened",
+        "Convinced",
+        "Cheated"
+      ],
+      "answer": 2,
+      "explanation": "Persuaded means convincing someone to do or believe something through reasoning."
+    },
+    {
+      "question": "Fill in the blank: The rich man ______ at the beggar.",
+      "options": [
+        "smiled",
+        "shouted",
+        "laughed",
+        "cried"
+      ],
+      "answer": 1,
+      "explanation": "According to the book back exercise, the rich man shouted at the beggar to get out."
+    },
+    {
+      "question": "Fill in the blank: A man in ______ clothes stopped near him.",
+      "options": [
+        "shabby",
+        "new",
+        "costly",
+        "white"
+      ],
+      "answer": 0,
+      "explanation": "Kaliyan, who approached the old man, was wearing shabby clothes."
+    },
+    {
+      "question": "Fill in the blank: The hut was very ______.",
+      "options": [
+        "large",
+        "small",
+        "clean",
+        "dark"
+      ],
+      "answer": 1,
+      "explanation": "Kaliyan's hut was described as very small and barely enough for his family."
+    },
+    {
+      "question": "Fill in the blank: Kaliyan worked in a ______.",
+      "options": [
+        "factory",
+        "farm",
+        "hospital",
+        "school"
+      ],
+      "answer": 1,
+      "explanation": "Kaliyan mentioned that he worked in the farm nearby."
+    },
+    {
+      "question": "Match the following: 'trash can' is correctly matched with...",
+      "options": [
+        "wasted food",
+        "well maintained",
+        "earthen pot",
+        "very small"
+      ],
+      "answer": 0,
+      "explanation": "In the story, the lady dropped banana leaves with wasted food into the trash can."
+    },
+    {
+      "question": "Match the following: 'gruel' is correctly matched with...",
+      "options": [
+        "hungry and tired",
+        "earthen pot",
+        "very small",
+        "well maintained"
+      ],
+      "answer": 1,
+      "explanation": "Viji served the gruel from an earthen pot."
+    },
+    {
+      "question": "Grammar: When we add the suffix '-less', it gives the meaning...",
+      "options": [
+        "full of",
+        "without",
+        "a person who does an action",
+        "name of the action"
+      ],
+      "answer": 1,
+      "explanation": "The suffix '-less' changes the root word to mean 'without' (e.g., toothless = without teeth)."
+    },
+    {
+      "question": "Grammar: When we add the suffix '-ful', it gives the meaning...",
+      "options": [
+        "without",
+        "name of the action",
+        "a person who does",
+        "full of"
+      ],
+      "answer": 3,
+      "explanation": "The suffix '-ful' changes the root word to mean 'full of' (e.g., joyful = full of joy)."
+    },
+    {
+      "question": "Grammar: When we add the suffix '-er', it denotes...",
+      "options": [
+        "a person who does the action",
+        "without",
+        "full of",
+        "a place"
+      ],
+      "answer": 0,
+      "explanation": "The suffix '-er' signifies a person performing an action (e.g., singer = a person who sings)."
+    },
+    {
+      "question": "Grammar: When we add the suffix '-ment', it denotes...",
+      "options": [
+        "full of",
+        "a person who does the action",
+        "the name of the action",
+        "without"
+      ],
+      "answer": 2,
+      "explanation": "The suffix '-ment' converts a verb into a noun, denoting the name of the action (e.g., judgement)."
+    },
+    {
+      "question": "Join the word with correct suffix: dance + ______",
+      "options": [
+        "ment",
+        "er",
+        "ful",
+        "less"
+      ],
+      "answer": 1,
+      "explanation": "dance + er = dancer (a person who dances)."
+    },
+    {
+      "question": "Join the word with correct suffix: entertain + ______",
+      "options": [
+        "er",
+        "less",
+        "ment",
+        "ful"
+      ],
+      "answer": 2,
+      "explanation": "entertain + ment = entertainment (the act of entertaining)."
+    },
+    {
+      "question": "Join the word with correct suffix: fear + ______",
+      "options": [
+        "er",
+        "ment",
+        "ful",
+        "tion"
+      ],
+      "answer": 2,
+      "explanation": "fear + ful = fearful (full of fear)."
+    },
+    {
+      "question": "Form a new word with the appropriate suffix: peace + ______",
+      "options": [
+        "ful",
+        "er",
+        "ment",
+        "less"
+      ],
+      "answer": 0,
+      "explanation": "peace + ful = peaceful."
+    },
+    {
+      "question": "Form a new word with the appropriate suffix: govern + ______",
+      "options": [
+        "er",
+        "ful",
+        "ment",
+        "less"
+      ],
+      "answer": 2,
+      "explanation": "govern + ment = government."
+    },
+    {
+      "question": "Add appropriate suffix for 'A person one who teaches'. (Root word: teach)",
+      "options": [
+        "teaching",
+        "teacher",
+        "teachment",
+        "teachful"
+      ],
+      "answer": 1,
+      "explanation": "teach + er = teacher."
+    },
+    {
+      "question": "Add appropriate suffix for 'Having no money'. (Root word: penny)",
+      "options": [
+        "pennyful",
+        "pennyer",
+        "penniless",
+        "pennyment"
+      ],
+      "answer": 2,
+      "explanation": "penny + less = penniless (meaning without a penny/money)."
+    },
+    {
+      "question": "Assertion (A): The old man left the second house feeling happy.\nReason (R): The man in the second house refused to give him food.",
+      "options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true",
+        "Both A and R are false"
+      ],
+      "answer": 1,
+      "explanation": "The beggar was sad and disappointed, not happy, because the second house also refused to give him food."
+    },
+    {
+      "question": "True or False: The rich man gave his leftover food to the old beggar.",
+      "options": [
+        "True",
+        "False",
+        "Not mentioned in the story",
+        "He gave it the next day"
+      ],
+      "answer": 1,
+      "explanation": "The rich man denied food entirely and slammed the door, and the lady threw the leftovers in the trash."
+    },
+    {
+      "question": "What is the primary moral of the story 'The Gift'?",
+      "options": [
+        "Rich people are always bad",
+        "You should never talk to strangers",
+        "True hospitality comes from a kind heart, not from wealth",
+        "Farming is the best profession"
+      ],
+      "answer": 2,
+      "explanation": "The story shows that despite being poor, Kaliyan's family showed immense love and hospitality, unlike the rich man."
+    },
+    {
+      "question": "Why didn't the old man tell Kaliyan he was rich on the first night itself?",
+      "options": [
+        "He forgot his identity",
+        "He was afraid of being robbed",
+        "He wanted to test their true hospitality and kindness without any expectations",
+        "He wanted to sleep early"
+      ],
+      "answer": 2,
+      "explanation": "The landlord disguised himself to test the pure character and genuine hospitality of the people before making them his heirs."
+    },
+    {
+      "question": "Which of the following actions proved Kaliyan's kindness?",
+      "options": [
+        "He ignored the sleeping man",
+        "He asked the old man for money",
+        "He woke up the tired stranger and invited him to share their limited food",
+        "He told the stranger to go to the big house"
+      ],
+      "answer": 2,
+      "explanation": "Despite his own poverty, Kaliyan's gesture to invite a stranger home and offer him their little food showed true kindness."
+    }
+  ]
+}

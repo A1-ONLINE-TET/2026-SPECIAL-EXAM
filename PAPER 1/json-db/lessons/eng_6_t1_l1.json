@@ -1,0 +1,350 @@
+{
+  "title": "Prose: Sea Turtles",
+  "lessonId": "Sea Turtles",
+  "material": {
+    "sections": [
+      {
+        "title": "Key Facts about Sea Turtles",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ How many species of sea turtles are there in the world?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 There are <span style=\"color:var(--primary);font-weight:700;\">seven</span> species of sea turtles worldwide.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ Which are the five species found in Indian coastal waters?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 The <span style=\"color:var(--primary);font-weight:700;\">Olive Ridley</span>, the <span style=\"color:var(--primary);font-weight:700;\">Hawksbill</span>, the <span style=\"color:var(--primary);font-weight:700;\">Green Sea Turtle</span>, the <span style=\"color:var(--primary);font-weight:700;\">Loggerhead</span>, and the <span style=\"color:var(--primary);font-weight:700;\">Leatherback</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ Which is the smallest and most common species in India?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 The <span style=\"color:var(--primary);font-weight:700;\">Olive Ridley</span> is the smallest and most common.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ Which is the largest sea turtle species?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 The <span style=\"color:var(--primary);font-weight:700;\">Leatherback</span> turtle, which grows to a length of <span style=\"color:var(--primary);font-weight:700;\">2.2m</span> and weighs up to <span style=\"color:var(--primary);font-weight:700;\">700kg</span>.</div>\n        </div>\n    "
+      },
+      {
+        "title": "Nesting and Life Cycle",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ When do Olive Ridleys come ashore to lay eggs?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 Between <span style=\"color:var(--primary);font-weight:700;\">January and March</span>, usually at <span style=\"color:var(--primary);font-weight:700;\">night</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ How many eggs does a female turtle lay at a time?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 About <span style=\"color:var(--primary);font-weight:700;\">100 eggs</span> in a nest cavity of <span style=\"color:var(--primary);font-weight:700;\">45 cm</span> depth.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ How do the eggs hatch?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 The eggs are incubated by the <span style=\"color:var(--primary);font-weight:700;\">warmth of the sun</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ What is the incubation period?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 The eggs hatch after <span style=\"color:var(--primary);font-weight:700;\">45 to 60 days</span>.</div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "How many species of sea turtles are there in the world?",
+      "a": "There are seven species of sea turtles worldwide."
+    },
+    {
+      "q": "Which are the five species found in Indian coastal waters?",
+      "a": "The Olive Ridley, the Hawksbill, the Green Sea Turtle, the Loggerhead, and the Leatherback."
+    },
+    {
+      "q": "Which is the smallest and most common species in India?",
+      "a": "The Olive Ridley is the smallest and most common."
+    },
+    {
+      "q": "Which is the largest sea turtle species?",
+      "a": "The Leatherback turtle, which grows to a length of 2.2m and weighs up to 700kg."
+    },
+    {
+      "q": "When do Olive Ridleys come ashore to lay eggs?",
+      "a": "Between January and March, usually at night."
+    },
+    {
+      "q": "How many eggs does a female turtle lay at a time?",
+      "a": "About 100 eggs in a nest cavity of 45 cm depth."
+    },
+    {
+      "q": "How do the eggs hatch?",
+      "a": "The eggs are incubated by the warmth of the sun."
+    },
+    {
+      "q": "What is the incubation period?",
+      "a": "The eggs hatch after 45 to 60 days."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "How many species of sea turtles are there in the world? / உலகில் மொத்தம் எத்தனை வகையான கடல் ஆமை இனங்கள் உள்ளன?",
+        "options": [
+          "Five",
+          "Ten",
+          "Seven",
+          "Eight"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Which is the smallest sea turtle species? / மிகச்சிறிய கடல் ஆமை இனம் எது?",
+        "options": [
+          "Olive Ridley",
+          "Leatherback",
+          "Green Sea Turtle",
+          "Hawksbill"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the maximum weight of a fully grown Leatherback turtle? / முழுமையாக வளர்ந்த லெதர்பேக் ஆமையின் அதிகபட்ச எடை எவ்வளவு?",
+        "options": [
+          "100 kg",
+          "35 kg",
+          "500 kg",
+          "700 kg"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Where do sea turtles spend their entire lives? / கடல் ஆமைகள் தங்கள் வாழ்நாள் முழுவதையும் எங்கே கழிக்கின்றன?",
+        "options": [
+          "Forests",
+          "Lakes",
+          "Rivers",
+          "Ocean"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Why do sea turtles come to the shore? / கடல் ஆமைகள் ஏன் கரைக்கு வருகின்றன?",
+        "options": [
+          "To lay eggs",
+          "To sleep",
+          "To play",
+          "To find food"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "In which months do Olive Ridleys come to the beach? / ஆலிவ் ரிட்லி ஆமைகள் எந்த மாதங்களில் கடற்கரைக்கு வருகின்றன?",
+        "options": [
+          "June to August",
+          "May to July",
+          "January and March",
+          "September to November"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "How deep is the nest cavity dug by the turtle? / ஆமை தோண்டும் முட்டை குழியின் ஆழம் எவ்வளவு?",
+        "options": [
+          "25 cm",
+          "10 cm",
+          "45 cm",
+          "100 cm"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What is the shape and size of a sea turtle's egg? / கடல் ஆமையின் முட்டை எந்த வடிவம் மற்றும் அளவில் இருக்கும்?",
+        "options": [
+          "Table tennis ball",
+          "Golf ball",
+          "Football",
+          "Cricket ball"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What helps the eggs to hatch? / முட்டைகள் பொரிப்பதற்கு எது உதவுகிறது?",
+        "options": [
+          "Warmth of the sun",
+          "Sea water",
+          "Body heat of the mother",
+          "Moonlight"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Out of 1000 hatchlings, how many reach adulthood? / 1000 குஞ்சுகளில் எத்தனை வளர்ந்த ஆமையாக மாறுகின்றன?",
+        "options": [
+          "Fifty",
+          "Only one",
+          "One hundred",
+          "Five hundred"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What body part does a sea turtle use for swimming? / கடல் ஆமை நீந்துவதற்கு எந்த உறுப்பைப் பயன்படுத்துகிறது?",
+        "options": [
+          "Flippers",
+          "Legs",
+          "Tail",
+          "Gills"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "At what time do female turtles usually come ashore? / பெண் ஆமைகள் வழக்கமாக எந்த நேரத்தில் கரைக்கு வருகின்றன?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Afternoon"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What is the meaning of 'Camouflage'? / 'Camouflage' என்பதன் பொருள் என்ன?",
+        "options": [
+          "To swim",
+          "To run fast",
+          "To hide or disguise",
+          "To eat"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What is an 'egg-tooth'? / 'egg-tooth' என்பது என்ன?",
+        "options": [
+          "A large tusk",
+          "A predator's tooth",
+          "A tiny notch to break the shell",
+          "A tooth for eating"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "How many days does it take for eggs to hatch? / முட்டைகள் பொரிய எத்தனை நாட்கள் ஆகும்?",
+        "options": [
+          "45 to 60 days",
+          "5 days",
+          "One year",
+          "10 days"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the weight of a tiny hatchling? / ஒரு ஆமைக் குஞ்சின் எடை எவ்வளவு?",
+        "options": [
+          "Less than 20 grams",
+          "500 grams",
+          "1 kg",
+          "100 grams"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which animal is a predator of turtle eggs? / ஆமை முட்டைகளைத் தின்னும் விலங்கு எது?",
+        "options": [
+          "Cow",
+          "Elephant",
+          "Deer",
+          "Domestic dog"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Which animal eats hatchlings on the beach? / கடற்கரையில் ஆமைக் குஞ்சுகளைத் தின்னும் உயிரி எது?",
+        "options": [
+          "Squirrel",
+          "Rabbit",
+          "Horse",
+          "Crab"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What does 'Marine' mean? / 'Marine' என்பதன் பொருள் என்ன?",
+        "options": [
+          "Found on mountains",
+          "Found in air",
+          "Found in the sea",
+          "Found in forests"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What is a 'Species'? / 'Species' என்பது என்ன?",
+        "options": [
+          "A group of similar animals/plants",
+          "A type of fruit",
+          "A part of a tree",
+          "A single animal"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why do turtles lay so many eggs? / ஆமைகள் ஏன் இவ்வளவு அதிகமான முட்டைகள் இடுகின்றன?",
+        "options": [
+          "To feed the predators",
+          "To play in the sand",
+          "To fill the nest",
+          "To ensure survival of the species"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Where is the egg-tooth located? / முட்டைப் பல் எங்கே அமைந்துள்ளது?",
+        "options": [
+          "On the shell",
+          "Tip of the snout",
+          "On the flipper",
+          "On the tail"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Is a sea turtle the same as a land tortoise? / கடல் ஆமையும் நில ஆமையும் ஒன்றா?",
+        "options": [
+          "No",
+          "Yes"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How many species of sea turtles are found in India? / இந்தியாவில் எத்தனை வகையான கடல் ஆமைகள் காணப்படுகின்றன?",
+        "options": [
+          "Five",
+          "Two",
+          "Three",
+          "Seven"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the length of a Leatherback turtle? / லெதர்பேக் ஆமையின் நீளம் எவ்வளவு?",
+        "options": [
+          "0.5 meters",
+          "1 meter",
+          "2.2 meters",
+          "5 meters"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Do mother turtles stay to protect the eggs? / தாய் ஆமைகள் முட்டைகளைப் பாதுகாக்கக் காத்திருக்குமா?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What do hatchlings do after coming out of the sand? / மணலிலிருந்து வெளியே வந்ததும் குஞ்சுகள் என்ன செய்யும்?",
+        "options": [
+          "Stay in the nest",
+          "Sleep on the beach",
+          "Hurry to the sea",
+          "Look for their mother"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Why is it hard for turtles to walk on land? / ஆமைகளால் நிலத்தில் நடப்பது ஏன் கடினம்?",
+        "options": [
+          "Flippers are made for swimming, not walking",
+          "They don't have eyes",
+          "Because they are heavy",
+          "They are afraid of sand"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the common species seen nesting on Indian coasts? / இந்தியக் கடற்கரையில் முட்டையிட வரும் பொதுவான இனம் எது?",
+        "options": [
+          "Hawksbill",
+          "Green Sea Turtle",
+          "Olive Ridley",
+          "Leatherback"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What is the name for animals that hunt others? / பிற விலங்குகளை வேட்டையாடும் உயிரினங்களின் பெயர் என்ன?",
+        "options": [
+          "Pets",
+          "Friends",
+          "Herbivores",
+          "Predators"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

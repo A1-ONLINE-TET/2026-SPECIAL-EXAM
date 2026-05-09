@@ -1,0 +1,589 @@
+{
+  "lesson_meta": {
+    "title": "Tools || கருவிகள்",
+    "code": "eng_3_t3_l2",
+    "grade": "3",
+    "term": "3",
+    "unit": "2",
+    "subject": "English"
+  },
+  "material": [
+    {
+      "type": "summary",
+      "title": "Lesson Summary || பாடச் சுருக்கம்",
+      "content": "This lesson introduces various tools used in daily life, repair work, and basic mechanical concepts through stories and poems. It covers tools like the stethoscope, needle, iron box, and simple machines like the pulley and crank.\n\nஇந்த பாடம் அன்றாட வாழ்க்கையில் பயன்படுத்தப்படும் பல்வேறு கருவிகள், பழுதுபார்க்கும் வேலைகள் மற்றும் அடிப்படை இயந்திரக் கருத்துக்களைக் கதைகள் மற்றும் கவிதைகள் மூலம் அறிமுகப்படுத்துகிறது. இது ஸ்டெதாஸ்கோப், ஊசி, இஸ்திரி பெட்டி மற்றும் கப்பி (pulley) மற்றும் கிராங்க் போன்ற எளிய இயந்திரங்களைப் பற்றி விளக்குகிறது."
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: Tools and Their Uses || சொற்களஞ்சியம்: கருவிகள் மற்றும் அவற்றின் பயன்பாடுகள்",
+      "content": "• Saw: Cutting wood (மரம் அறுக்க).\n• Hammer: Fixing nails (ஆணி அடிக்க).\n• Plier: Gripping wires (கம்பியைப் பிடிக்க).\n• Screwdriver: Turning screws (திருகுகளைத் திருப்ப).\n• Drill: Making holes (துளையிட).\n• Multimeter: Testing electric current (மின்னோட்டத்தைச் சோதிக்க).\n• Needle & Thread: Stitching clothes (துணி தைக்க).\n• Cleaver: Cracking hard shells (கடினமான ஓடுகளை உடைக்க)."
+    },
+    {
+      "type": "section",
+      "title": "Story: A Stitch in Time || கதை: உரிய நேரத்தில் ஒரு தையல்",
+      "content": "• Shyam's favorite shirt's seams come apart; his grandfather fixes it with a needle and thread.\n• The iron box breaks down. Shyam and Veni take it to Daisy Aunty's Repair Shop.\n• Daisy Aunty uses a multimeter to find a broken wire and fixes it.\n• Lesson: Learning to repair things instead of throwing them away.\n\n• ஷியாமின் விருப்பமான சட்டையின் தையல் பிரிகிறது; அவனது தாத்தா ஊசி மற்றும் நூலால் அதைத் தைக்கிறார்.\n• இஸ்திரி பெட்டி பழுதடைகிறது. ஷியாமும் வேணியும் அதை டெய்சி அத்தையின் பழுதுபார்க்கும் கடைக்கு எடுத்துச் செல்கிறார்கள்.\n• டெய்சி அத்தை ஒரு மல்டிமீட்டரைப் பயன்படுத்தி உடைந்த கம்பியைக் கண்டுபிடித்து சரிசெய்கிறார்.\n• பாடம்: பொருட்களைத் தூக்கி எறிவதற்குப் பதிலாக அவற்றை சரிசெய்யக் கற்றுக்கொள்ளுதல்."
+    },
+    {
+      "type": "section",
+      "title": "Supplementary Story: Ammachi's Coconut Barfi || துணைக் கதை: அம்மாச்சியின் தேங்காய் பர்பி",
+      "content": "• Sabari and Ammachi use simple machines to make barfi.\n• Pulley: To go up the coconut tree.\n• Crank Machine: To remove the coconut husk.\n• Cleaver: To crack the shell.\n• Grater: To grate the fruit.\n\n• சபரியும் அம்மாச்சியும் பர்பி தயாரிக்க எளிய இயந்திரங்களைப் பயன்படுத்துகின்றனர்.\n• கப்பி (Pulley): தென்னை மரத்தில் மேலே ஏற.\n• கிராங்க் இயந்திரம்: தேங்காய் நார் எடுக்க.\n• மரைக்கத்தி (Cleaver): தேங்காய் ஓட்டை உடைக்க.\n• துருவி (Grater): தேங்காயைத் துருவ."
+    },
+    {
+      "type": "section",
+      "title": "Phonics & Grammar || ஒலியியல் மற்றும் இலக்கணம்",
+      "content": "• Phonics (Soft 'g'): 'ge', 'gi', and 'dge' make the /j/ sound. (e.g., Gem, Magic, Badge).\n• Grammar (Joining Words): Use 'and' to join similar sentences. (e.g., I like apple and orange).\n• Conversations: Asking time ('What is the time?') and possession ('Whose...?').\n\n• ஒலியியல்: 'ge', 'gi', மற்றும் 'dge' ஆகியவை /j/ ஒலியைத் தரும். (உதாரணம்: ரத்தினம், மந்திரம், பதக்கம்).\n• இலக்கணம்: ஒரே மாதிரியான வாக்கியங்களை இணைக்க 'and' (மற்றும்) என்பதைப் பயன்படுத்துகிறோம்.\n• உரையாடல்கள்: நேரம் கேட்டல் ('நேரம் என்ன?') மற்றும் உடைமை பற்றிக் கேட்டல் ('யாருடைய...?')."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the name of the tool used by a doctor to listen to a patient's heartbeat?",
+      "options": [
+        "Multimeter",
+        "Microscope",
+        "Stethoscope",
+        "Screwdriver"
+      ],
+      "answer": 2,
+      "explanation": "A doctor uses a stethoscope to listen to the 'Thud Thud' sound of the heart. || ஒரு மருத்துவர் இதயத்தின் 'தட தட' ஒலியைக் கேட்க ஸ்டெதாஸ்கோப்பைப் பயன்படுத்துகிறார்."
+    },
+    {
+      "question": "What sound does the heart make in 'The Little Doctor' poem?",
+      "options": [
+        "Beep Beep",
+        "Thud Thud",
+        "Tick Tock",
+        "Ring Ring"
+      ],
+      "answer": 1,
+      "explanation": "The heart makes a 'Thud Thud' sound as it works. || இதயம் வேலை செய்யும்போது 'தட தட' (Thud Thud) ஒலியை எழுப்புகிறது."
+    },
+    {
+      "question": "Who fixed Shyam's favorite shirt when its seams came apart?",
+      "options": [
+        "His mother",
+        "Veni",
+        "Daisy Aunty",
+        "His grandfather (Thatha)"
+      ],
+      "answer": 3,
+      "explanation": "Shyam's grandfather used a needle and thread to stitch the shirt. || ஷியாமின் தாத்தா ஊசி மற்றும் நூலைப் பயன்படுத்தி சட்டையைத் தைத்தார்."
+    },
+    {
+      "question": "What did Veni ask Shyam to do when she came to his house?",
+      "options": [
+        "To play cricket",
+        "To go cycling",
+        "To repair an iron box",
+        "To eat coconut barfi"
+      ],
+      "answer": 1,
+      "explanation": "Veni invited Shyam to go cycling together. || வேணி ஷியாமைக் கூப்பிட்டு ஒன்றாக மிதிவண்டி ஓட்டச் செல்ல அழைத்தார்."
+    },
+    {
+      "question": "Why did Shyam refuse to go cycling immediately?",
+      "options": [
+        "He wanted to sleep",
+        "He wanted to stitch his shirt",
+        "He wanted to iron his shirt first",
+        "His cycle was broken"
+      ],
+      "answer": 2,
+      "explanation": "Shyam wanted to iron his shirt because it was crumpled. || ஷியாம் தனது சட்டை கசங்கியிருந்ததால் அதை முதலில் இஸ்திரி செய்ய விரும்பினான்."
+    },
+    {
+      "question": "Match the tools to their specific uses: 1. Screwdriver - Open/close things, 2. Needle - Stitch clothes, 3. Multimeter - Test electrical things.",
+      "options": [
+        "1-b, 2-a, 3-c",
+        "1-c, 2-b, 3-a",
+        "1-a, 2-c, 3-b",
+        "1-c, 2-a, 3-b"
+      ],
+      "answer": 1,
+      "explanation": "Screwdriver opens things, needle stitches, and multimeter tests current. || ஸ்க்ரூடிரைவர் பொருட்களைத் திறக்கும், ஊசி தைக்கும், மற்றும் மல்டிமீட்டர் மின்னோட்டத்தைச் சோதிக்கும்."
+    },
+    {
+      "question": "What was the actual problem with Shyam's iron box?",
+      "options": [
+        "The light bulb was burnt",
+        "There was a broken wire next to the plug",
+        "There was no electricity",
+        "The iron plates were rusted"
+      ],
+      "answer": 1,
+      "explanation": "A small broken wire near the plug was preventing the iron from working. || பிளக் அருகே இருந்த ஒரு சிறிய உடைந்த கம்பி இஸ்திரி பெட்டி வேலை செய்யாமல் தடுத்தது."
+    },
+    {
+      "question": "Who helped Veni and Shyam repair the iron box?",
+      "options": [
+        "George Uncle",
+        "Thatha",
+        "Ammachi",
+        "Daisy Aunty"
+      ],
+      "answer": 3,
+      "explanation": "Daisy Aunty at the Repair Shop fixed the iron box for them. || பழுதுபார்க்கும் கடையிலிருந்த டெய்சி அத்தை அவர்களுக்கு இஸ்திரி பெட்டியைச் சரிசெய்து கொடுத்தார்."
+    },
+    {
+      "question": "Which tool did Daisy Aunty use to check the electric current?",
+      "options": [
+        "Plier",
+        "Spanner",
+        "Multimeter",
+        "Drill"
+      ],
+      "answer": 2,
+      "explanation": "She used a multimeter to find where the current was blocked. || மின்னோட்டம் எங்கே தடைபட்டுள்ளது என்பதைக் கண்டறிய அவர் மல்டிமீட்டரைப் பயன்படுத்தினார்."
+    },
+    {
+      "question": "Assertion (A): Veni successfully repaired the iron box at home. Reason (R): Veni had a screwdriver.",
+      "options": [
+        "Both A and R are true",
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are false"
+      ],
+      "answer": 2,
+      "explanation": "Veni had a screwdriver, but she couldn't fix the internal electrical issue. || வேணியிடம் ஸ்க்ரூடிரைவர் இருந்தது, ஆனால் அவளால் உள் மின்சாரப் பிரச்சினையைச் சரிசெய்ய முடியவில்லை."
+    },
+    {
+      "question": "What did Sabari ask his Ammachi to make?",
+      "options": [
+        "Mango juice",
+        "Coconut barfi",
+        "Jelly and ice cream",
+        "Bread and butter"
+      ],
+      "answer": 1,
+      "explanation": "Sabari asked for coconut barfi, which is a sweet treat. || சபரி ஒரு இனிப்புப் பலகாரமான தேங்காய் பர்பி கேட்டான்."
+    },
+    {
+      "question": "Which type of coconuts did Ammachi say they should pick?",
+      "options": [
+        "Tender, green coconuts",
+        "Ripe coconuts that are brown all over",
+        "Small, yellow coconuts",
+        "Rotten coconuts"
+      ],
+      "answer": 1,
+      "explanation": "Ripe brown coconuts are needed for making barfi. || பர்பி தயாரிக்க நன்கு முற்றிய பழுப்பு நிற தேங்காய்கள் தேவை."
+    },
+    {
+      "question": "What simple machine did Ammachi and Sabari use to go up the coconut tree?",
+      "options": [
+        "A long ladder",
+        "A seat tied to a pulley",
+        "An elevator",
+        "A rope and a drill"
+      ],
+      "answer": 1,
+      "explanation": "A pulley makes it easier to pull things or people upward. || கப்பி (Pulley) என்பது பொருட்களை அல்லது மனிதர்களை மேலே இழுப்பதை எளிதாக்குகிறது."
+    },
+    {
+      "question": "What tool did Ammachi use to crack the coconut shell?",
+      "options": [
+        "A hammer",
+        "A plier",
+        "A cleaver",
+        "An axe"
+      ],
+      "answer": 2,
+      "explanation": "A cleaver is a heavy knife used for cracking hard shells. || மரைக்கத்தி (Cleaver) என்பது கடினமான ஓடுகளை உடைக்கப் பயன்படும் ஒரு கனமான கத்தி."
+    },
+    {
+      "question": "After cooking the coconut with sugar, where did they pour it?",
+      "options": [
+        "Into a glass",
+        "Onto a tray to cool",
+        "Into a wooden box",
+        "Onto a banana leaf"
+      ],
+      "answer": 1,
+      "explanation": "It is poured onto a tray so it can cool and be cut into pieces. || இது துண்டுகளாக வெட்டுவதற்கு முன் ஆறவைக்க ஒரு தட்டில் ஊற்றப்படுகிறது."
+    },
+    {
+      "question": "Identify the word that contains the 'ge' spelling for the /j/ sound.",
+      "options": [
+        "Magic",
+        "Bridge",
+        "Gem",
+        "Giraffe"
+      ],
+      "answer": 2,
+      "explanation": "'Gem' uses the 'ge' spelling for the soft 'g' sound. || 'Gem' என்பது மென்மையான 'g' ஒலிக்கு 'ge' எழுத்துக்களைப் பயன்படுத்துகிறது."
+    },
+    {
+      "question": "Identify the odd one out based on phonics clusters.",
+      "options": [
+        "Judge",
+        "Badge",
+        "Fridge",
+        "Ginger"
+      ],
+      "answer": 3,
+      "explanation": "Judge, Badge, and Fridge end in 'dge'. Ginger starts with 'gi'. || Judge, Badge மற்றும் Fridge ஆகியவை 'dge' இல் முடிகின்றன. Ginger 'gi' இல் தொடங்குகிறது."
+    },
+    {
+      "question": "Join the sentences: 'Malar is writing. Malar is reading.'",
+      "options": [
+        "Malar is writing but reading.",
+        "Malar is writing and reading.",
+        "Malar is writing or reading.",
+        "Malar is writing because reading."
+      ],
+      "answer": 1,
+      "explanation": "Use 'and' to join activities done by the same person. || ஒரே நபர் செய்யும் செயல்களை இணைக்க 'and' (மற்றும்) என்பதைப் பயன்படுத்தவும்."
+    },
+    {
+      "question": "Which of the following is a joining word?",
+      "options": [
+        "What",
+        "Whose",
+        "And",
+        "Time"
+      ],
+      "answer": 2,
+      "explanation": "'And' is a conjunction used to connect words or sentences. || 'And' என்பது சொற்கள் அல்லது வாக்கியங்களை இணைக்கப் பயன்படும் ஒரு இணைப்புச் சொல்."
+    },
+    {
+      "question": "Fill in the blank: '______ bag is this?'",
+      "options": [
+        "When",
+        "Whose",
+        "What",
+        "Where"
+      ],
+      "answer": 1,
+      "explanation": "'Whose' is used to ask about ownership. || 'Whose' என்பது உடைமையைப் பற்றிக் கேட்கப் பயன்படுகிறது."
+    },
+    {
+      "question": "Which tool would you use to hit a nail into wood?",
+      "options": [
+        "Saw",
+        "Tape",
+        "Hammer",
+        "Spade"
+      ],
+      "answer": 2,
+      "explanation": "A hammer is used to drive nails. || சுத்தியல் ஆணி அடிக்கப் பயன்படுகிறது."
+    },
+    {
+      "question": "Which tool is best used for digging soil?",
+      "options": [
+        "Wrench",
+        "Spade",
+        "Screwdriver",
+        "Drill"
+      ],
+      "answer": 1,
+      "explanation": "A spade is designed for digging and moving earth. || மண்வெட்டி (Spade) மண்ணைத் தோண்டவும் நகர்த்தவும் வடிவமைக்கப்பட்டுள்ளது."
+    },
+    {
+      "question": "Analogy: Cloth : Scissors :: Wood : ______",
+      "options": [
+        "Hammer",
+        "Saw",
+        "Tape",
+        "Spanner"
+      ],
+      "answer": 1,
+      "explanation": "A saw is the tool used for cutting wood. || மரம் அறுக்கப் பயன்படும் கருவி ரம்பம் (Saw) ஆகும்."
+    },
+    {
+      "question": "How do you ask for the time in English?",
+      "options": [
+        "Who is the time?",
+        "When is the time?",
+        "What is the time?",
+        "Whose is the time?"
+      ],
+      "answer": 2,
+      "explanation": "'What is the time?' is the standard way to ask for the current time. || தற்போதைய நேரத்தைக் கேட்க 'What is the time?' என்பது நிலையான முறையாகும்."
+    },
+    {
+      "question": "Find the word with the 'gi' spelling.",
+      "options": [
+        "Germs",
+        "Gentle",
+        "Magic",
+        "Lodge"
+      ],
+      "answer": 2,
+      "explanation": "'Magic' contains the 'gi' cluster for the soft 'g' sound. || 'Magic' என்பது மென்மையான 'g' ஒலிக்கு 'gi' எழுத்துக்களைக் கொண்டுள்ளது."
+    },
+    {
+      "question": "What is the action word associated with turning a screw?",
+      "options": [
+        "Dig",
+        "Strike",
+        "Fix / Wind",
+        "Pluck"
+      ],
+      "answer": 2,
+      "explanation": "You fix or wind a screw using a screwdriver. || ஸ்க்ரூடிரைவரைப் பயன்படுத்தி ஒரு திருகைத் திருகலாம் அல்லது பொருத்தலாம்."
+    },
+    {
+      "question": "What is the meaning of 'crumpled' in the story?",
+      "options": [
+        "Very clean",
+        "Wrinkled and unironed",
+        "Torn into pieces",
+        "Stitched neatly"
+      ],
+      "answer": 1,
+      "explanation": "Crumpled means having many folds or wrinkles. || கசங்கியது (Crumpled) என்றால் பல மடிப்புகள் அல்லது சுருக்கங்கள் என்று பொருள்."
+    },
+    {
+      "question": "Join the sentences: 'He bought a book. He bought a pen.'",
+      "options": [
+        "He bought a book a pen.",
+        "He bought a book and a pen.",
+        "He bought a book or a pen.",
+        "He bought a book and bought pen."
+      ],
+      "answer": 1,
+      "explanation": "Remove the repeated action and join with 'and'. || மீண்டும் வரும் செயலை நீக்கிவிட்டு 'and' மூலம் இணைக்கவும்."
+    },
+    {
+      "question": "What is a 'Spanner' used for?",
+      "options": [
+        "Cutting wires",
+        "Turning nuts and bolts",
+        "Measuring length",
+        "Making holes"
+      ],
+      "answer": 1,
+      "explanation": "A spanner (wrench) is used to turn nuts and bolts. || திருகுக்குறடு (Spanner) நட்டுகள் மற்றும் போல்ட்டுகளைத் திருப்பப் பயன்படுகிறது."
+    },
+    {
+      "question": "Your bicycle chain has come off; which tool would be most helpful?",
+      "options": [
+        "Spanner",
+        "Needle",
+        "Axe",
+        "Saw"
+      ],
+      "answer": 0,
+      "explanation": "A spanner is needed to adjust the nuts on the bicycle wheel. || மிதிவண்டி சக்கரத்தில் உள்ள நட்டுகளைச் சரிசெய்ய ஒரு ஸ்பேனர் தேவை."
+    },
+    {
+      "question": "In the poem, what did the little doctor say?",
+      "options": [
+        "Take medicine",
+        "All is well, no need to fear",
+        "Go to the hospital",
+        "Eat an apple"
+      ],
+      "answer": 1,
+      "explanation": "The doctor reassures that the heart is healthy. || இதயம் ஆரோக்கியமாக இருப்பதாக மருத்துவர் உறுதியளிக்கிறார்."
+    },
+    {
+      "question": "What did Thatha use to fix Shyam's shirt?",
+      "options": [
+        "A sewing machine",
+        "Tape and glue",
+        "A needle and blue thread",
+        "A scissors and stapler"
+      ],
+      "answer": 2,
+      "explanation": "He used a needle and blue thread for a manual repair. || அவர் கைமுறைத் தையலுக்கு ஊசி மற்றும் நீல நிற நூலைப் பயன்படுத்தினார்."
+    },
+    {
+      "question": "Why did Veni think she could repair the iron box?",
+      "options": [
+        "She read a book",
+        "She watched George Uncle repairing one",
+        "She is an electrician",
+        "Her father taught her"
+      ],
+      "answer": 1,
+      "explanation": "Observing an expert is a great way to learn a skill. || ஒரு நிபுணரைப் பார்ப்பது ஒரு திறமையைக் கற்றுக்கொள்ளச் சிறந்த வழியாகும்."
+    },
+    {
+      "question": "Identify the word: 'to finally happen after a long time'.",
+      "options": [
+        "Already",
+        "Finally",
+        "Outside",
+        "Problem"
+      ],
+      "answer": 1,
+      "explanation": "'Finally' marks the end of a process. || 'Finally' என்பது ஒரு செயல்முறையின் முடிவைக் குறிக்கிறது."
+    },
+    {
+      "question": "Choose the word with the correct 'dge' spelling.",
+      "options": [
+        "Bage",
+        "Badge",
+        "Bagge",
+        "Baj"
+      ],
+      "answer": 1,
+      "explanation": "'Badge' is the correct spelling for a small identification pin. || அடையாள அட்டைக்கான (identification pin) சரியான எழுத்துப்பிழை 'Badge'."
+    },
+    {
+      "question": "Analogy: Carpenter : Saw :: Electrician : ______",
+      "options": [
+        "Needle",
+        "Multimeter",
+        "Axe",
+        "Spade"
+      ],
+      "answer": 1,
+      "explanation": "Electricians use multimeters to test circuits. || மின்சார வல்லுநர்கள் மின்சுற்றுகளைச் சோதிக்க மல்டிமீட்டர்களைப் பயன்படுத்துகின்றனர்."
+    },
+    {
+      "question": "What did Ammachi use to take the husk off the coconut?",
+      "options": [
+        "A cleaver",
+        "A crank machine with a lever",
+        "A knife",
+        "Her hands"
+      ],
+      "answer": 1,
+      "explanation": "The crank machine makes de-husking faster and easier. || கிராங்க் இயந்திரம் மட்டை உரிப்பதை வேகமாகவும் எளிதாகவும் ஆக்குகிறது."
+    },
+    {
+      "question": "Fill in the blank: 'I like jelly ______ ice cream.'",
+      "options": [
+        "but",
+        "or",
+        "and",
+        "so"
+      ],
+      "answer": 2,
+      "explanation": "Use 'and' to link two things you like. || உங்களுக்குப் பிடித்த இரண்டு விஷயங்களை இணைக்க 'and' ஐப் பயன்படுத்தவும்."
+    },
+    {
+      "question": "What is the action associated with using a 'Drill'?",
+      "options": [
+        "Making a hole",
+        "Cutting wood",
+        "Stitching cloth",
+        "Measuring length"
+      ],
+      "answer": 0,
+      "explanation": "Drills are used to create circular holes. || துளையிடும் இயந்திரங்கள் (Drills) வட்ட வடிவ துளைகளை உருவாக்கப் பயன்படுகின்றன."
+    },
+    {
+      "question": "You find a broken electrical wire at home. What is the safest action?",
+      "options": [
+        "Fix it yourself",
+        "Touch it",
+        "Tell an adult",
+        "Wrap it with paper"
+      ],
+      "answer": 2,
+      "explanation": "Electrical safety is critical; always seek adult help. || மின்சார பாதுகாப்பு மிகவும் முக்கியமானது; எப்போதும் பெரியவர்களின் உதவியை நாடவும்."
+    },
+    {
+      "question": "Assertion (A): We use a spade to chop wood. Reason (R): A spade has a heavy blade.",
+      "options": [
+        "A is true, R is false",
+        "A is false, R is true",
+        "Both A and R are true",
+        "Both A and R are false"
+      ],
+      "answer": 3,
+      "explanation": "Both are false; an axe chops wood, and a spade is for digging. || இரண்டும் தவறு; கோடாரி மரம் வெட்டும், மண்வெட்டி தோண்டும்."
+    },
+    {
+      "question": "How did Veni and Shyam travel to the Repair Shop?",
+      "options": [
+        "By bus",
+        "They walked",
+        "On their cycles",
+        "In a car"
+      ],
+      "answer": 2,
+      "explanation": "They used their bicycles for a quick trip. || விரைவான பயணத்திற்கு அவர்கள் தங்கள் மிதிவண்டிகளைப் பயன்படுத்தினர்."
+    },
+    {
+      "question": "Which of the following contains the 'ge' sound?",
+      "options": [
+        "Imagine",
+        "Pledge",
+        "Danger",
+        "Edge"
+      ],
+      "answer": 2,
+      "explanation": "'Danger' has the 'ge' cluster. || 'Danger' இல் 'ge' எழுத்துக்கள் உள்ளன."
+    },
+    {
+      "question": "What is a 'Toolbox'?",
+      "options": [
+        "A wire box",
+        "A box to store and carry tools",
+        "A toy box",
+        "A current tester"
+      ],
+      "answer": 1,
+      "explanation": "Toolboxes keep tools organized and portable. || டூல் பாக்ஸ்கள் கருவிகளை ஒழுங்காகவும் எடுத்துச் செல்லக்கூடியதாகவும் வைத்திருக்கின்றன."
+    },
+    {
+      "question": "Fill in the blank: '______ cycle is bigger?'",
+      "options": [
+        "Who",
+        "When",
+        "Whose",
+        "Which"
+      ],
+      "answer": 2,
+      "explanation": "'Whose' asks who owns the cycle. || 'Whose' என்பது மிதிவண்டி யாருக்குச் சொந்தமானது என்று கேட்கிறது."
+    },
+    {
+      "question": "HOTS: Why did Daisy Aunty use a multimeter first?",
+      "options": [
+        "Magical tool",
+        "To find the exact fault safely",
+        "To clean it",
+        "To check temperature"
+      ],
+      "answer": 1,
+      "explanation": "It's a diagnostic tool that identifies where the electricity is blocked. || இது மின்சாரம் எங்கே தடைபட்டுள்ளது என்பதைக் கண்டறியும் ஒரு கருவியாகும்."
+    },
+    {
+      "question": "HOTS: Why use a pulley to get coconuts?",
+      "options": [
+        "Easier lifting",
+        "Tree was short",
+        "Playing a game",
+        "Fall faster"
+      ],
+      "answer": 0,
+      "explanation": "Pulleys reduce the effort needed to lift heavy loads. || கப்பிகள் (Pulleys) கனமான சுமைகளைத் தூக்கத் தேவைப்படும் முயற்சியைக் குறைக்கின்றன."
+    },
+    {
+      "question": "What did 'WHOOSH! THUD!' represent?",
+      "options": [
+        "Cooking sound",
+        "Crank sound",
+        "Coconuts hitting the ground",
+        "Sabari's tummy"
+      ],
+      "answer": 2,
+      "explanation": "The sounds of objects falling and landing. || பொருட்கள் விழுந்து தரையில் மோதும் ஒலிகள்."
+    },
+    {
+      "question": "HOTS: Shyam wanted to iron his shirt before cycling. This shows he is:",
+      "options": [
+        "Lazy",
+        "Neat and values his appearance",
+        "Making excuses",
+        "A tailor"
+      ],
+      "answer": 1,
+      "explanation": "Shyam's desire for an ironed shirt shows he takes pride in being tidy. || ஷியாம் சட்டை இஸ்திரி செய்யப்பட வேண்டும் என்று விரும்புவது அவன் நேர்த்தியாக இருக்க விரும்புவதைக் காட்டுகிறது."
+    },
+    {
+      "question": "Which set is paired incorrectly?",
+      "options": [
+        "Saw - Cutting wood",
+        "Screwdriver - Turning screws",
+        "Axe - Digging soil",
+        "Scissors - Cutting paper"
+      ],
+      "answer": 2,
+      "explanation": "Axes are for chopping; spades are for digging. || கோடாரிகள் வெட்டுவதற்கும்; மண்வெட்டிகள் தோண்டுவதற்கும் ஆகும்."
+    }
+  ]
+}

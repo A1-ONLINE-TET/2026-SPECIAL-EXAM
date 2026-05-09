@@ -1,0 +1,494 @@
+{
+  "title": "எண்கள் (Numbers)",
+  "lessonId": "எண்கள்_1",
+  "material": {
+    "sections": [
+      {
+        "title": "1. எண்கள் உருவாக்கம் (Number Creation)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 1 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 1 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10</span> (மிகச்சிறிய 2 இலக்க எண்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 2 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">99</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 2 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">100</span> (மிகச்சிறிய 3 இலக்க எண்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 3 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">999</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 3 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1000</span> (மிகச்சிறிய 4 இலக்க எண்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 4 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9,999</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,000</span> (மிகச்சிறிய 5 இலக்க எண்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 5 இலக்க எண் எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">99,999</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 5 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1,00,000</span> (மிகச்சிறிய 6 இலக்க எண்)</div>\n        </div>\n    "
+      },
+      {
+        "title": "2. எண்களை ஒப்பிடுதல் - விதி 1 (Number of Digits)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ வெவ்வேறு இலக்கங்கள் கொண்ட எண்களில் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அதிக இலக்கங்கள்</span> கொண்ட எண்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1,65,432 மற்றும் 98,765 - இதில் எது பெரிய எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1,65,432</span> (ஏனெனில் இது 6 இலக்கங்களைக் கொண்டது)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5 இலக்க எண் மற்றும் 3 இலக்க எண்ணில் எது சிறியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">3 இலக்க எண்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இலக்கங்களின் எண்ணிக்கை அதிகரித்தால் எண்ணின் மதிப்பு என்னவாகும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">அதிகரிக்கும்</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "3. எண்களை ஒப்பிடுதல் - விதி 2 (Same Number of Digits)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால் எந்தப் பக்கத்திலிருந்து ஒப்பிட வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இடதுபுறம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒப்பிடும்போது முதலில் எந்த இடமதிப்பைப் பார்க்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">மிக உயர்ந்த</span> இடமதிப்பு</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5,46,780 மற்றும் 5,48,120 இல் எந்த இடம் மாறுபடுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆயிரம்</span> இடம் (6 < 8)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5,46,780 மற்றும் 5,48,120 இல் எது பெரிய எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">5,48,120</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இடதுபுற இலக்கங்கள் சமமாக இருந்தால் அடுத்து என்ன செய்ய வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 அதற்கு <span style=\"color:var(--primary);font-weight:700;\">அடுத்த வலதுபுற</span> இலக்கத்தை ஒப்பிட வேண்டும்.</div>\n        </div>\n    "
+      },
+      {
+        "title": "4. நினைவில் கொள்க (Points to Remember)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எண்ணின் இடது ஓரத்தில் பூஜ்ஜியம் இருந்தால் அதற்கு மதிப்பு உண்டா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய எண்ணை உருவாக்க இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இறங்குவரிசை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகச்சிறிய எண்ணை உருவாக்க இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஏறுவரிசை</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ விடப் பெரியது என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">></span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ விடச் சிறியது என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\"><</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சமம் என்பதைக் குறிக்கும் குறியீடு எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">=</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பூஜ்ஜியம் ஒரு எண்ணின் இடது ஓரத்தில் வரும்போது இலக்கங்களின் எண்ணிக்கை என்னவாகும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">குறையும்</span></div>\n        </div>\n    "
+      },
+      {
+        "title": "5. பயிற்சி மற்றும் மதிப்பீடு",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 5,03,450 ___ 5,03,540 - சரியான குறியீடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\"><</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 4,0,7,2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகப்பெரிய எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">7420</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 4,0,7,2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய 4 இலக்க எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">2047</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 4509, 4059, 4905, 4095 - இவற்றின் ஏறுவரிசை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4059, 4095, 4509, 4905</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண்களை எப்போதும் வலதுபுறம் இருந்து ஒப்பிடத் தொடங்க வேண்டும் - சரியா? தவறா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தவறு</span> (இடதுபுறம்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அதிக இலக்கங்களைக் கொண்ட எண்ணே சிறிய எண் - சரியா? தவறா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">தவறு</span> (பெரிய எண்)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் 5 இலக்க எண் கிடைக்குமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆம்</span> (10,000)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0247 என்பது ஒரு 4 இலக்க எண்ணா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span> (அது 3 இலக்க எண் 247)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 9,999-ஐ விட 10,000 பெரியதா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆம்</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இலட்சம் இடத்தில் 5 மற்றும் 5 சமமாக இருந்தால் எந்த இடத்தைப் பார்க்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பத்தாயிரம்</span> இடம்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 9,99,999 உடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">10,00,000</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரே எண்ணிக்கையிலான இலக்கங்கள் கொண்ட இரு எண்களை ஒப்பிடும் போது, இடதுபுறம் 8 மற்றும் 9 இருந்தால் எது பெரியது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">9</span> உள்ள எண்</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகச்சிறிய எண்ணை உருவாக்கும்போது 0-வை முதலில் எழுதலாமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">கூடாது</span> (ஏனெனில் மதிப்பு இருக்காது)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பொருட்களை எண்ணுவதற்கு எது முக்கிய பங்கு வகிக்கிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">எண்கள்</span></div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "மிகப்பெரிய 1 இலக்க எண் எது?",
+      "a": "9"
+    },
+    {
+      "q": "மிகப்பெரிய 1 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "10 (மிகச்சிறிய 2 இலக்க எண்)"
+    },
+    {
+      "q": "மிகப்பெரிய 2 இலக்க எண் எது?",
+      "a": "99"
+    },
+    {
+      "q": "மிகப்பெரிய 2 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "100 (மிகச்சிறிய 3 இலக்க எண்)"
+    },
+    {
+      "q": "மிகப்பெரிய 3 இலக்க எண் எது?",
+      "a": "999"
+    },
+    {
+      "q": "மிகப்பெரிய 3 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "1000 (மிகச்சிறிய 4 இலக்க எண்)"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண் எது?",
+      "a": "9,999"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "10,000 (மிகச்சிறிய 5 இலக்க எண்)"
+    },
+    {
+      "q": "மிகப்பெரிய 5 இலக்க எண் எது?",
+      "a": "99,999"
+    },
+    {
+      "q": "மிகப்பெரிய 5 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "1,00,000 (மிகச்சிறிய 6 இலக்க எண்)"
+    },
+    {
+      "q": "வெவ்வேறு இலக்கங்கள் கொண்ட எண்களில் எது பெரியது?",
+      "a": "அதிக இலக்கங்கள் கொண்ட எண்."
+    },
+    {
+      "q": "1,65,432 மற்றும் 98,765 - இதில் எது பெரிய எண்?",
+      "a": "1,65,432 (ஏனெனில் இது 6 இலக்கங்களைக் கொண்டது)"
+    },
+    {
+      "q": "5 இலக்க எண் மற்றும் 3 இலக்க எண்ணில் எது சிறியது?",
+      "a": "3 இலக்க எண்"
+    },
+    {
+      "q": "இலக்கங்களின் எண்ணிக்கை அதிகரித்தால் எண்ணின் மதிப்பு என்னவாகும்?",
+      "a": "அதிகரிக்கும்"
+    },
+    {
+      "q": "இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால் எந்தப் பக்கத்திலிருந்து ஒப்பிட வேண்டும்?",
+      "a": "இடதுபுறம்"
+    },
+    {
+      "q": "ஒப்பிடும்போது முதலில் எந்த இடமதிப்பைப் பார்க்க வேண்டும்?",
+      "a": "மிக உயர்ந்த இடமதிப்பு"
+    },
+    {
+      "q": "5,46,780 மற்றும் 5,48,120 இல் எந்த இடம் மாறுபடுகிறது?",
+      "a": "ஆயிரம் இடம் (6 < 8)"
+    },
+    {
+      "q": "5,46,780 மற்றும் 5,48,120 இல் எது பெரிய எண்?",
+      "a": "5,48,120"
+    },
+    {
+      "q": "இடதுபுற இலக்கங்கள் சமமாக இருந்தால் அடுத்து என்ன செய்ய வேண்டும்?",
+      "a": "அதற்கு அடுத்த வலதுபுற இலக்கத்தை ஒப்பிட வேண்டும்."
+    },
+    {
+      "q": "ஓர் எண்ணின் இடது ஓரத்தில் பூஜ்ஜியம் இருந்தால் அதற்கு மதிப்பு உண்டா?",
+      "a": "இல்லை"
+    },
+    {
+      "q": "மிகப்பெரிய எண்ணை உருவாக்க இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?",
+      "a": "இறங்குவரிசை"
+    },
+    {
+      "q": "மிகச்சிறிய எண்ணை உருவாக்க இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?",
+      "a": "ஏறுவரிசை"
+    },
+    {
+      "q": "விடப் பெரியது என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": ">"
+    },
+    {
+      "q": "விடச் சிறியது என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": "<"
+    },
+    {
+      "q": "சமம் என்பதைக் குறிக்கும் குறியீடு எது?",
+      "a": "="
+    },
+    {
+      "q": "பூஜ்ஜியம் ஒரு எண்ணின் இடது ஓரத்தில் வரும்போது இலக்கங்களின் எண்ணிக்கை என்னவாகும்?",
+      "a": "குறையும்"
+    },
+    {
+      "q": "5,03,450 ___ 5,03,540 - சரியான குறியீடு?",
+      "a": "<"
+    },
+    {
+      "q": "4,0,7,2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகப்பெரிய எண்?",
+      "a": "7420"
+    },
+    {
+      "q": "4,0,7,2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய 4 இலக்க எண்?",
+      "a": "2047"
+    },
+    {
+      "q": "4509, 4059, 4905, 4095 - இவற்றின் ஏறுவரிசை?",
+      "a": "4059, 4095, 4509, 4905"
+    },
+    {
+      "q": "எண்களை எப்போதும் வலதுபுறம் இருந்து ஒப்பிடத் தொடங்க வேண்டும் - சரியா? தவறா?",
+      "a": "தவறு (இடதுபுறம்)"
+    },
+    {
+      "q": "அதிக இலக்கங்களைக் கொண்ட எண்ணே சிறிய எண் - சரியா? தவறா?",
+      "a": "தவறு (பெரிய எண்)"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் 5 இலக்க எண் கிடைக்குமா?",
+      "a": "ஆம் (10,000)"
+    },
+    {
+      "q": "0247 என்பது ஒரு 4 இலக்க எண்ணா?",
+      "a": "இல்லை (அது 3 இலக்க எண் 247)"
+    },
+    {
+      "q": "9,999-ஐ விட 10,000 பெரியதா?",
+      "a": "ஆம்"
+    },
+    {
+      "q": "இலட்சம் இடத்தில் 5 மற்றும் 5 சமமாக இருந்தால் எந்த இடத்தைப் பார்க்க வேண்டும்?",
+      "a": "பத்தாயிரம் இடம்"
+    },
+    {
+      "q": "9,99,999 உடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+      "a": "10,00,000"
+    },
+    {
+      "q": "ஒரே எண்ணிக்கையிலான இலக்கங்கள் கொண்ட இரு எண்களை ஒப்பிடும் போது, இடதுபுறம் 8 மற்றும் 9 இருந்தால் எது பெரியது?",
+      "a": "9 உள்ள எண்"
+    },
+    {
+      "q": "மிகச்சிறிய எண்ணை உருவாக்கும்போது 0-வை முதலில் எழுதலாமா?",
+      "a": "கூடாது (ஏனெனில் மதிப்பு இருக்காது)"
+    },
+    {
+      "q": "பொருட்களை எண்ணுவதற்கு எது முக்கிய பங்கு வகிக்கிறது?",
+      "a": "எண்கள்"
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "மிகப்பெரிய 3 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+        "options": [
+          "100",
+          "1000",
+          "999",
+          "10000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகச்சிறிய 6 இலக்க எண் எது?",
+        "options": [
+          "99,999",
+          "1,00,000",
+          "10,000",
+          "1,11,111"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "1,65,432 மற்றும் 98,765 ஆகிய எண்களில் எது பெரியது?",
+        "options": [
+          "98,765",
+          "1,65,432",
+          "இரண்டும் சமம்",
+          "கூற முடியாது"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இலக்கங்களின் எண்ணிக்கை சமமாக இருந்தால், எந்தப் பக்கத்திலிருந்து ஒப்பிட்டுப் பார்க்க வேண்டும்?",
+        "options": [
+          "வலதுபுறம்",
+          "நடுவில்",
+          "இடதுபுறம்",
+          "கடைசியில்"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "5,46,780 ____ 5,48,120 - சரியான குறியீட்டைத் தேர்ந்தெடு.",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "≠"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகப்பெரிய எண்ணை உருவாக்க, இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?",
+        "options": [
+          "ஏறுவரிசை",
+          "இறங்குவரிசை",
+          "சீரற்ற வரிசை",
+          "எந்த வரிசையிலும்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "4, 0, 7, 2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகப்பெரிய எண் எது?",
+        "options": [
+          "4720",
+          "2047",
+          "7420",
+          "7402"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "4, 0, 7, 2 ஆகிய இலக்கங்களைப் பயன்படுத்தி உருவாக்கப்படும் மிகச்சிறிய 4 இலக்க எண் எது?",
+        "options": [
+          "0247",
+          "2047",
+          "2407",
+          "2074"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "ஓர் எண்ணின் இடது ஓரத்தில் பூஜ்ஜியம் இருந்தால் அந்த எண்ணின் மதிப்பு?",
+        "options": [
+          "அதிகரிக்கும்",
+          "குறையும்",
+          "மாறாது",
+          "மதிப்பு இல்லை"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைப்பது எது?",
+        "options": [
+          "9,999",
+          "10,001",
+          "10,000",
+          "1,000"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "5,03,450 மற்றும் 5,03,540 ஆகியவற்றை ஒப்பிடும்போது எந்த இடமதிப்பு மாறுபடுகிறது?",
+        "options": [
+          "நூறு",
+          "ஆயிரம்",
+          "பத்தாயிரம்",
+          "பத்து"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "மிகச்சிறிய 2 இலக்க எண் எது?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "99"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எண்களை ஒப்பிடும்போது அதிக இலக்கங்கள் கொண்ட எண்?",
+        "options": [
+          "பெரிய எண்",
+          "சிறிய எண்",
+          "பூஜ்ஜியம்",
+          "சமமான எண்"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "4509, 4059, 4905, 4095 - இதில் மிகச்சிறிய எண் எது?",
+        "options": [
+          "4509",
+          "4059",
+          "4905",
+          "4095"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "99,999 உடன் 1-ஐக் கூட்டினால் கிடைப்பது எத்தனை இலக்க எண்?",
+        "options": [
+          "5 இலக்க எண்",
+          "6 இலக்க எண்",
+          "4 இலக்க எண்",
+          "7 இலக்க எண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது சரியானது?",
+        "options": [
+          "100 > 1000",
+          "500 < 400",
+          "123 = 123",
+          "99 > 100"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "மிகச்சிறிய எண்ணை உருவாக்க இலக்கங்களை எந்த வரிசையில் எழுத வேண்டும்?",
+        "options": [
+          "இறங்குவரிசை",
+          "ஏறுவரிசை",
+          "தலைகீழ் வரிசை",
+          "எழுத்து வரிசை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0742 என்பது எத்தனை இலக்க எண்?",
+        "options": [
+          "4 இலக்க எண்",
+          "3 இலக்க எண்",
+          "2 இலக்க எண்",
+          "1 இலக்க எண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "10,000 என்பது மிகச்சிறிய ____ இலக்க எண்?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இடமதிப்பில் 'இலட்சம்' இடத்திற்கு வலதுபுறம் உள்ள இடம் எது?",
+        "options": [
+          "பத்தாயிரம்",
+          "கோடி",
+          "ஆயிரம்",
+          "பத்து"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "மிகப்பெரிய 5 இலக்க எண் எது?",
+        "options": [
+          "10,000",
+          "99,999",
+          "9,999",
+          "1,00,000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "78,900 ___ 78,090 - சரியான குறியீடு?",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "≤"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "மிகச்சிறிய 4 இலக்க எண்ணின் மதிப்பு?",
+        "options": [
+          "999",
+          "1000",
+          "1001",
+          "1111"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இலக்கங்களின் எண்ணிக்கை சமமாக இருக்கும்போது முதலில் எதைப் பார்க்க வேண்டும்?",
+        "options": [
+          "கடைசி இலக்கம்",
+          "முதல் இலக்கம் (இடது)",
+          "நடு இலக்கம்",
+          "எல்லா இலக்கமும்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "9 உடன் 1-ஐக் கூட்டினால் கிடைப்பது?",
+        "options": [
+          "91",
+          "10",
+          "8",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "6 இலக்க எண்ணை விட 5 இலக்க எண்?",
+        "options": [
+          "பெரியது",
+          "சிறியது",
+          "சமம்",
+          "கூற முடியாது"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "4,0,7,2 இல் '0' வை முதலில் போட்டால் உருவாகும் எண்?",
+        "options": [
+          "0247",
+          "2047",
+          "7420",
+          "4207"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "எண்களை ஒப்பிடுதல் என்பது எதைக் கண்டறியும் முறை?",
+        "options": [
+          "கூட்டல்",
+          "பெரியது எது சிறியது எது",
+          "பெருக்கல்",
+          "வகுத்தல்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "99 + 1 = ?",
+        "options": [
+          "100",
+          "1000",
+          "90",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "மிகப்பெரிய 6 இலக்க எண் எது?",
+        "options": [
+          "1,00,000",
+          "9,99,999",
+          "99,999",
+          "10,00,000"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

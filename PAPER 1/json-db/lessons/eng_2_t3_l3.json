@@ -1,0 +1,604 @@
+{
+  "lesson_meta": {
+    "title": "Unit 3: Food We Eat || அலகு 3: நாம் உண்ணும் உணவு",
+    "unit": "3",
+    "grade": "2",
+    "term": "t3",
+    "subject": "english",
+    "code": "eng_2_t3_l3"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "இவற்றில் எந்த உணவு 'Crunchy' (கரகரப்பான) தன்மை கொண்டது?",
+        "options": [
+          "Carrot / Radish",
+          "Milk",
+          "Juice",
+          "Water"
+        ],
+        "answer": 0,
+        "explanation": "புத்தகத்தின் படக்குறிப்பின்படி கடித்து மெல்லும் தன்மை கொண்ட காய்கறிகள் Crunchy ஆகும்."
+      },
+      {
+        "question": "இவற்றில் எது 'Sweet' (இனிப்பு) சுவையுடையது?",
+        "options": [
+          "Lemon",
+          "Bitter gourd",
+          "Apple",
+          "Chilli"
+        ],
+        "answer": 2,
+        "explanation": "பழங்கள் பொதுவாக இனிப்புச் சுவை கொண்டவை."
+      },
+      {
+        "question": "'Bitter' என்பதன் தமிழாக்கமும் அதற்குரிய உணவும் எது?",
+        "options": [
+          "உவர்ப்பு - உப்பு",
+          "இனிப்பு - சர்க்கரை",
+          "கசப்பு - பாகற்காய்",
+          "புளிப்பு - எலுமிச்சை"
+        ],
+        "answer": 2,
+        "explanation": "Bitter என்றால் கசப்பு என்று பொருள்."
+      },
+      {
+        "question": "'Pat-a-Cake' பாடலில் கேக்கில் எந்த ஆங்கில எழுத்தைக் குறியிடச் சொல்கிறார்கள்?",
+        "options": [
+          "C",
+          "A",
+          "D",
+          "B"
+        ],
+        "answer": 3,
+        "explanation": "பாடலில் 'And mark it with B' என்ற வரி வருகிறது."
+      },
+      {
+        "question": "'The Spider and the turtle' கதையில் வரும் சிலந்தியின் பெயர் என்ன?",
+        "options": [
+          "Spiky",
+          "Mikey",
+          "Tim",
+          "Chittu"
+        ],
+        "answer": 0,
+        "explanation": "கதையின் தொடக்கத்தில் 'One evening, Spiky the spider...' என்று வருகிறது."
+      },
+      {
+        "question": "ஆமை யாருடைய வீட்டிற்கு முதலில் இரவு உணவிற்குச் சென்றது?",
+        "options": [
+          "எலியின் வீட்டிற்கு",
+          "மாட்டின் வீட்டிற்கு",
+          "சிலந்தியின் வீட்டிற்கு",
+          "நண்பனின் வீட்டிற்கு"
+        ],
+        "answer": 2,
+        "explanation": "ஆமை (Turtle) முதலில் Spiky என்ற சிலந்தியின் வீட்டிற்குச் சென்றது."
+      },
+      {
+        "question": "சிலந்தியின் வீட்டில் எந்த உணவு கிண்ணத்தில் வைக்கப்பட்டிருந்தது?",
+        "options": [
+          "Fruits",
+          "Juice",
+          "Cake",
+          "Yams (கிழங்கு)"
+        ],
+        "answer": 3,
+        "explanation": "The turtle went to sit near the bowl of yams எனப் பாடத்தில் உள்ளது."
+      },
+      {
+        "question": "ஆமையை ஏன் சிலந்தி கைகழுவச் சொன்னது?",
+        "options": [
+          "சமையல் செய்ய",
+          "பாத்திரம் கழுவ",
+          "அழுக்குக் கைகளுடன் சாப்பிடக்கூடாது என்பதால்",
+          "தண்ணீர் குடிக்க"
+        ],
+        "answer": 2,
+        "explanation": "You can't sit down to eat with dirty hands என்று சிலந்தி கூறியது."
+      },
+      {
+        "question": "ஆமை கைகழுவச் சென்ற போது சிலந்தி என்ன செய்தது?",
+        "options": [
+          "தூங்கியது",
+          "உணவை முழுவதுமாக அவசரமாகச் சாப்பிட்டது",
+          "ஆமைக்காகக் காத்திருந்தது",
+          "டிவி பார்த்தது"
+        ],
+        "answer": 1,
+        "explanation": "Spiky gulped the food quickly என்று கதையில் கொடுக்கப்பட்டுள்ளது."
+      },
+      {
+        "question": "ஆமை சிலந்தியை எங்கு விருந்துக்கு அழைத்தது?",
+        "options": [
+          "குளத்திற்கு (Pond)",
+          "மரத்திற்கு",
+          "மலைக்கு",
+          "காட்டிற்கு"
+        ],
+        "answer": 0,
+        "explanation": "ஆமை குளத்தில் வசிப்பதால் சிலந்தியை அங்கு அழைத்தது."
+      },
+      {
+        "question": "ஆமை தரையில் நடந்து வரும்போது கைகள் அழுக்காகாமல் இருக்க எதைப் பயன்படுத்தியது?",
+        "options": [
+          "கையுறைகள்",
+          "பைகள்",
+          "துணிகள்",
+          "செருப்புகள் (Slippers)"
+        ],
+        "answer": 3,
+        "explanation": "The turtle used slippers to keep his hands and feet clean."
+      },
+      {
+        "question": "சிலந்தியால் ஆமையின் வீட்டில் ஏன் நீருக்கு அடியில் செல்ல முடியவில்லை?",
+        "options": [
+          "பயத்தால்",
+          "சிலந்தி தண்ணீரில் மிதந்ததால்",
+          "தண்ணீர் சூடாக இருந்ததால்",
+          "நீச்சல் தெரியாததால்"
+        ],
+        "answer": 1,
+        "explanation": "He just floated on the top என்று பாடத்தில் உள்ளது."
+      },
+      {
+        "question": "தண்ணீருக்கு அடியில் செல்ல சிலந்தி தன் கோர்ட் பாக்கெட்டுகளில் எதை நிரப்பிக் கொண்டது?",
+        "options": [
+          "Heavy stones (கனமான கற்கள்)",
+          "மண்",
+          "பழங்கள்",
+          "நாணயங்கள்"
+        ],
+        "answer": 0,
+        "explanation": "He filled the pockets of his coat with heavy stones."
+      },
+      {
+        "question": "சாப்பிடுவதற்கு முன் ஆமை சிலந்தியை எதைக் கழற்றச் சொன்னது?",
+        "options": [
+          "வளையல்",
+          "சட்டை",
+          "கோர்ட் (Coat)",
+          "தொப்பி"
+        ],
+        "answer": 2,
+        "explanation": "You must take it off (coat) before you eat என்று ஆமை கூறியது."
+      },
+      {
+        "question": "கோர்ட்டைக் கழற்றியவுடன் சிலந்திக்கு என்ன நேர்ந்தது?",
+        "options": [
+          "உணவைச் சாப்பிட்டது",
+          "தூங்கிவிட்டது",
+          "கற்களின் எடை இல்லாததால் மீண்டும் தண்ணீருக்கு மேலே மிதந்தது",
+          "ஆமையுடன் சண்டையிட்டது"
+        ],
+        "answer": 2,
+        "explanation": "Spiky slowly took off his coat. He floated up..."
+      },
+      {
+        "question": "சரியான வினைச்சொல்லைத் தேர்ந்தெடுக்கவும்: He _____ (play) the guitar.",
+        "options": [
+          "plays",
+          "playing",
+          "play",
+          "played"
+        ],
+        "answer": 0,
+        "explanation": "He, She, It வந்தால் வினைச்சொல்லுடன் 's' சேர வேண்டும் (Simple Present Tense)."
+      },
+      {
+        "question": "சரியான வினைச்சொல்லைத் தேர்ந்தெடுக்கவும்: We _____ (like) football.",
+        "options": [
+          "like",
+          "liking",
+          "liked",
+          "likes"
+        ],
+        "answer": 0,
+        "explanation": "I, We, You, They வந்தால் வினைச்சொல்லுடன் 's' சேரக் கூடாது."
+      },
+      {
+        "question": "She _____ (sing) a song. - இவ்வாக்கியத்தை முழுமையாக்குக.",
+        "options": [
+          "sings",
+          "sung",
+          "singing",
+          "sing"
+        ],
+        "answer": 0,
+        "explanation": "She ஒருமையை குறிப்பதால் sing உடன் 's' சேர்ந்து sings என வரும்."
+      },
+      {
+        "question": "I _____ (eat) a banana. - சரியான விடை எது?",
+        "options": [
+          "eats",
+          "eating",
+          "ate",
+          "eat"
+        ],
+        "answer": 3,
+        "explanation": "'I' வரும் போது வினைச்சொல் அப்படியே வரும், 's' சேராது."
+      },
+      {
+        "question": "சரியான வாக்கியத்தைத் தேர்க.",
+        "options": [
+          "They paints walls.",
+          "They painting walls.",
+          "They paint walls.",
+          "They painted walls."
+        ],
+        "answer": 2,
+        "explanation": "They பன்மையைக் குறிப்பதால் paint என்று மட்டும் வரும்."
+      },
+      {
+        "question": "பொருத்துக: We are boys. _____ school is near.",
+        "options": [
+          "Our",
+          "My",
+          "Their",
+          "Its"
+        ],
+        "answer": 0,
+        "explanation": "We (நாங்கள்) வந்தால் Our (எங்களுடைய) என்ற வார்த்தை வரும்."
+      },
+      {
+        "question": "It is an eagle. _____ wings are big.",
+        "options": [
+          "Its",
+          "His",
+          "Their",
+          "Our"
+        ],
+        "answer": 0,
+        "explanation": "It (அது) வந்தால் Its (அதனுடைய) என வர வேண்டும்."
+      },
+      {
+        "question": "They are sisters. _____ pets are small.",
+        "options": [
+          "Its",
+          "Her",
+          "Our",
+          "Their"
+        ],
+        "answer": 3,
+        "explanation": "They (அவர்கள்) வந்தால் Their (அவர்களுடைய) என வரும்."
+      },
+      {
+        "question": "I am sure _____ this. (Word wall word ஐப் பயன்படுத்துக)",
+        "options": [
+          "with",
+          "for",
+          "on",
+          "about"
+        ],
+        "answer": 3,
+        "explanation": "புத்தகத்தின் Word wall வாக்கியம்: 'I am sure about this'."
+      },
+      {
+        "question": "My school is not _____. (Word wall)",
+        "options": [
+          "near",
+          "open",
+          "far",
+          "high"
+        ],
+        "answer": 2,
+        "explanation": "புத்தக வாக்கியம்: 'My school is not far'."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் 'ou' ஒலி வரும் வார்த்தை எது?",
+        "options": [
+          "Mouse",
+          "Crown",
+          "Cow",
+          "Owl"
+        ],
+        "answer": 0,
+        "explanation": "m-o-u-s-e என்பதில் 'ou' உள்ளது. மற்றவை 'ow' வார்த்தைகள்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் 'ow' ஒலி வரும் வார்த்தை எது?",
+        "options": [
+          "Loud",
+          "Cloud",
+          "Town",
+          "House"
+        ],
+        "answer": 2,
+        "explanation": "t-o-w-n என்பதில் 'ow' உள்ளது."
+      },
+      {
+        "question": "பொருந்தாத இணையைக் கண்டறிக (Circle the odd pair).",
+        "options": [
+          "south - boil",
+          "growl - howl",
+          "out - shout",
+          "gown - town"
+        ],
+        "answer": 0,
+        "explanation": "மற்ற இணைகள் அனைத்தும் ஒத்த ஓசை (Rhyming words) உடையவை. south-boil பொருந்தவில்லை."
+      },
+      {
+        "question": "தொடரை நிரப்புக: tap – tape, pin – pine, not – note, cub - _____",
+        "options": [
+          "cubs",
+          "cute",
+          "cube",
+          "cup"
+        ],
+        "answer": 2,
+        "explanation": "vowel-consonant-e (Magic E) விதிப்படி cub என்பது cube ஆக மாறும்."
+      },
+      {
+        "question": "'A Mouse in a House' கதையில் எலி தங்கியிருந்த வீட்டிற்கு வந்த விலங்கு எது?",
+        "options": [
+          "Dog",
+          "Cow",
+          "Cat",
+          "Bird"
+        ],
+        "answer": 1,
+        "explanation": "ஒரு மாடு (Cow) வந்து Moooo என சத்தமிட்டது."
+      },
+      {
+        "question": "பசுமாட்டின் சத்தம் தாங்காமல் எலி எங்கு சென்றது?",
+        "options": [
+          "காட்டிற்கு",
+          "புதிய நகரத்திற்கு (a new town)",
+          "மரத்தின் உச்சிக்கு",
+          "பழைய வீட்டிற்கு"
+        ],
+        "answer": 1,
+        "explanation": "The mouse finds a new house in a new town."
+      },
+      {
+        "question": "புதிய வீட்டில் எலியைக் காண மீண்டும் வந்தது யார்?",
+        "options": [
+          "அதே பசுமாடு (The same cow)",
+          "நாய்",
+          "பூனை",
+          "சிலந்தி"
+        ],
+        "answer": 0,
+        "explanation": "Oh no! It is the same cow என்று பாடத்தில் உள்ளது."
+      },
+      {
+        "question": "பசுமாட்டின் சத்தத்தைக் கேட்காமல் இருக்க எலி இறுதியில் என்ன அணிந்து கொண்டது?",
+        "options": [
+          "தொப்பி",
+          "கோர்ட்",
+          "கண்ணாடி",
+          "காதடைப்பான் (ear muffs)"
+        ],
+        "answer": 3,
+        "explanation": "Now, the mouse wears ear muffs."
+      },
+      {
+        "question": "The clown has a big _____. (விடுபட்ட சொல்லைக் கண்டறிக)",
+        "options": [
+          "crown",
+          "mouth",
+          "house",
+          "sound"
+        ],
+        "answer": 1,
+        "explanation": "புத்தகப் பயிற்சி: The clown has a big mouth."
+      },
+      {
+        "question": "The king has a _____. (விடுபட்ட சொல்லைக் கண்டறிக)",
+        "options": [
+          "town",
+          "gown",
+          "crown",
+          "cloud"
+        ],
+        "answer": 2,
+        "explanation": "The king has a crown (கிரீடம்)."
+      },
+      {
+        "question": "பொருத்துக: We are sisters -> _____",
+        "options": [
+          "Their mother is a nurse",
+          "Its mother is a nurse",
+          "Our mother is a nurse",
+          "My mother is a nurse"
+        ],
+        "answer": 2,
+        "explanation": "We வந்தால் Our வர வேண்டும்."
+      },
+      {
+        "question": "பொருத்துக: They are sad -> _____",
+        "options": [
+          "Its ball is lost",
+          "Our ball is lost",
+          "Their ball is lost",
+          "His ball is lost"
+        ],
+        "answer": 2,
+        "explanation": "They வந்தால் Their வர வேண்டும்."
+      },
+      {
+        "question": "கூற்று (A): ஆமை சிலந்தியின் வீட்டிற்குச் சென்றபோது கைகளைக் கழுவியது. காரணம் (R): உணவு உண்ணும் முன் கைகள் சுத்தமாக இருக்க வேண்டும்.",
+        "options": [
+          "கூற்று தவறு, காரணம் சரி",
+          "கூற்று சரி, காரணம் தவறு",
+          "இரண்டும் தவறு",
+          "கூற்று மற்றும் காரணம் சரி"
+        ],
+        "answer": 3,
+        "explanation": "சுத்தம் பற்றிய விழிப்புணர்வே கதையின் முக்கியக் கருத்து."
+      },
+      {
+        "question": "கூற்று (A): ஸ்பைக்கி சிலந்தி ஆமையின் வீட்டுக் குளத்தில் எளிதாக மூழ்கியது. காரணம் (R): சிலந்திக்கு நீச்சல் தெரியும்.",
+        "options": [
+          "கூற்று சரி, காரணம் தவறு",
+          "கூற்று மற்றும் காரணம் சரி",
+          "இரண்டும் தவறு",
+          "கூற்று தவறு, காரணம் சரி"
+        ],
+        "answer": 2,
+        "explanation": "சிலந்தி குளத்தில் மூழ்கவில்லை, மிதந்தது. கற்களை வைத்துத் தான் உள்ளே சென்றது."
+      },
+      {
+        "question": "ஒப்புமை (Analogy) காண்க: He : plays :: They : _____",
+        "options": [
+          "played",
+          "play",
+          "plays",
+          "playing"
+        ],
+        "answer": 1,
+        "explanation": "He வந்தால் வினைச்சொல்லில் 's' சேரும். They வந்தால் 's' சேராது (play)."
+      },
+      {
+        "question": "ஒப்புமை (Analogy) காண்க: It : Its :: We : _____",
+        "options": [
+          "Our",
+          "Us",
+          "Their",
+          "My"
+        ],
+        "answer": 0,
+        "explanation": "It என்பதன் உடைமைப்பெயர் Its, We என்பதன் உடைமைப்பெயர் Our."
+      },
+      {
+        "question": "Spiky filled his pocket with heavy stones. இதில் 'heavy' என்பதன் எதிர்ச்சொல் (Opposite) என்னவாக இருக்கும்?",
+        "options": [
+          "Light (லேசான)",
+          "Big",
+          "Strong",
+          "Hard"
+        ],
+        "answer": 0,
+        "explanation": "கனமான (Heavy) என்பதன் எதிர்ச்சொல் லேசான (Light)."
+      },
+      {
+        "question": "விடுபட்ட எழுத்துகளைக் கண்டறிக: p__ a __ e (உணவு அருந்தும் பொருள்)",
+        "options": [
+          "p l a t e",
+          "p h o n e",
+          "p a s t e",
+          "p r i c e"
+        ],
+        "answer": 0,
+        "explanation": "புத்தகப் பயிற்சி: plate (தட்டு)."
+      },
+      {
+        "question": "விடுபட்ட எழுத்துகளைக் கண்டறிக: s __ i__ er (ஒரு பூச்சி)",
+        "options": [
+          "s p i c e s",
+          "s p i d e r",
+          "s n i p e r",
+          "s l i d e r"
+        ],
+        "answer": 1,
+        "explanation": "புத்தகப் பயிற்சி: spider (சிலந்தி)."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல் வினா (Life Situation): நீங்கள் விளையாடி விட்டு வீட்டிற்கு வருகிறீர்கள். அம்மா உணவு பரிமாறுகிறார். நீங்கள் உடனே என்ன செய்ய வேண்டும்?",
+        "options": [
+          "உடனே சாப்பிடத் தொடங்க வேண்டும்",
+          "கைகளைக் சோப்புப் போட்டு கழுவிய பின் சாப்பிட வேண்டும்",
+          "டிவி பார்க்க வேண்டும்",
+          "தூங்கச் செல்ல வேண்டும்"
+        ],
+        "answer": 1,
+        "explanation": "சிலந்தி மற்றும் ஆமை கதையிலிருந்து நாம் கற்கும் நல்ல பழக்கம் இதுவே."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல் வினா: நீங்கள் படிக்கும் போது அதிக சத்தம் கேட்கிறது. 'A Mouse in a House' கதையில் எலி செய்தது போல் நீங்கள் என்ன செய்வீர்கள்?",
+        "options": [
+          "நானும் சத்தமிடுவேன்",
+          "சத்தம் வரும் இடத்திற்குச் சென்று சண்டையிடுவேன்",
+          "சத்தத்தைக் குறைக்குமாறு அமைதியாகக் கேட்பேன் அல்லது காதுகளை மூடிக்கொள்வேன்",
+          "அழுவேன்"
+        ],
+        "answer": 2,
+        "explanation": "எலி காதடைப்பான் (ear muffs) அணிந்து கொண்டு அமைதியாக வாழப் பழகியது."
+      },
+      {
+        "question": "உயர்தர சிந்தனை வினா (HOTS): கோர்ட்டைக் கழற்றியவுடன் சிலந்தி ஏன் மீண்டும் தண்ணீரின் மேற்பரப்பிற்கு மிதந்து வந்தது?",
+        "options": [
+          "அதற்கு நீச்சல் தெரியும் என்பதால்",
+          "நீர் மட்டம் உயர்ந்ததால்",
+          "ஆமை அதை மேலே தள்ளியதால்",
+          "கோர்ட்டில் இருந்த கனமான கற்களின் எடை இல்லாததால் சிலந்தியின் உடல் லேசாகி விட்டது"
+        ],
+        "answer": 3,
+        "explanation": "கற்கள் தான் சிலந்தியை மூழ்கச் செய்தன. அதை எடுத்தவுடன் இயற்பியல் விதிப்படி சிலந்தி மீண்டும் மிதக்கத் தொடங்கியது."
+      },
+      {
+        "question": "உயர்தர சிந்தனை வினா (HOTS): ஆமை ஏன் குளத்திற்குள் சிலந்தியை கோர்ட்டைக் கழற்றச் சொன்னது?",
+        "options": [
+          "கோர்ட் அழுக்காக இருந்தது",
+          "கோர்ட் அழகாக இல்லை",
+          "சிலந்தி தனக்குச் செய்த தந்திரத்திற்குப் பழிதீர்க்க ஆமை புத்திசாலித்தனமாகச் செயல்பட்டது",
+          "ஆமைக்கு கோர்ட் தேவைப்பட்டது"
+        ],
+        "answer": 2,
+        "explanation": "சிலந்தி தன் உணவை ஏமாற்றிச் சாப்பிட்டதால், ஆமை கற்கள் இருந்தால் தான் சிலந்தியால் உள்ளே இருக்க முடியும் எனத் தெரிந்தும் தந்திரமாகக் கழற்றச் சொன்னது."
+      },
+      {
+        "question": "பொருத்துக: t + r = ?",
+        "options": [
+          "town",
+          "tree",
+          "twin",
+          "wolf"
+        ],
+        "answer": 1,
+        "explanation": "t+r = tr- (tree) என ஒலியியல் (Phonics) பகுதியில் உள்ளது."
+      },
+      {
+        "question": "பொருத்துக: l + f = ?",
+        "options": [
+          "fact",
+          "wolf",
+          "twin",
+          "kept"
+        ],
+        "answer": 1,
+        "explanation": "l+f = -lf (wolf) எனப் புத்தகத்தில் கொடுக்கப்பட்டுள்ளது."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "இப்பாடம் நாம் உண்ணும் உணவுகள், அவற்றின் சுவைகள் மற்றும் உணவு உண்ணும் போது பின்பற்ற வேண்டிய பழக்கவழக்கங்கள் (கைகளைக் கழுவுதல்) ஆகியவற்றைப் பற்றி விவரிக்கிறது. மேலும், 'The Spider and the turtle', 'A Mouse in a House' கதைகள், 'Pat-a-Cake' பாடல், Simple Present Tense மற்றும் Possessive Pronouns (Our, Their, Its) ஆகியவை விளக்கப்பட்டுள்ளன."
+      },
+      {
+        "title": "உணவுகளின் சுவைகள் (Tastes of Food)",
+        "content": "• Crisp - மொறுமொறுப்பான\n• Bitter - கசப்பான\n• Sour - புளிப்பான\n• Sweet - இனிப்பான\n• Spicy - காரமான\n• Salty - உப்பான\n• Crunchy - கரகரப்பான\n• Juicy - சாறு நிறைந்த"
+      },
+      {
+        "title": "Pat-a-Cake - பாடல்",
+        "content": "Pat-a-cake, pat-a-cake, baker's man, Bake me a cake as fast as you can. Pat it and prick it, And mark it with 'B', Put it in the oven for baby and me."
+      },
+      {
+        "title": "The Spider and the turtle - கதை",
+        "content": "Spiky என்ற சிலந்தி ஆமையை அழுக்குக் கைகளுடன் சாப்பிடக்கூடாது என்று ஏமாற்றி உணவைச் சாப்பிட்டது. பின்னர் ஆமை சிலந்தியை தன் குளத்திற்கு அழைத்து, கற்கள் நிறைந்த கோர்ட்டைக் கழற்றச் சொல்லி பழிதீர்த்தது. பாடத்தின் நீதி: மற்றவர்களை ஏமாற்றக்கூடாது மற்றும் சுத்தமாக இருக்க வேண்டும்."
+      },
+      {
+        "title": "இலக்கணம்: Simple Present Tense",
+        "content": "• He, She, It வந்தால் வினைச்சொல்லுடன் 's' சேர்க்க வேண்டும் (e.g., He plays, She sings).\n• I, We, You, They வந்தால் 's' சேர்க்கக் கூடாது (e.g., I play, They sing)."
+      },
+      {
+        "title": "இலக்கணம்: Possessive Pronouns (Our, Their, Its)",
+        "content": "• We -> Our (We are sisters. Our hair is long.)\n• They -> Their (They are kids. Their hands are small.)\n• It -> Its (It is a duck. Its beak is yellow.)"
+      },
+      {
+        "title": "ஒலியியல் (Phonics): ou மற்றும் ow",
+        "content": "• ou வார்த்தைகள்: house, mouse, out, cloud, sound, mouth.\n• ow வார்த்தைகள்: crown, cow, owl, town, down, clown.\n• எழுத்துச் சேர்க்கைகள்: tr (tree), tw (twin), lf (wolf), pt (kept), ct (fact)."
+      },
+      {
+        "title": "A Mouse in a House - துணைப்பாடம்",
+        "content": "பசுமாட்டின் சத்தம் தாங்காமல் எலி புதிய நகரத்திற்குச் சென்றது. அங்கும் அதே பசுமாடு வந்ததால், எலி காதடைப்பான் (ear muffs) அணிந்து கொண்டு அதனுடன் அமைதியாக வாழப் பழகியது."
+      },
+      {
+        "title": "பார்வை வார்த்தைகள் (Sight Words)",
+        "content": "most, sure, near, than, open, kind, high, far, call"
+      }
+    ]
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "title": "முழு எண்கள் மற்றும் அவற்றின் பண்புகள்",
+  "lessonId": "முழு_எண்கள்_பண்புகள்",
+  "material": {
+    "sections": [
+      {
+        "title": "1. முழு எண்களின் அறிமுகம் (Basics of Whole Numbers)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இயல் எண்கள் (Natural Numbers) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1, 2, 3...</span> எனத் தொடங்கும் எண்ணும் எண்கள் இயல் எண்கள் எனப்படும். இதன் குறியீடு <span style=\"color:var(--primary);font-weight:700;\">N</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ முழு எண்கள் (Whole Numbers) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இயல் எண்களுடன் <span style=\"color:var(--primary);font-weight:700;\">பூஜ்ஜியத்தை (0)</span> சேர்த்தால் கிடைக்கும் எண்களின் தொகுப்பு. இதன் குறியீடு <span style=\"color:var(--primary);font-weight:700;\">W</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இயல் எண்களுக்கும் முழு எண்களுக்கும் உள்ள முக்கிய வேறுபாடு என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 முழு எண்களில் <span style=\"color:var(--primary);font-weight:700;\">0</span> உள்ளது, ஆனால் இயல் எண்களில் இல்லை.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ மிகச்சிறிய இயல் எண் மற்றும் மிகச்சிறிய முழு எண் முறையே யாவை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இயல் எண்: <span style=\"color:var(--primary);font-weight:700;\">1</span>, முழு எண்: <span style=\"color:var(--primary);font-weight:700;\">0</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அனைத்து இயல் எண்களும் முழு எண்களாகுமா? (Understanding)</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆம்</span>, ஏனெனில் முழு எண்களின் தொகுப்பிற்குள் அனைத்து இயல் எண்களும் அடங்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ அனைத்து முழு எண்களும் இயல் எண்களாகுமா? ஏன்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span>, ஏனெனில் <span style=\"color:var(--primary);font-weight:700;\">0</span> ஒரு முழு எண், ஆனால் அது இயல் எண் அல்ல.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எந்த எண்ணிற்கு முழு எண்களின் தொகுப்பில் முன்னி (Predecessor) கிடையாது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>-விற்கு முன்னி கிடையாது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எண்ணின் தொடரிக்கும் (Successor) அந்த எண்ணிற்கும் உள்ள வேறுபாடு?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண் கோட்டில் (Number Line) வலதுபுறம் செல்லச் செல்ல எண்ணின் மதிப்பு என்னவாகும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 மதிப்பு <span style=\"color:var(--primary);font-weight:700;\">அதிகரிக்கும்</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பூஜ்ஜியத்தின் தொடரி எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span>.</div>\n        </div>\n    "
+      },
+      {
+        "title": "2. முழு எண்களின் பண்புகள் - 1 (Properties - Part 1)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பரிமாற்றுப் பண்பு (Commutative Property) என்றால் என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இரு எண்களை <span style=\"color:var(--primary);font-weight:700;\">எந்த வரிசையில்</span> கூட்டினாலும் அல்லது பெருக்கினாலும் அதன் மதிப்பு மாறாது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கூட்டல் பரிமாற்றுப் பண்பின் குறியீடு வடிவம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">a + b = b + a</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கழித்தல் மற்றும் வகுத்தலுக்குப் பரிமாற்றுப் பண்பு உண்டா? (Analyzing)</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span>. எண்களின் வரிசையை மாற்றினால் விடை மாறும் (எ.கா: 5-2 != 2-5).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ சேர்ப்புப் பண்பu (Associative Property) எப்போது பயன்படுத்தப்படுகிறது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">மூன்று அல்லது அதற்கு மேற்பட்ட</span> எண்களைக் கூட்டும்போது அல்லது பெருக்கும்போது எண்களைக் குழுப்படுத்துவது.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பெருக்கல் சேர்ப்புப் பண்பின் குறியீடு வடிவம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">a x (b x c) = (a x b) x c</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கூட்டல் சமனி (Additive Identity) எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>. ஓர் எண்ணுடன் 0-ஐக் கூட்டினால் அதே எண் கிடைக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பெருக்கல் சமனி (Multiplicative Identity) எது?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span>. ஓர் எண்ணுடன் 1-ஐப் பெருக்கினால் அதே எண் கிடைக்கும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பங்கீட்டுப் பண்பு (Distributive Property) என்பது என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 பெருக்கலானது கூட்டல் அல்லது கழித்தலின் மேல் <span style=\"color:var(--primary);font-weight:700;\">பங்கீடு</span> செய்யப்படுவது. a (b + c) = (a × b) + (a × c)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பெருக்கலில் 0-ன் பண்பu என்ன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 எந்த எண்ணையும் பூஜ்ஜியத்தால் பெருக்கினால் விடை <span style=\"color:var(--primary);font-weight:700;\">0</span> ஆகும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எந்தப் பண்பு பெரிய எண்களின் பெருக்கலை எளிதாக்க உதவுகிறது? (Applying)</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பங்கீட்டுப் பண்பு</span>.</div>\n        </div>\n    "
+      },
+      {
+        "title": "3. கணிதச் செயல்பாடுகள் மற்றும் வகுத்தல் (Applying & Analyzing)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எண்ணைப் பூஜ்ஜியத்தால் வகுப்பது (Division by zero) சாத்தியமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 இல்லை, அது <span style=\"color:var(--primary);font-weight:700;\">வரையறுக்கப்படவில்லை</span> (Undefined).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 0-ஐ ஒரு முழு எண்ணால் வகுத்தால் (0/5) கிடைக்கும் விடை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ கழித்தலில் சேர்ப்புப் பண்பு ஏன் சாத்தியமில்லை?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஏனெனில் எண்களைக் குழுப்படுத்தும் முறையை மாற்றினால் <span style=\"color:var(--primary);font-weight:700;\">விடை மாறும்</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 432 + 500 + 68-ஐ எளிதாகக் கூட்ட எந்தப் பண்பைப் பயன்படுத்தலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">பரிமாற்றுப் பண்பு</span>. (432+68=500, பின் 500+500=1000)</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 12 × 98-ஐப் பங்கீட்டுப் பண்பைப் பயன்படுத்தி எவ்வாறு எழுதலாம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 12 × (100 - 2) = <span style=\"color:var(--primary);font-weight:700;\">1200 - 24 = 1176</span></div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒற்றை எண்களையும் இரட்டை எண்களையும் கூட்டினால் கிடைப்பது? (Analyzing)</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஒற்றை எண்</span> (எ.கா: 1+2=3).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரு ஒற்றை எண்களின் பெருக்கற்பலன் எப்போதும் எவ்வகை எண்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஒற்றை எண்</span> (எ.கா: 3x5=15).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒர் எண்ணின் தொடரியையும் முன்னியையும் பெருக்கினால் கிடைப்பது? (எண் 5 எனில்)</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">24</span> (6 x 4 = 24).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 6-ன் தொடரிக்கும் 4-ன் முன்னிக்கும் உள்ள வித்தியாசம்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">4</span> (7 - 3 = 4).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எந்த எண் முழு எண்களின் எண் கோட்டில் தொடக்கப் புள்ளியாக அமையும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>.</div>\n        </div>\n    "
+      },
+      {
+        "title": "4. கற்றல் விளைவுகள் மற்றும் மதிப்பீடு (Learning Outcomes)",
+        "content": "\n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இயல் எண்கள் மற்றும் முழு எண்களைப் பிரித்தறிய முடிகிறதா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 ஆம், பூஜ்ஜியம் இருந்தால் அது <span style=\"color:var(--primary);font-weight:700;\">முழு எண்</span> தொகுப்பு.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ எண் கோட்டில் கூட்டல் மற்றும் கழித்தலைச் செய்ய முடியுமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 வலப்புறம் நகர்ந்தால் <span style=\"color:var(--primary);font-weight:700;\">கூட்டல்</span>, இடப்புறம் நகர்ந்தால் <span style=\"color:var(--primary);font-weight:700;\">கழித்தல்</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ பண்புகளைப் பயன்படுத்துவதால் கணக்கீடுகள் எவ்வாறு மாறுகின்றன?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணக்கீடுகள் மிகவும் <span style=\"color:var(--primary);font-weight:700;\">எளிமையாகவும் வேகமாகவும்</span> அமைகின்றன.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஒரு முழு எண்ணை அதே எண்ணால் வகுத்தால் கிடைப்பது என்ன (பூஜ்ஜியம் தவிர)?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">1</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரண்டு முழு எண்களின் கூடுதல் எப்போதும் ஒரு முழு எண்ணாகவே இருக்குமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">ஆம்</span>, இது அடைவுப் பண்பு (Closure property) எனப்படும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரண்டு முழு எண்களின் கழித்தல் எப்போதும் முழு எண்ணாக இருக்குமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span> (எ.கா: 2 - 5 = -3, இது முழு எண் அல்ல).</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ 1 × 0 மற்றும் 1 + 0 - விடை சமமா?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">இல்லை</span>. பெருக்கினால் 0, கூட்டினால் 1.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ ஓர் எண்ணை 10-ஆல் பெருக்கினால் அதன் ஒன்றாம் இடத்தில் எந்த எண் வரும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ இரு முழு எண்களின் பெருக்கற்பலன் 0 எனில், அதில் குறைந்தது ஒரு எண் என்னவாக இருக்க வேண்டும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 <span style=\"color:var(--primary);font-weight:700;\">0</span>-ஆக இருக்க வேண்டும்.</div>\n        </div>\n    \n        <div style=\"margin-bottom: 0.8rem; padding: 1.25rem; background: var(--bg-main); border-radius: 0.75rem; border: 1px solid var(--border);\">\n            <div style=\"font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.05rem;\">❓ முழு எண்களின் பண்புகளைப் புரிந்துகொள்வது எதற்கு உதவும்?</div>\n            <div style=\"color: var(--text-muted); font-size: 1.05rem;\">💡 கணித தர்க்கச் சிந்தனையை வளர்க்கவும் <span style=\"color:var(--primary);font-weight:700;\">சிக்கலான கணக்குகளைத் தீர்க்கவும்</span> உதவும்.</div>\n        </div>\n    "
+      }
+    ]
+  },
+  "qa": [
+    {
+      "q": "இயல் எண்கள் (Natural Numbers) என்றால் என்ன?",
+      "a": "1, 2, 3... எனத் தொடங்கும் எண்ணும் எண்கள் இயல் எண்கள் எனப்படும். இதன் குறியீடு N."
+    },
+    {
+      "q": "முழு எண்கள் (Whole Numbers) என்றால் என்ன?",
+      "a": "இயல் எண்களுடன் பூஜ்ஜியத்தை (0) சேர்த்தால் கிடைக்கும் எண்களின் தொகுப்பு. இதன் குறியீடு W."
+    },
+    {
+      "q": "இயல் எண்களுக்கும் முழு எண்களுக்கும் உள்ள முக்கிய வேறுபாடு என்ன?",
+      "a": "முழு எண்களில் 0 உள்ளது, ஆனால் இயல் எண்களில் இல்லை."
+    },
+    {
+      "q": "மிகச்சிறிய இயல் எண் மற்றும் மிகச்சிறிய முழு எண் முறையே யாவை?",
+      "a": "இயல் எண்: 1, முழு எண்: 0."
+    },
+    {
+      "q": "அனைத்து இயல் எண்களும் முழு எண்களாகுமா? (Understanding)",
+      "a": "ஆம், ஏனெனில் முழு எண்களின் தொகுப்பிற்குள் அனைத்து இயல் எண்களும் அடங்கும்."
+    },
+    {
+      "q": "அனைத்து முழு எண்களும் இயல் எண்களாகுமா? ஏன்?",
+      "a": "இல்லை, ஏனெனில் 0 ஒரு முழு எண், ஆனால் அது இயல் எண் அல்ல."
+    },
+    {
+      "q": "எந்த எண்ணிற்கு முழு எண்களின் தொகுப்பில் முன்னி (Predecessor) கிடையாது?",
+      "a": "0-விற்கு முன்னி கிடையாது."
+    },
+    {
+      "q": "ஓர் எண்ணின் தொடரிக்கும் (Successor) அந்த எண்ணிற்கும் உள்ள வேறுபாடு?",
+      "a": "1."
+    },
+    {
+      "q": "எண் கோட்டில் (Number Line) வலதுபுறம் செல்லச் செல்ல எண்ணின் மதிப்பு என்னவாகும்?",
+      "a": "மதிப்பு அதிகரிக்கும்."
+    },
+    {
+      "q": "பூஜ்ஜியத்தின் தொடரி எது?",
+      "a": "1."
+    },
+    {
+      "q": "பரிமாற்றுப் பண்பு (Commutative Property) என்றால் என்ன?",
+      "a": "இரு எண்களை எந்த வரிசையில் கூட்டினாலும் அல்லது பெருக்கினாலும் அதன் மதிப்பு மாறாது."
+    },
+    {
+      "q": "கூட்டல் பரிமாற்றுப் பண்பின் குறியீடு வடிவம்?",
+      "a": "a + b = b + a"
+    },
+    {
+      "q": "கழித்தல் மற்றும் வகுத்தலுக்குப் பரிமாற்றுப் பண்பு உண்டா? (Analyzing)",
+      "a": "இல்லை. எண்களின் வரிசையை மாற்றினால் விடை மாறும் (எ.கா: 5-2 != 2-5)."
+    },
+    {
+      "q": "சேர்ப்புப் பண்பu (Associative Property) எப்போது பயன்படுத்தப்படுகிறது?",
+      "a": "மூன்று அல்லது அதற்கு மேற்பட்ட எண்களைக் கூட்டும்போது அல்லது பெருக்கும்போது எண்களைக் குழுப்படுத்துவது."
+    },
+    {
+      "q": "பெருக்கல் சேர்ப்புப் பண்பின் குறியீடு வடிவம்?",
+      "a": "a x (b x c) = (a x b) x c"
+    },
+    {
+      "q": "கூட்டல் சமனி (Additive Identity) எது?",
+      "a": "0. ஓர் எண்ணுடன் 0-ஐக் கூட்டினால் அதே எண் கிடைக்கும்."
+    },
+    {
+      "q": "பெருக்கல் சமனி (Multiplicative Identity) எது?",
+      "a": "1. ஓர் எண்ணுடன் 1-ஐப் பெருக்கினால் அதே எண் கிடைக்கும்."
+    },
+    {
+      "q": "பங்கீட்டுப் பண்பு (Distributive Property) என்பது என்ன?",
+      "a": "பெருக்கலானது கூட்டல் அல்லது கழித்தலின் மேல் பங்கீடு செய்யப்படுவது. a (b + c) = (a × b) + (a × c)"
+    },
+    {
+      "q": "பெருக்கலில் 0-ன் பண்பu என்ன?",
+      "a": "எந்த எண்ணையும் பூஜ்ஜியத்தால் பெருக்கினால் விடை 0 ஆகும்."
+    },
+    {
+      "q": "எந்தப் பண்பு பெரிய எண்களின் பெருக்கலை எளிதாக்க உதவுகிறது? (Applying)",
+      "a": "பங்கீட்டுப் பண்பு."
+    },
+    {
+      "q": "ஓர் எண்ணைப் பூஜ்ஜியத்தால் வகுப்பது (Division by zero) சாத்தியமா?",
+      "a": "இல்லை, அது வரையறுக்கப்படவில்லை (Undefined)."
+    },
+    {
+      "q": "0-ஐ ஒரு முழு எண்ணால் வகுத்தால் (0/5) கிடைக்கும் விடை?",
+      "a": "0."
+    },
+    {
+      "q": "கழித்தலில் சேர்ப்புப் பண்பு ஏன் சாத்தியமில்லை?",
+      "a": "ஏனெனில் எண்களைக் குழுப்படுத்தும் முறையை மாற்றினால் விடை மாறும்."
+    },
+    {
+      "q": "432 + 500 + 68-ஐ எளிதாகக் கூட்ட எந்தப் பண்பைப் பயன்படுத்தலாம்?",
+      "a": "பரிமாற்றுப் பண்பு. (432+68=500, பின் 500+500=1000)"
+    },
+    {
+      "q": "12 × 98-ஐப் பங்கீட்டுப் பண்பைப் பயன்படுத்தி எவ்வாறு எழுதலாம்?",
+      "a": "12 × (100 - 2) = 1200 - 24 = 1176"
+    },
+    {
+      "q": "ஒற்றை எண்களையும் இரட்டை எண்களையும் கூட்டினால் கிடைப்பது? (Analyzing)",
+      "a": "ஒற்றை எண் (எ.கா: 1+2=3)."
+    },
+    {
+      "q": "இரு ஒற்றை எண்களின் பெருக்கற்பலன் எப்போதும் எவ்வகை எண்?",
+      "a": "ஒற்றை எண் (எ.கா: 3x5=15)."
+    },
+    {
+      "q": "ஒர் எண்ணின் தொடரியையும் முன்னியையும் பெருக்கினால் கிடைப்பது? (எண் 5 எனில்)",
+      "a": "24 (6 x 4 = 24)."
+    },
+    {
+      "q": "6-ன் தொடரிக்கும் 4-ன் முன்னிக்கும் உள்ள வித்தியாசம்?",
+      "a": "4 (7 - 3 = 4)."
+    },
+    {
+      "q": "எந்த எண் முழு எண்களின் எண் கோட்டில் தொடக்கப் புள்ளியாக அமையும்?",
+      "a": "0."
+    },
+    {
+      "q": "இயல் எண்கள் மற்றும் முழு எண்களைப் பிரித்தறிய முடிகிறதா?",
+      "a": "ஆம், பூஜ்ஜியம் இருந்தால் அது முழு எண் தொகுப்பு."
+    },
+    {
+      "q": "எண் கோட்டில் கூட்டல் மற்றும் கழித்தலைச் செய்ய முடியுமா?",
+      "a": "வலப்புறம் நகர்ந்தால் கூட்டல், இடப்புறம் நகர்ந்தால் கழித்தல்."
+    },
+    {
+      "q": "பண்புகளைப் பயன்படுத்துவதால் கணக்கீடுகள் எவ்வாறு மாறுகின்றன?",
+      "a": "கணக்கீடுகள் மிகவும் எளிமையாகவும் வேகமாகவும் அமைகின்றன."
+    },
+    {
+      "q": "ஒரு முழு எண்ணை அதே எண்ணால் வகுத்தால் கிடைப்பது என்ன (பூஜ்ஜியம் தவிர)?",
+      "a": "1."
+    },
+    {
+      "q": "இரண்டு முழு எண்களின் கூடுதல் எப்போதும் ஒரு முழு எண்ணாகவே இருக்குமா?",
+      "a": "ஆம், இது அடைவுப் பண்பு (Closure property) எனப்படும்."
+    },
+    {
+      "q": "இரண்டு முழு எண்களின் கழித்தல் எப்போதும் முழு எண்ணாக இருக்குமா?",
+      "a": "இல்லை (எ.கா: 2 - 5 = -3, இது முழு எண் அல்ல)."
+    },
+    {
+      "q": "1 × 0 மற்றும் 1 + 0 - விடை சமமா?",
+      "a": "இல்லை. பெருக்கினால் 0, கூட்டினால் 1."
+    },
+    {
+      "q": "ஓர் எண்ணை 10-ஆல் பெருக்கினால் அதன் ஒன்றாம் இடத்தில் எந்த எண் வரும்?",
+      "a": "0."
+    },
+    {
+      "q": "இரு முழு எண்களின் பெருக்கற்பலன் 0 எனில், அதில் குறைந்தது ஒரு எண் என்னவாக இருக்க வேண்டும்?",
+      "a": "0-ஆக இருக்க வேண்டும்."
+    },
+    {
+      "q": "முழு எண்களின் பண்புகளைப் புரிந்துகொள்வது எதற்கு உதவும்?",
+      "a": "கணித தர்க்கச் சிந்தனையை வளர்க்கவும் சிக்கலான கணக்குகளைத் தீர்க்கவும் உதவும்."
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது மிகச்சிறிய முழு எண்?",
+        "options": [
+          "1",
+          "0",
+          "-1",
+          "9"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "W என்பது எந்தத் தொகுப்பைக் குறிக்கிறது?",
+        "options": [
+          "இயல் எண்கள்",
+          "முழு எண்கள்",
+          "முழுக்கள்",
+          "விகிதமுறு எண்கள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "5 + 0 = 5. இது எந்தப் பண்பைக் குறிக்கிறது?",
+        "options": [
+          "பெருக்கல் சமனி",
+          "கூட்டல் சமனி",
+          "பரிமாற்றுப் பண்பு",
+          "சேர்ப்புப் பண்பு"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "12 × 7 = 7 × 12 - இது எந்தப் பண்பு?",
+        "options": [
+          "பரிமாற்றுப் பண்பு",
+          "சேர்ப்புப் பண்பு",
+          "பங்கீட்டுப் பண்பு",
+          "அடைவுப் பண்பு"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "எந்த எண்ணால் எந்த எண்ணையும் வகுக்க முடியாது (வரையறுக்கப்படவில்லை)?",
+        "options": [
+          "1",
+          "0",
+          "அதே எண்",
+          "10"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "முழு எண்களின் தொகுப்பில் முன்னி இல்லாத எண் எது?",
+        "options": [
+          "1",
+          "10",
+          "0",
+          "இல்லை"
+        ],
+        "answer": 2
+      },
+      {
+        "question": " (20 + 30) + 50 = 20 + (30 + 50) - இது எவ்வகைப் பண்பு?",
+        "options": [
+          "கூட்டல் பரிமாற்றுப் பண்பு",
+          "கூட்டல் சேர்ப்புப் பண்பு",
+          "பங்கீட்டுப் பண்பு",
+          "பெருக்கல் சேர்ப்புப் பண்பு"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எந்த எண் பெருக்கல் சமனி என்று அழைக்கப்படுகிறது?",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "அதே எண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "43 × 101-ஐ எளிதாகக் கணக்கிட எந்தப் பண்பு உதவும்?",
+        "options": [
+          "பரிமாற்றுப் பண்பு",
+          "பங்கீட்டுப் பண்பு",
+          "சேர்ப்புப் பண்பு",
+          "எதுவுமில்லை"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "ஒரு முழு எண்ணையும் 0-ஐயும் பெருக்கினால் கிடைக்கும் விடை?",
+        "options": [
+          "அதே எண்",
+          "1",
+          "0",
+          "முடிவிலி"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "எண் கோட்டில் 5-க்கு இடதுபுறம் 2 அலகுகள் நகர்ந்தால் கிடைக்கும் எண்?",
+        "options": [
+          "7",
+          "3",
+          "2",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "இயல் எண்களின் தொகுப்பில் இல்லாத, ஆனால் முழு எண்களில் உள்ள எண் எது?",
+        "options": [
+          "1",
+          "100",
+          "0",
+          "9"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "இரு ஒற்றை எண்களின் கூடுதல் எப்போதும் எவ்வகை எண்?",
+        "options": [
+          "ஒற்றை எண்",
+          "இரட்டை எண்",
+          "பூஜ்ஜியம்",
+          "பகா எண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "a  (b + c) = (a × b) + (a × c) - இது எதைக் குறிக்கிறது?",
+        "options": [
+          "சேர்ப்புப் பண்பு",
+          "பரிமாற்றுப் பண்பு",
+          "கூட்டலின் மீதான பெருக்கல் பங்கீடு",
+          "சமனி"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது தவறானது?",
+        "options": [
+          "a + b = b + a",
+          "a x b = b x a",
+          "a - b = b - a",
+          "a + 0 = a"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "1-ன் முன்னி என்ன (முழு எண்களில்)?",
+        "options": [
+          "0",
+          "2",
+          "கிடையாது",
+          "-1"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "8 x 1 = 8. இதில் 1 என்பது என்ன?",
+        "options": [
+          "கூட்டல் சமனி",
+          "பெருக்கல் சமனி",
+          "முன்னி",
+          "தொடரி"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0 / 15-ன் மதிப்பு என்ன?",
+        "options": [
+          "15",
+          "1",
+          "0",
+          "வரையறுக்கப்படவில்லை"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "எண் கோட்டில் பூஜ்ஜியத்திற்கு இடதுபுறம் எண்கள் உண்டா?",
+        "options": [
+          "உண்டு",
+          "முழு எண்கள் தொகுப்பில் இல்லை",
+          "நிச்சயமாக உண்டு",
+          "தெரியாது"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "ஓர் எண்ணை தொடரியுடன் (a+1) 0-ஐப் பெருக்கினால் கிடைப்பது?",
+        "options": [
+          "a+1",
+          "a",
+          "0",
+          "1"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "10 x 42 + 10 x 58 - இதன் எளிமையான விடை?",
+        "options": [
+          "420",
+          "580",
+          "1000",
+          "100"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "இரு முழு எண்களின் பெருக்கற்பலன் 0. எனில்?",
+        "options": [
+          "இரு எண்களும் 0",
+          "ஏதேனும் ஒரு எண் 0",
+          "இரண்டுமே 0 அல்ல",
+          "எண்கள் 1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "கழித்தல் மற்றும் வகுத்தலுக்குச் சேர்ப்புப் பண்பு உண்டா?",
+        "options": [
+          "ஆம்",
+          "இல்லை",
+          "சில நேரங்களில்",
+          "பூஜ்ஜியத்திற்கு மட்டும்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "99-ன் தொடரிக்கும் 101-ன் முன்னிக்கும் உள்ள வித்தியாசம்?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "முழு எண்கள் தொகுப்பில் 0 என்பது என்ன?",
+        "options": [
+          "மிகப்பெரிய எண்",
+          "மிகச்சிறிய எண்",
+          "முன்னி உள்ள எண்",
+          "இயல் எண்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "எந்த எண்ணை 1-ஆல் பெருக்கினாலும் விடை மாறாது?",
+        "options": [
+          "பூஜ்ஜியம் மட்டும்",
+          "அனைத்து முழு எண்கள்",
+          "1 மட்டும்",
+          "பகா எண்கள்"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "7 x (5 x 4) = (7 x 5) x 4 - இது எந்தப் பண்பு?",
+        "options": [
+          "பரிமாற்றுப் பண்பு",
+          "சேர்ப்புப் பண்பு",
+          "பங்கீட்டுப் பண்பு",
+          "அடைவுப் பண்பு"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "0 + 0 = 0 மற்றும் 0 x 0 = 0. இதில் எது சரி?",
+        "options": [
+          "கூட்டல் மட்டும்",
+          "பெருக்கல் மட்டும்",
+          "இரண்டுமே சரி",
+          "இரண்டுமே தவறு"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "37 + 58 + 63 = (37+63) + 58. இங்கு பயன்படுத்தப்பட்ட பண்பு?",
+        "options": [
+          "சேர்ப்புப் பண்பு",
+          "பரிமாற்றுப் பண்பு",
+          "சமனி",
+          "பங்கீடு"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "முழு எண்கள் எண் கோட்டில் எந்த திசையில் எண்கள் முடிவிலியாகச் செல்கின்றன?",
+        "options": [
+          "வலதுபுறம்",
+          "இடதுபுறம்",
+          "மேலே",
+          "கீழே"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: People Who Help Us || அலகு 2: நமக்கு உதவும் மனிதர்கள்",
+    "unit": "2",
+    "grade": "2",
+    "term": "t3",
+    "subject": "english",
+    "code": "eng_2_t3_l2"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "பொறியாளர் (Engineer) அணியும் பாதுகாப்புக் கவசம் எது?",
+        "options": [
+          "cap",
+          "helmet",
+          "hat",
+          "mask"
+        ],
+        "answer": 1,
+        "explanation": "Engineer (பொறியாளர்) தலையைப் பாதுகாக்க helmet (தலைக்கவசம்) அணிவார் எனப் பாடத்தில் கொடுக்கப்பட்டுள்ளது."
+      },
+      {
+        "question": "தச்சர் (Carpenter) பயன்படுத்தும் முக்கிய கருவி எது?",
+        "options": [
+          "hose",
+          "baton",
+          "net",
+          "saw"
+        ],
+        "answer": 3,
+        "explanation": "தச்சர் மரத்தை அறுக்க saw (ரம்பம்) பயன்படுத்துவார்."
+      },
+      {
+        "question": "பொருத்துக: \n1. Doctor - a. hose \n2. Firefighter - b. baton \n3. Policeman - c. stethoscope",
+        "options": [
+          "1-a, 2-c, 3-b",
+          "1-b, 2-a, 3-c",
+          "1-c, 2-b, 3-a",
+          "1-c, 2-a, 3-b"
+        ],
+        "answer": 3,
+        "explanation": "Doctor - stethoscope, Firefighter - hose, Policeman - baton."
+      },
+      {
+        "question": "விமானி (Pilot) எதை ஓட்டுவார்?",
+        "options": [
+          "bus",
+          "aeroplane",
+          "van",
+          "ship"
+        ],
+        "answer": 1,
+        "explanation": "விமானி (Pilot) ஆகாய விமானத்தை (aeroplane) ஓட்டுபவர் ஆவார்."
+      },
+      {
+        "question": "மீனவர் (Fisherman) மீன் பிடிக்க எதைப் பயன்படுத்துகிறார்?",
+        "options": [
+          "net",
+          "saw",
+          "cloth",
+          "baton"
+        ],
+        "answer": 0,
+        "explanation": "மீனவர் net (வலை) பயன்படுத்தி மீன் பிடிப்பார்."
+      },
+      {
+        "question": "ஆசிரியை (Teacher) கையில் வைத்திருக்கும் பொருள் எது?",
+        "options": [
+          "letters",
+          "book",
+          "cloth",
+          "stethoscope"
+        ],
+        "answer": 1,
+        "explanation": "ஆசிரியை (Teacher) கற்பிக்க book (புத்தகம்) பயன்படுத்துவார்."
+      },
+      {
+        "question": "'The Farmer in the Field' கவிதையில், விவசாயி முதலில் என்ன செய்கிறார்?",
+        "options": [
+          "காய்கறிகளைப் பறிக்கிறார்",
+          "விதைகளை விதைக்கிறார்",
+          "நன்றி கூறுகிறார்",
+          "சாப்பிடுகிறார்"
+        ],
+        "answer": 1,
+        "explanation": "'The farmer plants the seeds' என்பதே கவிதையின் முதல் வரியாகும்."
+      },
+      {
+        "question": "விவசாயி விதைகளை விதைத்த பிறகு, வானத்தில் ஒளிர வருவது எது?",
+        "options": [
+          "Moon (நிலவு)",
+          "Stars (நட்சத்திரங்கள்)",
+          "Sun (சூரியன்)",
+          "Cloud (மேகம்)"
+        ],
+        "answer": 2,
+        "explanation": "The sun comes out to shine (சூரியன் ஒளிரத் தொடங்குகிறது) என கவிதை கூறுகிறது."
+      },
+      {
+        "question": "விதைகள் வளரத் தொடங்க (begin to grow) எது பெய்யத் தொடங்குகிறது?",
+        "options": [
+          "Snow (பனி)",
+          "Rain (மழை)",
+          "Wind (காற்று)",
+          "Light (வெளிச்சம்)"
+        ],
+        "answer": 1,
+        "explanation": "The rain begins to fall (மழை பெய்யத் தொடங்குகிறது) என்பதாலேயே விதைகள் வளர்கின்றன."
+      },
+      {
+        "question": "'Dress Day' மாறுவேடப் போட்டியில் வருண் (Varun) என்னவாக வேடமிட்டிருந்தான்?",
+        "options": [
+          "Doctor",
+          "Pilot",
+          "Engineer",
+          "Farmer"
+        ],
+        "answer": 3,
+        "explanation": "'I am Varun. I am a farmer. I grow food for you.' என வருண் கூறுகிறான்."
+      },
+      {
+        "question": "வானத்தில் பறக்கும் விமானியாக (Pilot) வேடமிட்டவர் யார்?",
+        "options": [
+          "Ravi",
+          "Abdul",
+          "Johny",
+          "David"
+        ],
+        "answer": 1,
+        "explanation": "அப்துல் விமானியாக வேடமிட்டு 'I fly up in the sky. Zoooom...' என்றான்."
+      },
+      {
+        "question": "பொறியாளராக (Engineer) வேடமிட்டு வீடுகளைக் கட்டுவதாகக் கூறிய மாணவி யார்?",
+        "options": [
+          "Divya",
+          "Nancy",
+          "Charu",
+          "Jeni"
+        ],
+        "answer": 0,
+        "explanation": "'I am Divya. I am an engineer. I build houses' என்று திவ்யா கூறினாள்."
+      },
+      {
+        "question": "நோயாளிகளுக்குச் சிகிச்சையளிக்கும் மருத்துவராக (Doctor) வேடமிட்டவர் யார்?",
+        "options": [
+          "Punitha",
+          "Nancy",
+          "Charu",
+          "Jeni"
+        ],
+        "answer": 1,
+        "explanation": "நான்சி மருத்துவராக வேடமிட்டு நோயாளிகளைக் குணப்படுத்துவதாகக் கூறினாள்."
+      },
+      {
+        "question": "டேவிட் (David) எந்த வேடமிட்டு, குழாய்களை சரிசெய்வதாகக் கூறினான்?",
+        "options": [
+          "Chef",
+          "Driver",
+          "Plumber",
+          "Carpenter"
+        ],
+        "answer": 2,
+        "explanation": "David பிளம்பராக (plumber) வேடமிட்டு 'I mend and fix your pipes' என்றான்."
+      },
+      {
+        "question": "உங்களை மகிழ்ச்சியடையச் செய்யும் நடனக் கலைஞராக (Dancer) வந்தவர் யார்?",
+        "options": [
+          "Charu",
+          "Jeni",
+          "Punitha",
+          "Divya"
+        ],
+        "answer": 0,
+        "explanation": "சாரு ஒரு நடனக் கலைஞராக வேடமிட்டிருந்தாள்."
+      },
+      {
+        "question": "புனிதா (Punitha) ஆசிரியையாக (Teacher) வந்து என்ன சொன்னாள்?",
+        "options": [
+          "நான் வீடுகளைக் கட்டுகிறேன்",
+          "நான் சுவையான உணவு சமைக்கிறேன்",
+          "நான் குழந்தைகளுக்குக் கற்பிக்கிறேன்",
+          "நான் வித்தைகள் செய்கிறேன்"
+        ],
+        "answer": 2,
+        "explanation": "புனிதா 'I teach kids' (நான் குழந்தைகளுக்குக் கற்பிக்கிறேன்) என்று கூறினாள்."
+      },
+      {
+        "question": "சுவையான உணவைச் சமைக்கும் சமையல்காரராக (Chef) வேடமிட்ட மாணவன் யார்?",
+        "options": [
+          "Ravi",
+          "Abdul",
+          "Johny",
+          "David"
+        ],
+        "answer": 0,
+        "explanation": "ரவி சமையல்காரராக வந்து, 'I love cooking yummy food' என்றான்."
+      },
+      {
+        "question": "மக்களை பேருந்தில் ஏற்றிச் செல்லும் ஓட்டுநராக (Driver) வந்தவர் யார்?",
+        "options": [
+          "Johny",
+          "Ravi",
+          "Varun",
+          "Abdul"
+        ],
+        "answer": 0,
+        "explanation": "ஜானி (Johny) ஓட்டுநராக வந்து 'I drive people around on a bus' என்றான்."
+      },
+      {
+        "question": "நாற்காலியின் பின்னிருந்து குதித்து வந்து வித்தைகள் காட்டிய வித்தைக்காரர் (Magician) யார்?",
+        "options": [
+          "Nancy",
+          "Charu",
+          "Divya",
+          "Jeni"
+        ],
+        "answer": 3,
+        "explanation": "ஜெனி வித்தைக்காரராக வந்து அனைவரையும் சிரிக்க வைத்தாள்."
+      },
+      {
+        "question": "சரியான வினையைத் தேர்ந்தெடுக்க: I _____ happy.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "கடந்த காலத்தில் 'I' என்ற ஒருமைப் பிரதிபெயருக்குப் பின் 'was' வர வேண்டும்."
+      },
+      {
+        "question": "சரியான வினையைத் தேர்ந்தெடுக்க: We _____ sad.",
+        "options": [
+          "was",
+          "am",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'We' (நாங்கள்) என்பது பன்மையைக் குறிப்பதால் 'were' வர வேண்டும்."
+      },
+      {
+        "question": "கோடிட்ட இடங்களை நிரப்புக: You _____ tired.",
+        "options": [
+          "were",
+          "was",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "'You' (நீ/நீங்கள்) என்பதற்குப் பின் பன்மை வினையான 'were' பயன்படுத்தப்பட வேண்டும்."
+      },
+      {
+        "question": "கோடிட்ட இடங்களை நிரப்புக: He _____ thin.",
+        "options": [
+          "were",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": 3,
+        "explanation": "'He' (அவன்) என்பது ஒருமையைக் குறிப்பதால் 'was' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "These _____ my pens. - சரியான விடையைத் தேர்ந்தெடு.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "am"
+        ],
+        "answer": 2,
+        "explanation": "'These' (இவைகள்) என்பது பன்மையைக் குறிப்பதால் 'were' வரும்."
+      },
+      {
+        "question": "சரியான வினையைத் தேர்ந்தெடுக்க: It _____ cold.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "am"
+        ],
+        "answer": 1,
+        "explanation": "'It' (அது) ஒருமை என்பதால் 'was' வரும்."
+      },
+      {
+        "question": "Those _____ my pets. - கோடிட்ட இடத்தை நிரப்புக.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "am"
+        ],
+        "answer": 1,
+        "explanation": "'Those' (அவைகள்) பன்மை என்பதால் 'were' வரும்."
+      },
+      {
+        "question": "They _____ in the park. - கோடிட்ட இடத்தை நிரப்புக.",
+        "options": [
+          "is",
+          "was",
+          "were",
+          "am"
+        ],
+        "answer": 2,
+        "explanation": "'They' (அவர்கள்/அவைகள்) என்பது பன்மை என்பதால் 'were' பயன்படுத்தப்படும்."
+      },
+      {
+        "question": "சரியான விடையைத் தேர்ந்தெடுக்க: I am Kala. _____ father is a farmer.",
+        "options": [
+          "Your",
+          "His",
+          "My",
+          "Her"
+        ],
+        "answer": 2,
+        "explanation": "நான் கலா. 'என்னுடைய' அப்பா விவசாயி என்று கூற 'My' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'oy' ஓசை கொண்ட வார்த்தை?",
+        "options": [
+          "soil",
+          "join",
+          "coin",
+          "joy"
+        ],
+        "answer": 3,
+        "explanation": "joy என்ற வார்த்தை 'oy' எழுத்துச் சேர்க்கையுடன் முடிவடைகிறது."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'oi' ஓசை கொண்ட வார்த்தை அல்ல?",
+        "options": [
+          "boil",
+          "spoil",
+          "boy",
+          "foil"
+        ],
+        "answer": 2,
+        "explanation": "boy என்பது 'oy' ஓசை கொண்டது; மற்றவை அனைத்தும் 'oi' ஓசை கொண்டவை."
+      },
+      {
+        "question": "பொருந்தாததை வட்டமிடுக (Odd one out - Phonics):",
+        "options": [
+          "boil",
+          "soil",
+          "coil",
+          "pain"
+        ],
+        "answer": 3,
+        "explanation": "மற்ற மூன்றும் 'oi' ஓசை கொண்டவை, pain என்பது மாறுபட்ட ஓசை."
+      },
+      {
+        "question": "பொருந்தாததை வட்டமிடுக (Odd one out - Phonics):",
+        "options": [
+          "point",
+          "joint",
+          "spoil",
+          "school"
+        ],
+        "answer": 3,
+        "explanation": "school என்பது நீண்ட 'u' ஓசை, மற்றவை 'oi' ஓசை கொண்டவை."
+      },
+      {
+        "question": "s + p ஆகிய எழுத்துக்களைச் சேர்த்தால் உருவாகும் மெய்யெழுத்து இணைப்பு (Blend) எது?",
+        "options": [
+          "st",
+          "sw",
+          "sp",
+          "sl"
+        ],
+        "answer": 2,
+        "explanation": "s மற்றும் p சேரும்போது 'sp' (எ.கா: spell) என்ற இணைப்பு உருவாகும்."
+      },
+      {
+        "question": "stem என்ற வார்த்தையில் உள்ள மெய்யெழுத்து இணைப்பு (Blend) எது?",
+        "options": [
+          "sp",
+          "st",
+          "sm",
+          "sw"
+        ],
+        "answer": 1,
+        "explanation": "stem என்ற வார்த்தை 'st' என்ற இணைப்பில் தொடங்குகிறது."
+      },
+      {
+        "question": "s + w ஆகிய எழுத்துக்களைச் சேர்த்தால் உருவாகும் வார்த்தைக்கு எடுத்துக்காட்டு தருக.",
+        "options": [
+          "spell",
+          "stem",
+          "swim",
+          "salt"
+        ],
+        "answer": 2,
+        "explanation": "s + w = sw, இதற்கு எடுத்துக்காட்டு swim."
+      },
+      {
+        "question": "help என்ற வார்த்தையில் எந்த மெய்யெழுத்து இணைப்பு (Blend) இறுதியில் உள்ளது?",
+        "options": [
+          "-lt",
+          "-sp",
+          "-st",
+          "-lp"
+        ],
+        "answer": 3,
+        "explanation": "he + lp = help. எனவே இறுதியில் உள்ளது -lp."
+      },
+      {
+        "question": "salt என்ற வார்த்தையில் இறுதியில் உள்ள எழுத்து இணைப்பு எது?",
+        "options": [
+          "-lp",
+          "-st",
+          "-lt",
+          "-sp"
+        ],
+        "answer": 2,
+        "explanation": "sa + lt = salt. எனவே இறுதியில் உள்ளது -lt."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது இந்தப் பாடத்தின் 'பார்வை வார்த்தை' (Sight word) ஆகும்?",
+        "options": [
+          "elephant",
+          "until",
+          "aeroplane",
+          "hospital"
+        ],
+        "answer": 1,
+        "explanation": "Word wall பகுதியில் until என்ற வார்த்தை கொடுக்கப்பட்டுள்ளது."
+      },
+      {
+        "question": "கீழ்க்கண்டவற்றுள் எது 'பார்வை வார்த்தை' (Sight word) அல்ல?",
+        "options": [
+          "seem",
+          "best",
+          "dragon",
+          "read"
+        ],
+        "answer": 2,
+        "explanation": "dragon என்பது கதையில் வரும் பெயர்ச்சொல், இது பார்வை வார்த்தை (Sight word) பட்டியலில் இல்லை."
+      },
+      {
+        "question": "'An Egg on the Top' கதையில் 'நான் வேகமானவன் (fast), என்னால் உச்சிக்கு ஓட முடியும்' என்று கூறியது யார்?",
+        "options": [
+          "Rat",
+          "Ox",
+          "Hen",
+          "Dragon"
+        ],
+        "answer": 1,
+        "explanation": "Ox (எருது) தான் வேகமானவன் எனத் தன்னை பெருமையாகக் கூறியது."
+      },
+      {
+        "question": "கதையில் 'நான் விரைவானவன் (quick), என்னால் உச்சிக்குத் தாவிச் செல்ல முடியும் (hop)' என்று கூறியது யார்?",
+        "options": [
+          "Rat",
+          "Ox",
+          "Hen",
+          "Dragon"
+        ],
+        "answer": 0,
+        "explanation": "Rat (எலி) தான் விரைவாகத் தாவிச் செல்வேன் என்று கூறியது."
+      },
+      {
+        "question": "உச்சிக்குச் செல்ல 'என்னிடம் ஜெட் (jet) இருக்கிறது' என்று கூறியது யார்?",
+        "options": [
+          "Ox",
+          "Rat",
+          "Hen",
+          "Dragon"
+        ],
+        "answer": 2,
+        "explanation": "கோழி (Hen) தன்னிடம் ஜெட் இயந்திரம் இருப்பதாகக் கூறி முட்டையை வென்றது."
+      },
+      {
+        "question": "உச்சியில் இருந்த முட்டை உடைந்தவுடன் அதிலிருந்து வெளிவந்தது என்ன?",
+        "options": [
+          "Chick",
+          "Dragon",
+          "Snake",
+          "Bird"
+        ],
+        "answer": 1,
+        "explanation": "அந்த முட்டைக்குள் இருந்து ஒரு டிராகன் (Dragon) வெளிவந்தது."
+      },
+      {
+        "question": "கோழியின் (Hen) ஜெட்டை எடுத்துக்கொண்டு பறந்து சென்றவர்கள் யார்?",
+        "options": [
+          "Cat and Dog",
+          "Ox and Rat",
+          "Dragon and Hen",
+          "Lion and Tiger"
+        ],
+        "answer": 1,
+        "explanation": "எருதும் எலியும் (Ox and Rat) கோழியை ஏமாற்றி ஜெட்டை எடுத்துக்கொண்டு பறந்தன."
+      },
+      {
+        "question": "ஒப்புமை காண்க (Analogy): Carpenter : Saw :: Tailor : ?",
+        "options": [
+          "Net",
+          "Hose",
+          "Cloth",
+          "Baton"
+        ],
+        "answer": 2,
+        "explanation": "தச்சர் ரம்பத்தை (saw) பயன்படுத்துவார், தையல்காரர் துணியை (cloth) பயன்படுத்துவார்."
+      },
+      {
+        "question": "கூற்று (A): ஜெனி (Jeni) அனைவரையும் வித்தைகள் காட்டி சிரிக்க வைத்தாள். \nகாரணம் (R): அவள் மாறுவேடப் போட்டியில் வித்தைக்காரராக (Magician) வேடமிட்டிருந்தாள்.",
+        "options": [
+          "A மற்றும் R இரண்டும் சரி, R என்பது A விற்கக்கான சரியான விளக்கம்.",
+          "A மற்றும் R இரண்டும் சரி, ஆனால் R என்பது A விற்கான சரியான விளக்கம் அல்ல.",
+          "A சரி ஆனால் R தவறு.",
+          "A தவறு ஆனால் R சரி."
+        ],
+        "answer": 0,
+        "explanation": "ஜெனி ஒரு வித்தைக்காரராக வந்ததாலேயே வித்தைகள் காட்டி அனைவரையும் சிரிக்க வைத்தாள். எனவே இரண்டும் சரி."
+      },
+      {
+        "question": "வாழ்க்கைச் சூழல் வினா: உங்கள் வீட்டின் அருகில் தீ விபத்து ஏற்பட்டுள்ளது. நீங்கள் உடனே யாரை அழைப்பீர்கள்?",
+        "options": [
+          "Doctor",
+          "Postman",
+          "Firefighter",
+          "Carpenter"
+        ],
+        "answer": 2,
+        "explanation": "தீயை அணைக்க தீயணைப்பு வீரரைத் (Firefighter) தான் அழைக்க வேண்டும்."
+      },
+      {
+        "question": "உயர் சிந்தனை வினா: 'The Farmer in the Field' கவிதையின் இறுதியில் விவசாயி 'நன்றி கூற வேண்டும்' (time to thank) என்று ஏன் நினைக்கிறார்?",
+        "options": [
+          "பயிர் வளர உதவிய சூரியன், மழை மற்றும் இயற்கைக்காக",
+          "விதைகள் கிடைக்காததால்",
+          "அவர் சோர்வாக இருப்பதால்",
+          "அவருக்கு வேறு வேலை இல்லாததால்"
+        ],
+        "answer": 0,
+        "explanation": "பயிர் செழிப்பாக வளர்ந்து காய்கறிகள் கிடைத்ததற்கு இயற்கைக்கும் இறைவனுக்கும் நன்றி செலுத்தவே அவ்வாறு கூறப்படுகிறது."
+      },
+      {
+        "question": "கூற்று (A): 'They was happy' என்பது சரியான ஆங்கில வாக்கியம். \nகாரணம் (R): 'They' என்பது பன்மைப் பிரதிபெயர் ஆகும்.",
+        "options": [
+          "A சரி, R தவறு",
+          "A மற்றும் R இரண்டும் சரி",
+          "A தவறு, R சரி",
+          "A மற்றும் R இரண்டும் தவறு"
+        ],
+        "answer": 2,
+        "explanation": "'They' என்பது பன்மைப் பிரதிபெயர் (R சரி). ஆனால் பன்மைக்கு 'were' வர வேண்டும், 'was' வரக்கூடாது. எனவே கூற்று தவறு."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "இப்பாடம் நமது சமுதாயத்தில் நமக்கு உதவும் பல்வேறு தொழிலாளிகள், அவர்கள் பயன்படுத்தும் உபகரணங்கள் மற்றும் அவர்கள் செய்யும் பணிகள் பற்றி விரிவாக விளக்குகிறது. மேலும் உழவர் பற்றிய கவிதை, மாறுவேடப் போட்டி பற்றிய பாடம், was/were இலக்கணப் பயன்பாடு, oy/oi ஒலியியல் வார்த்தைகள் மற்றும் 'An Egg on the Top' என்ற துணைப்பாடம் ஆகியவை இடம்பெற்றுள்ளன."
+      },
+      {
+        "title": "தொழில்களும் உபகரணங்களும்",
+        "content": "• doctor (மருத்துவர்) - stethoscope\n• driver (ஓட்டுநர்) - van\n• teacher (ஆசிரியர்) - book\n• postman (தபால்காரர்) - letters\n• fisherman (மீனவர்) - net\n• carpenter (தச்சர்) - saw\n• tailor (தையல்காரர்) - cloth\n• engineer (பொறியாளர்) - helmet\n• pilot (விமானி) - aeroplane\n• policeman (காவலர்) - baton\n• firefighter (தீயணைப்பு வீரர்) - hose"
+      },
+      {
+        "title": "The Farmer in the Field - கவிதை குறிப்புகள்",
+        "content": "விவசாயி விதைகளை விதைக்கிறார். சூரியன் ஒளிரத் தொடங்குகிறது. மழை பெய்யத் தொடங்குகிறது. விதைகள் வளரத் தொடங்குகின்றன. காய்கறிகள் விளைந்துவிட்டன. விவசாயி அவற்றை வெளியே எடுக்கிறார். இப்போது சாப்பிடுவதற்கான நேரம் மற்றும் நன்றி சொல்வதற்கான நேரம்."
+      },
+      {
+        "title": "Dress Day - மாறுவேடப் போட்டி",
+        "content": "மாநிலினி டீச்சர் இரண்டாம் வகுப்பு மாணவர்களுக்கு 'Fancy dress show' நடத்தினார். மாணவர்கள் 'நமக்கு உதவுபவர்களைப் போல' வேடமிட்டு வந்தனர்:\n• Varun: Farmer\n• Abdul: Pilot\n• Divya: Engineer\n• Nancy: Doctor\n• David: Plumber\n• Charu: Dancer\n• Punitha: Teacher\n• Ravi: Chef\n• Johny: Driver\n• Jeni: Magician"
+      },
+      {
+        "title": "இலக்கணம்: was மற்றும் were பயன்பாடு",
+        "content": "கடந்த காலத்தைக் குறிக்க (Past tense) இவை பயன்படுகின்றன.\n• ஒருமை (Singular): I, He, She, It, This, That ஆகியவற்றுடன் 'was' பயன்படுத்த வேண்டும்.\n• பன்மை (Plural): We, You, They, These, Those ஆகியவற்றுடன் 'were' பயன்படுத்த வேண்டும்."
+      },
+      {
+        "title": "இலக்கணம்: My மற்றும் Your பயன்பாடு",
+        "content": "• My - என்னுடைய (உ-ம்: My father is a farmer).\n• Your - உன்னுடைய (உ-ம்: What does your father do?)."
+      },
+      {
+        "title": "ஒலியியல் (Phonics): oy மற்றும் oi",
+        "content": "• oy வார்த்தைகள்: joy, boy, toy, soy.\n• oi வார்த்தைகள்: join, coil, oil, coin, soil, boil.\n• மெய்யெழுத்து இணைப்புகள்: sp (spell), st (stem), sw (swim), lp (help), lt (salt)."
+      },
+      {
+        "title": "பார்வை வார்த்தைகள் (Sight Words)",
+        "content": "seem, best, name, ran, read, over, such, way, too, until"
+      },
+      {
+        "title": "An Egg on the Top - துணைப்பாடம்",
+        "content": "மலையின் உச்சியில் ஒரு முட்டை இருக்கிறது. எருது (Ox), எலி (Rat) மற்றும் கோழி (Hen) ஆகியவற்றுக்கு இடையே போட்டி. கோழி தனது ஜெட் மூலம் முட்டையை அடைந்தது. முட்டை உடைந்து டிராகன் வெளிவந்தது. எருதும் எலியும் ஜெட்டை எடுத்துக்கொண்டு பறந்தன, கோழிக்கு டிராகன் கிடைத்தது."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• தொழிலாளிகள் மற்றும் உபகரணங்கள்: carpenter-saw போன்றவை முக்கியமானவை.\n• Was/Were பயன்பாடு: I/He/She/It - was, We/You/They - were.\n• ஒலியியல்: oy மற்றும் oi ஒரே மாதிரியான ஓசையைத் தரும்."
+      }
+    ]
+  }
+}
