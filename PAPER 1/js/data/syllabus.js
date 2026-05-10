@@ -1989,6 +1989,71 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "அலகு 1",
+            "topics": [
+              {
+                "title": "அலகு 1: வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l1"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 2",
+            "topics": [
+              {
+                "title": "அலகு 2: எண்கள் - பெருக்கல்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l2"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 3",
+            "topics": [
+              {
+                "title": "அலகு 3: அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l3"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 4",
+            "topics": [
+              {
+                "title": "அலகு 4: அளவைகள்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l4"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 5",
+            "topics": [
+              {
+                "title": "அலகு 5: நேரம்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l5"
+              }
+            ]
+          },
+          {
+            "title": "அலகு 6",
+            "topics": [
+              {
+                "title": "அலகு 6: தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_4_t2_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

@@ -971,7 +971,7 @@ export const lessonMap = {
   },
   "எண்கள் - பெருக்கல்": {
     "local": true,
-    "filename": "2",
+    "filename": "mat_4_t2_l2",
     "grade": "4",
     "title": "எண்கள் - பெருக்கல்"
   },
@@ -1077,12 +1077,6 @@ export const lessonMap = {
     "grade": "3",
     "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
   },
-  "பின்னங்கள்": {
-    "local": true,
-    "filename": "mat_5_t3_l6",
-    "grade": "5",
-    "title": "பின்னங்கள்"
-  },
   "அலகு 1: வடிவியல்": {
     "local": true,
     "filename": "mat_5_t1_l1",
@@ -1154,6 +1148,35 @@ export const lessonMap = {
     "filename": "mat_4_t1_l6",
     "grade": "4",
     "title": "அலகு 6: தகவல் செயலாக்கம்"
+  },
+  "mat_4_t2_l1": {
+    "local": true,
+    "filename": "mat_4_t2_l1",
+    "grade": "4"
+  },
+  "mat_4_t2_l2": {
+    "local": true,
+    "filename": "mat_4_t2_l2",
+    "grade": "4",
+    "title": "எண்கள் - பெருக்கல்"
+  },
+  "பின்னங்கள்": {
+    "local": true,
+    "filename": "mat_5_t3_l6",
+    "grade": "5",
+    "title": "பின்னங்கள்"
+  },
+  "mat_4_t2_l5": {
+    "local": true,
+    "filename": "mat_4_t2_l5",
+    "grade": "4",
+    "title": "பின்னங்கள்"
+  },
+  "mat_4_t2_l6": {
+    "local": true,
+    "filename": "mat_4_t2_l6",
+    "grade": "4",
+    "title": "தகவல் செயலாக்கம்"
   },
   "mat_5_t1_l1": {
     "local": true,
