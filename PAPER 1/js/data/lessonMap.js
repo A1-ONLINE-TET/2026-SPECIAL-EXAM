@@ -249,42 +249,6 @@ export const lessonMap = {
     "grade": "3",
     "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
   },
-  "Affection (Prose: Appa & Grammar: Punctuation)": {
-    "local": true,
-    "filename": "1",
-    "grade": "4",
-    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
-  },
-  "The real wealth (Affection)": {
-    "local": true,
-    "filename": "2",
-    "grade": "4",
-    "title": "The real wealth (Affection)"
-  },
-  "Affection (A True Friend, Advertisement & Biography Writing)": {
-    "local": true,
-    "filename": "3",
-    "grade": "4",
-    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
-  },
-  "A Lesson to save (Savings)": {
-    "local": true,
-    "filename": "4",
-    "grade": "4",
-    "title": "A Lesson to save (Savings)"
-  },
-  "Savings (What do humans save? & Grammar)": {
-    "local": true,
-    "filename": "5",
-    "grade": "4",
-    "title": "Savings (What do humans save? & Grammar)"
-  },
-  "Save Wisely (Supplementary) & Reading Passage": {
-    "local": true,
-    "filename": "6",
-    "grade": "4",
-    "title": "Save Wisely (Supplementary) & Reading Passage"
-  },
   "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
     "local": true,
     "filename": "eng_4_t1_l1",
@@ -1007,8 +971,8 @@ export const lessonMap = {
   },
   "எண்கள் - பெருக்கல்": {
     "local": true,
-    "filename": "mat_3_t2_l1",
-    "grade": "3",
+    "filename": "2",
+    "grade": "4",
     "title": "எண்கள் - பெருக்கல்"
   },
   "mat_3_t2_l1": {
@@ -1112,6 +1076,12 @@ export const lessonMap = {
     "filename": "mat_3_t3_l7",
     "grade": "3",
     "title": "அலகு 7: தகவல் செயலாக்கம் (விரைவுக் கூட்டல் மற்றும் கழித்தல் வழிமுறைகள்)"
+  },
+  "பின்னங்கள்": {
+    "local": true,
+    "filename": "mat_5_t3_l6",
+    "grade": "5",
+    "title": "பின்னங்கள்"
   },
   "அலகு 1: வடிவியல்": {
     "local": true,
@@ -1316,12 +1286,6 @@ export const lessonMap = {
     "filename": "mat_5_t3_l5",
     "grade": "5",
     "title": "பணம்"
-  },
-  "பின்னங்கள்": {
-    "local": true,
-    "filename": "mat_5_t3_l6",
-    "grade": "5",
-    "title": "பின்னங்கள்"
   },
   "mat_5_t3_l6": {
     "local": true,

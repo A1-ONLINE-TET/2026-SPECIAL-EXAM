@@ -1,148 +1,205 @@
 {
   "lesson_meta": {
     "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)",
-    "unit": 2,
     "grade": "4",
     "term": "2",
-    "subject": "English",
+    "unit": "2",
+    "type": "Poem",
+    "language": "English",
     "code": "eng_4_t2_l5"
   },
-  "material": {
-    "sections": [
-      {
-        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
-        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
-      },
-      {
-        "title": "1. Poem Summary || 1. கவிதைச் சுருக்கம்",
-        "content": "<div><p class='en-text'>The poem 'What do humans save?' lists how various animals store their food for the future. Ants use anthills, moles use tunnels, crocodiles use pantries, squirrels use larders, and leopards use trees. Farmers store their harvest in granaries. The poem ends by questioning humans: while animals save only what they need for survival, humans tend to save 'everything that nature gave', often hording resources beyond necessity.</p><p class='tm-text'>'மனிதர்கள் எதைச் சேமிக்கிறார்கள்?' என்ற இக்கவிதை பல்வேறு விலங்குகள் தங்கள் உணவை எதிர்காலத்திற்காக எவ்வாறு சேமிக்கின்றன என்பதைப் பட்டியலிடுகிறது. எறும்புகள் எறும்புப் புற்றுக்களையும், மோல்கள் சுரங்கங்களையும், முதலைகள் தங்கள் கிடங்குகளையும், அணில்கள் சிறிய களஞ்சியங்களையும், சிறுத்தைகள் மரங்களையும் பயன்படுத்துகின்றன. விவசாயிகள் தங்கள் விளைச்சலைத் தானியக் கிடங்குகளில் சேமிக்கிறார்கள். கவிதை மனிதர்களிடம் ஒரு கேள்வியுடன் முடிகிறது: விலங்குகள் உயிர்வாழத் தேவையானதை மட்டுமே சேமிக்கும்போது, மனிதர்கள் இயற்கையிலிருந்து கிடைக்கும் அனைத்தையும் தங்கள் தேவைக்கு அதிகமாகச் சேமிக்க முயல்கிறார்கள்.</p></div>"
-      },
-      {
-        "title": "2. Glossary (Meanings) || 2. அருஞ்சொற்பொருள்",
-        "content": "<div><ul><li><b>[[Pile]]</b>: To collect. || [[குவித்தல்]]: சேகரித்தல்.</li><li><b>[[Pantries]]</b>: A storage room. || [[உணவுக் கிடங்கு]]: பொருட்களைச் சேமிக்கும் அறை.</li><li><b>[[Prey]]</b>: An animal that is hunted and killed by another for food. || [[இரை]]: வேட்டையாடப்பட்ட விலங்கு.</li><li><b>[[Granary]]</b>: A storehouse for threshed grain. || [[தானியக் கிடங்கு]]: தானியங்களைச் சேமிக்கும் இடம்.</li><li><b>[[Cannery]]</b>: A place where food is packed in cans or tins. || [[உணவுப் பொட்டலமிடும் இடம்]]: உணவைத் தகரப் பெட்டிகளில் அடைக்கும் இடம்.</li></ul></div>"
-      },
-      {
-        "title": "3. Grammar: Simple Past Tense || 3. இலக்கணம்: எளிய இறந்த காலம்",
-        "content": "<div><p class='en-text'>Simple past tense is used for actions that happened in the past. We use the past form of the verb (e.g., played, ran, went).</p><p class='tm-text'>இறந்த காலத்தில் நடந்த செயல்களைக் குறிக்க எளிய இறந்த காலம் (Simple Past Tense) பயன்படுகிறது. வினைச்சொல்லின் இறந்த கால வடிவத்தை இதில் பயன்படுத்துவோம் (உதாரணம்: விளையாடினான், ஓடினான், சென்றான்).</p><ul><li><b>Action Verbs</b>: sing -> [[sang]], read -> [[read]] (pronounced 'red'), sleep -> [[slept]]. || [[செயல் வினைச்சொற்கள்]]: பாடினான், படித்தான், தூங்கினான்.</li><li><b>'Be' Verbs</b>: 'am'/'is' becomes [[was]], 'are' becomes [[were]]. || [[Be வினைச்சொற்கள்]]: am/is என்பது 'was' ஆகவும், are என்பது 'were' ஆகவும் மாறும்.</li></ul></div>"
-      },
-      {
-        "title": "4. Grammar: Simple Future Tense || 4. இலக்கணம்: எளிய எதிர்காலம்",
-        "content": "<div><p class='en-text'>Simple future tense refers to actions that will happen later. It uses [[shall]] or [[will]] + base verb.</p><p class='tm-text'>எதிர்காலத்தில் நடக்கப்போகும் செயல்களைக் குறிக்க எளிய எதிர்காலம் பயன்படுகிறது. இதில் 'shall' அல்லது 'will' சேர்த்து வினைச்சொல்லைப் பயன்படுத்துவோம்.</p><ul><li>Use 'shall/will' for [[I]] and [[We]]. || I மற்றும் We வரும்போது shall அல்லது will பயன்படுத்தலாம்.</li><li>Use 'will' for [[You]], [[They]], [[He]], [[She]], [[It]]. || You, They, He, She, It வரும்போது will பயன்படுத்த வேண்டும்.</li></ul><p class='en-text'>Example: Kamal [[will meet]] you tomorrow. || உதாரணம்: கமல் உன்னை நாளை சந்திப்பான்.</p></div>"
-      }
-    ]
-  },
-  "quiz": {
-    "questions": [
-      {
-        "question": "Where do ants pile their food? || எறும்புகள் தங்கள் உணவை எங்கு குவிக்கின்றன?",
-        "options": [
-          "In a granary || தானியக் கிடங்கில்",
-          "In an anthill || எறும்புப் புற்றில்",
-          "On a tree || மரத்தின் மேல்",
-          "In a larder || ஒரு சிறிய களஞ்சியத்தில்"
-        ],
-        "answer": 1,
-        "explanation": "Ants pile food in the anthill to eat during winter. || குளிர்காலத்தில் சாப்பிடுவதற்காக எறும்புகள் தங்கள் உணவை எறும்புப் புற்றில் சேமிக்கின்றன."
-      },
-      {
-        "question": "Where do leopards keep their prey? || சிறுத்தைகள் தங்கள் இரையை எங்கு வைக்கின்றன?",
-        "options": [
-          "Underground || நிலத்தடியில்",
-          "In a cave || குகையில்",
-          "On a tree || மரத்தின் மேல்",
-          "In a pantry || ஒரு கிடங்கில்"
-        ],
-        "answer": 2,
-        "explanation": "Leopards keep their prey on a tree to eat when they are free. || சிறுத்தைகள் தங்கள் இரையை மரத்தின் மேல் வைத்துப் பின்னர் ஓய்வாக இருக்கும்போது சாப்பிடும்."
-      },
-      {
-        "question": "Where do farmers store the harvest? || விவசாயிகள் விளைச்சலை எங்குச் சேமிக்கிறார்கள்?",
-        "options": [
-          "In a cannery || உணவுப் பொட்டலமிடும் இடத்தில்",
-          "In a granary || தானியக் கிடங்கில்",
-          "In an anthill || எறும்புப் புற்றில்",
-          "In a tunnel || ஒரு சுரங்கத்தில்"
-        ],
-        "answer": 1,
-        "explanation": "Farmers store the harvest in a granary. || விவசாயிகள் விளைச்சலைத் தானியக் கிடங்கில் (Granary) சேமிக்கிறார்கள்."
-      },
-      {
-        "question": "What is the past form of 'is'? || 'is' என்பதன் இறந்த கால வடிவம் என்ன?",
-        "options": [
-          "are",
-          "were",
-          "was",
-          "been"
-        ],
-        "answer": 2,
-        "explanation": "'was' is the past form for 'am' and 'is'. || 'am' மற்றும் 'is' ஆகியவற்றிற்கு 'was' என்பது இறந்த கால வடிவம்."
-      },
-      {
-        "question": "Which verb is used for 'They' in the simple past tense? || எளிய இறந்த காலத்தில் 'They' வரும்போது எந்த வினைச்சொல்லைப் பயன்படுத்த வேண்டும்?",
-        "options": [
-          "was",
-          "were",
-          "am",
-          "is"
-        ],
-        "answer": 1,
-        "explanation": "'were' is the past form for 'are' (used with plural they). || பன்மைச் சொல்லான 'They' வரும்போது 'were' பயன்படுத்த வேண்டும்."
-      },
-      {
-        "question": "What is the simple past form of the verb 'sing'? || 'sing' என்பதன் எளிய இறந்த கால வடிவம் என்ன?",
-        "options": [
-          "singed",
-          "sang",
-          "sung",
-          "singing"
-        ],
-        "answer": 1,
-        "explanation": "The past tense of 'sing' is 'sang'. || 'sing' என்பதன் இறந்த காலம் 'sang' ஆகும்."
-      },
-      {
-        "question": "Choose the future tense sentence. || எதிர்கால வாக்கியத்தைத் தேர்ந்தெடுக்கவும்.",
-        "options": [
-          "I went to school || நான் பள்ளிக்குச் சென்றேன்",
-          "It will rain tomorrow || நாளை மழை பெய்யும்",
-          "She plays chess || அவள் சதுரங்கம் விளையாடுகிறாள்",
-          "They ate mangoes || அவர்கள் மாம்பழம் சாப்பிட்டார்கள்"
-        ],
-        "answer": 1,
-        "explanation": "'will rain' indicates an action that has not yet happened. || 'will rain' என்பது எதிர்காலத்தில் நடக்கப்போவதைக் குறிக்கிறது."
-      },
-      {
-        "question": "Fill in with future tense: Sakthi _________ (earn) a lot of money. || எதிர்கால வினைச்சொல்லைக் கொண்டு நிரப்புக: சக்தி அதிகப் பணம் ________ (சம்பாதிப்பார்).",
-        "options": [
-          "earns",
-          "earned",
-          "will earn",
-          "is earning"
-        ],
-        "answer": 2,
-        "explanation": "The simple future tense uses 'will' + verb. || எதிர்காலத்தில் 'will earn' என்று வரும்."
-      },
-      {
-        "question": "What does 'pile' mean? || 'Pile' என்பதன் பொருள் என்ன?",
-        "options": [
-          "To scatter || சிதறடித்தல்",
-          "To collect || சேகரித்தல்",
-          "To hide || மறைத்தல்",
-          "To eat || உண்ணுதல்"
-        ],
-        "answer": 1,
-        "explanation": "Pile means to collect things together. || 'Pile' என்பது பொருட்களைச் சேகரித்துக் குவிப்பதைக் குறிக்கும்."
-      },
-      {
-        "question": "Where is food packed in cans or tins? || உணவு எந்த இடத்தில் தகரப் பெட்டிகளில் அடைக்கப்படுகிறது?",
-        "options": [
-          "Granary || தானியக் கிடங்கு",
-          "Larder || சிறிய களஞ்சியம்",
-          "Pantry || உணவு அறை",
-          "Cannery || உணவுப் பொட்டலமிடும் இடம்"
-        ],
-        "answer": 3,
-        "explanation": "A cannery is a place where food is packed in cans. || உணவைத் தகரப் பெட்டிகளில் அடைக்கும் இடம் 'Cannery' எனப்படும்."
-      }
-    ]
-  }
+  "material": [
+    {
+      "type": "content",
+      "title": "1. Poem Summary (Bilingual) || 1. கவிதைச் சுருக்கம் (இருமொழி)",
+      "content": "<div><p class='en-text'>'What do humans save?' is an insightful poem that compares human saving habits with those of animals. It points out that while animals save for survival (like squirrels saving nuts or bees saving honey), humans often save things that are not essential or sometimes forget to save what truly matters, like nature and resources. The poem encourages us to learn from nature and save wisely for a sustainable future.</p><p class='tm-text'>'மனிதர்கள் எதைச் சேமிக்கிறார்கள்?' என்பது விலங்குகளின் சேமிப்புப் பழக்கத்துடன் மனிதர்களின் பழக்கத்தை ஒப்பிடும் ஒரு ஆழமான கவிதையாகும். விலங்குகள் உயிர்வாழச் சேமிக்கும் போது (அணில்கள் கொட்டைகளைச் சேமிப்பது அல்லது தேனீக்கள் தேனைச் சேமிப்பது போன்றவை), மனிதர்கள் பெரும்பாலும் அவசியமற்ற விஷயங்களைச் சேமிக்கிறார்கள் அல்லது இயற்கை மற்றும் ஆதாரங்கள் போன்ற உண்மையிலேயே முக்கியமானவற்றைச் சேமிக்க மறந்துவிடுகிறார்கள் என்று அது சுட்டிக்காட்டுகிறது. இயற்கையிலிருந்து பாடம் கற்றுக்கொண்டு, நிலையான எதிர்காலத்திற்காக விவேகமாகச் சேமிக்க இக்கவிதை நம்மை ஊக்குவிக்கிறது.</p></div>"
+    },
+    {
+      "type": "content",
+      "title": "2. Glossary & Meanings || 2. கலைச்சொற்கள் மற்றும் பொருள்கள்",
+      "content": "<div><ul><li><p class='en-text'><strong>Squirrel:</strong> A small animal with a bushy tail that saves nuts.</p><p class='tm-text'><strong>அணில்:</strong> கொட்டைகளைச் சேமிக்கும் புதர் போன்ற வால் கொண்ட ஒரு சிறிய விலங்கு.</p></li><li><p class='en-text'><strong>Honey:</strong> A sweet liquid made by bees.</p><p class='tm-text'><strong>தேன்:</strong> தேனீக்களால் தயாரிக்கப்படும் ஒரு இனிப்புத் திரவம்.</p></li><li><p class='en-text'><strong>Grain:</strong> Seeds of plants used for food.</p><p class='tm-text'><strong>தானியம்:</strong> உணவாகப் பயன்படுத்தப்படும் தாவரங்களின் விதைகள்.</p></li><li><p class='en-text'><strong>Resource:</strong> A supply of something useful.</p><p class='tm-text'><strong>வளம்/ஆதாரம்:</strong> பயனுள்ள ஒன்றின் இருப்பு.</p></li><li><p class='en-text'><strong>Wisely:</strong> In a smart and sensible way.</p><p class='tm-text'><strong>விவேகமாக:</strong> புத்திசாலித்தனமான மற்றும் விவேகமான முறையில்.</p></li></ul></div>"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the poem 'What do humans save?' about? || 'மனிதர்கள் எதைச் சேமிக்கிறார்கள்?' கவிதை எதைப் பற்றியது?",
+      "options": ["Human vs Animal saving habits", "Building cars", "Flying planes", "Cooking food"],
+      "answer": 0,
+      "explanation": "It compares how humans and animals save. || மனிதர்களும் விலங்குகளும் எப்படிச் சேமிக்கிறார்கள் என்பதை இது ஒப்பிடுகிறது."
+    },
+    {
+      "question": "What do squirrels save? || அணில்கள் எதைச் சேமிக்கின்றன?",
+      "options": ["Honey", "Nuts", "Milk", "Clothes"],
+      "answer": 1,
+      "explanation": "Squirrels collect and store nuts for winter. || அணில்கள் குளிர்காலத்திற்காகக் கொட்டைகளைச் சேகரித்துச் சேமிக்கின்றன."
+    },
+    {
+      "question": "What do bees save? || தேனீக்கள் எதைச் சேமிக்கின்றன?",
+      "options": ["Water", "Honey", "Leaves", "Paper"],
+      "answer": 1,
+      "explanation": "Bees make and store honey in their hives. || தேனீக்கள் தங்கள் கூடுகளில் தேனைத் தயாரித்துச் சேமிக்கின்றன."
+    },
+    {
+      "question": "Who saves grain in the poem? || கவிதையில் தானியத்தைச் சேமிப்பது யார்?",
+      "options": ["Humans", "Ants and Birds", "Dogs", "Cats"],
+      "answer": 1,
+      "explanation": "Many insects and birds save grains. || பல பூச்சிகளும் பறவைகளும் தானியங்களைச் சேமிக்கின்றன."
+    },
+    {
+      "question": "What do humans often forget to save? || மனிதர்கள் பெரும்பாலும் எதைச் சேமிக்க மறக்கிறார்கள்?",
+      "options": ["Money", "Nature and Resources", "Toys", "Clothes"],
+      "answer": 1,
+      "explanation": "Humans focus on money but forget environment. || மனிதர்கள் பணத்தில் கவனம் செலுத்துகிறார்கள் ஆனால் சுற்றுச்சூழலை மறந்துவிடுகிறார்கள்."
+    },
+    {
+      "question": "What is the meaning of 'Wisely'? || 'Wisely' என்பதன் பொருள் என்ன?",
+      "options": ["Foolishly", "Smartly", "Slowly", "Loudly"],
+      "answer": 1,
+      "explanation": "Saving wisely means saving with a good plan. || விவேகமாகச் சேமிப்பது என்பது ஒரு நல்ல திட்டத்துடன் சேமிப்பதாகும்."
+    },
+    {
+      "question": "We should save for a ____ future. || நாம் ஒரு ____ எதிர்காலத்திற்காகச் சேமிக்க வேண்டும்.",
+      "options": ["Dark", "Sustainable", "Wasteful", "Short"],
+      "answer": 1,
+      "explanation": "Sustainability ensures resources for next generations. || நிலைத்தன்மை அடுத்த தலைமுறையினருக்கு வளங்களை உறுதி செய்கிறது."
+    },
+    {
+      "question": "The poem compares animals with ____. || கவிதை விலங்குகளை ____ உடன் ஒப்பிடுகிறது.",
+      "options": ["Aliens", "Humans", "Robots", "Trees"],
+      "answer": 1,
+      "explanation": "The contrast is between nature and man. || இயற்கைக்கும் மனிதனுக்கும் இடையே உள்ள வேறுபாடு."
+    },
+    {
+      "question": "Which of these is a rhyming word for 'Save'? || 'Save' என்பதற்கான எதுகைச் சொல் எது?",
+      "options": ["Gave", "Sad", "Look", "Sun"],
+      "answer": 0,
+      "explanation": "Save and Gave rhyme. || Save மற்றும் Gave ஆகியவை எதுகைச் சொற்கள்."
+    },
+    {
+      "question": "What does 'Grain' refer to? || 'Grain' என்பது எதைக் குறிக்கிறது?",
+      "options": ["Liquid", "Seeds like rice or wheat", "Stones", "Clouds"],
+      "answer": 1,
+      "explanation": "Grains are seeds used as food. || தானியங்கள் உணவாகப் பயன்படுத்தப்படும் விதைகள்."
+    },
+    {
+      "question": "Which animal has a bushy tail? || புதர் போன்ற வால் கொண்ட விலங்கு எது?",
+      "options": ["Rat", "Squirrel", "Ant", "Bee"],
+      "answer": 1,
+      "explanation": "Squirrels are known for their tails. || அணில்கள் அவற்றின் வால்களுக்காக அறியப்படுகின்றன."
+    },
+    {
+      "question": "Why is honey important for bees? || தேனீக்களுக்குத் தேன் ஏன் முக்கியம்?",
+      "options": ["To play", "It is their food", "To build hive", "To fly"],
+      "answer": 1,
+      "explanation": "Bees survive on the honey they store. || தேனீக்கள் தாங்கள் சேமித்து வைத்திருக்கும் தேனை உண்டு வாழ்கின்றன."
+    },
+    {
+      "question": "What is the opposite of 'Save'? || 'Save' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Keep", "Spend/Waste", "Store", "Hide"],
+      "answer": 1,
+      "explanation": "Wasting is the opposite. || வீணாக்குவது எதிர்ச்சொல்."
+    },
+    {
+      "question": "How should we use our resources? || நமது வளங்களை நாம் எப்படிப் பயன்படுத்த வேண்டும்?",
+      "options": ["Carelessly", "Wisely", "Quickly", "None"],
+      "answer": 1,
+      "explanation": "Wise usage prevents depletion. || விவேகமான பயன்பாடு வளங்கள் குறைவதைத் தடுக்கிறது."
+    },
+    {
+      "question": "What is the plural of 'Bee'? || 'Bee' என்பதன் பன்மை என்ன?",
+      "options": ["Bees", "Beese", "Bee's", "Beeses"],
+      "answer": 0,
+      "explanation": "The plural is bees. || பன்மை Bees."
+    },
+    {
+      "question": "Identify the rhyming word for 'Bee': || 'Bee' என்பதற்கான எதுகைச் சொல்லைக் கண்டறியவும்:",
+      "options": ["See", "Bay", "Box", "Big"],
+      "answer": 0,
+      "explanation": "Bee rhymes with See. || Bee மற்றும் See ஆகியவை எதுகைச் சொற்கள்."
+    },
+    {
+      "question": "What part of speech is 'Sweet'? || 'Sweet' என்பது எவ்வகை சொல்?",
+      "options": ["Noun", "Verb", "Adjective", "Adverb"],
+      "answer": 2,
+      "explanation": "It describes the taste of honey. || இது தேனின் சுவையை விவரிக்கிறது."
+    },
+    {
+      "question": "True or False: Squirrels store food for the rainy season. || சரி அல்லது தவறு: அணில்கள் மழைக்காலத்திற்காக உணவைச் சேமிக்கின்றன.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "They store mainly for winter. || அவை முக்கியமாக குளிர்காலத்திற்காகச் சேமிக்கின்றன."
+    },
+    {
+      "question": "What is the main message of the poem? || கவிதையின் முக்கிய செய்தி என்ன?",
+      "options": ["Collect nuts", "Learn from nature and save resources", "Eat honey", "Climb trees"],
+      "answer": 1,
+      "explanation": "The poem calls for conscious saving. || இக்கவிதை விழிப்புணர்வுடன் சேமிக்க அழைப்பு விடுக்கிறது."
+    },
+    {
+      "question": "Which of these do humans save? || மனிதர்கள் எதைச் சேமிக்கிறார்கள்?",
+      "options": ["Money", "Nature", "Both", "None"],
+      "answer": 2,
+      "explanation": "They should save both, but often only save money. || அவர்கள் இரண்டையும் சேமிக்க வேண்டும், ஆனால் பெரும்பாலும் பணத்தை மட்டுமே சேமிக்கிறார்கள்."
+    },
+    {
+      "question": "What is a 'Hive'? || 'Hive' என்பது என்ன?",
+      "options": ["A squirrel's home", "A bee's home", "A human's home", "A bird's nest"],
+      "answer": 1,
+      "explanation": "It is the structure where bees live. || தேனீக்கள் வாழும் அமைப்பு."
+    },
+    {
+      "question": "What is the synonym of 'Resource'? || 'Resource' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Supply/Asset", "Problem", "Trash", "Dirt"],
+      "answer": 0,
+      "explanation": "A resource is a valuable supply. || வளம் என்பது ஒரு மதிப்புமிக்க ஆதாரம்."
+    },
+    {
+      "question": "Is 'Honeybee' a compound word? || 'Honeybee' ஒரு கூட்டுச் சொல்லா?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "explanation": "Honey + Bee = Honeybee. || Honey மற்றும் Bee இணைந்தது."
+    },
+    {
+      "question": "Which word is a verb? || இதில் எது வினைச்சொல்?",
+      "options": ["Squirrel", "Saves", "Nut", "Wisely"],
+      "answer": 1,
+      "explanation": "Saves describes an action. || Saves என்பது ஒரு செயலைக் குறிக்கிறது."
+    },
+    {
+      "question": "How do bees feel when their honey is taken? || தேன் எடுக்கப்படும்போது தேனீக்கள் எப்படி உணருகின்றன?",
+      "options": ["Happy", "Upset/Angry", "Tired", "Sleepy"],
+      "answer": 1,
+      "explanation": "They protect their hard-earned food. || அவை கஷ்டப்பட்டுச் சேர்த்த உணவைப் பாதுகாக்கின்றன."
+    },
+    {
+      "question": "What is the past form of 'save'? || 'save' என்பதன் இறந்த கால வடிவம் என்ன?",
+      "options": ["save", "saved", "saving", "saves"],
+      "answer": 1,
+      "explanation": "The past is saved. || இறந்த காலம் Saved."
+    },
+    {
+      "question": "What is the rhyme of 'Honey'? || 'Honey' என்பதற்கான எதுகைச் சொல் எது?",
+      "options": ["Money", "Bunny", "Sunny", "All the above"],
+      "answer": 3,
+      "explanation": "All these words rhyme with honey. || இந்தச் சொற்கள் அனைத்தும் Honey உடன் எதுகையாக வரும்."
+    },
+    {
+      "question": "We should protect the ____. || நாம் ____ பாதுகாக்க வேண்டும்.",
+      "options": ["Pollution", "Environment", "Waste", "Plastic"],
+      "answer": 1,
+      "explanation": "Saving nature is saving ourselves. || இயற்கையைச் சேமிப்பது நம்மைச் சேமிப்பதாகும்."
+    },
+    {
+      "question": "What is the plural of 'Nut'? || 'Nut' என்பதன் பன்மை என்ன?",
+      "options": ["Nutes", "Nuts", "Nut's", "Nutses"],
+      "answer": 1,
+      "explanation": "The plural is nuts. || பன்மை Nuts."
+    },
+    {
+      "question": "Who is the poet of 'What do humans save?'? || 'மனிதர்கள் எதைச் சேமிக்கிறார்கள்?' கவிதையை எழுதியவர் யார்?",
+      "options": ["Anonymous", "Sarojini Naidu", "Rabindranath Tagore", "WordsWorth"],
+      "answer": 0,
+      "explanation": "The poem is a traditional children's poem. || இது ஒரு பாரம்பரியக் குழந்தைப் பாடல்."
+    }
+  ]
 }
