@@ -52,4 +52,4 @@ if (fs.existsSync(localDbPath)) {
 // Generate the JS file
 const content = `export const lessonMap = ${JSON.stringify(lessonMap, null, 2)};`;
 fs.writeFileSync(lessonMapFile, content);
-console.log("✅ Successfully regenerated lessonMap.js with robust keys!");
+console.log("✅ Successfully regenerated lessonMap.js");
