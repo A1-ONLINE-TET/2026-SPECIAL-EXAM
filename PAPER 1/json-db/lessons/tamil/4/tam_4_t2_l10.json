@@ -11,15 +11,11 @@
     "sections": [
       {
         "title": "1. அறிமுகம் (Introduction)",
-        "content": "<div style='background: #f5f3ff; border-left: 5px solid #8b5cf6; padding: 1.5rem; border-radius: 0.75rem; line-height: 1.8; color: #5b21b6; font-size: 1.1rem;'><p>இரண்டாம் பருவத்தில் உள்ள பாடங்களில் இடம்பெற்றுள்ள கடினமான சொற்களுக்கு உரிய தமிழ் விளக்கங்கள் இங்கு கொடுக்கப்பட்டுள்ளன.</p></div>"
+        "content": "<div style='background: #eff6ff; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 0.75rem; line-height: 1.8; color: #1e3a8a; font-size: 1.1rem;'><p>இந்தப் பகுதி நான்காம் வகுப்பு, இரண்டாம் பருவத்தில் உள்ள பாடங்களில் இடம்பெற்றுள்ள கடினமான சொற்களுக்கும் அதற்கான பொருள்களையும் விளக்கும் அகரமுதலியாகும். மொழியாற்றலையும் வாசிக்கும் திறனையும் மேம்படுத்த இது உதவும்.</p></div>"
       },
       {
-        "title": "2. சொற்பொருள் விளக்கம் (Glossary)",
-        "content": "<div style='display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; background: #fff; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #ddd; line-height: 1.6;'><div>● <b>அதிர்கின்ற</b> — ஒலிக்கின்ற<br>● <b>அழல்கதிர்</b> — கதிரவன்<br>● <b>இன்சொல்</b> — இனிமையான சொல்<br>● <b>இன்னல்</b> — துன்பம்<br>● <b>காவாக்கால்</b> — காக்காவிட்டால்</div><div>● <b>சோகாப்பர்</b> — துன்பப்படுவர்<br>● <b>தண்ணென் கதிர்</b> — நிலவின் ஒளி<br>● <b>மெய்ப்பொருள்</b> — உண்மைப்பொருள்<br>● <b>வியனுலகம்</b> — பரந்த உலகம்<br>● <b>வேளாண்மை</b> — உழவு</div></div>"
-      },
-      {
-        "title": "3. நினைவில் கொள்க (Points to Remember)",
-        "content": "<div style='background: #f0fdf4; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #bbf7d0; color: #166534;'><p>சொற்களின் பொருளைத் தெளிவாகப் புரிந்துகொள்வது மொழியாற்றலையும், வாசிக்கும் திறனையும் மேம்படுத்தும். போட்டித் தேர்வுகளுக்கு இவை மிகவும் அவசியம்.</p></div>"
+        "title": "2. சொற்பொருள் அட்டவணை (Glossary Table)",
+        "content": "<div style='overflow-x: auto;'><table style='width: 100%; border-collapse: collapse; background: white; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);'><thead style='background: #f1f5f9;'><tr style='border-bottom: 2px solid #e2e8f0;'><th style='padding: 1rem; text-align: left; color: #475569;'>எண்</th><th style='padding: 1rem; text-align: left; color: #475569;'>சொல்</th><th style='padding: 1rem; text-align: left; color: #475569;'>பொருள்</th></tr></thead><tbody><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>1</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>அதிர்கின்ற</td><td style='padding: 0.75rem 1rem;'>ஒலிக்கின்ற</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>2</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>அழல்கதிர்</td><td style='padding: 0.75rem 1rem;'>கதிரவன்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>3</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>ஆற்றொணா</td><td style='padding: 0.75rem 1rem;'>தாங்கமுடியாத</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>4</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>இன்சொல்</td><td style='padding: 0.75rem 1rem;'>இனிமையான சொல்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>5</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>இன்னல்</td><td style='padding: 0.75rem 1rem;'>துன்பம்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>6</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>காவாக்கால்</td><td style='padding: 0.75rem 1rem;'>காக்காவிட்டால்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>7</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>குனிந்து</td><td style='padding: 0.75rem 1rem;'>வளைந்து</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>8</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>கொடியோன்</td><td style='padding: 0.75rem 1rem;'>துன்புறுத்துபவன்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>9</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>சவாரி</td><td style='padding: 0.75rem 1rem;'>பயணம்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>10</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>செவிசாய்த்தல்</td><td style='padding: 0.75rem 1rem;'>கேட்க விரும்புதல்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>11</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>சோகாப்பர்</td><td style='padding: 0.75rem 1rem;'>துன்பப்படுவர்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>12</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>தண்ணென் கதிர்</td><td style='padding: 0.75rem 1rem;'>நிலவின் ஒளி</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>13</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>நித்தம்</td><td style='padding: 0.75rem 1rem;'>நாள்தோறும்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>14</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>பரம்பரை</td><td style='padding: 0.75rem 1rem;'>தொன்றுதொட்டு</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>15</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>பொறாமை</td><td style='padding: 0.75rem 1rem;'>காழ்ப்பு</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>16</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>பொறை</td><td style='padding: 0.75rem 1rem;'>அடக்கம்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>17</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>போலி</td><td style='padding: 0.75rem 1rem;'>ஒன்றைப்போல இருத்தல்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>18</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>போற்றுதல்</td><td style='padding: 0.75rem 1rem;'>புகழ்தல்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>19</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>மரியாதை</td><td style='padding: 0.75rem 1rem;'>நேர்மையான ஒழுக்கம்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>20</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>மெய்ப்பொருள்</td><td style='padding: 0.75rem 1rem;'>உண்மைப்பொருள்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>21</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>வரம்பு</td><td style='padding: 0.75rem 1rem;'>எல்லை</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>22</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>வருந்தியது</td><td style='padding: 0.75rem 1rem;'>துன்பமடைந்தது</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>23</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>வன்சொல்</td><td style='padding: 0.75rem 1rem;'>கடுஞ்சொல்</td></tr><tr style='border-bottom: 1px solid #f1f5f9; background: #f8fafc;'><td style='padding: 0.75rem 1rem;'>24</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>வியனுலகம்</td><td style='padding: 0.75rem 1rem;'>பரந்த உலகம்</td></tr><tr style='border-bottom: 1px solid #f1f5f9;'><td style='padding: 0.75rem 1rem;'>25</td><td style='padding: 0.75rem 1rem; font-weight: 600;'>வேளாண்மை</td><td style='padding: 0.75rem 1rem;'>உழவு</td></tr></tbody></table></div>"
       }
     ]
   },
@@ -32,28 +28,178 @@
         "explanation": "அதிர்கின்ற என்பதன் பொருள் ஒலிக்கின்ற என்பதாகும்."
       },
       {
-        "question": "‘அழல்கதிர்’ என்பது எதைக் குறிக்கிறது?",
+        "question": "‘அழல்கதிர்’ என்பது எதனைக் குறிக்கிறது?",
         "options": ["நிலவு", "விண்மீன்", "கதிரவன்", "நெருப்பு"],
         "answer": 2,
-        "explanation": "அழல் என்றால் வெப்பம், எனவே அழல்கதிர் கதிரவனைக் குறிக்கும்."
+        "explanation": "வெப்பக் கதிர்களை வீசும் கதிரவனை அழல்கதிர் என்பர்."
+      },
+      {
+        "question": "‘ஆற்றொணா’ என்பதன் பொருள் யாது?",
+        "options": ["குறையாத", "தாங்கமுடியாத", "நிறைவான", "மாற்றமுடியாத"],
+        "answer": 1,
+        "explanation": "தாங்கமுடியாத துயரத்தை ஆற்றொணா துயரம் என்பர்."
+      },
+      {
+        "question": "‘இன்சொல்’ என்பதன் பொருள் என்ன?",
+        "options": ["கடுமையான சொல்", "இனிமையான சொல்", "பொய்யான சொல்", "உண்மையான சொல்"],
+        "answer": 1,
+        "explanation": "இன்சொல் என்றால் இனிமையான சொல்."
+      },
+      {
+        "question": "‘இன்னல்’ என்ற சொல்லின் பொருள் என்ன?",
+        "options": ["மகிழ்ச்சி", "அமைதி", "துன்பம்", "செல்வம்"],
+        "answer": 2,
+        "explanation": "இன்னல் என்றால் துன்பம் என்று பொருள்."
+      },
+      {
+        "question": "‘காவாக்கால்’ என்பதன் சரியான பொருள் எது?",
+        "options": ["காக்காவிட்டால்", "காத்திருந்தால்", "பார்த்திருந்தால்", "மறந்துவிட்டால்"],
+        "answer": 0,
+        "explanation": "காவாக்கால் என்பது காக்காவிட்டால் என்பதை உணர்த்துகிறது."
+      },
+      {
+        "question": "‘குனிந்து’ என்ற சொல்லின் பொருள் என்ன?",
+        "options": ["நிமிர்ந்து", "பார்த்து", "வளைந்து", "அமர்ந்து"],
+        "answer": 2,
+        "explanation": "குனிந்து என்றால் வளைந்து என்று பொருள்."
+      },
+      {
+        "question": "‘கொடியோன்’ என்பவன் யார்?",
+        "options": ["காப்பவன்", "கொடைவள்ளல்", "துன்புறுத்துபவன்", "ஆட்சி செய்பவன்"],
+        "answer": 2,
+        "explanation": "பிறரைத் துன்புறுத்துபவன் கொடியோன் எனப்படுவான்."
+      },
+      {
+        "question": "‘சவாரி’ என்ற சொல்லுக்கு இணையான தமிழ்ச்சொல்?",
+        "options": ["ஓட்டம்", "நடை", "பயணம்", "உறக்கம்"],
+        "answer": 2,
+        "explanation": "சவாரி என்பது பயணத்தைக் குறிக்கும்."
+      },
+      {
+        "question": "‘செவிசாய்த்தல்’ என்பதன் பொருள் யாது?",
+        "options": ["காது கேளாமை", "கேட்க விரும்புதல்", "பேசத் தொடங்குதல்", "தூங்குதல்"],
+        "answer": 1,
+        "explanation": "பிறர் சொல்வதைக் கேட்க விரும்புதலைச் செவிசாய்த்தல் என்பர்."
+      },
+      {
+        "question": "‘சோகாப்பர்’ என்ற சொல் உணர்த்தும் பொருள்?",
+        "options": ["மகிழ்வர்", "துன்பப்படுவர்", "உறங்குவர்", "பாதுகாப்பர்"],
+        "answer": 1,
+        "explanation": "சோகாப்பர் என்றால் துன்பப்படுவர் என்று பொருள்."
       },
       {
         "question": "‘தண்ணென் கதிர்’ என்பது எதனைக் குறிக்கும்?",
-        "options": ["சூரிய ஒளி", "விளக்கின் ஒளி", "நிலவின் ஒளி", "நெருப்பின் ஒளி"],
+        "options": ["சூரியனின் வெப்பம்", "விளக்கின் ஒளி", "நிலவின் ஒளி", "நெருப்பின் சூடு"],
         "answer": 2,
-        "explanation": "தண்மை என்றால் குளிர்ச்சி, எனவே இது நிலவின் ஒளியைக் குறிக்கும்."
+        "explanation": "குளிர்ச்சியான நிலவின் ஒளியைத் தண்ணென் கதிர் என்பர்."
+      },
+      {
+        "question": "‘நித்தம்’ என்பதன் பொருள் என்ன?",
+        "options": ["சில நேரம்", "நாள்தோறும்", "ஒருநாள் மட்டும்", "எப்பொழுதும் இல்லை"],
+        "answer": 1,
+        "explanation": "நித்தம் என்றால் நாள்தோறும் என்று பொருள்."
       },
       {
         "question": "‘பரம்பரை’ என்பதன் சரியான பொருள் எது?",
         "options": ["புதிதாக வந்தது", "இடையில் நின்றது", "தொன்றுதொட்டு", "எதிர்காலம்"],
         "answer": 2,
-        "explanation": "தலைமுறை தலைமுறையாகத் தொன்றுதொட்டு வருவதைப் பரம்பரை என்பர்."
+        "explanation": "தலைமுறை தலைமுறையாக வருவதைத் தொன்றுதொட்டு என்பர்."
+      },
+      {
+        "question": "‘பொறாமை’ என்ற சொல்லின் பொருள் யாது?",
+        "options": ["பெருமை", "அடக்கம்", "காழ்ப்பு", "இரக்கம்"],
+        "answer": 2,
+        "explanation": "பொறாமை என்பது காழ்ப்புணர்ச்சியைக் குறிக்கும்."
+      },
+      {
+        "question": "‘பொறை’ என்ற சொல் உணர்த்தும் நற்பண்பு எது?",
+        "options": ["அடக்கம்", "கோபம்", "பயம்", "வீரம்"],
+        "answer": 0,
+        "explanation": "பொறை என்பது அடக்கம் அல்லது பொறுமையைக் குறிக்கும்."
+      },
+      {
+        "question": "‘போலி’ என்பதன் பொருள் என்ன?",
+        "options": ["உண்மையானது", "ஒன்றைப்போல இருத்தல்", "புதிதாகச் செய்தல்", "மறைத்து வைத்தல்"],
+        "answer": 1,
+        "explanation": "உண்மைப் பொருளைப் போலவே இருக்கும் மற்றொன்றைப் போலி என்பர்."
+      },
+      {
+        "question": "‘போற்றுதல்’ என்பதன் பொருள் யாது?",
+        "options": ["திட்டுதல்", "புகழ்தல்", "அடித்தல்", "பாதுகாத்தல்"],
+        "answer": 1,
+        "explanation": "போற்றுதல் என்றால் புகழ்தல் என்று பொருள்."
+      },
+      {
+        "question": "‘மரியாதை’ என்பதன் அகரமுதலிப் பொருள்?",
+        "options": ["நேர்மையான ஒழுக்கம்", "வணக்கம் செலுத்துதல்", "பரிசு அளித்தல்", "பயந்து நடத்தல்"],
+        "answer": 0,
+        "explanation": "நேர்மையான ஒழுக்கமே உண்மையான மரியாதை."
+      },
+      {
+        "question": "‘மெய்ப்பொருள்’ என்ற சொல்லின் பொருள் என்ன?",
+        "options": ["பொய்யான பொருள்", "காணமுடியாத பொருள்", "உண்மைப்பொருள்", "பழைய பொருள்"],
+        "answer": 2,
+        "explanation": "மெய் என்றால் உண்மை, எனவே உண்மைப்பொருள்."
+      },
+      {
+        "question": "‘வரம்பு’ என்பதன் பொருள் யாது?",
+        "options": ["பாதை", "வழி", "தடை", "எல்லை"],
+        "answer": 3,
+        "explanation": "வரம்பு என்பது எல்லையைக் குறிக்கும்."
+      },
+      {
+        "question": "‘வருந்தியது’ என்பதன் பொருள் என்ன?",
+        "options": ["மகிழ்ந்தது", "துன்பமடைந்தது", "ஓடியது", "சிரித்தது"],
+        "answer": 1,
+        "explanation": "மனம் வருந்துவது என்பது துன்பமடைவதைக் குறிக்கும்."
+      },
+      {
+        "question": "‘வன்சொல்’ என்பது எதனைக் குறிக்கிறது?",
+        "options": ["இனிய சொல்", "அன்பான சொல்", "கடுஞ்சொல்", "பொய்யான சொல்"],
+        "answer": 2,
+        "explanation": "வன்சொல் என்றால் கடுஞ்சொல்."
+      },
+      {
+        "question": "‘வியனுலகம்’ என்பதன் பொருள் என்ன?",
+        "options": ["சிறிய உலகம்", "நீரற்ற உலகம்", "பரந்த உலகம்", "இருண்ட உலகம்"],
+        "answer": 2,
+        "explanation": "வியன் என்றால் பரந்த அல்லது பெரிய என்று பொருள்."
       },
       {
         "question": "‘வேளாண்மை’ என்னும் சொல்லின் பொருள் யாது?",
         "options": ["நெசவு", "உழவு", "வணிகம்", "மீன்பிடித்தல்"],
         "answer": 1,
-        "explanation": "பயிர் செய்து உணவு உற்பத்தி செய்யும் தொழிலை வேளாண்மை என்பர்."
+        "explanation": "வேளாண்மை என்பது உழவுத் தொழிலைக் குறிக்கும்."
+      },
+      {
+        "question": "பொருத்துக: 1. இன்சொல் 2. வன்சொல் 3. அதிர்கின்ற 4. தண்ணென் கதிர்",
+        "options": ["1-இனிமையான சொல், 2-கடுஞ்சொல், 3-ஒலிக்கின்ற, 4-நிலவின் ஒளி", "1-கடுஞ்சொல், 2-இனிமையான சொல், 3-ஒலிக்கின்ற, 4-நிலவின் ஒளி", "1-நிலவின் ஒளி, 2-கடுஞ்சொல், 3-ஒலிக்கின்ற, 4-இனிமையான சொல்", "1-இனிமையான சொல், 2-நிலவின் ஒளி, 3-ஒலிக்கின்ற, 4-கடுஞ்சொல்"],
+        "answer": 0,
+        "explanation": "அனைத்துச் சொற்களும் சரியான பொருளுடன் பொருத்தப்பட்டுள்ளன."
+      },
+      {
+        "question": "தாத்தா நிலத்தில் பயிரிடுகிறார், அவர் செய்யும் தொழில் என்ன?",
+        "options": ["சவாரி", "வேளாண்மை", "பரம்பரை", "போலி"],
+        "answer": 1,
+        "explanation": "உழவுத் தொழில் வேளாண்மை எனப்படும்."
+      },
+      {
+        "question": "கோபத்தில் பேசும் தகாத வார்த்தையை எவ்வாறு அழைக்கலாம்?",
+        "options": ["இன்சொல்", "வன்சொல்", "மெய்ப்பொருள்", "பொறை"],
+        "answer": 1,
+        "explanation": "கடுமையான சொற்கள் வன்சொல் எனப்படும்."
+      },
+      {
+        "question": "காக்காவிட்டால் என்பதைக் குறிக்கும் அகரமுதலிச் சொல்?",
+        "options": ["காவாக்கால்", "காவலன்", "காத்திருத்தல்", "கால்வாய்"],
+        "answer": 0,
+        "explanation": "காக்கத் தவறினால் என்பதைக் காவாக்கால் என்பர்."
+      },
+      {
+        "question": "இலவசமாகப் பாடம் சொல்லிக் கொடுப்பவரை எவ்வாறு போற்றலாம்?",
+        "options": ["இன்னல்", "போற்றுதல்", "பொறாமை", "வன்சொல்"],
+        "answer": 1,
+        "explanation": "நல்ல செயல்களைப் பாராட்டுவதைப் போற்றுதல் என்பர்."
       }
     ]
   }
