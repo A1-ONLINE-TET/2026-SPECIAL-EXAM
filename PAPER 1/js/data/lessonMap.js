@@ -249,6 +249,42 @@ export const lessonMap = {
     "grade": "3",
     "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
   },
+  "Affection (Prose: Appa & Grammar: Punctuation)": {
+    "local": true,
+    "filename": "1",
+    "grade": "4",
+    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
+  },
+  "The real wealth (Affection)": {
+    "local": true,
+    "filename": "2",
+    "grade": "4",
+    "title": "The real wealth (Affection)"
+  },
+  "Affection (A True Friend, Advertisement & Biography Writing)": {
+    "local": true,
+    "filename": "3",
+    "grade": "4",
+    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
+  },
+  "A Lesson to save (Savings)": {
+    "local": true,
+    "filename": "4",
+    "grade": "4",
+    "title": "A Lesson to save (Savings)"
+  },
+  "Savings (What do humans save? & Grammar)": {
+    "local": true,
+    "filename": "5",
+    "grade": "4",
+    "title": "Savings (What do humans save? & Grammar)"
+  },
+  "Save Wisely (Supplementary) & Reading Passage": {
+    "local": true,
+    "filename": "6",
+    "grade": "4",
+    "title": "Save Wisely (Supplementary) & Reading Passage"
+  },
   "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
     "local": true,
     "filename": "eng_4_t1_l1",
@@ -284,6 +320,78 @@ export const lessonMap = {
     "filename": "eng_4_t1_l3",
     "grade": "4",
     "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்"
+  },
+  "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)": {
+    "local": true,
+    "filename": "eng_4_t2_l1",
+    "grade": "4",
+    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)"
+  },
+  "eng_4_t2_l1": {
+    "local": true,
+    "filename": "eng_4_t2_l1",
+    "grade": "4",
+    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)"
+  },
+  "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)": {
+    "local": true,
+    "filename": "eng_4_t2_l2",
+    "grade": "4",
+    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)"
+  },
+  "eng_4_t2_l2": {
+    "local": true,
+    "filename": "eng_4_t2_l2",
+    "grade": "4",
+    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)"
+  },
+  "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)": {
+    "local": true,
+    "filename": "eng_4_t2_l3",
+    "grade": "4",
+    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)"
+  },
+  "eng_4_t2_l3": {
+    "local": true,
+    "filename": "eng_4_t2_l3",
+    "grade": "4",
+    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)"
+  },
+  "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)": {
+    "local": true,
+    "filename": "eng_4_t2_l4",
+    "grade": "4",
+    "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)"
+  },
+  "eng_4_t2_l4": {
+    "local": true,
+    "filename": "eng_4_t2_l4",
+    "grade": "4",
+    "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)"
+  },
+  "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)": {
+    "local": true,
+    "filename": "eng_4_t2_l5",
+    "grade": "4",
+    "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)"
+  },
+  "eng_4_t2_l5": {
+    "local": true,
+    "filename": "eng_4_t2_l5",
+    "grade": "4",
+    "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)"
+  },
+  "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)": {
+    "local": true,
+    "filename": "eng_4_t2_l6",
+    "grade": "4",
+    "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)"
+  },
+  "eng_4_t2_l6": {
+    "local": true,
+    "filename": "eng_4_t2_l6",
+    "grade": "4",
+    "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)"
   },
   "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
     "local": true,

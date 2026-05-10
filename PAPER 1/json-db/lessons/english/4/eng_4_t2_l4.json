@@ -1,0 +1,148 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)",
+    "unit": 2,
+    "grade": "4",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_4_t2_l4"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. Lesson Summary || 1. பாடச் சுருக்கம்",
+        "content": "<div><p class='en-text'>The lesson 'A Lesson to Save' introduces the concept of saving resources through the story of Amir and his observation of nature. Amir learns from his father that humans are not the only ones who save. He observes moles digging tunnels to store worms and leaf-cutter ants carrying leaves to grow fungus (their food). This realization changes Amir's perspective, teaching him that saving is essential for survival and a better future. He decides to save not just money, but also resources like water, food, and electricity.</p><p class='tm-text'>'சேமிக்க ஒரு பாடம்' என்ற இப்பாடம் அமீர் மற்றும் அவன் இயற்கையை உற்று நோக்குவதன் மூலம் சேமிப்பு என்ற கருத்தை அறிமுகப்படுத்துகிறது. மனிதர்கள் மட்டும் சேமிப்பதில்லை என்பதை அமீர் தனது தந்தை மூலம் அறிகிறான். எலிகள் (Moles) புழுக்களைச் சேமிக்க சுரங்கங்கள் தோண்டுவதையும், இலை வெட்டும் எறும்புகள் பூஞ்சைகளை (உணவு) வளர்க்க இலைகளைக் கொண்டு செல்வதையும் அவன் பார்க்கிறான். இந்த உணர்தல் அமீரின் பார்வையை மாற்றுகிறது. உயிர்வாழ்வதற்கும் சிறந்த எதிர்காலத்திற்கும் சேமிப்பு அவசியம் என்பதை அவன் கற்றுக்கொள்கிறான். அவன் பணம் மட்டுமல்லாமல் நீர், உணவு மற்றும் மின்சாரம் போன்ற ஆதாரங்களையும் சேமிக்க முடிவு செய்கிறான்.</p></div>"
+      },
+      {
+        "title": "2. My Little Pictionary (Key Vocabulary) || 2. எனது சிறு விளக்கப்பட அகராதி",
+        "content": "<div><ul><li><b>[[Mole]]</b>: A small digging mammal with dark velvet fur. || [[மோல் (எலி வகை)]]: இருண்ட மென்மையான உரோமம் கொண்ட தோண்டும் பழக்கம் உடைய ஒரு பாலூட்டி விலங்கு.</li><li><b>[[Burrow]]</b>: A hole or tunnel dug by a small animal as a dwelling. || [[வளை/பொந்து]]: ஒரு சிறிய விலங்கு வாழ்வதற்காகத் தோண்டப்பட்ட குழி அல்லது சுரங்கம்.</li><li><b>[[Leaf-cutter ant]]</b>: An ant that cuts and carries leaf pieces to its nest. || [[இலை வெட்டும் எறும்பு]]: இலைத் துண்டுகளை வெட்டித் தனது கூட்டிற்குச் சுமந்து செல்லும் ஒரு வகை எறும்பு.</li><li><b>[[Fungus]]</b>: A plant-like organism that lives on decaying matter. || [[பூஞ்சை]]: அழுகிய பொருட்களின் மேல் வாழும் தாவரத்தைப் போன்ற ஒரு நுண்ணுயிரி.</li></ul></div>"
+      },
+      {
+        "title": "3. Glossary (Meanings) || 3. அருஞ்சொற்பொருள்",
+        "content": "<div><ul><li><b>[[Tunnel]]</b>: An artificial underground passage. || [[சுரங்கம்]]: நிலத்தடியில் அமைக்கப்பட்ட செயற்கையான வழி.</li><li><b>[[Trap]]</b>: A device used to catch animals. || [[பொறி/வலை]]: விலங்குகளைப் பிடிக்கப் பயன்படும் கருவி.</li><li><b>[[Pantries]]</b>: A storage room for food. || [[உணவுக் கிடங்கு]]: உணவுப் பொருட்களைச் சேமித்து வைக்கும் அறை.</li></ul></div>"
+      },
+      {
+        "title": "4. Grammar: Prefixes || 4. இலக்கணம்: முன்னொட்டுகள்",
+        "content": "<div><p class='en-text'>A prefix is a letter or a group of letters added to the beginning of a word to change its meaning.</p><p class='tm-text'>முன்னொட்டு (Prefix) என்பது ஒரு சொல்லின் பொருளை மாற்ற அதன் தொடக்கத்தில் சேர்க்கப்படும் ஒன்று அல்லது அதற்கு மேற்பட்ட எழுத்துக்கள் ஆகும்.</p><ul><li><b>[[un-]]</b> (meaning Not): Examples - <b>un</b>happy, <b>un</b>wanted. || [[un-]] (இல்லை எனப் பொருள் தரும்): உதாரணம் - <b>un</b>happy (மகிழ்ச்சியற்ற).</li><li><b>[[re-]]</b> (meaning Again): Examples - <b>re</b>write, <b>re</b>fill. || [[re-]] (மீண்டும் எனப் பொருள் தரும்): உதாரணம் - <b>re</b>write (மீண்டும் எழுது).</li><li><b>[[dis-]]</b> (meaning Opposite/Not): Examples - <b>dis</b>like, <b>dis</b>obey. || [[dis-dis-]] (எதிர்மறை எனப் பொருள் தரும்): உதாரணம் - <b>dis</b>like (பிடிக்கவில்லை).</li><li><b>[[pre-]]</b> (meaning Before): Examples - <b>pre</b>school, <b>pre</b>paid. || [[pre-]] (முன்னதாக எனப் பொருள் தரும்): உதாரணம் - <b>pre</b>paid (முன்பணம் செலுத்திய).</li></ul></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What kind of animal is a mole? || மோல் (Mole) என்பது எந்த வகையான விலங்கு?",
+        "options": [
+          "A small bird || ஒரு சிறிய பறவை",
+          "A digging mammal || தோண்டும் பழக்கம் உடைய ஒரு பாலூட்டி",
+          "A water animal || ஒரு நீர் வாழ் விலங்கு",
+          "An insect || ஒரு பூச்சி"
+        ],
+        "answer": 1,
+        "explanation": "A mole is a small digging mammal. || மோல் என்பது நிலத்தைத் தோண்டி வாழும் ஒரு சிறிய பாலூட்டி விலங்கு."
+      },
+      {
+        "question": "Where do moles save worms? || மோல்கள் புழுக்களை எங்கே சேமிக்கின்றன?",
+        "options": [
+          "On trees || மரங்களின் மேல்",
+          "In worm traps (tunnels) || புழுப் பொறிகளில் (சுரங்கங்கள்)",
+          "In a granary || ஒரு தானியக் கிடங்கில்",
+          "In a kitchen || ஒரு சமையலறையில்"
+        ],
+        "answer": 1,
+        "explanation": "Moles dig long tunnels and use them as traps to save worms. || மோல்கள் நீண்ட சுரங்கங்களைத் தோண்டி அவற்றில் புழுக்களைச் சேமிக்கின்றன."
+      },
+      {
+        "question": "What do leaf-cutter ants use leaves for? || இலை வெட்டும் எறும்புகள் இலைகளை எதற்காகப் பயன்படுத்துகின்றன?",
+        "options": [
+          "To eat the leaves directly || இலைகளை நேரடியாகச் சாப்பிட",
+          "To build a roof || ஒரு கூரை அமைக்க",
+          "To grow fungus || பூஞ்சைகளை வளர்க்க",
+          "To hide from rain || மழையிலிருந்து மறைய"
+        ],
+        "answer": 2,
+        "explanation": "They use leaves to grow fungus, which is their food. || அவை இலைகளைப் பயன்படுத்தித் தங்களுக்கு உணவான பூஞ்சைகளை வளர்க்கின்றன."
+      },
+      {
+        "question": "What did Amir's father tell him about saving? || சேமிப்பைப் பற்றி அமீரின் தந்தை அவனிடம் என்ன கூறினார்?",
+        "options": [
+          "Only humans save money || மனிதர்கள் மட்டுமே பணத்தைச் சேமிக்கிறார்கள்",
+          "Animals and insects also save for their future || விலங்குகளும் பூச்சிகளும் கூடத் தங்கள் எதிர்காலத்திற்காகச் சேமிக்கின்றன",
+          "Saving is a waste of time || சேமிப்பு என்பது நேரத்தை வீணாக்குவதாகும்",
+          "Only rich people save || பணக்காரர்கள் மட்டுமே சேமிக்கிறார்கள்"
+        ],
+        "answer": 1,
+        "explanation": "Amir's father explained that nature teaches us to save for the future. || எதிர்காலத்திற்காகச் சேமிக்க வேண்டும் என்பதை இயற்கை நமக்குக் கற்பிக்கிறது என்று தந்தை கூறினார்."
+      },
+      {
+        "question": "Apart from money, what other things did Amir decide to save? || பணத்தைத் தவிர, வேறு எவற்றைச் சேமிக்க அமீர் முடிவு செய்தான்?",
+        "options": [
+          "Toys and books || பொம்மைகள் மற்றும் புத்தகங்கள்",
+          "Food, water and electricity || உணவு, நீர் மற்றும் மின்சாரம்",
+          "Old clothes || பழைய துணிகள்",
+          "Sand and stones || மணல் மற்றும் கற்கள்"
+        ],
+        "answer": 1,
+        "explanation": "Amir realized he should save essential resources like food, water, and electricity. || உணவு, நீர் மற்றும் மின்சாரம் போன்ற அத்தியாவசிய ஆதாரங்களைச் சேமிக்க வேண்டும் என்று அமீர் உணர்ந்தான்."
+      },
+      {
+        "question": "What is a 'burrow'? || 'Burrow' என்றால் என்ன?",
+        "options": [
+          "A small plant || ஒரு சிறிய செடி",
+          "A hole or tunnel dug as a home || வீடாகப் பயன்படுத்தப்படும் ஒரு குழி அல்லது சுரங்கம்",
+          "A type of food || ஒரு வகை உணவு",
+          "A cloud || ஒரு மேகம்"
+        ],
+        "answer": 1,
+        "explanation": "A burrow is a hole or tunnel dug by an animal as a dwelling. || விலங்குகள் வாழ்வதற்காகத் தோண்டப்படும் குழி அல்லது சுரங்கமே 'Burrow' எனப்படும்."
+      },
+      {
+        "question": "Choose the correct prefix for 'happy' to mean 'not happy'. || 'மகிழ்ச்சியாக இல்லை' என்ற பொருளைத் தர 'happy' என்ற சொல்லிற்கு ஏற்ற முன்னொட்டைத் தேர்ந்தெடுக்கவும்.",
+        "options": [
+          "re-",
+          "dis-",
+          "un-",
+          "pre-"
+        ],
+        "answer": 2,
+        "explanation": "'un-' + happy = unhappy (not happy). || un- சேர்த்தால் unhappy (மகிழ்ச்சியற்ற) என்று பொருள்படும்."
+      },
+      {
+        "question": "What prefix means 'to do something again'? || 'மீண்டும் ஒரு செயலைச் செய்தல்' என்பதை எந்த முன்னொட்டு குறிக்கிறது?",
+        "options": [
+          "un-",
+          "re-",
+          "dis-",
+          "pre-"
+        ],
+        "answer": 1,
+        "explanation": "The prefix 're-' means 'again'. || re- என்பது மீண்டும் என்று பொருள்படும் (உதாரணம்: rewrite)."
+      },
+      {
+        "question": "Match: 'dis-' + 'continue' = ? || பொருத்துக: 'dis-' + 'continue' = ?",
+        "options": [
+          "recontinue",
+          "uncontinue",
+          "precontinue",
+          "discontinue"
+        ],
+        "answer": 3,
+        "explanation": "Combining 'dis-' and 'continue' makes 'discontinue'. || dis- மற்றும் continue சேர்ந்தால் discontinue (நிறுத்துதல்) என்று வரும்."
+      },
+      {
+        "question": "What is a 'granary'? || 'Granary' என்றால் என்ன?",
+        "options": [
+          "A place to store grain || தானியங்களைச் சேமிக்கும் இடம்",
+          "A place to play || விளையாடும் இடம்",
+          "A type of insect || ஒரு வகை பூச்சி",
+          "A water tank || ஒரு தண்ணீர் தொட்டி"
+        ],
+        "answer": 0,
+        "explanation": "A granary is a storehouse for grain. || தானியங்களைச் சேமித்து வைக்கும் இடமே 'Granary' எனப்படும்."
+      }
+    ]
+  }
+}

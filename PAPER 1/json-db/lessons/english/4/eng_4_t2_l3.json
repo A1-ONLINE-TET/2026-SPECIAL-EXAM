@@ -1,0 +1,144 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)",
+    "unit": 1,
+    "grade": "4",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_4_t2_l3"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. Story Summary || 1. கதைச் சுருக்கம்",
+        "content": "<div><p class='en-text'>This story 'A True Friend' explores the deep friendship between Nandhini and Pandi. One day, Nandhini is unusually sad and silent. She doesn't even answer when the teacher calls her name for attendance. Her friends and teacher worry about her health. Finally, Pandi cheers her up by surprising her with a rubber frog. When Nandhini bursts into laughter, everyone realizes the reason for her silence: she had lost two of her front teeth and was feeling embarrassed!</p><p class='tm-text'>'ஒரு உண்மையான நண்பன்' என்ற இக்கதை நந்தினி மற்றும் பாண்டி இடையிலான ஆழமான நட்பை விளக்குகிறது. ஒரு நாள், நந்தினி வழக்கத்திற்கு மாறாகச் சோகமாகவும் அமைதியாகவும் இருக்கிறாள். ஆசிரியை வருகைப் பதிவிற்காக அவள் பெயரை அழைக்கும்போது கூட அவள் பதில் சொல்லவில்லை. அவளது நண்பர்களும் ஆசிரியையும் அவளது உடல்நிலையைப் பற்றிக் கவலைப்படுகிறார்கள். இறுதியில், பாண்டி ஒரு ரப்பர் தவளையை வைத்து அவளைச் சிரிக்க வைக்கிறான். நந்தினி வெடித்துச் சிரிக்கும்போதுதான் அவளது அமைதிக்குக் காரணம் அனைவருக்கும் புரிகிறது: அவளது முன்னங்கற்கள் இரண்டு விழுந்துவிட்டதால் அவள் பேசத் தயங்கியிருக்கிறாள்!</p></div>"
+      },
+      {
+        "title": "2. Reading Skills: Advertisement || 2. வாசிப்புத் திறன்: விளம்பரம்",
+        "content": "<div><p class='en-text'>Understanding advertisements is an important reading skill. The lesson includes an ad for 'Bright Vision Televisions' which offers a 'Watch & Click' deal: Buy an LED TV and get a Camera for free.</p><p class='tm-text'>விளம்பரங்களைப் புரிந்துகொள்வது ஒரு முக்கியமான வாசிப்புத் திறனாகும். 'பிரைட் விஷன் டெலிவிஷன்ஸ்' என்ற விளம்பரத்தில், எல்.இ.டி (LED) டிவியை வாங்கினால் ஒரு கேமரா இலவசமாக வழங்கப்படும் என்ற சலுகை விவரிக்கப்பட்டுள்ளது.</p></div>"
+      },
+      {
+        "title": "3. Writing Skills: Biographical Sketch || 3. எழுத்துத் திறன்: வாழ்க்கை வரலாறு",
+        "content": "<div><p class='en-text'>A biographical sketch is a summary of a person's life and achievements. The unit teaches how to write about <b>Kamarajar</b>, highlighting his role as the Chief Minister of Tamil Nadu and his introduction of the Midday Meal Scheme.</p><p class='tm-text'>வாழ்க்கை வரலாறு என்பது ஒரு நபரின் வாழ்வு மற்றும் சாதனைகளின் சுருக்கமாகும். காமராசரைப் பற்றி எப்படி எழுதுவது என்பதை இப்பகுதி விளக்குகிறது. அவர் தமிழ்நாட்டின் முதலமைச்சராக இருந்ததும், பள்ளிகளில் மதிய உணவுத் திட்டத்தை அறிமுகப்படுத்தியதும் இங்கு குறிப்பிடப்பட்டுள்ளன.</p></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Who are the two main friends in the story? || கதையின் இரண்டு முக்கிய நண்பர்கள் யார்?",
+        "options": [
+          "Ramu and Somu || ராமு மற்றும் சோமு",
+          "Nandhini and Pandi || நந்தினி மற்றும் பாண்டி",
+          "Meena and Pandi || மீனா மற்றும் பாண்டி",
+          "Nandhini and Meena || நந்தினி மற்றும் மீனா"
+        ],
+        "answer": 1,
+        "explanation": "The story is about childhood friends Nandhini and Pandi. || இக்கதை சிறுவயது நண்பர்களான நந்தினி மற்றும் பாண்டியைப் பற்றியது."
+      },
+      {
+        "question": "How did Nandhini and Pandi usually go to school? || நந்தினியும் பாண்டியும் வழக்கமாகப் பள்ளிக்கு எப்படிச் செல்வார்கள்?",
+        "options": [
+          "By bicycle || மிதிவண்டியில்",
+          "By school bus || பள்ளிப் பேருந்தில்",
+          "Walking, chatting and playing || பேசிக்கொண்டும் விளையாடிக்கொண்டும் நடந்து செல்வார்கள்",
+          "Their parents dropped them || பெற்றோர்கள் கொண்டு விடுவார்கள்"
+        ],
+        "answer": 2,
+        "explanation": "They would walk to school together, chatting and playing. || அவர்கள் பேசிக்கொண்டும் விளையாடிக்கொண்டும் ஒன்றாக நடந்து செல்வார்கள்."
+      },
+      {
+        "question": "Why did the teacher get annoyed during attendance? || வருகைப் பதிவின் போது ஆசிரியை ஏன் எரிச்சலடைந்தார்?",
+        "options": [
+          "Because Nandhini was talking || நந்தினி பேசிக்கொண்டிருந்ததால்",
+          "Because Nandhini did not answer her name || நந்தினி அவள் பெயருக்குப் பதில் அளிக்காததால்",
+          "Because Pandi was shouting || பாண்டி கத்திக் கொண்டிருந்ததால்",
+          "Because Nandhini was sleeping || நந்தினி தூங்கிக் கொண்டிருந்ததால்"
+        ],
+        "answer": 1,
+        "explanation": "Nandhini was silent when her name was called, which annoyed the teacher. || நந்தினி பதில் சொல்லாமல் அமைதியாக இருந்ததால் ஆசிரியை எரிச்சலடைந்தார்."
+      },
+      {
+        "question": "What did Pandi use to make Nandhini smile? || நந்தினியைச் சிரிக்க வைக்க பாண்டி எதனைப் பயன்படுத்தினான்?",
+        "options": [
+          "A paper plane || ஒரு காகித விமானம்",
+          "A real frog || ஒரு உண்மையான தவளை",
+          "A rubber frog || ஒரு ரப்பர் தவளை",
+          "A ball || ஒரு பந்து"
+        ],
+        "answer": 2,
+        "explanation": "Pandi surprised her with a rubber frog that flew towards her. || பாண்டி ஒரு ரப்பர் தவளையை அவள் மீது வீசி அவளைச் சிரிக்க வைத்தான்."
+      },
+      {
+        "question": "What was the actual reason Nandhini was silent all day? || நந்தினி நாள் முழுவதும் அமைதியாக இருந்ததற்கான உண்மையான காரணம் என்ன?",
+        "options": [
+          "She forgot her homework || அவள் வீட்டுப்பாடத்தை மறந்துவிட்டாள்",
+          "She had a toothache || அவளுக்குப் பல் வலி இருந்தது",
+          "Two of her front teeth were missing || அவளது முன்னங்கற்கள் இரண்டு விழுந்துவிட்டன",
+          "She had a fight with Pandi || அவளுக்கும் பாண்டிக்கும் சண்டை"
+        ],
+        "answer": 2,
+        "explanation": "She was embarrassed because her front teeth were missing. || அவளது முன்னங்கற்கள் விழுந்திருந்ததால் அவள் பேச வெட்கப்பட்டாள்."
+      },
+      {
+        "question": "According to the advertisement, what is free with an LED TV? || விளம்பரத்தின்படி, எல்.இ.டி (LED) டிவியுடன் எது இலவசம்?",
+        "options": [
+          "A mobile phone || ஒரு கைபேசி",
+          "A camera || ஒரு கேமரா",
+          "A DVD player || ஒரு டிவிடி பிளேயர்",
+          "A speaker || ஒரு ஒலிபெருக்கி"
+        ],
+        "answer": 1,
+        "explanation": "The 'Watch & Click' offer gives a free Camera with an LED TV. || எல்.இ.டி டிவியுடன் ஒரு கேமரா இலவசம் என்று விளம்பரம் கூறுகிறது."
+      },
+      {
+        "question": "Which famous leader introduced the Midday Meal Scheme in schools? || பள்ளிகளில் மதிய உணவுத் திட்டத்தை அறிமுகப்படுத்திய புகழ்பெற்ற தலைவர் யார்?",
+        "options": [
+          "Nehru || நேரு",
+          "Gandhi || காந்தி",
+          "Kamarajar || காமராசர்",
+          "Anna || அண்ணா"
+        ],
+        "answer": 2,
+        "explanation": "Kamarajar is famous for introducing the Midday Meal Scheme. || பள்ளிகளில் மதிய உணவுத் திட்டத்தைக் கொண்டுவந்தவர் காமராசர் ஆவார்."
+      },
+      {
+        "question": "In 1976, which award was given to Kamarajar? || 1976-ல் காமராசருக்கு வழங்கப்பட்ட விருது எது?",
+        "options": [
+          "Padma Shri || பத்ம ஸ்ரீ",
+          "Bharat Ratna || பாரத ரத்னா",
+          "Padma Bhushan || பத்ம பூஷன்",
+          "Nobel Prize || நோபல் பரிசு"
+        ],
+        "answer": 1,
+        "explanation": "He was honoured with the Bharat Ratna in 1976. || அவருக்கு 1976-ல் பாரத ரத்னா விருது வழங்கப்பட்டது."
+      },
+      {
+        "question": "What title was given to Kamarajar because of his selfless service? || காமராசரின் தன்னலமற்ற சேவையால் அவருக்கு வழங்கப்பட்ட சிறப்புப் பெயர் என்ன?",
+        "options": [
+          "Netaji || நேதாஜி",
+          "Chacha || சாச்சா",
+          "Karma veerar || கர்ம வீரர்",
+          "Iron Man || இரும்பு மனிதர்"
+        ],
+        "answer": 2,
+        "explanation": "He is widely known as 'Karma veerar'. || அவர் 'கர்ம வீரர்' என்று அழைக்கப்படுகிறார்."
+      },
+      {
+        "question": "What does the phrase 'eyes glued to the ground' mean? || 'தரையையே வெறித்துப் பார்த்தல்' என்பதன் பொருள் என்ன?",
+        "options": [
+          "Looking for a coin || நாணயத்தைத் தேடுதல்",
+          "Looking down sadly or shyly || சோகமாக அல்லது வெட்கத்தில் குனிந்து பார்த்தல்",
+          "Walking fast || வேகமாக நடத்தல்",
+          "Watching a bug || ஒரு பூச்சியைப் பார்த்தல்"
+        ],
+        "answer": 1,
+        "explanation": "It means keeping one's gaze downwards because of distress or shyness. || வெட்கத்திலோ அல்லது கவலையிலோ குனிந்து கொண்டிருப்பதையே இப்பதம் குறிக்கிறது."
+      }
+    ]
+  }
+}

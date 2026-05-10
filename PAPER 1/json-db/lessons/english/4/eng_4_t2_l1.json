@@ -1,0 +1,144 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)",
+    "unit": 1,
+    "grade": "4",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_4_t2_l1"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. Lesson Summary || 1. பாடச் சுருக்கம்",
+        "content": "<div><p class='en-text'>This lesson 'Appa' highlights the theme of affection, resilience, and humanity during a natural disaster (Tsunami). The story is set in Keeraikuppam, a small coastal village near Nagapattinam. Meena, a young girl, loses her parents in a massive wave but is saved by hugging a coconut tree. She grows up in a rehabilitation centre where a kind official and his wife care for her like their own child. Meena affectionately calls them 'Amma' and 'Appa'. Years later, in the 12th standard, she reunites with the official, showing that love and humanity bind people together beyond blood relations.</p><p class='tm-text'>'அப்பா' என்ற இப்பாடம் இயற்கைச் சீற்றத்தின் (சுனாமி) போது வெளிப்படும் பாசம், மன உறுதி மற்றும் மனிதநேயத்தை விளக்குகிறது. நாகப்பட்டினம் அருகிலுள்ள கீரைக்குப்பம் என்ற கடற்கரை கிராமத்தில் இக்கதை நடக்கிறது. மீனா என்ற சிறுமி ஒரு பெரிய அலையில் தனது பெற்றோரை இழக்கிறாள், ஆனால் ஒரு தென்னை மரத்தைக் கட்டிப்பிடித்து உயிர் தப்புகிறாள். அவள் ஒரு மறுவாழ்வு மையத்தில் வளர்கிறாள், அங்கு ஒரு அன்புள்ள அதிகாரியும் அவரது மனைவியும் அவளைத் தங்கள் சொந்தக் குழந்தையைப் போலப் பராமரிக்கிறார்கள். மீனா அவர்களை 'அம்மா' மற்றும் 'அப்பா' என்று அன்போடு அழைக்கிறாள். பல வருடங்களுக்குப் பிறகு, 12-ம் வகுப்பு படிக்கும்போது, அவள் அந்த அதிகாரியை மீண்டும் சந்திக்கிறாள். இது இரத்த உறவுகளுக்கு அப்பாற்பட்டு அன்பும் மனிதநேயமும் மக்களை இணைக்கிறது என்பதைக் காட்டுகிறது.</p></div>"
+      },
+      {
+        "title": "2. Glossary (Meanings) || 2. அருஞ்சொற்பொருள்",
+        "content": "<div><ul><li><b>[[Recede]]</b>: Go or move back. || [[பின்வாங்குதல்]]: பின்னே செல்லுதல் அல்லது நகருதல்.</li><li><b>[[Massive]]</b>: Large or heavy. || [[பெரிய]]: மிகப்பெரிய அல்லது கனமான.</li><li><b>[[Whirled]]</b>: To move rapidly round and round. || [[சுழலுதல்]]: வேகமாக வட்டமாக நகருதல்.</li><li><b>[[Bang]]</b>: To strike forcefully and noisily. || [[மோதுதல்]]: பலமாக மற்றும் சத்தமாக மோதுதல்.</li><li><b>[[Faint]]</b>: To lose consciousness. || [[மயக்கமடைதல்]]: சுயநினைவை இழத்தல்.</li><li><b>[[Rehabilitation]]</b>: The action of restoring someone after a damage. || [[மறுவாழ்வு]]: பாதிப்பிற்குப் பிறகு ஒருவரை இயல்பு நிலைக்குக் கொண்டு வருதல்.</li><li><b>[[Blankly]]</b>: Without expression. || [[வெறித்துப் பார்த்தல்]]: உணர்ச்சியின்றிப் பார்த்தல்.</li></ul></div>"
+      },
+      {
+        "title": "3. Grammar: Punctuation || 3. இலக்கணம்: நிறுத்தற்குறிகள்",
+        "content": "<div><p class='en-text'>Punctuation marks help us read and understand sentences clearly.</p><p class='tm-text'>நிறுத்தற்குறிகள் வாக்கியங்களைத் தெளிவாகப் படிக்கவும் புரிந்துகொள்ளவும் உதவுகின்றன.</p><ul><li><b>[[Capital Letter]]</b>: Used at the beginning of a sentence, for proper nouns (names), and abbreviations (ATM, MBBS). || [[பெரிய எழுத்து]]: வாக்கியத்தின் தொடக்கத்திலும், சிறப்புப் பெயர்ச்சொற்களிலும் (பெயர்கள்), மற்றும் சுருக்கங்களிலும் (ATM, MBBS) பயன்படுத்தப்படுகிறது.</li><li><b>[[Full Stop]] (.)</b>: Used at the end of a statement. || [[முற்றுப்புள்ளி]]: ஒரு சாதாரண வாக்கியத்தின் இறுதியில் பயன்படுத்தப்படுகிறது.</li><li><b>[[Comma]] (,)</b>: Used to separate words in a list of three or more things. || [[காற்புள்ளி]]: மூன்று அல்லது அதற்கு மேற்பட்ட பொருட்களின் பட்டியலைப் பிரிக்கப் பயன்படுகிறது.</li><li><b>[[Question Mark]] (?)</b>: Used at the end of an interrogative sentence (asking a question). || [[கேள்விக்குறி]]: கேள்வி கேட்கும் வாக்கியத்தின் இறுதியில் பயன்படுத்தப்படுகிறது.</li></ul></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where was the small coastal village Keeraikuppam located? || கீரைக்குப்பம் என்ற சிறிய கடற்கரை கிராமம் எங்கு அமைந்திருந்தது?",
+        "options": [
+          "Near Chennai || சென்னை அருகில்",
+          "Near Kanyakumari || கன்னியாகுமரி அருகில்",
+          "Near Nagapattinam || நாகப்பட்டினம் அருகில்",
+          "Near Thoothukudi || தூத்துக்குடி அருகில்"
+        ],
+        "answer": 2,
+        "explanation": "The text states, 'Keeraikuppam was a small coastal village near Nagapattinam.' || கீரைக்குப்பம் நாகப்பட்டினம் அருகிலுள்ள ஒரு கடற்கரை கிராமம் என்று பாடத்தில் கூறப்பட்டுள்ளது."
+      },
+      {
+        "question": "What was the village bell about to strike when the seawater receded? || கடல் நீர் பின்வாங்கியபோது கிராமத்து மணி எத்தனை முறை அடிக்க இருந்தது?",
+        "options": [
+          "Six times || ஆறு முறை",
+          "Eight times || எட்டு முறை",
+          "Ten times || பத்து முறை",
+          "Twelve times || பன்னிரண்டு முறை"
+        ],
+        "answer": 1,
+        "explanation": "The village bell was about to strike eight times when the water receded. || கடல் நீர் பின்வாங்கியபோது மணி எட்டு முறை அடிக்க இருந்தது."
+      },
+      {
+        "question": "What did Meena hug firmly to save herself from the waves? || அலைகளிடமிருந்து தன்னைக் காக்க மீனா எதனை இறுக்கமாகக் கட்டிக்கொண்டாள்?",
+        "options": [
+          "A wooden boat || ஒரு மரப் படகு",
+          "Her mother || அவளது தாய்",
+          "A floating door || மிதக்கும் கதவு",
+          "The trunk of a coconut tree || ஒரு தென்னை மரத்தின் தண்டு"
+        ],
+        "answer": 3,
+        "explanation": "Meena saved herself by firmly hugging the trunk of a coconut tree. || மீனா ஒரு தென்னை மரத்தின் தண்டை இறுக்கமாகக் கட்டிக்கொண்டு உயிர் தப்பினாள்."
+      },
+      {
+        "question": "How many boys and girls were housed in the rehabilitation centre? || மறுவாழ்வு மையத்தில் எத்தனை சிறுவர் சிறுமிகள் தங்கியிருந்தனர்?",
+        "options": [
+          "90",
+          "99",
+          "100",
+          "109"
+        ],
+        "answer": 1,
+        "explanation": "The centre housed nearly 99 boys and girls. || அந்த மையத்தில் சுமார் 99 சிறுவர் சிறுமிகள் இருந்தனர்."
+      },
+      {
+        "question": "In which standard was Meena studying when the official visited her at school? || அதிகாரி மீனாவைப் பள்ளியில் சந்தித்தபோது அவள் எத்தனையாம் வகுப்பு படித்துக் கொண்டிருந்தாள்?",
+        "options": [
+          "Tenth standard || பத்தாம் வகுப்பு",
+          "Eleventh standard || பதினொன்றாம் வகுப்பு",
+          "Twelfth standard || பன்னிரண்டாம் வகுப்பு",
+          "Eighth standard || எட்டாம் வகுப்பு"
+        ],
+        "answer": 2,
+        "explanation": "Meena was in the twelfth standard when the official visited her. || அதிகாரி வந்தபோது மீனா பன்னிரண்டாம் வகுப்பு படித்துக் கொண்டிருந்தாள்."
+      },
+      {
+        "question": "Which punctuation mark must be used at the beginning of a proper noun? || ஒரு சிறப்புப் பெயர்ச்சொல்லின் தொடக்கத்தில் எந்த நிறுத்தற்குறியைப் பயன்படுத்த வேண்டும்?",
+        "options": [
+          "Full stop || முற்றுப்புள்ளி",
+          "Comma || காற்புள்ளி",
+          "Question mark || கேள்விக்குறி",
+          "Capital letter || பெரிய எழுத்து"
+        ],
+        "answer": 3,
+        "explanation": "Proper nouns and abbreviations always start with a Capital Letter. || சிறப்புப் பெயர்ச்சொற்கள் எப்போதும் பெரிய எழுத்தில் தொடங்க வேண்டும்."
+      },
+      {
+        "question": "Which punctuation mark is used to separate words in a list of three or more things? || மூன்று அல்லது அதற்கு மேற்பட்ட பொருட்களின் பட்டியலைப் பிரிக்க எந்த நிறுத்தற்குறி பயன்படுகிறது?",
+        "options": [
+          "Capital letter || பெரிய எழுத்து",
+          "Question mark || கேள்விக்குறி",
+          "Comma || காற்புள்ளி",
+          "Full stop || முற்றுப்புள்ளி"
+        ],
+        "answer": 2,
+        "explanation": "A comma is used to separate words in a list. || பொருட்களின் பட்டியலைப் பிரிக்கக் காற்புள்ளி (Comma) பயன்படுத்தப்படுகிறது."
+      },
+      {
+        "question": "Identify the sentence with the correct punctuation. || சரியான நிறுத்தற்குறிகள் உள்ள வாக்கியத்தைக் கண்டறியவும்.",
+        "options": [
+          "where is my cat? || where is my cat?",
+          "Where is my cat || Where is my cat",
+          "Where is my cat? || Where is my cat?",
+          "where is my cat. || where is my cat."
+        ],
+        "answer": 2,
+        "explanation": "The sentence should start with a Capital Letter and end with a Question Mark. || வாக்கியம் பெரிய எழுத்தில் தொடங்கி கேள்விக்குறியில் முடிய வேண்டும்."
+      },
+      {
+        "question": "What does the word 'recede' mean? || 'Recede' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "To come forward rapidly || வேகமாக முன்னேறுதல்",
+          "To strike forcefully || பலமாக மோதுதல்",
+          "Go or move back || பின்வாங்குதல்",
+          "To lose consciousness || மயக்கமடைதல்"
+        ],
+        "answer": 2,
+        "explanation": "Recede means to go or move back. || 'Recede' என்றால் பின்வாங்குதல் அல்லது பின்னே செல்லுதல் என்று பொருள்."
+      },
+      {
+        "question": "What happened to Meena's mother in the disaster? || இந்தத் துயரத்தில் மீனாவின் தாய்க்கு என்ன நேர்ந்தது?",
+        "options": [
+          "She climbed a tree || அவள் மரத்தில் ஏறினாள்",
+          "She reached home safely || அவள் பாதுகாப்பாக வீடு திரும்பினாள்",
+          "She was washed away by the wave || அவள் அலையினால் இழுத்துச் செல்லப்பட்டாள்",
+          "She saved Meena and her father || அவள் மீனாவையும் மீனாவின் தந்தையையும் காப்பாற்றினாள்"
+        ],
+        "answer": 2,
+        "explanation": "The story mentions that Meena’s mother was washed away by the wave. || மீனாவின் தாய் அலையினால் இழுத்துச் செல்லப்பட்டார் என்று கதை கூறுகிறது."
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)",
+    "unit": 1,
+    "grade": "4",
+    "term": "2",
+    "subject": "English",
+    "code": "eng_4_t2_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. Poem Summary || 1. கவிதைச் சுருக்கம்",
+        "content": "<div><p class='en-text'>This poem 'The real wealth' emphasizes the importance of relationships in our lives. It teaches that while money and material possessions are useful, our parents, relatives, and friends are our true wealth. A life filled with love, care, and strong bonds is much more valuable than one filled only with riches.</p><p class='tm-text'>'உண்மையான செல்வம்' என்ற இக்கவிதை நம் வாழ்வில் உறவுகளின் முக்கியத்துவத்தை வலியுறுத்துகிறது. பணம் மற்றும் பொருள் பயனுள்ளதாக இருந்தாலும், நமது பெற்றோர்கள், உறவினர்கள் மற்றும் நண்பர்களே நமது உண்மையான செல்வம் என்று இது கற்பிக்கிறது. அன்பு, அக்கறை மற்றும் வலுவான பிணைப்புகள் நிறைந்த வாழ்க்கை, செல்வங்கள் மட்டுமே நிறைந்த வாழ்க்கையை விட மிகவும் மதிப்புமிக்கது.</p></div>"
+      },
+      {
+        "title": "2. Glossary (Meanings) || 2. அருஞ்சொற்பொருள்",
+        "content": "<div><ul><li><b>[[Spoil]]</b>: Destroy the value or quality of. || [[கெடுத்தல்]]: ஒரு பொருளின் மதிப்பு அல்லது தரத்தை அழித்தல்.</li><li><b>[[Bear]]</b>: To withstand. || [[தாங்குதல்]]: எதனையும் சகித்துக்கொள்ளுதல் அல்லது தாங்கிக்கொள்ளுதல்.</li><li><b>[[Deeds]]</b>: An action performed intentionally. || [[செயல்கள்]]: திட்டமிட்டுச் செய்யப்படும் செயல்கள்.</li><li><b>[[Zest]]</b>: Happiness or energy. || [[உற்சாகம்]]: மிகுந்த மகிழ்ச்சி அல்லது சுறுசுறுப்பு.</li><li><b>[[Nurture]]</b>: Care for and protect. || [[பராமரித்தல்]]: அன்போடு பாதுகாத்தல் மற்றும் வளர்த்தல்.</li></ul></div>"
+      },
+      {
+        "title": "3. Grammar: Prepositions of Place || 3. இலக்கணம்: இடப்பெயர்ச்சொற்கள்",
+        "content": "<div><p class='en-text'>Prepositions of place tell us where a person or thing is located.</p><p class='tm-text'>இடப்பெயர்ச்சொற்கள் ஒரு நபர் அல்லது பொருள் எங்குள்ளது என்பதைத் தெரிவிக்கின்றன.</p><ul><li><b>[[In front of]]</b>: Preceding something. || [[முன்னால்]]: ஒரு பொருளுக்கு முன்னால் இருப்பதைக் குறிக்கும்.</li><li><b>[[Behind]]</b>: At the back of something. || [[பின்னால்]]: ஒரு பொருளுக்குப் பின்னால் இருப்பதைக் குறிக்கும்.</li><li><b>[[Between]]</b>: In the middle of two things. || [[இடையில்]]: இரண்டு பொருட்களுக்கு நடுவில் இருப்பதைக் குறிக்கும்.</li></ul><p class='en-text'><b>Examples:</b><br>- The dog is <b>in front of</b> the house.<br>- The cat is <b>behind</b> the curtain.<br>- The ball is <b>between</b> the two boxes.</p><p class='tm-text'><b>உதாரணங்கள்:</b><br>- நாய் வீட்டிற்கு <b>முன்னால்</b> இருக்கிறது.<br>- பூனை திரைக்குப் <b>பின்னால்</b> இருக்கிறது.<br>- பந்து இரண்டு பெட்டிகளுக்கு <b>இடையில்</b> இருக்கிறது.</p></div>"
+      },
+      {
+        "title": "4. Grammar: Before and After || 4. இலக்கணம்: முன்னால் மற்றும் பின்னால்",
+        "content": "<div><ul><li><b>[[Before]]</b>: A position preceding (e.g., A is before B). || [[முன்னால்]]: ஒரு நிலைக்கு முன்னால் இருப்பதைக் குறிக்கும்.</li><li><b>[[After]]</b>: A position following (e.g., 5 is after 4). || [[பின்னால்]]: ஒரு நிலைக்குப் பின்னால் அல்லது அடுத்து வருவதைக் குறிக்கும்.</li></ul></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the meaning of the word 'spoil'? || 'Spoil' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "Care for and protect || பராமரித்தல் மற்றும் பாதுகாத்தல்",
+          "Destroy the value or quality of || மதிப்பு அல்லது தரத்தை அழித்தல்",
+          "Happiness or energy || மகிழ்ச்சி அல்லது உற்சாகம்",
+          "An action performed intentionally || திட்டமிட்டுச் செய்யப்படும் செயல்"
+        ],
+        "answer": 1,
+        "explanation": "'Spoil' means to destroy the value or quality of something. || 'Spoil' என்பது ஒரு பொருளின் மதிப்பு அல்லது தரத்தைக் கெடுப்பதைக் குறிக்கும்."
+      },
+      {
+        "question": "What according to the poem is our 'real wealth'? || கவிதையின்படி நமது 'உண்மையான செல்வம்' எது?",
+        "options": [
+          "Money || பணம்",
+          "Gold || தங்கம்",
+          "Relationships || உறவுகள்",
+          "Vehicles || வாகனங்கள்"
+        ],
+        "answer": 2,
+        "explanation": "The poem teaches that relationships are the real wealth. || உறவுகளே உண்மையான செல்வம் என்று இக்கவிதை கூறுகிறது."
+      },
+      {
+        "question": "Choose the correct meaning for 'bear'. || 'Bear' என்பதற்கான சரியான பொருளைத் தேர்ந்தெடுக்கவும்.",
+        "options": [
+          "To withstand || சகித்துக்கொள்ளுதல் / தாங்குதல்",
+          "Happiness || மகிழ்ச்சி",
+          "To destroy || அழித்தல்",
+          "Care for || பராமரித்தல்"
+        ],
+        "answer": 0,
+        "explanation": "In this context, 'bear' means to withstand difficulties. || இந்தப் பாடத்தில் 'bear' என்பது சகித்துக்கொள்ளுதல் அல்லது தாங்குதல் என்ற பொருளில் வருகிறது."
+      },
+      {
+        "question": "Which preposition describes a position in the middle of two other things? || இரண்டு பொருட்களுக்கு நடுவில் இருப்பதை எந்த இடப்பெயர்ச்சொல் குறிக்கிறது?",
+        "options": [
+          "In front of || முன்னால்",
+          "Behind || பின்னால்",
+          "Between || இடையில்",
+          "Under || அடியில்"
+        ],
+        "answer": 2,
+        "explanation": "'Between' indicates a position in the middle of two things. || இரண்டு பொருட்களுக்கு நடுவில் இருப்பதைக் குறிக்க 'Between' பயன்படுகிறது."
+      },
+      {
+        "question": "Number logic: 1 is ________ 2. || எண் வரிசை: 1 என்பது 2-க்கு ________ வருகிறது.",
+        "options": [
+          "Before || முன்னால்",
+          "After || பின்னால்",
+          "Between || இடையில்",
+          "Behind || பின்னால்"
+        ],
+        "answer": 0,
+        "explanation": "In counting, 1 comes before 2. || எண் வரிசையில் 2-க்கு முன்னால் 1 வரும்."
+      },
+      {
+        "question": "Alphabet logic: D is ________ C. || ஆங்கில எழுத்துக்கள்: D என்பது C-க்கு ________ வரும்.",
+        "options": [
+          "Before || முன்னால்",
+          "After || பின்னால்",
+          "Between || இடையில்",
+          "Behind || பின்னால்"
+        ],
+        "answer": 1,
+        "explanation": "In the alphabet, D comes after C. || ஆங்கில எழுத்துக்களில் C-க்கு அடுத்து (பின்னால்) D வரும்."
+      },
+      {
+        "question": "Identify the rhyming word for 'bread' from the poem. || 'Bread' என்ற சொல்லிற்கு ஏற்ற இயைபுச் சொல்லைக் கண்டறியவும்.",
+        "options": [
+          "Needs || Needs",
+          "Rest || Rest",
+          "Ahead || Ahead",
+          "Dare || Dare"
+        ],
+        "answer": 2,
+        "explanation": "'Bread' and 'Ahead' are rhyming words in the poem. || கவிதையில் 'Bread' மற்றும் 'Ahead' ஆகியவை இயைபுச் சொற்களாகும்."
+      },
+      {
+        "question": "If you are standing directly facing the entrance of your house, you are ________ the house. || நீங்கள் வீட்டின் நுழைவு வாயிலுக்கு நேராக நின்றால், நீங்கள் வீட்டிற்கு ________ இருக்கிறீர்கள்.",
+        "options": [
+          "Behind || பின்னால்",
+          "Between || இடையில்",
+          "In front of || முன்னால்",
+          "Above || மேலே"
+        ],
+        "answer": 2,
+        "explanation": "Facing the front means you are 'in front of' the house. || முன்னால் இருப்பதை 'in front of' என்று கூற வேண்டும்."
+      },
+      {
+        "question": "What is the meaning of 'zest'? || 'Zest' என்பதன் பொருள் என்ன?",
+        "options": [
+          "Sadness || சோகம்",
+          "Happiness or energy || மகிழ்ச்சி அல்லது உற்சாகம்",
+          "Anger || கோபம்",
+          "Destruction || அழிவு"
+        ],
+        "answer": 1,
+        "explanation": "'Zest' means a feeling of great happiness or energy. || 'Zest' என்றால் மிகுந்த மகிழ்ச்சி அல்லது உற்சாகம் என்று பொருள்."
+      },
+      {
+        "question": "Who helps us overcome our fears and difficulties? || நமது அச்சங்களையும் சிரமங்களையும் போக்க உதவுபவர்கள் யார்?",
+        "options": [
+          "Strangers || முன்பின் தெரியாதவர்கள்",
+          "Parents || பெற்றோர்கள்",
+          "Enemies || எதிரிகள்",
+          "Thieves || திருடர்கள்"
+        ],
+        "answer": 1,
+        "explanation": "The poem suggests parents are the ones who help us overcome challenges. || பெற்றோர்கள் நமது தடைகளைத் தாண்ட உதவுகிறார்கள் என்று பாடம் கூறுகிறது."
+      }
+    ]
+  }
+}
