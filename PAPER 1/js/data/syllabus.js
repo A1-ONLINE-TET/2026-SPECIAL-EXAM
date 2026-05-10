@@ -2007,7 +2007,7 @@ export const syllabusData = {
             "title": "அலகு 2",
             "topics": [
               {
-                "title": "அலகு 2: எண்கள் - பெருக்கல்",
+                "title": "எண்கள் - பெருக்கல்",
                 "isUpdated": true,
                 "code": "mat_4_t2_l2"
               }
@@ -2017,7 +2017,7 @@ export const syllabusData = {
             "title": "அலகு 3",
             "topics": [
               {
-                "title": "அலகு 3: அமைப்புகள்",
+                "title": "அமைப்புகள் (மற்றும் அளவைகள் அறிமுகம்)",
                 "isUpdated": true,
                 "code": "mat_4_t2_l3"
               }
@@ -2027,7 +2027,7 @@ export const syllabusData = {
             "title": "அலகு 4",
             "topics": [
               {
-                "title": "அலகு 4: அளவைகள்",
+                "title": "அளவைகள்",
                 "isUpdated": true,
                 "code": "mat_4_t2_l4"
               }
@@ -2037,7 +2037,7 @@ export const syllabusData = {
             "title": "அலகு 5",
             "topics": [
               {
-                "title": "அலகு 5: நேரம்",
+                "title": "பின்னங்கள்",
                 "isUpdated": true,
                 "code": "mat_4_t2_l5"
               }
@@ -2047,7 +2047,7 @@ export const syllabusData = {
             "title": "அலகு 6",
             "topics": [
               {
-                "title": "அலகு 6: தகவல் செயலாக்கம்",
+                "title": "தகவல் செயலாக்கம்",
                 "isUpdated": true,
                 "code": "mat_4_t2_l6"
               }

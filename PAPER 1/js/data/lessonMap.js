@@ -1161,6 +1161,24 @@ export const lessonMap = {
     "grade": "4",
     "title": "எண்கள் - பெருக்கல்"
   },
+  "அமைப்புகள் (மற்றும் அளவைகள் அறிமுகம்)": {
+    "local": true,
+    "filename": "mat_4_t2_l3",
+    "grade": "4",
+    "title": "அமைப்புகள் (மற்றும் அளவைகள் அறிமுகம்)"
+  },
+  "mat_4_t2_l3": {
+    "local": true,
+    "filename": "mat_4_t2_l3",
+    "grade": "4",
+    "title": "அமைப்புகள் (மற்றும் அளவைகள் அறிமுகம்)"
+  },
+  "mat_4_t2_l4": {
+    "local": true,
+    "filename": "mat_4_t2_l4",
+    "grade": "4",
+    "title": "அளவைகள்"
+  },
   "பின்னங்கள்": {
     "local": true,
     "filename": "mat_5_t3_l6",
