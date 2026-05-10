@@ -1152,7 +1152,8 @@ export const lessonMap = {
   "mat_4_t2_l1": {
     "local": true,
     "filename": "mat_4_t2_l1",
-    "grade": "4"
+    "grade": "4",
+    "title": "அலகு 1: வடிவியல்"
   },
   "mat_4_t2_l2": {
     "local": true,
