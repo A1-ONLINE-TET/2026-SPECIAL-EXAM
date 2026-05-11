@@ -1046,7 +1046,7 @@ export const syllabusData = {
             "title": "Unit 1",
             "topics": [
               {
-                "title": "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்",
+                "title": "UNIT 1: A WORLD WITH ROBOTS",
                 "isUpdated": true,
                 "code": "eng_4_t1_l1"
               }
@@ -1056,7 +1056,7 @@ export const syllabusData = {
             "title": "Unit 2",
             "topics": [
               {
-                "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்",
+                "title": "UNIT 2: MY HOBBIES",
                 "isUpdated": true,
                 "code": "eng_4_t1_l2"
               }
@@ -1066,7 +1066,7 @@ export const syllabusData = {
             "title": "Unit 3",
             "topics": [
               {
-                "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்",
+                "title": "UNIT 3: TIME FOR A JOURNEY",
                 "isUpdated": true,
                 "code": "eng_4_t1_l3"
               }
@@ -1081,17 +1081,17 @@ export const syllabusData = {
             "title": "Unit 1: Affection",
             "topics": [
               {
-                "title": "Affection (Prose: Appa & Grammar: Punctuation)",
+                "title": "AFFECTION (PROSE: APPA & GRAMMAR: PUNCTUATION)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l1"
               },
               {
-                "title": "The real wealth (Affection)",
+                "title": "THE REAL WEALTH (AFFECTION)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l2"
               },
               {
-                "title": "Affection (A True Friend, Advertisement & Biography Writing)",
+                "title": "AFFECTION (A TRUE FRIEND, ADVERTISEMENT & BIOGRAPHY WRITING)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l3"
               }
@@ -1101,17 +1101,17 @@ export const syllabusData = {
             "title": "Unit 2: Savings",
             "topics": [
               {
-                "title": "A Lesson to save (Savings)",
+                "title": "A LESSON TO SAVE (SAVINGS)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l4"
               },
               {
-                "title": "Savings (What do humans save? & Grammar)",
+                "title": "SAVINGS (WHAT DO HUMANS SAVE? & GRAMMAR)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l5"
               },
               {
-                "title": "Save Wisely (Supplementary) & Reading Passage",
+                "title": "SAVE WISELY (SUPPLEMENTARY) & READING PASSAGE",
                 "isUpdated": true,
                 "code": "eng_4_t2_l6"
               }

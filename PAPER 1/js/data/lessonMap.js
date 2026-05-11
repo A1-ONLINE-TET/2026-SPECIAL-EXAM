@@ -249,113 +249,113 @@ export const lessonMap = {
     "grade": "3",
     "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
   },
-  "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
+  "UNIT 1: A WORLD WITH ROBOTS": {
     "local": true,
     "filename": "eng_4_t1_l1",
     "grade": "4",
-    "title": "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்"
+    "title": "UNIT 1: A WORLD WITH ROBOTS"
   },
   "eng_4_t1_l1": {
     "local": true,
     "filename": "eng_4_t1_l1",
     "grade": "4",
-    "title": "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்"
+    "title": "UNIT 1: A WORLD WITH ROBOTS"
   },
-  "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்": {
+  "UNIT 2: MY HOBBIES": {
     "local": true,
     "filename": "eng_4_t1_l2",
     "grade": "4",
-    "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்"
+    "title": "UNIT 2: MY HOBBIES"
   },
   "eng_4_t1_l2": {
     "local": true,
     "filename": "eng_4_t1_l2",
     "grade": "4",
-    "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்"
+    "title": "UNIT 2: MY HOBBIES"
   },
-  "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்": {
+  "UNIT 3: TIME FOR A JOURNEY": {
     "local": true,
     "filename": "eng_4_t1_l3",
     "grade": "4",
-    "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்"
+    "title": "UNIT 3: TIME FOR A JOURNEY"
   },
   "eng_4_t1_l3": {
     "local": true,
     "filename": "eng_4_t1_l3",
     "grade": "4",
-    "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்"
+    "title": "UNIT 3: TIME FOR A JOURNEY"
   },
-  "Affection (Prose: Appa & Grammar: Punctuation)": {
+  "AFFECTION (PROSE: APPA & GRAMMAR: PUNCTUATION)": {
     "local": true,
     "filename": "eng_4_t2_l1",
     "grade": "4",
-    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
+    "title": "AFFECTION (PROSE: APPA & GRAMMAR: PUNCTUATION)"
   },
   "eng_4_t2_l1": {
     "local": true,
     "filename": "eng_4_t2_l1",
     "grade": "4",
-    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
+    "title": "AFFECTION (PROSE: APPA & GRAMMAR: PUNCTUATION)"
   },
-  "The real wealth (Affection)": {
+  "THE REAL WEALTH (AFFECTION)": {
     "local": true,
     "filename": "eng_4_t2_l2",
     "grade": "4",
-    "title": "The real wealth (Affection)"
+    "title": "THE REAL WEALTH (AFFECTION)"
   },
   "eng_4_t2_l2": {
     "local": true,
     "filename": "eng_4_t2_l2",
     "grade": "4",
-    "title": "The real wealth (Affection)"
+    "title": "THE REAL WEALTH (AFFECTION)"
   },
-  "Affection (A True Friend, Advertisement & Biography Writing)": {
+  "AFFECTION (A TRUE FRIEND, ADVERTISEMENT & BIOGRAPHY WRITING)": {
     "local": true,
     "filename": "eng_4_t2_l3",
     "grade": "4",
-    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
+    "title": "AFFECTION (A TRUE FRIEND, ADVERTISEMENT & BIOGRAPHY WRITING)"
   },
   "eng_4_t2_l3": {
     "local": true,
     "filename": "eng_4_t2_l3",
     "grade": "4",
-    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
+    "title": "AFFECTION (A TRUE FRIEND, ADVERTISEMENT & BIOGRAPHY WRITING)"
   },
-  "A Lesson to save (Savings)": {
+  "A LESSON TO SAVE (SAVINGS)": {
     "local": true,
     "filename": "eng_4_t2_l4",
     "grade": "4",
-    "title": "A Lesson to save (Savings)"
+    "title": "A LESSON TO SAVE (SAVINGS)"
   },
   "eng_4_t2_l4": {
     "local": true,
     "filename": "eng_4_t2_l4",
     "grade": "4",
-    "title": "A Lesson to save (Savings)"
+    "title": "A LESSON TO SAVE (SAVINGS)"
   },
-  "Savings (What do humans save? & Grammar)": {
+  "SAVINGS (WHAT DO HUMANS SAVE? & GRAMMAR)": {
     "local": true,
     "filename": "eng_4_t2_l5",
     "grade": "4",
-    "title": "Savings (What do humans save? & Grammar)"
+    "title": "SAVINGS (WHAT DO HUMANS SAVE? & GRAMMAR)"
   },
   "eng_4_t2_l5": {
     "local": true,
     "filename": "eng_4_t2_l5",
     "grade": "4",
-    "title": "Savings (What do humans save? & Grammar)"
+    "title": "SAVINGS (WHAT DO HUMANS SAVE? & GRAMMAR)"
   },
-  "Save Wisely (Supplementary) & Reading Passage": {
+  "SAVE WISELY (SUPPLEMENTARY) & READING PASSAGE": {
     "local": true,
     "filename": "eng_4_t2_l6",
     "grade": "4",
-    "title": "Save Wisely (Supplementary) & Reading Passage"
+    "title": "SAVE WISELY (SUPPLEMENTARY) & READING PASSAGE"
   },
   "eng_4_t2_l6": {
     "local": true,
     "filename": "eng_4_t2_l6",
     "grade": "4",
-    "title": "Save Wisely (Supplementary) & Reading Passage"
+    "title": "SAVE WISELY (SUPPLEMENTARY) & READING PASSAGE"
   },
   "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
     "local": true,
