@@ -285,77 +285,77 @@ export const lessonMap = {
     "grade": "4",
     "title": "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்"
   },
-  "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)": {
+  "Affection (Prose: Appa & Grammar: Punctuation)": {
     "local": true,
     "filename": "eng_4_t2_l1",
     "grade": "4",
-    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)"
+    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
   },
   "eng_4_t2_l1": {
     "local": true,
     "filename": "eng_4_t2_l1",
     "grade": "4",
-    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)"
+    "title": "Affection (Prose: Appa & Grammar: Punctuation)"
   },
-  "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)": {
+  "The real wealth (Affection)": {
     "local": true,
     "filename": "eng_4_t2_l2",
     "grade": "4",
-    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)"
+    "title": "The real wealth (Affection)"
   },
   "eng_4_t2_l2": {
     "local": true,
     "filename": "eng_4_t2_l2",
     "grade": "4",
-    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)"
+    "title": "The real wealth (Affection)"
   },
-  "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)": {
+  "Affection (A True Friend, Advertisement & Biography Writing)": {
     "local": true,
     "filename": "eng_4_t2_l3",
     "grade": "4",
-    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)"
+    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
   },
   "eng_4_t2_l3": {
     "local": true,
     "filename": "eng_4_t2_l3",
     "grade": "4",
-    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)"
+    "title": "Affection (A True Friend, Advertisement & Biography Writing)"
   },
-  "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)": {
+  "A Lesson to save (Savings)": {
     "local": true,
     "filename": "eng_4_t2_l4",
     "grade": "4",
-    "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)"
+    "title": "A Lesson to save (Savings)"
   },
   "eng_4_t2_l4": {
     "local": true,
     "filename": "eng_4_t2_l4",
     "grade": "4",
-    "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)"
+    "title": "A Lesson to save (Savings)"
   },
-  "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)": {
+  "Savings (What do humans save? & Grammar)": {
     "local": true,
     "filename": "eng_4_t2_l5",
     "grade": "4",
-    "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)"
+    "title": "Savings (What do humans save? & Grammar)"
   },
   "eng_4_t2_l5": {
     "local": true,
     "filename": "eng_4_t2_l5",
     "grade": "4",
-    "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)"
+    "title": "Savings (What do humans save? & Grammar)"
   },
-  "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)": {
+  "Save Wisely (Supplementary) & Reading Passage": {
     "local": true,
     "filename": "eng_4_t2_l6",
     "grade": "4",
-    "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)"
+    "title": "Save Wisely (Supplementary) & Reading Passage"
   },
   "eng_4_t2_l6": {
     "local": true,
     "filename": "eng_4_t2_l6",
     "grade": "4",
-    "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)"
+    "title": "Save Wisely (Supplementary) & Reading Passage"
   },
   "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
     "local": true,

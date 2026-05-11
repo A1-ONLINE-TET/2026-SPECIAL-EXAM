@@ -1,512 +1,588 @@
 {
   "lesson_meta": {
-    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)",
+    "title": "Affection (Prose: Appa & Grammar: Punctuation)",
     "grade": "4",
     "term": "2",
     "unit": "1",
-    "type": "Prose",
+    "type": "Lesson",
     "language": "English",
     "code": "eng_4_t2_l1"
   },
   "material": {
     "sections": [
       {
-        "title": "1. Lesson Summary (Bilingual) || 1. பாடச் சுருக்கம் (இருமொழி)",
-        "content": "<div><p class='en-text'>'Appa' is a touching story about a young girl named Keerthi and her deep bond with her father. Keerthi's father, a fisherman, goes missing during a tsunami. Despite the tragedy and being moved to a relief camp, Keerthi never loses hope that her father will return. Years later, a man who survived the disaster is found, and it turns out to be Keerthi's father. The story highlights themes of love, resilience, and the unbreakable bond between a parent and child.</p><p class='tm-text'>'அப்பா' என்பது கீர்த்தி என்ற சிறுமிக்கும் அவளது தந்தைக்கும் இடையிலான ஆழமான பிணைப்பைப் பற்றிய உருக்கமான கதையாகும். மீனவரான கீர்த்தியின் தந்தை சுனாமியின் போது காணாமல் போகிறார். இந்தத் துயரம் நிகழ்ந்து, ஒரு நிவாரண முகாமிற்கு மாற்றப்பட்ட போதிலும், தனது தந்தை திரும்புவார் என்ற நம்பிக்கையை கீர்த்தி ஒருபோதும் இழக்கவில்லை. பல ஆண்டுகளுக்குப் பிறகு, அந்தப் பேரிடரில் உயிர் தப்பிய ஒரு நபர் கண்டுபிடிக்கப்படுகிறார், அவர் கீர்த்தியின் தந்தை என்பது தெரிய வருகிறது. இக்கதை அன்பு, மன உறுதி மற்றும் பெற்றோர்-பிள்ளை இடையிலான பிரிக்க முடியாத பிணைப்பை வலியுறுத்துகிறது.</p></div>"
+        "title": "முழுமையான சுருக்கம்",
+        "content": "This lesson 'Appa' highlights the theme of affection, resilience, and humanity during a natural disaster (Tsunami). The story is set in Keeraikuppam, a small coastal village near Nagapattinam. On a pleasant Sunday morning in December, the villagers were doing their routine fishing tasks. Meena's father had sailed into the sea. Suddenly, the village bell caretaker noticed the seawater receding just before the bell was about to strike eight times. People gathered out of curiosity. Soon, a massive wave roared towards the shore. Sensing danger, Meena's mother grabbed her hand and ran, but the powerful wave crushed the village. Meena was separated from her mother and banged against a coconut tree, which she hugged firmly before fainting. She woke up in a hospital and was later moved to a rehabilitation centre housing 99 children. A kind-hearted official and his wife frequently visited the centre, showering love on the children, especially little Meena. The children affectionately called them 'Amma' and 'Appa'. Even after being transferred three years later, the official continued to visit for the next five years. Years passed. Meena, now in 12th standard, was attending her English class. She suddenly heard a familiar voice calling her 'Meenu'. It was the official. Overwhelmed with emotion, tears rolled down her cheeks, and she ran towards him calling 'Appa!'. The grammar section covers 'Punctuation', focusing on the usage of Capital Letters (for the beginning of sentences, proper nouns, and abbreviations), Full Stops (at the end of sentences), Commas (to separate three or more items in a list), and Question Marks (at the end of interrogative sentences).",
+        "type": "content"
       },
       {
-        "title": "2. My Little Pictionary (Key Vocabulary) || 2. எனது சிறு விளக்கப்பட அகராதி",
-        "content": "<div><ul><li><p class='en-text'><strong>Tsunami:</strong> A giant sea wave caused by an earthquake.</p><p class='tm-text'><strong>சுனாமி:</strong> நிலநடுக்கத்தால் ஏற்படும் ராட்சதக் கடல் அலை.</p></li><li><p class='en-text'><strong>Relief:</strong> Help given to people in need.</p><p class='tm-text'><strong>நிவாரணம்:</strong> தேவையுள்ள மக்களுக்கு வழங்கப்படும் உதவி.</p></li><li><p class='en-text'><strong>Cottage:</strong> A small house.</p><p class='tm-text'><strong>குடிசை/சிறு வீடு:</strong> ஒரு சிறிய வீடு.</p></li><li><p class='en-text'><strong>Stare:</strong> To look fixedly at someone or something.</p><p class='tm-text'><strong>உற்றுப்பார்:</strong> யாரையாவது அல்லது எதையாவது நிலையாகப் பார்ப்பது.</p></li><li><p class='en-text'><strong>Faint:</strong> Not clear; weak.</p><p class='tm-text'><strong>மங்கலான:</strong> தெளிவற்ற; பலவீனமான.</p></li></ul></div>"
+        "title": "கூடுதல் பகுதிகள் மற்றும் குறிப்புகள்",
+        "content": "1. Disasters and Human Bond: The story subtly explains the Tsunami of December 2004 without explicitly naming it, focusing on its impact on coastal villages. 2. Rehabilitation: It sheds light on how orphans and affected individuals are cared for in rehabilitation centres. 3. Importance of Punctuation: Just as Ramu corrected Somu's joke ('Can we eat grandpa?' vs 'Can we eat, grandpa?'), punctuation changes the entire meaning of a sentence. 4. Proper Nouns and Abbreviations: Always start proper nouns (names of people, places like Bharathi, Kumar, India) and abbreviations (ATM, MBBS, NCC) with capital letters.",
+        "type": "content"
       },
       {
-        "title": "3. Glossary & Meanings || 3. கலைச்சொற்கள் மற்றும் பொருள்கள்",
-        "content": "<div><ul><li><strong>Shore</strong> - Sea coast || கடற்கரை</li><li><strong>Vast</strong> - Huge / Great || பரந்த / பெரிய</li><li><strong>Rumble</strong> - A low continuous sound || உருமல் சத்தம் / தொடர்ச்சியான தாழ்ந்த ஒலி</li><li><strong>Gazed</strong> - Looked steadily || உற்றுப் பார்த்தான் / நிலையாகப் பார்த்தான்</li><li><strong>Wiped</strong> - Cleaned or dried || துடைத்தான்</li></ul></div>"
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts to Remember: \n- Village Name: Keeraikuppam.\n- Location: Near Nagapattinam.\n- Day and Month: Sunday, December.\n- Bell strikes: 8 times.\n- What happened first: Seawater receded.\n- Tree Meena hugged: Coconut tree trunk.\n- Number of kids in the rehab centre: 99 boys and girls.\n- Time the official stayed before transfer: 3 years.\n- Time the official visited after transfer: 5 years.\n- Meena's current grade: 12th Standard.\n- Glossary/Meanings: \n  * Tumbled: to fall. \n  * Whirled: to spin or rotate rapidly. \n  * Scream: to cry / shout loudly with strong emotions. \n  * Grab: hold or catch. \n  * Wipe: clean or dry something by rubbing. \n  * Recede: go or move back. \n  * Massive: large or heavy. \n  * Bang: to strike forcefully and noisily. \n  * Faint: to lose consciousness. \n  * Rehabilitation: the action of restoring someone after a damage. \n  * Blankly: without expression.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள்",
+        "content": "A. Fill in the blanks:\n1. Meena's village was hit by waves on a [Sunday].\n2. Meena was transferred to a [rehabilitation centre].\n3. The official's family visited the rehabilitation centre for [five] years.\n4. The official and his wife liked [Meena].\n5. Meena studied in [twelfth] standard.\n\nB. Write whether the statements are True or False:\n1. Meena's father was a fisherman. [True]\n2. People ran off when the seawater receded. [False - they gathered along the shore]\n3. Three waves hit the village. [False - two waves are mentioned]\n4. The official visited the rehabilitation centre daily. [False - he often visited, and later once a year]\n5. The official was transferred. [True]\n\nC. Answer the following questions (Notes format):\n1. Keeraikuppam is located near Nagapattinam.\n2. The people were excited about the seawater receding a few hundred metres and a big wave forming far away.\n3. The disaster that hit the village was a massive sea wave (Tsunami).\n4. A kind-hearted official of the centre and his wife showed love and care to the children.\n5. Meena called the official 'Appa' because he showered her with fatherly love and care when she lost her parents. No, we do not need to be related by blood to care for others; love and humanity bind us together.\n\nD. Rewrite the sentences with correct punctuation marks:\n1. Where is my cat?\n2. Jain ate an apple.\n3. The book is on the table.\n4. Ravi wants book, pen and pencil.\n5. Do you play football?\n6. My favourite colour is blue.\n7. Leema is a good singer.\n8. Do you like pet animals?\n9. He likes shirt, pants and shorts.\n10. How are you?",
+        "type": "content"
       }
     ]
   },
   "quiz": {
     "questions": [
       {
-        "question": "Who is the main character in the story 'Appa'? || 'அப்பா' கதையின் முதன்மைக் கதாபாத்திரம் யார்?",
+        "question": "Where was the small coastal village Keeraikuppam located?",
         "options": [
-          "Keerthivasan",
-          "Keerthi",
-          "Meena",
-          "Senthil"
-        ],
-        "answer": 1,
-        "explanation": "Keerthi is the little girl whose story is told. || கீர்த்தி இக்கதையின் நாயகி."
-      },
-      {
-        "question": "What is the occupation of Keerthi's father? || கீர்த்தியின் தந்தையின் தொழில் என்ன?",
-        "options": [
-          "Farmer",
-          "Teacher",
-          "Fisherman",
-          "Doctor"
+          "Near Chennai",
+          "Near Kanyakumari",
+          "Near Nagapattinam",
+          "Near Thoothukudi"
         ],
         "answer": 2,
-        "explanation": "He goes to the sea to catch fish. || அவர் கடலுக்குச் சென்று மீன் பிடிப்பவர்."
+        "explanation": "The text clearly states, 'Keeraikuppam was a small coastal village near Nagapatinam.'"
       },
       {
-        "question": "What disaster occurred in the village? || கிராமத்தில் ஏற்பட்ட பேரிடர் எது?",
+        "question": "On which day of the week did the massive waves hit the village?",
         "options": [
-          "Flood",
-          "Earthquake",
-          "Tsunami",
-          "Cyclone"
-        ],
-        "answer": 2,
-        "explanation": "A massive tsunami hit the coastal village. || ஒரு பெரிய சுனாமி கடற்கரை கிராமத்தைத் தாக்கியது."
-      },
-      {
-        "question": "Where did the villagers move after the disaster? || பேரிடருக்குப் பிறகு கிராம மக்கள் எங்கு சென்றார்கள்?",
-        "options": [
-          "To the city",
-          "To a relief camp",
-          "To the mountains",
-          "To another village"
-        ],
-        "answer": 1,
-        "explanation": "They were moved to a temporary relief camp for safety. || அவர்கள் பாதுகாப்புக்காக ஒரு நிவாரண முகாமிற்கு மாற்றப்பட்டனர்."
-      },
-      {
-        "question": "How did Keerthi feel after losing her father? || தனது தந்தையை இழந்த பிறகு கீர்த்தி எப்படி உணர்ந்தாள்?",
-        "options": [
-          "Happy",
-          "Angry",
-          "Sad but hopeful",
-          "Confused"
-        ],
-        "answer": 2,
-        "explanation": "She was deeply sad but kept the hope of his return alive. || அவள் மிகுந்த வருத்தமடைந்தாள், ஆனால் அவர் வருவார் என்ற நம்பிக்கையைத் தக்கவைத்தாள்."
-      },
-      {
-        "question": "What is the meaning of 'Rumble'? || 'Rumble' என்பதன் பொருள் என்ன?",
-        "options": [
-          "A loud scream",
-          "A low continuous sound",
-          "A bright light",
-          "A fast movement"
-        ],
-        "answer": 1,
-        "explanation": "Rumble refers to a low, heavy sound like thunder or the sea. || இடி அல்லது கடல் சத்தம் போன்ற தாழ்ந்த ஒலி."
-      },
-      {
-        "question": "What is a 'Tsunami' caused by? || சுனாமி எதனால் ஏற்படுகிறது?",
-        "options": [
-          "Rain",
-          "Wind",
-          "Undersea earthquake",
-          "Sunlight"
-        ],
-        "answer": 2,
-        "explanation": "It is caused by earthquakes or volcanic eruptions under the sea. || கடலுக்கு அடியில் ஏற்படும் நிலநடுக்கங்களால் இது ஏற்படுகிறது."
-      },
-      {
-        "question": "In the story, what did Keerthi's father always bring for her? || கதையில், கீர்த்தியின் தந்தை அவளுக்கு எப்போதும் என்ன கொண்டு வருவார்?",
-        "options": [
-          "Toys",
-          "Books",
-          "Fish and sweets",
-          "Clothes"
-        ],
-        "answer": 2,
-        "explanation": "He used to bring things she loved from his trips. || அவர் தனது பயணங்களிலிருந்து அவளுக்குப் பிடித்தமானவற்றைக் கொண்டு வருவார்."
-      },
-      {
-        "question": "What does the word 'Gazed' mean? || 'Gazed' என்ற சொல்லின் பொருள் என்ன?",
-        "options": [
-          "Ran quickly",
-          "Looked steadily",
-          "Spoke loudly",
-          "Slept deeply"
-        ],
-        "answer": 1,
-        "explanation": "Gazed means looking at something for a long time with focus. || ஒரு விஷயத்தை உற்று நோக்குவது."
-      },
-      {
-        "question": "How many years later was the survivor found? || எத்தனை ஆண்டுகளுக்குப் பிறகு உயிர் தப்பியவர் கண்டுபிடிக்கப்பட்டார்?",
-        "options": [
-          "Two years",
-          "Five years",
-          "Several years",
-          "One month"
-        ],
-        "answer": 2,
-        "explanation": "The story mentions that it took several years for the reunion. || மீண்டும் இணைவதற்குப் பல ஆண்டுகள் ஆனதாகக் கதை குறிப்பிடுகிறது."
-      },
-      {
-        "question": "What is the plural form of 'Child'? || 'Child' என்பதன் பன்மை வடிவம் என்ன?",
-        "options": [
-          "Childs",
-          "Children",
-          "Childrens",
-          "Childes"
-        ],
-        "answer": 1,
-        "explanation": "The plural of child is children. || Child என்பதன் பன்மை Children."
-      },
-      {
-        "question": "Choose the correct spelling: || சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்:",
-        "options": [
-          "Tsunami",
-          "Sunami",
-          "Tsunami",
-          "Tsonami"
-        ],
-        "answer": 0,
-        "explanation": "The correct spelling starts with 'T'. || சரியான எழுத்துக்கூட்டல் T-யில் தொடங்குகிறது."
-      },
-      {
-        "question": "Which word is an antonym for 'Vast'? || 'Vast' என்பதன் எதிர்ச்சொல் எது?",
-        "options": [
-          "Huge",
-          "Large",
-          "Small",
-          "Wide"
-        ],
-        "answer": 2,
-        "explanation": "Vast means huge, so small is the opposite. || Vast என்றால் பெரியது, சிறியது என்பது அதன் எதிர்ச்சொல்."
-      },
-      {
-        "question": "What did the man do when he saw Keerthi? || கீர்த்தியைப் பார்த்தபோது அந்த மனிதர் என்ன செய்தார்?",
-        "options": [
-          "He ran away",
-          "He cried out her name",
-          "He ignored her",
-          "He laughed"
-        ],
-        "answer": 1,
-        "explanation": "Recognizing her, he called her name with emotion. || அவளை அடையாளம் கண்டு, உணர்ச்சியுடன் அவள் பெயரை அழைத்தார்."
-      },
-      {
-        "question": "The story 'Appa' is about: || 'அப்பா' கதை எதைப் பற்றியது:",
-        "options": [
-          "Friendship",
-          "Family love",
-          "Nature",
-          "Business"
-        ],
-        "answer": 1,
-        "explanation": "It focuses on the love between a father and daughter. || இது தந்தை மற்றும் மகளுக்கு இடையிலான அன்பை மையமாகக் கொண்டது."
-      },
-      {
-        "question": "Where did Keerthi live before the tsunami? || சுனாமிக்கு முன்பு கீர்த்தி எங்கு வாழ்ந்தாள்?",
-        "options": [
-          "In a city apartment",
-          "In a coastal cottage",
-          "In a palace",
-          "In a school hostel"
-        ],
-        "answer": 1,
-        "explanation": "She lived in a small cottage near the sea. || அவள் கடலோரத்தில் ஒரு சிறிய குடிசையில் வாழ்ந்தாள்."
-      },
-      {
-        "question": "What color was the sea looking before the tsunami? || சுனாமிக்கு முன் கடல் என்ன நிறத்தில் இருந்தது?",
-        "options": [
-          "Bright blue",
-          "Dark and scary",
-          "Green",
-          "White"
-        ],
-        "answer": 1,
-        "explanation": "The water turned dark and rumbled before the waves hit. || அலைகள் தாக்குவதற்கு முன்பு நீர் கருமையாகவும் உருமிக் கொண்டும் இருந்தது."
-      },
-      {
-        "question": "Identify the proper noun: || சிறப்புப் பெயரைக் கண்டறியவும்:",
-        "options": [
-          "Girl",
-          "Keerthi",
-          "Father",
-          "Beach"
-        ],
-        "answer": 1,
-        "explanation": "Keerthi is a specific name. || கீர்த்தி என்பது ஒரு குறிப்பிட்ட பெயர்."
-      },
-      {
-        "question": "What is the past tense of 'Go'? || 'Go' என்பதன் இறந்த காலம் என்ன?",
-        "options": [
-          "Goed",
-          "Went",
-          "Gone",
-          "Going"
-        ],
-        "answer": 1,
-        "explanation": "The past tense of go is went. || Go என்பதன் இறந்த காலம் Went."
-      },
-      {
-        "question": "Who helped the villagers in the relief camp? || நிவாரண முகாமில் கிராம மக்களுக்கு உதவியவர் யார்?",
-        "options": [
-          "Enemies",
-          "Volunteers and government",
-          "Animals",
-          "Nobody"
-        ],
-        "answer": 1,
-        "explanation": "Help came from many people and the authorities. || அதிகாரிகள் மற்றும் பலரிடமிருந்து உதவி கிடைத்தது."
-      },
-      {
-        "question": "Which punctuation is used at the end of a question? || ஒரு கேள்வியின் இறுதியில் எந்த நிறுத்தற்குறி பயன்படுத்தப்படுகிறது?",
-        "options": [
-          ".",
-          ",",
-          "?",
-          "!"
-        ],
-        "answer": 2,
-        "explanation": "A question mark (?) is used for questions. || கேள்விகளுக்கு கேள்விக்குறி (?) பயன்படுத்தப்படுகிறது."
-      },
-      {
-        "question": "What does the word 'Relief' mean in the context of the story? || கதையின் சூழலில் 'Relief' என்பதன் பொருள் என்ன?",
-        "options": [
-          "Pain",
-          "Help provided to victims",
-          "Laughter",
-          "Sleep"
-        ],
-        "answer": 1,
-        "explanation": "Relief refers to the aid given to those affected by disasters. || பேரிடரால் பாதிக்கப்பட்டவர்களுக்கு வழங்கப்படும் உதவி."
-      },
-      {
-        "question": "Keerthi's father was a brave man. Which word is the adjective? || கீர்த்தியின் தந்தை ஒரு தைரியமான மனிதர். இதில் எது பெயரடை?",
-        "options": [
-          "Keerthi",
-          "Father",
-          "Brave",
-          "Man"
-        ],
-        "answer": 2,
-        "explanation": "Brave describes the father. || Brave என்பது தந்தையை விவரிக்கிறது."
-      },
-      {
-        "question": "What did Keerthi do every day at the beach after the tsunami? || சுனாமிக்குப் பிறகு ஒவ்வொரு நாளும் கீர்த்தி கடற்கரையில் என்ன செய்தாள்?",
-        "options": [
-          "She played with sand",
-          "She searched the horizon for her father",
-          "She collected shells",
-          "She swam in the sea"
-        ],
-        "answer": 1,
-        "explanation": "She kept looking at the sea, hoping her father would return. || தனது தந்தை வருவார் என்ற நம்பிக்கையில் அவள் கடலையே பார்த்துக் கொண்டிருந்தாள்."
-      },
-      {
-        "question": "What is the meaning of 'Wiped'? || 'Wiped' என்பதன் பொருள் என்ன?",
-        "options": [
-          "Threw",
-          "Cleaned by rubbing",
-          "Broke",
-          "Hidden"
-        ],
-        "answer": 1,
-        "explanation": "To wipe is to clean something using a cloth or hand. || கை அல்லது துணியால் துடைப்பது."
-      },
-      {
-        "question": "Which of these is a synonym for 'Huge'? || 'Huge' என்பதன் ஒத்த பொருள் எது?",
-        "options": [
-          "Tiny",
-          "Vast",
-          "Small",
-          "Short"
-        ],
-        "answer": 1,
-        "explanation": "Vast means huge or very large. || Vast என்றால் மிகப் பெரியது."
-      },
-      {
-        "question": "Complete the sentence: Keerthi ____ her father very much. || வாக்கியத்தைப் பூர்த்தி செய்க: கீர்த்தி தனது தந்தையை மிகவும் ____.",
-        "options": [
-          "hated",
-          "forgot",
-          "loved",
-          "feared"
-        ],
-        "answer": 2,
-        "explanation": "The story is built on her love for her father. || இக்கதை அவள் தந்தை மீது வைத்திருந்த அன்பை அடிப்படையாகக் கொண்டது."
-      },
-      {
-        "question": "What is the opposite of 'Hope'? || 'Hope' என்பதன் எதிர்ச்சொல் என்ன?",
-        "options": [
-          "Wish",
-          "Despair",
-          "Dream",
-          "Faith"
-        ],
-        "answer": 1,
-        "explanation": "Despair is the loss of hope. || நம்பிக்கை இழப்பு."
-      },
-      {
-        "question": "The sea waves were as tall as ____. || கடல் அலைகள் ____ போன்ற உயரத்தில் இருந்தன.",
-        "options": [
-          "Trees",
-          "Buildings",
-          "Mountains",
-          "Clouds"
-        ],
-        "answer": 2,
-        "explanation": "The tsunami waves are often compared to mountains in size. || சுனாமி அலைகள் பெரும்பாலும் மலைகளுடன் ஒப்பிடப்படுகின்றன."
-      },
-      {
-        "question": "What sound did the sea make before the wave? || அலை வருவதற்கு முன் கடல் என்ன சத்தம் எழுப்பியது?",
-        "options": [
-          "Whistle",
-          "Rumble",
-          "Chirp",
-          "Silence"
-        ],
-        "answer": 1,
-        "explanation": "A low rumble was heard from the sea. || கடலில் இருந்து ஒரு குறைந்த உருமல் சத்தம் கேட்டது."
-      },
-      {
-        "question": "Where was the man found? || அந்த மனிதர் எங்கு கண்டுபிடிக்கப்பட்டார்?",
-        "options": [
-          "In the city",
-          "In a nearby island",
-          "In a hospital",
-          "In a relief center far away"
+          "Monday",
+          "Saturday",
+          "Friday",
+          "Sunday"
         ],
         "answer": 3,
-        "explanation": "He was discovered in another location where survivors were kept. || அவர் உயிர் பிழைத்தவர்கள் வைக்கப்பட்டிருந்த வேறொரு இடத்தில் கண்டுபிடிக்கப்பட்டார்."
+        "explanation": "The story mentions, 'It was a pleasant Sunday morning in December.'"
       },
       {
-        "question": "What did Keerthi say when she finally saw her father? || தனது தந்தையை இறுதியாகப் பார்த்தபோது கீர்த்தி என்ன சொன்னாள்?",
+        "question": "What was the profession of the villagers in Keeraikuppam?",
         "options": [
-          "Who are you?",
-          "Appa!",
-          "Where have you been?",
-          "Goodbye"
+          "Farming",
+          "Fishing",
+          "Weaving",
+          "Trading"
         ],
         "answer": 1,
-        "explanation": "She cried out 'Appa!' in joy. || அவள் மகிழ்ச்சியில் 'அப்பா!' என்று கத்தினாள்."
+        "explanation": "The text says 'the people in the village toiled in the sea every day' and mentions 'fishing boats'."
       },
       {
-        "question": "How did the story end? || கதை எப்படி முடிந்தது?",
+        "question": "How many times was the village bell about to strike when the seawater receded?",
         "options": [
-          "Keerthi was still alone",
-          "They lived happily together",
-          "They went to the city",
-          "The tsunami came again"
+          "Six times",
+          "Eight times",
+          "Ten times",
+          "Twelve times"
         ],
         "answer": 1,
-        "explanation": "It ended with their happy reunion. || அது அவர்களின் மகிழ்ச்சியான மீண்டும் இணைதலுடன் முடிந்தது."
+        "explanation": "The text says, 'The village bell was about to strike eight times.'"
       },
       {
-        "question": "Is 'Fisherman' a compound word? || 'Fisherman' ஒரு கூட்டுச் சொல்லா?",
+        "question": "What did the people do when they saw the seawater recede?",
         "options": [
-          "Yes",
-          "No"
+          "They started running towards the sea.",
+          "They hid inside their houses.",
+          "They climbed the trees.",
+          "They ran towards the hills."
         ],
         "answer": 0,
-        "explanation": "It is made of 'Fisher' and 'man'. || இது 'Fisher' மற்றும் 'man' ஆகிய சொற்களால் ஆனது."
+        "explanation": "When the seawater receded, out of excitement and curiosity, 'All the children and the villagers started running towards the sea.'"
       },
       {
-        "question": "Choose the correct article: __ tsunami is a natural disaster. || சரியான கட்டுரைச் சொல்லைத் தேர்ந்தெடுக்கவும்: __ சுனாமி ஒரு இயற்கை பேரிடர்.",
+        "question": "Who felt a sudden fear gripping her when looking at the wave far away?",
         "options": [
-          "A",
-          "An",
-          "The",
-          "No article"
-        ],
-        "answer": 0,
-        "explanation": "'A' is used before a consonant sound. || மெய்யொலிக்கு முன்பு 'A' பயன்படுத்தப்படுகிறது."
-      },
-      {
-        "question": "What is the meaning of 'Cottage'? || 'Cottage' என்பதன் பொருள் என்ன?",
-        "options": [
-          "A skyscraper",
-          "A small simple house",
-          "A boat",
-          "A factory"
-        ],
-        "answer": 1,
-        "explanation": "A cottage is typically a small, cozy house. || இது ஒரு சிறிய எளிய வீடு."
-      },
-      {
-        "question": "Which word is a verb? || இதில் எது வினைச்சொல்?",
-        "options": [
-          "Keerthi",
-          "Father",
-          "Gazed",
-          "Beautiful"
+          "Meena",
+          "The official's wife",
+          "Meena's mother",
+          "The bell caretaker"
         ],
         "answer": 2,
-        "explanation": "Gazed describes an action. || Gazed என்பது ஒரு செயலைக் குறிக்கிறது."
+        "explanation": "The story says, 'Gazing at the wave far away, Meena’s mother felt a sudden fear gripping her.'"
       },
       {
-        "question": "What part of speech is 'Slowly'? || 'Slowly' என்பது எவ்வகை சொல்?",
+        "question": "What did Meena hug firmly to save herself from the waves?",
         "options": [
-          "Noun",
-          "Verb",
-          "Adverb",
-          "Adjective"
+          "A wooden boat",
+          "Her mother",
+          "A floating door",
+          "The trunk of a coconut tree"
+        ],
+        "answer": 3,
+        "explanation": "Meena wrestled with the wave and 'firmly hugged the tree' (a coconut tree) before fainting."
+      },
+      {
+        "question": "Where did Meena find herself when she woke up after fainting?",
+        "options": [
+          "In her hut",
+          "In a hospital",
+          "On the beach",
+          "In a school"
+        ],
+        "answer": 1,
+        "explanation": "The text states, 'When she woke up, she was in a hospital.'"
+      },
+      {
+        "question": "How many boys and girls were housed in the rehabilitation centre?",
+        "options": [
+          "90",
+          "99",
+          "100",
+          "109"
+        ],
+        "answer": 1,
+        "explanation": "The centre housed nearly '99 boys and girls'."
+      },
+      {
+        "question": "What did the children at the rehabilitation centre call the official and his wife?",
+        "options": [
+          "Sir and Madam",
+          "Uncle and Aunt",
+          "Amma and Appa",
+          "Brother and Sister"
         ],
         "answer": 2,
-        "explanation": "It describes how an action is done. || இது ஒரு செயல் எப்படி செய்யப்படுகிறது என்பதை விவரிக்கிறது."
+        "explanation": "Because of their love, 'All children used to call them Amma and Appa.'"
       },
       {
-        "question": "What is the collective noun for a group of fish? || மீன்களின் கூட்டத்திற்கான கூட்டுப் பெயர் என்ன?",
+        "question": "After how many years was the kind-hearted official transferred?",
         "options": [
-          "Swarm",
-          "Shoal",
-          "Pack",
-          "Flock"
+          "Two years",
+          "Three years",
+          "Four years",
+          "Five years"
         ],
         "answer": 1,
-        "explanation": "A group of fish is called a shoal or school. || மீன் கூட்டத்தை Shoal என்று அழைப்பார்கள்."
+        "explanation": "The text explicitly states, 'After three years the official was transferred.'"
       },
       {
-        "question": "What was the theme of the story? || கதையின் கருப்பொருள் என்ன?",
+        "question": "For how many years did the official continue to visit the centre once a year after his transfer?",
         "options": [
-          "Technology",
-          "Love and Hope",
-          "Space travel",
-          "War"
+          "Three years",
+          "Five years",
+          "Seven years",
+          "Ten years"
         ],
         "answer": 1,
-        "explanation": "The story emphasizes love and never giving up hope. || இக்கதை அன்பு மற்றும் நம்பிக்கையை வலியுறுத்துகிறது."
+        "explanation": "He and his family continued to visit the centre once a year for the 'next five years'."
       },
       {
-        "question": "What did the villagers lose in the tsunami? || சுனாமியில் கிராம மக்கள் எதை இழந்தனர்?",
+        "question": "In which standard was Meena studying when the official visited her at school?",
         "options": [
-          "Homes and belongings",
-          "Nothing",
-          "Only toys",
-          "Television"
+          "Tenth standard",
+          "Eleventh standard",
+          "Twelfth standard",
+          "Eighth standard"
+        ],
+        "answer": 2,
+        "explanation": "The story mentions, 'Meena was good at studies and now was in the twelfth standard.'"
+      },
+      {
+        "question": "Which subject class was going on when Meena heard a familiar voice?",
+        "options": [
+          "Maths class",
+          "Science class",
+          "Tamil class",
+          "English class"
+        ],
+        "answer": 3,
+        "explanation": "The text says Meena wiped her cheeks to get ready for her 'English class'."
+      },
+      {
+        "question": "What does the word 'recede' mean?",
+        "options": [
+          "To come forward rapidly",
+          "To strike forcefully",
+          "Go or move back",
+          "To lose consciousness"
+        ],
+        "answer": 2,
+        "explanation": "According to the glossary, recede means to 'go or move back'."
+      },
+      {
+        "question": "What is the meaning of the word 'massive'?",
+        "options": [
+          "Small and light",
+          "Large or heavy",
+          "Spinning round",
+          "Without expression"
+        ],
+        "answer": 1,
+        "explanation": "According to the glossary, massive means 'large or heavy'."
+      },
+      {
+        "question": "Identify the meaning of 'whirl':",
+        "options": [
+          "To move rapidly round and round",
+          "To fall down suddenly",
+          "To shout loudly",
+          "To dry something"
         ],
         "answer": 0,
-        "explanation": "Many lost their houses and everything they owned. || பலர் தங்கள் வீடுகளையும் உடைமைகளையும் இழந்தனர்."
+        "explanation": "Whirl means 'to move rapidly round and round'."
       },
       {
-        "question": "Which word means 'to see or watch'? || 'பார்ப்பது' என்ற பொருள் தரும் சொல் எது?",
+        "question": "What does 'rehabilitation' mean?",
         "options": [
-          "Hear",
-          "Stare",
-          "Listen",
-          "Feel"
+          "Striking something loudly",
+          "The action of restoring someone after a damage",
+          "Losing consciousness",
+          "Spinning around"
         ],
         "answer": 1,
-        "explanation": "Stare means to look fixedly. || உற்றுப் பார்ப்பது."
+        "explanation": "Rehabilitation is defined as 'the action of restoring someone after a damage'."
       },
       {
-        "question": "What is the plural of 'Foot'? || 'Foot' என்பதன் பன்மை என்ன?",
+        "question": "Choose the correct meaning for 'faint':",
         "options": [
-          "Foots",
-          "Feet",
-          "Feets",
-          "Footes"
+          "To strike forcefully",
+          "Without expression",
+          "To lose consciousness",
+          "To cry loudly"
         ],
-        "answer": 1,
-        "explanation": "The plural of foot is feet. || Foot என்பதன் பன்மை Feet."
+        "answer": 2,
+        "explanation": "The glossary defines faint as 'to lose consciousness'."
       },
       {
-        "question": "Who survived the tsunami in the story? || கதையில் சுனாமியில் உயிர் தப்பியது யார்?",
+        "question": "Choose the correct punctuation mark that must be used at the beginning of a proper noun.",
         "options": [
-          "Only Keerthi",
-          "Many villagers including Keerthi's father",
-          "Nobody",
-          "Only animals"
+          "Full stop",
+          "Comma",
+          "Question mark",
+          "Capital letter"
+        ],
+        "answer": 3,
+        "explanation": "The grammar section states: 'I come in the beginning of proper noun and in the abbreviations' referring to the Capital Letter."
+      },
+      {
+        "question": "Which punctuation mark is used to separate words in a list of three or more things?",
+        "options": [
+          "Capital letter",
+          "Question mark",
+          "Comma",
+          "Full stop"
+        ],
+        "answer": 2,
+        "explanation": "The comma rule says: 'You must use me to separate words in a list of three or more things.'"
+      },
+      {
+        "question": "Which punctuation mark comes at the end of interrogative sentences?",
+        "options": [
+          "Full stop",
+          "Comma",
+          "Question mark",
+          "Capital letter"
+        ],
+        "answer": 2,
+        "explanation": "A question mark is used 'at the end of interrogative sentences'."
+      },
+      {
+        "question": "Identify the sentence with the correct punctuation.",
+        "options": [
+          "where is my cat?",
+          "Where is my cat",
+          "Where is my cat?",
+          "where is my cat."
+        ],
+        "answer": 0,
+        "explanation": "The sentence must start with a Capital letter 'W' and end with a Question mark '?' because it is asking a question."
+      },
+      {
+        "question": "Identify the correctly punctuated sentence.",
+        "options": [
+          "Ravi wants book pen and pencil.",
+          "Ravi wants book, pen and pencil.",
+          "ravi wants book, pen and pencil.",
+          "Ravi wants, book pen and pencil."
         ],
         "answer": 1,
-        "explanation": "Many people survived, though some were separated for years. || பலர் உயிர் தப்பினர், ஆனால் சிலர் பல ஆண்டுகளாகப் பிரிந்திருந்தனர்."
+        "explanation": "Starts with a capital letter, uses a comma to separate items in a list, and ends with a full stop."
+      },
+      {
+        "question": "Which of the following abbreviations is punctuated correctly according to the rules in the book?",
+        "options": [
+          "mbbs",
+          "Mbbs",
+          "MBBS",
+          "mBbs"
+        ],
+        "answer": 0,
+        "explanation": "Abbreviations must be in capital letters, e.g., MBBS, ATM, NCC."
+      },
+      {
+        "question": "What was the name the official called Meena when he visited her school?",
+        "options": [
+          "Meena",
+          "Meenamma",
+          "Meenu",
+          "Kutti"
+        ],
+        "answer": 2,
+        "explanation": "She heard a familiar voice calling her, 'Meenu'."
+      },
+      {
+        "question": "How did Meena react immediately when she saw the official at her school?",
+        "options": [
+          "She ran away.",
+          "She started laughing.",
+          "She stared at him blankly for a few seconds.",
+          "She fainted."
+        ],
+        "answer": 2,
+        "explanation": "The text says, 'She stared at him blankly for a few seconds, with tears rolling down her cheeks.'"
+      },
+      {
+        "question": "Match the following: \n1. Tumbled - a) hold or catch \n2. Scream - b) clean by rubbing \n3. Grab - c) to fall \n4. Wipe - d) cry loudly",
+        "options": [
+          "1-c, 2-d, 3-a, 4-b",
+          "1-a, 2-b, 3-c, 4-d",
+          "1-d, 2-c, 3-b, 4-a",
+          "1-c, 2-a, 3-d, 4-b"
+        ],
+        "answer": 0,
+        "explanation": "Tumbled means to fall; Scream means cry loudly; Grab means to hold; Wipe means clean by rubbing."
+      },
+      {
+        "question": "Assertion (A): Meena's mother caught Meena's hand and started running towards their home.\nReason (R): She felt a sudden fear gazing at the wave far away, sensing something was wrong.",
+        "options": [
+          "Both A and R are true, and R is the correct explanation of A.",
+          "Both A and R are true, but R is NOT the correct explanation of A.",
+          "A is true, but R is false.",
+          "A is false, but R is true."
+        ],
+        "answer": 0,
+        "explanation": "Meena's mother ran precisely because she saw the wave and her instincts told her something was terribly wrong."
+      },
+      {
+        "question": "In the sentence 'Bharathi is a Tamil poet.', why is the letter 'B' capitalized?",
+        "options": [
+          "Because it is an abbreviation.",
+          "Because it is the end of the sentence.",
+          "Because it is the beginning of a proper noun.",
+          "Because it is a question."
+        ],
+        "answer": 2,
+        "explanation": "Bharathi is a specific name of a person, making it a proper noun, and it also starts the sentence."
+      },
+      {
+        "question": "Which month is mentioned in the story 'Appa'?",
+        "options": [
+          "January",
+          "November",
+          "December",
+          "October"
+        ],
+        "answer": 2,
+        "explanation": "The story explicitly states, 'It was a pleasant Sunday morning in December.'"
+      },
+      {
+        "question": "Complete the analogy based on the glossary: \nRecede : go back :: Bang : _______",
+        "options": [
+          "Strike forcefully",
+          "Lose consciousness",
+          "Large or heavy",
+          "Spin rapidly"
+        ],
+        "answer": 0,
+        "explanation": "Recede means to go back. Similarly, bang means to strike forcefully."
+      },
+      {
+        "question": "Choose the correctly punctuated sentence from the following:",
+        "options": [
+          "jain ate an apple.",
+          "Jain ate an apple",
+          "Jain ate an apple.",
+          "jain ate an apple?"
+        ],
+        "answer": 0,
+        "explanation": "It must start with a capital 'J' (Proper noun and start of sentence) and end with a full stop '.'"
+      },
+      {
+        "question": "What happened to Meena's mother when the second massive wave hit?",
+        "options": [
+          "She climbed a tree.",
+          "She was rescued by fishermen.",
+          "She reached home safely.",
+          "She was washed away by the wave."
+        ],
+        "answer": 3,
+        "explanation": "The text tragically notes, 'Meena’s mother was washed away by the wave.'"
+      },
+      {
+        "question": "What does a punctuation full stop (.) look like?",
+        "options": [
+          "A dot with a tail",
+          "A crooked interrogation mark",
+          "A simple dot",
+          "Two dots"
+        ],
+        "answer": 2,
+        "explanation": "The grammar section describes it as: 'I am a full stop. I look like a dot.'"
+      },
+      {
+        "question": "How did the joke between Ramu and Somu help explain punctuation?",
+        "options": [
+          "It showed how to use capital letters.",
+          "It showed how a comma changes the meaning from eating a person to talking to a person.",
+          "It showed how to use a full stop.",
+          "It showed how to write abbreviations."
+        ],
+        "answer": 1,
+        "explanation": "'Can we eat grandpa?' means eating the grandpa. 'Can we eat, grandpa?' means asking grandpa if it is time to eat. Punctuation plays an important role."
+      },
+      {
+        "question": "Find the incorrectly punctuated sentence:",
+        "options": [
+          "I am an NCC cadet.",
+          "We have bull in our house.",
+          "who won the match.",
+          "He completed his MBBS last year."
+        ],
+        "answer": 2,
+        "explanation": "It should start with a capital 'W' and end with a question mark '?'. 'Who won the match?'"
+      },
+      {
+        "question": "What is the meaning of the phrase 'without expression' as given in the glossary?",
+        "options": [
+          "Scream",
+          "Faint",
+          "Blankly",
+          "Massive"
+        ],
+        "answer": 2,
+        "explanation": "Blankly means looking at someone or something 'without expression'."
+      },
+      {
+        "question": "During the disaster, what happened to the huts and boats in the village?",
+        "options": [
+          "They were safe on the shore.",
+          "They were painted.",
+          "They were washed out by the seawater.",
+          "They were taken away by the government."
+        ],
+        "answer": 2,
+        "explanation": "The text states, 'The seawater entered the village and washed out the huts and boats.'"
+      },
+      {
+        "question": "What was the age status of Meena among the children at the rehabilitation centre?",
+        "options": [
+          "She was the oldest.",
+          "She was the tallest.",
+          "She was the youngest.",
+          "She was the smartest."
+        ],
+        "answer": 2,
+        "explanation": "The text mentions, 'Meena was the youngest of all and soon was loved by all.'"
+      },
+      {
+        "question": "What was Meena doing when her teacher was teaching in the 12th standard?",
+        "options": [
+          "She was sleeping.",
+          "She was talking to her friends.",
+          "She was writing her notes.",
+          "She was looking outside the window."
+        ],
+        "answer": 2,
+        "explanation": "The text says, 'The teacher was teaching, and Meena was writing her notes.'"
+      },
+      {
+        "question": "Situation: You are making a list of fruits you want to buy: apple, orange, banana, grapes. Which punctuation mark will you use repeatedly to separate them in a sentence?",
+        "options": [
+          "Full stop",
+          "Question mark",
+          "Capital letter",
+          "Comma"
+        ],
+        "answer": 3,
+        "explanation": "Commas are used to separate words in a list of three or more things."
+      },
+      {
+        "question": "Identify the sentence that uses the comma correctly.",
+        "options": [
+          "Car bus, and bike are vehicles.",
+          "Car, bus and bike are vehicles.",
+          "Car bus and, bike are vehicles.",
+          "Car, bus, and, bike are vehicles."
+        ],
+        "answer": 1,
+        "explanation": "The comma correctly separates 'Car' and 'bus' in the list."
+      },
+      {
+        "question": "Assertion (A): The people of Keeraikuppam lived happily even though they toiled in the sea every day.\nReason (R): They hated the sea and wanted to move to a city.",
+        "options": [
+          "Both A and R are true.",
+          "A is false, but R is true.",
+          "A is true, but R is false.",
+          "Both A and R are false."
+        ],
+        "answer": 2,
+        "explanation": "The text states they lived happily despite the hard work. There is no mention of them hating the sea or wanting to move."
+      },
+      {
+        "question": "Life Situation: If you see the seawater receding (going back) suddenly for hundreds of meters from the shore, what is the safest and most scientific action to take?",
+        "options": [
+          "Run towards the sea to catch fish.",
+          "Stand on the shore to take photos.",
+          "Run immediately to higher ground away from the sea.",
+          "Wait for the bell to ring."
+        ],
+        "answer": 2,
+        "explanation": "Water receding is a clear warning sign of an approaching Tsunami. The safest action is to evacuate to higher ground."
+      },
+      {
+        "question": "Why is the punctuation mark called an 'interrogation mark'?",
+        "options": [
+          "Because it is used to end a statement.",
+          "Because it is used for abbreviations.",
+          "Because it is used to ask questions (interrogate).",
+          "Because it looks like a dot."
+        ],
+        "answer": 2,
+        "explanation": "Interrogation means to ask questions. Hence, a question mark is an interrogation mark."
+      },
+      {
+        "question": "Higher Order Thinking: Why did Meena's cheeks become moist before the official even arrived at the school?",
+        "options": [
+          "She had an eye infection.",
+          "She was remembering her past and her time at the rehabilitation centre.",
+          "The teacher scolded her.",
+          "It was raining."
+        ],
+        "answer": 1,
+        "explanation": "The text says, 'All this seemed like, it happened yesterday... Meena wiped her cheeks.' She was crying while reminiscing about her past."
+      },
+      {
+        "question": "Higher Order Thinking: The story 'Appa' proves that 'Family is not always defined by blood.' Which action from the story BEST supports this statement?",
+        "options": [
+          "Meena's mother trying to save her.",
+          "The villagers gathering to see the wave.",
+          "The official showering fatherly love on an orphan girl and her calling him Appa.",
+          "Meena writing her English notes."
+        ],
+        "answer": 2,
+        "explanation": "The official had no blood relation to Meena, yet he cared for her like a father, proving family can be formed through love and care."
+      },
+      {
+        "question": "Find the grammatically and correctly punctuated sentence among the following:",
+        "options": [
+          "we live in india.",
+          "We live in india.",
+          "we live in India.",
+          "We live in India."
+        ],
+        "answer": 0,
+        "explanation": "'We' starts with a capital 'W' (beginning of sentence), 'India' starts with a capital 'I' (proper noun), and it ends with a full stop."
+      },
+      {
+        "question": "What does a comma look like according to the Let Us Build section?",
+        "options": [
+          "A line",
+          "A dot with a tail",
+          "Two dots",
+          "A crooked mark"
+        ],
+        "answer": 1,
+        "explanation": "The comma introduces itself as: 'I am a comma. I look like a dot with tail.'"
       }
     ]
   }

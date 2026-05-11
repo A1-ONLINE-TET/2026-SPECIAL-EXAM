@@ -1081,17 +1081,17 @@ export const syllabusData = {
             "title": "Unit 1: Affection",
             "topics": [
               {
-                "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)",
+                "title": "Affection (Prose: Appa & Grammar: Punctuation)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l1"
               },
               {
-                "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)",
+                "title": "The real wealth (Affection)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l2"
               },
               {
-                "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)",
+                "title": "Affection (A True Friend, Advertisement & Biography Writing)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l3"
               }
@@ -1101,17 +1101,17 @@ export const syllabusData = {
             "title": "Unit 2: Savings",
             "topics": [
               {
-                "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)",
+                "title": "A Lesson to save (Savings)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l4"
               },
               {
-                "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)",
+                "title": "Savings (What do humans save? & Grammar)",
                 "isUpdated": true,
                 "code": "eng_4_t2_l5"
               },
               {
-                "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)",
+                "title": "Save Wisely (Supplementary) & Reading Passage",
                 "isUpdated": true,
                 "code": "eng_4_t2_l6"
               }
