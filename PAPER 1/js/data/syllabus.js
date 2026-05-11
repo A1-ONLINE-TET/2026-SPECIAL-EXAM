@@ -4295,6 +4295,31 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடங்கள் (Term 2)",
+            "topics": [
+              {
+                "title": "அலகு 1: சங்க கால வள்ளல்கள் || Unit 1: Philanthropists of Sangam Age",
+                "isUpdated": true,
+                "code": "soc_4_t2_l1"
+              },
+              {
+                "title": "அலகு 2: தமிழ்நாட்டின் இயற்கை அமைப்பு || Unit 2: Physical Features of Tamil Nadu",
+                "isUpdated": true,
+                "code": "soc_4_t2_l2"
+              },
+              {
+                "title": "அலகு 3: போக்குவரத்து || Unit 3: Transport",
+                "isUpdated": true,
+                "code": "soc_4_t2_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

@@ -2211,6 +2211,24 @@ export const lessonMap = {
     "grade": "3",
     "title": "குழந்தைகளின் பாதுகாப்பு"
   },
+  "சங்க கால வள்ளல்கள்": {
+    "local": true,
+    "filename": "1",
+    "grade": "4",
+    "title": "சங்க கால வள்ளல்கள்"
+  },
+  "தமிழ்நாட்டின் இயற்கை அமைப்பு": {
+    "local": true,
+    "filename": "2",
+    "grade": "4",
+    "title": "தமிழ்நாட்டின் இயற்கை அமைப்பு"
+  },
+  "போக்குவரத்து": {
+    "local": true,
+    "filename": "3",
+    "grade": "4",
+    "title": "போக்குவரத்து"
+  },
   "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
     "local": true,
     "filename": "soc_4_t1_l1",
@@ -2246,6 +2264,42 @@ export const lessonMap = {
     "filename": "soc_4_t1_l3",
     "grade": "4",
     "title": "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி"
+  },
+  "அலகு 1: சங்க கால வள்ளல்கள் || Unit 1: Philanthropists of Sangam Age": {
+    "local": true,
+    "filename": "soc_4_t2_l1",
+    "grade": "4",
+    "title": "அலகு 1: சங்க கால வள்ளல்கள் || Unit 1: Philanthropists of Sangam Age"
+  },
+  "soc_4_t2_l1": {
+    "local": true,
+    "filename": "soc_4_t2_l1",
+    "grade": "4",
+    "title": "அலகு 1: சங்க கால வள்ளல்கள் || Unit 1: Philanthropists of Sangam Age"
+  },
+  "அலகு 2: தமிழ்நாட்டின் இயற்கை அமைப்பு || Unit 2: Physical Features of Tamil Nadu": {
+    "local": true,
+    "filename": "soc_4_t2_l2",
+    "grade": "4",
+    "title": "அலகு 2: தமிழ்நாட்டின் இயற்கை அமைப்பு || Unit 2: Physical Features of Tamil Nadu"
+  },
+  "soc_4_t2_l2": {
+    "local": true,
+    "filename": "soc_4_t2_l2",
+    "grade": "4",
+    "title": "அலகு 2: தமிழ்நாட்டின் இயற்கை அமைப்பு || Unit 2: Physical Features of Tamil Nadu"
+  },
+  "அலகு 3: போக்குவரத்து || Unit 3: Transport": {
+    "local": true,
+    "filename": "soc_4_t2_l3",
+    "grade": "4",
+    "title": "அலகு 3: போக்குவரத்து || Unit 3: Transport"
+  },
+  "soc_4_t2_l3": {
+    "local": true,
+    "filename": "soc_4_t2_l3",
+    "grade": "4",
+    "title": "அலகு 3: போக்குவரத்து || Unit 3: Transport"
   },
   "நமது பூமி ": {
     "local": true,
