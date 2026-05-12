@@ -1,158 +1,150 @@
 {
   "வகுப்பு": "Class 1",
-  "பருவம்": "Term 1",
+  "பருவம்": "Term 2",
   "பாட_எண்": "2",
-  "பாட_தலைப்பு": "Unit 2: Play Time",
+  "பாட_தலைப்பு": "Unit 2: My Journey",
   "பாடக்குறிப்புகள்": [
     {
-      "தலைப்பு": "1. Vocabulary: Playthings and Surroundings",
-      "விவரங்கள்": "Students learn to identify various objects found in a play area. Sky and Nature: Sky, clouds, Sun, tree. Play Equipment: Swing, slide, bench. Toys and Games: Kite, bat, ball, top, balloon, bicycle, marbles. Others: Tank, van, gate, dog."
+      "தலைப்பு": "1. Vocabulary: Modes of Transport",
+      "விவரங்கள்": "Students learn to identify vehicles used for travel on land, water, and air: Air: Aeroplane, Helicopter. Water: Ship, Boat. Land: Train (on a track), Bus, Lorry, Car, Van, Auto, Bicycle, Scooter, Bike, Bullock cart. Safety Gear: Helmet (for bikes and scooters). Infrastructure: Road, Track, Traffic signal."
     },
     {
-      "தலைப்பு": "2. Song: 'Clap your hands'",
-      "விவரங்கள்": "This song introduces several action words to encourage physical activity. Actions: Clap, stamp, skip, run, turn around, hop, jump, bend, and stretch. Theme: Playing together and having fun."
+      "தலைப்பு": "2. Story: \"A Joyful Trip\" (The Dream Flight)",
+      "விவரங்கள்": "Main Character: A girl named Kaviya. The Toy: Kaviya’s aunt gives her a toy aeroplane. The Dream: One night, the toy plane speaks to her and invites her to fly over the city. What she sees: From the sky, she sees the city lights, a traffic signal (Red, Green, Yellow), and even her Amma on the road. Resolution: Kaviya wakes up and realizes it was a dream."
     },
     {
-      "தலைப்பு": "3. Story: 'Come, Let us Play'",
-      "விவரங்கள்": "This comic strip highlights the value of inclusion through a small rat. Characters and Games: Dogs: Playing cricket. Rabbit: Flying a kite. Monkeys: Swinging on a tree. Frogs: Playing hopscotch. Conflict: The rat wants to join every game but is refused (e.g., 'you are late,' 'only one kite,' 'rats cannot swing'). Resolution: The rat builds a sandcastle. The other animals see it and ask to join. The rat invites everyone, concluding that 'Playing together is always fun'."
+      "தலைப்பு": "3. Grammar: Proximity (These and Those)",
+      "விவரங்கள்": "The lesson teaches how to describe groups of objects based on their distance from the speaker: These are: Used for objects that are near (e.g., \"These are boats\"). Those are: Used for objects that are far (e.g., \"Those are cars\")."
     },
     {
-      "தலைப்பு": "4. Alphabet Jungle (J to R)",
-      "விவரங்கள்": "This section introduces letters and animals along with their actions: J - Jaguar. K - Kangaroo: Hops along the path. L - Lion: Sleeping in the grass. M - Monkey: Climbs a tree. N - Nightingale. O - Owl: Looks at the monkey. P - Parrot: Dances on a branch. Q - Quail. R - Rabbit: Runs into a hole."
+      "தலைப்பு": "4. Phonics: Blending Sounds (Short 'o' and 'u')",
+      "விவரங்கள்": "Short 'o' sound: pot, dog, cot, box, hot, hop, mop, top, log. Short 'u' sound: tub, bun, hut, rug, cup, pup, bud, mud, gum, nut."
     },
     {
-      "தலைப்பு": "5. Phonics and Letters (Jj to Rr)",
-      "விவரங்கள்": "Sounds: j (jug), k (kite), l (lion), m (monkey), n (net), o (orange), p (pen), q (queen), r (rat). Grammar: Using the structure 'has' (e.g., 'He has a kite,' 'She has a bat')."
-    },
-    {
-      "தலைப்பு": "6. Story: 'The Magic Fish' (Colours)",
-      "விவரங்கள்": "A story focused on colors and the moral 'Sharing is caring'. Characters and Colors Shared: Dolphin: Gets blue. Crab: Gets red. Seahorse: Gets yellow. Star fish: Gets green."
-    },
-    {
-      "தலைப்பு": "7. Magic Words",
-      "விவரங்கள்": "Students learn to use social etiquette words. Thank you: Used when receiving a gift. Sorry: Used when a mistake is made (like breaking a glass)."
+      "தலைப்பு": "5. Road Safety: \"We are Safe\"",
+      "விவரங்கள்": "This section outlines critical life skills and rules for safety: Do not play on the road. Walk on the platform (sidewalk). Hold hands with an adult while crossing the road. Look right and left before crossing. Wait for the train to pass at level crossings. Stand in a line to board the bus."
     }
   ],
   "கேள்விகள்": [
     {
-      "கேள்வி": "What is the title of the second unit in the English textbook?",
-      "ஆப்ஷன்கள்": ["My Pet", "Play Time", "Our Family", "School Time"],
-      "விடை": "Play Time",
-      "விளக்கம்": "The second unit focuses on the theme of play and is titled 'Play Time'."
+      "கேள்வி": "What is the title of Unit 2 in the English textbook?",
+      "ஆப்ஷன்கள்": ["Healthy Food", "My Journey", "Play Time", "Families"],
+      "விடை": "My Journey",
+      "விளக்கம்": "The title of Unit 2 is 'My Journey', focusing on transport and travel."
     },
     {
-      "கேள்வி": "Name three playthings mentioned in the 'Look and say' section.",
-      "ஆப்ஷன்கள்": ["Pen, pencil, and book", "Table, chair, and desk", "Bat, ball, and kite", "Car, train, and bus"],
-      "விடை": "Bat, ball, and kite",
-      "விளக்கம்": "The vocabulary section introduces toys and games like kite, bat, ball, top, balloon, bicycle, and marbles."
+      "கேள்வி": "Name two vehicles that fly in the air.",
+      "ஆப்ஷன்கள்": ["Car and Bus", "Ship and Boat", "Aeroplane and Helicopter", "Train and Lorry"],
+      "விடை": "Aeroplane and Helicopter",
+      "விளக்கம்": "According to the vocabulary section, the Aeroplane and Helicopter are vehicles used for travel in the air."
     },
     {
-      "கேள்வி": "In the song 'Clap your hands,' what action follows 'Stamp your feet'?",
-      "ஆப்ஷன்கள்": ["Bend and stretch", "Skip and run", "Turn around", "Hop and jump"],
-      "விடை": "Skip and run",
-      "விளக்கம்": "The song introduces action words in sequence, such as clap, stamp, skip, and run."
+      "கேள்வி": "Which vehicle runs on a \"track\"?",
+      "ஆப்ஷன்கள்": ["Bus", "Lorry", "Van", "Train"],
+      "விடை": "Train",
+      "விளக்கம்": "The lesson notes specify that the Train runs 'on a track'."
     },
     {
-      "கேள்வி": "Which animal is trying to join the games in the story 'Come, Let us Play'?",
-      "ஆப்ஷன்கள்": ["Rabbit", "Dog", "Monkey", "Rat"],
-      "விடை": "Rat",
-      "விளக்கம்": "The story highlights a small rat who wants to play but is initially refused by the other animals."
+      "கேள்வி": "What should a person wear while riding a bike or scooter for safety?",
+      "ஆப்ஷன்கள்": ["Cap", "Hat", "Helmet", "Scarf"],
+      "விடை": "Helmet",
+      "விளக்கம்": "Under Safety Gear, it is mentioned to wear a Helmet for bikes and scooters."
     },
     {
-      "கேள்வி": "What game are the dogs playing?",
-      "ஆப்ஷன்கள்": ["Hopscotch", "Football", "Cricket", "Tennis"],
-      "விடை": "Cricket",
-      "விளக்கம்": "In the comic strip 'Come, Let us Play', the dogs are playing cricket."
+      "கேள்வி": "What did Kaviya’s aunt give her as a gift?",
+      "ஆப்ஷன்கள்": ["A toy train", "A toy aeroplane", "A doll", "A bicycle"],
+      "விடை": "A toy aeroplane",
+      "விளக்கம்": "In the story 'A Joyful Trip', Kaviya’s aunt gives her a toy aeroplane."
     },
     {
-      "கேள்வி": "Why can't the rat fly a kite with the rabbit?",
-      "ஆப்ஷன்கள்": ["Rats cannot fly", "The rabbit has only one kite", "The kite is broken", "The rat does not like kites"],
-      "விடை": "The rabbit has only one kite",
-      "விளக்கம்": "The rabbit refuses to let the rat join because there is 'only one kite'."
+      "கேள்வி": "In Kaviya's dream, where did she fly?",
+      "ஆப்ஷன்கள்": ["Over the sea", "Over the forest", "Over the mountains", "Over the city"],
+      "விடை": "Over the city",
+      "விளக்கம்": "The toy plane invites her to fly over the city in her dream."
     },
     {
-      "கேள்வி": "What does the rat build at the end of the story?",
-      "ஆப்ஷன்கள்": ["A treehouse", "A nest", "A sandcastle", "A tent"],
-      "விடை": "A sandcastle",
-      "விளக்கம்": "The rat builds a sandcastle, which attracts the other animals to join."
+      "கேள்வி": "What colors are mentioned as part of the traffic signal?",
+      "ஆப்ஷன்கள்": ["Red, Blue, Green", "Red, Green, Yellow", "Black, White, Grey", "Pink, Yellow, Orange"],
+      "விடை": "Red, Green, Yellow",
+      "விளக்கம்": "From the sky, she sees a traffic signal with Red, Green, and Yellow lights."
     },
     {
-      "கேள்வி": "Complete the sentence from the story: 'Playing together is always ________.'",
-      "ஆப்ஷன்கள்": ["hard", "fun", "boring", "tiring"],
-      "விடை": "fun",
-      "விளக்கம்": "The moral of the story concludes that inclusion and 'Playing together is always fun'."
+      "கேள்வி": "Did Kaviya see her mother (Amma) while flying in her dream?",
+      "ஆப்ஷன்கள்": ["Yes", "No", "She saw her aunt", "She saw her teacher"],
+      "விடை": "Yes",
+      "விளக்கம்": "She sees the city lights, a traffic signal, and even her Amma on the road."
     },
     {
-      "கேள்வி": "In the Alphabet Jungle, which animal is sleeping in the grass?",
-      "ஆப்ஷன்கள்": ["Jaguar", "Kangaroo", "Lion", "Monkey"],
-      "விடை": "Lion",
-      "விளக்கம்": "According to the Alphabet Jungle, 'L - Lion: Sleeping in the grass'."
+      "கேள்வி": "Which word is used to describe objects that are far away: \"These\" or \"Those\"?",
+      "ஆப்ஷன்கள்": ["These", "This", "Those", "That"],
+      "விடை": "Those",
+      "விளக்கம்": "In the Grammar section, 'Those are' is used for objects that are far."
     },
     {
-      "கேள்வி": "What does the Kangaroo do in the Alphabet Jungle?",
-      "ஆப்ஷன்கள்": ["Climbs a tree", "Hops along the path", "Dances on a branch", "Sleeps in the grass"],
-      "விடை": "Hops along the path",
-      "விளக்கம்": "In the Alphabet Jungle, 'K - Kangaroo: Hops along the path'."
+      "கேள்வி": "Complete the phrase: \"Row, row, row your ________.\"",
+      "ஆப்ஷன்கள்": ["Car", "Boat", "Plane", "Train"],
+      "விடை": "Boat",
+      "விளக்கம்": "This phrase is from the famous nursery rhyme related to water transport: 'Row, row, row your boat'."
     },
     {
-      "கேள்வி": "Which bird dances on a branch in the Alphabet Jungle?",
-      "ஆப்ஷன்கள்": ["Owl", "Nightingale", "Quail", "Parrot"],
-      "விடை": "Parrot",
-      "விளக்கம்": "The text states 'P - Parrot: Dances on a branch'."
+      "கேள்வி": "According to the song, how do you ride your bike? (e.g., \"Slowly down the street\")",
+      "ஆப்ஷன்கள்": ["Fast down the hill", "Quickly on the track", "Slowly down the street", "High up in the sky"],
+      "விடை": "Slowly down the street",
+      "விளக்கம்": "To ensure safety, the related rhyme encourages riding the bike 'slowly down the street'."
     },
     {
-      "கேள்வி": "Where does the little Rabbit run into?",
-      "ஆப்ஷன்கள்": ["A hole", "A cave", "A shed", "A house"],
-      "விடை": "A hole",
-      "விளக்கம்": "In the Alphabet Jungle, 'R - Rabbit: Runs into a hole'."
+      "கேள்வி": "Give an example of a CVC word with the short 'o' sound from the lesson.",
+      "ஆப்ஷன்கள்": ["Tub", "Dog", "Bun", "Rug"],
+      "விடை": "Dog",
+      "விளக்கம்": "From the phonics list, 'dog' is an example of a short 'o' sound word."
     },
     {
-      "கேள்வி": "Give the letter and the example word for 'O' in the Phonics section.",
-      "ஆப்ஷன்கள்": ["O - Owl", "O - Ostrich", "O - Orange", "O - Ox"],
-      "விடை": "O - Orange",
-      "விளக்கம்": "The phonics section teaches the sound for 'o' using the word 'orange'."
+      "கேள்வி": "Give an example of a CVC word with the short 'u' sound from the lesson.",
+      "ஆப்ஷன்கள்": ["Pot", "Box", "Tub", "Cot"],
+      "விடை": "Tub",
+      "விளக்கம்": "From the phonics list, 'tub' is an example of a short 'u' sound word."
     },
     {
-      "கேள்வி": "What word is used to show possession in the 'Let us talk' section (e.g., 'Kavin ________ a ball')?",
-      "ஆப்ஷன்கள்": ["is", "have", "are", "has"],
-      "விடை": "has",
-      "விளக்கம்": "The grammar section introduces the structure 'has' (e.g., 'He has a kite,' 'She has a bat')."
+      "கேள்வி": "Is it safe to play on the road?",
+      "ஆப்ஷன்கள்": ["Yes", "No", "Only in the morning", "Only with adults"],
+      "விடை": "No",
+      "விளக்கம்": "The Road Safety section strictly states, 'Do not play on the road'."
     },
     {
-      "கேள்வி": "In 'The Magic Fish,' what color were the sea animals before getting colors? (Implied)",
-      "ஆப்ஷன்கள்": ["Colorful", "White/Plain", "Red", "Blue"],
-      "விடை": "White/Plain",
-      "விளக்கம்": "Stories like 'The Magic Fish' typically start with the animals lacking color (plain or white) before the magic fish shares its colors."
+      "கேள்வி": "Where should we walk instead of walking on the road?",
+      "ஆப்ஷன்கள்": ["In the middle of the road", "On the divider", "On the platform (sidewalk)", "On the track"],
+      "விடை": "On the platform (sidewalk)",
+      "விளக்கம்": "The safety rules say to 'Walk on the platform (sidewalk)'."
     },
     {
-      "கேள்வி": "What color does the Crab receive from the Magic Fish?",
-      "ஆப்ஷன்கள்": ["Blue", "Yellow", "Red", "Green"],
-      "விடை": "Red",
-      "விளக்கம்": "According to the story details, the 'Crab: Gets red'."
+      "கேள்வி": "What should you do before crossing a road?",
+      "ஆப்ஷன்கள்": ["Run quickly", "Look right and left", "Close your eyes", "Talk to a friend"],
+      "விடை": "Look right and left",
+      "விளக்கம்": "The rule is to 'Look right and left before crossing'."
     },
     {
-      "கேள்வி": "Which animal receives the color yellow?",
-      "ஆப்ஷன்கள்": ["Star fish", "Dolphin", "Crab", "Seahorse"],
-      "விடை": "Seahorse",
-      "விளக்கம்": "In the story, the 'Seahorse: Gets yellow'."
+      "கேள்வி": "How should you board a school bus?",
+      "ஆப்ஷன்கள்": ["Push others", "Run fast", "Stand in a line", "Jump in"],
+      "விடை": "Stand in a line",
+      "விளக்கம்": "You must 'Stand in a line to board the bus' for safety."
     },
     {
-      "கேள்வி": "What is the main message/moral of 'The Magic Fish' story?",
-      "ஆப்ஷன்கள்": ["Sharing is caring", "Swimming is fun", "Fish are magic", "The ocean is big"],
-      "விடை": "Sharing is caring",
-      "விளக்கம்": "The story is focused on sharing colors and teaches the moral 'Sharing is caring'."
+      "கேள்வி": "What should you do when you are at a railway crossing and a train is coming?",
+      "ஆப்ஷன்கள்": ["Cross quickly", "Wait for the train to pass", "Run beside the track", "Shout loudly"],
+      "விடை": "Wait for the train to pass",
+      "விளக்கம்": "The rule is to 'Wait for the train to pass at level crossings'."
     },
     {
-      "கேள்வி": "If you break a glass, what magic word should you use?",
-      "ஆப்ஷன்கள்": ["Please", "Thank you", "Sorry", "Welcome"],
-      "விடை": "Sorry",
-      "விளக்கம்": "The word 'Sorry' is used as social etiquette when a mistake is made, like breaking a glass."
+      "கேள்வி": "Name a vehicle pulled by animals mentioned in the lesson.",
+      "ஆப்ஷன்கள்": ["Scooter", "Van", "Bullock cart", "Lorry"],
+      "விடை": "Bullock cart",
+      "விளக்கம்": "The Bullock cart is an animal-drawn land transport mentioned in the vocabulary."
     },
     {
-      "கேள்வி": "What is the starting and ending letter of the word 'marbles'?",
-      "ஆப்ஷன்கள்": ["m and e", "m and s", "p and s", "b and s"],
-      "விடை": "m and s",
-      "விளக்கம்": "The word 'marbles' starts with the letter 'm' and ends with the letter 's'."
+      "கேள்வி": "\"Life is but a dream\" is the ending line of which rhyme?",
+      "ஆப்ஷன்கள்": ["Wheels on the bus", "Twinkle twinkle", "Jingle bells", "Row, row, row your boat"],
+      "விடை": "Row, row, row your boat",
+      "விளக்கம்": "The famous transport rhyme 'Row, row, row your boat' ends with 'Life is but a dream'."
     }
   ]
 }

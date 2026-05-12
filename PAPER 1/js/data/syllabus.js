@@ -1004,6 +1004,26 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Unit 1: Healthy Food || அலகு 1: ஆரோக்கியமான உணவு",
+                "isUpdated": true,
+                "code": "eng_1_t2_l1"
+              },
+              {
+                "title": "Unit 2: My Journey || அலகு 2: எனது பயணம்",
+                "isUpdated": true,
+                "code": "eng_1_t2_l2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "2": [

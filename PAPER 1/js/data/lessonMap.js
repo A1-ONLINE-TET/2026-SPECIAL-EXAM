@@ -57,23 +57,17 @@ export const lessonMap = {
     "grade": "4",
     "title": "அகரமுதலி - சொற்பொருள்"
   },
-  "Unit 1: My Pet": {
+  "Unit 1: Healthy Food": {
     "local": true,
     "filename": "1",
     "grade": "1",
-    "title": "Unit 1: My Pet"
+    "title": "Unit 1: Healthy Food"
   },
-  "Unit 2: Play Time": {
+  "Unit 2: My Journey": {
     "local": true,
     "filename": "2",
     "grade": "1",
-    "title": "Unit 2: Play Time"
-  },
-  "Unit 3: Families": {
-    "local": true,
-    "filename": "3",
-    "grade": "1",
-    "title": "Unit 3: Families"
+    "title": "Unit 2: My Journey"
   },
   "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி": {
     "local": true,
@@ -110,6 +104,30 @@ export const lessonMap = {
     "filename": "eng_1_t1_l3",
     "grade": "1",
     "title": "Unit 3: Families || அலகு 3: குடும்பங்கள்"
+  },
+  "Unit 1: Healthy Food || அலகு 1: ஆரோக்கியமான உணவு": {
+    "local": true,
+    "filename": "eng_1_t2_l1",
+    "grade": "1",
+    "title": "Unit 1: Healthy Food || அலகு 1: ஆரோக்கியமான உணவு"
+  },
+  "eng_1_t2_l1": {
+    "local": true,
+    "filename": "eng_1_t2_l1",
+    "grade": "1",
+    "title": "Unit 1: Healthy Food || அலகு 1: ஆரோக்கியமான உணவு"
+  },
+  "Unit 2: My Journey || அலகு 2: எனது பயணம்": {
+    "local": true,
+    "filename": "eng_1_t2_l2",
+    "grade": "1",
+    "title": "Unit 2: My Journey || அலகு 2: எனது பயணம்"
+  },
+  "eng_1_t2_l2": {
+    "local": true,
+    "filename": "eng_1_t2_l2",
+    "grade": "1",
+    "title": "Unit 2: My Journey || அலகு 2: எனது பயணம்"
   },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,

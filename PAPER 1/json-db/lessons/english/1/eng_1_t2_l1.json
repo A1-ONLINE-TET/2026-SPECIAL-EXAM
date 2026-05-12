@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Healthy Food || அலகு 1: ஆரோக்கியமான உணவு",
+    "unit": "1",
+    "grade": "1",
+    "term": "t2",
+    "subject": "english",
+    "code": "eng_1_t2_l1"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the main theme of the first English unit in Term 2?",
+        "options": ["Wild Animals", "Healthy Food", "Space Travel", "Toys and Games"],
+        "answer": 1,
+        "explanation": "The entire unit is centered around fruits, vegetables, farming, and distinguishing between healthy and junk food."
+      },
+      {
+        "question": "Name a vegetable that is described as \"green and spicy.\"",
+        "options": ["Tomato", "Chilli", "Beetroot", "Potato"],
+        "answer": 1,
+        "explanation": "In the vocabulary section, a chilli is identified and described as green and spicy."
+      },
+      {
+        "question": "Which fruit is \"yellow and sour\"?",
+        "options": ["Banana", "Apple", "Lemon", "Grapes"],
+        "answer": 2,
+        "explanation": "Students learn to describe a lemon as yellow and sour."
+      },
+      {
+        "question": "In the story \"A Feast in the Jungle,\" what did the Rabbit bring?",
+        "options": ["Tomatoes", "Carrots", "Brinjals", "Onions"],
+        "answer": 1,
+        "explanation": "The Rabbit brought carrots to the feast to make Halwa."
+      },
+      {
+        "question": "What did the Parrot want to make for the feast?",
+        "options": ["Sambar", "Pachadi", "Juice", "Salad"],
+        "answer": 2,
+        "explanation": "The Parrot brought lemons to make juice for everyone."
+      },
+      {
+        "question": "Which animal brought brinjals to make Sambar?",
+        "options": ["Bear", "Fox", "Monkey", "Crow"],
+        "answer": 0,
+        "explanation": "According to the story, the Bear contributed brinjals to make Sambar."
+      },
+      {
+        "question": "The monkey brought ________ to make Rasam.",
+        "options": ["Mangoes", "Tomatoes", "Leaves", "Carrots"],
+        "answer": 1,
+        "explanation": "The Monkey brought tomatoes to prepare Rasam for the jungle feast."
+      },
+      {
+        "question": "What did the Crow contribute to the feast?",
+        "options": ["Onions", "Fruits", "Mangoes", "Lemons"],
+        "answer": 2,
+        "explanation": "The Crow brought mangoes in order to make Payasam."
+      },
+      {
+        "question": "Which animal brought green leaves for the soup?",
+        "options": ["Deer", "Duck", "Parrot", "Bear"],
+        "answer": 0,
+        "explanation": "The Deer brought fresh green leaves to make soup."
+      },
+      {
+        "question": "Who brought onions for the Pachadi?",
+        "options": ["Rabbit", "Fox", "Crow", "Monkey"],
+        "answer": 1,
+        "explanation": "In the story, the Fox is the one who brought onions to make Pachadi."
+      },
+      {
+        "question": "What dish was made by the Duck and the other birds?",
+        "options": ["Salad", "Payasam", "Sambar", "Halwa"],
+        "answer": 0,
+        "explanation": "The Duck and the Bird brought various fruits to make a fruit salad."
+      },
+      {
+        "question": "What was the reaction of the animals when they tasted the food?",
+        "options": ["Yuck!", "Too spicy!", "Yummy! / Tasty!", "Very bitter!"],
+        "answer": 2,
+        "explanation": "They celebrated their feast by sharing the delicious food and found it very tasty."
+      },
+      {
+        "question": "In \"Appu's Delightful Day,\" what is Appu's job?",
+        "options": ["Doctor", "Teacher", "Farmer", "Chef"],
+        "answer": 2,
+        "explanation": "Appu, the elephant, works as a farmer in the field."
+      },
+      {
+        "question": "Why did Appu want to sell his land initially?",
+        "options": ["He was tired", "The field was dry", "He wanted to buy a house", "He didn't like farming"],
+        "answer": 1,
+        "explanation": "Appu felt he couldn't continue farming because his field was completely dry."
+      },
+      {
+        "question": "Which animals helped Appu in his field?",
+        "options": ["Lion and Tiger", "Rat and Rabbit", "Bear and Fox", "Monkey and Deer"],
+        "answer": 1,
+        "explanation": "His friends, including the Rat and Rabbit, encouraged him and promised to help with the farming."
+      },
+      {
+        "question": "What is the important moral taught in Appu's story?",
+        "options": ["Never trust strangers", "Teamwork never fails", "Farming is easy", "Always sell dry land"],
+        "answer": 1,
+        "explanation": "The story emphasizes that when friends work together, they succeed. Thus, \"Teamwork never fails.\""
+      },
+      {
+        "question": "Identify one \"a\" sound CVC word from the lesson.",
+        "options": ["Pen", "Tin", "Cat", "Red"],
+        "answer": 2,
+        "explanation": "From the given phonics list, 'cat' has the short 'a' sound, while the others have 'e' or 'i' sounds."
+      },
+      {
+        "question": "Is \"Pizza\" classified as healthy food or junk food in the textbook?",
+        "options": ["Healthy Food", "Junk Food", "Energy Drink", "Traditional Food"],
+        "answer": 1,
+        "explanation": "Under the Health Awareness section, pizza is listed among items like ice cream and burger as 'Junk Food'."
+      },
+      {
+        "question": "\"I am red and round. You use me to make Rasam.\" Who am I?",
+        "options": ["Tomato", "Apple", "Beetroot", "Cherry"],
+        "answer": 0,
+        "explanation": "The monkey used tomatoes (which are red and round) to make Rasam."
+      },
+      {
+        "question": "What natural event helped Appu and his friends start working in the field?",
+        "options": ["A sunny day", "A heavy wind", "Rain", "A snowstorm"],
+        "answer": 2,
+        "explanation": "It finally rained, which softened the dry field and provided the right time for them to work together."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit, 'Healthy Food', focuses on fruits, vegetables, and the concept of a balanced diet. Through stories like 'A Feast in the Jungle' and 'Appu’s Delightful Day', students learn about community, sharing, and the value of teamwork in farming. It also introduces short vowel sounds (a, e, i) and promotes awareness of healthy vs. junk food."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Vocabulary: Identifying common fruits (Banana, Mango, Apple) and vegetables (Tomato, Brinjal, Carrot).\n• Story - A Feast in the Jungle: Animals contributing ingredients for dishes (Halwa, Sambar, Rasam, Payasam).\n• Phonics: Short vowel sounds - 'a' (cat), 'e' (hen), 'i' (tin).\n• Story - Appu’s Delightful Day: An elephant farmer overcomes challenges through teamwork with his friends (Rat, Rabbit).\n• Health: Differentiating between healthy food (Idli, Greens) and junk food (Pizza, Chips)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ A Feast in the Jungle (Animal Contributions):\n• Rabbit: Carrots (Halwa)\n• Parrot: Lemons (Juice)\n• Bear: Brinjals (Sambar)\n• Monkey: Tomatoes (Rasam)\n• Crow: Mangoes (Payasam)\n• Deer: Green leaves (Soup)\n• Fox: Onions (Pachadi)\n• Duck & Bird: Fruits (Salad)"
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Phonics Blending:\n• Short 'a': ant, pan, cat, rat, map, cap.\n• Short 'e': den, hen, pen, bed, red, peg.\n• Short 'i': tin, pin, bin, sit, lid, sip, nib."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Healthy Food: Food that gives energy and keeps the body strong (e.g., vegetables, fruits).\n• Junk Food: Food that is tasty but not good for health (e.g., pizza, noodles).\n• Teamwork: Working together as a group to achieve a goal."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• Avoid junk food and eat plenty of vegetables and fruits.\n• 'Teamwork never fails' - working together makes difficult tasks easy.\n• Remember the short vowel sounds for 'a', 'e', and 'i'."
+      }
+    ]
+  }
+}

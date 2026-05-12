@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: My Journey || அலகு 2: எனது பயணம்",
+    "unit": "2",
+    "grade": "1",
+    "term": "t2",
+    "subject": "english",
+    "code": "eng_1_t2_l2"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the title of Unit 2 in the English textbook?",
+        "options": ["Healthy Food", "My Journey", "Play Time", "Families"],
+        "answer": 1,
+        "explanation": "The title of Unit 2 is 'My Journey', focusing on transport and travel."
+      },
+      {
+        "question": "Name two vehicles that fly in the air.",
+        "options": ["Car and Bus", "Ship and Boat", "Aeroplane and Helicopter", "Train and Lorry"],
+        "answer": 2,
+        "explanation": "According to the vocabulary section, the Aeroplane and Helicopter are vehicles used for travel in the air."
+      },
+      {
+        "question": "Which vehicle runs on a \"track\"?",
+        "options": ["Bus", "Lorry", "Van", "Train"],
+        "answer": 3,
+        "explanation": "The lesson notes specify that the Train runs 'on a track'."
+      },
+      {
+        "question": "What should a person wear while riding a bike or scooter for safety?",
+        "options": ["Cap", "Hat", "Helmet", "Scarf"],
+        "answer": 2,
+        "explanation": "Under Safety Gear, it is mentioned to wear a Helmet for bikes and scooters."
+      },
+      {
+        "question": "What did Kaviya’s aunt give her as a gift?",
+        "options": ["A toy train", "A toy aeroplane", "A doll", "A bicycle"],
+        "answer": 1,
+        "explanation": "In the story 'A Joyful Trip', Kaviya’s aunt gives her a toy aeroplane."
+      },
+      {
+        "question": "In Kaviya's dream, where did she fly?",
+        "options": ["Over the sea", "Over the forest", "Over the mountains", "Over the city"],
+        "answer": 3,
+        "explanation": "The toy plane invites her to fly over the city in her dream."
+      },
+      {
+        "question": "What colors are mentioned as part of the traffic signal?",
+        "options": ["Red, Blue, Green", "Red, Green, Yellow", "Black, White, Grey", "Pink, Yellow, Orange"],
+        "answer": 1,
+        "explanation": "From the sky, she sees a traffic signal with Red, Green, and Yellow lights."
+      },
+      {
+        "question": "Did Kaviya see her mother (Amma) while flying in her dream?",
+        "options": ["Yes", "No", "She saw her aunt", "She saw her teacher"],
+        "answer": 0,
+        "explanation": "She sees the city lights, a traffic signal, and even her Amma on the road."
+      },
+      {
+        "question": "Which word is used to describe objects that are far away: \"These\" or \"Those\"?",
+        "options": ["These", "This", "Those", "That"],
+        "answer": 2,
+        "explanation": "In the Grammar section, 'Those are' is used for objects that are far."
+      },
+      {
+        "question": "Complete the phrase: \"Row, row, row your ________.\"",
+        "options": ["Car", "Boat", "Plane", "Train"],
+        "answer": 1,
+        "explanation": "This phrase is from the famous nursery rhyme related to water transport: 'Row, row, row your boat'."
+      },
+      {
+        "question": "According to the song, how do you ride your bike?",
+        "options": ["Fast down the hill", "Quickly on the track", "Slowly down the street", "High up in the sky"],
+        "answer": 2,
+        "explanation": "To ensure safety, the related rhyme encourages riding the bike 'slowly down the street'."
+      },
+      {
+        "question": "Give an example of a CVC word with the short 'o' sound from the lesson.",
+        "options": ["Tub", "Dog", "Bun", "Rug"],
+        "answer": 1,
+        "explanation": "From the phonics list, 'dog' is an example of a short 'o' sound word."
+      },
+      {
+        "question": "Give an example of a CVC word with the short 'u' sound from the lesson.",
+        "options": ["Pot", "Box", "Tub", "Cot"],
+        "answer": 2,
+        "explanation": "From the phonics list, 'tub' is an example of a short 'u' sound word."
+      },
+      {
+        "question": "Is it safe to play on the road?",
+        "options": ["Yes", "No", "Only in the morning", "Only with adults"],
+        "answer": 1,
+        "explanation": "The Road Safety section strictly states, 'Do not play on the road'."
+      },
+      {
+        "question": "Where should we walk instead of walking on the road?",
+        "options": ["In the middle of the road", "On the divider", "On the platform (sidewalk)", "On the track"],
+        "answer": 2,
+        "explanation": "The safety rules say to 'Walk on the platform (sidewalk)'."
+      },
+      {
+        "question": "What should you do before crossing a road?",
+        "options": ["Run quickly", "Look right and left", "Close your eyes", "Talk to a friend"],
+        "answer": 1,
+        "explanation": "The rule is to 'Look right and left before crossing'."
+      },
+      {
+        "question": "How should you board a school bus?",
+        "options": ["Push others", "Run fast", "Stand in a line", "Jump in"],
+        "answer": 2,
+        "explanation": "You must 'Stand in a line to board the bus' for safety."
+      },
+      {
+        "question": "What should you do when you are at a railway crossing and a train is coming?",
+        "options": ["Cross quickly", "Wait for the train to pass", "Run beside the track", "Shout loudly"],
+        "answer": 1,
+        "explanation": "The rule is to 'Wait for the train to pass at level crossings'."
+      },
+      {
+        "question": "Name a vehicle pulled by animals mentioned in the lesson.",
+        "options": ["Scooter", "Van", "Bullock cart", "Lorry"],
+        "answer": 2,
+        "explanation": "The Bullock cart is an animal-drawn land transport mentioned in the vocabulary."
+      },
+      {
+        "question": "What is the ending line of the rhyme 'Row, row, row your boat'?",
+        "options": ["Wheels on the bus", "Twinkle twinkle", "Jingle bells", "Life is but a dream"],
+        "answer": 3,
+        "explanation": "The famous transport rhyme 'Row, row, row your boat' ends with 'Life is but a dream'."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "Unit 2, 'My Journey', introduces various modes of transportation and emphasizes road safety. Students explore vehicles used on land, water, and in the air through vocabulary building and the story of Kaviya's dream flight. The unit also covers grammar for proximity ('These' and 'Those') and short vowel sounds for 'o' and 'u'."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Transport Modes: Land (Bus, Train, Bullock cart), Water (Ship, Boat), Air (Aeroplane, Helicopter).\n• Story - A Joyful Trip: Kaviya dreams of flying over the city in a toy aeroplane and seeing traffic lights and her mother.\n• Grammar: Using 'These are' for near objects and 'Those are' for far objects.\n• Phonics: Short vowel sounds - 'o' (pot, dog) and 'u' (tub, hut).\n• Road Safety: Essential rules like walking on the sidewalk, looking both ways before crossing, and standing in a line for the bus."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Road Safety Rules:\n• Do not play on the road.\n• Walk on the platform (sidewalk).\n• Look right and left before crossing.\n• Wait at level crossings for trains.\n• Stand in a line to board the bus.\n• Wear a helmet for bikes and scooters."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Phonics Blending:\n• Short 'o': pot, dog, box, hop, log, cot.\n• Short 'u': tub, bun, hut, rug, cup, pup, nut."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Transportation: The act of moving people or goods from one place to another.\n• Traffic Signal: A set of lights (Red, Green, Yellow) that controls the flow of vehicles.\n• Proximity: How near or far something is from you."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• Always prioritize safety on the road.\n• Use 'These' for things close by and 'Those' for things further away.\n• Remember the different vehicles and where they travel (Land, Air, or Water)."
+      }
+    ]
+  }
+}
