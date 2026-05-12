@@ -1,150 +1,150 @@
 {
   "வகுப்பு": "Class 1",
-  "பருவம்": "Term 2",
+  "பருவம்": "Term 3",
   "பாட_எண்": "2",
-  "பாட_தலைப்பு": "Unit 2: My Journey",
+  "பாட_தலைப்பு": "Unit 2: Time and Calendar",
   "பாடக்குறிப்புகள்": [
     {
-      "தலைப்பு": "1. Vocabulary: Modes of Transport",
-      "விவரங்கள்": "Students learn to identify vehicles used for travel on land, water, and air: Air: Aeroplane, Helicopter. Water: Ship, Boat. Land: Train (on a track), Bus, Lorry, Car, Van, Auto, Bicycle, Scooter, Bike, Bullock cart. Safety Gear: Helmet (for bikes and scooters). Infrastructure: Road, Track, Traffic signal."
+      "தலைப்பு": "1. Months in a Year (Poem)",
+      "விவரங்கள்": "There are twelve months in a year. The year starts with January and ends with December. The sequence: January, February, March, April, May, June, July, August, September, October, November, and December."
     },
     {
-      "தலைப்பு": "2. Story: \"A Joyful Trip\" (The Dream Flight)",
-      "விவரங்கள்": "Main Character: A girl named Kaviya. The Toy: Kaviya’s aunt gives her a toy aeroplane. The Dream: One night, the toy plane speaks to her and invites her to fly over the city. What she sees: From the sky, she sees the city lights, a traffic signal (Red, Green, Yellow), and even her Amma on the road. Resolution: Kaviya wakes up and realizes it was a dream."
+      "தலைப்பு": "2. Distinguishing Day and Night",
+      "விவரங்கள்": "Day: Characterized by the sun, blue sky, clouds, birds flying, and flowers like sunflowers. Animals like the rooster are active. Night: Characterized by the moon, stars, and artificial light. Nocturnal animals like the bat and owl are active."
     },
     {
-      "தலைப்பு": "3. Grammar: Proximity (These and Those)",
-      "விவரங்கள்": "The lesson teaches how to describe groups of objects based on their distance from the speaker: These are: Used for objects that are near (e.g., \"These are boats\"). Those are: Used for objects that are far (e.g., \"Those are cars\")."
+      "தலைப்பு": "3. Harini’s Happy Week (Days of the Week)",
+      "விவரங்கள்": "Sunday: Met friend Kani. Monday: Father gave a cute puppy. Tuesday: New teacher told stories. Wednesday: Saw a pink rose. Thursday: Drew a picture. Friday: Hen had five yellow chicks. Saturday: Sang songs inside when it rained."
     },
     {
-      "தலைப்பு": "4. Phonics: Blending Sounds (Short 'o' and 'u')",
-      "விவரங்கள்": "Short 'o' sound: pot, dog, cot, box, hot, hop, mop, top, log. Short 'u' sound: tub, bun, hut, rug, cup, pup, bud, mud, gum, nut."
+      "தலைப்பு": "4. Phonics: Sound Blending (ph, th, ng)",
+      "விவரங்கள்": "'ph' sound: photo, phone, dolphin, graph. 'th' sound: thumb, moth, mouth, thing, thin, thick. 'ng' sound: ring, king, song, wing, sing, sang."
     },
     {
-      "தலைப்பு": "5. Road Safety: \"We are Safe\"",
-      "விவரங்கள்": "This section outlines critical life skills and rules for safety: Do not play on the road. Walk on the platform (sidewalk). Hold hands with an adult while crossing the road. Look right and left before crossing. Wait for the train to pass at level crossings. Stand in a line to board the bus."
+      "தலைப்பு": "5. A Day at Home (Daily Routine)",
+      "விவரங்கள்": "Morning: Rooster crows, Grandpa walks, reading a book. Afternoon: Singing songs and having lunch. Evening: Playing with friends, helping parents, going to the market. Night: Having dinner, brushing teeth, and going to bed."
     }
   ],
   "கேள்விகள்": [
     {
-      "கேள்வி": "What is the title of Unit 2 in the English textbook?",
-      "ஆப்ஷன்கள்": ["Healthy Food", "My Journey", "Play Time", "Families"],
-      "விடை": "My Journey",
-      "விளக்கம்": "The title of Unit 2 is 'My Journey', focusing on transport and travel."
+      "கேள்வி": "How many months are mentioned in the poem \"Months in a Year\"?",
+      "ஆப்ஷன்கள்": ["7", "10", "12", "30"],
+      "விடை": "12",
+      "விளக்கம்": "There are twelve months in a year as mentioned in the lesson."
     },
     {
-      "கேள்வி": "Name two vehicles that fly in the air.",
-      "ஆப்ஷன்கள்": ["Car and Bus", "Ship and Boat", "Aeroplane and Helicopter", "Train and Lorry"],
-      "விடை": "Aeroplane and Helicopter",
-      "விளக்கம்": "According to the vocabulary section, the Aeroplane and Helicopter are vehicles used for travel in the air."
+      "கேள்வி": "Which month marks the end of the year?",
+      "ஆப்ஷன்கள்": ["January", "June", "November", "December"],
+      "விடை": "December",
+      "விளக்கம்": "The year starts with January and ends with December."
     },
     {
-      "கேள்வி": "Which vehicle runs on a \"track\"?",
-      "ஆப்ஷன்கள்": ["Bus", "Lorry", "Van", "Train"],
-      "விடை": "Train",
-      "விளக்கம்": "The lesson notes specify that the Train runs 'on a track'."
+      "கேள்வி": "Name three things you see in the sky during the Day.",
+      "ஆப்ஷன்கள்": ["Moon, Stars, Bat", "Sun, Clouds, Birds", "Lamps, Owl, Stars", "Rain, Snow, Moon"],
+      "விடை": "Sun, Clouds, Birds",
+      "விளக்கம்": "During the day, we see the sun, blue sky, clouds, and birds flying."
     },
     {
-      "கேள்வி": "What should a person wear while riding a bike or scooter for safety?",
-      "ஆப்ஷன்கள்": ["Cap", "Hat", "Helmet", "Scarf"],
-      "விடை": "Helmet",
-      "விளக்கம்": "Under Safety Gear, it is mentioned to wear a Helmet for bikes and scooters."
+      "கேள்வி": "Which two nocturnal animals are shown in the Night scene?",
+      "ஆப்ஷன்கள்": ["Rooster and Dog", "Cat and Cow", "Bat and Owl", "Lion and Tiger"],
+      "விடை": "Bat and Owl",
+      "விளக்கம்": "Bats and Owls are nocturnal animals that are active at night."
     },
     {
-      "கேள்வி": "What did Kaviya’s aunt give her as a gift?",
-      "ஆப்ஷன்கள்": ["A toy train", "A toy aeroplane", "A doll", "A bicycle"],
-      "விடை": "A toy aeroplane",
-      "விளக்கம்": "In the story 'A Joyful Trip', Kaviya’s aunt gives her a toy aeroplane."
+      "கேள்வி": "What is the name of Harini’s friend?",
+      "ஆப்ஷன்கள்": ["Meenu", "Kani", "Valli", "Iniya"],
+      "விடை": "Kani",
+      "விளக்கம்": "Harini met her friend Kani on Sunday."
     },
     {
-      "கேள்வி": "In Kaviya's dream, where did she fly?",
-      "ஆப்ஷன்கள்": ["Over the sea", "Over the forest", "Over the mountains", "Over the city"],
-      "விடை": "Over the city",
-      "விளக்கம்": "The toy plane invites her to fly over the city in her dream."
+      "கேள்வி": "On which day did Harini’s father give her a puppy?",
+      "ஆப்ஷன்கள்": ["Sunday", "Monday", "Tuesday", "Friday"],
+      "விடை": "Monday",
+      "விளக்கம்": "On Monday, Harini's father gave her a cute puppy."
     },
     {
-      "கேள்வி": "What colors are mentioned as part of the traffic signal?",
-      "ஆப்ஷன்கள்": ["Red, Blue, Green", "Red, Green, Yellow", "Black, White, Grey", "Pink, Yellow, Orange"],
-      "விடை": "Red, Green, Yellow",
-      "விளக்கம்": "From the sky, she sees a traffic signal with Red, Green, and Yellow lights."
+      "கேள்வி": "What happened in Harini's class on Tuesday?",
+      "ஆப்ஷன்கள்": ["She drew a picture", "A new teacher told stories", "She met a friend", "She saw a rose"],
+      "விடை": "A new teacher told stories",
+      "விளக்கம்": "On Tuesday, a new teacher came to class and told many stories."
     },
     {
-      "கேள்வி": "Did Kaviya see her mother (Amma) while flying in her dream?",
-      "ஆப்ஷன்கள்": ["Yes", "No", "She saw her aunt", "She saw her teacher"],
-      "விடை": "Yes",
-      "விளக்கம்": "She sees the city lights, a traffic signal, and even her Amma on the road."
+      "கேள்வி": "What did Harini see in her garden on Wednesday?",
+      "ஆப்ஷன்கள்": ["A yellow chick", "A blue bird", "A pink rose", "A green leaf"],
+      "விடை": "A pink rose",
+      "விளக்கம்": "Harini saw a pink rose in her garden on Wednesday."
     },
     {
-      "கேள்வி": "Which word is used to describe objects that are far away: \"These\" or \"Those\"?",
-      "ஆப்ஷன்கள்": ["These", "This", "Those", "That"],
-      "விடை": "Those",
-      "விளக்கம்": "In the Grammar section, 'Those are' is used for objects that are far."
+      "கேள்வி": "Which day of the week comes after Thursday?",
+      "ஆப்ஷன்கள்": ["Wednesday", "Friday", "Saturday", "Sunday"],
+      "விடை": "Friday",
+      "விளக்கம்": "The day following Thursday is Friday."
     },
     {
-      "கேள்வி": "Complete the phrase: \"Row, row, row your ________.\"",
-      "ஆப்ஷன்கள்": ["Car", "Boat", "Plane", "Train"],
-      "விடை": "Boat",
-      "விளக்கம்": "This phrase is from the famous nursery rhyme related to water transport: 'Row, row, row your boat'."
+      "கேள்வி": "How many chicks did Harini's hen have on Friday?",
+      "ஆப்ஷன்கள்": ["Two", "Three", "Five", "Seven"],
+      "விடை": "Five",
+      "விளக்கம்": "Harini's hen had five yellow chicks on Friday."
     },
     {
-      "கேள்வி": "According to the song, how do you ride your bike? (e.g., \"Slowly down the street\")",
-      "ஆப்ஷன்கள்": ["Fast down the hill", "Quickly on the track", "Slowly down the street", "High up in the sky"],
-      "விடை": "Slowly down the street",
-      "விளக்கம்": "To ensure safety, the related rhyme encourages riding the bike 'slowly down the street'."
+      "கேள்வி": "What did Harini and her friend do on Saturday when it rained?",
+      "ஆப்ஷன்கள்": ["Played outside", "Went to the market", "Sang songs inside", "Went to sleep"],
+      "விடை": "Sang songs inside",
+      "விளக்கம்": "When it rained on Saturday, they stayed inside and sang songs."
     },
     {
-      "கேள்வி": "Give an example of a CVC word with the short 'o' sound from the lesson.",
-      "ஆப்ஷன்கள்": ["Tub", "Dog", "Bun", "Rug"],
-      "விடை": "Dog",
-      "விளக்கம்": "From the phonics list, 'dog' is an example of a short 'o' sound word."
+      "கேள்வி": "Give an example of a word using the 'ph' sound.",
+      "ஆப்ஷன்கள்": ["Thumb", "Ring", "Photo", "Song"],
+      "விடை": "Photo",
+      "விளக்கம்": "'Photo' is an example of a word using the 'ph' blending sound."
     },
     {
-      "கேள்வி": "Give an example of a CVC word with the short 'u' sound from the lesson.",
-      "ஆப்ஷன்கள்": ["Pot", "Box", "Tub", "Cot"],
-      "விடை": "Tub",
-      "விளக்கம்": "From the phonics list, 'tub' is an example of a short 'u' sound word."
+      "கேள்வி": "Which part of the body starting with 'th' is mentioned in phonics?",
+      "ஆப்ஷன்கள்": ["Thumb", "Shoulder", "Head", "Hand"],
+      "விடை": "Thumb",
+      "விளக்கம்": "The word 'thumb' starts with the 'th' sound."
     },
     {
-      "கேள்வி": "Is it safe to play on the road?",
-      "ஆப்ஷன்கள்": ["Yes", "No", "Only in the morning", "Only with adults"],
-      "விடை": "No",
-      "விளக்கம்": "The Road Safety section strictly states, 'Do not play on the road'."
+      "கேள்வி": "Identify a word that ends with the 'ng' sound.",
+      "ஆப்ஷன்கள்": ["Phone", "Thin", "King", "Thick"],
+      "விடை": "King",
+      "விளக்கம்": "The word 'king' ends with the 'ng' blending sound."
     },
     {
-      "கேள்வி": "Where should we walk instead of walking on the road?",
-      "ஆப்ஷன்கள்": ["In the middle of the road", "On the divider", "On the platform (sidewalk)", "On the track"],
-      "விடை": "On the platform (sidewalk)",
-      "விளக்கம்": "The safety rules say to 'Walk on the platform (sidewalk)'."
+      "கேள்வி": "According to the daily routine, when does the rooster crow?",
+      "ஆப்ஷன்கள்": ["Evening", "Night", "Afternoon", "Morning"],
+      "விடை": "Morning",
+      "விளக்கம்": "The rooster crows in the morning to wake everyone up."
     },
     {
-      "கேள்வி": "What should you do before crossing a road?",
-      "ஆப்ஷன்கள்": ["Run quickly", "Look right and left", "Close your eyes", "Talk to a friend"],
-      "விடை": "Look right and left",
-      "விளக்கம்": "The rule is to 'Look right and left before crossing'."
+      "கேள்வி": "What activity does Grandpa do in the morning?",
+      "ஆப்ஷன்கள்": ["Goes to bed", "Walks", "Goes to market", "Has dinner"],
+      "விடை": "Walks",
+      "விளக்கம்": "In the morning routine, Grandpa is shown taking a walk."
     },
     {
-      "கேள்வி": "How should you board a school bus?",
-      "ஆப்ஷன்கள்": ["Push others", "Run fast", "Stand in a line", "Jump in"],
-      "விடை": "Stand in a line",
-      "விளக்கம்": "You must 'Stand in a line to board the bus' for safety."
+      "கேள்வி": "In which part of the day do the children have lunch?",
+      "ஆப்ஷன்கள்": ["Morning", "Afternoon", "Evening", "Night"],
+      "விடை": "Afternoon",
+      "விளக்கம்": "Lunch is typically eaten during the afternoon."
     },
     {
-      "கேள்வி": "What should you do when you are at a railway crossing and a train is coming?",
-      "ஆப்ஷன்கள்": ["Cross quickly", "Wait for the train to pass", "Run beside the track", "Shout loudly"],
-      "விடை": "Wait for the train to pass",
-      "விளக்கம்": "The rule is to 'Wait for the train to pass at level crossings'."
+      "கேள்வி": "Name one thing Harini does to help her parents in the evening.",
+      "ஆப்ஷன்கள்": ["Brushes teeth", "Goes to bed", "Goes to the market", "Crows like a rooster"],
+      "விடை": "Goes to the market",
+      "விளக்கம்": "Helping parents and going to the market are evening activities."
     },
     {
-      "கேள்வி": "Name a vehicle pulled by animals mentioned in the lesson.",
-      "ஆப்ஷன்கள்": ["Scooter", "Van", "Bullock cart", "Lorry"],
-      "விடை": "Bullock cart",
-      "விளக்கம்": "The Bullock cart is an animal-drawn land transport mentioned in the vocabulary."
+      "கேள்வி": "What should you do before going to bed at night?",
+      "ஆப்ஷன்கள்": ["Play with friends", "Read a book", "Brush teeth", "Watch the sun"],
+      "விடை": "Brush teeth",
+      "விளக்கம்": "Brushing teeth is part of the night routine before going to bed."
     },
     {
-      "கேள்வி": "\"Life is but a dream\" is the ending line of which rhyme?",
-      "ஆப்ஷன்கள்": ["Wheels on the bus", "Twinkle twinkle", "Jingle bells", "Row, row, row your boat"],
-      "விடை": "Row, row, row your boat",
-      "விளக்கம்": "The famous transport rhyme 'Row, row, row your boat' ends with 'Life is but a dream'."
+      "கேள்வி": "Which day of the week is considered the first day in Harini's week story?",
+      "ஆப்ஷன்கள்": ["Monday", "Friday", "Saturday", "Sunday"],
+      "விடை": "Sunday",
+      "விளக்கம்": "Harini's happy week starts with Sunday when she meets her friend Kani."
     }
   ]
 }

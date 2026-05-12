@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: Time and Calendar || அலகு 2: நேரம் மற்றும் நாட்காட்டி",
+    "unit": "2",
+    "grade": "1",
+    "term": "t3",
+    "subject": "english",
+    "code": "eng_1_t3_l2"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "How many months are mentioned in the poem \"Months in a Year\"?",
+        "options": ["7", "10", "12", "30"],
+        "answer": 2,
+        "explanation": "There are twelve months in a year as mentioned in the lesson."
+      },
+      {
+        "question": "What is the first month of the year?",
+        "options": ["December", "June", "January", "April"],
+        "answer": 2,
+        "explanation": "The year starts with the month of January."
+      },
+      {
+        "question": "What is the last month of the year?",
+        "options": ["November", "January", "December", "August"],
+        "answer": 2,
+        "explanation": "The year ends with the month of December."
+      },
+      {
+        "question": "Which of the following is seen in the sky during the day?",
+        "options": ["Stars", "Moon", "Sun", "Owl"],
+        "answer": 2,
+        "explanation": "The sun is the primary feature of the daytime sky."
+      },
+      {
+        "question": "Name an animal that is active at night (nocturnal).",
+        "options": ["Rooster", "Butterfly", "Bat", "Cow"],
+        "answer": 2,
+        "explanation": "Bats are nocturnal animals that are active during the night."
+      },
+      {
+        "question": "What flower is associated with the daytime in the lesson?",
+        "options": ["Lily", "Sunflower", "Jasmine", "Rose"],
+        "answer": 1,
+        "explanation": "Sunflowers are active and face the sun during the day."
+      },
+      {
+        "question": "On which day of the week did Harini meet her friend Kani?",
+        "options": ["Monday", "Friday", "Sunday", "Saturday"],
+        "answer": 2,
+        "explanation": "According to 'Harini’s Happy Week', she met her friend Kani on Sunday."
+      },
+      {
+        "question": "What happened to Harini on Monday?",
+        "options": ["She drew a picture", "Her father gave her a puppy", "She saw a rose", "She sang songs"],
+        "answer": 1,
+        "explanation": "On Monday, Harini's father gifted her a cute puppy."
+      },
+      {
+        "question": "On Wednesday, Harini saw a ________ rose. (Fill in the blank)",
+        "options": ["Red", "Pink", "Yellow", "White"],
+        "answer": 1,
+        "explanation": "The story mentions that Harini saw a pink rose on Wednesday."
+      },
+      {
+        "question": "Which day did the hen have five yellow chicks?",
+        "options": ["Tuesday", "Thursday", "Friday", "Sunday"],
+        "answer": 2,
+        "explanation": "On Friday, the hen in the story had five yellow chicks."
+      },
+      {
+        "question": "What did Harini do on Saturday when it rained?",
+        "options": ["Played outside", "Met a teacher", "Sang songs inside", "Went to the market"],
+        "answer": 2,
+        "explanation": "On Saturday, Harini stayed inside and sang songs because it was raining."
+      },
+      {
+        "question": "Identify a word with the 'ph' sound from the phonic list.",
+        "options": ["Phone", "Ring", "Thumb", "Song"],
+        "answer": 0,
+        "explanation": "In the phonics section, 'phone' is listed as an example of the 'ph' sound."
+      },
+      {
+        "question": "Which of these words ends with the 'ng' sound?",
+        "options": ["Photo", "King", "Thick", "Graph"],
+        "answer": 1,
+        "explanation": "The word 'king' ends with the 'ng' blending sound."
+      },
+      {
+        "question": "The 'th' sound is found in which of the following words?",
+        "options": ["Dolphin", "Wing", "Thumb", "Sing"],
+        "answer": 2,
+        "explanation": "The word 'thumb' starts with the 'th' blending sound."
+      },
+      {
+        "question": "What is the first activity of the morning in the \"Day at Home\" section?",
+        "options": ["Having lunch", "Playing with friends", "Rooster crows", "Going to bed"],
+        "answer": 2,
+        "explanation": "The morning begins with the rooster crowing."
+      },
+      {
+        "question": "When does Harini typically have lunch?",
+        "options": ["Morning", "Afternoon", "Evening", "Night"],
+        "answer": 1,
+        "explanation": "Lunch is a meal typically eaten in the afternoon."
+      },
+      {
+        "question": "Which activity belongs to the evening routine?",
+        "options": ["Brushing teeth", "Rooster crowing", "Playing with friends", "Grandpa walks"],
+        "answer": 2,
+        "explanation": "Playing with friends is listed as an evening activity."
+      },
+      {
+        "question": "What does Harini do before going to bed at night?",
+        "options": ["Read a book", "Help parents", "Brush her teeth", "Sing songs"],
+        "answer": 2,
+        "explanation": "Brushing teeth is part of the nighttime routine before bed."
+      },
+      {
+        "question": "How many days are in a week?",
+        "options": ["5", "6", "7", "12"],
+        "answer": 2,
+        "explanation": "There are seven days in a week (Sunday to Saturday)."
+      },
+      {
+        "question": "Which month comes after October?",
+        "options": ["September", "November", "December", "August"],
+        "answer": 1,
+        "explanation": "In the sequence of months, November follows October."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit, 'Time and Calendar', introduces students to the concepts of months, days of the week, and daily routines. It contrasts day and night, teaches the sequence of months and days through poems and stories, and covers phonic sounds for 'ph', 'th', and 'ng'."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Months: Learning the twelve months from January to December.\n• Day and Night: Differentiating between day (Sun, Sunflower, Rooster) and night (Moon, Stars, Owl, Bat).\n• Days of the Week: Exploring the seven days through Harini’s experiences (e.g., Sunday-Friend, Monday-Puppy).\n• Phonics: Blending sounds for 'ph' (phone), 'th' (thumb), and 'ng' (ring).\n• Daily Routine: Activities throughout the day - Morning (reading), Afternoon (lunch), Evening (play), Night (brushing/sleep)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Months of the Year:\n1. January, 2. February, 3. March, 4. April, 5. May, 6. June, 7. July, 8. August, 9. September, 10. October, 11. November, 12. December.\n\n▸ Days of the Week:\n• Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Phonics Blending:\n• ph: photo, phone, dolphin, graph.\n• th: thumb, moth, mouth, thing, thin, thick.\n• ng: ring, king, song, wing, sing, sang."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Calendar: A system used to organize days, weeks, and months.\n• Nocturnal: Animals that are active at night and sleep during the day (e.g., Owl, Bat).\n• Routine: A sequence of actions followed regularly (e.g., brushing teeth before bed)."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• A year has 12 months.\n• A week has 7 days.\n• The sun shines during the day; the moon and stars shine at night.\n• Following a healthy routine (like brushing at night) is important."
+      }
+    ]
+  }
+}

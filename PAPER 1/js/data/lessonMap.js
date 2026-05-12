@@ -57,17 +57,17 @@ export const lessonMap = {
     "grade": "4",
     "title": "அகரமுதலி - சொற்பொருள்"
   },
-  "Unit 1: Healthy Food": {
+  "Unit 1: My Garden": {
     "local": true,
     "filename": "1",
     "grade": "1",
-    "title": "Unit 1: Healthy Food"
+    "title": "Unit 1: My Garden"
   },
-  "Unit 2: My Journey": {
+  "Unit 2: Time and Calendar": {
     "local": true,
     "filename": "2",
     "grade": "1",
-    "title": "Unit 2: My Journey"
+    "title": "Unit 2: Time and Calendar"
   },
   "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி": {
     "local": true,
@@ -128,6 +128,30 @@ export const lessonMap = {
     "filename": "eng_1_t2_l2",
     "grade": "1",
     "title": "Unit 2: My Journey || அலகு 2: எனது பயணம்"
+  },
+  "Unit 1: My Garden || அலகு 1: எனது தோட்டம்": {
+    "local": true,
+    "filename": "eng_1_t3_l1",
+    "grade": "1",
+    "title": "Unit 1: My Garden || அலகு 1: எனது தோட்டம்"
+  },
+  "eng_1_t3_l1": {
+    "local": true,
+    "filename": "eng_1_t3_l1",
+    "grade": "1",
+    "title": "Unit 1: My Garden || அலகு 1: எனது தோட்டம்"
+  },
+  "Unit 2: Time and Calendar || அலகு 2: நேரம் மற்றும் நாட்காட்டி": {
+    "local": true,
+    "filename": "eng_1_t3_l2",
+    "grade": "1",
+    "title": "Unit 2: Time and Calendar || அலகு 2: நேரம் மற்றும் நாட்காட்டி"
+  },
+  "eng_1_t3_l2": {
+    "local": true,
+    "filename": "eng_1_t3_l2",
+    "grade": "1",
+    "title": "Unit 2: Time and Calendar || அலகு 2: நேரம் மற்றும் நாட்காட்டி"
   },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,

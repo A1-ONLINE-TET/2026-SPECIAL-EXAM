@@ -1,150 +1,150 @@
 {
   "வகுப்பு": "Class 1",
-  "பருவம்": "Term 2",
+  "பருவம்": "Term 3",
   "பாட_எண்": "1",
-  "பாட_தலைப்பு": "Unit 1: Healthy Food",
+  "பாட_தலைப்பு": "Unit 1: My Garden",
   "பாடக்குறிப்புகள்": [
     {
-      "தலைப்பு": "1. Vocabulary: Fruits and Vegetables",
-      "விவரங்கள்": "The lesson provides a comprehensive list of produce, which is essential for basic vocabulary and categorization questions in competitive exams: Vegetables: Tomato, Cauliflower, Chilli, Brinjal, Drumstick, Garlic, Radish, Beetroot, Carrot, Lemon, Yam, Potato, Onion. Fruits: Banana, Orange, Grapes, Watermelon, Jackfruit, Mango, Papaya, Apple, Pineapple. Identification: Students learn to describe them (e.g., Lemon is yellow and sour; Chilli is green and spicy)."
+      "தலைப்பு": "1. Vocabulary: Flowers and Birds",
+      "விவரங்கள்": "Identifying common elements of a garden is the primary focus of this lesson. Flowers: Sunflower, Rose, Marigold, Tulip, Lily, Lotus, Jasmine, Daisy, and Hibiscus. Birds: Parrot, Eagle, Quail, Duck, Crane, Sparrow, Crow, Pigeon, Woodpecker, Peacock, and Mynah."
     },
     {
-      "தலைப்பு": "2. Story: \"A Feast in the Jungle\" (Animal & Food Associations)",
-      "விவரங்கள்": "This story is very important for matching-type questions. Various animals bring specific items to contribute to a forest feast: Rabbit: Carrots (to make Halwa). Parrot: Lemons (to make Juice). Bear: Brinjals (to make Sambar). Monkey: Tomatoes (to make Rasam). Crow: Mangoes (to make Payasam). Deer: Green leaves (to make Soup). Fox: Onions (to make Pachadi). Duck & Bird: Fruits (to make Salad). Value: Sharing and community celebration."
+      "தலைப்பு": "2. Poem: \"Little Birdie\"",
+      "விவரங்கள்": "A short rhyme about a cute, fat bird that eats worms and dislikes cats. When the bird sees a cat, it spreads its wings and flies away to stay safe."
     },
     {
-      "தலைப்பு": "3. Phonics: Blending Sounds (Short Vowels)",
-      "விவரங்கள்": "Short 'a' sound: ant, pan, cat, rat, ham, dam, had, mad, map, cap. Short 'e' sound: den, hen, pen, set, bet, wet, led, bed, red, beg, leg, peg. Short 'i' sound: tin, pin, bin, kit, sit, wit, did, lid, bid, zip, sip, dip, nib, bib, rib."
+      "தலைப்பு": "3. Story: \"The Cactus\"",
+      "விவரங்கள்": "The Problem: In a beautiful garden, a cactus feels sad because it has thorns and is not as pretty or sweet-smelling as the Rose or Jasmine. The Turning Point: On a very hot sunny day, the other flowers become thirsty and tired. The Solution: The cactus offers water to the thirsty flowers because its fat leaves always store water. Moral: 'Each one of us is good at something'."
     },
     {
-      "தலைப்பு": "4. Story: \"Appu’s Delightful Day\" (Farming and Teamwork)",
-      "விவரங்கள்": "Character: Appu is an elephant who is a farmer. Conflict: The field is dry, and Appu decides to sell the land because he cannot continue farming. Resolution: His friends (Rat, Rabbit) encourage him and promise to help. It rains, providing the right time to work. Moral: \"Teamwork never fails.\" They work together and have a successful harvest."
+      "தலைப்பு": "4. Grammar: Prepositions (Position Words)",
+      "விவரங்கள்": "Students learn how to describe where an object is located using three key words: In: The bun is in the pan; The lemon is in the glass. On: The clock is on the wall. Under: The cat is under the table; The doll is under the bed."
     },
     {
-      "தலைப்பு": "5. Health Awareness",
-      "விவரங்கள்": "Healthy Food: Fruits, vegetables, idli, greens. Junk Food: Ice cream, noodles, pizza, burger, chips, french fries. Message: Avoid junk food and follow a healthy diet."
+      "தலைப்பு": "5. Phonics: Blending Sounds (ch, sh, wh)",
+      "விவரங்கள்": "Learning how specific letter combinations sound: ch: as in chin, chop, chat. sh: as in shop, ship, shut. wh: as in when, which, whip."
     }
   ],
   "கேள்விகள்": [
     {
-      "கேள்வி": "What is the main theme of the first English unit in Term 2?",
-      "ஆப்ஷன்கள்": ["Wild Animals", "Healthy Food", "Space Travel", "Toys and Games"],
-      "விடை": "Healthy Food",
-      "விளக்கம்": "The entire unit is centered around fruits, vegetables, farming, and distinguishing between healthy and junk food."
+      "கேள்வி": "What is the name of the first unit in the Term 3 English section?",
+      "ஆப்ஷன்கள்": ["Healthy Food", "My Journey", "My Garden", "Our Environment"],
+      "விடை": "My Garden",
+      "விளக்கம்": "The first unit of the Term 3 English textbook is titled 'My Garden'."
     },
     {
-      "கேள்வி": "Name a vegetable that is described as \"green and spicy.\"",
-      "ஆப்ஷன்கள்": ["Tomato", "Chilli", "Beetroot", "Potato"],
-      "விடை": "Chilli",
-      "விளக்கம்": "In the vocabulary section, a chilli is identified and described as green and spicy."
+      "கேள்வி": "In the poem \"Little Birdie,\" what does the bird like to eat?",
+      "ஆப்ஷன்கள்": ["Fruits", "Worms", "Seeds", "Bread"],
+      "விடை": "Worms",
+      "விளக்கம்": "The poem describes the cute, fat bird as one that eats worms."
     },
     {
-      "கேள்வி": "Which fruit is \"yellow and sour\"?",
-      "ஆப்ஷன்கள்": ["Banana", "Apple", "Lemon", "Grapes"],
-      "விடை": "Lemon",
-      "விளக்கம்": "Students learn to describe a lemon as yellow and sour."
+      "கேள்வி": "Why does the little birdie fly away?",
+      "ஆப்ஷன்கள்": ["Because it is raining", "To find water", "When it sees a cat", "To play with friends"],
+      "விடை": "When it sees a cat",
+      "விளக்கம்": "The birdie dislikes cats and flies away to stay safe when it sees one."
     },
     {
-      "கேள்வி": "In the story \"A Feast in the Jungle,\" what did the Rabbit bring?",
-      "ஆப்ஷன்கள்": ["Tomatoes", "Carrots", "Brinjals", "Onions"],
-      "விடை": "Carrots",
-      "விளக்கம்": "The Rabbit brought carrots to the feast to make Halwa."
+      "கேள்வி": "Name a yellow flower mentioned in the \"Look and say\" section.",
+      "ஆப்ஷன்கள்": ["Rose", "Tulip", "Sunflower", "Hibiscus"],
+      "விடை": "Sunflower",
+      "விளக்கம்": "Sunflower is a common yellow flower listed in the garden vocabulary."
     },
     {
-      "கேள்வி": "What did the Parrot want to make for the feast?",
-      "ஆப்ஷன்கள்": ["Sambar", "Pachadi", "Juice", "Salad"],
-      "விடை": "Juice",
-      "விளக்கம்": "The Parrot brought lemons to make juice for everyone."
+      "கேள்வி": "Which flower grows in the water and is mentioned in the lesson?",
+      "ஆப்ஷன்கள்": ["Lotus", "Jasmine", "Daisy", "Marigold"],
+      "விடை": "Lotus",
+      "விளக்கம்": "Lotus is a flower that grows in water, mentioned among the garden flowers."
     },
     {
-      "கேள்வி": "Which animal brought brinjals to make Sambar?",
-      "ஆப்ஷன்கள்": ["Bear", "Fox", "Monkey", "Crow"],
-      "விடை": "Bear",
-      "விளக்கம்": "According to the story, the Bear contributed brinjals to make Sambar."
+      "கேள்வி": "Identify the bird that has a red beak and is green in color.",
+      "ஆப்ஷன்கள்": ["Crow", "Parrot", "Eagle", "Pigeon"],
+      "விடை": "Parrot",
+      "விளக்கம்": "A parrot is easily identified by its green feathers and red beak."
     },
     {
-      "கேள்வி": "The monkey brought ________ to make Rasam. (Fill in the blank)",
-      "ஆப்ஷன்கள்": ["Mangoes", "Tomatoes", "Leaves", "Carrots"],
-      "விடை": "Tomatoes",
-      "விளக்கம்": "The Monkey brought tomatoes to prepare Rasam for the jungle feast."
+      "கேள்வி": "Which bird in the garden is known for its beautiful tail?",
+      "ஆப்ஷன்கள்": ["Duck", "Sparrow", "Peacock", "Mynah"],
+      "விடை": "Peacock",
+      "விளக்கம்": "The peacock is famous for its large and beautiful colorful tail."
     },
     {
-      "கேள்வி": "What did the Crow contribute to the feast?",
-      "ஆப்ஷன்கள்": ["Onions", "Fruits", "Mangoes", "Lemons"],
-      "விடை": "Mangoes",
-      "விளக்கம்": "The Crow brought mangoes in order to make Payasam."
+      "கேள்வி": "In the story \"The Cactus,\" what does the Sunflower point out about the cactus?",
+      "ஆப்ஷன்கள்": ["Its sweet smell", "Its beautiful colors", "Its thorns", "Its height"],
+      "விடை": "Its thorns",
+      "விளக்கம்": "The flowers in the garden initially mock the cactus because of its thorns."
     },
     {
-      "கேள்வி": "Which animal brought green leaves for the soup?",
-      "ஆப்ஷன்கள்": ["Deer", "Duck", "Parrot", "Bear"],
-      "விடை": "Deer",
-      "விளக்கம்": "The Deer brought fresh green leaves to make soup."
+      "கேள்வி": "Why did the Jasmine say the cactus is not sweet?",
+      "ஆப்ஷன்கள்": ["Because it is small", "Because it is not sweet-smelling", "Because it is dry", "Because it is green"],
+      "விடை": "Because it is not sweet-smelling",
+      "விளக்கம்": "The Jasmine flower felt the cactus was not as sweet-smelling as other flowers."
     },
     {
-      "கேள்வி": "Who brought onions for the Pachadi?",
-      "ஆப்ஷன்கள்": ["Rabbit", "Fox", "Crow", "Monkey"],
-      "விடை": "Fox",
-      "விளக்கம்": "In the story, the Fox is the one who brought onions to make Pachadi."
+      "கேள்வி": "How did the cactus feel when the other flowers made fun of it?",
+      "ஆப்ஷன்கள்": ["Happy", "Angry", "Sad", "Excited"],
+      "விடை": "Sad",
+      "விளக்கம்": "The cactus felt sad because it felt it wasn't as pretty or sweet as the other flowers."
     },
     {
-      "கேள்வி": "What dish was made by the Duck and the other birds?",
-      "ஆப்ஷன்கள்": ["Salad", "Payasam", "Sambar", "Halwa"],
-      "விடை": "Salad",
-      "விளக்கம்": "The Duck and the Bird brought various fruits to make a fruit salad."
+      "கேள்வி": "What secret does the cactus have that helps it during hot days?",
+      "ஆப்ஷன்கள்": ["Its thorns store honey", "Its fat leaves store water", "Its roots store food", "It can make shade"],
+      "விடை": "Its fat leaves store water",
+      "விளக்கம்": "Cactus plants have fat leaves that allow them to store water for dry or hot days."
     },
     {
-      "கேள்வி": "What was the reaction of the animals when they tasted the food?",
-      "ஆப்ஷன்கள்": ["Yuck!", "Too spicy!", "Yummy! / Tasty!", "Very bitter!"],
-      "விடை": "Yummy! / Tasty!",
-      "விளக்கம்": "They celebrated their feast by sharing the delicious food and found it very tasty."
+      "கேள்வி": "What is the moral taught at the end of \"The Cactus\" story?",
+      "ஆப்ஷன்கள்": ["Thorns are bad", "Sharing is bad", "Each one of us is good at something", "Hot days are long"],
+      "விடை": "Each one of us is good at something",
+      "விளக்கம்": "The story concludes that everyone has a unique strength or use, even if they look different."
     },
     {
-      "கேள்வி": "In \"Appu's Delightful Day,\" what is Appu's job?",
-      "ஆப்ஷன்கள்": ["Doctor", "Teacher", "Farmer", "Chef"],
-      "விடை": "Farmer",
-      "விளக்கம்": "Appu, the elephant, works as a farmer in the field."
+      "கேள்வி": "Complete the sentence: The bun is ________ the pan.",
+      "ஆப்ஷன்கள்": ["on", "under", "in", "above"],
+      "விடை": "in",
+      "விளக்கம்": "The lesson uses 'in' to describe the position of the bun inside the pan."
     },
     {
-      "கேள்வி": "Why did Appu want to sell his land initially?",
-      "ஆப்ஷன்கள்": ["He was tired", "The field was dry", "He wanted to buy a house", "He didn't like farming"],
-      "விடை": "The field was dry",
-      "விளக்கம்": "Appu felt he couldn't continue farming because his field was completely dry."
+      "கேள்வி": "Where is the clock located in the \"Let us practise\" section?",
+      "ஆப்ஷன்கள்": ["Under the table", "On the wall", "In the bag", "Next to the door"],
+      "விடை": "On the wall",
+      "விளக்கம்": "The preposition 'on' is used to state that the clock is on the wall."
     },
     {
-      "கேள்வி": "Which animals helped Appu in his field?",
-      "ஆப்ஷன்கள்": ["Lion and Tiger", "Rat and Rabbit", "Bear and Fox", "Monkey and Deer"],
-      "விடை": "Rat and Rabbit",
-      "விளக்கம்": "His friends, including the Rat and Rabbit, encouraged him and promised to help with the farming."
+      "கேள்வி": "If a cat is below a table, which preposition should we use?",
+      "ஆப்ஷன்கள்": ["In", "On", "Under", "With"],
+      "விடை": "Under",
+      "விளக்கம்": "The word 'under' is used for objects located below or beneath something like a table."
     },
     {
-      "கேள்வி": "What is the important moral taught in Appu's story?",
-      "ஆப்ஷன்கள்": ["Never trust strangers", "Teamwork never fails", "Farming is easy", "Always sell dry land"],
-      "விடை": "Teamwork never fails",
-      "விளக்கம்": "The story emphasizes that when friends work together, they succeed. Thus, \"Teamwork never fails.\""
+      "கேள்வி": "Give one example of a word starting with the 'sh' sound.",
+      "ஆப்ஷன்கள்": ["Chin", "Shop", "When", "Chat"],
+      "விடை": "Shop",
+      "விளக்கம்": "In the phonics section, 'shop' is an example of the 'sh' sound."
     },
     {
-      "கேள்வி": "Identify one \"a\" sound CVC word from the lesson.",
-      "ஆப்ஷன்கள்": ["Pen", "Tin", "Cat", "Red"],
-      "விடை": "Cat",
-      "விளக்கம்": "From the given phonics list, 'cat' has the short 'a' sound, while the others have 'e' or 'i' sounds."
+      "கேள்வி": "What sound does the letters 'wh' make in the word \"whistle\"?",
+      "ஆப்ஷன்கள்": ["ch sound", "sh sound", "wh sound", "ph sound"],
+      "விடை": "wh sound",
+      "விளக்கம்": "The word 'whistle' starts with the 'wh' blending sound."
     },
     {
-      "கேள்வி": "Is \"Pizza\" classified as healthy food or junk food in the textbook?",
-      "ஆப்ஷன்கள்": ["Healthy Food", "Junk Food", "Energy Drink", "Traditional Food"],
-      "விடை": "Junk Food",
-      "விளக்கம்": "Under the Health Awareness section, pizza is listed among items like ice cream and burger as 'Junk Food'."
+      "கேள்வி": "In \"A Get-together,\" which bird has a new baby?",
+      "ஆப்ஷன்கள்": ["Pigeon", "Woodpecker", "Crow", "Duck"],
+      "விடை": "Woodpecker",
+      "விளக்கம்": "In the story 'A Get-together', the animals celebrate because the Woodpecker has a new baby."
     },
     {
-      "கேள்வி": "\"I am red and round. You use me to make Rasam.\" Who am I?",
-      "ஆப்ஷன்கள்": ["Tomato", "Apple", "Beetroot", "Cherry"],
-      "விடை": "Tomato",
-      "விளக்கம்": "The monkey used tomatoes (which are red and round) to make Rasam."
+      "கேள்வி": "Which bird says \"Caw... Caw... Caw...\"?",
+      "ஆப்ஷன்கள்": ["Crow", "Parrot", "Mynah", "Sparrow"],
+      "விடை": "Crow",
+      "விளக்கம்": "The distinctive sound of a crow is 'Caw... Caw...'"
     },
     {
-      "கேள்வி": "What natural event helped Appu and his friends start working in the field?",
-      "ஆப்ஷன்கள்": ["A sunny day", "A heavy wind", "Rain", "A snowstorm"],
-      "விடை": "Rain",
-      "விளக்கம்": "It finally rained, which softened the dry field and provided the right time for them to work together."
+      "கேள்வி": "What sound does the Parrot make in the story?",
+      "ஆப்ஷன்கள்": ["Caw... Caw...", "Quack... Quack...", "Kree... Kree...", "Coo... Coo..."],
+      "விடை": "Kree... Kree...",
+      "விளக்கம்": "The parrot in the story is described as making the sound 'Kree... Kree...'"
     }
   ]
 }

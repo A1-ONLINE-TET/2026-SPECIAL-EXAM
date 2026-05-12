@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: My Garden || அலகு 1: எனது தோட்டம்",
+    "unit": "1",
+    "grade": "1",
+    "term": "t3",
+    "subject": "english",
+    "code": "eng_1_t3_l1"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the name of the first unit in the Term 3 English section?",
+        "options": ["Healthy Food", "My Journey", "My Garden", "Our Environment"],
+        "answer": 2,
+        "explanation": "The first unit of the Term 3 English textbook is titled 'My Garden'."
+      },
+      {
+        "question": "In the poem \"Little Birdie,\" what does the bird like to eat?",
+        "options": ["Fruits", "Worms", "Seeds", "Bread"],
+        "answer": 1,
+        "explanation": "The poem describes the cute, fat bird as one that eats worms."
+      },
+      {
+        "question": "Why does the little birdie fly away?",
+        "options": ["Because it is raining", "To find water", "When it sees a cat", "To play with friends"],
+        "answer": 2,
+        "explanation": "The birdie dislikes cats and flies away to stay safe when it sees one."
+      },
+      {
+        "question": "Name a yellow flower mentioned in the \"Look and say\" section.",
+        "options": ["Rose", "Tulip", "Sunflower", "Hibiscus"],
+        "answer": 2,
+        "explanation": "Sunflower is a common yellow flower listed in the garden vocabulary."
+      },
+      {
+        "question": "Which flower grows in the water and is mentioned in the lesson?",
+        "options": ["Lotus", "Jasmine", "Daisy", "Marigold"],
+        "answer": 0,
+        "explanation": "Lotus is a flower that grows in water, mentioned among the garden flowers."
+      },
+      {
+        "question": "Identify the bird that has a red beak and is green in color.",
+        "options": ["Crow", "Parrot", "Eagle", "Pigeon"],
+        "answer": 1,
+        "explanation": "A parrot is easily identified by its green feathers and red beak."
+      },
+      {
+        "question": "Which bird in the garden is known for its beautiful tail?",
+        "options": ["Duck", "Sparrow", "Peacock", "Mynah"],
+        "answer": 2,
+        "explanation": "The peacock is famous for its large and beautiful colorful tail."
+      },
+      {
+        "question": "In the story \"The Cactus,\" what does the Sunflower point out about the cactus?",
+        "options": ["Its sweet smell", "Its beautiful colors", "Its thorns", "Its height"],
+        "answer": 2,
+        "explanation": "The flowers in the garden initially mock the cactus because of its thorns."
+      },
+      {
+        "question": "Why did the Jasmine say the cactus is not sweet?",
+        "options": ["Because it is small", "Because it is not sweet-smelling", "Because it is dry", "Because it is green"],
+        "answer": 1,
+        "explanation": "The Jasmine flower felt the cactus was not as sweet-smelling as other flowers."
+      },
+      {
+        "question": "How did the cactus feel when the other flowers made fun of it?",
+        "options": ["Happy", "Angry", "Sad", "Excited"],
+        "answer": 2,
+        "explanation": "The cactus felt sad because it felt it wasn't as pretty or sweet as the other flowers."
+      },
+      {
+        "question": "What secret does the cactus have that helps it during hot days?",
+        "options": ["Its thorns store honey", "Its fat leaves store water", "Its roots store food", "It can make shade"],
+        "answer": 1,
+        "explanation": "Cactus plants have fat leaves that allow them to store water for dry or hot days."
+      },
+      {
+        "question": "What is the moral taught at the end of \"The Cactus\" story?",
+        "options": ["Thorns are bad", "Sharing is bad", "Each one of us is good at something", "Hot days are long"],
+        "answer": 2,
+        "explanation": "The story concludes that everyone has a unique strength or use, even if they look different."
+      },
+      {
+        "question": "Complete the sentence: The bun is ________ the pan.",
+        "options": ["on", "under", "in", "above"],
+        "answer": 2,
+        "explanation": "The lesson uses 'in' to describe the position of the bun inside the pan."
+      },
+      {
+        "question": "Where is the clock located in the \"Let us practise\" section?",
+        "options": ["Under the table", "On the wall", "In the bag", "Next to the door"],
+        "answer": 1,
+        "explanation": "The preposition 'on' is used to state that the clock is on the wall."
+      },
+      {
+        "question": "If a cat is below a table, which preposition should we use?",
+        "options": ["In", "On", "Under", "With"],
+        "answer": 2,
+        "explanation": "The word 'under' is used for objects located below or beneath something like a table."
+      },
+      {
+        "question": "Give one example of a word starting with the 'sh' sound.",
+        "options": ["Chin", "Shop", "When", "Chat"],
+        "answer": 1,
+        "explanation": "In the phonics section, 'shop' is an example of the 'sh' sound."
+      },
+      {
+        "question": "What sound does the letters 'wh' make in the word \"whistle\"?",
+        "options": ["ch sound", "sh sound", "wh sound", "ph sound"],
+        "answer": 2,
+        "explanation": "The word 'whistle' starts with the 'wh' blending sound."
+      },
+      {
+        "question": "In \"A Get-together,\" which bird has a new baby?",
+        "options": ["Pigeon", "Woodpecker", "Crow", "Duck"],
+        "answer": 1,
+        "explanation": "In the story 'A Get-together', the animals celebrate because the Woodpecker has a new baby."
+      },
+      {
+        "question": "Which bird says \"Caw... Caw... Caw...\"?",
+        "options": ["Crow", "Parrot", "Mynah", "Sparrow"],
+        "answer": 0,
+        "explanation": "The distinctive sound of a crow is 'Caw... Caw...'"
+      },
+      {
+        "question": "What sound does the Parrot make in the story?",
+        "options": ["Caw... Caw...", "Quack... Quack...", "Kree... Kree...", "Coo... Coo..."],
+        "answer": 2,
+        "explanation": "The parrot in the story is described as making the sound 'Kree... Kree...'"
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit, 'My Garden', introduces students to the beauty of nature through flowers, birds, and insects. Through the story of the Cactus, it teaches that every living being has its own unique strengths. The lesson also covers prepositions (in, on, under) and phonic sounds (ch, sh, wh)."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Vocabulary: Identifying flowers (Rose, Sunflower, Lotus) and birds (Parrot, Peacock, Crow).\n• Poem - Little Birdie: A rhyme about a bird eating worms and avoiding cats.\n• Story - The Cactus: A story about a cactus that saves thirsty flowers by sharing stored water, teaching that everyone is special.\n• Grammar: Prepositions of place - 'in' (inside), 'on' (on top of), and 'under' (below).\n• Phonics: Blending sounds for combinations like 'ch' (chin), 'sh' (shop), and 'wh' (when)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Flowers in My Garden:\n• Sunflower, Rose, Marigold, Tulip, Lily, Lotus, Jasmine, Daisy, Hibiscus.\n\n▸ Birds in My Garden:\n• Parrot, Eagle, Quail, Duck, Crane, Sparrow, Crow, Pigeon, Woodpecker, Peacock, Mynah."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Phonics Blending:\n• ch: chin, chop, chat, chick.\n• sh: shop, ship, shut, shell.\n• wh: when, which, whip, whale."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Prepositions: Words that tell us where a person, place, animal, or thing is (e.g., in, on, under).\n• Thorns: Sharp, pointed parts on the stem of some plants like cactus or roses.\n• Habitat: The natural home or environment of an animal or plant."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• 'Each one of us is good at something' - value everyone's unique traits.\n• Plants like cactus store water in their leaves to survive hot days.\n• Birds use their wings to fly away from danger (like cats)."
+      }
+    ]
+  }
+}

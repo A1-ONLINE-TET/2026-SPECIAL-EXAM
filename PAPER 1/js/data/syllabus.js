@@ -1024,6 +1024,26 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Unit 1: My Garden || அலகு 1: எனது தோட்டம்",
+                "isUpdated": true,
+                "code": "eng_1_t3_l1"
+              },
+              {
+                "title": "Unit 2: Time and Calendar || அலகு 2: நேரம் மற்றும் நாட்காட்டி",
+                "isUpdated": true,
+                "code": "eng_1_t3_l2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "2": [
