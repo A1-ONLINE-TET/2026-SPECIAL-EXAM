@@ -918,6 +918,46 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "உலா போகலாம்",
+                "isUpdated": true,
+                "code": "tam_1_t3_l1"
+              },
+              {
+                "title": "இனிப்பு செய்யலாமா?",
+                "isUpdated": true,
+                "code": "tam_1_t3_l2"
+              },
+              {
+                "title": "ஊஞ்சல் ஆடலாமா?",
+                "isUpdated": true,
+                "code": "tam_1_t3_l3"
+              },
+              {
+                "title": "இனியாவின் ஒரு வாரம்",
+                "isUpdated": true,
+                "code": "tam_1_t3_l4"
+              },
+              {
+                "title": "தோரணம் செய்வோமா!",
+                "isUpdated": true,
+                "code": "tam_1_t3_l5"
+              },
+              {
+                "title": "இளையார் ஆத்திசூடி",
+                "isUpdated": true,
+                "code": "tam_1_t3_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "மூன்றாம் வகுப்பு": [
