@@ -853,7 +853,7 @@ export const syllabusData = {
         ]
       }
     ],
-    "தொடக்க வகுப்பு": [
+    "1": [
       {
         "term": 1,
         "units": [
@@ -861,9 +861,29 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "வா வா முயலே! (பக்கம் 1 முதல் 9 வரை)",
+                "title": "பாடி ஆடி விளையாடலாம்",
                 "isUpdated": true,
-                "code": "tam_தொடக்க வகுப்பு_tமுதல் பருவம்_l1"
+                "code": "tam_1_t1_l1"
+              },
+              {
+                "title": "விரலோடு விளையாடு",
+                "isUpdated": true,
+                "code": "tam_1_t1_l2"
+              },
+              {
+                "title": "அருவியின் ஆட்டுக்குட்டி",
+                "isUpdated": true,
+                "code": "tam_1_t1_l3"
+              },
+              {
+                "title": "கொக்கு நிற்கும் குளக்கரை",
+                "isUpdated": true,
+                "code": "tam_1_t1_l4"
+              },
+              {
+                "title": "கடற்கரைக்குச் செல்வோமா!",
+                "isUpdated": true,
+                "code": "tam_1_t1_l5"
               }
             ]
           }

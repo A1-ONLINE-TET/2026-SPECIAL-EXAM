@@ -2211,24 +2211,6 @@ export const lessonMap = {
     "grade": "3",
     "title": "குழந்தைகளின் பாதுகாப்பு"
   },
-  "சங்க கால வள்ளல்கள்": {
-    "local": true,
-    "filename": "1",
-    "grade": "4",
-    "title": "சங்க கால வள்ளல்கள்"
-  },
-  "தமிழ்நாட்டின் இயற்கை அமைப்பு": {
-    "local": true,
-    "filename": "2",
-    "grade": "4",
-    "title": "தமிழ்நாட்டின் இயற்கை அமைப்பு"
-  },
-  "போக்குவரத்து": {
-    "local": true,
-    "filename": "3",
-    "grade": "4",
-    "title": "போக்குவரத்து"
-  },
   "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
     "local": true,
     "filename": "soc_4_t1_l1",
@@ -2588,6 +2570,66 @@ export const lessonMap = {
     "filename": "tam_8_full_notes",
     "grade": "8",
     "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
+  },
+  "பாடி ஆடி விளையாடலாம்": {
+    "local": true,
+    "filename": "tam_1_t1_l1",
+    "grade": "1",
+    "title": "பாடி ஆடி விளையாடலாம்"
+  },
+  "tam_1_t1_l1": {
+    "local": true,
+    "filename": "tam_1_t1_l1",
+    "grade": "1",
+    "title": "பாடி ஆடி விளையாடலாம்"
+  },
+  "விரலோடு விளையாடு": {
+    "local": true,
+    "filename": "tam_1_t1_l2",
+    "grade": "1",
+    "title": "விரலோடு விளையாடு"
+  },
+  "tam_1_t1_l2": {
+    "local": true,
+    "filename": "tam_1_t1_l2",
+    "grade": "1",
+    "title": "விரலோடு விளையாடு"
+  },
+  "அருவியின் ஆட்டுக்குட்டி": {
+    "local": true,
+    "filename": "tam_1_t1_l3",
+    "grade": "1",
+    "title": "அருவியின் ஆட்டுக்குட்டி"
+  },
+  "tam_1_t1_l3": {
+    "local": true,
+    "filename": "tam_1_t1_l3",
+    "grade": "1",
+    "title": "அருவியின் ஆட்டுக்குட்டி"
+  },
+  "கொக்கு நிற்கும் குளக்கரை": {
+    "local": true,
+    "filename": "tam_1_t1_l4",
+    "grade": "1",
+    "title": "கொக்கு நிற்கும் குளக்கரை"
+  },
+  "tam_1_t1_l4": {
+    "local": true,
+    "filename": "tam_1_t1_l4",
+    "grade": "1",
+    "title": "கொக்கு நிற்கும் குளக்கரை"
+  },
+  "கடற்கரைக்குச் செல்வோமா!": {
+    "local": true,
+    "filename": "tam_1_t1_l5",
+    "grade": "1",
+    "title": "கடற்கரைக்குச் செல்வோமா!"
+  },
+  "tam_1_t1_l5": {
+    "local": true,
+    "filename": "tam_1_t1_l5",
+    "grade": "1",
+    "title": "கடற்கரைக்குச் செல்வோமா!"
   },
   "விளையாட்டு உலகம்": {
     "local": true,
