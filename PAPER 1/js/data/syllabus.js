@@ -888,6 +888,36 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "ஜலசா! ஜலசா!",
+                "isUpdated": true,
+                "code": "tam_1_t2_l1"
+              },
+              {
+                "title": "காட்டிலே ஒரு விருந்து",
+                "isUpdated": true,
+                "code": "tam_1_t2_l2"
+              },
+              {
+                "title": "பழமும் படகும்",
+                "isUpdated": true,
+                "code": "tam_1_t2_l3"
+              },
+              {
+                "title": "அறுசுவை அறிவோம்",
+                "isUpdated": true,
+                "code": "tam_1_t2_l4"
+              }
+            ]
+          }
+        ]
       }
     ],
     "மூன்றாம் வகுப்பு": [

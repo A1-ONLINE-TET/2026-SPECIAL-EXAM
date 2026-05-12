@@ -2631,6 +2631,54 @@ export const lessonMap = {
     "grade": "1",
     "title": "கடற்கரைக்குச் செல்வோமா!"
   },
+  "ஜலசா! ஜலசா!": {
+    "local": true,
+    "filename": "tam_1_t2_l1",
+    "grade": "1",
+    "title": "ஜலசா! ஜலசா!"
+  },
+  "tam_1_t2_l1": {
+    "local": true,
+    "filename": "tam_1_t2_l1",
+    "grade": "1",
+    "title": "ஜலசா! ஜலசா!"
+  },
+  "காட்டிலே ஒரு விருந்து": {
+    "local": true,
+    "filename": "tam_1_t2_l2",
+    "grade": "1",
+    "title": "காட்டிலே ஒரு விருந்து"
+  },
+  "tam_1_t2_l2": {
+    "local": true,
+    "filename": "tam_1_t2_l2",
+    "grade": "1",
+    "title": "காட்டிலே ஒரு விருந்து"
+  },
+  "பழமும் படகும்": {
+    "local": true,
+    "filename": "tam_1_t2_l3",
+    "grade": "1",
+    "title": "பழமும் படகும்"
+  },
+  "tam_1_t2_l3": {
+    "local": true,
+    "filename": "tam_1_t2_l3",
+    "grade": "1",
+    "title": "பழமும் படகும்"
+  },
+  "அறுசுவை அறிவோம்": {
+    "local": true,
+    "filename": "tam_1_t2_l4",
+    "grade": "1",
+    "title": "அறுசுவை அறிவோம்"
+  },
+  "tam_1_t2_l4": {
+    "local": true,
+    "filename": "tam_1_t2_l4",
+    "grade": "1",
+    "title": "அறுசுவை அறிவோம்"
+  },
   "விளையாட்டு உலகம்": {
     "local": true,
     "filename": "tam_2_t1_l1",
