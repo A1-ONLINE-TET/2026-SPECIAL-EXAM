@@ -1,0 +1,154 @@
+{
+  "வகுப்பு": "Class 1",
+  "பருவம்": "Term 1",
+  "பாட_எண்": "3",
+  "பாட_தலைப்பு": "Unit 3: Families",
+  "பாடக்குறிப்புகள்": [
+    {
+      "தலைப்பு": "1. Meet Nila’s Family and Friends",
+      "விவரங்கள்": "Nila: She lives in Salem. She has a father (Appa), mother (Amma), sister (Meenu), grandpa, and grandma. Mary: Nila's friend who lives with her mother. Abdul: Nila's friend who has a brother. His mother is a pilot and his father is a chef. Shared Value: Friends and family make us happy and having fun together is important."
+    },
+    {
+      "தலைப்பு": "2. Understanding Different Families",
+      "விவரங்கள்": "Families can be different in size: some have two or four members, while others have five, six, or more. Roles of a Family: A family helps, loves, takes care of, and keeps its members safe."
+    },
+    {
+      "தலைப்பு": "3. Alphabet Jungle (S to Z) - Parents and Babies",
+      "விவரங்கள்": "This section teaches the letters S-Z by linking them to animals and their young ones: S - Squirrel: Has a baby. T - Tiger: Has a cub. U - Upupa: Its chick lives in a hole in a tree. V - Vulture: Its chick lives high up on the rock. W - Wolf: Its baby is called a pup. X - Fox: Its baby is called a cub. Y - Yak: Its baby is called a calf. Z - Zebra: Its baby is called a foal."
+    },
+    {
+      "தலைப்பு": "4. Phonics and Vocabulary (S to Z)",
+      "விவரங்கள்": "Words: Star (S), Tree (T), Umbrella (U), Van (V), Watch (W), Xylophone (X), Yak (Y), Zebra (Z)."
+    },
+    {
+      "தலைப்பு": "5. Animal Young Ones (Young Ones/Offspring)",
+      "விவரங்கள்": "Lion: Cub. Duck: Duckling. Pig: Piglet. Zebra: Foal. Hen: Chick. Goat: Kid. Elephant: Calf."
+    },
+    {
+      "தலைப்பு": "6. Actions and Songs",
+      "விவரங்கள்": "Action Words: Eat, dance, sleep, clean, cry, jump, smile. Song 'This is the way': Describes the steps of gardening: dig the ground, plant the seeds, water the plants, and grow the plants."
+    }
+  ],
+  "கேள்விகள்": [
+    {
+      "கேள்வி": "What is the name of the girl who introduces her family in Unit 3?",
+      "ஆப்ஷன்கள்": ["Mary", "Meenu", "Nila", "Valli"],
+      "விடை": "Nila",
+      "விளக்கம்": "The unit begins with 'Meet Nila’s Family' where Nila introduces herself."
+    },
+    {
+      "கேள்வி": "Where does Nila live?",
+      "ஆப்ஷன்கள்": ["Chennai", "Salem", "Madurai", "Trichy"],
+      "விடை": "Salem",
+      "விளக்கம்": "According to the notes, Nila states that she lives in Salem."
+    },
+    {
+      "கேள்வி": "What is the name of Nila’s sister?",
+      "ஆப்ஷன்கள்": ["Mary", "Valli", "Daisy", "Meenu"],
+      "விடை": "Meenu",
+      "விளக்கம்": "Nila introduces her family, including her sister named Meenu."
+    },
+    {
+      "கேள்வி": "Who does Mary live with?",
+      "ஆப்ஷன்கள்": ["Her mother", "Her grandfather", "Her father", "Her brother"],
+      "விடை": "Her mother",
+      "விளக்கம்": "Mary is Nila's friend, and the notes mention she lives with her mother."
+    },
+    {
+      "கேள்வி": "What is the occupation of Abdul’s mother?",
+      "ஆப்ஷன்கள்": ["Teacher", "Chef", "Doctor", "Pilot"],
+      "விடை": "Pilot",
+      "விளக்கம்": "Abdul introduces his family and says his mother is a pilot."
+    },
+    {
+      "கேள்வி": "What is the occupation of Abdul’s father?",
+      "ஆப்ஷன்கள்": ["Farmer", "Chef", "Driver", "Pilot"],
+      "விடை": "Chef",
+      "விளக்கம்": "Abdul mentions that his father works as a chef."
+    },
+    {
+      "கேள்வி": "According to the 'Different Families' song, what are some of the things a family does for you?",
+      "ஆப்ஷன்கள்": ["Fights and argues", "Ignores and leaves", "Helps, loves, takes care, and keeps safe", "Only cooks food"],
+      "விடை": "Helps, loves, takes care, and keeps safe",
+      "விளக்கம்": "The role of a family is described as helping, loving, taking care, and keeping its members safe."
+    },
+    {
+      "கேள்வி": "In the Alphabet Jungle, what is the baby of a Tiger called?",
+      "ஆப்ஷன்கள்": ["Pup", "Calf", "Cub", "Foal"],
+      "விடை": "Cub",
+      "விளக்கம்": "In the Alphabet Jungle section, 'T - Tiger: Has a cub'."
+    },
+    {
+      "கேள்வி": "Where does the Vulture's chick live?",
+      "ஆப்ஷன்கள்": ["In a hole in a tree", "High up on the rock", "In the grass", "In a cave"],
+      "விடை": "High up on the rock",
+      "விளக்கம்": "The text states 'V - Vulture: Its chick lives high up on the rock'."
+    },
+    {
+      "கேள்வி": "What is the name of a baby Wolf?",
+      "ஆப்ஷன்கள்": ["Cub", "Pup", "Kid", "Piglet"],
+      "விடை": "Pup",
+      "விளக்கம்": "According to the Alphabet Jungle, 'W - Wolf: Its baby is called a pup'."
+    },
+    {
+      "கேள்வி": "Which animal has a baby called a 'foal'?",
+      "ஆப்ஷன்கள்": ["Zebra", "Yak", "Tiger", "Fox"],
+      "விடை": "Zebra",
+      "விளக்கம்": "The notes specify 'Z - Zebra: Its baby is called a foal'."
+    },
+    {
+      "கேள்வி": "Name the object starting with 'U' mentioned in the phonics section.",
+      "ஆப்ஷன்கள்": ["Unicorn", "Uncle", "Umbrella", "Urn"],
+      "விடை": "Umbrella",
+      "விளக்கம்": "The phonics and vocabulary section lists 'Umbrella' for the letter 'U'."
+    },
+    {
+      "கேள்வி": "What is the young one of a Duck called?",
+      "ஆப்ஷன்கள்": ["Chick", "Cub", "Duckling", "Calf"],
+      "விடை": "Duckling",
+      "விளக்கம்": "In the Animal Young Ones section, the baby of a duck is called a duckling."
+    },
+    {
+      "கேள்வி": "A baby Pig is called a ________.",
+      "ஆப்ஷன்கள்": ["Pup", "Foal", "Piglet", "Kid"],
+      "விடை": "Piglet",
+      "விளக்கம்": "The baby or young one of a pig is known as a piglet."
+    },
+    {
+      "கேள்வி": "What is the young one of an Elephant called?",
+      "ஆப்ஷன்கள்": ["Calf", "Cub", "Pup", "Foal"],
+      "விடை": "Calf",
+      "விளக்கம்": "The young one of an elephant is referred to as a calf."
+    },
+    {
+      "கேள்வி": "In the song 'Hop a little,' what should you do after you 'skip a little'?",
+      "ஆப்ஷன்கள்": ["Run", "Bend", "Jump", "Sleep"],
+      "விடை": "Jump",
+      "விளக்கம்": "In traditional nursery rhymes like 'Hop a little', the sequence goes 'Hop a little, jump a little...' (though not explicitly detailed in the brief notes, it's a common pairing; jump is an action word listed)."
+    },
+    {
+      "கேள்வி": "What is the first step in the gardening song 'This is the way'?",
+      "ஆப்ஷன்கள்": ["Water the plants", "Grow the plants", "Plant the seeds", "Dig the ground"],
+      "விடை": "Dig the ground",
+      "விளக்கம்": "The steps are described sequentially: dig the ground, plant the seeds, water the plants, and grow the plants."
+    },
+    {
+      "கேள்வி": "When do the characters in the song plant the seeds?",
+      "ஆப்ஷன்கள்": ["After watering", "Before digging", "After digging the ground", "When they sleep"],
+      "விடை": "After digging the ground",
+      "விளக்கம்": "The sequence is: first 'dig the ground', then 'plant the seeds'."
+    },
+    {
+      "கேள்வி": "Name three action words mentioned in the 'Let us do' section.",
+      "ஆப்ஷன்கள்": ["Run, walk, crawl", "Eat, dance, sleep", "Fly, swim, dive", "Sing, read, write"],
+      "விடை": "Eat, dance, sleep",
+      "விளக்கம்": "The action words listed in the notes are: Eat, dance, sleep, clean, cry, jump, smile."
+    },
+    {
+      "கேள்வி": "Does Nila have a grandpa and a grandma?",
+      "ஆப்ஷன்கள்": ["Yes", "No", "Only a grandpa", "Only a grandma"],
+      "விடை": "Yes",
+      "விளக்கம்": "Nila introduces her family, which includes her father, mother, sister, grandpa, and grandma."
+    }
+  ]
+}

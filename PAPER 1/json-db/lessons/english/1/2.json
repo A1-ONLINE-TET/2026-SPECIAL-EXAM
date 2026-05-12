@@ -1,0 +1,158 @@
+{
+  "வகுப்பு": "Class 1",
+  "பருவம்": "Term 1",
+  "பாட_எண்": "2",
+  "பாட_தலைப்பு": "Unit 2: Play Time",
+  "பாடக்குறிப்புகள்": [
+    {
+      "தலைப்பு": "1. Vocabulary: Playthings and Surroundings",
+      "விவரங்கள்": "Students learn to identify various objects found in a play area. Sky and Nature: Sky, clouds, Sun, tree. Play Equipment: Swing, slide, bench. Toys and Games: Kite, bat, ball, top, balloon, bicycle, marbles. Others: Tank, van, gate, dog."
+    },
+    {
+      "தலைப்பு": "2. Song: 'Clap your hands'",
+      "விவரங்கள்": "This song introduces several action words to encourage physical activity. Actions: Clap, stamp, skip, run, turn around, hop, jump, bend, and stretch. Theme: Playing together and having fun."
+    },
+    {
+      "தலைப்பு": "3. Story: 'Come, Let us Play'",
+      "விவரங்கள்": "This comic strip highlights the value of inclusion through a small rat. Characters and Games: Dogs: Playing cricket. Rabbit: Flying a kite. Monkeys: Swinging on a tree. Frogs: Playing hopscotch. Conflict: The rat wants to join every game but is refused (e.g., 'you are late,' 'only one kite,' 'rats cannot swing'). Resolution: The rat builds a sandcastle. The other animals see it and ask to join. The rat invites everyone, concluding that 'Playing together is always fun'."
+    },
+    {
+      "தலைப்பு": "4. Alphabet Jungle (J to R)",
+      "விவரங்கள்": "This section introduces letters and animals along with their actions: J - Jaguar. K - Kangaroo: Hops along the path. L - Lion: Sleeping in the grass. M - Monkey: Climbs a tree. N - Nightingale. O - Owl: Looks at the monkey. P - Parrot: Dances on a branch. Q - Quail. R - Rabbit: Runs into a hole."
+    },
+    {
+      "தலைப்பு": "5. Phonics and Letters (Jj to Rr)",
+      "விவரங்கள்": "Sounds: j (jug), k (kite), l (lion), m (monkey), n (net), o (orange), p (pen), q (queen), r (rat). Grammar: Using the structure 'has' (e.g., 'He has a kite,' 'She has a bat')."
+    },
+    {
+      "தலைப்பு": "6. Story: 'The Magic Fish' (Colours)",
+      "விவரங்கள்": "A story focused on colors and the moral 'Sharing is caring'. Characters and Colors Shared: Dolphin: Gets blue. Crab: Gets red. Seahorse: Gets yellow. Star fish: Gets green."
+    },
+    {
+      "தலைப்பு": "7. Magic Words",
+      "விவரங்கள்": "Students learn to use social etiquette words. Thank you: Used when receiving a gift. Sorry: Used when a mistake is made (like breaking a glass)."
+    }
+  ],
+  "கேள்விகள்": [
+    {
+      "கேள்வி": "What is the title of the second unit in the English textbook?",
+      "ஆப்ஷன்கள்": ["My Pet", "Play Time", "Our Family", "School Time"],
+      "விடை": "Play Time",
+      "விளக்கம்": "The second unit focuses on the theme of play and is titled 'Play Time'."
+    },
+    {
+      "கேள்வி": "Name three playthings mentioned in the 'Look and say' section.",
+      "ஆப்ஷன்கள்": ["Pen, pencil, and book", "Table, chair, and desk", "Bat, ball, and kite", "Car, train, and bus"],
+      "விடை": "Bat, ball, and kite",
+      "விளக்கம்": "The vocabulary section introduces toys and games like kite, bat, ball, top, balloon, bicycle, and marbles."
+    },
+    {
+      "கேள்வி": "In the song 'Clap your hands,' what action follows 'Stamp your feet'?",
+      "ஆப்ஷன்கள்": ["Bend and stretch", "Skip and run", "Turn around", "Hop and jump"],
+      "விடை": "Skip and run",
+      "விளக்கம்": "The song introduces action words in sequence, such as clap, stamp, skip, and run."
+    },
+    {
+      "கேள்வி": "Which animal is trying to join the games in the story 'Come, Let us Play'?",
+      "ஆப்ஷன்கள்": ["Rabbit", "Dog", "Monkey", "Rat"],
+      "விடை": "Rat",
+      "விளக்கம்": "The story highlights a small rat who wants to play but is initially refused by the other animals."
+    },
+    {
+      "கேள்வி": "What game are the dogs playing?",
+      "ஆப்ஷன்கள்": ["Hopscotch", "Football", "Cricket", "Tennis"],
+      "விடை": "Cricket",
+      "விளக்கம்": "In the comic strip 'Come, Let us Play', the dogs are playing cricket."
+    },
+    {
+      "கேள்வி": "Why can't the rat fly a kite with the rabbit?",
+      "ஆப்ஷன்கள்": ["Rats cannot fly", "The rabbit has only one kite", "The kite is broken", "The rat does not like kites"],
+      "விடை": "The rabbit has only one kite",
+      "விளக்கம்": "The rabbit refuses to let the rat join because there is 'only one kite'."
+    },
+    {
+      "கேள்வி": "What does the rat build at the end of the story?",
+      "ஆப்ஷன்கள்": ["A treehouse", "A nest", "A sandcastle", "A tent"],
+      "விடை": "A sandcastle",
+      "விளக்கம்": "The rat builds a sandcastle, which attracts the other animals to join."
+    },
+    {
+      "கேள்வி": "Complete the sentence from the story: 'Playing together is always ________.'",
+      "ஆப்ஷன்கள்": ["hard", "fun", "boring", "tiring"],
+      "விடை": "fun",
+      "விளக்கம்": "The moral of the story concludes that inclusion and 'Playing together is always fun'."
+    },
+    {
+      "கேள்வி": "In the Alphabet Jungle, which animal is sleeping in the grass?",
+      "ஆப்ஷன்கள்": ["Jaguar", "Kangaroo", "Lion", "Monkey"],
+      "விடை": "Lion",
+      "விளக்கம்": "According to the Alphabet Jungle, 'L - Lion: Sleeping in the grass'."
+    },
+    {
+      "கேள்வி": "What does the Kangaroo do in the Alphabet Jungle?",
+      "ஆப்ஷன்கள்": ["Climbs a tree", "Hops along the path", "Dances on a branch", "Sleeps in the grass"],
+      "விடை": "Hops along the path",
+      "விளக்கம்": "In the Alphabet Jungle, 'K - Kangaroo: Hops along the path'."
+    },
+    {
+      "கேள்வி": "Which bird dances on a branch in the Alphabet Jungle?",
+      "ஆப்ஷன்கள்": ["Owl", "Nightingale", "Quail", "Parrot"],
+      "விடை": "Parrot",
+      "விளக்கம்": "The text states 'P - Parrot: Dances on a branch'."
+    },
+    {
+      "கேள்வி": "Where does the little Rabbit run into?",
+      "ஆப்ஷன்கள்": ["A hole", "A cave", "A shed", "A house"],
+      "விடை": "A hole",
+      "விளக்கம்": "In the Alphabet Jungle, 'R - Rabbit: Runs into a hole'."
+    },
+    {
+      "கேள்வி": "Give the letter and the example word for 'O' in the Phonics section.",
+      "ஆப்ஷன்கள்": ["O - Owl", "O - Ostrich", "O - Orange", "O - Ox"],
+      "விடை": "O - Orange",
+      "விளக்கம்": "The phonics section teaches the sound for 'o' using the word 'orange'."
+    },
+    {
+      "கேள்வி": "What word is used to show possession in the 'Let us talk' section (e.g., 'Kavin ________ a ball')?",
+      "ஆப்ஷன்கள்": ["is", "have", "are", "has"],
+      "விடை": "has",
+      "விளக்கம்": "The grammar section introduces the structure 'has' (e.g., 'He has a kite,' 'She has a bat')."
+    },
+    {
+      "கேள்வி": "In 'The Magic Fish,' what color were the sea animals before getting colors? (Implied)",
+      "ஆப்ஷன்கள்": ["Colorful", "White/Plain", "Red", "Blue"],
+      "விடை": "White/Plain",
+      "விளக்கம்": "Stories like 'The Magic Fish' typically start with the animals lacking color (plain or white) before the magic fish shares its colors."
+    },
+    {
+      "கேள்வி": "What color does the Crab receive from the Magic Fish?",
+      "ஆப்ஷன்கள்": ["Blue", "Yellow", "Red", "Green"],
+      "விடை": "Red",
+      "விளக்கம்": "According to the story details, the 'Crab: Gets red'."
+    },
+    {
+      "கேள்வி": "Which animal receives the color yellow?",
+      "ஆப்ஷன்கள்": ["Star fish", "Dolphin", "Crab", "Seahorse"],
+      "விடை": "Seahorse",
+      "விளக்கம்": "In the story, the 'Seahorse: Gets yellow'."
+    },
+    {
+      "கேள்வி": "What is the main message/moral of 'The Magic Fish' story?",
+      "ஆப்ஷன்கள்": ["Sharing is caring", "Swimming is fun", "Fish are magic", "The ocean is big"],
+      "விடை": "Sharing is caring",
+      "விளக்கம்": "The story is focused on sharing colors and teaches the moral 'Sharing is caring'."
+    },
+    {
+      "கேள்வி": "If you break a glass, what magic word should you use?",
+      "ஆப்ஷன்கள்": ["Please", "Thank you", "Sorry", "Welcome"],
+      "விடை": "Sorry",
+      "விளக்கம்": "The word 'Sorry' is used as social etiquette when a mistake is made, like breaking a glass."
+    },
+    {
+      "கேள்வி": "What is the starting and ending letter of the word 'marbles'?",
+      "ஆப்ஷன்கள்": ["m and e", "m and s", "p and s", "b and s"],
+      "விடை": "m and s",
+      "விளக்கம்": "The word 'marbles' starts with the letter 'm' and ends with the letter 's'."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "வகுப்பு": "Class 1",
+  "பருவம்": "Term 1",
+  "பாட_எண்": "1",
+  "பாட_தலைப்பு": "Unit 1: My Pet",
+  "பாடக்குறிப்புகள்": [
+    {
+      "தலைப்பு": "1. Main Characters",
+      "விவரங்கள்": "Valli: A young girl who introduces herself and her pet. Chittu: Valli’s pet, which is a kid (a young goat)."
+    },
+    {
+      "தலைப்பு": "2. Greetings and Nature",
+      "விவரங்கள்": "The lesson starts with a 'Hello Song' using greetings like 'Good morning' and 'Hello'. Valli meets a flower named Daisy, a Butterfly, and a Mango tree on her way."
+    },
+    {
+      "தலைப்பு": "3. Alphabet Jungle (A to I)",
+      "விவரங்கள்": "This section associates letters with animals and their habitats: A - Ant: Lives in a hill. B - Bear: Lives in a cave. C - Cat: Is on the tree. D - Dog: Is in its house. E - Elephant: Is in the forest. F - Fox: Is in its hole. G - Goat: Is in the shed. H - Horse: Is in the farm. I - Ibis: Is in the lake."
+    },
+    {
+      "தலைப்பு": "4. Classroom Objects",
+      "விவரங்கள்": "Students learn to identify common items using the structure 'It is a...'. Tech items: Smartboard, Projector, Laptop, Television. Furniture: Table, Stool, Cupboard, Chair. Stationery: Book, Bag, Pencil, Notebook. Fixtures: Fan, Light, Air conditioner, Switchboard, Door, Window."
+    },
+    {
+      "தலைப்பு": "5. Numbers and Counting (1-5)",
+      "விவரங்கள்": "Valli and Chittu see various things in the farm to practice counting: 1 Sun, 1 Cat. 2 Kites, 2 Squirrels. 3 Clouds, 3 Rats. 4 Birds, 4 Frogs. 5 Bees, 5 Dogs."
+    },
+    {
+      "தலைப்பு": "6. Chittu’s Habits",
+      "விவரங்கள்": "Chittu is an active pet that climbs and jumps. Diet: She eats grass, fruits (especially bananas), leaves, and roots."
+    }
+  ],
+  "கேள்விகள்": [
+    {
+      "கேள்வி": "What is the name of Valli’s pet?",
+      "ஆப்ஷன்கள்": ["Pinky", "Chittu", "Puppy", "Kitty"],
+      "விடை": "Chittu",
+      "விளக்கம்": "Valli's pet is named Chittu."
+    },
+    {
+      "கேள்வி": "What animal is Chittu?",
+      "ஆப்ஷன்கள்": ["A puppy", "A kitten", "A kid (young goat)", "A calf"],
+      "விடை": "A kid (young goat)",
+      "விளக்கம்": "Chittu is Valli’s pet, which is a kid (a young goat)."
+    },
+    {
+      "கேள்வி": "What is the name of the flower Valli meets?",
+      "ஆப்ஷன்கள்": ["Rose", "Daisy", "Sunflower", "Lily"],
+      "விடை": "Daisy",
+      "விளக்கம்": "On her way, Valli meets a flower named Daisy."
+    },
+    {
+      "கேள்வி": "How does the Mango tree describe itself?",
+      "ஆப்ஷன்கள்": ["I am small and green", "I am a big Mango tree", "I am full of apples", "I have no leaves"],
+      "விடை": "I am a big Mango tree",
+      "விளக்கம்": "Valli meets a Mango tree, which is a large tree that introduces itself as a big Mango tree."
+    },
+    {
+      "கேள்வி": "Where does the Ant live according to the Alphabet Jungle?",
+      "ஆப்ஷன்கள்": ["In a house", "In a cave", "In a hill", "In a lake"],
+      "விடை": "In a hill",
+      "விளக்கம்": "According to the Alphabet Jungle, 'A - Ant: Lives in a hill.'"
+    },
+    {
+      "கேள்வி": "Which animal lives in a cave?",
+      "ஆப்ஷன்கள்": ["Dog", "Bear", "Elephant", "Fox"],
+      "விடை": "Bear",
+      "விளக்கம்": "In the Alphabet Jungle, 'B - Bear: Lives in a cave.'"
+    },
+    {
+      "கேள்வி": "In the Alphabet Jungle, where is the Elephant found?",
+      "ஆப்ஷன்கள்": ["In the forest", "On the tree", "In the shed", "In the lake"],
+      "விடை": "In the forest",
+      "விளக்கம்": "According to the Alphabet Jungle, 'E - Elephant: Is in the forest.'"
+    },
+    {
+      "கேள்வி": "Which bird is found in the lake?",
+      "ஆப்ஷன்கள்": ["Parrot", "Ibis", "Crow", "Sparrow"],
+      "விடை": "Ibis",
+      "விளக்கம்": "In the Alphabet Jungle, 'I - Ibis: Is in the lake.'"
+    },
+    {
+      "கேள்வி": "Name any two tech-related objects found in the classroom.",
+      "ஆப்ஷன்கள்": ["Table and Chair", "Pencil and Notebook", "Smartboard and Projector", "Fan and Light"],
+      "விடை": "Smartboard and Projector",
+      "விளக்கம்": "Tech items in the classroom include the Smartboard, Projector, Laptop, and Television."
+    },
+    {
+      "கேள்வி": "What sentence structure is used to identify a book?",
+      "ஆப்ஷன்கள்": ["That was a book.", "It is a book.", "I have a book.", "Where is the book?"],
+      "விடை": "It is a book.",
+      "விளக்கம்": "Students learn to identify common items using the structure 'It is a...' (e.g., 'It is a book.')."
+    },
+    {
+      "கேள்வி": "Who are the two friends Valli meets on her way?",
+      "ஆப்ஷன்கள்": ["A dog and a cat", "Daisy and a Butterfly", "A lion and a tiger", "A boy and a girl"],
+      "விடை": "Daisy and a Butterfly",
+      "விளக்கம்": "Valli meets a flower named Daisy, a Butterfly, and a Mango tree."
+    },
+    {
+      "கேள்வி": "Does Chittu like to eat fruits?",
+      "ஆப்ஷன்கள்": ["Yes, especially bananas", "No, it only eats meat", "Only apples", "It does not eat at all"],
+      "விடை": "Yes, especially bananas",
+      "விளக்கம்": "Chittu's diet includes fruits, and she especially likes bananas."
+    },
+    {
+      "கேள்வி": "Name three things Chittu eats besides fruits.",
+      "ஆப்ஷன்கள்": ["Meat, fish, and eggs", "Grass, leaves, and roots", "Bread, butter, and jam", "Rice, dal, and chapati"],
+      "விடை": "Grass, leaves, and roots",
+      "விளக்கம்": "Besides fruits, Chittu eats grass, leaves, and roots."
+    },
+    {
+      "கேள்வி": "How many kites are seen in the farm?",
+      "ஆப்ஷன்கள்": ["1", "2", "3", "4"],
+      "விடை": "2",
+      "விளக்கம்": "During the counting exercise, they see 2 Kites."
+    },
+    {
+      "கேள்வி": "How many birds are flying in the sky?",
+      "ஆப்ஷன்கள்": ["2", "3", "4", "5"],
+      "விடை": "4",
+      "விளக்கம்": "According to the numbers and counting section, there are 4 Birds."
+    },
+    {
+      "கேள்வி": "Which animal is seen jumping in the farm (4 in number)?",
+      "ஆப்ஷன்கள்": ["Dogs", "Cats", "Squirrels", "Frogs"],
+      "விடை": "Frogs",
+      "விளக்கம்": "The counting list mentions 4 Frogs, which are animals known for jumping."
+    },
+    {
+      "கேள்வி": "What is the home of the Horse called?",
+      "ஆப்ஷன்கள்": ["Shed", "Farm", "Cave", "Hole"],
+      "விடை": "Farm",
+      "விளக்கம்": "In the Alphabet Jungle, 'H - Horse: Is in the farm.'"
+    },
+    {
+      "கேள்வி": "Name the object used to show movies or slides in the classroom.",
+      "ஆப்ஷன்கள்": ["Projector", "Switchboard", "Air conditioner", "Cupboard"],
+      "விடை": "Projector",
+      "விளக்கம்": "A Projector is a tech item used in classrooms to display slides or videos."
+    },
+    {
+      "கேள்வி": "What is the greeting used in the morning song?",
+      "ஆப்ஷன்கள்": ["Good evening", "Hello / Good morning", "Good night", "Goodbye"],
+      "விடை": "Hello / Good morning",
+      "விளக்கம்": "The lesson starts with a 'Hello Song' using greetings like 'Good morning' and 'Hello'."
+    },
+    {
+      "கேள்வி": "Which letter comes after 'H' in the Alphabet Jungle?",
+      "ஆப்ஷன்கள்": ["G", "I", "J", "K"],
+      "விடை": "I",
+      "விளக்கம்": "The Alphabet Jungle covers letters A to I. The letter 'I' (for Ibis) comes immediately after 'H'."
+    }
+  ]
+}

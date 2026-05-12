@@ -1,0 +1,158 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி",
+    "unit": "1",
+    "grade": "1",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_1_t1_l1"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the name of Valli’s pet?",
+        "options": ["Pinky", "Chittu", "Puppy", "Kitty"],
+        "answer": 1,
+        "explanation": "Valli's pet is named Chittu."
+      },
+      {
+        "question": "What animal is Chittu?",
+        "options": ["A puppy", "A kitten", "A kid (young goat)", "A calf"],
+        "answer": 2,
+        "explanation": "Chittu is Valli’s pet, which is a kid (a young goat)."
+      },
+      {
+        "question": "What is the name of the flower Valli meets?",
+        "options": ["Rose", "Daisy", "Sunflower", "Lily"],
+        "answer": 1,
+        "explanation": "On her way, Valli meets a flower named Daisy."
+      },
+      {
+        "question": "How does the Mango tree describe itself?",
+        "options": ["I am small and green", "I am a big Mango tree", "I am full of apples", "I have no leaves"],
+        "answer": 1,
+        "explanation": "Valli meets a Mango tree, which is a large tree that introduces itself as a big Mango tree."
+      },
+      {
+        "question": "Where does the Ant live according to the Alphabet Jungle?",
+        "options": ["In a house", "In a cave", "In a hill", "In a lake"],
+        "answer": 2,
+        "explanation": "According to the Alphabet Jungle, 'A - Ant: Lives in a hill.'"
+      },
+      {
+        "question": "Which animal lives in a cave?",
+        "options": ["Dog", "Bear", "Elephant", "Fox"],
+        "answer": 1,
+        "explanation": "In the Alphabet Jungle, 'B - Bear: Lives in a cave.'"
+      },
+      {
+        "question": "In the Alphabet Jungle, where is the Elephant found?",
+        "options": ["In the forest", "On the tree", "In the shed", "In the lake"],
+        "answer": 0,
+        "explanation": "According to the Alphabet Jungle, 'E - Elephant: Is in the forest.'"
+      },
+      {
+        "question": "Which bird is found in the lake?",
+        "options": ["Parrot", "Ibis", "Crow", "Sparrow"],
+        "answer": 1,
+        "explanation": "In the Alphabet Jungle, 'I - Ibis: Is in the lake.'"
+      },
+      {
+        "question": "Name any two tech-related objects found in the classroom.",
+        "options": ["Table and Chair", "Pencil and Notebook", "Smartboard and Projector", "Fan and Light"],
+        "answer": 2,
+        "explanation": "Tech items in the classroom include the Smartboard, Projector, Laptop, and Television."
+      },
+      {
+        "question": "What sentence structure is used to identify a book?",
+        "options": ["That was a book.", "It is a book.", "I have a book.", "Where is the book?"],
+        "answer": 1,
+        "explanation": "Students learn to identify common items using the structure 'It is a...' (e.g., 'It is a book.')."
+      },
+      {
+        "question": "Who are the two friends Valli meets on her way?",
+        "options": ["A dog and a cat", "Daisy and a Butterfly", "A lion and a tiger", "A boy and a girl"],
+        "answer": 1,
+        "explanation": "Valli meets a flower named Daisy, a Butterfly, and a Mango tree."
+      },
+      {
+        "question": "Does Chittu like to eat fruits?",
+        "options": ["Yes, especially bananas", "No, it only eats meat", "Only apples", "It does not eat at all"],
+        "answer": 0,
+        "explanation": "Chittu's diet includes fruits, and she especially likes bananas."
+      },
+      {
+        "question": "Name three things Chittu eats besides fruits.",
+        "options": ["Meat, fish, and eggs", "Grass, leaves, and roots", "Bread, butter, and jam", "Rice, dal, and chapati"],
+        "answer": 1,
+        "explanation": "Besides fruits, Chittu eats grass, leaves, and roots."
+      },
+      {
+        "question": "How many kites are seen in the farm?",
+        "options": ["1", "2", "3", "4"],
+        "answer": 1,
+        "explanation": "During the counting exercise, they see 2 Kites."
+      },
+      {
+        "question": "How many birds are flying in the sky?",
+        "options": ["2", "3", "4", "5"],
+        "answer": 2,
+        "explanation": "According to the numbers and counting section, there are 4 Birds."
+      },
+      {
+        "question": "Which animal is seen jumping in the farm (4 in number)?",
+        "options": ["Dogs", "Cats", "Squirrels", "Frogs"],
+        "answer": 3,
+        "explanation": "The counting list mentions 4 Frogs, which are animals known for jumping."
+      },
+      {
+        "question": "What is the home of the Horse called?",
+        "options": ["Shed", "Farm", "Cave", "Hole"],
+        "answer": 1,
+        "explanation": "In the Alphabet Jungle, 'H - Horse: Is in the farm.'"
+      },
+      {
+        "question": "Name the object used to show movies or slides in the classroom.",
+        "options": ["Projector", "Switchboard", "Air conditioner", "Cupboard"],
+        "answer": 0,
+        "explanation": "A Projector is a tech item used in classrooms to display slides or videos."
+      },
+      {
+        "question": "What is the greeting used in the morning song?",
+        "options": ["Good evening", "Hello / Good morning", "Good night", "Goodbye"],
+        "answer": 1,
+        "explanation": "The lesson starts with a 'Hello Song' using greetings like 'Good morning' and 'Hello'."
+      },
+      {
+        "question": "Which letter comes after 'H' in the Alphabet Jungle?",
+        "options": ["G", "I", "J", "K"],
+        "answer": 1,
+        "explanation": "The Alphabet Jungle covers letters A to I. The letter 'I' (for Ibis) comes immediately after 'H'."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit introduces Valli and her pet Chittu. It focuses on basic greetings, identifying objects in the classroom, numbers 1-5, and learning letters A-I through animal associations in the 'Alphabet Jungle'."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Greetings: Hello Song, Good morning.\n• Alphabet Jungle (A-I): Associating letters with animals and habitats (e.g., A-Ant-Hill, B-Bear-Cave).\n• Classroom Objects: Identifying tech items, furniture, stationery, and fixtures using 'It is a...'.\n• Numbers: Counting objects from 1 to 5 in a farm setting.\n• Characters: Valli and her pet Chittu (a young goat)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Alphabet Jungle (A to I):\n• A - Ant: Hill\n• B - Bear: Cave\n• C - Cat: Tree\n• D - Dog: House\n• E - Elephant: Forest\n• F - Fox: Hole\n• G - Goat: Shed\n• H - Horse: Farm\n• I - Ibis: Lake"
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Greetings: Words like 'Hello' and 'Good morning' used when meeting people.\n• Tech Items: Modern classroom tools like Smartboard, Projector, and Laptop.\n• Stationery: Items used for writing and studying like Pencil, Notebook, and Eraser."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• Chittu is a 'kid' (young goat).\n• Use the sentence structure 'It is a...' to name objects.\n• Remember the homes/habitats of animals from A to I."
+      }
+    ]
+  }
+}

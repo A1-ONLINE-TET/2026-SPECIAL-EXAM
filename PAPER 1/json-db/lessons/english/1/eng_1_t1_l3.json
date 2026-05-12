@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 3: Families || அலகு 3: குடும்பங்கள்",
+    "unit": "3",
+    "grade": "1",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_1_t1_l3"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the name of the girl who introduces her family in Unit 3?",
+        "options": ["Mary", "Meenu", "Nila", "Valli"],
+        "answer": 2,
+        "explanation": "The unit begins with 'Meet Nila’s Family' where Nila introduces herself."
+      },
+      {
+        "question": "Where does Nila live?",
+        "options": ["Chennai", "Salem", "Madurai", "Trichy"],
+        "answer": 1,
+        "explanation": "According to the notes, Nila states that she lives in Salem."
+      },
+      {
+        "question": "What is the name of Nila’s sister?",
+        "options": ["Mary", "Valli", "Daisy", "Meenu"],
+        "answer": 3,
+        "explanation": "Nila introduces her family, including her sister named Meenu."
+      },
+      {
+        "question": "Who does Mary live with?",
+        "options": ["Her mother", "Her grandfather", "Her father", "Her brother"],
+        "answer": 0,
+        "explanation": "Mary is Nila's friend, and the notes mention she lives with her mother."
+      },
+      {
+        "question": "What is the occupation of Abdul’s mother?",
+        "options": ["Teacher", "Chef", "Doctor", "Pilot"],
+        "answer": 3,
+        "explanation": "Abdul introduces his family and says his mother is a pilot."
+      },
+      {
+        "question": "What is the occupation of Abdul’s father?",
+        "options": ["Farmer", "Chef", "Driver", "Pilot"],
+        "answer": 1,
+        "explanation": "Abdul mentions that his father works as a chef."
+      },
+      {
+        "question": "According to the 'Different Families' song, what are some of the things a family does for you?",
+        "options": ["Fights and argues", "Ignores and leaves", "Helps, loves, takes care, and keeps safe", "Only cooks food"],
+        "answer": 2,
+        "explanation": "The role of a family is described as helping, loving, taking care, and keeping its members safe."
+      },
+      {
+        "question": "In the Alphabet Jungle, what is the baby of a Tiger called?",
+        "options": ["Pup", "Calf", "Cub", "Foal"],
+        "answer": 2,
+        "explanation": "In the Alphabet Jungle section, 'T - Tiger: Has a cub'."
+      },
+      {
+        "question": "Where does the Vulture's chick live?",
+        "options": ["In a hole in a tree", "High up on the rock", "In the grass", "In a cave"],
+        "answer": 1,
+        "explanation": "The text states 'V - Vulture: Its chick lives high up on the rock'."
+      },
+      {
+        "question": "What is the name of a baby Wolf?",
+        "options": ["Cub", "Pup", "Kid", "Piglet"],
+        "answer": 1,
+        "explanation": "According to the Alphabet Jungle, 'W - Wolf: Its baby is called a pup'."
+      },
+      {
+        "question": "Which animal has a baby called a 'foal'?",
+        "options": ["Zebra", "Yak", "Tiger", "Fox"],
+        "answer": 0,
+        "explanation": "The notes specify 'Z - Zebra: Its baby is called a foal'."
+      },
+      {
+        "question": "Name the object starting with 'U' mentioned in the phonics section.",
+        "options": ["Unicorn", "Uncle", "Umbrella", "Urn"],
+        "answer": 2,
+        "explanation": "The phonics and vocabulary section lists 'Umbrella' for the letter 'U'."
+      },
+      {
+        "question": "What is the young one of a Duck called?",
+        "options": ["Chick", "Cub", "Duckling", "Calf"],
+        "answer": 2,
+        "explanation": "In the Animal Young Ones section, the baby of a duck is called a duckling."
+      },
+      {
+        "question": "A baby Pig is called a ________.",
+        "options": ["Pup", "Foal", "Piglet", "Kid"],
+        "answer": 2,
+        "explanation": "The baby or young one of a pig is known as a piglet."
+      },
+      {
+        "question": "What is the young one of an Elephant called?",
+        "options": ["Calf", "Cub", "Pup", "Foal"],
+        "answer": 0,
+        "explanation": "The young one of an elephant is referred to as a calf."
+      },
+      {
+        "question": "In the song 'Hop a little,' what should you do after you 'skip a little'?",
+        "options": ["Run", "Bend", "Jump", "Sleep"],
+        "answer": 2,
+        "explanation": "In traditional nursery rhymes like 'Hop a little', the sequence goes 'Hop a little, jump a little...' (though not explicitly detailed in the brief notes, it's a common pairing; jump is an action word listed)."
+      },
+      {
+        "question": "What is the first step in the gardening song 'This is the way'?",
+        "options": ["Water the plants", "Grow the plants", "Plant the seeds", "Dig the ground"],
+        "answer": 3,
+        "explanation": "The steps are described sequentially: dig the ground, plant the seeds, water the plants, and grow the plants."
+      },
+      {
+        "question": "When do the characters in the song plant the seeds?",
+        "options": ["After watering", "Before digging", "After digging the ground", "When they sleep"],
+        "answer": 2,
+        "explanation": "The sequence is: first 'dig the ground', then 'plant the seeds'."
+      },
+      {
+        "question": "Name three action words mentioned in the 'Let us do' section.",
+        "options": ["Run, walk, crawl", "Eat, dance, sleep", "Fly, swim, dive", "Sing, read, write"],
+        "answer": 1,
+        "explanation": "The action words listed in the notes are: Eat, dance, sleep, clean, cry, jump, smile."
+      },
+      {
+        "question": "Does Nila have a grandpa and a grandma?",
+        "options": ["Yes", "No", "Only a grandpa", "Only a grandma"],
+        "answer": 0,
+        "explanation": "Nila introduces her family, which includes her father, mother, sister, grandpa, and grandma."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit focuses on families and friends. It introduces different types of families (small and large), the roles of family members, and animal young ones. It also covers phonic sounds for letters S-Z."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Family Members: Introduction to Nila's family (Salem) and her friends Mary and Abdul.\n• Diversity in Families: Understanding that families can have different sizes and structures.\n• Animal Young Ones: Learning the names of baby animals (e.g., Lion-Cub, Duck-Duckling).\n• Alphabet Jungle (S-Z): Identifying animal parents and their babies (e.g., Tiger-Cub, Zebra-Foal).\n• Gardening: Steps of gardening through the song 'This is the way'."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Animal Young Ones:\n• Lion - Cub\n• Duck - Duckling\n• Pig - Piglet\n• Zebra - Foal\n• Hen - Chick\n• Goat - Kid\n• Elephant - Calf"
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Alphabet Jungle Parents & Babies:\n• S - Squirrel: Has a baby.\n• T - Tiger: Has a cub.\n• U - Upupa: Chick in tree hole.\n• V - Vulture: Chick on rock.\n• W - Wolf: Pup.\n• X - Fox: Cub.\n• Y - Yak: Calf.\n• Z - Zebra: Foal."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Family: A group of people who love, help, and keep each other safe.\n• Offspring/Young Ones: The babies of animals.\n• Gardening: The activity of growing and taking care of plants."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• Families make us happy.\n• Each animal baby has a specific name (e.g., Piglet for Pig).\n• Steps of Gardening: Dig -> Plant -> Water -> Grow."
+      }
+    ]
+  }
+}

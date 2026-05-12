@@ -57,6 +57,60 @@ export const lessonMap = {
     "grade": "4",
     "title": "அகரமுதலி - சொற்பொருள்"
   },
+  "Unit 1: My Pet": {
+    "local": true,
+    "filename": "1",
+    "grade": "1",
+    "title": "Unit 1: My Pet"
+  },
+  "Unit 2: Play Time": {
+    "local": true,
+    "filename": "2",
+    "grade": "1",
+    "title": "Unit 2: Play Time"
+  },
+  "Unit 3: Families": {
+    "local": true,
+    "filename": "3",
+    "grade": "1",
+    "title": "Unit 3: Families"
+  },
+  "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி": {
+    "local": true,
+    "filename": "eng_1_t1_l1",
+    "grade": "1",
+    "title": "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி"
+  },
+  "eng_1_t1_l1": {
+    "local": true,
+    "filename": "eng_1_t1_l1",
+    "grade": "1",
+    "title": "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி"
+  },
+  "Unit 2: Play Time || அலகு 2: விளையாட்டு நேரம்": {
+    "local": true,
+    "filename": "eng_1_t1_l2",
+    "grade": "1",
+    "title": "Unit 2: Play Time || அலகு 2: விளையாட்டு நேரம்"
+  },
+  "eng_1_t1_l2": {
+    "local": true,
+    "filename": "eng_1_t1_l2",
+    "grade": "1",
+    "title": "Unit 2: Play Time || அலகு 2: விளையாட்டு நேரம்"
+  },
+  "Unit 3: Families || அலகு 3: குடும்பங்கள்": {
+    "local": true,
+    "filename": "eng_1_t1_l3",
+    "grade": "1",
+    "title": "Unit 3: Families || அலகு 3: குடும்பங்கள்"
+  },
+  "eng_1_t1_l3": {
+    "local": true,
+    "filename": "eng_1_t1_l3",
+    "grade": "1",
+    "title": "Unit 3: Families || அலகு 3: குடும்பங்கள்"
+  },
   "Unit 1: Our Sweet Home || அலகு 1: எனது இனிமையான இல்லம்": {
     "local": true,
     "filename": "eng_2_t1_l1",
@@ -2571,42 +2625,6 @@ export const lessonMap = {
     "grade": "8",
     "title": "தமிழ் - முழுப் பாடக்குறிப்புகள் (8ஆம் வகுப்பு, முழுப் புத்தகம்)"
   },
-  "உலா போகலாம்": {
-    "local": true,
-    "filename": "tam_1_t3_l1",
-    "grade": "1",
-    "title": "உலா போகலாம்"
-  },
-  "இனிப்பு செய்யலாமா?": {
-    "local": true,
-    "filename": "tam_1_t3_l2",
-    "grade": "1",
-    "title": "இனிப்பு செய்யலாமா?"
-  },
-  "ஊஞ்சல் ஆடலாமா?": {
-    "local": true,
-    "filename": "tam_1_t3_l3",
-    "grade": "1",
-    "title": "ஊஞ்சல் ஆடலாமா?"
-  },
-  "இனியாவின் ஒரு வாரம்": {
-    "local": true,
-    "filename": "tam_1_t3_l4",
-    "grade": "1",
-    "title": "இனியாவின் ஒரு வாரம்"
-  },
-  "தோரணம் செய்வோமா!": {
-    "local": true,
-    "filename": "tam_1_t3_l5",
-    "grade": "1",
-    "title": "தோரணம் செய்வோமா!"
-  },
-  "இளையார் ஆத்திசூடி": {
-    "local": true,
-    "filename": "tam_1_t3_l6",
-    "grade": "1",
-    "title": "இளையார் ஆத்திசூடி"
-  },
   "பாடி ஆடி விளையாடலாம்": {
     "local": true,
     "filename": "tam_1_t1_l1",
@@ -2715,11 +2733,23 @@ export const lessonMap = {
     "grade": "1",
     "title": "அறுசுவை அறிவோம்"
   },
+  "உலா போகலாம்": {
+    "local": true,
+    "filename": "tam_1_t3_l1",
+    "grade": "1",
+    "title": "உலா போகலாம்"
+  },
   "tam_1_t3_l1": {
     "local": true,
     "filename": "tam_1_t3_l1",
     "grade": "1",
     "title": "உலா போகலாம்"
+  },
+  "இனிப்பு செய்யலாமா?": {
+    "local": true,
+    "filename": "tam_1_t3_l2",
+    "grade": "1",
+    "title": "இனிப்பு செய்யலாமா?"
   },
   "tam_1_t3_l2": {
     "local": true,
@@ -2727,11 +2757,23 @@ export const lessonMap = {
     "grade": "1",
     "title": "இனிப்பு செய்யலாமா?"
   },
+  "ஊஞ்சல் ஆடலாமா?": {
+    "local": true,
+    "filename": "tam_1_t3_l3",
+    "grade": "1",
+    "title": "ஊஞ்சல் ஆடலாமா?"
+  },
   "tam_1_t3_l3": {
     "local": true,
     "filename": "tam_1_t3_l3",
     "grade": "1",
     "title": "ஊஞ்சல் ஆடலாமா?"
+  },
+  "இனியாவின் ஒரு வாரம்": {
+    "local": true,
+    "filename": "tam_1_t3_l4",
+    "grade": "1",
+    "title": "இனியாவின் ஒரு வாரம்"
   },
   "tam_1_t3_l4": {
     "local": true,
@@ -2739,11 +2781,23 @@ export const lessonMap = {
     "grade": "1",
     "title": "இனியாவின் ஒரு வாரம்"
   },
+  "தோரணம் செய்வோமா!": {
+    "local": true,
+    "filename": "tam_1_t3_l5",
+    "grade": "1",
+    "title": "தோரணம் செய்வோமா!"
+  },
   "tam_1_t3_l5": {
     "local": true,
     "filename": "tam_1_t3_l5",
     "grade": "1",
     "title": "தோரணம் செய்வோமா!"
+  },
+  "இளையார் ஆத்திசூடி": {
+    "local": true,
+    "filename": "tam_1_t3_l6",
+    "grade": "1",
+    "title": "இளையார் ஆத்திசூடி"
   },
   "tam_1_t3_l6": {
     "local": true,

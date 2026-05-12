@@ -979,6 +979,33 @@ export const syllabusData = {
     ]
   },
   "english": {
+    "1": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "Unit 1: My Pet || அலகு 1: எனது செல்லப்பிராணி",
+                "isUpdated": true,
+                "code": "eng_1_t1_l1"
+              },
+              {
+                "title": "Unit 2: Play Time || அலகு 2: விளையாட்டு நேரம்",
+                "isUpdated": true,
+                "code": "eng_1_t1_l2"
+              },
+              {
+                "title": "Unit 3: Families || அலகு 3: குடும்பங்கள்",
+                "isUpdated": true,
+                "code": "eng_1_t1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "2": [
       {
         "term": 1,

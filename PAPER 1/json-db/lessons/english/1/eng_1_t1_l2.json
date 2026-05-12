@@ -1,0 +1,162 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: Play Time || அலகு 2: விளையாட்டு நேரம்",
+    "unit": "2",
+    "grade": "1",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_1_t1_l2"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the title of the second unit in the English textbook?",
+        "options": ["My Pet", "Play Time", "Our Family", "School Time"],
+        "answer": 1,
+        "explanation": "The second unit focuses on the theme of play and is titled 'Play Time'."
+      },
+      {
+        "question": "Name three playthings mentioned in the 'Look and say' section.",
+        "options": ["Pen, pencil, and book", "Table, chair, and desk", "Bat, ball, and kite", "Car, train, and bus"],
+        "answer": 2,
+        "explanation": "The vocabulary section introduces toys and games like kite, bat, ball, top, balloon, bicycle, and marbles."
+      },
+      {
+        "question": "In the song 'Clap your hands,' what action follows 'Stamp your feet'?",
+        "options": ["Bend and stretch", "Skip and run", "Turn around", "Hop and jump"],
+        "answer": 1,
+        "explanation": "The song introduces action words in sequence, such as clap, stamp, skip, and run."
+      },
+      {
+        "question": "Which animal is trying to join the games in the story 'Come, Let us Play'?",
+        "options": ["Rabbit", "Dog", "Monkey", "Rat"],
+        "answer": 3,
+        "explanation": "The story highlights a small rat who wants to play but is initially refused by the other animals."
+      },
+      {
+        "question": "What game are the dogs playing?",
+        "options": ["Hopscotch", "Football", "Cricket", "Tennis"],
+        "answer": 2,
+        "explanation": "In the comic strip 'Come, Let us Play', the dogs are playing cricket."
+      },
+      {
+        "question": "Why can't the rat fly a kite with the rabbit?",
+        "options": ["Rats cannot fly", "The rabbit has only one kite", "The kite is broken", "The rat does not like kites"],
+        "answer": 1,
+        "explanation": "The rabbit refuses to let the rat join because there is 'only one kite'."
+      },
+      {
+        "question": "What does the rat build at the end of the story?",
+        "options": ["A treehouse", "A nest", "A sandcastle", "A tent"],
+        "answer": 2,
+        "explanation": "The rat builds a sandcastle, which attracts the other animals to join."
+      },
+      {
+        "question": "Complete the sentence from the story: 'Playing together is always ________.'",
+        "options": ["hard", "fun", "boring", "tiring"],
+        "answer": 1,
+        "explanation": "The moral of the story concludes that inclusion and 'Playing together is always fun'."
+      },
+      {
+        "question": "In the Alphabet Jungle, which animal is sleeping in the grass?",
+        "options": ["Jaguar", "Kangaroo", "Lion", "Monkey"],
+        "answer": 2,
+        "explanation": "According to the Alphabet Jungle, 'L - Lion: Sleeping in the grass'."
+      },
+      {
+        "question": "What does the Kangaroo do in the Alphabet Jungle?",
+        "options": ["Climbs a tree", "Hops along the path", "Dances on a branch", "Sleeps in the grass"],
+        "answer": 1,
+        "explanation": "In the Alphabet Jungle, 'K - Kangaroo: Hops along the path'."
+      },
+      {
+        "question": "Which bird dances on a branch in the Alphabet Jungle?",
+        "options": ["Owl", "Nightingale", "Quail", "Parrot"],
+        "answer": 3,
+        "explanation": "The text states 'P - Parrot: Dances on a branch'."
+      },
+      {
+        "question": "Where does the little Rabbit run into?",
+        "options": ["A hole", "A cave", "A shed", "A house"],
+        "answer": 0,
+        "explanation": "In the Alphabet Jungle, 'R - Rabbit: Runs into a hole'."
+      },
+      {
+        "question": "Give the letter and the example word for 'O' in the Phonics section.",
+        "options": ["O - Owl", "O - Ostrich", "O - Orange", "O - Ox"],
+        "answer": 2,
+        "explanation": "The phonics section teaches the sound for 'o' using the word 'orange'."
+      },
+      {
+        "question": "What word is used to show possession in the 'Let us talk' section (e.g., 'Kavin ________ a ball')?",
+        "options": ["is", "have", "are", "has"],
+        "answer": 3,
+        "explanation": "The grammar section introduces the structure 'has' (e.g., 'He has a kite,' 'She has a bat')."
+      },
+      {
+        "question": "In 'The Magic Fish,' what color were the sea animals before getting colors? (Implied)",
+        "options": ["Colorful", "White/Plain", "Red", "Blue"],
+        "answer": 1,
+        "explanation": "Stories like 'The Magic Fish' typically start with the animals lacking color (plain or white) before the magic fish shares its colors."
+      },
+      {
+        "question": "What color does the Crab receive from the Magic Fish?",
+        "options": ["Blue", "Yellow", "Red", "Green"],
+        "answer": 2,
+        "explanation": "According to the story details, the 'Crab: Gets red'."
+      },
+      {
+        "question": "Which animal receives the color yellow?",
+        "options": ["Star fish", "Dolphin", "Crab", "Seahorse"],
+        "answer": 3,
+        "explanation": "In the story, the 'Seahorse: Gets yellow'."
+      },
+      {
+        "question": "What is the main message/moral of 'The Magic Fish' story?",
+        "options": ["Sharing is caring", "Swimming is fun", "Fish are magic", "The ocean is big"],
+        "answer": 0,
+        "explanation": "The story is focused on sharing colors and teaches the moral 'Sharing is caring'."
+      },
+      {
+        "question": "If you break a glass, what magic word should you use?",
+        "options": ["Please", "Thank you", "Sorry", "Welcome"],
+        "answer": 2,
+        "explanation": "The word 'Sorry' is used as social etiquette when a mistake is made, like breaking a glass."
+      },
+      {
+        "question": "What is the starting and ending letter of the word 'marbles'?",
+        "options": ["m and e", "m and s", "p and s", "b and s"],
+        "answer": 1,
+        "explanation": "The word 'marbles' starts with the letter 'm' and ends with the letter 's'."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit, 'Play Time', explores games, toys, and the importance of playing together. It covers action words through the 'Clap your hands' song, social values through the rat's story and 'The Magic Fish', and phonic sounds for letters J-R."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Vocabulary: Playthings (bat, ball, kite), Nature (sky, clouds), and Surroundings.\n• Song: 'Clap your hands' introduces action verbs like stamp, skip, hop, and stretch.\n• Story: 'Come, Let us Play' teaches inclusion (playing together is fun).\n• Alphabet Jungle (J-R): Animal actions (e.g., K-Kangaroo-Hops, M-Monkey-Climbs).\n• Phonics: Letters Jj to Rr and their sounds.\n• Social Skills: Magic words like 'Thank you' and 'Sorry'."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Alphabet Jungle (J to R):\n• J - Jaguar\n• K - Kangaroo: Hops\n• L - Lion: Sleeps\n• M - Monkey: Climbs\n• N - Nightingale\n• O - Owl: Looks\n• P - Parrot: Dances\n• Q - Quail\n• R - Rabbit: Runs"
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "▸ Magic Words:\n• 'Thank you' is used when someone gives you something.\n• 'Sorry' is used when you make a mistake or hurt someone."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• Action Words: Verbs that describe movement (clap, stamp, hop).\n• Inclusion: The act of inviting everyone to play regardless of their size or skill.\n• Possession: Using 'has' to show what someone owns (e.g., 'He has a ball')."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "• 'Sharing is caring' - the lesson from The Magic Fish.\n• Inclusion - 'Playing together is always fun'.\n• Remember the action words and their phonic sounds."
+      }
+    ]
+  }
+}
