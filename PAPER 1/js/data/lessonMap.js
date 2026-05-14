@@ -941,8 +941,8 @@ export const lessonMap = {
   },
   "காலம்": {
     "local": true,
-    "filename": "mat_3_t2_l4",
-    "grade": "3",
+    "filename": "mat_4_t3_l4",
+    "grade": "4",
     "title": "காலம்"
   },
   "mat_2_t1_l5": {
@@ -1293,15 +1293,53 @@ export const lessonMap = {
     "grade": "4",
     "title": "தகவல் செயலாக்கம்"
   },
+  "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்": {
+    "local": true,
+    "filename": "mat_4_t3_l1",
+    "grade": "4",
+    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
+  },
   "mat_4_t3_l1": {
     "local": true,
     "filename": "mat_4_t3_l1",
-    "grade": "4"
+    "grade": "4",
+    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
+  },
+  "mat_4_t3_l2": {
+    "local": true,
+    "filename": "mat_4_t3_l2",
+    "grade": "4",
+    "title": "எண்கள்"
+  },
+  "அளவைகள் - கன அளவு": {
+    "local": true,
+    "filename": "mat_4_t3_l3",
+    "grade": "4",
+    "title": "அளவைகள் - கன அளவு"
+  },
+  "mat_4_t3_l3": {
+    "local": true,
+    "filename": "mat_4_t3_l3",
+    "grade": "4",
+    "title": "அளவைகள் - கன அளவு"
+  },
+  "mat_4_t3_l4": {
+    "local": true,
+    "filename": "mat_4_t3_l4",
+    "grade": "4",
+    "title": "காலம்"
+  },
+  "mat_4_t3_l5": {
+    "local": true,
+    "filename": "mat_4_t3_l5",
+    "grade": "4",
+    "title": "பணம்"
   },
   "mat_4_t3_l6": {
     "local": true,
     "filename": "mat_4_t3_l6",
-    "grade": "4"
+    "grade": "4",
+    "title": "பின்னங்கள்"
   },
   "mat_5_t1_l1": {
     "local": true,
