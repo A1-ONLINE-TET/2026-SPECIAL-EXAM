@@ -1,6 +1,112 @@
-export // Last Updated: 2026-05-14T15:36:21+05:30
-const syllabusData = {
+export const syllabusData = {
   "tamil": {
+    "1": [
+      {
+        "term": 1,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "பாடி ஆடி விளையாடலாம்",
+                "isUpdated": true,
+                "code": "tam_1_t1_l1"
+              },
+              {
+                "title": "விரலோடு விளையாடு",
+                "isUpdated": true,
+                "code": "tam_1_t1_l2"
+              },
+              {
+                "title": "அருவியின் ஆட்டுக்குட்டி",
+                "isUpdated": true,
+                "code": "tam_1_t1_l3"
+              },
+              {
+                "title": "கொக்கு நிற்கும் குளக்கரை",
+                "isUpdated": true,
+                "code": "tam_1_t1_l4"
+              },
+              {
+                "title": "கடற்கரைக்குச் செல்வோமா!",
+                "isUpdated": true,
+                "code": "tam_1_t1_l5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "ஜலசா! ஜலசா!",
+                "isUpdated": true,
+                "code": "tam_1_t2_l1"
+              },
+              {
+                "title": "காட்டிலே ஒரு விருந்து",
+                "isUpdated": true,
+                "code": "tam_1_t2_l2"
+              },
+              {
+                "title": "பழமும் படகும்",
+                "isUpdated": true,
+                "code": "tam_1_t2_l3"
+              },
+              {
+                "title": "அறுசுவை அறிவோம்",
+                "isUpdated": true,
+                "code": "tam_1_t2_l4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "உலா போகலாம்",
+                "isUpdated": true,
+                "code": "tam_1_t3_l1"
+              },
+              {
+                "title": "இனிப்பு செய்யலாமா?",
+                "isUpdated": true,
+                "code": "tam_1_t3_l2"
+              },
+              {
+                "title": "ஊஞ்சல் ஆடலாமா?",
+                "isUpdated": true,
+                "code": "tam_1_t3_l3"
+              },
+              {
+                "title": "இனியாவின் ஒரு வாரம்",
+                "isUpdated": true,
+                "code": "tam_1_t3_l4"
+              },
+              {
+                "title": "தோரணம் செய்வோமா!",
+                "isUpdated": true,
+                "code": "tam_1_t3_l5"
+              },
+              {
+                "title": "இளையார் ஆத்திசூடி",
+                "isUpdated": true,
+                "code": "tam_1_t3_l6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "2": [
       {
         "term": 1,
@@ -848,113 +954,6 @@ const syllabusData = {
                 "title": "திருக்குறள்",
                 "isUpdated": true,
                 "code": "tam_8_l41"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "1": [
-      {
-        "term": 1,
-        "units": [
-          {
-            "title": "பாடப்பகுதிகள்",
-            "topics": [
-              {
-                "title": "பாடி ஆடி விளையாடலாம்",
-                "isUpdated": true,
-                "code": "tam_1_t1_l1"
-              },
-              {
-                "title": "விரலோடு விளையாடு",
-                "isUpdated": true,
-                "code": "tam_1_t1_l2"
-              },
-              {
-                "title": "அருவியின் ஆட்டுக்குட்டி",
-                "isUpdated": true,
-                "code": "tam_1_t1_l3"
-              },
-              {
-                "title": "கொக்கு நிற்கும் குளக்கரை",
-                "isUpdated": true,
-                "code": "tam_1_t1_l4"
-              },
-              {
-                "title": "கடற்கரைக்குச் செல்வோமா!",
-                "isUpdated": true,
-                "code": "tam_1_t1_l5"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "term": 2,
-        "units": [
-          {
-            "title": "பாடப்பகுதிகள்",
-            "topics": [
-              {
-                "title": "ஜலசா! ஜலசா!",
-                "isUpdated": true,
-                "code": "tam_1_t2_l1"
-              },
-              {
-                "title": "காட்டிலே ஒரு விருந்து",
-                "isUpdated": true,
-                "code": "tam_1_t2_l2"
-              },
-              {
-                "title": "பழமும் படகும்",
-                "isUpdated": true,
-                "code": "tam_1_t2_l3"
-              },
-              {
-                "title": "அறுசுவை அறிவோம்",
-                "isUpdated": true,
-                "code": "tam_1_t2_l4"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "term": 3,
-        "units": [
-          {
-            "title": "பாடப்பகுதிகள்",
-            "topics": [
-              {
-                "title": "உலா போகலாம்",
-                "isUpdated": true,
-                "code": "tam_1_t3_l1"
-              },
-              {
-                "title": "இனிப்பு செய்யலாமா?",
-                "isUpdated": true,
-                "code": "tam_1_t3_l2"
-              },
-              {
-                "title": "ஊஞ்சல் ஆடலாமா?",
-                "isUpdated": true,
-                "code": "tam_1_t3_l3"
-              },
-              {
-                "title": "இனியாவின் ஒரு வாரம்",
-                "isUpdated": true,
-                "code": "tam_1_t3_l4"
-              },
-              {
-                "title": "தோரணம் செய்வோமா!",
-                "isUpdated": true,
-                "code": "tam_1_t3_l5"
-              },
-              {
-                "title": "இளையார் ஆத்திசூடி",
-                "isUpdated": true,
-                "code": "tam_1_t3_l6"
               }
             ]
           }
@@ -2220,7 +2219,7 @@ const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "வடிவியல்",
+                "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்",
                 "isUpdated": true,
                 "code": "mat_4_t3_l1"
               },
@@ -2230,12 +2229,12 @@ const syllabusData = {
                 "code": "mat_4_t3_l2"
               },
               {
-                "title": "அமைப்புகள்",
+                "title": "அளவைகள் - கன அளவு",
                 "isUpdated": true,
                 "code": "mat_4_t3_l3"
               },
               {
-                "title": "அளவைகள்",
+                "title": "காலம்",
                 "isUpdated": true,
                 "code": "mat_4_t3_l4"
               },
@@ -2245,7 +2244,7 @@ const syllabusData = {
                 "code": "mat_4_t3_l5"
               },
               {
-                "title": "தகவல் செயலாக்கம்",
+                "title": "பின்னங்கள்",
                 "isUpdated": true,
                 "code": "mat_4_t3_l6"
               }
@@ -3902,12 +3901,12 @@ const syllabusData = {
             "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
             "topics": [
               {
-                "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)",
+                "title": "பசுமைச் சுற்றுச்சூழல் (Green Environment)",
                 "isUpdated": true,
                 "code": "sci_4_t3_l1"
               },
               {
-                "title": "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)",
+                "title": "விலங்குகளின் வாழ்க்கை (Life of Animals)",
                 "isUpdated": true,
                 "code": "sci_4_t3_l2"
               }
@@ -4526,17 +4525,17 @@ const syllabusData = {
             "title": "பாடங்கள் (Term 3)",
             "topics": [
               {
-                "title": "அலகு 1: உலகெலாம் தமிழர்கள்",
+                "title": "அலகு 1: உலகெலாம் தமிழர்கள் || Unit 1: Tamils Around the World",
                 "isUpdated": true,
                 "code": "soc_4_t3_l1"
               },
               {
-                "title": "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு",
+                "title": "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு || Unit 2: History of Madras Presidency",
                 "isUpdated": true,
                 "code": "soc_4_t3_l2"
               },
               {
-                "title": "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள்",
+                "title": "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள் || Unit 3: Rights and Duties of Children",
                 "isUpdated": true,
                 "code": "soc_4_t3_l3"
               }

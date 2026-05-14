@@ -941,8 +941,8 @@ export const lessonMap = {
   },
   "காலம்": {
     "local": true,
-    "filename": "mat_3_t2_l4",
-    "grade": "3",
+    "filename": "mat_4_t3_l4",
+    "grade": "4",
     "title": "காலம்"
   },
   "mat_2_t1_l5": {
@@ -1293,35 +1293,53 @@ export const lessonMap = {
     "grade": "4",
     "title": "தகவல் செயலாக்கம்"
   },
+  "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்": {
+    "local": true,
+    "filename": "mat_4_t3_l1",
+    "grade": "4",
+    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
+  },
   "mat_4_t3_l1": {
     "local": true,
     "filename": "mat_4_t3_l1",
-    "grade": "4"
+    "grade": "4",
+    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
   },
   "mat_4_t3_l2": {
     "local": true,
     "filename": "mat_4_t3_l2",
-    "grade": "4"
+    "grade": "4",
+    "title": "எண்கள்"
+  },
+  "அளவைகள் - கன அளவு": {
+    "local": true,
+    "filename": "mat_4_t3_l3",
+    "grade": "4",
+    "title": "அளவைகள் - கன அளவு"
   },
   "mat_4_t3_l3": {
     "local": true,
     "filename": "mat_4_t3_l3",
-    "grade": "4"
+    "grade": "4",
+    "title": "அளவைகள் - கன அளவு"
   },
   "mat_4_t3_l4": {
     "local": true,
     "filename": "mat_4_t3_l4",
-    "grade": "4"
+    "grade": "4",
+    "title": "காலம்"
   },
   "mat_4_t3_l5": {
     "local": true,
     "filename": "mat_4_t3_l5",
-    "grade": "4"
+    "grade": "4",
+    "title": "பணம்"
   },
   "mat_4_t3_l6": {
     "local": true,
     "filename": "mat_4_t3_l6",
-    "grade": "4"
+    "grade": "4",
+    "title": "பின்னங்கள்"
   },
   "mat_5_t1_l1": {
     "local": true,
@@ -2109,15 +2127,29 @@ export const lessonMap = {
     "grade": "4",
     "title": "அலகு 3: தாவரங்கள்"
   },
+  "பசுமைச் சுற்றுச்சூழல் (Green Environment)": {
+    "local": true,
+    "filename": "sci_4_t3_l1",
+    "grade": "4",
+    "title": "பசுமைச் சுற்றுச்சூழல் (Green Environment)"
+  },
   "sci_4_t3_l1": {
     "local": true,
     "filename": "sci_4_t3_l1",
-    "grade": "4"
+    "grade": "4",
+    "title": "பசுமைச் சுற்றுச்சூழல் (Green Environment)"
+  },
+  "விலங்குகளின் வாழ்க்கை (Life of Animals)": {
+    "local": true,
+    "filename": "sci_4_t3_l2",
+    "grade": "4",
+    "title": "விலங்குகளின் வாழ்க்கை (Life of Animals)"
   },
   "sci_4_t3_l2": {
     "local": true,
     "filename": "sci_4_t3_l2",
-    "grade": "4"
+    "grade": "4",
+    "title": "விலங்குகளின் வாழ்க்கை (Life of Animals)"
   },
   "அலகு 1: உறுப்பு மண்டலங்கள்": {
     "local": true,
@@ -2395,20 +2427,41 @@ export const lessonMap = {
     "grade": "4",
     "title": "அலகு 3: போக்குவரத்து || Unit 3: Transport"
   },
+  "அலகு 1: உலகெலாம் தமிழர்கள் || Unit 1: Tamils Around the World": {
+    "local": true,
+    "filename": "soc_4_t3_l1",
+    "grade": "4",
+    "title": "அலகு 1: உலகெலாம் தமிழர்கள் || Unit 1: Tamils Around the World"
+  },
   "soc_4_t3_l1": {
     "local": true,
     "filename": "soc_4_t3_l1",
-    "grade": "4"
+    "grade": "4",
+    "title": "அலகு 1: உலகெலாம் தமிழர்கள் || Unit 1: Tamils Around the World"
+  },
+  "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு || Unit 2: History of Madras Presidency": {
+    "local": true,
+    "filename": "soc_4_t3_l2",
+    "grade": "4",
+    "title": "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு || Unit 2: History of Madras Presidency"
   },
   "soc_4_t3_l2": {
     "local": true,
     "filename": "soc_4_t3_l2",
-    "grade": "4"
+    "grade": "4",
+    "title": "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு || Unit 2: History of Madras Presidency"
+  },
+  "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள் || Unit 3: Rights and Duties of Children": {
+    "local": true,
+    "filename": "soc_4_t3_l3",
+    "grade": "4",
+    "title": "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள் || Unit 3: Rights and Duties of Children"
   },
   "soc_4_t3_l3": {
     "local": true,
     "filename": "soc_4_t3_l3",
-    "grade": "4"
+    "grade": "4",
+    "title": "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள் || Unit 3: Rights and Duties of Children"
   },
   "நமது பூமி ": {
     "local": true,
