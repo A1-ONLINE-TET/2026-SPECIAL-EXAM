@@ -1987,6 +1987,33 @@ export const syllabusData = {
     ]
   },
   "maths": {
+    "1": [
+      {
+        "term": "அனைத்துப் பருவங்களும் (All Terms)",
+        "units": [
+          {
+            "title": "தேர்வுப் பகுதிகள் (Quiz Sections)",
+            "topics": [
+              {
+                "title": "கணிதம் - முதல் பருவம்",
+                "isUpdated": true,
+                "code": "mat_1_l1"
+              },
+              {
+                "title": "கணிதம் - இரண்டாம் பருவம்",
+                "isUpdated": true,
+                "code": "mat_1_l2"
+              },
+              {
+                "title": "கணிதம் - மூன்றாம் பருவம்",
+                "isUpdated": true,
+                "code": "mat_1_l3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "2": [
       {
         "term": 1,

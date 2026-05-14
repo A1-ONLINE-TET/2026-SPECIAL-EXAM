@@ -985,6 +985,42 @@ export const lessonMap = {
     "grade": "8",
     "title": "Supplementary: The Three Questions"
   },
+  "கணிதம் - முதல் பருவம்": {
+    "local": true,
+    "filename": "mat_1_l1",
+    "grade": "1",
+    "title": "கணிதம் - முதல் பருவம்"
+  },
+  "mat_1_l1": {
+    "local": true,
+    "filename": "mat_1_l1",
+    "grade": "1",
+    "title": "கணிதம் - முதல் பருவம்"
+  },
+  "கணிதம் - இரண்டாம் பருவம்": {
+    "local": true,
+    "filename": "mat_1_l2",
+    "grade": "1",
+    "title": "கணிதம் - இரண்டாம் பருவம்"
+  },
+  "mat_1_l2": {
+    "local": true,
+    "filename": "mat_1_l2",
+    "grade": "1",
+    "title": "கணிதம் - இரண்டாம் பருவம்"
+  },
+  "கணிதம் - மூன்றாம் பருவம்": {
+    "local": true,
+    "filename": "mat_1_l3",
+    "grade": "1",
+    "title": "கணிதம் - மூன்றாம் பருவம்"
+  },
+  "mat_1_l3": {
+    "local": true,
+    "filename": "mat_1_l3",
+    "grade": "1",
+    "title": "கணிதம் - மூன்றாம் பருவம்"
+  },
   "எண்கள் (Numbers)": {
     "local": true,
     "filename": "mat_6_t1_l1",
