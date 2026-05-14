@@ -653,6 +653,17 @@
 
                     if (data) {
                         let sections = data.sections || (data.material && data.material.sections);
+                        
+                        // Fallback for Grade 4 Social (topics/details)
+                        if (!sections && data.topics) {
+                            sections = data.topics.map(t => ({
+                                title: t.title,
+                                content: t.details || t.content,
+                                type: 'content'
+                            }));
+                        }
+                        
+                        // Fallback for Tamil (பாடக்குறிப்புகள்)
                         if (!sections && data.பாடக்குறிப்புகள்) {
                             if (Array.isArray(data.பாடக்குறிப்புகள்)) {
                                 sections = data.பாடக்குறிப்புகள்.map(p => ({
@@ -677,6 +688,16 @@
                         let html = '';
                         if (summary) {
                             html += `<div class="info-box">${formatText(summary)}</div>`;
+                        }
+
+                        if (data.book_back_evaluations) {
+                            const bbe = data.book_back_evaluations;
+                            if (!sections) sections = [];
+                            sections.push({
+                                title: bbe.title || "புத்தகப் பின்புற வினாக்கள்",
+                                content: bbe.questions.map(q => `<div class="qa-item"><div class="qa-q">${formatText(q.question)}</div><div class="qa-a" style="font-weight:700; color:#1e293b;">விடை: ${formatText(q.answer)}</div></div>`).join(''),
+                                type: 'content'
+                            });
                         }
 
                         if (sections) {
