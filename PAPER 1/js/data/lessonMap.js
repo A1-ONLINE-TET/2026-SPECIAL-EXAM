@@ -2,8 +2,7 @@ export const lessonMap = {
   "1": {
     "local": true,
     "filename": "1",
-    "grade": "2",
-    "title": "எண்கள் (Numbers)"
+    "grade": "1"
   },
   "2": {
     "local": true,
@@ -35,7 +34,8 @@ export const lessonMap = {
   "7": {
     "local": true,
     "filename": "7",
-    "grade": "4"
+    "grade": "4",
+    "title": "நீதிநெறி விளக்கம்"
   },
   "8": {
     "local": true,
@@ -1891,6 +1891,42 @@ export const lessonMap = {
     "grade": "all",
     "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)"
   },
+  "சூழ்நிலையியல் - பகுதி 1 (முதல் பருவம்)": {
+    "local": true,
+    "filename": "sci_1_l1",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 1 (முதல் பருவம்)"
+  },
+  "sci_1_l1": {
+    "local": true,
+    "filename": "sci_1_l1",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 1 (முதல் பருவம்)"
+  },
+  "சூழ்நிலையியல் - பகுதி 2 (இரண்டாம் பருவம்)": {
+    "local": true,
+    "filename": "sci_1_l2",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 2 (இரண்டாம் பருவம்)"
+  },
+  "sci_1_l2": {
+    "local": true,
+    "filename": "sci_1_l2",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 2 (இரண்டாம் பருவம்)"
+  },
+  "சூழ்நிலையியல் - பகுதி 3 (மூன்றாம் பருவம்)": {
+    "local": true,
+    "filename": "sci_1_l3",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 3 (மூன்றாம் பருவம்)"
+  },
+  "sci_1_l3": {
+    "local": true,
+    "filename": "sci_1_l3",
+    "grade": "1",
+    "title": "சூழ்நிலையியல் - பகுதி 3 (மூன்றாம் பருவம்)"
+  },
   "நமது சுற்றுச்சூழல்": {
     "local": true,
     "filename": "sci_5_t3_l1",
@@ -3157,6 +3193,12 @@ export const lessonMap = {
     "grade": "4",
     "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி"
   },
+  "நீதிநெறி விளக்கம்": {
+    "local": true,
+    "filename": "tam_4_t3_l7",
+    "grade": "4",
+    "title": "நீதிநெறி விளக்கம்"
+  },
   "உறவுமுறைக் கடிதம்": {
     "local": true,
     "filename": "tam_4_t3_l8",
@@ -3450,12 +3492,6 @@ export const lessonMap = {
     "filename": "tam_4_t3_l6",
     "grade": "4",
     "title": "மலையும் எதிரொலியும்"
-  },
-  "நீதிநெறி விளக்கம்": {
-    "local": true,
-    "filename": "tam_4_t3_l7",
-    "grade": "4",
-    "title": "நீதிநெறி விளக்கம்"
   },
   "tam_4_t3_l7": {
     "local": true,

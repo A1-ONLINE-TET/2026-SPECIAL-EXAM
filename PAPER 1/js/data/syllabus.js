@@ -3775,11 +3775,27 @@ export const syllabusData = {
   "science": {
     "1": [
       {
-        "term": 1,
+        "term": "அனைத்துப் பருவங்களும் (All Terms)",
         "units": [
           {
-            "title": "பாடங்கள்: சூழ்நிலையியல் (அறிவியல்)",
-            "topics": []
+            "title": "தேர்வுப் பகுதிகள் (Quiz Sections)",
+            "topics": [
+              {
+                "title": "சூழ்நிலையியல் - பகுதி 1 (முதல் பருவம்)",
+                "isUpdated": true,
+                "code": "sci_1_l1"
+              },
+              {
+                "title": "சூழ்நிலையியல் - பகுதி 2 (இரண்டாம் பருவம்)",
+                "isUpdated": true,
+                "code": "sci_1_l2"
+              },
+              {
+                "title": "சூழ்நிலையியல் - பகுதி 3 (மூன்றாம் பருவம்)",
+                "isUpdated": true,
+                "code": "sci_1_l3"
+              }
+            ]
           }
         ]
       }
