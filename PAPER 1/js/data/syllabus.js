@@ -1275,6 +1275,71 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "Unit 1: The Seven Seeds || ஏழு விதைகள்",
+            "topics": [
+              {
+                "title": "The Seven Seeds || ஏழு விதைகள்",
+                "isUpdated": true,
+                "code": "eng_4_t3_l1"
+              },
+              {
+                "title": "Be Honest || நேர்மையாக இரு",
+                "isUpdated": true,
+                "code": "eng_4_t3_l2"
+              },
+              {
+                "title": "The Mistaken Plate || தவறுதலாகக் கருதப்பட்ட தட்டு",
+                "isUpdated": true,
+                "code": "eng_4_t3_l3"
+              }
+            ]
+          },
+          {
+            "title": "Unit 2: Bala Spins Magic || பாலா செய்யும் மாயாஜாலம்",
+            "topics": [
+              {
+                "title": "Bala Spins Magic || பாலா செய்யும் மாயாஜாலம்",
+                "isUpdated": true,
+                "code": "eng_4_t3_l4"
+              },
+              {
+                "title": "The Painter || ஓவியர்",
+                "isUpdated": true,
+                "code": "eng_4_t3_l5"
+              },
+              {
+                "title": "The Wooden Toy || மரப்பொம்மை",
+                "isUpdated": true,
+                "code": "eng_4_t3_l6"
+              }
+            ]
+          },
+          {
+            "title": "Unit 3: The Struggling Star || போராடும் நட்சத்திரம்",
+            "topics": [
+              {
+                "title": "The Struggling Star || போராடும் நட்சத்திரம்",
+                "isUpdated": true,
+                "code": "eng_4_t3_l7"
+              },
+              {
+                "title": "Never Give Up || ஒருபோதும் விட்டுக்கொடுக்காதே",
+                "isUpdated": true,
+                "code": "eng_4_t3_l8"
+              },
+              {
+                "title": "The Magic Pencil || மந்திர பென்சில்",
+                "isUpdated": true,
+                "code": "eng_4_t3_l9"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

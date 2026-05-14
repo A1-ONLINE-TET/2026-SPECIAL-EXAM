@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "BALA SPINS MAGIC || பாலா செய்யும் மாயாஜாலம்",
+    "grade": "4",
+    "term": "3",
+    "unit": "2",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l4"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான சுருக்கம் (Complete Summary)",
+        "content": "Bala is a young boy from Periya Negamam, a village famous for handloom weaving. His family has been weaving beautiful sarees for generations. Bala is eager to learn the family craft. His grandfather, Veera Thatha, teaches him math using colorful skeins of yarn, making learning fun. One day, Bala joins his father, Appa, on a trip to Chennai to sell their sarees directly to customers for a better price. In Chennai, they visit a large house where Bala meets a boy named Nithin. While the adults talk about sarees, Bala discovers a spinning wheel (Rattai) in Nithin's room. Though Nithin has many electrical toys, he doesn't know how to use the Rattai. Bala demonstrates how to spin cotton into yarn, and Nithin is amazed, calling it 'magic'. Nithin's mother calls Bala's father a 'weaving magician'. The story highlights the beauty of traditional crafts and how skills can be seen as magic by others.",
+        "type": "content"
+      },
+      {
+        "title": "இலக்கணம்: ஒத்த பொருள் சொற்கள் (Words with Similar Meanings)",
+        "content": "In this lesson, we learn that different words can have the same or similar meanings, especially between British and American English. \nExamples:\n- taxi = cab\n- biscuits = cookies\n- football = soccer\n- eraser = rubber\n- purse = wallet\n- movie = film\n- dustbin = trash can\n- motorbike = motorcycle\n- torch = flashlight\n- elevator = lift\n- post = mail\n- flat = apartment\n- queue = line\n- holiday = vacation\n- pants = trousers\n- chips = fries",
+        "type": "content"
+      },
+      {
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts:\n- Village: Periya Negamam (near Pollachi).\n- Profession: Handloom Weaving.\n- Weaving Process: Drawing, Dying, Warping, and Weaving.\n- Math Teacher: Veera Thatha (used yarn skeins).\n- Blue skeins: Addition.\n- Yellow skeins: Subtraction.\n- Red skeins: Doubling.\n- Green skeins: Taking away.\n- City visited: Chennai (Purasaiwalkam).\n- Spinning wheel: Rattai.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Fill in the blanks:\n1. Appa weaves beautiful sarees with [checks or patterns].\n2. Veera thatha had made [Math] easy for Bala.\n3. Nithin had many [electrical toys].\n4. Bala's home doesn't have [electricity].\n5. Nithin's mom said that Bala's father is a [weaving magician].\n\nB. Answer the questions:\n1. What did Bala want to learn? Ans: He wanted to learn weaving.\n2. Why did Bala go to Chennai? Ans: To help his father sell sarees for a better price.\n3. What did Bala teach Nithin? Ans: How to spin cotton using the Rattai.\n\nC. Words with same meaning:\n- eraser = [rubber]\n- dustbin = [trash can]\n- holiday = [vacation]",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "In which village did Bala and his family live?",
+        "options": [
+          "Chennai",
+          "Purasaiwalkam",
+          "Periya Negamam",
+          "Coimbatore"
+        ],
+        "answer": 2,
+        "explanation": "The story explicitly states that they lived in the quiet village of Periya Negamam."
+      },
+      {
+        "question": "What was the family profession of Bala's family?",
+        "options": [
+          "Farming",
+          "Weaving",
+          "Pottery",
+          "Carpentry"
+        ],
+        "answer": 1,
+        "explanation": "Bala's family were handloom weavers."
+      },
+      {
+        "question": "Who made Math easy for Bala?",
+        "options": [
+          "His school teacher",
+          "Appa",
+          "Amma",
+          "Veera thatha"
+        ],
+        "answer": 3,
+        "explanation": "Veera thatha had made Math easy for Bala by using skeins of yarn."
+      },
+      {
+        "question": "Which color skeins did Veera thatha use to teach addition?",
+        "options": [
+          "Yellow skeins",
+          "Blue skeins",
+          "Red skeins",
+          "Green skeins"
+        ],
+        "answer": 1,
+        "explanation": "Blue skeins were used for addition."
+      },
+      {
+        "question": "Why did Appa take the sarees to Chennai?",
+        "options": [
+          "To buy new clothes",
+          "To sell directly to ladies for a better price",
+          "To visit Nithin's family",
+          "To see the city"
+        ],
+        "answer": 1,
+        "explanation": "Appa believed selling directly in Chennai would fetch a better price than traders."
+      },
+      {
+        "question": "Why did Bala not know how to play with Nithin's electrical toys?",
+        "options": [
+          "He was too young",
+          "He didn't like toys",
+          "His home does not have electricity",
+          "The toys were broken"
+        ],
+        "answer": 2,
+        "explanation": "Since Bala's home had no electricity, he was unfamiliar with electrical toys."
+      },
+      {
+        "question": "What object did Bala find in the corner of Nithin's room?",
+        "options": [
+          "A handloom",
+          "A spinning wheel",
+          "An electric car",
+          "A canvas"
+        ],
+        "answer": 1,
+        "explanation": "Bala saw a spinning wheel (Rattai) in the corner."
+      },
+      {
+        "question": "What did Nithin call Bala's ability to spin cotton?",
+        "options": [
+          "Science",
+          "Magic",
+          "Hard work",
+          "A trick"
+        ],
+        "answer": 1,
+        "explanation": "Nithin was amazed and shouted, 'You can do magic!'"
+      },
+      {
+        "question": "What title did Nithin's mom give to Bala's father?",
+        "options": [
+          "A strict teacher",
+          "A smart trader",
+          "A weaving magician",
+          "A village man"
+        ],
+        "answer": 2,
+        "explanation": "Nithin's mom called him a 'weaving magician'."
+      },
+      {
+        "question": "Which word has the same meaning as 'football'?",
+        "options": [
+          "Tennis",
+          "Rugby",
+          "Soccer",
+          "Match"
+        ],
+        "answer": 2,
+        "explanation": "In the similar meanings section, football is equated with soccer."
+      },
+      {
+        "question": "What is another word for 'eraser'?",
+        "options": [
+          "Pencil",
+          "Rubber",
+          "Candy",
+          "Wallet"
+        ],
+        "answer": 1,
+        "explanation": "Eraser and rubber have the same meaning."
+      },
+      {
+        "question": "Instead of saying 'elevator', one can also say:",
+        "options": [
+          "Escalator",
+          "Lift",
+          "Subway",
+          "Apartment"
+        ],
+        "answer": 1,
+        "explanation": "Elevator and lift are synonymous."
+      },
+      {
+        "question": "Which word means the same as 'dustbin'?",
+        "options": [
+          "Washbasin",
+          "Closet",
+          "Trash can",
+          "Mail"
+        ],
+        "answer": 2,
+        "explanation": "Dustbin and trash can are used for the same thing."
+      },
+      {
+        "question": "What is the equivalent word for 'post' mentioned in the text?",
+        "options": [
+          "Mail",
+          "Line",
+          "Letter",
+          "Box"
+        ],
+        "answer": 0,
+        "explanation": "Post and mail have similar meanings."
+      },
+      {
+        "question": "What is the meaning of 'handloom'?",
+        "options": [
+          "Electric machine",
+          "Manually operated loom",
+          "Sewing needle",
+          "Type of cloth"
+        ],
+        "answer": 1,
+        "explanation": "A handloom is a manually operated loom for weaving."
+      },
+      {
+        "question": "Identify the word that means 'twist out of shape' from the glossary.",
+        "options": [
+          "Weave",
+          "Drape",
+          "Warp",
+          "Subtract"
+        ],
+        "answer": 2,
+        "explanation": "Warp means to twist out of shape."
+      },
+      {
+        "question": "What does 'drape' mean?",
+        "options": [
+          "To cut",
+          "To arrange loosely",
+          "To clean",
+          "To fold tightly"
+        ],
+        "answer": 1,
+        "explanation": "Drape means to arrange loosely, like how Appa showed the saree."
+      },
+      {
+        "question": "Assertion (A): Appa and Bala sold the sarees directly to traders in Pollachi.\nReason (R): They wanted to get a better price by selling to ladies in Chennai.",
+        "options": [
+          "Both A and R are true",
+          "Both A and R are false",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 3,
+        "explanation": "Assertion is false because they did NOT sell to traders; they went to Chennai to sell to ladies. Reason is true."
+      },
+      {
+        "question": "Analogy: Biscuits : Cookies :: Torch : ?",
+        "options": [
+          "Match",
+          "Flashlight",
+          "Candle",
+          "Lamp"
+        ],
+        "answer": 1,
+        "explanation": "Cookies is the American term for biscuits; Flashlight is the American term for torch."
+      },
+      {
+        "question": "Which color skeins did Veera thatha use for doubling?",
+        "options": [
+          "Blue",
+          "Yellow",
+          "Red",
+          "Green"
+        ],
+        "answer": 2,
+        "explanation": "Red skeins were used for doubling in his math lessons."
+      }
+    ]
+  }
+}

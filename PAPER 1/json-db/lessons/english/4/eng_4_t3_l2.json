@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "BE HONEST || நேர்மையாக இரு",
+    "grade": "4",
+    "term": "3",
+    "unit": "1",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கவிதைச் சுருக்கம் (Poem Summary)",
+        "content": "The poem 'Be Honest' emphasizes the lifelong value of truthfulness and integrity. \nStanza 1: The poet's mother always advises him to be honest, both in public and private. Honesty should be a daily practice. \nStanza 2: The poet's father also teaches him to stay truthful even when facing difficulties. Truth is like a seed that should be sown and nurtured in our hearts. \nStanza 3: Many people may lie or use tricks to win in life, but the poet chooses to live a life that is 'ever true'. \nStanza 4: In the end, the poet says he will always choose to be honest, regardless of what happens, because honesty is a noble path that brings peace and respect.",
+        "type": "content"
+      },
+      {
+        "title": "இலக்கணம்: அடுக்குத் தொடர் (Compound Words)",
+        "content": "Compound words are formed when two different words are joined together to create a new word with a new meaning. \nExamples:\n- sun + flower = sunflower\n- light + house = lighthouse\n- rain + bow = rainbow\n- star + fish = starfish\n- foot + ball = football\n- rain + coat = raincoat\n- watch + man = watchman\n- dragon + fly = dragonfly\n- jelly + fish = jellyfish\n- key + board = keyboard",
+        "type": "content"
+      },
+      {
+        "title": "அறிஞ்சொற்பொருள் மற்றும் நினைவில் கொள்க",
+        "content": "Glossary:\n- Rhyme: a word that has the same sound as another.\n- Honesty: the quality of being truthful.\n- Sow: to plant seeds.\n- Ever true: always truthful.\n- Noble: having fine personal qualities.\n\nKey Concepts:\n- Honesty should be practiced every day.\n- Truth helps us grow into better people.\n- Lying might give temporary success, but honesty gives permanent peace.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Match the rhyming words:\n1. say - day\n2. sow - grow\n3. all - fall\n4. go - grow\n\nB. Fill in the blanks:\n1. Amma will often say, be [honest].\n2. We shouldn't [lie] even if we are in trouble.\n3. Many people lie, but I will be [true].\n\nC. Compound Word Exercises:\n1. news + paper = [newspaper]\n2. wheel + chair = [wheelchair]\n3. basket + ball = [basketball]",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What does Amma often say to the poet?",
+        "options": [
+          "Be brave",
+          "Be honest",
+          "Be fast",
+          "Be rich"
+        ],
+        "answer": 1,
+        "explanation": "The poem starts with: 'Amma will often say: Be honest everyday'."
+      },
+      {
+        "question": "How often should we be honest according to the poem?",
+        "options": [
+          "Only on Sundays",
+          "Every day",
+          "Only when someone is watching",
+          "Once a year"
+        ],
+        "answer": 1,
+        "explanation": "The poet says we should be honest 'everyday'."
+      },
+      {
+        "question": "What does Appa tell the poet about being truthful?",
+        "options": [
+          "Truth is difficult",
+          "We should not lie even when we are in trouble",
+          "Lying is okay sometimes",
+          "Hide the truth"
+        ],
+        "answer": 1,
+        "explanation": "Appa says, 'We should not lie even when we are in trouble.'"
+      },
+      {
+        "question": "To what does the poet compare truth in the second stanza?",
+        "options": [
+          "A flower",
+          "A seed that we sow",
+          "A bird",
+          "A mountain"
+        ],
+        "answer": 1,
+        "explanation": "The poet says, 'The truth will help us grow, like a seed that we sow.'"
+      },
+      {
+        "question": "What do 'many people' do according to the poem?",
+        "options": [
+          "Work hard",
+          "Tell lies",
+          "Plant trees",
+          "Help others"
+        ],
+        "answer": 1,
+        "explanation": "The poem mentions, 'Many people lie and go, But I will be ever true.'"
+      },
+      {
+        "question": "What is the poet's decision regarding honesty?",
+        "options": [
+          "He will lie sometimes",
+          "He will follow others",
+          "He will stay honest and be ever true",
+          "He will stop being honest"
+        ],
+        "answer": 2,
+        "explanation": "The poet decides to be 'ever true' and stay honest."
+      },
+      {
+        "question": "What is the rhyming word for 'say' in the poem?",
+        "options": [
+          "grow",
+          "day",
+          "true",
+          "fall"
+        ],
+        "answer": 1,
+        "explanation": "Say rhymes with day in the first stanza."
+      },
+      {
+        "question": "What is the rhyming word for 'all' in the poem?",
+        "options": [
+          "fall",
+          "ball",
+          "call",
+          "tall"
+        ],
+        "answer": 0,
+        "explanation": "The book exercise pairs 'all' with 'fall'."
+      },
+      {
+        "question": "What are compound words?",
+        "options": [
+          "Words that have the same meaning",
+          "Words that have opposite meanings",
+          "New words formed by joining two different words",
+          "Words that rhyme"
+        ],
+        "answer": 2,
+        "explanation": "A compound word is a new word made by joining two words."
+      },
+      {
+        "question": "Match: light + house =",
+        "options": [
+          "Lightroom",
+          "Lighthouse",
+          "Housefly",
+          "Sunlight"
+        ],
+        "answer": 1,
+        "explanation": "Light + House = Lighthouse."
+      },
+      {
+        "question": "Match: star + fish =",
+        "options": [
+          "Jellyfish",
+          "Starfish",
+          "Goldfish",
+          "Seafish"
+        ],
+        "answer": 1,
+        "explanation": "Star + Fish = Starfish."
+      },
+      {
+        "question": "Match: foot + ball =",
+        "options": [
+          "Basketball",
+          "Football",
+          "Handball",
+          "Volleyball"
+        ],
+        "answer": 1,
+        "explanation": "Foot + Ball = Football."
+      },
+      {
+        "question": "Which compound word is formed from 'rain' and 'bow'?",
+        "options": [
+          "Raincoat",
+          "Rainfall",
+          "Rainbow",
+          "Raindrop"
+        ],
+        "answer": 2,
+        "explanation": "Rain + Bow = Rainbow."
+      },
+      {
+        "question": "Identify the compound word: jelly + fish =",
+        "options": [
+          "Starfish",
+          "Jellyfish",
+          "Goldfish",
+          "Fishbowl"
+        ],
+        "answer": 1,
+        "explanation": "Jelly + Fish = Jellyfish."
+      },
+      {
+        "question": "Identify the compound word: dragon + fly =",
+        "options": [
+          "Butterfly",
+          "Housefly",
+          "Dragonfly",
+          "Firefly"
+        ],
+        "answer": 2,
+        "explanation": "Dragon + Fly = Dragonfly."
+      },
+      {
+        "question": "What is the compound word for: news + paper?",
+        "options": [
+          "Paperwork",
+          "Newspaper",
+          "Notebook",
+          "Wall paper"
+        ],
+        "answer": 1,
+        "explanation": "News + Paper = Newspaper."
+      },
+      {
+        "question": "What is the compound word for: wheel + chair?",
+        "options": [
+          "Armchair",
+          "Wheelchair",
+          "Pushchair",
+          "Highchair"
+        ],
+        "answer": 1,
+        "explanation": "Wheel + Chair = Wheelchair."
+      },
+      {
+        "question": "What is the compound word for: basket + ball?",
+        "options": [
+          "Football",
+          "Handball",
+          "Basketball",
+          "Volleyball"
+        ],
+        "answer": 2,
+        "explanation": "Basket + Ball = Basketball."
+      },
+      {
+        "question": "Assertion (A): Compound words have a different meaning from the two individual words that form them.\nReason (R): 'Sun' and 'Flower' have different meanings, but 'Sunflower' refers to a specific type of plant.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "The definition of compound words is that they create a new meaning (A), and the example of sunflower (R) supports this."
+      },
+      {
+        "question": "Analogy: Sun : Flower :: Rain : ?",
+        "options": [
+          "Coat",
+          "Bow",
+          "Fall",
+          "All of the above"
+        ],
+        "answer": 3,
+        "explanation": "Rain can combine with Coat, Bow, or Fall to form compound words (Raincoat, Rainbow, Rainfall)."
+      }
+    ]
+  }
+}

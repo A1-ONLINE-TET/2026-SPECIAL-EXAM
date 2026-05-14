@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE PAINTER || ஓவியர்",
+    "grade": "4",
+    "term": "3",
+    "unit": "2",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l5"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கவிதைச் சுருக்கம் (Poem Summary)",
+        "content": "The poem 'The Painter' describes a talented artist who finds beauty in everything. \nStanza 1: She sits on a cold mud floor and paints beautiful valleys and hills, bringing life to the empty canvas. Her brush bends according to her creative will. \nStanza 2: Her canvas used to be colourless, but once she discovered her skill, her strokes became purposeful. The flow of her paint never stops (chokes) as she expresses herself. \nStanza 3: She dips her brush to draw a magnificent big black panther. While painting, she moves with grace and elegance, like a dancer.",
+        "type": "content"
+      },
+      {
+        "title": "இலக்கணம்: பெயரடை (Adjectives)",
+        "content": "Adjectives are words that describe a noun. they give more information about the noun's size, shape, colour, and count. \nExamples:\n- Size/Shape: long ears, tall giraffe, round eyes.\n- Colour: green house, blue birds, black panther.\n- Count: three balloons, four apples.\n- Quality: soft feather, hungry babies, naughty boy.",
+        "type": "content"
+      },
+      {
+        "title": "அறிஞ்சொற்பொருள் மற்றும் நினைவில் கொள்க",
+        "content": "Glossary:\n- Bend: shape into a curve.\n- Strokes: gentle movement of hand.\n- Chokes: stops.\n- Dip: put something in liquid.\n\nKey Concepts:\n- Creativity turns something plain into something beautiful.\n- Adjectives help us visualize nouns more clearly.\n- Rhyming words: floor/door, will/hill, rush/brush, dancer/panther.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Match the rhyming words:\n1. floor - door\n2. will - hill\n3. rush - brush\n4. dancer - panther\n\nB. Answer the questions:\n1. What does she paint? Ans: Valley, hill, and a black panther.\n2. Does the brush bend to her will? Ans: Yes.\n\nC. Use Adjectives:\n1. The giraffe is [tall].\n2. Its eyes are [round].\n3. There are [three] birds.\n4. The baby birds are [hungry].",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where is the painter sitting in the first stanza?",
+        "options": [
+          "On a wooden chair",
+          "On the cold mud floor",
+          "On a soft carpet",
+          "On a green hill"
+        ],
+        "answer": 1,
+        "explanation": "The poem begins with: 'Sitting on the cold mud floor'."
+      },
+      {
+        "question": "What does the painter give life to?",
+        "options": [
+          "The clay pot",
+          "The blank paper",
+          "The canvas shore",
+          "The mud floor"
+        ],
+        "answer": 2,
+        "explanation": "The text states: 'Giving life to the canvas shore'."
+      },
+      {
+        "question": "According to the poem, the brush bends to her ________.",
+        "options": [
+          "hand",
+          "will",
+          "paint",
+          "fingers"
+        ],
+        "answer": 1,
+        "explanation": "The line is: 'Sees the brush bend to her will.'"
+      },
+      {
+        "question": "How did the canvas look before she started painting?",
+        "options": [
+          "Colourful",
+          "Colourless",
+          "Bright",
+          "Dark"
+        ],
+        "answer": 1,
+        "explanation": "The poem mentions, 'Her canvas used to be colourless'."
+      },
+      {
+        "question": "What happens to the flow of the paint in the poem?",
+        "options": [
+          "It spills everywhere",
+          "It dries quickly",
+          "It never chokes",
+          "It runs out"
+        ],
+        "answer": 2,
+        "explanation": "The poem states: 'The flow of paint never chokes!'"
+      },
+      {
+        "question": "Which animal does she draw after dipping her brush?",
+        "options": [
+          "A fierce lion",
+          "A big black panther",
+          "A wild tiger",
+          "A cute puppy"
+        ],
+        "answer": 1,
+        "explanation": "She draws a 'big black panther'."
+      },
+      {
+        "question": "How does she move while painting?",
+        "options": [
+          "Like a runner",
+          "Like a soldier",
+          "Like a dancer",
+          "Like a statue"
+        ],
+        "answer": 2,
+        "explanation": "The final line says: 'She moves them like a dancer!'"
+      },
+      {
+        "question": "What is the meaning of the word 'chokes' in the glossary?",
+        "options": [
+          "Starts",
+          "Breathes",
+          "Stops",
+          "Flows"
+        ],
+        "answer": 2,
+        "explanation": "The glossary defines 'chokes' as 'stops'."
+      },
+      {
+        "question": "Which glossary word means 'gentle movement of hand'?",
+        "options": [
+          "Dip",
+          "Bend",
+          "Will",
+          "Strokes"
+        ],
+        "answer": 3,
+        "explanation": "Strokes are defined as 'gentle movement of hand'."
+      },
+      {
+        "question": "In Grammar, words that describe a noun are called ________.",
+        "options": [
+          "Verbs",
+          "Pronouns",
+          "Adjectives",
+          "Adverbs"
+        ],
+        "answer": 2,
+        "explanation": "Adjectives are describing words for nouns."
+      },
+      {
+        "question": "Identify the adjective in: 'The rabbit has long ears.'",
+        "options": [
+          "rabbit",
+          "has",
+          "long",
+          "ears"
+        ],
+        "answer": 2,
+        "explanation": "'Long' describes the ears of the rabbit."
+      },
+      {
+        "question": "In the sentence 'This is a green house', what does 'green' describe?",
+        "options": [
+          "The size",
+          "The shape",
+          "The colour",
+          "The number"
+        ],
+        "answer": 2,
+        "explanation": "'Green' tells us the colour of the house."
+      },
+      {
+        "question": "Which word describes the count in 'Kasthuri has three colourful balloons'?",
+        "options": [
+          "Kasthuri",
+          "three",
+          "colourful",
+          "balloons"
+        ],
+        "answer": 1,
+        "explanation": "'Three' tells us the number of balloons."
+      },
+      {
+        "question": "Fill in the blank: 'The giraffe is ________.'",
+        "options": [
+          "short",
+          "tall",
+          "blue",
+          "round"
+        ],
+        "answer": 1,
+        "explanation": "Giraffes are known for being tall."
+      },
+      {
+        "question": "Which adjective describes the giraffe's tail?",
+        "options": [
+          "thick",
+          "thin",
+          "long",
+          "soft"
+        ],
+        "answer": 1,
+        "explanation": "The book exercise uses 'thin' for the giraffe's tail."
+      },
+      {
+        "question": "How many birds are in the exercise sentence 'There are ___ birds'?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "answer": 1,
+        "explanation": "The exercise specifies 'three' birds."
+      },
+      {
+        "question": "What adjective is used for the birds' feathers?",
+        "options": [
+          "Hard",
+          "Soft",
+          "Long",
+          "Sharp"
+        ],
+        "answer": 1,
+        "explanation": "Feathers are described as 'soft'."
+      },
+      {
+        "question": "Which adjective pair is matched to 'a friend' in the exercises?",
+        "options": [
+          "Cloudless, dusty",
+          "Good, honest",
+          "Hot, bright",
+          "Stormy, beautiful"
+        ],
+        "answer": 1,
+        "explanation": "A friend is described as good and honest."
+      },
+      {
+        "question": "In 'Wild animals are in the thick forest', which word describes the forest?",
+        "options": [
+          "Wild",
+          "Animals",
+          "Thick",
+          "Are"
+        ],
+        "answer": 2,
+        "explanation": "'Thick' describes the quality of the forest."
+      },
+      {
+        "question": "Analogy: Chokes : Stops :: Dip : ?",
+        "options": [
+          "Shape",
+          "Liquid",
+          "Put something in liquid",
+          "Move"
+        ],
+        "answer": 2,
+        "explanation": "This matches words to their glossary meanings."
+      }
+    ]
+  }
+}

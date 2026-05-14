@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE MAGIC PENCIL || மந்திர பென்சில்",
+    "grade": "4",
+    "term": "3",
+    "unit": "3",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l9"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கதைச் சுருக்கம் (Complete Story Summary)",
+        "content": "Chris is a boy who dislikes art and writing because he finds pencils difficult to use. One day, he finds a beautiful pencil and tries to draw a circle. When it doesn't turn out well and he tries to throw it away, the drawing starts talking to him! The little circle-drawing asks for eyes, hair, and limbs, and constantly critiques Chris's work, encouraging him to rub it out and try again. Chris spends the whole afternoon practicing. By the end, he can draw better than his classmates. He realizes that his previous failure was because he never practiced for more than ten minutes and always did it angrily. The next morning, the 'magic' pencil is gone and the paper is blank, but Chris finds he can still draw well with a normal pencil. He learns that the magic was not in the pencil, but in his own perseverance and enjoyment of the task.",
+        "type": "content"
+      },
+      {
+        "title": "துணைப் பாடக் குறிப்புகள் (Supplementary Notes)",
+        "content": "1. Persistence in Art: Skill comes from practice, not magic tools. 2. Attitude Matters: Doing work angrily leads to poor results; enjoying the process leads to improvement. 3. Overcoming Dislike: Chris went from hating art to having fun with it. 4. Self-Correction: Chris learns to 'hear' his inner teacher's advice to fix rough lines. 5. Perseverance in Sports: The lesson also tells the story of Megala, who fell during an 800m race but got up and finished, earning a special prize for her spirit.",
+        "type": "content"
+      },
+      {
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts:\n- Chris's dislike: Art and Writing.\n- The Pencil's effect: It made him practice for a whole afternoon.\n- The Realization: Practice and enjoyment are the keys to success.\n- Megala's Race: 800 meters (two laps).\n- Megala's Prize: Special prize for perseverance.\n- Story Writing Steps: Look at characters, find what they do, write simple sentences, repeat.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Choose the best answer:\n1. Chris enjoyed all things except writing and [drawing].\n2. One day Chris tried to draw a [circle].\n3. Pencil asked him to draw [pair of eyes].\n4. Drawing said it looked like a [lollipop] without hair.\n5. Chris gave his teacher a [hearty thanks].\n\nB. Megala's Race Questions:\n1. Event: [800 meters] running race.\n2. Support: Everyone supported her because she [got up after falling].\n3. Main idea: [Perseverance] - never giving up.\n4. Special prize: Given for her [spirit and courage].",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What were the two things Chris did NOT enjoy doing?",
+        "options": [
+          "Reading and Singing",
+          "Art and Writing",
+          "Math and History",
+          "Playing and Running"
+        ],
+        "answer": 1,
+        "explanation": "Chris enjoyed school but disliked art and writing."
+      },
+      {
+        "question": "What did Chris find that he couldn't resist using?",
+        "options": [
+          "A magic brush",
+          "A pencil of lovely colours",
+          "A new notebook",
+          "A box of paints"
+        ],
+        "answer": 1,
+        "explanation": "He found a pencil of lovely colours and tried to draw with it."
+      },
+      {
+        "question": "What happened when Chris was about to throw the pencil away?",
+        "options": [
+          "His friend took it",
+          "The pencil broke",
+          "The drawing began to speak",
+          "He changed his mind"
+        ],
+        "answer": 2,
+        "explanation": "The drawing he had just made started talking to him."
+      },
+      {
+        "question": "What was the first thing the drawing asked Chris to add?",
+        "options": [
+          "A nose",
+          "A pair of eyes",
+          "Some hair",
+          "A mouth"
+        ],
+        "answer": 1,
+        "explanation": "The circle asked for a pair of eyes so it could see."
+      },
+      {
+        "question": "What did the drawing say it looked like when it had no hair?",
+        "options": [
+          "A balloon",
+          "A lollipop",
+          "A ball",
+          "A stone"
+        ],
+        "answer": 1,
+        "explanation": "It shouted, 'Draw me some hair, quickly, I look like a lollipop!'"
+      },
+      {
+        "question": "How long did Chris spend drawing and erasing with the talking drawing?",
+        "options": [
+          "Ten minutes",
+          "One hour",
+          "The whole afternoon",
+          "Two days"
+        ],
+        "answer": 2,
+        "explanation": "He spent the whole afternoon practicing as directed by the drawing."
+      },
+      {
+        "question": "What did Chris realize was the real reason he had drawn so badly before?",
+        "options": [
+          "He didn't have talent",
+          "His pencils were bad",
+          "He never practiced more than 10 minutes and did it angrily",
+          "He was too tired"
+        ],
+        "answer": 2,
+        "explanation": "He realized his lack of practice and bad attitude were the real problems."
+      },
+      {
+        "question": "What did Chris find the next morning in place of the magic pencil?",
+        "options": [
+          "A gold pencil",
+          "Nothing (the pencil was gone)",
+          "A new drawing",
+          "A letter"
+        ],
+        "answer": 1,
+        "explanation": "The next morning, he couldn't find the magic pencil."
+      },
+      {
+        "question": "What did Chris learn about 'magic' at the end?",
+        "options": [
+          "Magic is real",
+          "You only need to keep trying and enjoy what you do",
+          "Magic pencils are expensive",
+          "Only certain people can draw"
+        ],
+        "answer": 1,
+        "explanation": "The final lesson was that perseverance and enjoyment are the real 'magic'."
+      },
+      {
+        "question": "Which race did Megala participate in?",
+        "options": [
+          "100 meters",
+          "400 meters",
+          "800 meters",
+          "1500 meters"
+        ],
+        "answer": 2,
+        "explanation": "The story mentions she was in the 800 meters running race."
+      },
+      {
+        "question": "What happened to Megala during the race?",
+        "options": [
+          "She won easily",
+          "She fell on the ground",
+          "She stopped running",
+          "She cheated"
+        ],
+        "answer": 1,
+        "explanation": "She fell on the ground during the second lap."
+      },
+      {
+        "question": "Why did the headmaster give Megala a special prize?",
+        "options": [
+          "Because she was the fastest",
+          "Because she was his favorite student",
+          "For her perseverance and finishing the race despite falling",
+          "Because she didn't fall"
+        ],
+        "answer": 2,
+        "explanation": "The prize was for her spirit and refusal to give up."
+      },
+      {
+        "question": "What is the first step in writing a story using pictures?",
+        "options": [
+          "Write sentences",
+          "Find what characters are doing",
+          "Look at the picture and find characters",
+          "Give it a title"
+        ],
+        "answer": 2,
+        "explanation": "Step 1 is identifying the characters in the picture."
+      },
+      {
+        "question": "The 'Cap Seller' story is used to teach:",
+        "options": [
+          "How to sell caps",
+          "How to write a story using pictures",
+          "How to climb trees",
+          "How to talk to monkeys"
+        ],
+        "answer": 1,
+        "explanation": "It's an example for the 'Let us write' section on picture-based story writing."
+      },
+      {
+        "question": "Assertion (A): Chris could draw well with a normal pencil the next day.\nReason (R): He had practiced a lot the previous afternoon.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "His improvement was due to the practice he put in, not the magic of the pencil."
+      },
+      {
+        "question": "Fill in the blank: I got a _____ to see my favourite heroine.",
+        "options": [
+          "award",
+          "chance",
+          "pencil",
+          "race"
+        ],
+        "answer": 1,
+        "explanation": "From 'I Can Do' section: 'I got a chance to see...'"
+      },
+      {
+        "question": "Which of these is a feminine noun?",
+        "options": [
+          "Hero",
+          "Prince",
+          "Bride",
+          "Rooster"
+        ],
+        "answer": 2,
+        "explanation": "Bride is the feminine counterpart of bridegroom."
+      },
+      {
+        "question": "Identify the present continuous sentence:",
+        "options": [
+          "They eat breakfast.",
+          "They are eating their breakfast.",
+          "They ate breakfast.",
+          "They will eat breakfast."
+        ],
+        "answer": 1,
+        "explanation": "'Are eating' is the present continuous form."
+      },
+      {
+        "question": "What is the opposite gender of 'King'?",
+        "options": [
+          "Princess",
+          "Queen",
+          "Madam",
+          "Waitress"
+        ],
+        "answer": 1,
+        "explanation": "King (Masculine) - Queen (Feminine)."
+      },
+      {
+        "question": "What is the main moral of both 'The Magic Pencil' and 'Megala's Race'?",
+        "options": [
+          "Don't run too fast",
+          "Pencils can talk",
+          "Perseverance leads to success",
+          "Winning is everything"
+        ],
+        "answer": 2,
+        "explanation": "Both stories emphasize not giving up and continuing effort (perseverance)."
+      }
+    ]
+  }
+}

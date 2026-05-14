@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE MISTAKEN PLATE || தவறுதலாகக் கருதப்பட்ட தட்டு",
+    "grade": "4",
+    "term": "3",
+    "unit": "1",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l3"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கதைச் சுருக்கம் (Complete Story Summary)",
+        "content": "The story 'The Mistaken Plate' tells of two merchants who sold brass and tin items. They traveled together but divided the streets to avoid competition. One was honest and fair, while the other was greedy. An old woman and her granddaughter, living in poverty, had an old family plate made of gold, though they didn't know its value. When the greedy merchant was called to check the plate, he realized it was gold but lied, saying it was worthless, hoping to buy it cheap later. When the honest merchant came, he truthfully told them it was gold and admitted he couldn't afford its full price. However, the grandmother insisted on trading. The honest merchant gave them all his money, wares, donkey, and cart, keeping only eight rupees for the ferry. When the greedy merchant returned, he was shocked to find the plate gone. The story illustrates that honesty is rewarded, and greed leads to loss.",
+        "type": "content"
+      },
+      {
+        "title": "துணைப் பாடக் குறிப்புகள் (Supplementary Notes)",
+        "content": "1. Comparison of Merchants: One seeks fair trade; the other seeks to cheat. 2. Value of Memory: The plate was kept in memory of the grandfather, showing family values. 3. Truth vs Lie: The greedy merchant's lie cost him a fortune. 4. Fairness: The honest merchant's willingness to give everything he had shows true integrity. 5. Animal Sounds and Rhyming Words: The lesson also touches on monkeys (chatter), elephants (trumpet), and rhyming pairs like say/day, go/grow.",
+        "type": "content"
+      },
+      {
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts:\n- Items sold: Brass and Tin.\n- Tool used to test the plate: A needle.\n- Greedy merchant's lie: 'Not even worth one rupee'.\n- Honest merchant's payment: All money + wares + donkey + cart.\n- Ferry charge: 8 rupees.\n- Animal Sounds: \n  * Monkey: Chatter\n  * Elephant: Trumpet\n  * Rooster: Crow\n- Articles Usage: \n  * The Himalayas (Mountain ranges)\n  * The Vaigai (Rivers)\n  * An old man (Vowel sound)\n  * The Sun (Unique objects)",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Choose the correct answer: \n1. The merchants sold things made of [brass and tin]. \n2. The grandmother kept the plate in memory of [her husband]. \n3. In real, the plate was made of [gold]. \n4. The honest merchant paid [eight] rupees to the boatman. \n\nB. Identify the speaker:\n1. 'I am not rich enough to buy this plate.' - Honest Merchant. \n2. 'Are you sure? This is gold?' - Grandmother. \n\nC. Articles: \n1. [The] Himalayas \n2. [The] Vaigai \n3. [An] old man \n4. [The] Sun",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What kind of items did the two merchants sell?",
+        "options": [
+          "Gold and silver",
+          "Wood and glass",
+          "Brass and tin",
+          "Iron and steel"
+        ],
+        "answer": 2,
+        "explanation": "The story clearly states that the merchants sold things made of brass and tin."
+      },
+      {
+        "question": "Why did the two merchants divide the streets of the town?",
+        "options": [
+          "They hated each other",
+          "They did not want to disturb each other while selling",
+          "They were ordered by the king",
+          "They wanted to race each other"
+        ],
+        "answer": 1,
+        "explanation": "They divided the streets so they wouldn't compete or disturb each other in the same area."
+      },
+      {
+        "question": "In whose memory did the grandmother keep the old plate?",
+        "options": [
+          "Her father",
+          "Her husband",
+          "Her son",
+          "Her daughter"
+        ],
+        "answer": 1,
+        "explanation": "The text mentions, 'The grandmother had kept the plate in memory of her husband.'"
+      },
+      {
+        "question": "What did the greedy merchant use to scratch the old plate?",
+        "options": [
+          "A knife",
+          "A stone",
+          "A needle",
+          "A coin"
+        ],
+        "answer": 2,
+        "explanation": "The greedy man took the plate and scratched it with a needle to test the metal."
+      },
+      {
+        "question": "What value did the greedy merchant verbally claim the plate had?",
+        "options": [
+          "Ten rupees",
+          "Eight rupees",
+          "Not even one rupee",
+          "Three gold coins"
+        ],
+        "answer": 2,
+        "explanation": "To cheat them, he said, 'What is it worth? Not even one rupee.'"
+      },
+      {
+        "question": "What was the honest merchant's reaction upon realizing the plate was gold?",
+        "options": [
+          "He hid it quickly",
+          "He said he was not rich enough to buy it",
+          "He offered them one rupee",
+          "He ran away"
+        ],
+        "answer": 1,
+        "explanation": "He honestly told them, 'I am not rich enough to buy this plate. This is a gold plate.'"
+      },
+      {
+        "question": "How much money did the honest merchant keep for himself?",
+        "options": [
+          "Ten rupees",
+          "Nothing",
+          "One rupee",
+          "Eight rupees"
+        ],
+        "answer": 3,
+        "explanation": "He only kept eight rupees for the ferry to go home."
+      },
+      {
+        "question": "To whom did the honest merchant pay the eight rupees?",
+        "options": [
+          "The grandmother",
+          "The boatman",
+          "The greedy merchant",
+          "The shopkeeper"
+        ],
+        "answer": 1,
+        "explanation": "He paid the eight rupees to the boatman to take him across the river."
+      },
+      {
+        "question": "Identify the sound made by a Monkey.",
+        "options": [
+          "Roar",
+          "Trumpet",
+          "Chatter",
+          "Crow"
+        ],
+        "answer": 2,
+        "explanation": "Monkeys make a 'chatter' sound."
+      },
+      {
+        "question": "Identify the sound made by an Elephant.",
+        "options": [
+          "Bray",
+          "Hum",
+          "Trumpet",
+          "Hiss"
+        ],
+        "answer": 2,
+        "explanation": "Elephants make a 'trumpet' sound."
+      },
+      {
+        "question": "Fill in the blank with the correct article: ____ Himalayas.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": 2,
+        "explanation": "We use 'The' before names of mountain ranges: The Himalayas."
+      },
+      {
+        "question": "Fill in the blank with the correct article: ____ Vaigai.",
+        "options": [
+          "The",
+          "An",
+          "A",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "We use 'The' before names of rivers: The Vaigai."
+      },
+      {
+        "question": "Fill in the blank with the correct article: ____ old man.",
+        "options": [
+          "The",
+          "A",
+          "An",
+          "None"
+        ],
+        "answer": 2,
+        "explanation": "'Old' starts with a vowel sound, so we use 'An'."
+      },
+      {
+        "question": "Assertion (A): The greedy merchant threw the golden plate on the ground. Reason (R): He knew it was gold and wanted to cheat the grandmother.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "He threw it down to pretend it was worthless so he could return later and buy it for very little money."
+      },
+      {
+        "question": "What was the greedy merchant's ultimate punishment for his dishonesty?",
+        "options": [
+          "He was sent to jail",
+          "He lost the golden plate forever",
+          "The grandmother beat him",
+          "His cart was stolen"
+        ],
+        "answer": 1,
+        "explanation": "Because he lied, the good merchant bought the plate, and the greedy merchant missed out on the huge profit."
+      },
+      {
+        "question": "What is the meaning of 'Foot hills'?",
+        "options": [
+          "Mountain peak",
+          "Low hill at base",
+          "Deep valley",
+          "River bank"
+        ],
+        "answer": 1,
+        "explanation": "Foot hills are low hills at the base of a mountain range."
+      },
+      {
+        "question": "Analogy: Monkey : Chatter :: Rooster : ?",
+        "options": [
+          "Roar",
+          "Crow",
+          "Trumpet",
+          "Hum"
+        ],
+        "answer": 1,
+        "explanation": "A rooster crows, just like a monkey chatters."
+      },
+      {
+        "question": "Which article is used before unique objects in nature like 'Sun'?",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "None"
+        ],
+        "answer": 2,
+        "explanation": "We use 'The' for unique objects in nature: The Sun."
+      },
+      {
+        "question": "Who proved that 'honesty is the best policy' in the supplementary story about the farmer?",
+        "options": [
+          "The rich man",
+          "The poor but honest farmer",
+          "The greedy merchant",
+          "The boatman"
+        ],
+        "answer": 1,
+        "explanation": "The honest farmer found a bag of gold and returned it, believing honesty is the best policy."
+      },
+      {
+        "question": "What was the price of the pen Rathi wanted to buy in the dialogue section?",
+        "options": [
+          "Five rupees",
+          "Ten rupees",
+          "Eight rupees",
+          "One rupee"
+        ],
+        "answer": 1,
+        "explanation": "In the shopkeeper dialogue, Rathi buys a pen for ten rupees."
+      }
+    ]
+  }
+}

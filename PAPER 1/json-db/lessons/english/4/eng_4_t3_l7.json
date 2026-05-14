@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE STRUGGLING STAR || போராடும் நட்சத்திரம்",
+    "grade": "4",
+    "term": "3",
+    "unit": "3",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l7"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கதைச் சுருக்கம் (Complete Story Summary)",
+        "content": "Farhan and his father, Abbu, enjoy reading the newspaper together every morning. One day, they read about Kartik, a blind technologist who won the 'Young Leaders Award'. Kartik's story is one of great perseverance. Despite being blind, he loved Science. However, Delhi government rules initially prevented blind students from studying Science after 10th standard. Kartik didn't give up; he campaigned for nine months until the government changed the rules for all blind students in India. He then faced similar discrimination when applying to IITs. Again, he fought and succeeded in opening doors for other disabled students. Though he didn't study at an IIT, he earned a place at the prestigious Stanford University in the USA. He later started companies to help other disabled children reach their potential. Farhan is inspired by Kartik's journey and promises to work hard for his own dreams, realizing that support often comes from within oneself.",
+        "type": "content"
+      },
+      {
+        "title": "இலக்கணம்: பால் பெயர்கள் (Gender Nouns)",
+        "content": "Gender of a noun tells us if a person or animal is male or female. \n- Masculine nouns (Male): father, brother, king, bull, rooster, stag, stallion, lion, fox, ram, drake.\n- Feminine nouns (Female): mother, sister, queen, cow, hen, hind, mare, lioness, vixen, ewe, duck.\n\nMore pairs:\n- Uncle / Aunt\n- Son / Daughter\n- Prince / Princess\n- Hero / Heroine\n- Waiter / Waitress\n- Bridegroom / Bride\n- Nephew / Niece",
+        "type": "content"
+      },
+      {
+        "title": "அறிஞ்சொற்பொருள் மற்றும் நினைவில் கொள்க",
+        "content": "Glossary:\n- Recognize: to know/accept someone.\n- Empower: to give authority or power.\n- Campaigns: activities for a specific purpose.\n- Potential: talent or ability.\n- Sustain: keep going.\n- Inspiring: to influence or attract.\n\nKey Facts:\n- Award: Young Leaders Award (given to 17 people worldwide).\n- Kartik's School: Delhi Public School, New Delhi.\n- Board Exam Score: More than 95% in 12th standard.\n- Higher Education: Stanford University, USA.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Choose the best answer:\n1. Kartik is a [blind] technologist.\n2. The Delhi government rule was challenged for [nine] months.\n3. Kartik studied at Stanford University in [USA].\n\nB. Grammar - Change Masculine to Feminine:\n1. Uncle -> [Aunt]\n2. Man -> [Woman]\n3. Waiter -> [Waitress]\n4. Rooster -> [Hen]\n\nC. Gender matching:\n- Stag - [Hind]\n- Stallion - [Mare]\n- Fox - [Vixen]\n- Ram - [Ewe]\n- Drake - [Duck]",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is Farhan's favorite part of the morning?",
+        "options": [
+          "Brushing his teeth",
+          "Drinking milk",
+          "Reading the newspaper with his father",
+          "Playing outside"
+        ],
+        "answer": 2,
+        "explanation": "Reading the newspaper with his father was his favorite morning routine."
+      },
+      {
+        "question": "What award did Kartik win?",
+        "options": [
+          "Nobel Prize",
+          "Young Leaders Award",
+          "Oscar Award",
+          "Bharat Ratna"
+        ],
+        "answer": 1,
+        "explanation": "He won the Young Leaders Award, given to 17 people worldwide."
+      },
+      {
+        "question": "What is Kartik's profession?",
+        "options": [
+          "Doctor",
+          "Technologist",
+          "Teacher",
+          "Artist"
+        ],
+        "answer": 1,
+        "explanation": "Kartik is a blind technologist."
+      },
+      {
+        "question": "Which subject did Kartik like the most in school?",
+        "options": [
+          "English",
+          "History",
+          "Science",
+          "Maths"
+        ],
+        "answer": 2,
+        "explanation": "He loved Science the most despite being blind."
+      },
+      {
+        "question": "How long did Kartik campaign against the government rule?",
+        "options": [
+          "Six months",
+          "Nine months",
+          "One year",
+          "Two years"
+        ],
+        "answer": 1,
+        "explanation": "It took nine long months of struggle to get permission for blind students to study Science."
+      },
+      {
+        "question": "What was Kartik's score in his 12th board exams?",
+        "options": [
+          "Exactly 90%",
+          "More than 95%",
+          "Exactly 80%",
+          "More than 99%"
+        ],
+        "answer": 1,
+        "explanation": "He scored more than 95% in his 12th board exam."
+      },
+      {
+        "question": "Where did Kartik finally go to study computers?",
+        "options": [
+          "IIT Madras",
+          "IIT Delhi",
+          "Stanford University, USA",
+          "Oxford University"
+        ],
+        "answer": 2,
+        "explanation": "He got admission to Stanford University in the USA."
+      },
+      {
+        "question": "What do Kartik's companies aim to do?",
+        "options": [
+          "Make fast cars",
+          "Help disabled children reach their potential",
+          "Build schools",
+          "Clean the environment"
+        ],
+        "answer": 1,
+        "explanation": "His companies help children with disabilities reach their full potential."
+      },
+      {
+        "question": "What does 'empower' mean in the glossary?",
+        "options": [
+          "To influence",
+          "To give authority or power",
+          "To keep going",
+          "To accept someone"
+        ],
+        "answer": 1,
+        "explanation": "Empower is defined as giving authority or power."
+      },
+      {
+        "question": "What is the meaning of 'sustain'?",
+        "options": [
+          "To stop",
+          "To keep going",
+          "To fight",
+          "To win"
+        ],
+        "answer": 1,
+        "explanation": "Sustain means to keep going."
+      },
+      {
+        "question": "In grammar, words used for males are called _______ nouns.",
+        "options": [
+          "Feminine",
+          "Masculine",
+          "Neuter",
+          "Common"
+        ],
+        "answer": 1,
+        "explanation": "Words for males are masculine nouns."
+      },
+      {
+        "question": "What is the feminine gender of 'rooster'?",
+        "options": [
+          "Chicken",
+          "Duck",
+          "Hen",
+          "Mare"
+        ],
+        "answer": 2,
+        "explanation": "The feminine of rooster is hen."
+      },
+      {
+        "question": "What is the feminine gender of 'stag'?",
+        "options": [
+          "Doe",
+          "Hind",
+          "Ewe",
+          "Vixen"
+        ],
+        "answer": 1,
+        "explanation": "The feminine of stag is hind."
+      },
+      {
+        "question": "What is the feminine gender of 'fox'?",
+        "options": [
+          "Vixen",
+          "Hind",
+          "Ewe",
+          "Mare"
+        ],
+        "answer": 0,
+        "explanation": "The feminine of fox is vixen."
+      },
+      {
+        "question": "What is the masculine gender of 'ewe'?",
+        "options": [
+          "Stag",
+          "Ram",
+          "Stallion",
+          "Drake"
+        ],
+        "answer": 1,
+        "explanation": "The masculine of ewe is ram."
+      },
+      {
+        "question": "What is the masculine gender of 'duck'?",
+        "options": [
+          "Drake",
+          "Rooster",
+          "Swan",
+          "Goose"
+        ],
+        "answer": 0,
+        "explanation": "The masculine of duck is drake."
+      },
+      {
+        "question": "Identify the feminine of 'waiter':",
+        "options": [
+          "Madam",
+          "Waitress",
+          "Server",
+          "Lady"
+        ],
+        "answer": 1,
+        "explanation": "Waiter becomes waitress in feminine gender."
+      },
+      {
+        "question": "What is the feminine of 'nephew'?",
+        "options": [
+          "Aunt",
+          "Niece",
+          "Daughter",
+          "Sister"
+        ],
+        "answer": 1,
+        "explanation": "Nephew becomes niece."
+      },
+      {
+        "question": "Assertion (A): Kartik was the first blind student in India to study Science.\nReason (R): He challenged the government rule that blocked blind children from Science.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "He was the first precisely because he fought to change the restrictive rule."
+      },
+      {
+        "question": "Where does support 'mostly come from' according to the story?",
+        "options": [
+          "From friends",
+          "From the government",
+          "From within ourselves",
+          "From teachers"
+        ],
+        "answer": 2,
+        "explanation": "Abbu advises that many times support comes from within us."
+      }
+    ]
+  }
+}

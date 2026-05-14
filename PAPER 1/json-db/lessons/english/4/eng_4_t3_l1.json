@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE SEVEN SEEDS || ஏழு விதைகள்",
+    "grade": "4",
+    "term": "3",
+    "unit": "1",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l1"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான சுருக்கம் (Complete Summary)",
+        "content": "A long time ago, there was a kingdom at the foothills of the Pothigai Hills. The king, who was wise and respected, had no children to take over the throne. He decided to find a successor through a test of character. He gave seven seeds of 'Anichi' to each child in the kingdom, telling them to grow the plants for six weeks. The child who grew the best plant would be the next king or queen. Many children, including a girl named Ani, took the seeds and tried their best. Ani planted her seeds in a pot with good soil and watered them regularly, but they did not sprout. After six weeks, all the children went to the palace with pots full of beautiful flowers. Ani was ashamed because her pot was empty. However, the king noticed her and asked why her pot was empty. She honestly explained her efforts. To everyone's surprise, the king chose Ani as the successor. He revealed that the seeds he gave were boiled and could never grow. All the other children had cheated by using different seeds to produce flowers, while Ani remained honest. The story teaches that honesty is the best policy and leads to true success.",
+        "type": "content"
+      },
+      {
+        "title": "கூடுதல் பகுதிகள் மற்றும் குறிப்புகள் (Additional Notes)",
+        "content": "1. Character of the King: He was just and wise, looking for a leader with a good heart rather than just skills. 2. Pothigai Hills: The setting adds a local cultural touch to the story. 3. The Test: The 'boiled seeds' trick is a classic way to test integrity. 4. Ani's Courage: It takes great courage to stand among peers with an 'empty' result when everyone else seems to have succeeded. 5. Vocabulary Focus: Kingdom, Successor, Success, Sprout, Honesty.",
+        "type": "content"
+      },
+      {
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts: \n- Location: Foothills of Pothigai Hills.\n- Successor: A person who comes after another in an office or role.\n- Seeds given: Seven seeds of Anichi.\n- Time given for growth: Six weeks.\n- The Twist: The seeds were boiled (would not grow).\n- Winner: Ani, for her honesty.\n- Synonyms from the text: \n  * Kingdom: A country ruled by a king or queen.\n  * Successor: A person who comes after another.\n  * Seeds: The unit of reproduction of a flowering plant.\n  * Sprout: To begin to grow.\n  * Success: The accomplishment of an aim or purpose.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Choose the correct answer: \n1. A long time ago, there was a [kingdom] at the foothills of Pothigai hills. \n2. The king wanted to find a [successor]. \n3. Ani was a [leader/student/girl] who took the seeds. \n4. In real, the seeds were [boiled]. \n\nB. Answer the following questions: \n1. How long did the king give for the seeds to grow? Ans: Six weeks. \n2. Did the seeds sprout for Ani? Ans: No, they did not. \n3. Why did the king choose Ani? Ans: Because she was honest and did not replace the boiled seeds. \n4. What is the moral of the story? Ans: Honesty is the best policy.",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where was the kingdom located in the story?",
+        "options": [
+          "At the peak of the Himalayas",
+          "At the foothills of Pothigai Hills",
+          "Near the banks of the Ganges",
+          "In the middle of a desert"
+        ],
+        "answer": 1,
+        "explanation": "The story begins by mentioning a kingdom at the foothills of the Pothigai Hills."
+      },
+      {
+        "question": "Why did the king want to find a successor?",
+        "options": [
+          "He was tired of ruling",
+          "He wanted to go on a vacation",
+          "He had no children to take over the throne",
+          "He wanted to start a school"
+        ],
+        "answer": 2,
+        "explanation": "The king was old and had no children, so he needed someone to rule after him."
+      },
+      {
+        "question": "How many seeds did the king give to each child?",
+        "options": [
+          "One",
+          "Five",
+          "Seven",
+          "Ten"
+        ],
+        "answer": 2,
+        "explanation": "The king gave seven seeds to each child as part of the test."
+      },
+      {
+        "question": "What was the name of the girl who took part in the competition?",
+        "options": [
+          "Meena",
+          "Ani",
+          "Rani",
+          "Kanna"
+        ],
+        "answer": 1,
+        "explanation": "The story mentions a girl named Ani who took the seeds."
+      },
+      {
+        "question": "How many weeks did the king give the children to grow the seeds?",
+        "options": [
+          "Two weeks",
+          "Four weeks",
+          "Six weeks",
+          "Eight weeks"
+        ],
+        "answer": 2,
+        "explanation": "The king told them, 'The child who comes to me after six weeks... shall be the winner.'"
+      },
+      {
+        "question": "What did Ani do to try and grow the seeds?",
+        "options": [
+          "She ignored them",
+          "She put them in good soil and watered them",
+          "She bought new seeds from the market",
+          "She boiled them"
+        ],
+        "answer": 1,
+        "explanation": "Ani cleared a spot in her garden, used good soil, and watered the seeds regularly."
+      },
+      {
+        "question": "What was the result of Ani's efforts after six weeks?",
+        "options": [
+          "A beautiful flower grew",
+          "The seeds did not sprout",
+          "The plant grew very tall",
+          "A fruit tree grew"
+        ],
+        "answer": 1,
+        "explanation": "Despite her care, the seeds did not sprout at all."
+      },
+      {
+        "question": "What did all the other children have in their pots when they returned to the palace?",
+        "options": [
+          "Nothing",
+          "Empty soil",
+          "Beautiful flowers",
+          "Dried leaves"
+        ],
+        "answer": 2,
+        "explanation": "All the other children had pots full of beautiful flowers."
+      },
+      {
+        "question": "Why was Ani feeling ashamed at the palace?",
+        "options": [
+          "She was late",
+          "She lost her seeds",
+          "She had an empty pot",
+          "She wore old clothes"
+        ],
+        "answer": 2,
+        "explanation": "She felt ashamed because her pot was empty while others had flowers."
+      },
+      {
+        "question": "What was the truth about the seeds the king had given?",
+        "options": [
+          "They were very expensive",
+          "They were magic seeds",
+          "They were boiled and could not grow",
+          "They were only for flowers"
+        ],
+        "answer": 2,
+        "explanation": "The king revealed that the seeds were boiled, so it was impossible for them to grow."
+      },
+      {
+        "question": "How did the other children get flowers in their pots?",
+        "options": [
+          "They were better at gardening",
+          "They used different seeds to cheat",
+          "The king gave them better seeds",
+          "They used magic"
+        ],
+        "answer": 1,
+        "explanation": "Since the original seeds were boiled, the other children must have used different seeds to get flowers."
+      },
+      {
+        "question": "Why did the king choose Ani as his successor?",
+        "options": [
+          "She was the tallest",
+          "She had the most beautiful pot",
+          "She was the only one who was honest",
+          "She was the smartest"
+        ],
+        "answer": 2,
+        "explanation": "The king chose her because she was honest and did not try to cheat when the seeds didn't grow."
+      },
+      {
+        "question": "What is the meaning of the word 'Successor'?",
+        "options": [
+          "A person who wins a race",
+          "A person who comes after another in a role",
+          "A person who grows plants",
+          "A person who lives in a palace"
+        ],
+        "answer": 1,
+        "explanation": "The pictionary defines successor as 'a person who comes after another'."
+      },
+      {
+        "question": "What is the meaning of the word 'Sprout'?",
+        "options": [
+          "To die",
+          "To begin to grow",
+          "To cook",
+          "To sell"
+        ],
+        "answer": 1,
+        "explanation": "Sprout means to begin to grow or put out shoots."
+      },
+      {
+        "question": "What does the word 'Success' mean according to the text?",
+        "options": [
+          "Winning a prize",
+          "Failing a test",
+          "Accomplishment of an aim",
+          "Running fast"
+        ],
+        "answer": 2,
+        "explanation": "The glossary defines success as the accomplishment of an aim or purpose."
+      },
+      {
+        "question": "What is the collective name for the reproduction unit of a flowering plant?",
+        "options": [
+          "Leaf",
+          "Root",
+          "Seed",
+          "Stem"
+        ],
+        "answer": 2,
+        "explanation": "The unit of reproduction of a flowering plant is a seed."
+      },
+      {
+        "question": "Which word means 'a country ruled by a king or queen'?",
+        "options": [
+          "City",
+          "Village",
+          "Kingdom",
+          "Forest"
+        ],
+        "answer": 2,
+        "explanation": "A kingdom is a country ruled by a king or queen."
+      },
+      {
+        "question": "Assertion (A): Ani felt she had failed the king's test initially.\nReason (R): Her pot did not have any flowers after six weeks.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "Ani felt she failed (A) because her pot was empty (R), which was the visible outcome of her gardening attempt."
+      },
+      {
+        "question": "Analogy: King : Kingdom :: Successor : ?",
+        "options": [
+          "Seeds",
+          "Flowers",
+          "Throne",
+          "Ani"
+        ],
+        "answer": 2,
+        "explanation": "A king rules a kingdom; a successor takes over the throne."
+      },
+      {
+        "question": "Life Situation: You find that your experiment didn't give the expected result, while everyone else's did because they cheated. What should you do according to the story?",
+        "options": [
+          "Cheat like everyone else to get a good mark",
+          "Hide your result",
+          "Be honest and present your actual findings",
+          "Don't go to class"
+        ],
+        "answer": 2,
+        "explanation": "The story of Ani teaches that honesty is more valuable than fake success."
+      }
+    ]
+  }
+}

@@ -345,6 +345,12 @@ export const lessonMap = {
     "grade": "3",
     "title": "Places in my Town || எனது ஊரில் உள்ள இடங்கள்"
   },
+  "Honesty - The Mistaken Plate": {
+    "local": true,
+    "filename": "3",
+    "grade": "4",
+    "title": "Honesty - The Mistaken Plate"
+  },
   "UNIT 1: A WORLD WITH ROBOTS": {
     "local": true,
     "filename": "eng_4_t1_l1",
@@ -452,6 +458,114 @@ export const lessonMap = {
     "filename": "eng_4_t2_l6",
     "grade": "4",
     "title": "SAVE WISELY (SUPPLEMENTARY) & READING PASSAGE"
+  },
+  "THE SEVEN SEEDS || ஏழு விதைகள்": {
+    "local": true,
+    "filename": "eng_4_t3_l1",
+    "grade": "4",
+    "title": "THE SEVEN SEEDS || ஏழு விதைகள்"
+  },
+  "eng_4_t3_l1": {
+    "local": true,
+    "filename": "eng_4_t3_l1",
+    "grade": "4",
+    "title": "THE SEVEN SEEDS || ஏழு விதைகள்"
+  },
+  "BE HONEST || நேர்மையாக இரு": {
+    "local": true,
+    "filename": "eng_4_t3_l2",
+    "grade": "4",
+    "title": "BE HONEST || நேர்மையாக இரு"
+  },
+  "eng_4_t3_l2": {
+    "local": true,
+    "filename": "eng_4_t3_l2",
+    "grade": "4",
+    "title": "BE HONEST || நேர்மையாக இரு"
+  },
+  "THE MISTAKEN PLATE || தவறுதலாகக் கருதப்பட்ட தட்டு": {
+    "local": true,
+    "filename": "eng_4_t3_l3",
+    "grade": "4",
+    "title": "THE MISTAKEN PLATE || தவறுதலாகக் கருதப்பட்ட தட்டு"
+  },
+  "eng_4_t3_l3": {
+    "local": true,
+    "filename": "eng_4_t3_l3",
+    "grade": "4",
+    "title": "THE MISTAKEN PLATE || தவறுதலாகக் கருதப்பட்ட தட்டு"
+  },
+  "BALA SPINS MAGIC || பாலா செய்யும் மாயாஜாலம்": {
+    "local": true,
+    "filename": "eng_4_t3_l4",
+    "grade": "4",
+    "title": "BALA SPINS MAGIC || பாலா செய்யும் மாயாஜாலம்"
+  },
+  "eng_4_t3_l4": {
+    "local": true,
+    "filename": "eng_4_t3_l4",
+    "grade": "4",
+    "title": "BALA SPINS MAGIC || பாலா செய்யும் மாயாஜாலம்"
+  },
+  "THE PAINTER || ஓவியர்": {
+    "local": true,
+    "filename": "eng_4_t3_l5",
+    "grade": "4",
+    "title": "THE PAINTER || ஓவியர்"
+  },
+  "eng_4_t3_l5": {
+    "local": true,
+    "filename": "eng_4_t3_l5",
+    "grade": "4",
+    "title": "THE PAINTER || ஓவியர்"
+  },
+  "THE WOODEN TOY || மரப்பொம்மை": {
+    "local": true,
+    "filename": "eng_4_t3_l6",
+    "grade": "4",
+    "title": "THE WOODEN TOY || மரப்பொம்மை"
+  },
+  "eng_4_t3_l6": {
+    "local": true,
+    "filename": "eng_4_t3_l6",
+    "grade": "4",
+    "title": "THE WOODEN TOY || மரப்பொம்மை"
+  },
+  "THE STRUGGLING STAR || போராடும் நட்சத்திரம்": {
+    "local": true,
+    "filename": "eng_4_t3_l7",
+    "grade": "4",
+    "title": "THE STRUGGLING STAR || போராடும் நட்சத்திரம்"
+  },
+  "eng_4_t3_l7": {
+    "local": true,
+    "filename": "eng_4_t3_l7",
+    "grade": "4",
+    "title": "THE STRUGGLING STAR || போராடும் நட்சத்திரம்"
+  },
+  "NEVER GIVE UP || ஒருபோதும் விட்டுக்கொடுக்காதே": {
+    "local": true,
+    "filename": "eng_4_t3_l8",
+    "grade": "4",
+    "title": "NEVER GIVE UP || ஒருபோதும் விட்டுக்கொடுக்காதே"
+  },
+  "eng_4_t3_l8": {
+    "local": true,
+    "filename": "eng_4_t3_l8",
+    "grade": "4",
+    "title": "NEVER GIVE UP || ஒருபோதும் விட்டுக்கொடுக்காதே"
+  },
+  "THE MAGIC PENCIL || மந்திர பென்சில்": {
+    "local": true,
+    "filename": "eng_4_t3_l9",
+    "grade": "4",
+    "title": "THE MAGIC PENCIL || மந்திர பென்சில்"
+  },
+  "eng_4_t3_l9": {
+    "local": true,
+    "filename": "eng_4_t3_l9",
+    "grade": "4",
+    "title": "THE MAGIC PENCIL || மந்திர பென்சில்"
   },
   "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
     "local": true,

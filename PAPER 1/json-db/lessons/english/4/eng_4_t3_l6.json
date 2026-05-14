@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "THE WOODEN TOY || மரப்பொம்மை",
+    "grade": "4",
+    "term": "3",
+    "unit": "2",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l6"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கதைச் சுருக்கம் (Complete Story Summary)",
+        "content": "Mugund is a talented young artist living near a forest. His village is often troubled by wild animals, especially wild dogs that hunt their livestock. Mugund learned the art of making wooden handicrafts from his grandfather. After losing his mother to wild animals, he initially hated them, but later focused his energy on art. Following a dream message from his mother about protecting the environment from plastic, he began selling wooden toys cheaply. To help his father, who was losing sheep to nighttime attacks, Mugund first made a loud wooden drum. When that wasn't enough, he creatively designed wooden tigers and wooden people to place around the farm. The wild animals, thinking people and tigers were present, stayed away. Mugund's success led other villagers to order his wooden figures, helping reduce plastic use and protecting his community's livelihood. He felt happy to save the world through his art.",
+        "type": "content"
+      },
+      {
+        "title": "துணைப் பாடக் குறிப்புகள் (Supplementary Notes)",
+        "content": "1. Heritage and Art: Mugund continues his grandfather's legacy of 'marapachi bommai' (wooden dolls). 2. Environmental Message: The story explicitly promotes wooden toys over plastic ones to reduce environmental risk. 3. Creative Problem Solving: Instead of violence, Mugund uses art (the drum and the statues) to solve the village's animal problem. 4. Respect for Nature: Mugund refuses to cut 'raw' (living) wood because he believes his mother's spirit lives in the trees. 5. Art to Save Trees: The lesson also mentions the Madhubani art from Bihar used to protect trees.",
+        "type": "content"
+      },
+      {
+        "title": "நினைவில் கொள்க மற்றும் ஒரு மதிப்பெண் பகுதிகள்",
+        "content": "Important Facts:\n- Local name for dolls: Marapachi bommai.\n- Material used: Dry wood (refused to use raw wood).\n- Mother's dream message: Eradicate plastic, it's a risk to the environment.\n- First invention to scare animals: Wooden drum.\n- Final successful invention: Wooden tigers and wooden people.\n- Madhubani art: From Bihar, used to save trees.\n- Synonyms: \n  * Weave: form by interlacing yarn.\n  * Bend: shape into a curve.\n  * Eradicate: to remove or destroy completely.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Choose the best answer:\n1. Mugund made [dolls] using the dry woods.\n2. In memory of his mother, he carved [wooden] statue.\n3. [Plastic] is a great risk to the environment.\n4. Mugund learnt the art from his [grandfather].\n5. [Drum] was helpful for his father to drive out the wild animals.\n\nB. Answer the questions:\n1. How did Mugund's mother die? Ans: She was hunted by wild animals.\n2. What was the solution for the animals? Ans: Placing wooden tigers and people on the farm.\n3. Why did he use dry wood? Ans: He felt his mother lived in the living trees.",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Where did the farmer and his son live?",
+        "options": [
+          "In the middle of the forest",
+          "Near the edge of the forest",
+          "In a big city",
+          "On top of a mountain"
+        ],
+        "answer": 1,
+        "explanation": "They lived near the edge of the forest."
+      },
+      {
+        "question": "Which wild animal is specifically mentioned as a threat to the village?",
+        "options": [
+          "Wild cats",
+          "Wild dogs",
+          "Lions",
+          "Bears"
+        ],
+        "answer": 1,
+        "explanation": "The forest was home to many wild dogs that hunted livestock."
+      },
+      {
+        "question": "What material did Mugund use to make dolls?",
+        "options": [
+          "Plastic",
+          "Clay",
+          "Dry wood",
+          "Raw wood"
+        ],
+        "answer": 2,
+        "explanation": "Mugund used dry wood to make his dolls."
+      },
+      {
+        "question": "What were Mugund's dolls locally known as?",
+        "options": [
+          "Kalimann bommai",
+          "Marapachi bommai",
+          "Plastic bommai",
+          "Thuni bommai"
+        ],
+        "answer": 1,
+        "explanation": "They were known as marapachi bommai."
+      },
+      {
+        "question": "What was his mother's message in the dream?",
+        "options": [
+          "Kill all wild animals",
+          "Eradicate the use of plastics through art",
+          "Stop making wooden toys",
+          "Move to the city"
+        ],
+        "answer": 1,
+        "explanation": "She told him to help remove plastic use as it is a risk to the environment."
+      },
+      {
+        "question": "Why did Mugund sell his wooden toys at a cheap rate?",
+        "options": [
+          "He didn't need money",
+          "To encourage people to use wood instead of plastic",
+          "Because they were of bad quality",
+          "His father told him to"
+        ],
+        "answer": 1,
+        "explanation": "He wanted to reduce plastic use by offering affordable wooden alternatives."
+      },
+      {
+        "question": "From whom did Mugund learn his art?",
+        "options": [
+          "His father",
+          "His grandfather",
+          "His mother",
+          "His teacher"
+        ],
+        "answer": 1,
+        "explanation": "He learned the art of handicrafts from his grandfather."
+      },
+      {
+        "question": "What did Mugund make first to help his father drive out the animals?",
+        "options": [
+          "A wooden tiger",
+          "A wooden drum",
+          "A stone wall",
+          "A fire"
+        ],
+        "answer": 1,
+        "explanation": "He first made a wooden drum to make massive noise."
+      },
+      {
+        "question": "Why did Mugund refuse to cut raw wood?",
+        "options": [
+          "It was too hard",
+          "It was too expensive",
+          "He felt his mother lived in each tree",
+          "He didn't have an axe"
+        ],
+        "answer": 2,
+        "explanation": "Mugund felt his mother's spirit lived in living trees."
+      },
+      {
+        "question": "What was the successful solution to protect the sheep at night?",
+        "options": [
+          "Building a fence",
+          "Making wooden tigers and people",
+          "Staying awake with a drum",
+          "Using electric lights"
+        ],
+        "answer": 1,
+        "explanation": "The wooden figures scared the animals by making them think people were awake."
+      },
+      {
+        "question": "How did trees help according to the 'Let us read aloud' section?",
+        "options": [
+          "They give fresh air",
+          "They provide plastic",
+          "They attract wild dogs",
+          "They make noise"
+        ],
+        "answer": 0,
+        "explanation": "Trees provide fresh air and improve the surroundings."
+      },
+      {
+        "question": "Which state's art is mentioned for saving trees?",
+        "options": [
+          "Delhi",
+          "Tamil Nadu",
+          "Bihar",
+          "Kerala"
+        ],
+        "answer": 2,
+        "explanation": "Madhubani art from Bihar is mentioned."
+      },
+      {
+        "question": "What is the meaning of 'eradicating'?",
+        "options": [
+          "Increasing",
+          "Removing completely",
+          "Recycling",
+          "Painting"
+        ],
+        "answer": 1,
+        "explanation": "To eradicate means to eliminate or destroy completely."
+      },
+      {
+        "question": "What color is described as 'calming and heals worries'?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "answer": 2,
+        "explanation": "The passage says the color green is calming."
+      },
+      {
+        "question": "Assertion (A): Mugund's father became ill.\nReason (R): He was worried and restless over losing his animals.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "His father's illness was caused by the stress and lack of sleep from animal attacks."
+      },
+      {
+        "question": "Analogy: Madhubani : Bihar :: Marapachi Bommai : ?",
+        "options": [
+          "Plastic",
+          "Wooden dolls",
+          "Drums",
+          "Tigers"
+        ],
+        "answer": 1,
+        "explanation": "Madhubani is an art from Bihar; Marapachi Bommai is a local name for wooden dolls."
+      },
+      {
+        "question": "What was the main idea of the story?",
+        "options": [
+          "Animals are dangerous",
+          "Art can protect nature and solve problems",
+          "Drums are better than statues",
+          "Pollution is good"
+        ],
+        "answer": 1,
+        "explanation": "The story shows how Mugund used his art to solve a community problem and protect the environment."
+      },
+      {
+        "question": "Which word means 'form by interlacing yarn'?",
+        "options": [
+          "Weave",
+          "Knead",
+          "Carve",
+          "Bend"
+        ],
+        "answer": 0,
+        "explanation": "To weave is to form cloth by interlacing threads or yarn."
+      },
+      {
+        "question": "How many animals were attacked on the night the father fell asleep?",
+        "options": [
+          "Five",
+          "Ten",
+          "Twenty-five",
+          "Fifty"
+        ],
+        "answer": 2,
+        "explanation": "Nearly twenty-five animals were attacked that night."
+      },
+      {
+        "question": "Step 1 of paragraph writing is to:",
+        "options": [
+          "Write an ending",
+          "Write a sentence about the topic",
+          "Write fun details",
+          "Draw a picture"
+        ],
+        "answer": 1,
+        "explanation": "The lesson says Step 1 is writing a sentence about the topic."
+      }
+    ]
+  }
+}

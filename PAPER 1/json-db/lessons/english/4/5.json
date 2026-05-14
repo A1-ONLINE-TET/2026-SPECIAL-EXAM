@@ -1,0 +1,628 @@
+{
+  "Class": "4",
+  "Term": "1",
+  "Lesson_Number": "2_Part_2",
+  "Lesson_Title": "The Painter (Poem & Adjectives - Grammar)",
+  "Lesson_Notes": [
+    {
+      "Title": "Complete Poem Summary (The Painter)",
+      "Details": "Stanza 1: The poet describes a painter who sits on a cold mud floor. She paints beautiful landscapes of valleys and hills. With her brush, she brings the empty canvas to life, making the brush bend and move according to her will.\nStanza 2: Her canvas used to be plain and colourless before she realized her skill. She learnt that the strokes of her brush are never aimless (without purpose). The continuous flow of her paint never chokes (stops) as she expresses her creativity.\nStanza 3: She dips her brush into the paint to draw a magnificent big black panther. While she paints, her legs are never in a rush; instead, she moves them gracefully, just like a dancer."
+    },
+    {
+      "Title": "Glossary",
+      "Details": "1. bend: shape into a curve.\n2. strokes: gentle movement of hand.\n3. chokes: stops.\n4. dip: put something in liquid."
+    },
+    {
+      "Title": "Let us know - Grammar (Adjectives)",
+      "Details": "Definition: Words that describe a noun are called adjectives. They give more details about the noun's size, shape, colour, and count.\nExamples:\n- 'The rabbit has long ears.' Here, 'long' tells what kind of ears the rabbit has. It describes the size/shape.\n- 'This is a green house.' Here, 'green' tells us the colour of the house.\n- 'Kasthuri has three colourful balloons.' Here, 'three' describes the number (count), and 'colourful' describes the quality of the noun 'balloon'."
+    },
+    {
+      "Title": "Let us listen",
+      "Details": "This section involves listening to an audio about a specific pencil and its features. The features include: It being a breakable pencil, having a double spring mechanism, absorbing pressure, whether you can hold it hard, and giving confidence and peace of mind."
+    },
+    {
+      "Title": "Let us speak (Borrowing a book from a public library)",
+      "Details": "This section provides conversational phrases to use in a library setting.\nPhrases for the User/Student:\n- I couldn't find the book I was looking for.\n- Will you be getting another copy anytime soon?\n- Would you be able to reserve it for me?\n- I need help with something.\n- I want to check these books out.\n- Can you show me the shelf?\n- I know the due date. I will return the books within the due date.\nPhrases for the Librarian:\n- How can I help you?\n- Did you search the correct shelf?\n- Someone may have taken it.\n- I'm sure we will (get another copy).\n- I will reserve it.\n- How are you doing today?\n- That will be all. See you."
+    }
+  ],
+  "Book_Back_Questions": [
+    {
+      "Title": "A. Match the rhyming words",
+      "Questions_and_Answers": [
+        "1. floor - door",
+        "2. will - hill",
+        "3. rush - brush",
+        "4. dancer - panther"
+      ]
+    },
+    {
+      "Title": "B. Answer the questions",
+      "Questions_and_Answers": [
+        "1. What does she paint?\nAns: She paints the valley, the hill, and a big black panther.",
+        "2. Does the brush bend to her will?\nAns: Yes, the brush bends to her will.",
+        "3. How does she move the brush?\nAns: She moves the brush with strokes that are not aimless. The flow of her paint never chokes."
+      ]
+    },
+    {
+      "Title": "C. Use the picture and the words to write the adjective (Giraffe)",
+      "Questions_and_Answers": [
+        "1. The giraffe is tall.",
+        "2. Its neck is long.",
+        "3. Its eyes are round.",
+        "4. Its skin is yellow.",
+        "5. Its tail is thin."
+      ]
+    },
+    {
+      "Title": "D. Use the picture and the words to write the adjective (Birds)",
+      "Questions_and_Answers": [
+        "1. There are three birds.",
+        "2. The bird's feather is very soft.",
+        "3. The colour of the birds is blue.",
+        "4. It is small in size.",
+        "5. The babies are hungry."
+      ]
+    },
+    {
+      "Title": "E. Match each sentence to the correct picture",
+      "Questions_and_Answers": [
+        "1. A brown and white puppy is having fun.",
+        "2. Wild animals are in the thick forest.",
+        "3. A cute boy is painting with green colour.",
+        "4. A naughty boy is riding horse with his sleepy dog."
+      ]
+    }
+  ],
+  "Quiz_Questions": [
+    {
+      "Question": "Where is the painter sitting in the first stanza of the poem?",
+      "Options": [
+        "On a wooden chair",
+        "On the cold mud floor",
+        "On a soft carpet",
+        "On a green hill"
+      ],
+      "Answer": "On the cold mud floor",
+      "Explanation": "The poem begins with the line: 'Sitting on the cold mud floor'."
+    },
+    {
+      "Question": "What does the painter give life to?",
+      "Options": [
+        "The clay pot",
+        "The blank paper",
+        "The canvas shore",
+        "The mud floor"
+      ],
+      "Answer": "The canvas shore",
+      "Explanation": "The text explicitly states: 'Giving life to the canvas shore'."
+    },
+    {
+      "Question": "According to the poem, the brush bends to her ________.",
+      "Options": [
+        "hand",
+        "will",
+        "paint",
+        "fingers"
+      ],
+      "Answer": "will",
+      "Explanation": "The line from the poem is: 'Sees the brush bend to her will.'"
+    },
+    {
+      "Question": "How did the canvas look before she started painting?",
+      "Options": [
+        "Colourful",
+        "Colourless",
+        "Bright",
+        "Dark"
+      ],
+      "Answer": "Colourless",
+      "Explanation": "The poem mentions, 'Her canvas used to be colourless'."
+    },
+    {
+      "Question": "What did the painter learn about her brush's strokes?",
+      "Options": [
+        "They are too thick",
+        "They are very hard",
+        "They are not always aimless",
+        "They are completely random"
+      ],
+      "Answer": "They are not always aimless",
+      "Explanation": "She learnt that her brush's strokes 'Are not always aimless'."
+    },
+    {
+      "Question": "What happens to the flow of the paint in the poem?",
+      "Options": [
+        "It spills everywhere",
+        "It dries quickly",
+        "It never chokes",
+        "It runs out"
+      ],
+      "Answer": "It never chokes",
+      "Explanation": "The poem states: 'The flow of paint never chokes!'"
+    },
+    {
+      "Question": "Which animal does she draw after dipping her brush?",
+      "Options": [
+        "A fierce lion",
+        "A big black panther",
+        "A wild tiger",
+        "A cute puppy"
+      ],
+      "Answer": "A big black panther",
+      "Explanation": "She dips her brush, 'To draw the big black panther'."
+    },
+    {
+      "Question": "How does she move her legs while painting?",
+      "Options": [
+        "Like a runner",
+        "Like a soldier",
+        "Like a dancer",
+        "Like a statue"
+      ],
+      "Answer": "Like a dancer",
+      "Explanation": "The final line of the poem says: 'She moves them like a dancer!'"
+    },
+    {
+      "Question": "According to the glossary, what is the meaning of the word 'bend'?",
+      "Options": [
+        "Gentle movement of hand",
+        "Shape into a curve",
+        "Put something in liquid",
+        "Stops abruptly"
+      ],
+      "Answer": "Shape into a curve",
+      "Explanation": "The glossary defines 'bend' as 'shape into a curve'."
+    },
+    {
+      "Question": "What does the word 'chokes' mean in the context of the glossary?",
+      "Options": [
+        "Starts",
+        "Breathes",
+        "Stops",
+        "Flows"
+      ],
+      "Answer": "Stops",
+      "Explanation": "The glossary simply defines 'chokes' as 'stops'."
+    },
+    {
+      "Question": "Which glossary word means 'gentle movement of hand'?",
+      "Options": [
+        "Dip",
+        "Bend",
+        "Will",
+        "Strokes"
+      ],
+      "Answer": "Strokes",
+      "Explanation": "The glossary defines 'strokes' as 'gentle movement of hand'."
+    },
+    {
+      "Question": "What is the definition of 'dip' given in the lesson?",
+      "Options": [
+        "To dry something out",
+        "To shape into a curve",
+        "Put something in liquid",
+        "To drop on the floor"
+      ],
+      "Answer": "Put something in liquid",
+      "Explanation": "The glossary defines 'dip' as 'put something in liquid'."
+    },
+    {
+      "Question": "Which of the following is a rhyming pair from the poem?",
+      "Options": [
+        "floor - hill",
+        "brush - rush",
+        "panther - canvas",
+        "strokes - art"
+      ],
+      "Answer": "brush - rush",
+      "Explanation": "In the third stanza, 'brush' rhymes with 'rush'."
+    },
+    {
+      "Question": "What word rhymes with 'dancer' in the poem?",
+      "Options": [
+        "Panther",
+        "Floor",
+        "Chokes",
+        "Will"
+      ],
+      "Answer": "Panther",
+      "Explanation": "The poem rhymes 'panther' with 'dancer'."
+    },
+    {
+      "Question": "In Grammar, words that describe a noun are called ________.",
+      "Options": [
+        "Verbs",
+        "Pronouns",
+        "Adjectives",
+        "Adverbs"
+      ],
+      "Answer": "Adjectives",
+      "Explanation": "The 'Let us know' section states: 'Words that describe noun are called adjectives.'"
+    },
+    {
+      "Question": "What details do adjectives provide about a noun?",
+      "Options": [
+        "Action and time",
+        "Size, shape, colour, and count",
+        "Position and location",
+        "Gender and age"
+      ],
+      "Answer": "Size, shape, colour, and count",
+      "Explanation": "The text states: 'The adjectives give more detail about the noun's size, shape, colour and count.'"
+    },
+    {
+      "Question": "Identify the adjective in this sentence: 'The rabbit has long ears.'",
+      "Options": [
+        "rabbit",
+        "has",
+        "long",
+        "ears"
+      ],
+      "Answer": "long",
+      "Explanation": "The word 'long' describes what kind of ears the rabbit has."
+    },
+    {
+      "Question": "In the sentence 'This is a green house', what does the adjective 'green' describe?",
+      "Options": [
+        "The size of the house",
+        "The shape of the house",
+        "The colour of the house",
+        "The number of houses"
+      ],
+      "Answer": "The colour of the house",
+      "Explanation": "The text explains: 'The word green tells us the colour of the house.'"
+    },
+    {
+      "Question": "Read the sentence: 'Kasthuri has three colourful balloons.' Which word describes the number (count)?",
+      "Options": [
+        "Kasthuri",
+        "has",
+        "three",
+        "colourful"
+      ],
+      "Answer": "three",
+      "Explanation": "The word 'three' describes the count or number of balloons."
+    },
+    {
+      "Question": "In the sentence about Kasthuri's balloons, what does the word 'colourful' describe?",
+      "Options": [
+        "The count",
+        "The quality",
+        "The shape",
+        "The owner"
+      ],
+      "Answer": "The quality",
+      "Explanation": "The text states: 'colourful describes quality'."
+    },
+    {
+      "Question": "Fill in the blank with the correct adjective from the book exercise: 'The giraffe is ________.'",
+      "Options": [
+        "short",
+        "tall",
+        "blue",
+        "round"
+      ],
+      "Answer": "tall",
+      "Explanation": "Based on the picture and word list exercise, 'The giraffe is tall'."
+    },
+    {
+      "Question": "Which adjective correctly describes the giraffe's tail according to the exercise?",
+      "Options": [
+        "thick",
+        "thin",
+        "long",
+        "soft"
+      ],
+      "Answer": "thin",
+      "Explanation": "In the fill-in-the-blanks exercise, it says 'Its tail is thin'."
+    },
+    {
+      "Question": "Which adjective correctly describes the giraffe's eyes?",
+      "Options": [
+        "square",
+        "round",
+        "small",
+        "yellow"
+      ],
+      "Answer": "round",
+      "Explanation": "The exercise uses the word 'round' to describe the giraffe's eyes."
+    },
+    {
+      "Question": "How many birds are mentioned in the adjective exercise?",
+      "Options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "Answer": "Three",
+      "Explanation": "The sentence is 'There are three birds.'"
+    },
+    {
+      "Question": "What adjective is used to describe the feather of the birds?",
+      "Options": [
+        "Hard",
+        "Soft",
+        "Long",
+        "Sharp"
+      ],
+      "Answer": "Soft",
+      "Explanation": "The exercise sentence is: 'The bird's feather is very soft.'"
+    },
+    {
+      "Question": "Fill in the blank: The babies are ________. (From the bird exercise)",
+      "Options": [
+        "sleepy",
+        "hungry",
+        "angry",
+        "happy"
+      ],
+      "Answer": "hungry",
+      "Explanation": "The final sentence of the bird exercise is 'The babies are hungry.'"
+    },
+    {
+      "Question": "Which of the following adjectives can be used to describe 'a sun' based on the vocabulary box?",
+      "Options": [
+        "Clever",
+        "Dusty",
+        "Bright",
+        "Honest"
+      ],
+      "Answer": "Bright",
+      "Explanation": "From the options provided in Exercise C (Clever, stormy, beautiful, dusty, good, hot, bright, cloudless, honest, lovely, fat, tall), 'bright' fits 'a sun'."
+    },
+    {
+      "Question": "Which adjective from the box best describes 'a wind'?",
+      "Options": [
+        "Stormy",
+        "Fat",
+        "Lovely",
+        "Honest"
+      ],
+      "Answer": "Stormy",
+      "Explanation": "Among the choices given, 'stormy' is used to describe 'a wind'."
+    },
+    {
+      "Question": "Which adjective pair is correctly matched to 'a friend'?",
+      "Options": [
+        "Cloudless, dusty",
+        "Good, honest",
+        "Hot, bright",
+        "Stormy, beautiful"
+      ],
+      "Answer": "Good, honest",
+      "Explanation": "A friend can be described using adjectives like 'good' and 'honest'."
+    },
+    {
+      "Question": "Identify the two adjectives in this sentence: 'A brown and white puppy is having fun.'",
+      "Options": [
+        "puppy, fun",
+        "having, fun",
+        "brown, white",
+        "A, having"
+      ],
+      "Answer": "brown, white",
+      "Explanation": "'Brown' and 'white' describe the colour of the noun 'puppy'."
+    },
+    {
+      "Question": "In the sentence 'Wild animals are in the thick forest', which word is an adjective describing the forest?",
+      "Options": [
+        "Wild",
+        "Animals",
+        "Thick",
+        "Are"
+      ],
+      "Answer": "Thick",
+      "Explanation": "'Thick' gives more detail about the state/quality of the forest."
+    },
+    {
+      "Question": "Life Situation Question: You are at the library but cannot locate the book you want. What is the most appropriate phrase to say to the librarian?",
+      "Options": [
+        "I want to check these books out.",
+        "I couldn't find the book I was looking for.",
+        "I know the due date.",
+        "Did you search the correct shelf?"
+      ],
+      "Answer": "I couldn't find the book I was looking for.",
+      "Explanation": "This phrase from the 'Let us speak' section perfectly fits the situation of not finding a book."
+    },
+    {
+      "Question": "If a librarian cannot find the book on the shelf right now, what might they say?",
+      "Options": [
+        "I will reserve it.",
+        "Can you show me the shelf?",
+        "I need help with something.",
+        "I will return the books."
+      ],
+      "Answer": "I will reserve it.",
+      "Explanation": "If a book is taken, the librarian offers a solution by saying, 'I will reserve it.'"
+    },
+    {
+      "Question": "What is a polite way to ask a librarian if a new book will arrive soon?",
+      "Options": [
+        "I know the due date.",
+        "Will you be getting another copy anytime soon?",
+        "How are you doing today?",
+        "That will be all."
+      ],
+      "Answer": "Will you be getting another copy anytime soon?",
+      "Explanation": "This phrase is explicitly taught in the library dialogue section."
+    },
+    {
+      "Question": "Life Situation Question: You have finished reading your library books and have brought them back. What should you say?",
+      "Options": [
+        "I want to check these books out.",
+        "I need to return a book.",
+        "Someone may have taken it.",
+        "I will reserve it."
+      ],
+      "Answer": "I need to return a book.",
+      "Explanation": "This is the appropriate phrase given in the 'Useful structures' list for returning books."
+    },
+    {
+      "Question": "Assertion (A): The painter moves her legs in a rapid rush while drawing.\nReason (R): She wants to finish the big black panther quickly.",
+      "Options": [
+        "Both A and R are correct",
+        "A is correct but R is incorrect",
+        "A is incorrect but R is correct",
+        "Both A and R are incorrect"
+      ],
+      "Answer": "Both A and R are incorrect",
+      "Explanation": "The poem explicitly states 'Her legs never in a rush', meaning she does not move them rapidly or try to finish quickly. Both statements contradict the poem."
+    },
+    {
+      "Question": "Analogy: Noun : Adjective :: Panther : ?",
+      "Options": [
+        "Brush",
+        "Canvas",
+        "Black",
+        "Dancer"
+      ],
+      "Answer": "Black",
+      "Explanation": "Panther is a noun. 'Black' is an adjective used in the poem to describe the panther (big black panther)."
+    },
+    {
+      "Question": "Analogy: Chokes : Stops :: Dip : ?",
+      "Options": [
+        "Shape into a curve",
+        "Put something in liquid",
+        "Gentle movement",
+        "Aimless"
+      ],
+      "Answer": "Put something in liquid",
+      "Explanation": "This matches words to their glossary meanings. 'Chokes' means 'stops', and 'dip' means 'put something in liquid'."
+    },
+    {
+      "Question": "Which adjective describes the boy riding the horse in the picture matching exercise?",
+      "Options": [
+        "Cute",
+        "Brown",
+        "Naughty",
+        "Sleepy"
+      ],
+      "Answer": "Naughty",
+      "Explanation": "The sentence is: 'A naughty boy is riding horse with his sleepy dog.'"
+    },
+    {
+      "Question": "Which adjective describes the dog in the same sentence as the boy riding the horse?",
+      "Options": [
+        "Wild",
+        "Cute",
+        "Sleepy",
+        "Brown"
+      ],
+      "Answer": "Sleepy",
+      "Explanation": "The sentence mentions 'his sleepy dog'."
+    },
+    {
+      "Question": "In the sentence 'A cute boy is painting with green colour', identify the two adjectives.",
+      "Options": [
+        "cute, painting",
+        "cute, green",
+        "boy, colour",
+        "painting, green"
+      ],
+      "Answer": "cute, green",
+      "Explanation": "'Cute' describes the boy, and 'green' describes the colour."
+    },
+    {
+      "Question": "According to the listening audio test, the pencil has a ________ spring mechanism.",
+      "Options": [
+        "Single",
+        "Double",
+        "Triple",
+        "Hidden"
+      ],
+      "Answer": "Double",
+      "Explanation": "The text lists 'It has double spring mechanism' as one of the audio facts."
+    },
+    {
+      "Question": "What does the special pencil from the audio do to pressure?",
+      "Options": [
+        "It breaks under it",
+        "It ignores it",
+        "It absorbs the pressure",
+        "It increases the pressure"
+      ],
+      "Answer": "It absorbs the pressure",
+      "Explanation": "The True/False statements mention: 'It absorbs the pressure.'"
+    },
+    {
+      "Question": "Based on the True/False phrases, what does the special pencil give the user?",
+      "Options": [
+        "An eraser and a sharpener",
+        "Confidence and peace of mind",
+        "A colourful canvas",
+        "A fast writing speed"
+      ],
+      "Answer": "Confidence and peace of mind",
+      "Explanation": "The 5th statement says, 'It gives confidence and peace of mind.'"
+    },
+    {
+      "Question": "Identify the word that is NOT an adjective from the list below.",
+      "Options": [
+        "Fast",
+        "Spicy",
+        "Shady",
+        "Floor"
+      ],
+      "Answer": "Floor",
+      "Explanation": "Fast, spicy, and shady are adjectives from the matching exercise. Floor is a noun (from the poem)."
+    },
+    {
+      "Question": "What is the meaning of the word 'aimless' as used in the poem?",
+      "Options": [
+        "Without purpose or direction",
+        "Very colourful",
+        "Moving gracefully",
+        "Stopping suddenly"
+      ],
+      "Answer": "Without purpose or direction",
+      "Explanation": "In the poem, she learns her strokes are 'not always aimless', meaning they have a purpose."
+    },
+    {
+      "Question": "Assertion (A): The adjectives 'three' and 'colourful' describe the same noun in the sentence 'Kasthuri has three colourful balloons.'\nReason (R): An adjective can describe the number and the quality of a noun.",
+      "Options": [
+        "Both A and R are correct, and R explains A",
+        "Both A and R are correct, but R does not explain A",
+        "A is correct but R is incorrect",
+        "Both A and R are incorrect"
+      ],
+      "Answer": "Both A and R are correct, and R explains A",
+      "Explanation": "Both 'three' (count) and 'colourful' (quality) describe the noun 'balloons'. The reason correctly explains that adjectives can describe both quantity and quality."
+    },
+    {
+      "Question": "Which line shows that the painter's brush flows continuously without drying up?",
+      "Options": [
+        "Giving life to the canvas shore",
+        "The flow of paint never chokes!",
+        "Her legs never in a rush",
+        "She dips her brush"
+      ],
+      "Answer": "The flow of paint never chokes!",
+      "Explanation": "The word 'chokes' means stops. So, 'never chokes' means the paint flows continuously."
+    },
+    {
+      "Question": "If you want to read books inside the library and take them home, which phrase should you tell the librarian?",
+      "Options": [
+        "I know the due date.",
+        "I want to check these books out.",
+        "I need help with something.",
+        "Did you search the correct shelf?"
+      ],
+      "Answer": "I want to check these books out.",
+      "Explanation": "To 'check books out' means to officially borrow them from the library to take home."
+    },
+    {
+      "Question": "Which two things from nature does the girl paint in the first stanza?",
+      "Options": [
+        "Sun and moon",
+        "River and tree",
+        "Valley and hill",
+        "Flower and cloud"
+      ],
+      "Answer": "Valley and hill",
+      "Explanation": "The poem says: 'She paints the valley and hill'."
+    }
+  ]
+}

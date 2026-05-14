@@ -1,0 +1,259 @@
+{
+  "lesson_meta": {
+    "title": "NEVER GIVE UP || ஒருபோதும் விட்டுக்கொடுக்காதே",
+    "grade": "4",
+    "term": "3",
+    "unit": "3",
+    "type": "Lesson",
+    "language": "English",
+    "code": "eng_4_t3_l8"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "முழுமையான கவிதைச் சுருக்கம் (Poem Summary)",
+        "content": "The poem 'Never Give Up' is a powerful message about persistence. \nStanza 1: It uses the example of a fisherman. If he pulls his net out too soon, he won't catch any fish. Similarly, if a child shuts his ears (stops listening), he loses the chance to learn. \nStanza 2: Those who tackle life's hurdles and difficulties are the ones who will ultimately win and succeed in the world. \nStanza 3: Even if progress seems slow, we should not feel discouraged. We must keep moving forward and let our lives shine (glow). \nStanza 4: Whether we are working or playing, the key is to persevere and put in continuous effort every day.",
+        "type": "content"
+      },
+      {
+        "title": "இலக்கணம்: நிகழ்காலத் தொடர் வினை (Present Continuous Tense)",
+        "content": "The present continuous tense is used to describe actions happening right now or fixed actions in the near future. \nForm: am/is/are + verb + -ing.\n\nRules:\n- I -> am (I am playing.)\n- He/She/It -> is (He is playing.)\n- We/You/They -> are (They are playing.)\n\nUsage Examples:\n- Action now: 'She is speaking on the phone now.'\n- Near future: 'She is going to Trichy on Saturday.'",
+        "type": "content"
+      },
+      {
+        "title": "அறிஞ்சொற்பொருள் மற்றும் நினைவில் கொள்க",
+        "content": "Glossary:\n- Chance: opportunity.\n- Fend: to defend.\n- Persevere: put effort continuously.\n- Sincere: truthful.\n- Tackle: to solve.\n\nWeather and Countries (Listening Activity):\n- Canada: Snowy.\n- Mexico: Sunny.\n- England: Cold.\n- Australia: Hot.\n- Japan: Cloudy.",
+        "type": "content"
+      },
+      {
+        "title": "புத்தக மதிப்பீட்டு வினாக்கள் (Book Back Evaluation)",
+        "content": "A. Rhyming words:\n- earn - learn\n- fend - end\n- slow - glow\n- play - day\n\nB. Fill in the blanks:\n1. Fisher draws net soon -> [No fish].\n2. Child shuts ears -> [No chance to learn].\n3. Tackles hurdles -> [Wins the world].\n4. Progress is slow -> [Keep moving].\n\nC. Present Continuous Examples:\n- I [am watching] TV.\n- She [is playing] the piano.\n- They [are drawing] a picture.",
+        "type": "content"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What happens if a fisherman draws his net too soon?",
+        "options": [
+          "He gets more fish",
+          "The net breaks",
+          "He won't have any fish to earn",
+          "The boat sinks"
+        ],
+        "answer": 2,
+        "explanation": "The poem says: 'The fisher who draws his net soon, Won't have any fish to earn.'"
+      },
+      {
+        "question": "What does a child lose if he 'shuts up his ears'?",
+        "options": [
+          "The chance to sleep",
+          "The chance to learn",
+          "The chance to eat",
+          "The chance to play"
+        ],
+        "answer": 1,
+        "explanation": "Shutting ears prevents a child from having the 'chance to learn'."
+      },
+      {
+        "question": "Who may 'win the world at the end'?",
+        "options": [
+          "The one who runs fastest",
+          "The one who never works",
+          "The one who tackles the hurdles to fend",
+          "The one who has the most money"
+        ],
+        "answer": 2,
+        "explanation": "Overcoming obstacles (tackling hurdles) leads to winning in the end."
+      },
+      {
+        "question": "What should we do when our progress is slow?",
+        "options": [
+          "Give up",
+          "Feel down",
+          "Keep moving",
+          "Stop working"
+        ],
+        "answer": 2,
+        "explanation": "The poet advises us to 'keep moving' and not feel down when slow."
+      },
+      {
+        "question": "What should we do whether at work or play?",
+        "options": [
+          "Sleep",
+          "Persevere",
+          "Hurry",
+          "Quit"
+        ],
+        "answer": 1,
+        "explanation": "We should 'persevere at work or play'."
+      },
+      {
+        "question": "What is the meaning of 'persevere'?",
+        "options": [
+          "To stop trying",
+          "To put effort continuously",
+          "To act quickly",
+          "To be truthful"
+        ],
+        "answer": 1,
+        "explanation": "Persevere means to continue putting in effort despite difficulties."
+      },
+      {
+        "question": "What is the rhyming word for 'earn'?",
+        "options": [
+          "glow",
+          "learn",
+          "end",
+          "day"
+        ],
+        "answer": 1,
+        "explanation": "Earn rhymes with learn."
+      },
+      {
+        "question": "What is the rhyming word for 'slow'?",
+        "options": [
+          "glow",
+          "fend",
+          "learn",
+          "play"
+        ],
+        "answer": 0,
+        "explanation": "Slow rhymes with glow."
+      },
+      {
+        "question": "Which auxiliary verb goes with 'I' in present continuous tense?",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "In present continuous, 'I' always takes 'am'."
+      },
+      {
+        "question": "Which auxiliary verb goes with 'They'?",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'They' is plural and takes 'are'."
+      },
+      {
+        "question": "Which auxiliary verb goes with 'He'?",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "do"
+        ],
+        "answer": 1,
+        "explanation": "'He' is singular and takes 'is'."
+      },
+      {
+        "question": "What is the weather like in Canada according to the listening task?",
+        "options": [
+          "Sunny",
+          "Hot",
+          "Snowy",
+          "Rainy"
+        ],
+        "answer": 2,
+        "explanation": "In the weather activity, Canada is Snowy."
+      },
+      {
+        "question": "Where is the weather sunny?",
+        "options": [
+          "England",
+          "Mexico",
+          "Japan",
+          "Australia"
+        ],
+        "answer": 1,
+        "explanation": "Mexico has sunny weather."
+      },
+      {
+        "question": "What is the weather like in Australia?",
+        "options": [
+          "Cold",
+          "Cloudy",
+          "Hot",
+          "Snowy"
+        ],
+        "answer": 2,
+        "explanation": "Australia is mentioned as having hot weather."
+      },
+      {
+        "question": "What is another name for 'obstacles' used in the poem?",
+        "options": [
+          "Hurdles",
+          "Fisher",
+          "Glow",
+          "Progress"
+        ],
+        "answer": 0,
+        "explanation": "Hurdles refers to the obstacles or problems we face."
+      },
+      {
+        "question": "Assertion (A): We use present continuous for actions happening now.\nReason (R): 'She is going to school' is a present continuous sentence.",
+        "options": [
+          "Both A and R are true, and R explains A",
+          "Both A and R are true, but R does not explain A",
+          "A is true, but R is false",
+          "A is false, but R is true"
+        ],
+        "answer": 0,
+        "explanation": "The rule is correctly stated and the example follows the rule."
+      },
+      {
+        "question": "What should you NOT do when progress is slow?",
+        "options": [
+          "Keep moving",
+          "Let life glow",
+          "Feel down",
+          "Stay sincere"
+        ],
+        "answer": 2,
+        "explanation": "The poem says 'Don't feel down when you are slow'."
+      },
+      {
+        "question": "What is the meaning of 'fend'?",
+        "options": [
+          "to attack",
+          "to defend",
+          "to stop",
+          "to cry"
+        ],
+        "answer": 1,
+        "explanation": "Fend means to defend or protect oneself."
+      },
+      {
+        "question": "Analogy: Fisherman : Net :: Child : ?",
+        "options": [
+          "Play",
+          "Ears (Listening)",
+          "Slow",
+          "Hurdles"
+        ],
+        "answer": 1,
+        "explanation": "The poem compares the fisherman's net use to the child's use of ears for learning."
+      },
+      {
+        "question": "In the sentence 'They ____ a match', fill with present continuous 'watch'.",
+        "options": [
+          "is watching",
+          "am watching",
+          "are watching",
+          "watches"
+        ],
+        "answer": 2,
+        "explanation": "'They' takes 'are watching'."
+      }
+    ]
+  }
+}
