@@ -2,60 +2,58 @@ export const lessonMap = {
   "1": {
     "local": true,
     "filename": "1",
-    "grade": "4",
-    "title": "காவல்காரர்"
+    "grade": "2",
+    "title": "எண்கள் (Numbers)"
   },
   "2": {
     "local": true,
     "filename": "2",
     "grade": "4",
-    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+    "title": "மாசில்லாத உலகம் படைப்போம்"
   },
   "3": {
     "local": true,
     "filename": "3",
     "grade": "4",
-    "title": "யானைக்கும் பானைக்கும் சரி"
+    "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி"
   },
   "4": {
     "local": true,
     "filename": "4",
-    "grade": "4",
-    "title": "நன்னெறி"
+    "grade": "4"
   },
   "5": {
     "local": true,
     "filename": "5",
-    "grade": "4",
-    "title": "ஆராய்ந்திட வேண்டும்"
+    "grade": "4"
   },
   "6": {
     "local": true,
     "filename": "6",
-    "grade": "4",
-    "title": "பசுவுக்குக் கிடைத்த நீதி"
+    "grade": "4"
   },
   "7": {
     "local": true,
     "filename": "7",
-    "grade": "4",
-    "title": "பனிமலைப் பயணம்"
+    "grade": "4"
   },
   "8": {
     "local": true,
     "filename": "8",
-    "grade": "4"
+    "grade": "4",
+    "title": "உறவுமுறைக் கடிதம்"
   },
   "9": {
     "local": true,
     "filename": "9",
-    "grade": "4"
+    "grade": "4",
+    "title": "அறிவுநிலா"
   },
   "10": {
     "local": true,
     "filename": "10",
     "grade": "4",
-    "title": "அகரமுதலி - சொற்பொருள்"
+    "title": "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)"
   },
   "Unit 1: My Garden": {
     "local": true,
@@ -3141,53 +3139,35 @@ export const lessonMap = {
     "grade": "3",
     "title": "பாட்டு வண்டியிலே..."
   },
-  "காவல்காரர்": {
+  "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)": {
     "local": true,
-    "filename": "tam_4_t2_l1",
+    "filename": "tam_4_t3_l10",
     "grade": "4",
-    "title": "காவல்காரர்"
+    "title": "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)"
   },
-  "அகரமுதலி - சொற்பொருள்": {
+  "மாசில்லாத உலகம் படைப்போம்": {
     "local": true,
-    "filename": "10",
+    "filename": "tam_4_t3_l2",
     "grade": "4",
-    "title": "அகரமுதலி - சொற்பொருள்"
+    "title": "மாசில்லாத உலகம் படைப்போம்"
   },
-  "எல்லாரும் இப்படியே இருந்துவிட்டால்!": {
+  "காட்டுக்குள்ளே பாட்டுப் போட்டி": {
     "local": true,
-    "filename": "tam_4_t2_l2",
+    "filename": "tam_4_t3_l3",
     "grade": "4",
-    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+    "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி"
   },
-  "யானைக்கும் பானைக்கும் சரி": {
+  "உறவுமுறைக் கடிதம்": {
     "local": true,
-    "filename": "tam_4_t2_l5",
+    "filename": "tam_4_t3_l8",
     "grade": "4",
-    "title": "யானைக்கும் பானைக்கும் சரி"
+    "title": "உறவுமுறைக் கடிதம்"
   },
-  "நன்னெறி": {
+  "அறிவுநிலா": {
     "local": true,
-    "filename": "tam_4_t2_l4",
+    "filename": "tam_4_t3_l9",
     "grade": "4",
-    "title": "நன்னெறி"
-  },
-  "ஆராய்ந்திட வேண்டும்": {
-    "local": true,
-    "filename": "tam_4_t2_l6",
-    "grade": "4",
-    "title": "ஆராய்ந்திட வேண்டும்"
-  },
-  "பசுவுக்குக் கிடைத்த நீதி": {
-    "local": true,
-    "filename": "tam_4_t2_l3",
-    "grade": "4",
-    "title": "பசுவுக்குக் கிடைத்த நீதி"
-  },
-  "பனிமலைப் பயணம்": {
-    "local": true,
-    "filename": "tam_4_t2_l7",
-    "grade": "4",
-    "title": "பனிமலைப் பயணம்"
+    "title": "அறிவுநிலா"
   },
   "அன்னைத் தமிழே": {
     "local": true,
@@ -3285,6 +3265,12 @@ export const lessonMap = {
     "grade": "4",
     "title": "இயல் 9: விடியும் வேளை *"
   },
+  "காவல்காரர்": {
+    "local": true,
+    "filename": "tam_4_t2_l1",
+    "grade": "4",
+    "title": "காவல்காரர்"
+  },
   "tam_4_t2_l1": {
     "local": true,
     "filename": "tam_4_t2_l1",
@@ -3303,11 +3289,23 @@ export const lessonMap = {
     "grade": "4",
     "title": "அகரமுதலி"
   },
+  "எல்லாரும் இப்படியே இருந்துவிட்டால்!": {
+    "local": true,
+    "filename": "tam_4_t2_l2",
+    "grade": "4",
+    "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+  },
   "tam_4_t2_l2": {
     "local": true,
     "filename": "tam_4_t2_l2",
     "grade": "4",
     "title": "எல்லாரும் இப்படியே இருந்துவிட்டால்!"
+  },
+  "பசுவுக்குக் கிடைத்த நீதி": {
+    "local": true,
+    "filename": "tam_4_t2_l3",
+    "grade": "4",
+    "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
   "tam_4_t2_l3": {
     "local": true,
@@ -3315,11 +3313,23 @@ export const lessonMap = {
     "grade": "4",
     "title": "பசுவுக்குக் கிடைத்த நீதி"
   },
+  "நன்னெறி": {
+    "local": true,
+    "filename": "tam_4_t2_l4",
+    "grade": "4",
+    "title": "நன்னெறி"
+  },
   "tam_4_t2_l4": {
     "local": true,
     "filename": "tam_4_t2_l4",
     "grade": "4",
     "title": "நன்னெறி"
+  },
+  "யானைக்கும் பானைக்கும் சரி": {
+    "local": true,
+    "filename": "tam_4_t2_l5",
+    "grade": "4",
+    "title": "யானைக்கும் பானைக்கும் சரி"
   },
   "tam_4_t2_l5": {
     "local": true,
@@ -3327,11 +3337,23 @@ export const lessonMap = {
     "grade": "4",
     "title": "யானைக்கும் பானைக்கும் சரி"
   },
+  "ஆராய்ந்திட வேண்டும்": {
+    "local": true,
+    "filename": "tam_4_t2_l6",
+    "grade": "4",
+    "title": "ஆராய்ந்திட வேண்டும்"
+  },
   "tam_4_t2_l6": {
     "local": true,
     "filename": "tam_4_t2_l6",
     "grade": "4",
     "title": "ஆராய்ந்திட வேண்டும்"
+  },
+  "பனிமலைப் பயணம்": {
+    "local": true,
+    "filename": "tam_4_t2_l7",
+    "grade": "4",
+    "title": "பனிமலைப் பயணம்"
   },
   "tam_4_t2_l7": {
     "local": true,
@@ -3362,6 +3384,96 @@ export const lessonMap = {
     "filename": "tam_4_t2_l9",
     "grade": "4",
     "title": "வேலைக்கேற்ற கூலி"
+  },
+  "உலா வரும் செயற்கைக்கோள்": {
+    "local": true,
+    "filename": "tam_4_t3_l1",
+    "grade": "4",
+    "title": "உலா வரும் செயற்கைக்கோள்"
+  },
+  "tam_4_t3_l1": {
+    "local": true,
+    "filename": "tam_4_t3_l1",
+    "grade": "4",
+    "title": "உலா வரும் செயற்கைக்கோள்"
+  },
+  "tam_4_t3_l10": {
+    "local": true,
+    "filename": "tam_4_t3_l10",
+    "grade": "4",
+    "title": "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)"
+  },
+  "tam_4_t3_l2": {
+    "local": true,
+    "filename": "tam_4_t3_l2",
+    "grade": "4",
+    "title": "மாசில்லாத உலகம் படைப்போம்"
+  },
+  "tam_4_t3_l3": {
+    "local": true,
+    "filename": "tam_4_t3_l3",
+    "grade": "4",
+    "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி"
+  },
+  "ஆனந்தம் விளையும் பூமியடி": {
+    "local": true,
+    "filename": "tam_4_t3_l4",
+    "grade": "4",
+    "title": "ஆனந்தம் விளையும் பூமியடி"
+  },
+  "tam_4_t3_l4": {
+    "local": true,
+    "filename": "tam_4_t3_l4",
+    "grade": "4",
+    "title": "ஆனந்தம் விளையும் பூமியடி"
+  },
+  "கணினி உலகம்": {
+    "local": true,
+    "filename": "tam_4_t3_l5",
+    "grade": "4",
+    "title": "கணினி உலகம்"
+  },
+  "tam_4_t3_l5": {
+    "local": true,
+    "filename": "tam_4_t3_l5",
+    "grade": "4",
+    "title": "கணினி உலகம்"
+  },
+  "மலையும் எதிரொலியும்": {
+    "local": true,
+    "filename": "tam_4_t3_l6",
+    "grade": "4",
+    "title": "மலையும் எதிரொலியும்"
+  },
+  "tam_4_t3_l6": {
+    "local": true,
+    "filename": "tam_4_t3_l6",
+    "grade": "4",
+    "title": "மலையும் எதிரொலியும்"
+  },
+  "நீதிநெறி விளக்கம்": {
+    "local": true,
+    "filename": "tam_4_t3_l7",
+    "grade": "4",
+    "title": "நீதிநெறி விளக்கம்"
+  },
+  "tam_4_t3_l7": {
+    "local": true,
+    "filename": "tam_4_t3_l7",
+    "grade": "4",
+    "title": "நீதிநெறி விளக்கம்"
+  },
+  "tam_4_t3_l8": {
+    "local": true,
+    "filename": "tam_4_t3_l8",
+    "grade": "4",
+    "title": "உறவுமுறைக் கடிதம்"
+  },
+  "tam_4_t3_l9": {
+    "local": true,
+    "filename": "tam_4_t3_l9",
+    "grade": "4",
+    "title": "அறிவுநிலா"
   },
   "தமிழின் இனிமை *": {
     "local": true,

@@ -306,6 +306,66 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "உலா வரும் செயற்கைக்கோள்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l1"
+              },
+              {
+                "title": "மாசில்லாத உலகம் படைப்போம்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l2"
+              },
+              {
+                "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி",
+                "isUpdated": true,
+                "code": "tam_4_t3_l3"
+              },
+              {
+                "title": "ஆனந்தம் விளையும் பூமியடி",
+                "isUpdated": true,
+                "code": "tam_4_t3_l4"
+              },
+              {
+                "title": "கணினி உலகம்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l5"
+              },
+              {
+                "title": "மலையும் எதிரொலியும்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l6"
+              },
+              {
+                "title": "நீதிநெறி விளக்கம்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l7"
+              },
+              {
+                "title": "உறவுமுறைக் கடிதம்",
+                "isUpdated": true,
+                "code": "tam_4_t3_l8"
+              },
+              {
+                "title": "அறிவுநிலா",
+                "isUpdated": true,
+                "code": "tam_4_t3_l9"
+              },
+              {
+                "title": "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)",
+                "isUpdated": true,
+                "code": "tam_4_t3_l10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [
@@ -1283,17 +1343,17 @@ export const syllabusData = {
             "title": "Unit 1: The Seven Seeds || ஏழு விதைகள்",
             "topics": [
               {
-                "title": "The Seven Seeds || ஏழு விதைகள்",
+                "title": "THE SEVEN SEEDS || ஏழு விதைகள்",
                 "isUpdated": true,
                 "code": "eng_4_t3_l1"
               },
               {
-                "title": "Be Honest || நேர்மையாக இரு",
+                "title": "BE HONEST || நேர்மையாக இரு",
                 "isUpdated": true,
                 "code": "eng_4_t3_l2"
               },
               {
-                "title": "The Mistaken Plate || தவறுதலாகக் கருதப்பட்ட தட்டு",
+                "title": "THE MISTAKEN PLATE || தவறுதலாகக் கருதப்பட்ட தட்டு",
                 "isUpdated": true,
                 "code": "eng_4_t3_l3"
               }
@@ -1303,17 +1363,17 @@ export const syllabusData = {
             "title": "Unit 2: Bala Spins Magic || பாலா செய்யும் மாயாஜாலம்",
             "topics": [
               {
-                "title": "Bala Spins Magic || பாலா செய்யும் மாயாஜாலம்",
+                "title": "BALA SPINS MAGIC || பாலா செய்யும் மாயாஜாலம்",
                 "isUpdated": true,
                 "code": "eng_4_t3_l4"
               },
               {
-                "title": "The Painter || ஓவியர்",
+                "title": "THE PAINTER || ஓவியர்",
                 "isUpdated": true,
                 "code": "eng_4_t3_l5"
               },
               {
-                "title": "The Wooden Toy || மரப்பொம்மை",
+                "title": "THE WOODEN TOY || மரப்பொம்மை",
                 "isUpdated": true,
                 "code": "eng_4_t3_l6"
               }
@@ -1323,17 +1383,17 @@ export const syllabusData = {
             "title": "Unit 3: The Struggling Star || போராடும் நட்சத்திரம்",
             "topics": [
               {
-                "title": "The Struggling Star || போராடும் நட்சத்திரம்",
+                "title": "THE STRUGGLING STAR || போராடும் நட்சத்திரம்",
                 "isUpdated": true,
                 "code": "eng_4_t3_l7"
               },
               {
-                "title": "Never Give Up || ஒருபோதும் விட்டுக்கொடுக்காதே",
+                "title": "NEVER GIVE UP || ஒருபோதும் விட்டுக்கொடுக்காதே",
                 "isUpdated": true,
                 "code": "eng_4_t3_l8"
               },
               {
-                "title": "The Magic Pencil || மந்திர பென்சில்",
+                "title": "THE MAGIC PENCIL || மந்திர பென்சில்",
                 "isUpdated": true,
                 "code": "eng_4_t3_l9"
               }
