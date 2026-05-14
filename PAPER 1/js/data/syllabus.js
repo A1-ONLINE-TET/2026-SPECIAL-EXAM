@@ -1,4 +1,5 @@
-export const syllabusData = {
+export // Last Updated: 2026-05-14T15:36:21+05:30
+const syllabusData = {
   "tamil": {
     "2": [
       {
