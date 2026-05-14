@@ -4518,6 +4518,31 @@ const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடங்கள் (Term 3)",
+            "topics": [
+              {
+                "title": "அலகு 1: உலகெலாம் தமிழர்கள்",
+                "isUpdated": true,
+                "code": "soc_4_t3_l1"
+              },
+              {
+                "title": "அலகு 2: மதராஸ் மாகாணத்தின் வரலாறு",
+                "isUpdated": true,
+                "code": "soc_4_t3_l2"
+              },
+              {
+                "title": "அலகு 3: குழந்தைகளின் உரிமைகள் மற்றும் கடமைகள்",
+                "isUpdated": true,
+                "code": "soc_4_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

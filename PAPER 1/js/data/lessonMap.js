@@ -941,8 +941,8 @@ export const lessonMap = {
   },
   "காலம்": {
     "local": true,
-    "filename": "mat_4_t3_l4",
-    "grade": "4",
+    "filename": "mat_3_t2_l4",
+    "grade": "3",
     "title": "காலம்"
   },
   "mat_2_t1_l5": {
@@ -1293,53 +1293,35 @@ export const lessonMap = {
     "grade": "4",
     "title": "தகவல் செயலாக்கம்"
   },
-  "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்": {
-    "local": true,
-    "filename": "mat_4_t3_l1",
-    "grade": "4",
-    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
-  },
   "mat_4_t3_l1": {
     "local": true,
     "filename": "mat_4_t3_l1",
-    "grade": "4",
-    "title": "வெவ்வேறு இருபரிமாண வடிவங்களை உருவாக்குதல்"
+    "grade": "4"
   },
   "mat_4_t3_l2": {
     "local": true,
     "filename": "mat_4_t3_l2",
-    "grade": "4",
-    "title": "எண்கள்"
-  },
-  "அளவைகள் - கன அளவு": {
-    "local": true,
-    "filename": "mat_4_t3_l3",
-    "grade": "4",
-    "title": "அளவைகள் - கன அளவு"
+    "grade": "4"
   },
   "mat_4_t3_l3": {
     "local": true,
     "filename": "mat_4_t3_l3",
-    "grade": "4",
-    "title": "அளவைகள் - கன அளவு"
+    "grade": "4"
   },
   "mat_4_t3_l4": {
     "local": true,
     "filename": "mat_4_t3_l4",
-    "grade": "4",
-    "title": "காலம்"
+    "grade": "4"
   },
   "mat_4_t3_l5": {
     "local": true,
     "filename": "mat_4_t3_l5",
-    "grade": "4",
-    "title": "பணம்"
+    "grade": "4"
   },
   "mat_4_t3_l6": {
     "local": true,
     "filename": "mat_4_t3_l6",
-    "grade": "4",
-    "title": "பின்னங்கள்"
+    "grade": "4"
   },
   "mat_5_t1_l1": {
     "local": true,
@@ -2127,29 +2109,15 @@ export const lessonMap = {
     "grade": "4",
     "title": "அலகு 3: தாவரங்கள்"
   },
-  "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)": {
-    "local": true,
-    "filename": "sci_4_t3_l1",
-    "grade": "4",
-    "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)"
-  },
   "sci_4_t3_l1": {
     "local": true,
     "filename": "sci_4_t3_l1",
-    "grade": "4",
-    "title": "அலகு 1: பசுமைச் சுற்றுச்சூழல் (Green Environment)"
-  },
-  "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)": {
-    "local": true,
-    "filename": "sci_4_t3_l2",
-    "grade": "4",
-    "title": "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)"
+    "grade": "4"
   },
   "sci_4_t3_l2": {
     "local": true,
     "filename": "sci_4_t3_l2",
-    "grade": "4",
-    "title": "அலகு 2: விலங்குகளின் வாழ்க்கை (Life of Animals)"
+    "grade": "4"
   },
   "அலகு 1: உறுப்பு மண்டலங்கள்": {
     "local": true,
@@ -2426,6 +2394,21 @@ export const lessonMap = {
     "filename": "soc_4_t2_l3",
     "grade": "4",
     "title": "அலகு 3: போக்குவரத்து || Unit 3: Transport"
+  },
+  "soc_4_t3_l1": {
+    "local": true,
+    "filename": "soc_4_t3_l1",
+    "grade": "4"
+  },
+  "soc_4_t3_l2": {
+    "local": true,
+    "filename": "soc_4_t3_l2",
+    "grade": "4"
+  },
+  "soc_4_t3_l3": {
+    "local": true,
+    "filename": "soc_4_t3_l3",
+    "grade": "4"
   },
   "நமது பூமி ": {
     "local": true,
