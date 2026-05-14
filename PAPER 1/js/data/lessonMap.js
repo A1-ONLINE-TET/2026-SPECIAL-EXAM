@@ -1298,26 +1298,6 @@ export const lessonMap = {
     "filename": "mat_4_t3_l1",
     "grade": "4"
   },
-  "mat_4_t3_l2": {
-    "local": true,
-    "filename": "mat_4_t3_l2",
-    "grade": "4"
-  },
-  "mat_4_t3_l3": {
-    "local": true,
-    "filename": "mat_4_t3_l3",
-    "grade": "4"
-  },
-  "mat_4_t3_l4": {
-    "local": true,
-    "filename": "mat_4_t3_l4",
-    "grade": "4"
-  },
-  "mat_4_t3_l5": {
-    "local": true,
-    "filename": "mat_4_t3_l5",
-    "grade": "4"
-  },
   "mat_4_t3_l6": {
     "local": true,
     "filename": "mat_4_t3_l6",
