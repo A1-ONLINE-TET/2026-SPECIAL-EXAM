@@ -1293,6 +1293,11 @@ export const lessonMap = {
     "grade": "4",
     "title": "தகவல் செயலாக்கம்"
   },
+  "mat_4_t3_l1": {
+    "local": true,
+    "filename": "mat_4_t3_l1",
+    "grade": "4"
+  },
   "mat_5_t1_l1": {
     "local": true,
     "filename": "mat_5_t1_l1",

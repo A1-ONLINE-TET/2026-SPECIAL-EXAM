@@ -2211,6 +2211,46 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "வடிவியல்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l1"
+              },
+              {
+                "title": "எண்கள்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l2"
+              },
+              {
+                "title": "அமைப்புகள்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l3"
+              },
+              {
+                "title": "அளவைகள்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l4"
+              },
+              {
+                "title": "பணம்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l5"
+              },
+              {
+                "title": "தகவல் செயலாக்கம்",
+                "isUpdated": true,
+                "code": "mat_4_t3_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [
