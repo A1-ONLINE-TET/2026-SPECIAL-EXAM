@@ -647,6 +647,71 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "மூன்றாம் பருவம்",
+            "topics": [
+              {
+                "title": "சிறுபஞ்சமூலம்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l1"
+              },
+              {
+                "title": "வாரித் தந்த வள்ளல்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l2"
+              },
+              {
+                "title": "தலைமைப் பண்பு மற்றும் இணைச்சொற்கள்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l3"
+              },
+              {
+                "title": "கல்வியே தெய்வம்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l4"
+              },
+              {
+                "title": "நீதியை நிலைநாட்டிய சிலம்பு",
+                "isUpdated": true,
+                "code": "tam_5_t3_l5"
+              },
+              {
+                "title": "காணாமல் போன பணப்பை & மயங்கொலிச்சொற்கள்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l6"
+              },
+              {
+                "title": "அறநெறிச்சாரம்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l7"
+              },
+              {
+                "title": "புதுவை வளர்த்த தமிழ்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l8"
+              },
+              {
+                "title": "நன்மையே நலம் தரும்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l9"
+              },
+              {
+                "title": "மரபுத்தொடர்கள் & மொழியை ஆள்வோம்",
+                "isUpdated": true,
+                "code": "tam_5_t3_l10"
+              },
+              {
+                "title": "அகரமுதலி",
+                "isUpdated": true,
+                "code": "tam_5_t3_l11"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [

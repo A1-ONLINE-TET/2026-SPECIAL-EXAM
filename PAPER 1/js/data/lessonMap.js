@@ -8,54 +8,57 @@ export const lessonMap = {
   "2": {
     "local": true,
     "filename": "2",
-    "grade": "4",
-    "title": "மாசில்லாத உலகம் படைப்போம்"
+    "grade": "5"
   },
   "3": {
     "local": true,
     "filename": "3",
-    "grade": "4",
-    "title": "காட்டுக்குள்ளே பாட்டுப் போட்டி"
+    "grade": "5"
   },
   "4": {
     "local": true,
     "filename": "4",
-    "grade": "4"
+    "grade": "5"
   },
   "5": {
     "local": true,
     "filename": "5",
-    "grade": "4"
+    "grade": "5"
   },
   "6": {
     "local": true,
     "filename": "6",
-    "grade": "3",
-    "title": "தமிழ்மொழியின் பெருமை - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்"
+    "grade": "5",
+    "title": "காணாமல் போன பணப்பை & மயங்கொலிச்சொற்கள்"
   },
   "7": {
     "local": true,
     "filename": "7",
-    "grade": "4",
-    "title": "நீதிநெறி விளக்கம்"
+    "grade": "5",
+    "title": "அறநெறிச்சாரம்"
   },
   "8": {
     "local": true,
     "filename": "8",
-    "grade": "4",
-    "title": "உறவுமுறைக் கடிதம்"
+    "grade": "5",
+    "title": "புதுவை வளர்த்த தமிழ்"
   },
   "9": {
     "local": true,
     "filename": "9",
-    "grade": "4",
-    "title": "அறிவுநிலா"
+    "grade": "5"
   },
   "10": {
     "local": true,
     "filename": "10",
-    "grade": "4",
-    "title": "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)"
+    "grade": "5",
+    "title": "மரபுத்தொடர்கள் & மொழியை ஆள்வோம்"
+  },
+  "11": {
+    "local": true,
+    "filename": "11",
+    "grade": "5",
+    "title": "அகரமுதலி (அருஞ்சொற்பொருள்)"
   },
   "Unit 1: My Garden": {
     "local": true,
@@ -3974,6 +3977,36 @@ export const lessonMap = {
     "grade": "4",
     "title": "அறிவுநிலா"
   },
+  "மரபுத்தொடர்கள் & மொழியை ஆள்வோம்": {
+    "local": true,
+    "filename": "tam_5_t3_l10",
+    "grade": "5",
+    "title": "மரபுத்தொடர்கள் & மொழியை ஆள்வோம்"
+  },
+  "அகரமுதலி (அருஞ்சொற்பொருள்)": {
+    "local": true,
+    "filename": "tam_5_t3_l11",
+    "grade": "5",
+    "title": "அகரமுதலி (அருஞ்சொற்பொருள்)"
+  },
+  "காணாமல் போன பணப்பை & மயங்கொலிச்சொற்கள்": {
+    "local": true,
+    "filename": "tam_5_t3_l6",
+    "grade": "5",
+    "title": "காணாமல் போன பணப்பை & மயங்கொலிச்சொற்கள்"
+  },
+  "அறநெறிச்சாரம்": {
+    "local": true,
+    "filename": "tam_5_t3_l7",
+    "grade": "5",
+    "title": "அறநெறிச்சாரம்"
+  },
+  "புதுவை வளர்த்த தமிழ்": {
+    "local": true,
+    "filename": "tam_5_t3_l8",
+    "grade": "5",
+    "title": "புதுவை வளர்த்த தமிழ்"
+  },
   "தமிழின் இனிமை *": {
     "local": true,
     "filename": "tam_5_t1_l1",
@@ -4141,6 +4174,101 @@ export const lessonMap = {
     "filename": "tam_5_t2_l7",
     "grade": "5",
     "title": "அடுக்குத்தொடர், இரட்டைக்கிளவி (இலக்கணம்)"
+  },
+  "சிறுபஞ்சமூலம்": {
+    "local": true,
+    "filename": "tam_5_t3_l1",
+    "grade": "5",
+    "title": "சிறுபஞ்சமூலம்"
+  },
+  "tam_5_t3_l1": {
+    "local": true,
+    "filename": "tam_5_t3_l1",
+    "grade": "5",
+    "title": "சிறுபஞ்சமூலம்"
+  },
+  "tam_5_t3_l10": {
+    "local": true,
+    "filename": "tam_5_t3_l10",
+    "grade": "5",
+    "title": "மரபுத்தொடர்கள் & மொழியை ஆள்வோம்"
+  },
+  "tam_5_t3_l11": {
+    "local": true,
+    "filename": "tam_5_t3_l11",
+    "grade": "5",
+    "title": "அகரமுதலி (அருஞ்சொற்பொருள்)"
+  },
+  "வாரித் தந்த வள்ளல்": {
+    "local": true,
+    "filename": "tam_5_t3_l2",
+    "grade": "5",
+    "title": "வாரித் தந்த வள்ளல்"
+  },
+  "tam_5_t3_l2": {
+    "local": true,
+    "filename": "tam_5_t3_l2",
+    "grade": "5",
+    "title": "வாரித் தந்த வள்ளல்"
+  },
+  "தலைமைப் பண்பு மற்றும் இணைச்சொற்கள்": {
+    "local": true,
+    "filename": "tam_5_t3_l3",
+    "grade": "5",
+    "title": "தலைமைப் பண்பு மற்றும் இணைச்சொற்கள்"
+  },
+  "tam_5_t3_l3": {
+    "local": true,
+    "filename": "tam_5_t3_l3",
+    "grade": "5",
+    "title": "தலைமைப் பண்பு மற்றும் இணைச்சொற்கள்"
+  },
+  "கல்வியே தெய்வம்": {
+    "local": true,
+    "filename": "tam_5_t3_l4",
+    "grade": "5",
+    "title": "கல்வியே தெய்வம்"
+  },
+  "tam_5_t3_l4": {
+    "local": true,
+    "filename": "tam_5_t3_l4",
+    "grade": "5",
+    "title": "கல்வியே தெய்வம்"
+  },
+  "நீதியை நிலைநாட்டிய சிலம்பு": {
+    "local": true,
+    "filename": "tam_5_t3_l5",
+    "grade": "5",
+    "title": "நீதியை நிலைநாட்டிய சிலம்பு"
+  },
+  "tam_5_t3_l5": {
+    "local": true,
+    "filename": "tam_5_t3_l5",
+    "grade": "5",
+    "title": "நீதியை நிலைநாட்டிய சிலம்பு"
+  },
+  "tam_5_t3_l6": {
+    "local": true,
+    "filename": "tam_5_t3_l6",
+    "grade": "5",
+    "title": "காணாமல் போன பணப்பை & மயங்கொலிச்சொற்கள்"
+  },
+  "tam_5_t3_l7": {
+    "local": true,
+    "filename": "tam_5_t3_l7",
+    "grade": "5",
+    "title": "அறநெறிச்சாரம்"
+  },
+  "tam_5_t3_l8": {
+    "local": true,
+    "filename": "tam_5_t3_l8",
+    "grade": "5",
+    "title": "புதுவை வளர்த்த தமிழ்"
+  },
+  "tam_5_t3_l9": {
+    "local": true,
+    "filename": "tam_5_t3_l9",
+    "grade": "5"
   },
   "இன்பத்தமிழ் *": {
     "local": true,

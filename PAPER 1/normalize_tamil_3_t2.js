@@ -3,13 +3,14 @@ const path = require('path');
 
 const baseDir = 'C:\\Users\\MATHAN\\2026-SPECIAL-EXAM\\PAPER 1\\json-db\\lessons\\tamil\\3\\';
 const files = [
-  { in: '2.json', out: 'tam_3_t2_l1.json', unit: "1" },
-  { in: '3.json', out: 'tam_3_t2_l2.json', unit: "2" },
-  { in: '4.json', out: 'tam_3_t2_l3.json', unit: "3" },
-  { in: '5.json', out: 'tam_3_t2_l4.json', unit: "4" },
-  { in: '6.json', out: 'tam_3_t2_l5.json', unit: "5" },
-  { in: '7.json', out: 'tam_3_t2_l6.json', unit: "6" },
-  { in: '8.json', out: 'tam_3_t2_l7.json', unit: "7" }
+  { in: '1.json', out: 'tam_3_t2_l1.json', unit: "1" },
+  { in: '2.json', out: 'tam_3_t2_l2.json', unit: "2" },
+  { in: '3.json', out: 'tam_3_t2_l3.json', unit: "3" },
+  { in: '4.json', out: 'tam_3_t2_l4.json', unit: "4" },
+  { in: '5.json', out: 'tam_3_t2_l5.json', unit: "5" },
+  { in: '6.json', out: 'tam_3_t2_l6.json', unit: "6" },
+  { in: '7.json', out: 'tam_3_t2_l7.json', unit: "7" },
+  { in: '8.json', out: 'tam_3_t2_l8.json', unit: "8" }
 ];
 
 files.forEach(fileInfo => {
@@ -26,25 +27,32 @@ files.forEach(fileInfo => {
   // Normalize material/notes
   let sections = [];
   const rawNotes = data.பாடக்குறிப்புகள் || data.notes || [];
-  rawNotes.forEach(note => {
-    const heading = note.தலைப்பு || note.heading || "Section";
-    let content = "";
-    if (note.விவரங்கள்) {
-      content = Array.isArray(note.விவரங்கள்) ? note.விவரங்கள்.join('\n') : note.விவரங்கள்;
-    } else if (note.points) {
-      content = note.points.join('\n');
+  if (Array.isArray(rawNotes)) {
+    rawNotes.forEach(note => {
+      const heading = note.தலைப்பு || note.heading || "Section";
+      let content = "";
+      if (note.விவரங்கள்) {
+        content = Array.isArray(note.விவரங்கள்) ? note.விவரங்கள்.join('\n') : note.விவரங்கள்;
+      } else if (note.points) {
+        content = note.points.join('\n');
+      }
+      sections.push({ title: heading, content: content });
+    });
+  } else if (typeof rawNotes === 'object') {
+    // Handle object-based notes (like in 1.json)
+    for (const [key, value] of Object.entries(rawNotes)) {
+        sections.push({ title: key, content: value });
     }
-    sections.push({ title: heading, content: content });
-  });
+  }
 
   // Normalize quiz
   let questions = [];
-  const rawQuiz = data.கேள்விகள் || data.quiz || [];
+  const rawQuiz = data.தேர்வுகள் || data.கேள்விகள் || data.quiz || [];
   rawQuiz.forEach(q => {
     const questionText = q.கேள்வி || q.question;
-    const options = q.ஆப்ஷன்கள் || q.options || [];
+    const options = q.ஆப்ஷன்கள் || q.options || q.ஆப்சன் || [];
     const answerStr = q.விடை || q.answer;
-    const explanation = q.விளக்கம் || q.explanation || "";
+    const explanation = q.விளக்கம் || q.explanation || q.விடைக்கான_விளக்கம் || "";
 
     const clean = (s) => s ? s.toString().trim().replace(/[.,!?;]$/, '') : "";
     
@@ -75,7 +83,7 @@ files.forEach(fileInfo => {
 
     if (answerIndex === -1) {
        // console.warn(`Could not find answer "${answerStr}" in options for question "${questionText}" in file ${fileInfo.in}`);
-       answerIndex = 0; // Default to first option or we can set -1 to flag it
+       answerIndex = 0; 
     }
 
     questions.push({
@@ -107,3 +115,4 @@ files.forEach(fileInfo => {
   fs.writeFileSync(outputPath, JSON.stringify(productionData, null, 2), 'utf8');
   console.log(`Normalized ${fileInfo.in} -> ${fileInfo.out}`);
 });
+
