@@ -177,6 +177,61 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "யாரு? யாரு? யாரு?",
+                "isUpdated": true,
+                "code": "tam_2_t3_l1"
+              },
+              {
+                "title": "சிறிய உருவம் பெரிய உலகம்!",
+                "isUpdated": true,
+                "code": "tam_2_t3_l2"
+              },
+              {
+                "title": "விரும்பி வேலை செய்யலாம்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l3"
+              },
+              {
+                "title": "நாங்கள் நண்பர்கள்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l4"
+              },
+              {
+                "title": "பயணம்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l5"
+              },
+              {
+                "title": "கடற்கரைக்குப் போகலாம்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l6"
+              },
+              {
+                "title": "தொடர்வண்டி நிலையத்தில் & அன்றும் இன்றும்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l7"
+              },
+              {
+                "title": "அன்றும் இன்றும்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l8"
+              },
+              {
+                "title": "படவிளக்க அகராதி மற்றும் கொன்றை வேந்தன்",
+                "isUpdated": true,
+                "code": "tam_2_t3_l9"
+              }
+            ]
+          }
+        ]
       }
     ],
     "3": [

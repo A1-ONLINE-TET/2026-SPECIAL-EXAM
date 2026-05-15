@@ -3141,35 +3141,35 @@ export const lessonMap = {
     "grade": "1",
     "title": "இளையார் ஆத்திசூடி"
   },
-  "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்": {
+  "யாரு? யாரு? யாரு?": {
     "local": true,
-    "filename": "tam_2_t2_l1",
+    "filename": "tam_2_t3_l1",
     "grade": "2",
-    "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்"
+    "title": "யாரு? யாரு? யாரு?"
   },
-  "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி": {
+  "சிறிய உருவம் பெரிய உலகம்!": {
     "local": true,
-    "filename": "tam_2_t2_l2",
+    "filename": "tam_2_t3_l2",
     "grade": "2",
-    "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி"
+    "title": "சிறிய உருவம் பெரிய உலகம்!"
   },
-  "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்": {
+  "தொடர்வண்டி நிலையத்தில் & அன்றும் இன்றும்": {
     "local": true,
-    "filename": "tam_2_t2_l3",
+    "filename": "tam_2_t3_l7",
     "grade": "2",
-    "title": "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்"
+    "title": "தொடர்வண்டி நிலையத்தில் & அன்றும் இன்றும்"
   },
-  "ஓடி விளையாடு பாப்பா": {
+  "அன்றும் இன்றும்": {
     "local": true,
-    "filename": "tam_2_t2_l5",
+    "filename": "tam_2_t3_l8",
     "grade": "2",
-    "title": "ஓடி விளையாடு பாப்பா"
+    "title": "அன்றும் இன்றும்"
   },
-  "ஆத்திசூடி": {
+  "படவிளக்க அகராதி மற்றும் கொன்றை வேந்தன்": {
     "local": true,
-    "filename": "tam_2_t2_l6",
+    "filename": "tam_2_t3_l9",
     "grade": "2",
-    "title": "ஆத்திசூடி"
+    "title": "படவிளக்க அகராதி மற்றும் கொன்றை வேந்தன்"
   },
   "விளையாட்டு உலகம்": {
     "local": true,
@@ -3207,17 +3207,35 @@ export const lessonMap = {
     "grade": "2",
     "title": "நானும் நாங்களும்"
   },
+  "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்": {
+    "local": true,
+    "filename": "tam_2_t2_l1",
+    "grade": "2",
+    "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்"
+  },
   "tam_2_t2_l1": {
     "local": true,
     "filename": "tam_2_t2_l1",
     "grade": "2",
     "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்"
   },
+  "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி": {
+    "local": true,
+    "filename": "tam_2_t2_l2",
+    "grade": "2",
+    "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி"
+  },
   "tam_2_t2_l2": {
     "local": true,
     "filename": "tam_2_t2_l2",
     "grade": "2",
     "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி"
+  },
+  "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்": {
+    "local": true,
+    "filename": "tam_2_t2_l3",
+    "grade": "2",
+    "title": "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்"
   },
   "tam_2_t2_l3": {
     "local": true,
@@ -3237,17 +3255,107 @@ export const lessonMap = {
     "grade": "2",
     "title": "விட்டுச் செல்லாதே!"
   },
+  "ஓடி விளையாடு பாப்பா": {
+    "local": true,
+    "filename": "tam_2_t2_l5",
+    "grade": "2",
+    "title": "ஓடி விளையாடு பாப்பா"
+  },
   "tam_2_t2_l5": {
     "local": true,
     "filename": "tam_2_t2_l5",
     "grade": "2",
     "title": "ஓடி விளையாடு பாப்பா"
   },
+  "ஆத்திசூடி": {
+    "local": true,
+    "filename": "tam_2_t2_l6",
+    "grade": "2",
+    "title": "ஆத்திசூடி"
+  },
   "tam_2_t2_l6": {
     "local": true,
     "filename": "tam_2_t2_l6",
     "grade": "2",
     "title": "ஆத்திசூடி"
+  },
+  "tam_2_t3_l1": {
+    "local": true,
+    "filename": "tam_2_t3_l1",
+    "grade": "2",
+    "title": "யாரு? யாரு? யாரு?"
+  },
+  "tam_2_t3_l2": {
+    "local": true,
+    "filename": "tam_2_t3_l2",
+    "grade": "2",
+    "title": "சிறிய உருவம் பெரிய உலகம்!"
+  },
+  "விரும்பி வேலை செய்யலாம்": {
+    "local": true,
+    "filename": "tam_2_t3_l3",
+    "grade": "2",
+    "title": "விரும்பி வேலை செய்யலாம்"
+  },
+  "tam_2_t3_l3": {
+    "local": true,
+    "filename": "tam_2_t3_l3",
+    "grade": "2",
+    "title": "விரும்பி வேலை செய்யலாம்"
+  },
+  "நாங்கள் நண்பர்கள்": {
+    "local": true,
+    "filename": "tam_2_t3_l4",
+    "grade": "2",
+    "title": "நாங்கள் நண்பர்கள்"
+  },
+  "tam_2_t3_l4": {
+    "local": true,
+    "filename": "tam_2_t3_l4",
+    "grade": "2",
+    "title": "நாங்கள் நண்பர்கள்"
+  },
+  "பயணம்": {
+    "local": true,
+    "filename": "tam_2_t3_l5",
+    "grade": "2",
+    "title": "பயணம்"
+  },
+  "tam_2_t3_l5": {
+    "local": true,
+    "filename": "tam_2_t3_l5",
+    "grade": "2",
+    "title": "பயணம்"
+  },
+  "கடற்கரைக்குப் போகலாம்": {
+    "local": true,
+    "filename": "tam_2_t3_l6",
+    "grade": "2",
+    "title": "கடற்கரைக்குப் போகலாம்"
+  },
+  "tam_2_t3_l6": {
+    "local": true,
+    "filename": "tam_2_t3_l6",
+    "grade": "2",
+    "title": "கடற்கரைக்குப் போகலாம்"
+  },
+  "tam_2_t3_l7": {
+    "local": true,
+    "filename": "tam_2_t3_l7",
+    "grade": "2",
+    "title": "தொடர்வண்டி நிலையத்தில் & அன்றும் இன்றும்"
+  },
+  "tam_2_t3_l8": {
+    "local": true,
+    "filename": "tam_2_t3_l8",
+    "grade": "2",
+    "title": "அன்றும் இன்றும்"
+  },
+  "tam_2_t3_l9": {
+    "local": true,
+    "filename": "tam_2_t3_l9",
+    "grade": "2",
+    "title": "படவிளக்க அகராதி மற்றும் கொன்றை வேந்தன்"
   },
   "முடிவெடுப்போமா? - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்": {
     "local": true,
