@@ -197,40 +197,64 @@ export const syllabusData = {
             "title": "பாடப்பகுதிகள்",
             "topics": [
               {
-                "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல",
+                "title": "காட்டில் திருவிழா",
                 "isUpdated": true,
                 "code": "tam_3_t2_l1"
               },
               {
-                "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)",
+                "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல",
                 "isUpdated": true,
                 "code": "tam_3_t2_l2"
               },
               {
-                "title": "கல்வி கண் போன்றது",
+                "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)",
                 "isUpdated": true,
                 "code": "tam_3_t2_l3"
               },
               {
-                "title": "வீம்பால் வந்த விளைவு",
+                "title": "கல்வி கண் போன்றது",
                 "isUpdated": true,
                 "code": "tam_3_t2_l4"
               },
               {
-                "title": "நூலகம்",
+                "title": "வீம்பால் வந்த விளைவு",
                 "isUpdated": true,
                 "code": "tam_3_t2_l5"
               },
               {
-                "title": "நாயும் ஓநாயும்",
+                "title": "நூலகம்",
                 "isUpdated": true,
                 "code": "tam_3_t2_l6"
               },
               {
-                "title": "திருக்குறள் கதைகள்",
+                "title": "நாயும் ஓநாயும்",
                 "isUpdated": true,
                 "code": "tam_3_t2_l7"
+              },
+              {
+                "title": "திருக்குறள் கதைகள்",
+                "isUpdated": true,
+                "code": "tam_3_t2_l8"
               }
+            ]
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              { "title": "முடிவெடுப்போமா?", "isUpdated": true, "code": "tam_3_t3_l1" },
+              { "title": "தூக்கணாங்குருவியும் ஒட்டகச்சிவிங்கியும்", "isUpdated": true, "code": "tam_3_t3_l2" },
+              { "title": "மழைநீர்", "isUpdated": true, "code": "tam_3_t3_l3" },
+              { "title": "உள்ளங்கையில் ஓர் உலகம்", "isUpdated": true, "code": "tam_3_t3_l4" },
+              { "title": "துணிந்தவர் வெற்றி கொள்வர்", "isUpdated": true, "code": "tam_3_t3_l5" },
+              { "title": "தமிழ்மொழியின் பெருமை", "isUpdated": true, "code": "tam_3_t3_l6" },
+              { "title": "அறிவூட்டும் தொலைக்காட்சி செய்திகள்", "isUpdated": true, "code": "tam_3_t3_l7" },
+              { "title": "நல்வழி", "isUpdated": true, "code": "tam_3_t3_l8" },
+              { "title": "நட்பே உயர்வு", "isUpdated": true, "code": "tam_3_t3_l9" }
             ]
           }
         ]
