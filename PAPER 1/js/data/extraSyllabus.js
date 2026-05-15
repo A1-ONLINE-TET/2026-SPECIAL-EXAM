@@ -134,6 +134,16 @@ export const extraSyllabusData = {
                 "title": "உள்ளடக்கிய கல்வி (Inclusive Education)",
                 "isUpdated": true,
                 "code": "psy_6_l7"
+              },
+              {
+                "title": "உள்ளடக்கிய கல்வி (Inclusive Education)",
+                "isUpdated": true,
+                "code": "psy_6_l8"
+              },
+              {
+                "title": "சிறப்புத் தேவையுடைய குழந்தைகள் (Children with Special Needs - CWSN)",
+                "isUpdated": true,
+                "code": "psy_6_l9"
               }
             ]
           }

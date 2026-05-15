@@ -19,6 +19,7 @@ if (fs.existsSync(localDbPath)) {
 
         const subPath = path.join(localDbPath, sub);
         if (!fs.lstatSync(subPath).isDirectory()) continue;
+        console.log(`📂 Scanning subject: ${dbSubject}`);
 
         // Recursive scanner for subfolders (grades)
         function scanDir(dirPath, grade = null) {
@@ -28,6 +29,7 @@ if (fs.existsSync(localDbPath)) {
                 if (fs.lstatSync(itemPath).isDirectory()) {
                     scanDir(itemPath, item); // child is the grade
                 } else if (item.endsWith('.json')) {
+                    console.log(`  📄 Found file: ${item}`);
                     try {
                         const content = JSON.parse(fs.readFileSync(itemPath, 'utf8'));
                         const title = content.title || (content.lesson_meta && content.lesson_meta.title) || content.பாட_தலைப்பு || content.chapter_title || content.lesson_title;

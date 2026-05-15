@@ -1,0 +1,9 @@
+name = "a1lms"
+compatibility_date = "2025-09-27"
+
+[assets]
+directory = "PAPER 1"
+
+[build]
+command = "npm run build"
+output_dir = "PAPER 1"

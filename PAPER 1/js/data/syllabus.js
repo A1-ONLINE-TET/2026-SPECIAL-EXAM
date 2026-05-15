@@ -162,14 +162,29 @@ export const syllabusData = {
                 "code": "tam_3_t1_l3"
               },
               {
-                "title": "சின்னுவின் கதைப்பாடல்",
+                "title": "கல்வி கண் போன்றது",
                 "isUpdated": true,
                 "code": "tam_3_t1_l4"
               },
               {
-                "title": "பாட்டு வண்டியிலே...",
+                "title": "வீம்பால் வந்த விளைவு",
                 "isUpdated": true,
                 "code": "tam_3_t1_l5"
+              },
+              {
+                "title": "நூலகம்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l6"
+              },
+              {
+                "title": "நாயும் ஓநாயும்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l7"
+              },
+              {
+                "title": "திருக்குறள் கதைகள்",
+                "isUpdated": true,
+                "code": "tam_3_t1_l8"
               }
             ]
           }

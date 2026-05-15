@@ -2,7 +2,8 @@ export const lessonMap = {
   "1": {
     "local": true,
     "filename": "1",
-    "grade": "1"
+    "grade": "3",
+    "title": "காட்டில் திருவிழா"
   },
   "2": {
     "local": true,
@@ -29,7 +30,8 @@ export const lessonMap = {
   "6": {
     "local": true,
     "filename": "6",
-    "grade": "4"
+    "grade": "3",
+    "title": "நூலகம் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்"
   },
   "7": {
     "local": true,
@@ -1857,7 +1859,7 @@ export const lessonMap = {
   },
   "உள்ளடக்கிய கல்வி (Inclusive Education)": {
     "local": true,
-    "filename": "psy_6_l7",
+    "filename": "psy_6_l8",
     "grade": "all",
     "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
   },
@@ -1866,6 +1868,24 @@ export const lessonMap = {
     "filename": "psy_6_l7",
     "grade": "all",
     "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
+  },
+  "psy_6_l8": {
+    "local": true,
+    "filename": "psy_6_l8",
+    "grade": "all",
+    "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
+  },
+  "சிறப்புத் தேவையுடைய குழந்தைகள் (Children with Special Needs - CWSN)": {
+    "local": true,
+    "filename": "psy_6_l9",
+    "grade": "all",
+    "title": "சிறப்புத் தேவையுடைய குழந்தைகள் (Children with Special Needs - CWSN)"
+  },
+  "psy_6_l9": {
+    "local": true,
+    "filename": "psy_6_l9",
+    "grade": "all",
+    "title": "சிறப்புத் தேவையுடைய குழந்தைகள் (Children with Special Needs - CWSN)"
   },
   "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
     "local": true,
@@ -3151,6 +3171,48 @@ export const lessonMap = {
     "grade": "2",
     "title": "நானும் நாங்களும்"
   },
+  "காட்டில் திருவிழா": {
+    "local": true,
+    "filename": "1",
+    "grade": "3",
+    "title": "காட்டில் திருவிழா"
+  },
+  "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல": {
+    "local": true,
+    "filename": "2",
+    "grade": "3",
+    "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல"
+  },
+  "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)": {
+    "local": true,
+    "filename": "3",
+    "grade": "3",
+    "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)"
+  },
+  "கல்வி கண் போன்றது": {
+    "local": true,
+    "filename": "tam_3_t1_l4",
+    "grade": "3",
+    "title": "கல்வி கண் போன்றது"
+  },
+  "வீம்பால் வந்த விளைவு": {
+    "local": true,
+    "filename": "tam_3_t1_l5",
+    "grade": "3",
+    "title": "வீம்பால் வந்த விளைவு"
+  },
+  "நூலகம் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்": {
+    "local": true,
+    "filename": "6",
+    "grade": "3",
+    "title": "நூலகம் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்"
+  },
+  "திருக்குறள் கதைகள் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்": {
+    "local": true,
+    "filename": "8",
+    "grade": "3",
+    "title": "திருக்குறள் கதைகள் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்"
+  },
   "தமிழ் அமுது": {
     "local": true,
     "filename": "tam_3_t1_l1",
@@ -3187,29 +3249,53 @@ export const lessonMap = {
     "grade": "3",
     "title": "கண்ணன் செய்த உதவி"
   },
-  "சின்னுவின் கதைப்பாடல்": {
-    "local": true,
-    "filename": "tam_3_t1_l4",
-    "grade": "3",
-    "title": "சின்னுவின் கதைப்பாடல்"
-  },
   "tam_3_t1_l4": {
     "local": true,
     "filename": "tam_3_t1_l4",
     "grade": "3",
-    "title": "சின்னுவின் கதைப்பாடல்"
-  },
-  "பாட்டு வண்டியிலே...": {
-    "local": true,
-    "filename": "tam_3_t1_l5",
-    "grade": "3",
-    "title": "பாட்டு வண்டியிலே..."
+    "title": "கல்வி கண் போன்றது"
   },
   "tam_3_t1_l5": {
     "local": true,
     "filename": "tam_3_t1_l5",
     "grade": "3",
-    "title": "பாட்டு வண்டியிலே..."
+    "title": "வீம்பால் வந்த விளைவு"
+  },
+  "நூலகம்": {
+    "local": true,
+    "filename": "tam_3_t1_l6",
+    "grade": "3",
+    "title": "நூலகம்"
+  },
+  "tam_3_t1_l6": {
+    "local": true,
+    "filename": "tam_3_t1_l6",
+    "grade": "3",
+    "title": "நூலகம்"
+  },
+  "நாயும் ஓநாயும்": {
+    "local": true,
+    "filename": "tam_3_t1_l7",
+    "grade": "3",
+    "title": "நாயும் ஓநாயும்"
+  },
+  "tam_3_t1_l7": {
+    "local": true,
+    "filename": "tam_3_t1_l7",
+    "grade": "3",
+    "title": "நாயும் ஓநாயும்"
+  },
+  "திருக்குறள் கதைகள்": {
+    "local": true,
+    "filename": "tam_4_t2_l8",
+    "grade": "4",
+    "title": "திருக்குறள் கதைகள்"
+  },
+  "tam_3_t1_l8": {
+    "local": true,
+    "filename": "tam_3_t1_l8",
+    "grade": "3",
+    "title": "திருக்குறள் கதைகள்"
   },
   "அகராதி வினாக்கள் (அறிவுநிலா பாடம்)": {
     "local": true,
@@ -3438,12 +3524,6 @@ export const lessonMap = {
     "filename": "tam_4_t2_l7",
     "grade": "4",
     "title": "பனிமலைப் பயணம்"
-  },
-  "திருக்குறள் கதைகள்": {
-    "local": true,
-    "filename": "tam_4_t2_l8",
-    "grade": "4",
-    "title": "திருக்குறள் கதைகள்"
   },
   "tam_4_t2_l8": {
     "local": true,
