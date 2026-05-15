@@ -1,0 +1,596 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள்",
+    "unit": "1",
+    "grade": "5",
+    "term": "3",
+    "subject": "English",
+    "code": "eng_5_t3_l1"
+  },
+  "sections": [
+    {
+      "title": "பாடச் சுருக்கம் (Summary)",
+      "content": "This unit focuses on the theme 'Learn Always'. It consists of a prose piece 'Five Detectives', a poem 'Why?', a grammar section on Homophones and Adverbs, a supplementary story 'The Witty Sparrow', and a read-aloud passage about 'The Lost Camel'. \n\n1. Five Detectives: Five friends (Arul, Amudha, Sreejith, Jessy, Fathima) and a dog named Pablo in Ooty call themselves '5D'. They solve a mystery regarding a stolen diamond necklace. Sreejith disguises himself as an old man, gets a secret chit in a chocolate, and decodes it using a magic pen. The clue points to a 'Waxworks' studio. Amudha smartly deduces that the real stolen necklace is hidden on a princess statue. They find it and hand it over to Inspector Velayudham, earning appreciation.\n\n2. Why? (Poem): The poem encourages children to ask questions about nature (why the sky is blue, the earth is round, the river flows, the wind blows, etc.) to learn as they grow.\n\n3. The Witty Sparrow: A clever brown sparrow with three eggs is threatened by a young elephant named Gullu and a crocodile. Using her intelligence, she tricks them into pulling opposite ends of a strong creeper all day, exhausting them and protecting her eggs.\n\n4. The Lost Camel (Read Aloud): A boy perfectly describes a lost camel (blind in the right eye, lame in one left foot, missing a front tooth, carrying honey and wheat) just by observing the footprints, eaten grass, ants, and flies on the path, without ever seeing the camel."
+    },
+    {
+      "title": "கூடுதல் குறிப்புகள் (Additional Notes)",
+      "content": "My Little Pictionary Vocabulary:\n1. waxwork (v): a lifesize dummy made of wax.\n2. magician (n): a person who performs magic tricks.\n3. disguise (v): to make a person look different to hide their identity.\n4. statue (n): a human made figure of a person or animal, that is life-size or larger.\n5. chit (n): a short note on a piece of paper.\n\nGrammar Notes:\n1. Homophones: Words that sound alike but have different meanings and spellings. Example: two (number), to (place/direction/reason), too (very/extreme).\n2. Adverbs: Words that describe a verb. They tell 'How' (slowly), 'Where' (everywhere), 'When' (yesterday), and 'How often' (twice)."
+    },
+    {
+      "title": "நினைவில் கொள்க (Points to Remember)",
+      "content": "Important Points to Remember:\n- The 5 Detectives (5D) are Arul, Amudha, Sreejith, Jessy, Fathima, and Pablo (the dog).\n- The story takes place in Ooty.\n- Sreejith disguised himself as an old man and sat on a bench.\n- The secret message read: 'Tell Number 3. Waxworks. Tuesday. 9 PM. - Number 5'.\n- The real diamond necklace was hidden on the Princess statue in the Waxworks.\n- Homophones check: 'We two went to the hill. So we felt too happy.'\n- The sparrow laid three eggs and tied the elephant and crocodile using a strong creeper.\n- The boy identified the camel was blind in the right eye because it ate grass only on the left side of the path."
+    },
+    {
+      "title": "மதிப்பீடு: Five Detectives - Match the following",
+      "content": "1. Pablo - dog\n2. Velayudham - Inspector\n3. Sreejith - old man"
+    },
+    {
+      "title": "மதிப்பீடு: Five Detectives - Choose the correct answer",
+      "content": "1. Pablo was the dog of ________ (Answer: Sreejith)\n2. The message was to gather on ________ (Answer: Tuesday)\n3. ________ overheard her father's talking on the phone. (Answer: Jessy)"
+    },
+    {
+      "title": "மதிப்பீடு: Let Us Build (Grammar) - Fill in the blanks with to, too, two",
+      "content": "1. Students are going to school.\n2. There are two chocolates.\n3. We like to play.\n4. The tree is too big.\n5. I will be coming in two days.\n6. I ate too many chocolates.\n7. They went to the park."
+    },
+    {
+      "title": "மதிப்பீடு: Poem 'Why?' - Match the rhyming words",
+      "content": "1. flow - know\n2. grow - blow\n3. seek - week"
+    },
+    {
+      "title": "மதிப்பீடு: The Witty Sparrow - Choose the best answer",
+      "content": "1. All the animals called the sparrow ________. (Answer: madam)\n2. The brown sparrow laid ________ eggs. (Answer: three)\n3. ________ lies stretching in the river. (Answer: crocodile)\n4. Sparrow tied the elephant and the crocodile with a ________. (Answer: creeper)\n5. The sparrow solved the problem with her ________. (Answer: intelligence)"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does the word 'disguise' mean?",
+      "options": [
+        "To perform magic tricks",
+        "To make a person look different to hide their identity",
+        "A lifesize dummy made of wax",
+        "A short note on a piece of paper"
+      ],
+      "answer": 1,
+      "explanation": "According to the pictionary, disguise means to make a person look different to hide their identity."
+    },
+    {
+      "question": "Who among the following is NOT a human member of the 5D gang?",
+      "options": [
+        "Amudha",
+        "Sreejith",
+        "Pablo",
+        "Fathima"
+      ],
+      "answer": 2,
+      "explanation": "Pablo is Sreejith's dog, while the others are human members of the Five Detectives."
+    },
+    {
+      "question": "Where did the story 'Five Detectives' take place?",
+      "options": [
+        "Chennai",
+        "Kodaikanal",
+        "Ooty",
+        "Munnar"
+      ],
+      "answer": 2,
+      "explanation": "The story mentions, 'It was a sunny afternoon, after a long time in Ooty.'"
+    },
+    {
+      "question": "Who was the inspector of the area in the story?",
+      "options": [
+        "Inspector Velayudham",
+        "Inspector Singam",
+        "Inspector Arul",
+        "Inspector Pablo"
+      ],
+      "answer": 0,
+      "explanation": "Inspector Velayudham was the police inspector handling the robbery case."
+    },
+    {
+      "question": "How did Sreejith disguise himself to find clues?",
+      "options": [
+        "As a magician",
+        "As an old man",
+        "As a police officer",
+        "As a wax statue"
+      ],
+      "answer": 1,
+      "explanation": "Sreejith disguised himself as an old man, sat on a bench, coughed, and sniffed to observe the area."
+    },
+    {
+      "question": "What did the man on the cycle hand over to Sreejith (disguised as the old man)?",
+      "options": [
+        "A diamond necklace",
+        "A packet of chocolate",
+        "A magic pen",
+        "A wax statue"
+      ],
+      "answer": 1,
+      "explanation": "The man handed over a packet of chocolate which contained a hidden chit."
+    },
+    {
+      "question": "How did the 5D children read the hidden message on the chit?",
+      "options": [
+        "By holding it in sunlight",
+        "By using a magnifying glass",
+        "By flashing a light on it using a magic pen",
+        "By dipping it in water"
+      ],
+      "answer": 2,
+      "explanation": "Jessy brought the magic pen, and when they flashed its light on the paper, the words glowed."
+    },
+    {
+      "question": "What was the actual message written on the chit?",
+      "options": [
+        "Steal the necklace. Monday. 9 PM.",
+        "Tell Number 3. Waxworks. Tuesday. 9 PM. - Number 5",
+        "Meet at the garage. Sunday. 8 PM.",
+        "Hide the chocolate. Waxworks. Friday. 5 PM."
+      ],
+      "answer": 1,
+      "explanation": "The message glowed under the magic light revealing the meeting place, day, and time."
+    },
+    {
+      "question": "Where did Amudha guess the real diamond necklace was hidden?",
+      "options": [
+        "In the old man's pocket",
+        "Under the bench",
+        "On the princess statue in Waxworks",
+        "In Jessy's garage"
+      ],
+      "answer": 2,
+      "explanation": "Amudha smartly guessed that placing it on the princess statue would go unnoticed because she already wears so many jewels."
+    },
+    {
+      "question": "What does 'statue' mean?",
+      "options": [
+        "A piece of paper",
+        "A human made figure of a person or animal",
+        "To perform magic tricks",
+        "A person who hides their identity"
+      ],
+      "answer": 1,
+      "explanation": "Statue is defined as a human-made figure of a person or animal that is life-size or larger."
+    },
+    {
+      "question": "Assertion (A): Sreejith could not enter the Waxworks on Tuesday night.\nReason (R): Inspector Velayudham was inside the Waxworks.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Sreejith saw the Inspector inside the Waxworks and had no way of getting in without being noticed."
+    },
+    {
+      "question": "Which of the following is an example of an Adverb of Time (When)?",
+      "options": [
+        "Slowly",
+        "Yesterday",
+        "Everywhere",
+        "Twice"
+      ],
+      "answer": 1,
+      "explanation": "Words that tell 'When' an action happened are Adverbs of Time, like 'yesterday'."
+    },
+    {
+      "question": "Fill in the blank with the correct homophone: The bag is _____ heavy for me to carry.",
+      "options": [
+        "to",
+        "two",
+        "too",
+        "tow"
+      ],
+      "answer": 2,
+      "explanation": "'Too' means very or extreme. Here, it indicates the bag is extremely heavy."
+    },
+    {
+      "question": "Match the following Adverbs with their types:\n1. carefully - a) Where\n2. everywhere - b) How often\n3. yesterday - c) How\n4. twice - d) When",
+      "options": [
+        "1-c, 2-a, 3-d, 4-b",
+        "1-a, 2-b, 3-c, 4-d",
+        "1-d, 2-c, 3-b, 4-a",
+        "1-b, 2-d, 3-a, 4-c"
+      ],
+      "answer": 0,
+      "explanation": "Carefully = How, Everywhere = Where, Yesterday = When, Twice = How often."
+    },
+    {
+      "question": "Identify the adverb in the sentence: 'Suddenly the old man fainted.'",
+      "options": [
+        "old",
+        "man",
+        "fainted",
+        "Suddenly"
+      ],
+      "answer": 3,
+      "explanation": "'Suddenly' describes how the action (fainting) happened."
+    },
+    {
+      "question": "Fill in the blank: Mom promised ___ take Ben and Jill ___ the zoo.",
+      "options": [
+        "too, to",
+        "to, to",
+        "two, too",
+        "too, two"
+      ],
+      "answer": 1,
+      "explanation": "'to' is used to show reason/action (to take) and place/direction (to the zoo)."
+    },
+    {
+      "question": "What question does the poem 'Why?' ask about the silk?",
+      "options": [
+        "Why is silk shiny?",
+        "Why is silk smooth?",
+        "Why is silk soft?",
+        "Why is silk costly?"
+      ],
+      "answer": 2,
+      "explanation": "The line in the poem is: 'Why is silk soft?'"
+    },
+    {
+      "question": "Choose the correct rhyming pair from the poem 'Why?'.",
+      "options": [
+        "soft - sky",
+        "seek - week",
+        "flow - hot",
+        "blow - pour"
+      ],
+      "answer": 1,
+      "explanation": "In the poem, 'seek' rhymes with 'week'."
+    },
+    {
+      "question": "According to the poem 'Why?', what does the wind do?",
+      "options": [
+        "Flow",
+        "Pour",
+        "Blow",
+        "Shine"
+      ],
+      "answer": 2,
+      "explanation": "The poem asks: 'Why does the wind blow?'"
+    },
+    {
+      "question": "Identify the homophone that shows a 'number'.",
+      "options": [
+        "too",
+        "to",
+        "two",
+        "tow"
+      ],
+      "answer": 2,
+      "explanation": "'Two' represents the number 2."
+    },
+    {
+      "question": "What name did the animals call the brown sparrow with respect?",
+      "options": [
+        "Queen",
+        "Princess",
+        "Madam",
+        "Boss"
+      ],
+      "answer": 2,
+      "explanation": "All the animals greeted her 'Madam' with respect."
+    },
+    {
+      "question": "What was the name of the young elephant in 'The Witty Sparrow'?",
+      "options": [
+        "Appu",
+        "Gullu",
+        "Jumbo",
+        "Gajju"
+      ],
+      "answer": 1,
+      "explanation": "The young elephant's name was Gullu."
+    },
+    {
+      "question": "Why was Madam Sparrow worried about Gullu?",
+      "options": [
+        "He might eat all her food.",
+        "He walked purposefully past the bush and rattled the nest, which might crack the eggs.",
+        "He was trying to steal her nest.",
+        "He was fighting with the crocodile."
+      ],
+      "answer": 1,
+      "explanation": "Gullu's thudding walk rattled the nest, making the sparrow worry for her eggs."
+    },
+    {
+      "question": "Who blocked the spot where the sparrow wanted to drink water?",
+      "options": [
+        "A snake",
+        "The elephant",
+        "A crocodile",
+        "A hippopotamus"
+      ],
+      "answer": 2,
+      "explanation": "A crocodile was stretching in the spot she was drinking water."
+    },
+    {
+      "question": "What did the sparrow use to tie the elephant and the crocodile?",
+      "options": [
+        "A thick metal chain",
+        "A strong creeper",
+        "A cotton rope",
+        "A magical thread"
+      ],
+      "answer": 1,
+      "explanation": "The sparrow took a strong creeper and tied the elephant on one end and the crocodile on the other."
+    },
+    {
+      "question": "Situation: You want to tell your friend that a box requires double the effort because it is very heavy. Which sentence is grammatically correct?",
+      "options": [
+        "The box is to heavy for two people.",
+        "The box is too heavy for two people.",
+        "The box is two heavy for too people.",
+        "The box is too heavy for to people."
+      ],
+      "answer": 1,
+      "explanation": "'Too' means very heavy. 'Two' means the number of people."
+    },
+    {
+      "question": "Analogy based on grammar: Carefully : How :: Yesterday : ?",
+      "options": [
+        "Where",
+        "When",
+        "How often",
+        "Why"
+      ],
+      "answer": 1,
+      "explanation": "Carefully describes 'How' an action is done. Yesterday describes 'When' an action is done."
+    },
+    {
+      "question": "In the story of 'The Lost Camel', how did the boy deduce that the camel was blind in the right eye?",
+      "options": [
+        "The camel bumped into a tree on the right.",
+        "The camel ate grass only on the left side of the path.",
+        "He found an eyepatch on the ground.",
+        "The merchants told him."
+      ],
+      "answer": 1,
+      "explanation": "The boy noticed that grass was eaten only on the left side, meaning the camel couldn't see the right side."
+    },
+    {
+      "question": "How did the boy know the camel had lost its front teeth?",
+      "options": [
+        "The camel's footprints were uneven.",
+        "There were ants carrying grains.",
+        "While eating grass, it had not eaten the grass in the middle.",
+        "The camel was making a strange sound."
+      ],
+      "answer": 2,
+      "explanation": "The uneaten middle section of the grass patches indicated missing front teeth."
+    },
+    {
+      "question": "Assertion (A): The boy in 'The Lost Camel' story was a thief who stole the camel.\nReason (R): He knew everything about the camel's appearance and load.",
+      "options": [
+        "Both A and R are true.",
+        "A is true, but R is false.",
+        "A is false, but R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "The boy was not a thief; he just used his brilliant observation skills to deduce the camel's details."
+    },
+    {
+      "question": "Choose the correct adverb to complete the sentence: 'The lion fought ________.'",
+      "options": [
+        "bravely",
+        "cunningly",
+        "beautifully",
+        "sweetly"
+      ],
+      "answer": 0,
+      "explanation": "A lion is known for its bravery, so 'bravely' is the correct adverb here."
+    },
+    {
+      "question": "Choose the correct adverb to complete the sentence: 'A jackal cheated the crow ________.'",
+      "options": [
+        "bravely",
+        "loudly",
+        "cunningly",
+        "brilliantly"
+      ],
+      "answer": 2,
+      "explanation": "A jackal is a trickster, so it cheated 'cunningly'."
+    },
+    {
+      "question": "What did the boy observe that told him the camel was carrying wheat and honey?",
+      "options": [
+        "He smelled wheat and honey in the air.",
+        "He saw ants carrying wheat on one side and flies eating honey on the other.",
+        "He saw bags of wheat and honey dropped on the road.",
+        "He saw the camel eating wheat and honey."
+      ],
+      "answer": 1,
+      "explanation": "The presence of ants on one side (wheat) and flies on the other (honey) gave him the clue."
+    },
+    {
+      "question": "Fill in the blanks: I need ___ write ___ pages on this topic.",
+      "options": [
+        "to, two",
+        "two, to",
+        "too, two",
+        "to, too"
+      ],
+      "answer": 0,
+      "explanation": "'to write' is the infinitive verb form, and 'two pages' denotes the number."
+    },
+    {
+      "question": "What happened to the old man whom Inspector Velayudham caught in the park?",
+      "options": [
+        "He was Sreejith in disguise.",
+        "He was the real old man and got locked up in the police station.",
+        "He escaped using a cycle.",
+        "He gave the diamond necklace to the inspector."
+      ],
+      "answer": 1,
+      "explanation": "Sreejith escaped, and the Inspector accidentally caught the real old man who came from the other side."
+    },
+    {
+      "question": "How many eggs did Madam Sparrow lay?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 2,
+      "explanation": "The story clearly mentions the sparrow had three eggs in her nest."
+    },
+    {
+      "question": "Where was the sparrow's nest located?",
+      "options": [
+        "High up in a banyan tree",
+        "In a bush",
+        "On the river bank",
+        "Inside a cave"
+      ],
+      "answer": 1,
+      "explanation": "The story states: 'The nest was in a bush.'"
+    },
+    {
+      "question": "What did the elephant and the crocodile do all day when tied to the creeper?",
+      "options": [
+        "They slept.",
+        "They talked to each other.",
+        "They pulled each other.",
+        "They chased the sparrow."
+      ],
+      "answer": 2,
+      "explanation": "Both animals pulled each other from opposite ends of the creeper all day long and got exhausted."
+    },
+    {
+      "question": "What does the word 'pestering' mean from the glossary?",
+      "options": [
+        "Irritating",
+        "Praise worthy",
+        "Kept secret",
+        "To find the answer"
+      ],
+      "answer": 0,
+      "explanation": "Pestering means constantly bothering or irritating someone."
+    },
+    {
+      "question": "Who was continuously wagging his tail and jumping with joy at Amudha and Arul's house?",
+      "options": [
+        "Sreejith",
+        "Inspector Velayudham",
+        "Pablo",
+        "Gullu"
+      ],
+      "answer": 2,
+      "explanation": "Pablo, the dog, was jumping with joy and wagging his tail when they met."
+    },
+    {
+      "question": "Which step is NOT part of the 'Delivering a Speech' guide in the text?",
+      "options": [
+        "Connect",
+        "Construct",
+        "Content",
+        "Copying"
+      ],
+      "answer": 3,
+      "explanation": "The three steps to deliver a speech mentioned in the text are Connect, Construct, and Content."
+    },
+    {
+      "question": "What did the list found inside the chocolate look like initially before using the magic pen?",
+      "options": [
+        "A map of the city",
+        "A list of grocery items",
+        "A blank paper",
+        "A drawing of a necklace"
+      ],
+      "answer": 1,
+      "explanation": "Initially, they found a small chit which looked like a list of grocery items."
+    },
+    {
+      "question": "Situation: A boy runs very fast to catch a bus. Which adverb best describes his action?",
+      "options": [
+        "Slowly",
+        "Quickly",
+        "Angrily",
+        "Sadly"
+      ],
+      "answer": 1,
+      "explanation": "Running very fast is described by the adverb 'quickly'."
+    },
+    {
+      "question": "Match the characters with their actions in 'The Witty Sparrow':\n1. Sparrow - a) Walked thud! thud!\n2. Gullu - b) Blocked the drinking spot\n3. Crocodile - c) Used a brilliant idea",
+      "options": [
+        "1-b, 2-c, 3-a",
+        "1-c, 2-a, 3-b",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-b, 3-a"
+      ],
+      "answer": 1,
+      "explanation": "Sparrow used an idea, Gullu walked with a thud, Crocodile blocked the spot."
+    },
+    {
+      "question": "Identify the adverb in the sentence: 'She reads joyfully.'",
+      "options": [
+        "She",
+        "reads",
+        "joyfully",
+        "reads joyfully"
+      ],
+      "answer": 2,
+      "explanation": "'Joyfully' tells how she reads, hence it is an adverb."
+    },
+    {
+      "question": "Why was Inspector Velayudham furious with the 5D gang?",
+      "options": [
+        "Because they stole the chocolate.",
+        "Because Sreejith disguised himself and interfered with the police case.",
+        "Because Pablo bit the inspector.",
+        "Because they broke the wax statue."
+      ],
+      "answer": 1,
+      "explanation": "He was furious about their behavior and warned them to stay away from the case."
+    },
+    {
+      "question": "Higher Order Thinking: If the boy in the camel story saw the grass eaten on the right side instead of the left, what would his deduction be?",
+      "options": [
+        "The camel is blind in the right eye.",
+        "The camel is blind in the left eye.",
+        "The camel has no teeth.",
+        "The camel is lame in the right foot."
+      ],
+      "answer": 1,
+      "explanation": "If it ate on the right side, it means it could see on the right and was blind in the left eye."
+    },
+    {
+      "question": "Assertion (A): Adverbs can only tell us 'how' an action is performed.\nReason (R): Words like yesterday, everywhere, and twice are not adverbs.",
+      "options": [
+        "Both A and R are true.",
+        "A is true but R is false.",
+        "Both A and R are false.",
+        "A is false but R is true."
+      ],
+      "answer": 2,
+      "explanation": "Adverbs tell how, when, where, and how often. Yesterday, everywhere, and twice ARE adverbs."
+    },
+    {
+      "question": "What did the senior policeman do when the 5D handed over the diamond necklace?",
+      "options": [
+        "He arrested them.",
+        "He scolded them for interfering.",
+        "He appreciated them for their courage and dedication.",
+        "He gave them a reward of money."
+      ],
+      "answer": 2,
+      "explanation": "The text says, 'They were appreciated for their courage and dedication towards their city.'"
+    },
+    {
+      "question": "Which of these is the correct homophone phrase for: \"I have ___ tickets to go ___ the movie, and it is ___ exciting!\"",
+      "options": [
+        "two, to, too",
+        "to, two, too",
+        "too, to, two",
+        "two, too, to"
+      ],
+      "answer": 0,
+      "explanation": "two (number of tickets), to (direction/purpose to the movie), too (very exciting)."
+    }
+  ]
+}

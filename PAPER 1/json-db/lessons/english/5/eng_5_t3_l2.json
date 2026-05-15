@@ -1,0 +1,922 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே",
+    "unit": "2",
+    "grade": "5",
+    "term": "3",
+    "subject": "English",
+    "code": "eng_5_t3_l2"
+  },
+  "sections": [
+    {
+      "title": "பாடச் சுருக்கம் (Summary)",
+      "content": "This unit focuses on the theme 'We are One', emphasizing equality, compassion, and unity among all living beings. It includes:\n\n1. The Cracked Coffee Cup (Prose): Kani notices her dog Teddy treats everyone equally with love—her parents, Selvi (the house helper), Muthu (the garbage collector), Amar (the shop owner), a street dog, and Mary (a differently-abled candle seller). However, Kani notices that people treat others differently, like giving Selvi a cracked coffee cup or feeding Muthu leftover food. After a disturbing dream, Kani realizes Teddy's compassion and decides to treat everyone equally. The next morning, Selvi is given a new coffee cup.\n\n2. The Dreamer (Poem): A poem that asks us to imagine a world with no boundaries, diversity, greed, or hunger, where everything is shared, and the world is one.\n\n3. The New Start (Supplementary): Tenzin, a refugee boy from Tibet, shares his journey of moving to India (Himachal Pradesh, McLeod Ganj, Mysore, Gurupura, Kollegal). Despite facing challenges like a new language and feeling like an alien, he finds friends (Julie, Miss Malliga, Binsa, Nimmi, Charles) and realizes that humans are one, and boundaries are man-made.\n\n4. Read Aloud: A story of a leader who tries to save a drowning poisonous scorpion. Even though it bites him, he says that helping is human nature, and biting is the insect's nature."
+    },
+    {
+      "title": "கூடுதல் குறிப்புகள் (Additional Notes)",
+      "content": "Grammar Topics:\n1. Clipped Words: Short forms of words that make them easier to spell and write. Examples: vet (veterinary surgeon), lab (laboratory), zoo (zoological park), ad (advertisement), auto (automobile), math (mathematics), mic (microphone), cent (centum), photo (photograph), exam (examination), specs (spectacles), fridge (refrigerator), hippo (hippopotamus), gym (gymnasium).\n2. Pronouns and Reflexive Pronouns: Pronouns are used in place of a noun. Reflexive pronouns are used when someone does something to itself (e.g., I - myself, We - ourselves, You - yourself/yourselves, They - themselves, He - himself, She - herself, It - itself)."
+    },
+    {
+      "title": "நினைவில் கொள்க (Points to Remember)",
+      "content": "Key Points to Remember:\n- Teddy took his pillow to the gate as a sign of welcoming people.\n- Kani saw the old cracked cup near the kitchen sink.\n- Rani aunty and Anbu (2 years old) came from America as guests.\n- Tenzin's friends: Julie (Art/Craft), Miss Malliga (Computers), Binsa (from Nepal), Nimmi (fights teasers), Charles (taught baseball).\n- Tenzin's family had to get their book signed at the government office every year to stay in India.\n- Reflexive pronouns emphasize the subject's own action upon itself (e.g., 'The dog bites itself')."
+    },
+    {
+      "title": "மதிப்பீடு: Prose - Fill in the blanks",
+      "content": "1. Teddy took his pillow as a sign of ___ them. (Answer: welcoming)\n2. Kani and Teddy were in the garden at ___. (Answer: 12 PM)\n3. Muthu collected ___ from every house. (Answer: garbage)\n4. Anbu was ___ old boy. (Answer: 2 year)\n5. Kani took Teddy out for a ___. (Answer: walk)"
+    },
+    {
+      "title": "மதிப்பீடு: Grammar - Match the clipped word",
+      "content": "1. spectacles - specs\n2. microphone - mic\n3. automobile - auto\n4. mathematics - math\n5. centum - cent"
+    },
+    {
+      "title": "மதிப்பீடு: Grammar - Reflexive Pronouns",
+      "content": "1. Each morning, I brush my teeth and stare at ___ in the mirror. (Answer: myself)\n2. Dad and I painted the trailer ___. (Answer: ourselves)\n3. The children made holiday decorations by ___. (Answer: themselves)\n4. Paul copies his friend's homework instead of doing it ___. (Answer: himself)\n5. Please make ___ at home while you wait. (Answer: yourselves)"
+    },
+    {
+      "title": "மதிப்பீடு: Supplementary - Fill in the blanks",
+      "content": "1. Tenzin is from ___. (Answer: Tibet)\n2. Tenzin's family first lived in ___. (Answer: Himachal Pradesh / McLeod Ganj)\n3. If we didn't have boundaries, we don't need ___. (Answer: weapons)\n4. ___ fights with everyone in school. (Answer: Nimmi)\n5. Miss Malliga teaches ___. (Answer: computers)"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does the word 'wag' mean?",
+      "options": [
+        "A fixed basin with a tap",
+        "Rubbish or waste",
+        "Fast movement of the tail to and fro",
+        "An animal raised as a friend"
+      ],
+      "answer": 2,
+      "explanation": "According to the pictionary, wag is a verb meaning the fast movement of a tail to and fro."
+    },
+    {
+      "question": "What does 'pet' mean in the context of the story?",
+      "options": [
+        "Fast movement of the tail",
+        "Break without completely separating",
+        "A wild animal",
+        "An animal raised as a friend or family"
+      ],
+      "answer": 3,
+      "explanation": "The pictionary defines a pet as an animal raised as a friend or family."
+    },
+    {
+      "question": "What is the meaning of 'sink'?",
+      "options": [
+        "A fixed basin with a tap for water",
+        "To break into pieces",
+        "To float on water",
+        "A type of garbage bag"
+      ],
+      "answer": 0,
+      "explanation": "In the pictionary, a sink is defined as a fixed basin with a tap for water."
+    },
+    {
+      "question": "What does 'garbage' mean?",
+      "options": [
+        "Leftover sweets",
+        "Rubbish or waste",
+        "A cracked cup",
+        "A fixed basin"
+      ],
+      "answer": 1,
+      "explanation": "Garbage is defined as rubbish or waste."
+    },
+    {
+      "question": "What is the definition of 'crack'?",
+      "options": [
+        "To hit with a stone",
+        "To fix completely",
+        "Break or cause to break without completely separated parts",
+        "Fast movement"
+      ],
+      "answer": 2,
+      "explanation": "According to the text, crack means to break without completely separated parts."
+    },
+    {
+      "question": "What is the title of the prose featuring Kani and Teddy?",
+      "options": [
+        "The Magic Coffee Cup",
+        "The Broken Teapot",
+        "The Cracked Coffee Cup",
+        "The Leftover Food"
+      ],
+      "answer": 2,
+      "explanation": "The title of the prose story is 'The Cracked Coffee Cup'."
+    },
+    {
+      "question": "What did Teddy run to the gate with when he saw Kani's parents?",
+      "options": [
+        "His favorite bone",
+        "His favorite toy",
+        "A coffee cup",
+        "His favorite pillow"
+      ],
+      "answer": 3,
+      "explanation": "Teddy ran to the gate with his favorite pillow as a sign of welcoming them."
+    },
+    {
+      "question": "Why did Teddy take his pillow to the gate?",
+      "options": [
+        "He wanted to sleep at the gate",
+        "As a sign of welcoming people",
+        "To hide it from Kani",
+        "To give it to the street dog"
+      ],
+      "answer": 1,
+      "explanation": "The text states he took his pillow as a sign of welcoming them."
+    },
+    {
+      "question": "What was Kani doing at 9 AM on Saturday morning?",
+      "options": [
+        "Sleeping",
+        "Painting",
+        "Walking Teddy",
+        "Eating sweets"
+      ],
+      "answer": 1,
+      "explanation": "At 9 AM, while Kani was painting, Teddy again ran to the gate."
+    },
+    {
+      "question": "Who is Selvi in the story?",
+      "options": [
+        "The garbage collector",
+        "Kani's aunt",
+        "The provision shop owner",
+        "The house helper"
+      ],
+      "answer": 3,
+      "explanation": "Selvi is mentioned as the house helper who cleans the house and vessels."
+    },
+    {
+      "question": "Assertion (A): Selvi drank her coffee from a new, clean cup.\nReason (R): Kani saw Selvi drinking coffee near the kitchen sink.",
+      "options": [
+        "Both A and R are true.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 2,
+      "explanation": "Selvi drank from an old, cracked cup, not a new one. So A is false. Kani did see her near the sink, so R is true."
+    },
+    {
+      "question": "Who was Muthu?",
+      "options": [
+        "A garbage collector",
+        "A shop owner",
+        "A guest from America",
+        "A teacher"
+      ],
+      "answer": 0,
+      "explanation": "Muthu is the person who collects garbage from every house."
+    },
+    {
+      "question": "At what time were Kani and Teddy in the garden when they heard whistling?",
+      "options": [
+        "9 AM",
+        "5 PM",
+        "10 AM",
+        "12 PM"
+      ],
+      "answer": 3,
+      "explanation": "The text says, 'At around 12 PM, while Kani and Teddy were in the garden, she heard someone whistling.'"
+    },
+    {
+      "question": "Real-life Scenario: If someone packs yesterday's excess food to give to a worker instead of fresh food, what does this depict as shown in Kani's household initially?",
+      "options": [
+        "Treating them as special guests",
+        "Treating them unequally compared to family",
+        "Showing utmost respect",
+        "Wasting food"
+      ],
+      "answer": 1,
+      "explanation": "Giving leftover food and cracked cups to workers shows treating them unequally, which Kani realized later was wrong."
+    },
+    {
+      "question": "What did Kani's father prepare for lunch?",
+      "options": [
+        "Sweets",
+        "Leftover rice",
+        "Coffee",
+        "Biryani"
+      ],
+      "answer": 3,
+      "explanation": "The text mentions, 'Kani's father prepared Kani's favorite biryani.'"
+    },
+    {
+      "question": "Who were the guests arriving at Kani's home?",
+      "options": [
+        "Muthu and Amar",
+        "Rani aunty and Anbu",
+        "Selvi and Mary",
+        "Tenzin and Charles"
+      ],
+      "answer": 1,
+      "explanation": "Kani's mom said, 'Rani aunty and her 2-year-old son Anbu are coming'."
+    },
+    {
+      "question": "Where were Rani aunty and Anbu coming from?",
+      "options": [
+        "America",
+        "Australia",
+        "England",
+        "Tibet"
+      ],
+      "answer": 0,
+      "explanation": "The text states they 'are coming from America'."
+    },
+    {
+      "question": "How old was Anbu?",
+      "options": [
+        "4 years old",
+        "5 years old",
+        "2 years old",
+        "3 years old"
+      ],
+      "answer": 2,
+      "explanation": "Rani aunty's son, Anbu, is described as a '2-year-old son'."
+    },
+    {
+      "question": "At what time were the guests expected to arrive?",
+      "options": [
+        "Around 12 PM",
+        "Around 9 AM",
+        "Around 8 PM",
+        "Around 5 PM"
+      ],
+      "answer": 3,
+      "explanation": "When Kani asked what time they were coming, her mom replied, 'Around 5 PM'."
+    },
+    {
+      "question": "Who was Amar?",
+      "options": [
+        "A provision shop owner",
+        "A garbage collector",
+        "A person who sells candles",
+        "Kani's father"
+      ],
+      "answer": 0,
+      "explanation": "Amar is mentioned as the provision shop owner standing outside the shop."
+    },
+    {
+      "question": "How did Teddy react to the street dog outside the shop?",
+      "options": [
+        "He barked at it",
+        "He ran away from it",
+        "He threw a stone at it",
+        "He started playing with it"
+      ],
+      "answer": 3,
+      "explanation": "While people threw stones at the street dog, Teddy started playing with that dog."
+    },
+    {
+      "question": "Who was Mary?",
+      "options": [
+        "A house helper",
+        "A differently abled person who sells candles",
+        "A provision shop owner",
+        "Kani's aunt from America"
+      ],
+      "answer": 1,
+      "explanation": "Mary is described as a differently abled person who sells candles outside a church."
+    },
+    {
+      "question": "Where did Mary sell candles?",
+      "options": [
+        "Outside a temple",
+        "Outside a school",
+        "Outside a provision store",
+        "Outside a church"
+      ],
+      "answer": 3,
+      "explanation": "The text states Mary sells candles 'outside a church'."
+    },
+    {
+      "question": "What did Kani see flashes of in her dream while sleeping?",
+      "options": [
+        "A new coffee cup and fresh biryani",
+        "Rani aunty and Anbu coming from America",
+        "Teddy biting a street dog",
+        "The broken coffee cup, leftover food, and the street dog getting hit by stones"
+      ],
+      "answer": 3,
+      "explanation": "Kani woke up disturbed after dreaming about the unequal and harsh treatment she witnessed that day."
+    },
+    {
+      "question": "What powerful realization did Kani have after her dreams?",
+      "options": [
+        "She should buy a new pillow for Teddy.",
+        "She should move to America.",
+        "She should treat everyone equally with love and respect like Teddy.",
+        "She should scold Muthu and Selvi."
+      ],
+      "answer": 2,
+      "explanation": "She realized how compassionate Teddy was and decided she will also treat everyone equally with love and respect."
+    },
+    {
+      "question": "What positive change did Kani notice the very next morning at 9 AM?",
+      "options": [
+        "Teddy stopped wagging his tail.",
+        "Muthu got biryani.",
+        "Mary visited their home.",
+        "Selvi was given a new coffee cup on the counter."
+      ],
+      "answer": 3,
+      "explanation": "Kani walked into the kitchen to see a new coffee cup on the counter for Selvi, making her smile with renewed hope."
+    },
+    {
+      "question": "Fill in the blank: Teddy took his pillow as a sign of _______ them.",
+      "options": [
+        "scolding",
+        "welcoming",
+        "giving farewell",
+        "ignoring"
+      ],
+      "answer": 1,
+      "explanation": "The book-back exercise confirms Teddy took his pillow as a sign of welcoming them."
+    },
+    {
+      "question": "Fill in the blank: Kani and Teddy were in the garden at ______.",
+      "options": [
+        "12 PM",
+        "10 AM",
+        "11 PM",
+        "10 PM"
+      ],
+      "answer": 0,
+      "explanation": "According to the story, they were in the garden at around 12 PM."
+    },
+    {
+      "question": "Fill in the blank: Muthu collected ______ from every house.",
+      "options": [
+        "money",
+        "clothes",
+        "food",
+        "garbage"
+      ],
+      "answer": 3,
+      "explanation": "Muthu is the garbage collector."
+    },
+    {
+      "question": "Fill in the blank: Anbu was ________ old boy.",
+      "options": [
+        "4 year",
+        "3 year",
+        "2 year",
+        "5 year"
+      ],
+      "answer": 2,
+      "explanation": "Anbu is Rani aunty's 2-year-old son."
+    },
+    {
+      "question": "Fill in the blank: Kani took Teddy out for a ________.",
+      "options": [
+        "School",
+        "Park",
+        "run",
+        "walk"
+      ],
+      "answer": 3,
+      "explanation": "Her father asked her to take Teddy for a walk before the guests arrived."
+    },
+    {
+      "question": "What is the meaning of 'leftover'?",
+      "options": [
+        "troubled",
+        "extra / excess",
+        "a person who is physically disabled",
+        "to start freshly"
+      ],
+      "answer": 1,
+      "explanation": "In the glossary, leftover means extra or excess."
+    },
+    {
+      "question": "What does 'differently abled' mean?",
+      "options": [
+        "A person who can run very fast",
+        "A person with magical powers",
+        "A person who is physically disabled",
+        "A person from another country"
+      ],
+      "answer": 2,
+      "explanation": "The glossary defines differently abled as a person who is physically disabled."
+    },
+    {
+      "question": "What does 'flash' mean in the context of Kani's dream?",
+      "options": [
+        "A superhero",
+        "A type of camera",
+        "To start freshly",
+        "Sudden burst of bright light or memory"
+      ],
+      "answer": 3,
+      "explanation": "The glossary defines flash as a sudden burst of bright light (here referring to sudden vivid memories)."
+    },
+    {
+      "question": "What is the meaning of 'disturbed'?",
+      "options": [
+        "happy",
+        "troubled",
+        "excited",
+        "renewed"
+      ],
+      "answer": 1,
+      "explanation": "Disturbed means troubled, as Kani felt after her dream."
+    },
+    {
+      "question": "What are clipped words?",
+      "options": [
+        "Words that are very long and hard to spell",
+        "Words that mean the opposite of each other",
+        "A short form of a word, making them easier to spell and write",
+        "Words used only by animals"
+      ],
+      "answer": 2,
+      "explanation": "Clipped words are a short form of a word, which makes them easier to spell and write (e.g., vet for veterinary surgeon)."
+    },
+    {
+      "question": "Analogy based on clipped words: Zoo : Zoological Park :: Vet : ?",
+      "options": [
+        "Veterans",
+        "Veterinary surgeon",
+        "Vegetable",
+        "Vehicle"
+      ],
+      "answer": 1,
+      "explanation": "Zoo is clipped from Zoological Park, and Vet is clipped from Veterinary surgeon."
+    },
+    {
+      "question": "What is the original word for the clipped word 'lab'?",
+      "options": [
+        "Label",
+        "Labor",
+        "Laboratory",
+        "Labyrinth"
+      ],
+      "answer": 2,
+      "explanation": "Lab is the clipped form of Laboratory."
+    },
+    {
+      "question": "What is the original word for the clipped word 'ad'?",
+      "options": [
+        "Addition",
+        "Advertisement",
+        "Adventure",
+        "Advance"
+      ],
+      "answer": 1,
+      "explanation": "Ad is the clipped form of Advertisement."
+    },
+    {
+      "question": "What is the clipped word for 'automobile'?",
+      "options": [
+        "mob",
+        "bile",
+        "auto",
+        "tom"
+      ],
+      "answer": 2,
+      "explanation": "Auto is the clipped form of automobile."
+    },
+    {
+      "question": "Analogy based on clipped words: Microphone : Mic :: Centum : ?",
+      "options": [
+        "Cen",
+        "Tum",
+        "Cent",
+        "Century"
+      ],
+      "answer": 2,
+      "explanation": "Mic is short for Microphone. Cent is short for Centum."
+    },
+    {
+      "question": "What is the original word for the clipped word 'photo'?",
+      "options": [
+        "Photon",
+        "Photograph",
+        "Photosynthesis",
+        "Photocopy"
+      ],
+      "answer": 1,
+      "explanation": "Photo is the clipped form of Photograph."
+    },
+    {
+      "question": "What is the clipped word for 'examination'?",
+      "options": [
+        "exam",
+        "nation",
+        "mine",
+        "ex"
+      ],
+      "answer": 0,
+      "explanation": "Exam is the clipped form of examination."
+    },
+    {
+      "question": "Match the original words to their clipped forms:\n1. Spectacles - a) Hippo\n2. Refrigerator - b) Specs\n3. Hippopotamus - c) Fridge",
+      "options": [
+        "1-b, 2-c, 3-a",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-a, 3-c"
+      ],
+      "answer": 0,
+      "explanation": "Spectacles -> Specs, Refrigerator -> Fridge, Hippopotamus -> Hippo."
+    },
+    {
+      "question": "What is the original word for the clipped word 'gym'?",
+      "options": [
+        "Gymnastics",
+        "Gymnasium",
+        "Gymnast",
+        "Gymnosperm"
+      ],
+      "answer": 1,
+      "explanation": "Gym is the clipped form of Gymnasium."
+    },
+    {
+      "question": "Fill in the blank with the correct clipped word: 'She is very good at ______ (mathematics).'",
+      "options": [
+        "mat",
+        "math",
+        "tics",
+        "maths"
+      ],
+      "answer": 1,
+      "explanation": "The clipped word for mathematics taught in the book is 'math'."
+    },
+    {
+      "question": "Fill in the blank with the correct clipped word: 'I have an ______ (examination) next week.'",
+      "options": [
+        "test",
+        "exam",
+        "nation",
+        "ex"
+      ],
+      "answer": 1,
+      "explanation": "The clipped word for examination is 'exam'."
+    },
+    {
+      "question": "Fill in the blank with the correct clipped word: 'She bought a new ______ (refrigerator).'",
+      "options": [
+        "cooler",
+        "refrig",
+        "fridge",
+        "freezer"
+      ],
+      "answer": 2,
+      "explanation": "The clipped word for refrigerator is 'fridge'."
+    },
+    {
+      "question": "Fill in the blank with the correct clipped word: 'He broke his ______ (spectacles).'",
+      "options": [
+        "glass",
+        "spects",
+        "specs",
+        "eyes"
+      ],
+      "answer": 2,
+      "explanation": "The clipped word for spectacles is 'specs'."
+    },
+    {
+      "question": "What is the title of the poem in Unit II?",
+      "options": [
+        "We Are One",
+        "The Dreamer",
+        "Imagine",
+        "A New World"
+      ],
+      "answer": 1,
+      "explanation": "The poem is titled 'The Dreamer'."
+    },
+    {
+      "question": "What is the main theme of the poem 'The Dreamer'?",
+      "options": [
+        "Sleeping and dreaming at night",
+        "Fighting for borders",
+        "A united world with no diversity, greed, or hunger",
+        "Collecting garbage"
+      ],
+      "answer": 2,
+      "explanation": "The poem envisions a peaceful world where humans are united without greed, hunger, or conflict."
+    },
+    {
+      "question": "Complete the line from the poem: 'Will you join me? To make the world as ____.'",
+      "options": [
+        "two",
+        "one",
+        "yours",
+        "new"
+      ],
+      "answer": 1,
+      "explanation": "The poem ends with the plea, 'To make the world as one'."
+    },
+    {
+      "question": "According to 'The Dreamer', what should we do with 'all that belongs to you'?",
+      "options": [
+        "Hide it",
+        "Sell it",
+        "Share it",
+        "Keep it safe"
+      ],
+      "answer": 2,
+      "explanation": "The line says, 'All that belongs to you is shared'."
+    },
+    {
+      "question": "Assertion (A): The poet wants people to join him in his dream of making the world one.\nReason (R): He believes there is a need for greed and hunger.",
+      "options": [
+        "Both A and R are true.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "answer": 1,
+      "explanation": "The poet wants unity (A is true), but he explicitly says 'No need for greed or hunger' (R is false)."
+    },
+    {
+      "question": "What does 'imagine' mean according to the poem's glossary?",
+      "options": [
+        "Surprise",
+        "Confident",
+        "Think",
+        "Distribute"
+      ],
+      "answer": 2,
+      "explanation": "Imagine means to think or form a mental image."
+    },
+    {
+      "question": "What does the word 'hope' mean in the glossary?",
+      "options": [
+        "Confident",
+        "Surprise",
+        "Fear",
+        "Dream"
+      ],
+      "answer": 0,
+      "explanation": "The glossary defines hope as 'confident'."
+    },
+    {
+      "question": "What does the phrase 'belong to' mean?",
+      "options": [
+        "To be away",
+        "To be a part",
+        "To sell",
+        "To think"
+      ],
+      "answer": 1,
+      "explanation": "The glossary defines 'belong to' as 'to be a part'."
+    },
+    {
+      "question": "What is the meaning of 'greed'?",
+      "options": [
+        "Excessive desire",
+        "Desire for food",
+        "To share",
+        "Confident"
+      ],
+      "answer": 0,
+      "explanation": "Greed is defined as an excessive desire for something."
+    },
+    {
+      "question": "What is the meaning of 'hunger'?",
+      "options": [
+        "Desire to sleep",
+        "Excessive anger",
+        "Desire for food",
+        "To think"
+      ],
+      "answer": 2,
+      "explanation": "Hunger is defined as a desire for food."
+    },
+    {
+      "question": "What is the meaning of 'wonder' in the poem's glossary?",
+      "options": [
+        "Surprise",
+        "Confident",
+        "Distribute",
+        "Dream"
+      ],
+      "answer": 0,
+      "explanation": "Wonder means surprise."
+    },
+    {
+      "question": "What type of word is used in the place of a noun to avoid repetition?",
+      "options": [
+        "Adverb",
+        "Pronoun",
+        "Adjective",
+        "Verb"
+      ],
+      "answer": 1,
+      "explanation": "Pronouns are used in the place of a noun when we have to repeat a noun."
+    },
+    {
+      "question": "What is the object pronoun for the subject 'We'?",
+      "options": [
+        "Me",
+        "Him",
+        "Them",
+        "Us"
+      ],
+      "answer": 3,
+      "explanation": "The object pronoun for 'We' is 'Us'."
+    },
+    {
+      "question": "What is the possessive adjective for 'He'?",
+      "options": [
+        "His",
+        "Him",
+        "Her",
+        "Its"
+      ],
+      "answer": 0,
+      "explanation": "The possessive adjective for 'He' is 'His'."
+    },
+    {
+      "question": "What is the reflexive pronoun for 'They'?",
+      "options": [
+        "Themself",
+        "Theirselves",
+        "Themselves",
+        "Them"
+      ],
+      "answer": 2,
+      "explanation": "The reflexive pronoun for 'They' is 'Themselves'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'Each morning, I brush my teeth and stare at _______ in the mirror.'",
+      "options": [
+        "himself",
+        "myself",
+        "herself",
+        "itself"
+      ],
+      "answer": 1,
+      "explanation": "Since the subject is 'I', the reflexive pronoun is 'myself'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'Dad and I painted the trailer _______.'",
+      "options": [
+        "myself",
+        "himself",
+        "ourselves",
+        "itself"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'Dad and I' (which equals 'We'), so the reflexive pronoun is 'ourselves'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'The children made holiday decorations by _______.'",
+      "options": [
+        "themselves",
+        "their selves",
+        "ourselves",
+        "itself"
+      ],
+      "answer": 0,
+      "explanation": "'The children' is plural (They), so the reflexive pronoun is 'themselves'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'Paul copies his friend's homework instead of doing it _______.'",
+      "options": [
+        "myself",
+        "yourself",
+        "himself",
+        "itself"
+      ],
+      "answer": 2,
+      "explanation": "Paul is a male subject (He), so the reflexive pronoun is 'himself'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'She put _______ into the trouble.'",
+      "options": [
+        "himself",
+        "herself",
+        "myself",
+        "itself"
+      ],
+      "answer": 1,
+      "explanation": "The subject is 'She', so the reflexive pronoun is 'herself'."
+    },
+    {
+      "question": "Fill in the blank with the correct reflexive pronoun: 'The machine will destroy _______ once its task is done.'",
+      "options": [
+        "himself",
+        "herself",
+        "myself",
+        "itself"
+      ],
+      "answer": 3,
+      "explanation": "The machine is a non-living thing (It), so the reflexive pronoun is 'itself'."
+    },
+    {
+      "question": "In 'The New Start', who is the boy writing about his experience in his journal?",
+      "options": [
+        "Anbu",
+        "Muthu",
+        "Charles",
+        "Tenzin"
+      ],
+      "answer": 3,
+      "explanation": "Tenzin, a boy from Tibet, writes about his experience."
+    },
+    {
+      "question": "Where is Tenzin originally from?",
+      "options": [
+        "Nepal",
+        "Tibet",
+        "Bhutan",
+        "America"
+      ],
+      "answer": 1,
+      "explanation": "The story begins with, 'My name is Tenzin. I am from Tibet.'"
+    },
+    {
+      "question": "Analogy: Binsa : Nepal :: Tenzin : ?",
+      "options": [
+        "India",
+        "Karnataka",
+        "Tibet",
+        "America"
+      ],
+      "answer": 2,
+      "explanation": "Binsa is a friend from Nepal. Tenzin is from Tibet."
+    },
+    {
+      "question": "Where did Tenzin's family finally decide to come back and settle?",
+      "options": [
+        "McLeod Ganj",
+        "Gurupura",
+        "Kollegal",
+        "Mysore"
+      ],
+      "answer": 1,
+      "explanation": "The text says, 'Finally, we decided to come back and settle in Gurupura.'"
+    },
+    {
+      "question": "Who helped Tenzin's family arrange a house and showed them where to buy things?",
+      "options": [
+        "The Refugee Relief Group",
+        "The school teachers",
+        "The government office",
+        "His friend Binsa"
+      ],
+      "answer": 0,
+      "explanation": "They asked the Refugee Relief Group to help them get a house and admission to school."
+    },
+    {
+      "question": "Match the characters with their roles in Tenzin's life:\n1. Julie - a) Computer teacher\n2. Miss Malliga - b) Taught baseball\n3. Charles - c) Art and craft teacher",
+      "options": [
+        "1-b, 2-c, 3-a",
+        "1-c, 2-a, 3-b",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-b, 3-a"
+      ],
+      "answer": 1,
+      "explanation": "Julie is the art and craft teacher. Miss Malliga teaches computers. Charles taught baseball."
+    },
+    {
+      "question": "Higher Order Thinking: What happens if Tenzin's family misses getting their book signed at the government office?",
+      "options": [
+        "They will get a fine.",
+        "They will not be allowed to go to school.",
+        "They will have to leave India too.",
+        "They will be sent to Gurupura."
+      ],
+      "answer": 2,
+      "explanation": "Tenzin's mother says that if they miss getting it signed, they will have to leave India."
+    },
+    {
+      "question": "Who fights with everyone who teases Tenzin and his friends?",
+      "options": [
+        "Binsa",
+        "Nimmi",
+        "Charles",
+        "Julie"
+      ],
+      "answer": 1,
+      "explanation": "Tenzin mentions, 'There is Nimmi who fights with everyone who teases us.'"
+    },
+    {
+      "question": "According to Tenzin's history teacher, who made the boundaries of the countries?",
+      "options": [
+        "Nature",
+        "Rivers",
+        "Animals",
+        "People"
+      ],
+      "answer": 3,
+      "explanation": "The history teacher told them that it is people who made the boundaries of the countries."
+    },
+    {
+      "question": "In the 'Read Aloud' passage, what did the leader try to save from floating in the river?",
+      "options": [
+        "A drowning dog",
+        "A poisonous scorpion",
+        "A small bird",
+        "A fish"
+      ],
+      "answer": 1,
+      "explanation": "The leader saw a poisonous scorpion floating in the river and tried to save it."
+    }
+  ]
+}

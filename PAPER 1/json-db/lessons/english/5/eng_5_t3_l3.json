@@ -1,0 +1,1131 @@
+{
+  "lesson_meta": {
+    "title": "Unit 3: My Duties || அலகு 3: எனது கடமைகள்",
+    "unit": "3",
+    "grade": "5",
+    "term": "3",
+    "subject": "English",
+    "code": "eng_5_t3_l3"
+  },
+  "sections": [
+    {
+      "title": "பாடச் சுருக்கம் (Summary)",
+      "content": "This unit focuses on the theme 'My Duties' and consists of a prose piece 'The Monster Tree', a poem 'Social Responsibility', grammar sections on young ones of animals and perfect tenses, a supplementary story 'The Case of The Missing Water', and a read-aloud passage.\n\n1. The Monster Tree: Jana, a brave girl who moved to a village a month ago, has a nightmare about a terrifying 'monster tree' with sword-like branches. She learns that the village has a giant peepal tree that acts like a monster to scare people away. Intrigued and wanting her lost earring back, she approaches the tree. By showing calmness and patting the tree, she discovers its secret: the tree became a 'monster' to protect hundreds of squirrels, including a pregnant one, from merciless hunters. Jana explains this to the villagers, who take an oath to protect nature, renaming it 'The mother tree'.\n\n2. Social Responsibility (Poem): The poem highlights our duty to keep surroundings clean for a green world. It urges humans to use trash cans, reduce electricity use, and take a vow to do social welfare, starting with caring for nature.\n\n3. Grammar - Young Ones & Tenses: The unit covers the specific names for young animals (e.g., dog-pup, deer-fawn, swan-cygnet, etc.). It introduces the Past Perfect Tense (had + past participle) for events that happened before another past action, and the Future Perfect Tense (will have + past participle) for actions completed before a certain point in the future.\n\n4. The Case of The Missing Water: Divya's village tank dries up. Refusing to give up, she and her friend Rani (who wants to be a Sanitary Engineer) draw a map of streams and tanks. They hike up to find a full tank being illegally pumped into a 9000-liter tanker for the city. They bravely hug the pump to stop the man, and soon the monsoon rains begin, solving the water crisis."
+    },
+    {
+      "title": "கூடுதல் குறிப்புகள் (Additional Notes)",
+      "content": "Vocabulary & Pictionary:\n1. monster (n): a large, ugly, and scary imaginary creature.\n2. stream (n): a small, narrow river.\n3. shadow (n): a dark area or shape produced by a body coming between light and a ground.\n4. earrings (n): a piece of jewellery worn on the ear.\n5. sword (n): a weapon with a long metal blade.\n6. massive: large\n7. dodged: avoided to escape\n8. oath: promise, pledge\n\nGrammar Notes (Young Ones):\nDog -> Pup, Bear -> Cub, Sheep -> Lamb, Eagle -> Eaglet, Duck -> Duckling, Fish -> Fry, Zebra -> Foal, Deer -> Fawn, Owl -> Owlet, Cat -> Kitten, Ostrich -> Hatchling, Frog -> Tadpole, Tiger -> Cub, Elephant -> Calf, Crane -> Chick, Goose -> Gosling."
+    },
+    {
+      "title": "நினைவில் கொள்க (Points to Remember)",
+      "content": "Important Points to Remember:\n- The Monster Tree was actually a giant peepal tree.\n- The tree was protecting a pregnant squirrel and her kind from hunters.\n- The villagers renamed the tree 'The mother tree' after taking an oath.\n- Past Perfect Tense formula: Subject + had + past participle (e.g., I had slept).\n- Future Perfect Tense formula: Subject + will have + past participle (e.g., I will have completed).\n- Divya found Ammachi's reading glasses inside a book.\n- The tanker man was taking 9000 litres of water to the city.\n- Rani wants to be a Sanitary Engineer when she grows up."
+    },
+    {
+      "title": "மதிப்பீடு: The Monster Tree - Fill in the blanks",
+      "content": "1. Jana and her family moved to the village ___ ago. (Answer: a month)\n2. Jana saw a ___ behind her. (Answer: branch/shadow)\n3. The squirrel ran to the ___ tree. (Answer: monster)\n4. The monster tree was protecting the ___. (Answer: squirrels)\n5. The villagers took oath to not harm the ___. (Answer: nature)"
+    },
+    {
+      "title": "மதிப்பீடு: Young Ones - Match/Fill in the blanks",
+      "content": "1. The fisher caught the ___. (Answer: fry)\n2. The ostrich took care of its ___. (Answer: hatchling)\n3. The goose is swimming with its ___. (Answer: gosling)\n4. Vinoth had a little ___. (Answer: lamb)"
+    },
+    {
+      "title": "மதிப்பீடு: Poem - Rhyming Words",
+      "content": "green - clean\nhuman - can\nwill - ill\nwelfare - care"
+    },
+    {
+      "title": "மதிப்பீடு: Missing Water - Fill in the blanks",
+      "content": "1. The tank in Divya's village was almost ___. (Answer: dry)\n2. Divya loved solving ___. (Answer: mysteries)\n3. Divya and Rani decided to draw a ___. (Answer: map)\n4. Rani thought of herself as a ___ engineer. (Answer: sanitary)"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the meaning of the word 'monster' according to the pictionary?",
+      "options": [
+        "A large, ugly, and scary imaginary creature",
+        "A small, narrow river",
+        "A piece of jewellery worn on the ear",
+        "A weapon with a long metal blade"
+      ],
+      "answer": 0,
+      "explanation": "The pictionary defines monster as a large, ugly, and scary imaginary creature."
+    },
+    {
+      "question": "What does the word 'stream' mean?",
+      "options": [
+        "A weapon with a long blade",
+        "A small, narrow river",
+        "A dark area or shape",
+        "A large creature"
+      ],
+      "answer": 1,
+      "explanation": "A stream is defined in the pictionary as a small, narrow river."
+    },
+    {
+      "question": "What is a 'shadow'?",
+      "options": [
+        "A bright burst of light",
+        "A small, narrow river",
+        "A dark area or shape produced by a body coming between light and a ground",
+        "A piece of jewellery"
+      ],
+      "answer": 2,
+      "explanation": "A shadow is formed when a body blocks light, creating a dark shape."
+    },
+    {
+      "question": "What is the meaning of 'earrings'?",
+      "options": [
+        "A piece of jewellery worn on the ear",
+        "A weapon with a long metal blade",
+        "A dark area or shape",
+        "A scary imaginary creature"
+      ],
+      "answer": 0,
+      "explanation": "Earrings are defined as a piece of jewellery worn on the ear."
+    },
+    {
+      "question": "What is a 'sword'?",
+      "options": [
+        "A piece of jewellery",
+        "A dark area or shape",
+        "A large, ugly creature",
+        "A weapon with a long metal blade"
+      ],
+      "answer": 3,
+      "explanation": "A sword is defined as a weapon with a long metal blade."
+    },
+    {
+      "question": "What does the glossary word 'whistling' mean?",
+      "options": [
+        "Avoided to escape",
+        "Large",
+        "Scary dream",
+        "High pitched sound by using breath"
+      ],
+      "answer": 3,
+      "explanation": "Whistling refers to a high pitched sound made by using breath."
+    },
+    {
+      "question": "What is the meaning of the word 'massive'?",
+      "options": [
+        "Small",
+        "Tiny",
+        "Large",
+        "Quiet"
+      ],
+      "answer": 2,
+      "explanation": "The glossary defines massive as large."
+    },
+    {
+      "question": "What does 'ignore' mean?",
+      "options": [
+        "To run away",
+        "Refuse to take notice of",
+        "To look closely",
+        "To make a promise"
+      ],
+      "answer": 1,
+      "explanation": "To ignore means to refuse to take notice of something."
+    },
+    {
+      "question": "What is a 'nightmare'?",
+      "options": [
+        "A funny dream",
+        "A scary dream",
+        "A long sleep",
+        "A daydream"
+      ],
+      "answer": 1,
+      "explanation": "A nightmare is defined as a scary dream."
+    },
+    {
+      "question": "What does 'dodged' mean?",
+      "options": [
+        "Avoided to escape",
+        "Fought bravely",
+        "Ran towards",
+        "Stood completely still"
+      ],
+      "answer": 0,
+      "explanation": "To dodge means to avoid something to escape it."
+    },
+    {
+      "question": "What does 'oath' mean?",
+      "options": [
+        "A scary dream",
+        "A large tree",
+        "Promise, pledge",
+        "A weapon"
+      ],
+      "answer": 2,
+      "explanation": "An oath is a solemn promise or pledge."
+    },
+    {
+      "question": "How long ago did Jana and her family come to the village?",
+      "options": [
+        "Only a week ago",
+        "Only a month ago",
+        "Only a year ago",
+        "They lived there since birth"
+      ],
+      "answer": 1,
+      "explanation": "The text states, 'Only a month ago Jana and her family had come to the village.'"
+    },
+    {
+      "question": "What kind of tree was the 'monster tree' originally?",
+      "options": [
+        "A banyan tree",
+        "A mango tree",
+        "A neem tree",
+        "A peepal tree"
+      ],
+      "answer": 3,
+      "explanation": "Jana's friend told her it was a very big peepal tree near the entrance of the village."
+    },
+    {
+      "question": "What did the tree throw when the children stepped near it?",
+      "options": [
+        "Fruits",
+        "The swing near them",
+        "Stones",
+        "Birds' nests"
+      ],
+      "answer": 1,
+      "explanation": "The text mentions, 'The tree twisted its branches and threw the swing near them.'"
+    },
+    {
+      "question": "Who stopped the villagers from cutting the monster tree?",
+      "options": [
+        "Jana",
+        "The village head",
+        "Jana's mother",
+        "The children"
+      ],
+      "answer": 1,
+      "explanation": "The villagers planned to cut it, but the village head stopped them."
+    },
+    {
+      "question": "What did the village head advise the people to do instead of cutting the tree?",
+      "options": [
+        "Make a fence around the tree",
+        "Burn the tree",
+        "Water the tree",
+        "Feed the squirrels"
+      ],
+      "answer": 0,
+      "explanation": "He advised them to make a fence around the tree to stop people from going near it."
+    },
+    {
+      "question": "What did Jana feel right before she removed her earring?",
+      "options": [
+        "She felt a headache",
+        "She felt a bug bite",
+        "She felt her ears tingle",
+        "She felt very cold"
+      ],
+      "answer": 2,
+      "explanation": "Just then, she felt her ears tingle. She removed her earrings and kept it on the ground."
+    },
+    {
+      "question": "Who took Jana's earring from the ground?",
+      "options": [
+        "A monkey",
+        "A crow",
+        "A squirrel",
+        "Her friend"
+      ],
+      "answer": 2,
+      "explanation": "Suddenly, a squirrel took her earring and ran away."
+    },
+    {
+      "question": "In Jana's nightmare, what did the monster's branches become like?",
+      "options": [
+        "Like long ropes",
+        "Like a sword",
+        "Like heavy stones",
+        "Like soft feathers"
+      ],
+      "answer": 1,
+      "explanation": "The monster's branches became very sharp, like a sword, and came towards her."
+    },
+    {
+      "question": "What happened when Jana calmly touched and patted the monster tree?",
+      "options": [
+        "The tree attacked her",
+        "The branches stopped moving, and it was quiet",
+        "The tree threw a swing at her",
+        "The tree burst into flames"
+      ],
+      "answer": 1,
+      "explanation": "When Jana calmly touched the tree and patted it, the branches stopped moving, and it was quiet."
+    },
+    {
+      "question": "Who was the tree trying to save by acting like a monster?",
+      "options": [
+        "A pregnant squirrel and her kind",
+        "A group of exotic birds",
+        "The village children",
+        "The village head"
+      ],
+      "answer": 0,
+      "explanation": "The tree became a monster to save a pregnant squirrel and the other squirrels from merciless hunters."
+    },
+    {
+      "question": "Why did the pregnant squirrel ask the tree for help?",
+      "options": [
+        "Because it was raining heavily",
+        "Because she lost her nest",
+        "Because she was the last of her kind and hunters were trying to kill her",
+        "Because she wanted food"
+      ],
+      "answer": 2,
+      "explanation": "The squirrel said she was the last of her kind and the hunters were trying to kill her."
+    },
+    {
+      "question": "What oath did the villagers take after hearing the tree's story?",
+      "options": [
+        "Not to go near the tree again",
+        "To cut down the tree immediately",
+        "To not do any harm to nature",
+        "To hunt down all the squirrels"
+      ],
+      "answer": 2,
+      "explanation": "The villagers understood their mistake and took an oath not to do any harm to nature."
+    },
+    {
+      "question": "What did the villagers rename the monster tree at the end of the story?",
+      "options": [
+        "The Peepal King",
+        "The mother tree",
+        "The Squirrel home",
+        "The magic tree"
+      ],
+      "answer": 1,
+      "explanation": "From that day on, the villagers started calling it 'The mother tree'."
+    },
+    {
+      "question": "Assertion (A): The village head immediately ordered to cut down the monster tree.\nReason (R): The children got scared and ran away from the tree.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+        "Both A and R are false"
+      ],
+      "answer": 2,
+      "explanation": "The children did get scared (R is true), but the village head stopped the villagers from cutting the tree (A is false)."
+    },
+    {
+      "question": "What is the young one of a Dog called?",
+      "options": [
+        "Cub",
+        "Kitten",
+        "Pup",
+        "Fawn"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a dog is called a pup."
+    },
+    {
+      "question": "What is the young one of a Bear called?",
+      "options": [
+        "Cub",
+        "Calf",
+        "Foal",
+        "Tadpole"
+      ],
+      "answer": 0,
+      "explanation": "The young one of a bear is called a cub."
+    },
+    {
+      "question": "What is the young one of a Sheep called?",
+      "options": [
+        "Chick",
+        "Lamb",
+        "Fry",
+        "Duckling"
+      ],
+      "answer": 1,
+      "explanation": "The young one of a sheep is called a lamb."
+    },
+    {
+      "question": "What is the young one of an Eagle called?",
+      "options": [
+        "Owlet",
+        "Eaglet",
+        "Hatchling",
+        "Gosling"
+      ],
+      "answer": 1,
+      "explanation": "The young one of an eagle is called an eaglet."
+    },
+    {
+      "question": "What is the young one of a Duck called?",
+      "options": [
+        "Gosling",
+        "Chick",
+        "Duckling",
+        "Fry"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a duck is called a duckling."
+    },
+    {
+      "question": "What is the young one of a Fish called?",
+      "options": [
+        "Fry",
+        "Tadpole",
+        "Foal",
+        "Cub"
+      ],
+      "answer": 0,
+      "explanation": "The young one of a fish is called a fry."
+    },
+    {
+      "question": "What is the young one of a Zebra called?",
+      "options": [
+        "Calf",
+        "Foal",
+        "Fawn",
+        "Lamb"
+      ],
+      "answer": 1,
+      "explanation": "The young one of a zebra is called a foal."
+    },
+    {
+      "question": "What is the young one of a Deer called?",
+      "options": [
+        "Foal",
+        "Cub",
+        "Fawn",
+        "Pup"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a deer is called a fawn."
+    },
+    {
+      "question": "What is the young one of an Owl called?",
+      "options": [
+        "Chick",
+        "Owlet",
+        "Hatchling",
+        "Eaglet"
+      ],
+      "answer": 1,
+      "explanation": "The young one of an owl is called an owlet."
+    },
+    {
+      "question": "What is the young one of a Cat called?",
+      "options": [
+        "Kitten",
+        "Pup",
+        "Cub",
+        "Fry"
+      ],
+      "answer": 0,
+      "explanation": "The young one of a cat is called a kitten."
+    },
+    {
+      "question": "What is the young one of an Ostrich called?",
+      "options": [
+        "Hatchling",
+        "Eaglet",
+        "Chick",
+        "Gosling"
+      ],
+      "answer": 0,
+      "explanation": "The young one of an ostrich is called a hatchling."
+    },
+    {
+      "question": "What is the young one of a Frog called?",
+      "options": [
+        "Fry",
+        "Toad",
+        "Tadpole",
+        "Cub"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a frog is called a tadpole."
+    },
+    {
+      "question": "What is the young one of a Tiger called?",
+      "options": [
+        "Cub",
+        "Kitten",
+        "Pup",
+        "Calf"
+      ],
+      "answer": 0,
+      "explanation": "The young one of a tiger is called a cub."
+    },
+    {
+      "question": "What is the young one of an Elephant called?",
+      "options": [
+        "Foal",
+        "Calf",
+        "Fawn",
+        "Cub"
+      ],
+      "answer": 1,
+      "explanation": "The young one of an elephant is called a calf."
+    },
+    {
+      "question": "What is the young one of a Crane called?",
+      "options": [
+        "Eaglet",
+        "Chick",
+        "Hatchling",
+        "Duckling"
+      ],
+      "answer": 1,
+      "explanation": "The young one of a crane is called a chick."
+    },
+    {
+      "question": "Fill in the blank: The fisher caught the _________.",
+      "options": [
+        "hatchling",
+        "fry",
+        "lamb",
+        "gosling"
+      ],
+      "answer": 1,
+      "explanation": "Since fry is the young one of a fish, the fisher caught the fry."
+    },
+    {
+      "question": "Fill in the blank: The ostrich took care of its _________.",
+      "options": [
+        "hatchling",
+        "gosling",
+        "lamb",
+        "fry"
+      ],
+      "answer": 0,
+      "explanation": "The young one of an ostrich is a hatchling."
+    },
+    {
+      "question": "Fill in the blank: The goose is swimming with its _________.",
+      "options": [
+        "fry",
+        "lamb",
+        "gosling",
+        "hatchling"
+      ],
+      "answer": 2,
+      "explanation": "The young one of a goose is called a gosling."
+    },
+    {
+      "question": "Fill in the blank: Vinoth had a little _________.",
+      "options": [
+        "gosling",
+        "fry",
+        "lamb",
+        "hatchling"
+      ],
+      "answer": 2,
+      "explanation": "This matches the popular phrase 'had a little lamb', referring to a young sheep."
+    },
+    {
+      "question": "Analogy: Bear : Cub :: Deer : ?",
+      "options": [
+        "Foal",
+        "Fawn",
+        "Calf",
+        "Pup"
+      ],
+      "answer": 1,
+      "explanation": "A bear's young is a cub, and a deer's young is a fawn."
+    },
+    {
+      "question": "According to the poem, when does our world become green?",
+      "options": [
+        "When you plant a lot of trees",
+        "When it rains heavily",
+        "When you keep the surroundings clean",
+        "When everyone stops using electricity"
+      ],
+      "answer": 2,
+      "explanation": "The poem says: 'Our world becomes green, When you keep the surroundings clean.'"
+    },
+    {
+      "question": "According to the poem, who is responsible for our society?",
+      "options": [
+        "Only the village head",
+        "All of us",
+        "Only adults",
+        "The government"
+      ],
+      "answer": 1,
+      "explanation": "The poem states: 'All of us are responsible for our society.'"
+    },
+    {
+      "question": "When does the poet say you should be proud of yourself as a human?",
+      "options": [
+        "When you climb a tall mountain",
+        "When you buy a big house",
+        "When you put the litter in a trash can",
+        "When you capture a monster tree"
+      ],
+      "answer": 2,
+      "explanation": "The poem says: 'Be proud of yourself as a human, When you put the litter in a trash can.'"
+    },
+    {
+      "question": "What does the poet ask us to reduce the use of by will?",
+      "options": [
+        "Water",
+        "Electricity",
+        "Plastic bags",
+        "Cars"
+      ],
+      "answer": 1,
+      "explanation": "The poem states: 'Reduce the use of electricity by will.'"
+    },
+    {
+      "question": "What should we all vow to do according to the poem?",
+      "options": [
+        "Build a fence",
+        "Do social welfare",
+        "Solve mysteries",
+        "Fight monsters"
+      ],
+      "answer": 1,
+      "explanation": "The poem says: 'All should vow to do social welfare.'"
+    },
+    {
+      "question": "What is the rhyming word for 'green' in the poem?",
+      "options": [
+        "clean",
+        "can",
+        "ill",
+        "care"
+      ],
+      "answer": 0,
+      "explanation": "Green rhymes with clean in the first two lines of the poem."
+    },
+    {
+      "question": "What is the rhyming word for 'human' in the poem?",
+      "options": [
+        "welfare",
+        "ill",
+        "can",
+        "society"
+      ],
+      "answer": 2,
+      "explanation": "Human rhymes with can (trash can) in the poem."
+    },
+    {
+      "question": "What is the rhyming word for 'will' in the poem?",
+      "options": [
+        "ill",
+        "bill",
+        "fill",
+        "clean"
+      ],
+      "answer": 0,
+      "explanation": "Will rhymes with ill ('grow without any ill') in the poem."
+    },
+    {
+      "question": "What is the meaning of 'responsible'?",
+      "options": [
+        "Glad",
+        "In charge of",
+        "Make something less",
+        "Comfort and security"
+      ],
+      "answer": 1,
+      "explanation": "The glossary defines responsible as 'in charge of'."
+    },
+    {
+      "question": "What is the meaning of 'reduce'?",
+      "options": [
+        "Make something less",
+        "Pledge, promise",
+        "Glad",
+        "In charge of"
+      ],
+      "answer": 0,
+      "explanation": "To reduce means to make something less."
+    },
+    {
+      "question": "What does 'vow' mean?",
+      "options": [
+        "Glad",
+        "Comfort and security",
+        "Pledge, promise",
+        "Make something less"
+      ],
+      "answer": 2,
+      "explanation": "A vow is a pledge or a promise."
+    },
+    {
+      "question": "What is the meaning of 'welfare'?",
+      "options": [
+        "Glad",
+        "Pledge, promise",
+        "In charge of",
+        "Comfort and security"
+      ],
+      "answer": 3,
+      "explanation": "Welfare means comfort and security."
+    },
+    {
+      "question": "What does 'proud' mean?",
+      "options": [
+        "Glad",
+        "Scared",
+        "Angry",
+        "Confused"
+      ],
+      "answer": 0,
+      "explanation": "The glossary defines proud as glad."
+    },
+    {
+      "question": "Complete the poem line: 'To take care of it is our ___.'",
+      "options": [
+        "welfare",
+        "duty",
+        "promise",
+        "will"
+      ],
+      "answer": 1,
+      "explanation": "The poem reads: 'To take care of it is our duty.'"
+    },
+    {
+      "question": "Which tense is used to show that something happened before another action in the past?",
+      "options": [
+        "Simple Past Tense",
+        "Past Continuous Tense",
+        "Past Perfect Tense",
+        "Future Perfect Tense"
+      ],
+      "answer": 2,
+      "explanation": "Past perfect tense is used to show that something happened before another action in the past."
+    },
+    {
+      "question": "Which auxiliary verb is used with the past participle in the Past Perfect Tense?",
+      "options": [
+        "has",
+        "have",
+        "will have",
+        "had"
+      ],
+      "answer": 3,
+      "explanation": "The past participle form is used in past perfect tense with the auxiliary 'had'."
+    },
+    {
+      "question": "Fill in the blank with the correct Past Perfect Tense: We __________ to the park. (go)",
+      "options": [
+        "have gone",
+        "had gone",
+        "will have gone",
+        "went"
+      ],
+      "answer": 1,
+      "explanation": "For past perfect, use 'had' + past participle of go (gone) = had gone."
+    },
+    {
+      "question": "Fill in the blank with the correct Past Perfect Tense: He __________ before 5 ‘o’ clock. (sleep)",
+      "options": [
+        "had slept",
+        "have slept",
+        "will sleep",
+        "slept"
+      ],
+      "answer": 0,
+      "explanation": "For past perfect, use 'had' + past participle of sleep (slept) = had slept."
+    },
+    {
+      "question": "Fill in the blank with the correct Past Perfect Tense: The bus _______________ the bus stop before I went. (leave)",
+      "options": [
+        "had left",
+        "has left",
+        "will have left",
+        "left"
+      ],
+      "answer": 0,
+      "explanation": "For past perfect, use 'had' + past participle of leave (left) = had left."
+    },
+    {
+      "question": "Fill in the blank with the correct Past Perfect Tense: She _______________ the apple as I told her to stop. (eat)",
+      "options": [
+        "ate",
+        "has eaten",
+        "had eaten",
+        "will have eaten"
+      ],
+      "answer": 2,
+      "explanation": "For past perfect, use 'had' + past participle of eat (eaten) = had eaten."
+    },
+    {
+      "question": "Fill in the blank with the correct Past Perfect Tense: The satellite _______________ on the moon before they gave the command. (land)",
+      "options": [
+        "landed",
+        "had landed",
+        "has landed",
+        "will land"
+      ],
+      "answer": 1,
+      "explanation": "For past perfect, use 'had' + past participle of land (landed) = had landed."
+    },
+    {
+      "question": "Change the following sentence into Past Perfect Tense: 'I have posted the letter.'",
+      "options": [
+        "I post the letter.",
+        "I had posted the letter.",
+        "I will post the letter.",
+        "I am posting the letter."
+      ],
+      "answer": 1,
+      "explanation": "To change from present perfect (have posted) to past perfect, replace 'have' with 'had'."
+    },
+    {
+      "question": "Change the following sentence into Past Perfect Tense: 'She has bought a violin.'",
+      "options": [
+        "She buy a violin.",
+        "She bought a violin.",
+        "She had bought a violin.",
+        "She will buy a violin."
+      ],
+      "answer": 2,
+      "explanation": "Change 'has bought' to 'had bought' for the past perfect tense."
+    },
+    {
+      "question": "Identify the tense of the sentence: 'They had cooked the vegetables.'",
+      "options": [
+        "Simple Past Tense",
+        "Past Continuous Tense",
+        "Past Perfect Tense",
+        "Present Perfect Tense"
+      ],
+      "answer": 2,
+      "explanation": "'had cooked' indicates the Past Perfect Tense."
+    },
+    {
+      "question": "Which tense is used for actions that will be completed before some other point in the future?",
+      "options": [
+        "Simple Future Tense",
+        "Future Continuous Tense",
+        "Past Perfect Tense",
+        "Future Perfect Tense"
+      ],
+      "answer": 3,
+      "explanation": "Future perfect tense is used for actions that will be completed before some other point in the future."
+    },
+    {
+      "question": "Which auxiliary verbs are used in the Future Perfect Tense?",
+      "options": [
+        "has been",
+        "will be",
+        "will have",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "The past participle form is used in future perfect tense with auxiliary 'will have'."
+    },
+    {
+      "question": "Fill in the blank with the correct Future Perfect Tense: We ______________ the painting by tomorrow. (complete)",
+      "options": [
+        "will complete",
+        "had completed",
+        "will have completed",
+        "have completed"
+      ],
+      "answer": 2,
+      "explanation": "For future perfect, use 'will have' + past participle (completed) = will have completed."
+    },
+    {
+      "question": "Fill in the blank with the correct Future Perfect Tense: You ______________ the match by this time tomorrow. (win)",
+      "options": [
+        "will win",
+        "will have won",
+        "had won",
+        "have won"
+      ],
+      "answer": 1,
+      "explanation": "For future perfect, use 'will have' + past participle (won) = will have won."
+    },
+    {
+      "question": "Fill in the blank with the correct Future Perfect Tense: They ______________ everyone to the marriage by next week. (invite)",
+      "options": [
+        "will invite",
+        "had invited",
+        "will have invited",
+        "have invited"
+      ],
+      "answer": 2,
+      "explanation": "For future perfect, use 'will have' + past participle (invited) = will have invited."
+    },
+    {
+      "question": "Fill in the blank with the correct Future Perfect Tense: She ______________ a job in America by next year. (get)",
+      "options": [
+        "will have got",
+        "had got",
+        "has got",
+        "will get"
+      ],
+      "answer": 0,
+      "explanation": "For future perfect, use 'will have' + past participle (got/gotten). 'will have got' fits."
+    },
+    {
+      "question": "Identify the tense of the sentence: 'The boy will have grown up like a man in few years.'",
+      "options": [
+        "Simple Future Tense",
+        "Future Continuous Tense",
+        "Future Perfect Tense",
+        "Present Perfect Tense"
+      ],
+      "answer": 2,
+      "explanation": "'will have grown' indicates the Future Perfect Tense."
+    },
+    {
+      "question": "Change the following sentence into Future Perfect Tense: 'Akash has jumped into the well.'",
+      "options": [
+        "Akash jumps into the well.",
+        "Akash had jumped into the well.",
+        "Akash will jump into the well.",
+        "Akash will have jumped into the well."
+      ],
+      "answer": 3,
+      "explanation": "Change 'has jumped' to 'will have jumped' for the future perfect tense."
+    },
+    {
+      "question": "Fill the sentence with the appropriate verb: She ______________ attended the meeting by tomorrow.",
+      "options": [
+        "had",
+        "has",
+        "will have",
+        "have"
+      ],
+      "answer": 2,
+      "explanation": "'by tomorrow' indicates an action completed in the future, thus needing 'will have'."
+    },
+    {
+      "question": "Fill the sentence with the appropriate verb: The fly ______________ sat in the food before she covered it.",
+      "options": [
+        "will have",
+        "had",
+        "has",
+        "will"
+      ],
+      "answer": 1,
+      "explanation": "'before she covered it' indicates an action completed before a past action, thus needing 'had'."
+    },
+    {
+      "question": "In 'The Case of The Missing Water', what was almost dry in Divya's village?",
+      "options": [
+        "The river",
+        "The well",
+        "The tank",
+        "The ocean"
+      ],
+      "answer": 2,
+      "explanation": "The text begins: 'The tank in Divya's village was almost dry.'"
+    },
+    {
+      "question": "What did Ammachi begin to pray for when the tank was dry?",
+      "options": [
+        "Food",
+        "Rain",
+        "Sunshine",
+        "A new tank"
+      ],
+      "answer": 1,
+      "explanation": "The story mentions: 'Ammachi began to pray for rain.'"
+    },
+    {
+      "question": "What mystery had Divya previously solved for her grandmother (Ammachi)?",
+      "options": [
+        "Finding her walking stick",
+        "Finding the missing dog",
+        "Finding her reading glasses",
+        "Finding her lost earrings"
+      ],
+      "answer": 2,
+      "explanation": "Divya loved solving mysteries: Like the time Ammachi couldn't find her reading glasses."
+    },
+    {
+      "question": "Where had Divya found Ammachi's reading glasses?",
+      "options": [
+        "Under the bed",
+        "In her book, marking the page",
+        "On the kitchen counter",
+        "Inside the empty tank"
+      ],
+      "answer": 1,
+      "explanation": "Divya had found them in her book, marking the page she was reading."
+    },
+    {
+      "question": "Who did Divya ask first about the missing water near the dead fish?",
+      "options": [
+        "A goatherd",
+        "A fisherman",
+        "Her teacher",
+        "The village head"
+      ],
+      "answer": 1,
+      "explanation": "Divya walked past dead fish and asked a fisherman."
+    },
+    {
+      "question": "Which direction did the fisherman suggest the water could have gone?",
+      "options": [
+        "Upstream",
+        "Downstream",
+        "Underground",
+        "Into the sky"
+      ],
+      "answer": 1,
+      "explanation": "The fisherman suggested the water could have gone 'Downstream?'"
+    },
+    {
+      "question": "Who did Divya find at the bottom tank?",
+      "options": [
+        "A fisherman with fish",
+        "Rani with her books",
+        "A goatherd with lots of goats",
+        "A tanker man with a pump"
+      ],
+      "answer": 2,
+      "explanation": "At the bottom was another tank. It had lots of goats, but no water, where she met the goatherd."
+    },
+    {
+      "question": "What did Divya and Rani gnaw on while sitting hot and tired in the boat?",
+      "options": [
+        "A piece of sugarcane",
+        "A lotus stem",
+        "A raw mango",
+        "A biscuit"
+      ],
+      "answer": 1,
+      "explanation": "Divya collapsed into the boat with Rani and gnawed on a lotus stem."
+    },
+    {
+      "question": "Whose parents had already left the village for the city because of the water crisis?",
+      "options": [
+        "Rani's parents",
+        "Divya's parents",
+        "Manju's parents",
+        "The goatherd's parents"
+      ],
+      "answer": 2,
+      "explanation": "Divya said, 'Manju's parents left the village... They went to the city where they have water.'"
+    },
+    {
+      "question": "What did Divya use to brush her teeth the next day?",
+      "options": [
+        "Fresh river water",
+        "Muddy tank water in a tiny glass",
+        "Packaged drinking water",
+        "She didn't brush her teeth"
+      ],
+      "answer": 1,
+      "explanation": "The next day, Divya brushed her teeth with muddy tank water in a tiny glass."
+    },
+    {
+      "question": "Why did Divya run out of school in the middle of Environmental Studies class?",
+      "options": [
+        "She was scared of the teacher",
+        "She had a nightmare",
+        "She had to find the water",
+        "She saw a monster tree"
+      ],
+      "answer": 2,
+      "explanation": "She missed her friends who left the area and felt compelled to solve the mystery: 'I have to find the water!'"
+    },
+    {
+      "question": "What does Rani want to be when she grows up?",
+      "options": [
+        "A doctor",
+        "A teacher",
+        "A Sanitary Engineer",
+        "A police officer"
+      ],
+      "answer": 2,
+      "explanation": "Rani said, 'Sanitary Engineers build pipes and tanks... I am going to be one when I grow up.'"
+    },
+    {
+      "question": "What did Divya and Rani do to 'properly' search for the water?",
+      "options": [
+        "They dug a deep hole in the ground",
+        "They decided to draw a map of their village and all its tanks and streams",
+        "They asked the village head for help",
+        "They built a massive dam"
+      ],
+      "answer": 1,
+      "explanation": "They decided to draw a map showing all the places where the water might have flowed."
+    },
+    {
+      "question": "When Divya and Rani reached the last tank on their map, what did they discover?",
+      "options": [
+        "It was completely dry",
+        "It was full of dead fish",
+        "It was full of water",
+        "It was turned into a playground"
+      ],
+      "answer": 2,
+      "explanation": "When they reached the tank, Divya and Rani realised they were wrong. This tank was full!"
+    },
+    {
+      "question": "How much water did the tanker man say he needed to supply to the city today?",
+      "options": [
+        "Five-thousand litres",
+        "Nine-thousand litres",
+        "One-thousand litres",
+        "Ten-thousand litres"
+      ],
+      "answer": 1,
+      "explanation": "The man said, 'The city... I need to supply nine-thousand litres today!'"
+    },
+    {
+      "question": "How did Divya and Rani stop the man from taking the water?",
+      "options": [
+        "They threw stones at his tanker",
+        "They hugged the pump so he couldn't turn it on",
+        "They called the police",
+        "They broke the pipe"
+      ],
+      "answer": 1,
+      "explanation": "Divya had an idea. She hugged the pump. 'You can't turn it on now!' Rani ran up to hug the pump too."
+    },
+    {
+      "question": "In the 'Read Aloud' story, what was Mani doing on the bus before he dozed off?",
+      "options": [
+        "He was talking loudly with two men",
+        "He took out a book to read but was distracted",
+        "He was eating biscuits",
+        "He was listening to music on his phone"
+      ],
+      "answer": 1,
+      "explanation": "Mani got the bus, sat down and took out a book to read, but the two men talking loudly distracted him."
+    },
+    {
+      "question": "What did Mani do with the biscuit wrappers left by the two men on the bus?",
+      "options": [
+        "He threw them out the window",
+        "He left them on the seat",
+        "He cleaned the wrappers and put them in the dustbin",
+        "He gave them to the bus driver"
+      ],
+      "answer": 2,
+      "explanation": "The story ends with: 'I cleaned the wrappers and put them in the dustbin.'"
+    },
+    {
+      "question": "Identify the correct article to fill in the blank based on the 'I Can Do' section: 'I saw ___ elephant.'",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article needed"
+      ],
+      "answer": 1,
+      "explanation": "'Elephant' begins with a vowel sound, so 'an' is the correct article."
+    },
+    {
+      "question": "Identify the conjunction in this sentence: 'I have a bat _____ a ball.'",
+      "options": [
+        "in",
+        "and",
+        "the",
+        "very"
+      ],
+      "answer": 1,
+      "explanation": "Based on the 'I Can Do' grammar section, 'and' is the conjunction used to join the two words."
+    }
+  ]
+}

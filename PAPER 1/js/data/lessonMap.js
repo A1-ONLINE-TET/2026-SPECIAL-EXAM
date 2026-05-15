@@ -570,6 +570,24 @@ export const lessonMap = {
     "grade": "4",
     "title": "THE MAGIC PENCIL || மந்திர பென்சில்"
   },
+  "Learn Always": {
+    "local": true,
+    "filename": "1",
+    "grade": "5",
+    "title": "Learn Always"
+  },
+  "We are One": {
+    "local": true,
+    "filename": "2",
+    "grade": "5",
+    "title": "We are One"
+  },
+  "My Duties": {
+    "local": true,
+    "filename": "3",
+    "grade": "5",
+    "title": "My Duties"
+  },
   "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
     "local": true,
     "filename": "eng_5_t1_l1",
@@ -677,6 +695,42 @@ export const lessonMap = {
     "filename": "eng_5_t2_l6",
     "grade": "5",
     "title": "Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்"
+  },
+  "Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள்": {
+    "local": true,
+    "filename": "eng_5_t3_l1",
+    "grade": "5",
+    "title": "Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள்"
+  },
+  "eng_5_t3_l1": {
+    "local": true,
+    "filename": "eng_5_t3_l1",
+    "grade": "5",
+    "title": "Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள்"
+  },
+  "Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே": {
+    "local": true,
+    "filename": "eng_5_t3_l2",
+    "grade": "5",
+    "title": "Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே"
+  },
+  "eng_5_t3_l2": {
+    "local": true,
+    "filename": "eng_5_t3_l2",
+    "grade": "5",
+    "title": "Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே"
+  },
+  "Unit 3: My Duties || அலகு 3: எனது கடமைகள்": {
+    "local": true,
+    "filename": "eng_5_t3_l3",
+    "grade": "5",
+    "title": "Unit 3: My Duties || அலகு 3: எனது கடமைகள்"
+  },
+  "eng_5_t3_l3": {
+    "local": true,
+    "filename": "eng_5_t3_l3",
+    "grade": "5",
+    "title": "Unit 3: My Duties || அலகு 3: எனது கடமைகள்"
   },
   "Prose: Sea Turtles": {
     "local": true,

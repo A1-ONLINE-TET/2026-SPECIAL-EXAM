@@ -1726,6 +1726,41 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 3,
+        "units": [
+          {
+            "title": "Unit 1: Learn Always",
+            "topics": [
+              {
+                "title": "Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள்",
+                "isUpdated": true,
+                "code": "eng_5_t3_l1"
+              }
+            ]
+          },
+          {
+            "title": "Unit 2: We are One",
+            "topics": [
+              {
+                "title": "Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே",
+                "isUpdated": true,
+                "code": "eng_5_t3_l2"
+              }
+            ]
+          },
+          {
+            "title": "Unit 3: My Duties",
+            "topics": [
+              {
+                "title": "Unit 3: My Duties || அலகு 3: எனது கடமைகள்",
+                "isUpdated": true,
+                "code": "eng_5_t3_l3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": [

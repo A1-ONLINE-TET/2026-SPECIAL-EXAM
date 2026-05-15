@@ -1,0 +1,611 @@
+{
+  "வகுப்பு": "5th Standard",
+  "பருவம்": "Term III",
+  "பாட_எண்": "Unit I",
+  "பாட_தலைப்பு": "Learn Always",
+  "பாடக்குறிப்புகள்": {
+    "பாட_சுருக்கம்": "This unit focuses on the theme 'Learn Always'. It consists of a prose piece 'Five Detectives', a poem 'Why?', a grammar section on Homophones and Adverbs, a supplementary story 'The Witty Sparrow', and a read-aloud passage about 'The Lost Camel'. \n\n1. Five Detectives: Five friends (Arul, Amudha, Sreejith, Jessy, Fathima) and a dog named Pablo in Ooty call themselves '5D'. They solve a mystery regarding a stolen diamond necklace. Sreejith disguises himself as an old man, gets a secret chit in a chocolate, and decodes it using a magic pen. The clue points to a 'Waxworks' studio. Amudha smartly deduces that the real stolen necklace is hidden on a princess statue. They find it and hand it over to Inspector Velayudham, earning appreciation.\n\n2. Why? (Poem): The poem encourages children to ask questions about nature (why the sky is blue, the earth is round, the river flows, the wind blows, etc.) to learn as they grow.\n\n3. The Witty Sparrow: A clever brown sparrow with three eggs is threatened by a young elephant named Gullu and a crocodile. Using her intelligence, she tricks them into pulling opposite ends of a strong creeper all day, exhausting them and protecting her eggs.\n\n4. The Lost Camel (Read Aloud): A boy perfectly describes a lost camel (blind in the right eye, lame in one left foot, missing a front tooth, carrying honey and wheat) just by observing the footprints, eaten grass, ants, and flies on the path, without ever seeing the camel.",
+    "கூடுதல்_குறிப்புகள்": "My Little Pictionary Vocabulary:\n1. waxwork (v): a lifesize dummy made of wax.\n2. magician (n): a person who performs magic tricks.\n3. disguise (v): to make a person look different to hide their identity.\n4. statue (n): a human made figure of a person or animal, that is life-size or larger.\n5. chit (n): a short note on a piece of paper.\n\nGrammar Notes:\n1. Homophones: Words that sound alike but have different meanings and spellings. Example: two (number), to (place/direction/reason), too (very/extreme).\n2. Adverbs: Words that describe a verb. They tell 'How' (slowly), 'Where' (everywhere), 'When' (yesterday), and 'How often' (twice).",
+    "நினைவில்_கொள்க_மற்றும்_முக்கிய_குறிப்புகள்": "Important Points to Remember:\n- The 5 Detectives (5D) are Arul, Amudha, Sreejith, Jessy, Fathima, and Pablo (the dog).\n- The story takes place in Ooty.\n- Sreejith disguised himself as an old man and sat on a bench.\n- The secret message read: 'Tell Number 3. Waxworks. Tuesday. 9 PM. - Number 5'.\n- The real diamond necklace was hidden on the Princess statue in the Waxworks.\n- Homophones check: 'We two went to the hill. So we felt too happy.'\n- The sparrow laid three eggs and tied the elephant and crocodile using a strong creeper.\n- The boy identified the camel was blind in the right eye because it ate grass only on the left side of the path.",
+    "மதிப்பீட்டு_வினாக்கள்": [
+      {
+        "பகுதி": "Five Detectives - Match the following",
+        "கேள்விகள்_மற்றும்_விடைகள்": [
+          "1. Pablo - dog",
+          "2. Velayudham - Inspector",
+          "3. Sreejith - old man"
+        ]
+      },
+      {
+        "பகுதி": "Five Detectives - Choose the correct answer",
+        "கேள்விகள்_மற்றும்_விடைகள்": [
+          "1. Pablo was the dog of ________ (Answer: Sreejith)",
+          "2. The message was to gather on ________ (Answer: Tuesday)",
+          "3. ________ overheard her father's talking on the phone. (Answer: Jessy)"
+        ]
+      },
+      {
+        "பகுதி": "Let Us Build (Grammar) - Fill in the blanks with to, too, two",
+        "கேள்விகள்_மற்றும்_விடைகள்": [
+          "1. Students are going to school.",
+          "2. There are two chocolates.",
+          "3. We like to play.",
+          "4. The tree is too big.",
+          "5. I will be coming in two days.",
+          "6. I ate too many chocolates.",
+          "7. They went to the park."
+        ]
+      },
+      {
+        "பகுதி": "Poem 'Why?' - Match the rhyming words",
+        "கேள்விகள்_மற்றும்_விடைகள்": [
+          "1. flow - know",
+          "2. grow - blow",
+          "3. seek - week"
+        ]
+      },
+      {
+        "பகுதி": "The Witty Sparrow - Choose the best answer",
+        "கேள்விகள்_மற்றும்_விடைகள்": [
+          "1. All the animals called the sparrow ________. (Answer: madam)",
+          "2. The brown sparrow laid ________ eggs. (Answer: three)",
+          "3. ________ lies stretching in the river. (Answer: crocodile)",
+          "4. Sparrow tied the elephant and the crocodile with a ________. (Answer: creeper)",
+          "5. The sparrow solved the problem with her ________. (Answer: intelligence)"
+        ]
+      }
+    ]
+  },
+  "தேர்வு_வினாக்கள்": [
+    {
+      "கேள்வி": "What does the word 'disguise' mean?",
+      "ஆப்ஷன்கள்": [
+        "To perform magic tricks",
+        "To make a person look different to hide their identity",
+        "A lifesize dummy made of wax",
+        "A short note on a piece of paper"
+      ],
+      "விடை": "To make a person look different to hide their identity",
+      "விளக்கம்": "According to the pictionary, disguise means to make a person look different to hide their identity."
+    },
+    {
+      "கேள்வி": "Who among the following is NOT a human member of the 5D gang?",
+      "ஆப்ஷன்கள்": [
+        "Amudha",
+        "Sreejith",
+        "Pablo",
+        "Fathima"
+      ],
+      "விடை": "Pablo",
+      "விளக்கம்": "Pablo is Sreejith's dog, while the others are human members of the Five Detectives."
+    },
+    {
+      "கேள்வி": "Where did the story 'Five Detectives' take place?",
+      "ஆப்ஷன்கள்": [
+        "Chennai",
+        "Kodaikanal",
+        "Ooty",
+        "Munnar"
+      ],
+      "விடை": "Ooty",
+      "விளக்கம்": "The story mentions, 'It was a sunny afternoon, after a long time in Ooty.'"
+    },
+    {
+      "கேள்வி": "Who was the inspector of the area in the story?",
+      "ஆப்ஷன்கள்": [
+        "Inspector Velayudham",
+        "Inspector Singam",
+        "Inspector Arul",
+        "Inspector Pablo"
+      ],
+      "விடை": "Inspector Velayudham",
+      "விளக்கம்": "Inspector Velayudham was the police inspector handling the robbery case."
+    },
+    {
+      "கேள்வி": "How did Sreejith disguise himself to find clues?",
+      "ஆப்ஷன்கள்": [
+        "As a magician",
+        "As an old man",
+        "As a police officer",
+        "As a wax statue"
+      ],
+      "விடை": "As an old man",
+      "விளக்கம்": "Sreejith disguised himself as an old man, sat on a bench, coughed, and sniffed to observe the area."
+    },
+    {
+      "கேள்வி": "What did the man on the cycle hand over to Sreejith (disguised as the old man)?",
+      "ஆப்ஷன்கள்": [
+        "A diamond necklace",
+        "A packet of chocolate",
+        "A magic pen",
+        "A wax statue"
+      ],
+      "விடை": "A packet of chocolate",
+      "விளக்கம்": "The man handed over a packet of chocolate which contained a hidden chit."
+    },
+    {
+      "கேள்வி": "How did the 5D children read the hidden message on the chit?",
+      "ஆப்ஷன்கள்": [
+        "By holding it in sunlight",
+        "By using a magnifying glass",
+        "By flashing a light on it using a magic pen",
+        "By dipping it in water"
+      ],
+      "விடை": "By flashing a light on it using a magic pen",
+      "விளக்கம்": "Jessy brought the magic pen, and when they flashed its light on the paper, the words glowed."
+    },
+    {
+      "கேள்வி": "What was the actual message written on the chit?",
+      "ஆப்ஷன்கள்": [
+        "Steal the necklace. Monday. 9 PM.",
+        "Tell Number 3. Waxworks. Tuesday. 9 PM. - Number 5",
+        "Meet at the garage. Sunday. 8 PM.",
+        "Hide the chocolate. Waxworks. Friday. 5 PM."
+      ],
+      "விடை": "Tell Number 3. Waxworks. Tuesday. 9 PM. - Number 5",
+      "விளக்கம்": "The message glowed under the magic light revealing the meeting place, day, and time."
+    },
+    {
+      "கேள்வி": "Where did Amudha guess the real diamond necklace was hidden?",
+      "ஆப்ஷன்கள்": [
+        "In the old man's pocket",
+        "Under the bench",
+        "On the princess statue in Waxworks",
+        "In Jessy's garage"
+      ],
+      "விடை": "On the princess statue in Waxworks",
+      "விளக்கம்": "Amudha smartly guessed that placing it on the princess statue would go unnoticed because she already wears so many jewels."
+    },
+    {
+      "கேள்வி": "What does 'statue' mean?",
+      "ஆப்ஷன்கள்": [
+        "A piece of paper",
+        "A human made figure of a person or animal",
+        "To perform magic tricks",
+        "A person who hides their identity"
+      ],
+      "விடை": "A human made figure of a person or animal",
+      "விளக்கம்": "Statue is defined as a human-made figure of a person or animal that is life-size or larger."
+    },
+    {
+      "கேள்வி": "Assertion (A): Sreejith could not enter the Waxworks on Tuesday night.\nReason (R): Inspector Velayudham was inside the Waxworks.",
+      "ஆப்ஷன்கள்": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "விடை": "Both A and R are true, and R is the correct explanation of A.",
+      "விளக்கம்": "Sreejith saw the Inspector inside the Waxworks and had no way of getting in without being noticed."
+    },
+    {
+      "கேள்வி": "Which of the following is an example of an Adverb of Time (When)?",
+      "ஆப்ஷன்கள்": [
+        "Slowly",
+        "Yesterday",
+        "Everywhere",
+        "Twice"
+      ],
+      "விடை": "Yesterday",
+      "விளக்கம்": "Words that tell 'When' an action happened are Adverbs of Time, like 'yesterday'."
+    },
+    {
+      "கேள்வி": "Fill in the blank with the correct homophone: The bag is _____ heavy for me to carry.",
+      "ஆப்ஷன்கள்": [
+        "to",
+        "two",
+        "too",
+        "tow"
+      ],
+      "விடை": "too",
+      "விளக்கம்": "'Too' means very or extreme. Here, it indicates the bag is extremely heavy."
+    },
+    {
+      "கேள்வி": "Match the following Adverbs with their types:\n1. carefully - a) Where\n2. everywhere - b) How often\n3. yesterday - c) How\n4. twice - d) When",
+      "ஆப்ஷன்கள்": [
+        "1-c, 2-a, 3-d, 4-b",
+        "1-a, 2-b, 3-c, 4-d",
+        "1-d, 2-c, 3-b, 4-a",
+        "1-b, 2-d, 3-a, 4-c"
+      ],
+      "விடை": "1-c, 2-a, 3-d, 4-b",
+      "விளக்கம்": "Carefully = How, Everywhere = Where, Yesterday = When, Twice = How often."
+    },
+    {
+      "கேள்வி": "Identify the adverb in the sentence: 'Suddenly the old man fainted.'",
+      "ஆப்ஷன்கள்": [
+        "old",
+        "man",
+        "fainted",
+        "Suddenly"
+      ],
+      "விடை": "Suddenly",
+      "விளக்கம்": "'Suddenly' describes how the action (fainting) happened."
+    },
+    {
+      "கேள்வி": "Fill in the blank: Mom promised ___ take Ben and Jill ___ the zoo.",
+      "ஆப்ஷன்கள்": [
+        "too, to",
+        "to, to",
+        "two, too",
+        "too, two"
+      ],
+      "விடை": "to, to",
+      "விளக்கம்": "'to' is used to show reason/action (to take) and place/direction (to the zoo)."
+    },
+    {
+      "கேள்வி": "What question does the poem 'Why?' ask about the silk?",
+      "ஆப்ஷன்கள்": [
+        "Why is silk shiny?",
+        "Why is silk smooth?",
+        "Why is silk soft?",
+        "Why is silk costly?"
+      ],
+      "விடை": "Why is silk soft?",
+      "விளக்கம்": "The line in the poem is: 'Why is silk soft?'"
+    },
+    {
+      "கேள்வி": "Choose the correct rhyming pair from the poem 'Why?'.",
+      "ஆப்ஷன்கள்": [
+        "soft - sky",
+        "seek - week",
+        "flow - hot",
+        "blow - pour"
+      ],
+      "விடை": "seek - week",
+      "விளக்கம்": "In the poem, 'seek' rhymes with 'week'."
+    },
+    {
+      "கேள்வி": "According to the poem 'Why?', what does the wind do?",
+      "ஆப்ஷன்கள்": [
+        "Flow",
+        "Pour",
+        "Blow",
+        "Shine"
+      ],
+      "விடை": "Blow",
+      "விளக்கம்": "The poem asks: 'Why does the wind blow?'"
+    },
+    {
+      "கேள்வி": "Identify the homophone that shows a 'number'.",
+      "ஆப்ஷன்கள்": [
+        "too",
+        "to",
+        "two",
+        "tow"
+      ],
+      "விடை": "two",
+      "விளக்கம்": "'Two' represents the number 2."
+    },
+    {
+      "கேள்வி": "What name did the animals call the brown sparrow with respect?",
+      "ஆப்ஷன்கள்": [
+        "Queen",
+        "Princess",
+        "Madam",
+        "Boss"
+      ],
+      "விடை": "Madam",
+      "விளக்கம்": "All the animals greeted her 'Madam' with respect."
+    },
+    {
+      "கேள்வி": "What was the name of the young elephant in 'The Witty Sparrow'?",
+      "ஆப்ஷன்கள்": [
+        "Appu",
+        "Gullu",
+        "Jumbo",
+        "Gajju"
+      ],
+      "விடை": "Gullu",
+      "விளக்கம்": "The young elephant's name was Gullu."
+    },
+    {
+      "கேள்வி": "Why was Madam Sparrow worried about Gullu?",
+      "ஆப்ஷன்கள்": [
+        "He might eat all her food.",
+        "He walked purposefully past the bush and rattled the nest, which might crack the eggs.",
+        "He was trying to steal her nest.",
+        "He was fighting with the crocodile."
+      ],
+      "விடை": "He walked purposefully past the bush and rattled the nest, which might crack the eggs.",
+      "விளக்கம்": "Gullu's thudding walk rattled the nest, making the sparrow worry for her eggs."
+    },
+    {
+      "கேள்வி": "Who blocked the spot where the sparrow wanted to drink water?",
+      "ஆப்ஷன்கள்": [
+        "A snake",
+        "The elephant",
+        "A crocodile",
+        "A hippopotamus"
+      ],
+      "விடை": "A crocodile",
+      "விளக்கம்": "A crocodile was stretching in the spot she was drinking water."
+    },
+    {
+      "கேள்வி": "What did the sparrow use to tie the elephant and the crocodile?",
+      "ஆப்ஷன்கள்": [
+        "A thick metal chain",
+        "A strong creeper",
+        "A cotton rope",
+        "A magical thread"
+      ],
+      "விடை": "A strong creeper",
+      "விளக்கம்": "The sparrow took a strong creeper and tied the elephant on one end and the crocodile on the other."
+    },
+    {
+      "கேள்வி": "Situation: You want to tell your friend that a box requires double the effort because it is very heavy. Which sentence is grammatically correct?",
+      "ஆப்ஷன்கள்": [
+        "The box is to heavy for two people.",
+        "The box is too heavy for two people.",
+        "The box is two heavy for too people.",
+        "The box is too heavy for to people."
+      ],
+      "விடை": "The box is too heavy for two people.",
+      "விளக்கம்": "'Too' means very heavy. 'Two' means the number of people."
+    },
+    {
+      "கேள்வி": "Analogy based on grammar: Carefully : How :: Yesterday : ?",
+      "ஆப்ஷன்கள்": [
+        "Where",
+        "When",
+        "How often",
+        "Why"
+      ],
+      "விடை": "When",
+      "விளக்கம்": "Carefully describes 'How' an action is done. Yesterday describes 'When' an action is done."
+    },
+    {
+      "கேள்வி": "In the story of 'The Lost Camel', how did the boy deduce that the camel was blind in the right eye?",
+      "ஆப்ஷன்கள்": [
+        "The camel bumped into a tree on the right.",
+        "The camel ate grass only on the left side of the path.",
+        "He found an eyepatch on the ground.",
+        "The merchants told him."
+      ],
+      "விடை": "The camel ate grass only on the left side of the path.",
+      "விளக்கம்": "The boy noticed that grass was eaten only on the left side, meaning the camel couldn't see the right side."
+    },
+    {
+      "கேள்வி": "How did the boy know the camel had lost its front teeth?",
+      "ஆப்ஷன்கள்": [
+        "The camel's footprints were uneven.",
+        "There were ants carrying grains.",
+        "While eating grass, it had not eaten the grass in the middle.",
+        "The camel was making a strange sound."
+      ],
+      "விடை": "While eating grass, it had not eaten the grass in the middle.",
+      "விளக்கம்": "The uneaten middle section of the grass patches indicated missing front teeth."
+    },
+    {
+      "கேள்வி": "Assertion (A): The boy in 'The Lost Camel' story was a thief who stole the camel.\nReason (R): He knew everything about the camel's appearance and load.",
+      "ஆப்ஷன்கள்": [
+        "Both A and R are true.",
+        "A is true, but R is false.",
+        "A is false, but R is true.",
+        "Both A and R are false."
+      ],
+      "விடை": "A is false, but R is true.",
+      "விளக்கம்": "The boy was not a thief; he just used his brilliant observation skills to deduce the camel's details."
+    },
+    {
+      "கேள்வி": "Choose the correct adverb to complete the sentence: 'The lion fought ________.'",
+      "ஆப்ஷன்கள்": [
+        "bravely",
+        "cunningly",
+        "beautifully",
+        "sweetly"
+      ],
+      "விடை": "bravely",
+      "விளக்கம்": "A lion is known for its bravery, so 'bravely' is the correct adverb here."
+    },
+    {
+      "கேள்வி": "Choose the correct adverb to complete the sentence: 'A jackal cheated the crow ________.'",
+      "ஆப்ஷன்கள்": [
+        "bravely",
+        "loudly",
+        "cunningly",
+        "brilliantly"
+      ],
+      "விடை": "cunningly",
+      "விளக்கம்": "A jackal is a trickster, so it cheated 'cunningly'."
+    },
+    {
+      "கேள்வி": "What did the boy observe that told him the camel was carrying wheat and honey?",
+      "ஆப்ஷன்கள்": [
+        "He smelled wheat and honey in the air.",
+        "He saw ants carrying wheat on one side and flies eating honey on the other.",
+        "He saw bags of wheat and honey dropped on the road.",
+        "He saw the camel eating wheat and honey."
+      ],
+      "விடை": "He saw ants carrying wheat on one side and flies eating honey on the other.",
+      "விளக்கம்": "The presence of ants on one side (wheat) and flies on the other (honey) gave him the clue."
+    },
+    {
+      "கேள்வி": "Fill in the blanks: I need ___ write ___ pages on this topic.",
+      "ஆப்ஷன்கள்": [
+        "to, two",
+        "two, to",
+        "too, two",
+        "to, too"
+      ],
+      "விடை": "to, two",
+      "விளக்கம்": "'to write' is the infinitive verb form, and 'two pages' denotes the number."
+    },
+    {
+      "கேள்வி": "What happened to the old man whom Inspector Velayudham caught in the park?",
+      "ஆப்ஷன்கள்": [
+        "He was Sreejith in disguise.",
+        "He was the real old man and got locked up in the police station.",
+        "He escaped using a cycle.",
+        "He gave the diamond necklace to the inspector."
+      ],
+      "விடை": "He was the real old man and got locked up in the police station.",
+      "விளக்கம்": "Sreejith escaped, and the Inspector accidentally caught the real old man who came from the other side."
+    },
+    {
+      "கேள்வி": "How many eggs did Madam Sparrow lay?",
+      "ஆப்ஷன்கள்": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "விடை": "Three",
+      "விளக்கம்": "The story clearly mentions the sparrow had three eggs in her nest."
+    },
+    {
+      "கேள்வி": "Where was the sparrow's nest located?",
+      "ஆப்ஷன்கள்": [
+        "High up in a banyan tree",
+        "In a bush",
+        "On the river bank",
+        "Inside a cave"
+      ],
+      "விடை": "In a bush",
+      "விளக்கம்": "The story states: 'The nest was in a bush.'"
+    },
+    {
+      "கேள்வி": "What did the elephant and the crocodile do all day when tied to the creeper?",
+      "ஆப்ஷன்கள்": [
+        "They slept.",
+        "They talked to each other.",
+        "They pulled each other.",
+        "They chased the sparrow."
+      ],
+      "விடை": "They pulled each other.",
+      "விளக்கம்": "Both animals pulled each other from opposite ends of the creeper all day long and got exhausted."
+    },
+    {
+      "கேள்வி": "What does the word 'pestering' mean from the glossary?",
+      "ஆப்ஷன்கள்": [
+        "Irritating",
+        "Praise worthy",
+        "Kept secret",
+        "To find the answer"
+      ],
+      "விடை": "Irritating",
+      "விளக்கம்": "Pestering means constantly bothering or irritating someone."
+    },
+    {
+      "கேள்வி": "Who was continuously wagging his tail and jumping with joy at Amudha and Arul's house?",
+      "ஆப்ஷன்கள்": [
+        "Sreejith",
+        "Inspector Velayudham",
+        "Pablo",
+        "Gullu"
+      ],
+      "விடை": "Pablo",
+      "விளக்கம்": "Pablo, the dog, was jumping with joy and wagging his tail when they met."
+    },
+    {
+      "கேள்வி": "Which step is NOT part of the 'Delivering a Speech' guide in the text?",
+      "ஆப்ஷன்கள்": [
+        "Connect",
+        "Construct",
+        "Content",
+        "Copying"
+      ],
+      "விடை": "Copying",
+      "விளக்கம்": "The three steps to deliver a speech mentioned in the text are Connect, Construct, and Content."
+    },
+    {
+      "கேள்வி": "What did the list found inside the chocolate look like initially before using the magic pen?",
+      "ஆப்ஷன்கள்": [
+        "A map of the city",
+        "A list of grocery items",
+        "A blank paper",
+        "A drawing of a necklace"
+      ],
+      "விடை": "A list of grocery items",
+      "விளக்கம்": "Initially, they found a small chit which looked like a list of grocery items."
+    },
+    {
+      "கேள்வி": "Situation: A boy runs very fast to catch a bus. Which adverb best describes his action?",
+      "ஆப்ஷன்கள்": [
+        "Slowly",
+        "Quickly",
+        "Angrily",
+        "Sadly"
+      ],
+      "விடை": "Quickly",
+      "விளக்கம்": "Running very fast is described by the adverb 'quickly'."
+    },
+    {
+      "கேள்வி": "Match the characters with their actions in 'The Witty Sparrow':\n1. Sparrow - a) Walked thud! thud!\n2. Gullu - b) Blocked the drinking spot\n3. Crocodile - c) Used a brilliant idea",
+      "ஆப்ஷன்கள்": [
+        "1-b, 2-c, 3-a",
+        "1-c, 2-a, 3-b",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-b, 3-a"
+      ],
+      "விடை": "1-c, 2-a, 3-b",
+      "விளக்கம்": "Sparrow used an idea, Gullu walked with a thud, Crocodile blocked the spot."
+    },
+    {
+      "கேள்வி": "Identify the adverb in the sentence: 'She reads joyfully.'",
+      "ஆப்ஷன்கள்": [
+        "She",
+        "reads",
+        "joyfully",
+        "reads joyfully"
+      ],
+      "விடை": "joyfully",
+      "விளக்கம்": "'Joyfully' tells how she reads, hence it is an adverb."
+    },
+    {
+      "கேள்வி": "Why was Inspector Velayudham furious with the 5D gang?",
+      "ஆப்ஷன்கள்": [
+        "Because they stole the chocolate.",
+        "Because Sreejith disguised himself and interfered with the police case.",
+        "Because Pablo bit the inspector.",
+        "Because they broke the wax statue."
+      ],
+      "விடை": "Because Sreejith disguised himself and interfered with the police case.",
+      "விளக்கம்": "He was furious about their behavior and warned them to stay away from the case."
+    },
+    {
+      "கேள்வி": "Higher Order Thinking: If the boy in the camel story saw the grass eaten on the right side instead of the left, what would his deduction be?",
+      "ஆப்ஷன்கள்": [
+        "The camel is blind in the right eye.",
+        "The camel is blind in the left eye.",
+        "The camel has no teeth.",
+        "The camel is lame in the right foot."
+      ],
+      "விடை": "The camel is blind in the left eye.",
+      "விளக்கம்": "If it ate on the right side, it means it could see on the right and was blind in the left eye."
+    },
+    {
+      "கேள்வி": "Assertion (A): Adverbs can only tell us 'how' an action is performed.\nReason (R): Words like yesterday, everywhere, and twice are not adverbs.",
+      "ஆப்ஷன்கள்": [
+        "Both A and R are true.",
+        "A is true but R is false.",
+        "Both A and R are false.",
+        "A is false but R is true."
+      ],
+      "விடை": "Both A and R are false.",
+      "விளக்கம்": "Adverbs tell how, when, where, and how often. Yesterday, everywhere, and twice ARE adverbs."
+    },
+    {
+      "கேள்வி": "What did the senior policeman do when the 5D handed over the diamond necklace?",
+      "ஆப்ஷன்கள்": [
+        "He arrested them.",
+        "He scolded them for interfering.",
+        "He appreciated them for their courage and dedication.",
+        "He gave them a reward of money."
+      ],
+      "விடை": "He appreciated them for their courage and dedication.",
+      "விளக்கம்": "The text says, 'They were appreciated for their courage and dedication towards their city.'"
+    },
+    {
+      "கேள்வி": "Which of these is the correct homophone phrase for: \"I have ___ tickets to go ___ the movie, and it is ___ exciting!\"",
+      "ஆப்ஷன்கள்": [
+        "two, to, too",
+        "to, two, too",
+        "too, to, two",
+        "two, too, to"
+      ],
+      "விடை": "two, to, too",
+      "விளக்கம்": "two (number of tickets), to (direction/purpose to the movie), too (very exciting)."
+    }
+  ]
+}
