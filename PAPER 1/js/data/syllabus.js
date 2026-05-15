@@ -137,6 +137,46 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்",
+                "isUpdated": true,
+                "code": "tam_2_t2_l1"
+              },
+              {
+                "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி",
+                "isUpdated": true,
+                "code": "tam_2_t2_l2"
+              },
+              {
+                "title": "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்",
+                "isUpdated": true,
+                "code": "tam_2_t2_l3"
+              },
+              {
+                "title": "விட்டுச் செல்லாதே!",
+                "isUpdated": true,
+                "code": "tam_2_t2_l4"
+              },
+              {
+                "title": "ஓடி விளையாடு பாப்பா",
+                "isUpdated": true,
+                "code": "tam_2_t2_l5"
+              },
+              {
+                "title": "ஆத்திசூடி",
+                "isUpdated": true,
+                "code": "tam_2_t2_l6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "3": [

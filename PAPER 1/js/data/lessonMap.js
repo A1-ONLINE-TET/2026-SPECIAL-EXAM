@@ -3141,6 +3141,36 @@ export const lessonMap = {
     "grade": "1",
     "title": "இளையார் ஆத்திசூடி"
   },
+  "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்": {
+    "local": true,
+    "filename": "tam_2_t2_l1",
+    "grade": "2",
+    "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்"
+  },
+  "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி": {
+    "local": true,
+    "filename": "tam_2_t2_l2",
+    "grade": "2",
+    "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி"
+  },
+  "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்": {
+    "local": true,
+    "filename": "tam_2_t2_l3",
+    "grade": "2",
+    "title": "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்"
+  },
+  "ஓடி விளையாடு பாப்பா": {
+    "local": true,
+    "filename": "tam_2_t2_l5",
+    "grade": "2",
+    "title": "ஓடி விளையாடு பாப்பா"
+  },
+  "ஆத்திசூடி": {
+    "local": true,
+    "filename": "tam_2_t2_l6",
+    "grade": "2",
+    "title": "ஆத்திசூடி"
+  },
   "விளையாட்டு உலகம்": {
     "local": true,
     "filename": "tam_2_t1_l1",
@@ -3176,6 +3206,48 @@ export const lessonMap = {
     "filename": "tam_2_t1_l4",
     "grade": "2",
     "title": "நானும் நாங்களும்"
+  },
+  "tam_2_t2_l1": {
+    "local": true,
+    "filename": "tam_2_t2_l1",
+    "grade": "2",
+    "title": "நானே பறிப்பேன் மற்றும் தமிழ் பயிற்சிகள்"
+  },
+  "tam_2_t2_l2": {
+    "local": true,
+    "filename": "tam_2_t2_l2",
+    "grade": "2",
+    "title": "அழகுத்தோட்டம் மற்றும் ஆதிரையின் பெட்டி"
+  },
+  "tam_2_t2_l3": {
+    "local": true,
+    "filename": "tam_2_t2_l3",
+    "grade": "2",
+    "title": "பூம்வண்டி மற்றும் ஆங்கில மாதங்கள்"
+  },
+  "விட்டுச் செல்லாதே!": {
+    "local": true,
+    "filename": "tam_2_t2_l4",
+    "grade": "2",
+    "title": "விட்டுச் செல்லாதே!"
+  },
+  "tam_2_t2_l4": {
+    "local": true,
+    "filename": "tam_2_t2_l4",
+    "grade": "2",
+    "title": "விட்டுச் செல்லாதே!"
+  },
+  "tam_2_t2_l5": {
+    "local": true,
+    "filename": "tam_2_t2_l5",
+    "grade": "2",
+    "title": "ஓடி விளையாடு பாப்பா"
+  },
+  "tam_2_t2_l6": {
+    "local": true,
+    "filename": "tam_2_t2_l6",
+    "grade": "2",
+    "title": "ஆத்திசூடி"
   },
   "முடிவெடுப்போமா? - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்": {
     "local": true,
