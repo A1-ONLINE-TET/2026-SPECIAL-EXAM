@@ -136,7 +136,7 @@ export const extraSyllabusData = {
                 "code": "psy_6_l7"
               },
               {
-                "title": "உள்ளடக்கிய கல்வி (Inclusive Education)",
+                "title": "ஊக்கமும் கற்றலும் (Motivation and Learning)",
                 "isUpdated": true,
                 "code": "psy_6_l8"
               },

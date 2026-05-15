@@ -189,6 +189,51 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "பாடப்பகுதிகள்",
+            "topics": [
+              {
+                "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல",
+                "isUpdated": true,
+                "code": "tam_3_t2_l1"
+              },
+              {
+                "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)",
+                "isUpdated": true,
+                "code": "tam_3_t2_l2"
+              },
+              {
+                "title": "கல்வி கண் போன்றது",
+                "isUpdated": true,
+                "code": "tam_3_t2_l3"
+              },
+              {
+                "title": "வீம்பால் வந்த விளைவு",
+                "isUpdated": true,
+                "code": "tam_3_t2_l4"
+              },
+              {
+                "title": "நூலகம்",
+                "isUpdated": true,
+                "code": "tam_3_t2_l5"
+              },
+              {
+                "title": "நாயும் ஓநாயும்",
+                "isUpdated": true,
+                "code": "tam_3_t2_l6"
+              },
+              {
+                "title": "திருக்குறள் கதைகள்",
+                "isUpdated": true,
+                "code": "tam_3_t2_l7"
+              }
+            ]
+          }
+        ]
       }
     ],
     "4": [

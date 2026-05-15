@@ -1859,7 +1859,7 @@ export const lessonMap = {
   },
   "உள்ளடக்கிய கல்வி (Inclusive Education)": {
     "local": true,
-    "filename": "psy_6_l8",
+    "filename": "psy_6_l7",
     "grade": "all",
     "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
   },
@@ -1869,11 +1869,17 @@ export const lessonMap = {
     "grade": "all",
     "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
   },
+  "ஊக்கமும் கற்றலும் (Motivation and Learning)": {
+    "local": true,
+    "filename": "psy_6_l8",
+    "grade": "all",
+    "title": "ஊக்கமும் கற்றலும் (Motivation and Learning)"
+  },
   "psy_6_l8": {
     "local": true,
     "filename": "psy_6_l8",
     "grade": "all",
-    "title": "உள்ளடக்கிய கல்வி (Inclusive Education)"
+    "title": "ஊக்கமும் கற்றலும் (Motivation and Learning)"
   },
   "சிறப்புத் தேவையுடைய குழந்தைகள் (Children with Special Needs - CWSN)": {
     "local": true,
@@ -3179,25 +3185,25 @@ export const lessonMap = {
   },
   "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல": {
     "local": true,
-    "filename": "2",
+    "filename": "tam_3_t2_l1",
     "grade": "3",
     "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல"
   },
   "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)": {
     "local": true,
-    "filename": "3",
+    "filename": "tam_3_t2_l2",
     "grade": "3",
     "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)"
   },
   "கல்வி கண் போன்றது": {
     "local": true,
-    "filename": "tam_3_t1_l4",
+    "filename": "tam_3_t2_l3",
     "grade": "3",
     "title": "கல்வி கண் போன்றது"
   },
   "வீம்பால் வந்த விளைவு": {
     "local": true,
-    "filename": "tam_3_t1_l5",
+    "filename": "tam_3_t2_l4",
     "grade": "3",
     "title": "வீம்பால் வந்த விளைவு"
   },
@@ -3206,6 +3212,12 @@ export const lessonMap = {
     "filename": "6",
     "grade": "3",
     "title": "நூலகம் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்"
+  },
+  "பாட தலைப்பு: நாயும் ஓநாயும்": {
+    "local": true,
+    "filename": "7",
+    "grade": "3",
+    "title": "பாட தலைப்பு: நாயும் ஓநாயும்"
   },
   "திருக்குறள் கதைகள் - பாடக்குறிப்புகள் மற்றும் தேர்வுகள்": {
     "local": true,
@@ -3263,7 +3275,7 @@ export const lessonMap = {
   },
   "நூலகம்": {
     "local": true,
-    "filename": "tam_3_t1_l6",
+    "filename": "tam_3_t2_l5",
     "grade": "3",
     "title": "நூலகம்"
   },
@@ -3275,7 +3287,7 @@ export const lessonMap = {
   },
   "நாயும் ஓநாயும்": {
     "local": true,
-    "filename": "tam_3_t1_l7",
+    "filename": "tam_3_t2_l6",
     "grade": "3",
     "title": "நாயும் ஓநாயும்"
   },
@@ -3294,6 +3306,48 @@ export const lessonMap = {
   "tam_3_t1_l8": {
     "local": true,
     "filename": "tam_3_t1_l8",
+    "grade": "3",
+    "title": "திருக்குறள் கதைகள்"
+  },
+  "tam_3_t2_l1": {
+    "local": true,
+    "filename": "tam_3_t2_l1",
+    "grade": "3",
+    "title": "காட்டில் திருவிழா மற்றும் கொழுக்கட்டை ஏன் வேகல"
+  },
+  "tam_3_t2_l2": {
+    "local": true,
+    "filename": "tam_3_t2_l2",
+    "grade": "3",
+    "title": "எழில் கொஞ்சும் அருவி (ஒகேனக்கல் பயணம்)"
+  },
+  "tam_3_t2_l3": {
+    "local": true,
+    "filename": "tam_3_t2_l3",
+    "grade": "3",
+    "title": "கல்வி கண் போன்றது"
+  },
+  "tam_3_t2_l4": {
+    "local": true,
+    "filename": "tam_3_t2_l4",
+    "grade": "3",
+    "title": "வீம்பால் வந்த விளைவு"
+  },
+  "tam_3_t2_l5": {
+    "local": true,
+    "filename": "tam_3_t2_l5",
+    "grade": "3",
+    "title": "நூலகம்"
+  },
+  "tam_3_t2_l6": {
+    "local": true,
+    "filename": "tam_3_t2_l6",
+    "grade": "3",
+    "title": "நாயும் ஓநாயும்"
+  },
+  "tam_3_t2_l7": {
+    "local": true,
+    "filename": "tam_3_t2_l7",
     "grade": "3",
     "title": "திருக்குறள் கதைகள்"
   },
