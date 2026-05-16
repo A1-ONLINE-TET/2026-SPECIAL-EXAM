@@ -57,16 +57,6 @@ export const extraSyllabusData = {
                 "code": "model_test_2"
               },
               {
-                "title": "மாதிரித்தேர்வு 3 (150 வினாக்கள்)",
-                "isUpdated": true,
-                "code": "mock_test_3"
-              },
-              {
-                "title": "மாதிரித்தேர்வு 4 (150 வினாக்கள்)",
-                "isUpdated": true,
-                "code": "mock_test_4"
-              },
-              {
                 "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_2"
@@ -85,6 +75,16 @@ export const extraSyllabusData = {
                 "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_5"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 3 (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_6"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4 (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_7"
               }
             ]
           }

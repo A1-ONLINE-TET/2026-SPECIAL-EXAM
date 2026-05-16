@@ -1758,30 +1758,6 @@ export const lessonMap = {
     "grade": "all",
     "title": "மாதிரித்தேர்வு 1"
   },
-  "மாதிரித்தேர்வு 3": {
-    "local": true,
-    "filename": "mock_test_3",
-    "grade": "all",
-    "title": "மாதிரித்தேர்வு 3"
-  },
-  "mock_test_3": {
-    "local": true,
-    "filename": "mock_test_3",
-    "grade": "all",
-    "title": "மாதிரித்தேர்வு 3"
-  },
-  "மாதிரித்தேர்வு 4": {
-    "local": true,
-    "filename": "mock_test_4",
-    "grade": "all",
-    "title": "மாதிரித்தேர்வு 4"
-  },
-  "mock_test_4": {
-    "local": true,
-    "filename": "mock_test_4",
-    "grade": "all",
-    "title": "மாதிரித்தேர்வு 4"
-  },
   "மாதிரித்தேர்வு 2": {
     "local": true,
     "filename": "model_test_2",
@@ -1841,6 +1817,30 @@ export const lessonMap = {
     "filename": "tntet_paper1_model_5",
     "grade": "all",
     "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)"
+  },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 3": {
+    "local": true,
+    "filename": "tntet_paper1_model_6",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 3"
+  },
+  "tntet_paper1_model_6": {
+    "local": true,
+    "filename": "tntet_paper1_model_6",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 3"
+  },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4": {
+    "local": true,
+    "filename": "tntet_paper1_model_7",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4"
+  },
+  "tntet_paper1_model_7": {
+    "local": true,
+    "filename": "tntet_paper1_model_7",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4"
   },
   "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
     "local": true,
