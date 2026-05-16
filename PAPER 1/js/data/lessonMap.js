@@ -1842,6 +1842,54 @@ export const lessonMap = {
     "grade": "all",
     "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)"
   },
+  "TNTET தாள் 1 - மாதிரி வினாத்தாள் 3": {
+    "local": true,
+    "filename": "tntet_paper1_model_6",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 3"
+  },
+  "tntet_paper1_model_6": {
+    "local": true,
+    "filename": "tntet_paper1_model_6",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 3"
+  },
+  "TNTET தாள் 1 - மாதிரி வினாத்தாள் 4": {
+    "local": true,
+    "filename": "tntet_paper1_model_7",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 4"
+  },
+  "tntet_paper1_model_7": {
+    "local": true,
+    "filename": "tntet_paper1_model_7",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 4"
+  },
+  "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 3": {
+    "local": true,
+    "filename": "மாதிரி_வினாத்தாள்_3",
+    "grade": "all",
+    "title": "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 3"
+  },
+  "மாதிரி_வினாத்தாள்_3": {
+    "local": true,
+    "filename": "மாதிரி_வினாத்தாள்_3",
+    "grade": "all",
+    "title": "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 3"
+  },
+  "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 4": {
+    "local": true,
+    "filename": "மாதிரி_வினாத்தாள்_4",
+    "grade": "all",
+    "title": "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 4"
+  },
+  "மாதிரி_வினாத்தாள்_4": {
+    "local": true,
+    "filename": "மாதிரி_வினாத்தாள்_4",
+    "grade": "all",
+    "title": "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 4"
+  },
   "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
     "local": true,
     "filename": "psy_6_l1",
