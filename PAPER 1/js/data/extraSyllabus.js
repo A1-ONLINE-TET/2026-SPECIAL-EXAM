@@ -49,52 +49,50 @@ export const extraSyllabusData = {
               {
                 "title": "மாதிரித்தேர்வு 1",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "mock_test_1"
               },
               {
                 "title": "மாதிரித்தேர்வு 2",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "model_test_2"
               },
               {
                 "title": "மாதிரித்தேர்வு 3",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "mock_test_3"
               },
               {
                 "title": "மாதிரித்தேர்வு 4",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "mock_test_4"
               },
               {
                 "title": "தாள் 1 - உயர்தர மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "tntet_paper1_model_2"
               },
               {
                 "title": "TN TET Psychology Quiz - Paper 1 & 2",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "tntet_paper1_model_3"
               },
               {
                 "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "tntet_paper1_model_4"
               },
               {
                 "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 2 (150 வினாக்கள்)",
                 "isUpdated": true,
+                "hideMaterial": true,
                 "code": "tntet_paper1_model_5"
-              },
-              {
-                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 3 (150 வினாக்கள்)",
-                "isUpdated": true,
-                "code": "tntet_paper1_model_6"
-              },
-              {
-                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 4 (150 வினாக்கள்)",
-                "isUpdated": true,
-                "code": "tntet_paper1_model_7"
               }
             ]
           }
