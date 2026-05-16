@@ -285,7 +285,7 @@
 
     <script type="module">
         (async () => {
-            const v = "standard_v10";
+            const v = "standard_v11";
             try {
                 const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
                 await waitForAuth();
@@ -344,6 +344,7 @@
                         term.units.forEach(unit => {
                             unit.topics.forEach(topic => {
                                 const isReady = topic.isUpdated;
+                                const isMock = (subject === 'mocktest');
                                 html += `
                                 <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="this.classList.toggle(\'expanded\')"' : ''}>
                                     <div style="display:flex; justify-content:space-between; align-items:center;">
@@ -351,8 +352,8 @@
                                         <span class="chevron" style="font-size:0.8rem;">${isReady ? '▼' : '🔒'}</span>
                                     </div>
                                     ${isReady ? `
-                                    <div class="btn-group" style="${topic.hideMaterial ? 'grid-template-columns: 1fr;' : ''}">
-                                        ${!topic.hideMaterial ? `<a href="material.html?subject=${subject}&class=${cls}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes">பாடக்குறிப்புகள்</a>` : ''}
+                                    <div class="btn-group" style="${isMock ? 'grid-template-columns: 1fr;' : ''}">
+                                        ${!isMock ? `<a href="material.html?subject=${subject}&class=${cls}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes">பாடக்குறிப்புகள்</a>` : ''}
                                         <a href="quiz.html?subject=${subject}&class=${cls}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz">தேர்வு</a>
                                     </div>` : ''}
                                 </div>`;
