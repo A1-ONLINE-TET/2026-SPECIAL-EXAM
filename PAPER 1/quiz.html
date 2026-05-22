@@ -973,7 +973,7 @@
                                 return ot === at;
                             });
                             if (ansIdx === -1 && typeof ansText === 'string') {
-                                let match = ansText.match(/^[\*]*([A-Da-d])[\)\.]/);
+                                let match = ansText.trim().match(/^[\*]*([A-Da-d])(?:[\)\.]|$)/);
                                 if (match) {
                                     let letter = match[1].toUpperCase();
                                     if (letter === 'A') ansIdx = 0;
@@ -994,6 +994,37 @@
                 if (questions.length === 0 && parsedPYQ.length > 0) {
                     questions = parsedPYQ;
                 }
+
+                // Fix string-based answers (Common issue in 3rd Standard & others)
+                questions.forEach(q => {
+                    let ans = q.answer !== undefined ? q.answer : q.a;
+                    if (typeof ans === 'string' && q.options && Array.isArray(q.options)) {
+                        let parsedNum = parseInt(ans, 10);
+                        if (!isNaN(parsedNum) && parsedNum.toString() === ans.trim()) {
+                            if (q.answer !== undefined) q.answer = parsedNum;
+                            if (q.a !== undefined) q.a = parsedNum;
+                        } else {
+                            let fIdx = q.options.findIndex(o => {
+                                let ot = typeof o === 'string' ? o.replace(/\*\*/g, '').trim() : o;
+                                let at = ans.replace(/\*\*/g, '').trim();
+                                return ot === at;
+                            });
+                            if (fIdx !== -1) {
+                                if (q.answer !== undefined) q.answer = fIdx;
+                                if (q.a !== undefined) q.a = fIdx;
+                            } else {
+                                let match = ans.trim().match(/^[\*]*([A-Da-d])(?:[\)\.]|$)/);
+                                if (match) {
+                                    let letter = match[1].toUpperCase();
+                                    let idx = letter === 'A' ? 0 : letter === 'B' ? 1 : letter === 'C' ? 2 : 3;
+                                    if (q.answer !== undefined) q.answer = idx;
+                                    if (q.a !== undefined) q.a = idx;
+                                }
+                            }
+                        }
+                    }
+                });
+
                 if (questions.length === 0) {
                     const loader = document.getElementById('quizLoader');
                     if (loader) loader.innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
