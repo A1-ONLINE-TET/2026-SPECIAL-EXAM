@@ -32,6 +32,62 @@
     ]
   },
   "quiz": {
-    "questions": []
+    "questions": [
+      {
+        "question": "எலியின் (Rat) உறைவிடம் எது?",
+        "options": [
+          "web",
+          "hole",
+          "nest",
+          "hive"
+        ],
+        "answer": 1,
+        "explanation": "எலி வளைகளில் (hole) வசிக்கும்."
+      },
+      {
+        "question": "தேனீயின் (Bee) இருப்பிடம் எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "hive",
+          "pen",
+          "sty",
+          "shed"
+        ],
+        "answer": 0,
+        "explanation": "தேனீக்கள் தேன் கூட்டில் (hive) வசிக்கும்."
+      },
+      {
+        "question": "டோனா (Dona) என்பது என்ன விலங்கு?",
+        "options": [
+          "Pig (பன்றி)",
+          "Donkey (கழுதை)",
+          "Horse (குதிரை)",
+          "Sheep (செம்மறியாடு)"
+        ],
+        "answer": 1,
+        "explanation": "கதையின்படி டோனா (Dona) என்பது ஒரு கழுதை (Donkey)."
+      },
+      {
+        "question": "டோனாவால் எழுப்பப்பட்ட ஒலி (bray) எது?",
+        "options": [
+          "Khngrrr!",
+          "Baa... Baa...",
+          "Neigh!",
+          "Heee... Haaan..."
+        ],
+        "answer": 3,
+        "explanation": "கழுதை (Dona) 'Heee... Haaan...' என்ற ஒலியை எழுப்பியது."
+      },
+      {
+        "question": "சாம் (Sam) மற்றும் டாம் (Tom) விளையாடிய விளையாட்டு எது?",
+        "options": [
+          "Hide and Seek",
+          "See-saw",
+          "Football",
+          "Cricket"
+        ],
+        "answer": 1,
+        "explanation": "சாமும் டாமும் சீ-சா (See-saw) விளையாடினார்கள் எனத் துணைப்பாடம் கூறுகிறது."
+      }
+    ]
   }
 }
