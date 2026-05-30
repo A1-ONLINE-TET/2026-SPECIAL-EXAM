@@ -1842,6 +1842,30 @@ export const lessonMap = {
     "grade": "all",
     "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4"
   },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 5": {
+    "local": true,
+    "filename": "tntet_paper1_model_8",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 5"
+  },
+  "tntet_paper1_model_8": {
+    "local": true,
+    "filename": "tntet_paper1_model_8",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 5"
+  },
+  "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 6": {
+    "local": true,
+    "filename": "tntet_paper1_model_9",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 6"
+  },
+  "tntet_paper1_model_9": {
+    "local": true,
+    "filename": "tntet_paper1_model_9",
+    "grade": "all",
+    "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 6"
+  },
   "வளர்ந்த பிள்ளைப் பருவம் (6 - 11 வயது) - பின் குழந்தைப் பருவம் (Later Childhood) *": {
     "local": true,
     "filename": "psy_6_l1",

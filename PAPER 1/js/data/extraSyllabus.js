@@ -85,6 +85,16 @@ export const extraSyllabusData = {
                 "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 4 (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "tntet_paper1_model_7"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 5 (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_8"
+              },
+              {
+                "title": "TNTET தாள் 1 - புதிய மாதிரி வினாத்தாள் 6 (150 வினாக்கள்)",
+                "isUpdated": true,
+                "code": "tntet_paper1_model_9"
               }
             ]
           }
