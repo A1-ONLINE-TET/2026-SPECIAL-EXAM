@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPECIAL 2026 - 31 மாதிரி தேர்வுகள்</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
+    <style>
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid #1e3a8a;
+            border-bottom: 1px solid #1e3a8a;
+        }
+        .brand-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', 'Noto Sans Tamil', sans-serif; }
+
+        body {
+            background: #f3f6ff;
+            color: #334155;
+            min-height: 100vh;
+            padding-bottom: 80px;
+        }
+
+        .page-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 16px;
+        }
+
+        .page-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #1e3a8a;
+            margin-bottom: 18px;
+            padding-left: 4px;
+        }
+
+        /* Exam grid */
+        .exam-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .exam-card {
+            background: white;
+            border-radius: 18px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid #edf2f7;
+            transition: all 0.2s ease;
+        }
+
+        .exam-card.available:active {
+            transform: scale(0.97);
+            background: #f8fafc;
+        }
+
+        .exam-card.locked {
+            opacity: 0.45;
+            pointer-events: none;
+        }
+
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f0f4ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-right: 18px;
+            flex-shrink: 0;
+        }
+
+        .exam-card.locked .icon-wrapper {
+            background: #f1f5f9;
+        }
+
+        .exam-info {
+            flex-grow: 1;
+        }
+
+        .exam-day {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .exam-name {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: #1e3a8a;
+            margin-top: 2px;
+        }
+
+        .exam-card.locked .exam-name {
+            color: #94a3b8;
+        }
+
+        .chevron {
+            color: #cbd5e1;
+            font-size: 1.2rem;
+        }
+
+        /* Bottom nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #64748b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            gap: 4px;
+        }
+        .nav-icon { font-size: 1.4rem; }
+    </style>
+</head>
+<body>
+
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <div class="page-wrap">
+        <h2 class="page-title">SPECIAL 2026 · 31 மாதிரி தேர்வுகள்</h2>
+        <div class="exam-grid" id="examGrid"></div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="course.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span>Course</span>
+        </a>
+        <a href="tel:6369371452" class="nav-item">
+            <span class="nav-icon">📞</span>
+            <span>Contact</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="nav-icon">💳</span>
+            <span>Pay</span>
+        </a>
+        <a href="#" onclick="window.logout();return false;" class="nav-item">
+            <span class="nav-icon">🚪</span>
+            <span>Logout</span>
+        </a>
+    </nav>
+
+    <script>
+    (async function() {
+        const grid = document.getElementById('examGrid');
+
+        // Check which JSON files exist (1 to 31)
+        const checks = Array.from({length: 31}, (_, i) => i + 1).map(day =>
+            fetch(`special-exams/${day}.json?v=${Date.now()}`, { method: 'HEAD' })
+                .then(r => ({ day, ok: r.ok }))
+                .catch(() => ({ day, ok: false }))
+        );
+
+        const results = await Promise.all(checks);
+
+        results.forEach(({ day, ok }) => {
+            const card = document.createElement(ok ? 'a' : 'div');
+            if (ok) card.href = `special-quiz.html?day=${day}`;
+            card.className = `exam-card ${ok ? 'available' : 'locked'}`;
+            card.innerHTML = `
+                <div class="icon-wrapper">📝</div>
+                <div class="exam-info">
+                    <div class="exam-day">நாள் ${day}</div>
+                    <div class="exam-name">மாதிரி தேர்வு ${day}</div>
+                </div>
+                ${ok ? '<span class="chevron">❯</span>' : '<span class="chevron">🔒</span>'}
+            `;
+            grid.appendChild(card);
+        });
+
+        window.logout = function() {
+            localStorage.removeItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
+            window.location.href = 'login.html';
+        };
+    })();
+    </script>
+</body>
+</html>
