@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPECIAL TET மாதிரி தேர்வு</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Tamil:wght@400;700&family=Baloo+Thambi+2:wght@800&display=swap">
+    <style>
+        /* --- BRAND HEADER --- */
+        .header-standard {
+            background: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid #1e3a8a;
+            border-bottom: 1px solid #1e3a8a;
+        }
+        .brand-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .brand-main {
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #002d5b;
+            line-height: 0.9;
+            margin: 0;
+        }
+        .brand-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #002d5b;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .brand-main { font-size: 1.6rem; }
+            .brand-sub { font-size: 0.6rem; }
+        }
+
+        :root {
+            --primary: #1e3a8a;
+            --bg: #f3f6ff;
+            --card: #ffffff;
+            --text: #334155;
+            --dim: #64748b;
+            --accent: #d32f2f;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', 'Noto Sans Tamil', sans-serif; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding-bottom: 100px;
+        }
+
+        /* ---- Loader ---- */
+        #loader {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--dim);
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        /* ---- Name Prompt Overlay ---- */
+        #nameOverlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.55);
+            backdrop-filter: blur(6px);
+            z-index: 3000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        #namePrompt {
+            background: white;
+            border-radius: 24px;
+            padding: 36px 28px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+        }
+        #namePrompt h3 { font-size: 1.3rem; font-weight: 800; color: var(--primary); margin-bottom: 6px; }
+        #namePrompt p  { color: var(--dim); font-size: 0.9rem; margin-bottom: 20px; }
+        #userNameInput {
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+            font-size: 1rem;
+            outline: none;
+            font-family: inherit;
+            margin-bottom: 14px;
+        }
+        #userNameInput:focus { border-color: var(--primary); }
+        #startQuizBtn {
+            width: 100%;
+            padding: 14px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+        }
+        #startQuizBtn:active { transform: scale(0.98); }
+
+        /* ---- Quiz Header ---- */
+        .quiz-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 16px;
+            display: none;
+        }
+
+        .quiz-header-card {
+            background: var(--primary);
+            color: white;
+            border-radius: 20px;
+            padding: 20px 22px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 25px rgba(30,58,138,0.25);
+        }
+        .quiz-header-card .tag {
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.15em;
+            opacity: 0.7;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+        .quiz-header-card h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        .quiz-header-card .meta {
+            font-size: 0.82rem;
+            opacity: 0.8;
+        }
+
+        /* ---- Question Cards ---- */
+        .question-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 22px 20px;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+            border: 1px solid #edf2f7;
+            border-left: 7px solid var(--accent);
+        }
+
+        .q-num {
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+        }
+        .q-topic {
+            font-size: 0.72rem;
+            color: var(--dim);
+            font-weight: 600;
+            margin-bottom: 10px;
+            background: #f1f5f9;
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+        .q-text {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a73e8;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        /* Options */
+        .options-list { display: flex; flex-direction: column; gap: 10px; }
+
+        .option-btn {
+            background: #f8fafc;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 12px 16px;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #475569;
+            transition: all 0.2s;
+            font-family: inherit;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.5;
+        }
+        .option-btn .opt-label {
+            font-weight: 800;
+            color: #94a3b8;
+            min-width: 22px;
+        }
+        .option-btn:hover:not([disabled]) {
+            border-color: #1a73e8;
+            background: #f0f7ff;
+        }
+        .option-btn.selected {
+            border-color: #1a73e8;
+            background: #eef4ff;
+        }
+        .option-btn.correct {
+            border-color: #10b981 !important;
+            background: #ecfdf5 !important;
+            color: #065f46 !important;
+        }
+        .option-btn.wrong {
+            border-color: #ef4444 !important;
+            background: #fef2f2 !important;
+            color: #991b1b !important;
+        }
+
+        /* Explanation */
+        .expl-box {
+            margin-top: 14px;
+            padding: 14px 16px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.7;
+            display: none;
+        }
+        .expl-box .ans-label {
+            font-weight: 800;
+            color: #10b981;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .expl-box .expl-label {
+            font-weight: 800;
+            color: #1a73e8;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        /* Submit */
+        .submit-wrap {
+            text-align: center;
+            padding: 30px 0 20px;
+        }
+        #submitBtn {
+            background: #1e293b;
+            color: white;
+            padding: 16px 50px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+            transition: 0.2s;
+        }
+        #submitBtn:active { transform: scale(0.97); }
+
+        /* ---- Result Overlay ---- */
+        #resultOverlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.55);
+            backdrop-filter: blur(6px);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        #resultCard {
+            background: white;
+            border-radius: 28px;
+            padding: 36px 28px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+        }
+        .result-trophy { font-size: 4rem; margin-bottom: 10px; }
+        #resultTitle { font-size: 1.4rem; font-weight: 800; color: var(--primary); margin-bottom: 6px; }
+        #resultName { font-size: 0.9rem; color: var(--dim); margin-bottom: 20px; }
+        .score-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 15px 30px rgba(30,58,138,0.3);
+        }
+        .score-num { font-size: 2rem; font-weight: 800; line-height: 1; }
+        .score-of  { font-size: 0.75rem; opacity: 0.8; }
+        #resultMsg { font-weight: 700; color: var(--dim); margin-bottom: 26px; font-size: 0.95rem; }
+        .result-btns { display: flex; flex-direction: column; gap: 10px; }
+        .result-btns button, .result-btns a {
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 800;
+            font-size: 0.95rem;
+            cursor: pointer;
+            font-family: inherit;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+        }
+        .btn-review { background: var(--primary); color: white; border: none; }
+        .btn-retry  { background: #f1f5f9; color: var(--text); border: none; }
+        .btn-home   { background: #f1f5f9; color: var(--text); }
+        .result-btns .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+        /* Back sticky */
+        .back-sticky {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 500;
+            border: 2px solid #e2e8f0;
+            transition: 0.2s;
+            text-decoration: none;
+            color: var(--text);
+        }
+        .back-sticky:active { transform: scale(0.9); }
+
+        /* Progress bar */
+        .progress-bar-wrap {
+            height: 4px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 2px;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            background: #f59e0b;
+            border-radius: 2px;
+            transition: width 0.4s ease;
+        }
+
+        .answered-count {
+            font-size: 0.8rem;
+            opacity: 0.85;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-standard">
+        <a href="index.html" class="brand-container">
+            <div class="brand-main">தமிழ் நண்பன்</div>
+            <div class="brand-sub">COACHING CENTER</div>
+        </a>
+    </header>
+
+    <!-- Name Prompt -->
+    <div id="nameOverlay">
+        <div id="namePrompt">
+            <h3>🏆 SPECIAL TET தேர்வு</h3>
+            <p id="dayLabel">தொடர்வதற்கு உங்கள் பெயரை உள்ளிடவும்</p>
+            <input type="text" id="userNameInput" placeholder="உங்கள் பெயர் (Your Name)" />
+            <button id="startQuizBtn">தேர்வை தொடங்கு ▶</button>
+        </div>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader">தேர்வு ஏற்றப்படுகின்றது...</div>
+
+    <!-- Quiz -->
+    <div class="quiz-wrap" id="quizWrap">
+        <div class="quiz-header-card">
+            <div class="tag">🏆 SPECIAL TET · 31 மாதிரி தேர்வுகள்</div>
+            <h1 id="quizTitle">நாள் 1 மாதிரி தேர்வு</h1>
+            <div class="meta" id="quizMeta">கேள்விகள் ஏற்றப்படுகின்றன...</div>
+            <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" id="progressBar" style="width:0%"></div>
+            </div>
+            <div class="answered-count" id="answeredCount">0 / 0 விடையளிக்கப்பட்டது</div>
+        </div>
+
+        <div id="questionContainer"></div>
+
+        <div class="submit-wrap">
+            <button id="submitBtn">✅ விடைகளை சமர்ப்பி</button>
+        </div>
+    </div>
+
+    <!-- Result Overlay -->
+    <div id="resultOverlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); backdrop-filter:blur(6px); z-index:3000; align-items:center; justify-content:center; padding:20px;">
+        <div id="resultCard">
+            <div class="result-trophy" id="trophyIcon">🏆</div>
+            <div id="resultTitle">தேர்வு முடிந்தது!</div>
+            <div id="resultName">-</div>
+            <div class="score-circle">
+                <span class="score-num" id="scoreNum">0</span>
+                <span class="score-of" id="scoreOf">/ 0</span>
+            </div>
+            <div id="resultMsg">மேலும் பயிற்சி தேவை!</div>
+            <div class="result-btns">
+                <button class="btn-review" onclick="closeResult()">📋 விடைகளை சரிபார்க்க</button>
+                <div class="two-col">
+                    <button class="btn-retry" onclick="location.reload()">🔄 மீண்டும்</button>
+                    <a class="btn-home" href="index.html">🏠 முகப்பு</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back button -->
+    <a class="back-sticky" href="index.html" title="முகப்பு">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+    </a>
+
+    <script>
+    (function() {
+        // =============================================
+        // SPECIAL TET Quiz Engine
+        // JSON format: [{Question, "Option A", "Option B", "Option C", "Option D", Answer, Explanation, Topic, Subject, Question_Number}]
+        // Answer field: "A" / "B" / "C" / "D"
+        // =============================================
+
+        const params = new URLSearchParams(window.location.search);
+        const day = parseInt(params.get('day')) || 1;
+
+        let questions = [];
+        let answers = {}; // { qIdx: optionIndex (0-3) }
+        let userName = '';
+        let resultsRevealed = false;
+
+        const OPTION_KEYS = ['Option A', 'Option B', 'Option C', 'Option D'];
+        const OPTION_LABELS = ['A', 'B', 'C', 'D'];
+
+        // Update day label in prompt
+        document.getElementById('dayLabel').textContent = `நாள் ${day} மாதிரி தேர்வு - தொடர உங்கள் பெயரை உள்ளிடவும்`;
+        document.getElementById('quizTitle').textContent = `நாள் ${day} மாதிரி தேர்வு`;
+
+        // ---- Answer index from letter ----
+        function answerIndex(letterOrNum) {
+            if (typeof letterOrNum === 'number') return letterOrNum;
+            const s = String(letterOrNum).trim().toUpperCase();
+            const map = { A: 0, B: 1, C: 2, D: 3 };
+            return map[s] !== undefined ? map[s] : 0;
+        }
+
+        // ---- Load JSON ----
+        async function loadQuestions() {
+            const loader = document.getElementById('loader');
+            try {
+                const res = await fetch(`special-exams/${day}.json?v=${Date.now()}`);
+                if (!res.ok) throw new Error('File not found');
+                const raw = await res.json();
+
+                // Normalize to internal format
+                questions = raw.map((item, idx) => {
+                    const opts = OPTION_KEYS.map(k => item[k] || '');
+                    return {
+                        question: item['Question'] || item['question'] || '',
+                        options: opts,
+                        answer: answerIndex(item['Answer'] || item['answer'] || 0),
+                        explanation: item['Explanation'] || item['explanation'] || '',
+                        topic: item['Topic'] || item['topic'] || '',
+                        subject: item['Subject'] || item['subject'] || '',
+                        num: item['Question_Number'] || (idx + 1)
+                    };
+                });
+
+                loader.style.display = 'none';
+
+                // Show name prompt - wait for user
+                document.getElementById('nameOverlay').style.display = 'flex';
+
+            } catch(e) {
+                loader.innerHTML = `<div style="color:#ef4444;">⚠️ தேர்வு கோப்பு கிடைக்கவில்லை (special-exams/${day}.json)<br><a href="index.html" style="color:#1a73e8;">முகப்புக்கு திரும்பு</a></div>`;
+            }
+        }
+
+        // ---- Start Quiz after name ----
+        document.getElementById('startQuizBtn').addEventListener('click', () => {
+            const name = document.getElementById('userNameInput').value.trim();
+            if (!name) { alert('தயவுசெய்து உங்கள் பெயரை உள்ளிடவும்!'); return; }
+            userName = name;
+            document.getElementById('nameOverlay').style.display = 'none';
+            document.getElementById('quizWrap').style.display = 'block';
+            renderQuestions();
+            updateProgress();
+        });
+
+        // ---- Render all questions ----
+        function renderQuestions() {
+            const container = document.getElementById('questionContainer');
+            document.getElementById('quizMeta').textContent = `மொத்தம் ${questions.length} கேள்விகள்`;
+            document.getElementById('scoreOf').textContent = `/ ${questions.length}`;
+
+            container.innerHTML = questions.map((q, idx) => `
+                <div class="question-card" id="qcard-${idx}">
+                    <div class="q-num">கேள்வி ${q.num}</div>
+                    ${q.topic ? `<span class="q-topic">${q.topic}</span>` : ''}
+                    <div class="q-text">${q.question}</div>
+                    <div class="options-list" id="opts-${idx}">
+                        ${q.options.map((opt, oIdx) => `
+                            <button class="option-btn" id="opt-${idx}-${oIdx}" onclick="selectAnswer(${idx}, ${oIdx})">
+                                <span class="opt-label">${OPTION_LABELS[oIdx]}.</span>
+                                <span>${opt}</span>
+                            </button>
+                        `).join('')}
+                    </div>
+                    <div class="expl-box" id="expl-${idx}">
+                        <span class="ans-label">✅ சரியான விடை: ${OPTION_LABELS[q.answer]}. ${q.options[q.answer]}</span>
+                        ${q.explanation ? `<span class="expl-label">📖 விளக்கம்:</span>${q.explanation}` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // ---- Select Answer ----
+        window.selectAnswer = function(qIdx, oIdx) {
+            if (resultsRevealed) return;
+            if (answers[qIdx] !== undefined) return; // already answered
+
+            answers[qIdx] = oIdx;
+            const q = questions[qIdx];
+            const correctIdx = q.answer;
+            const optsList = document.getElementById(`opts-${qIdx}`);
+            const allBtns = optsList.querySelectorAll('.option-btn');
+
+            // Disable all options for this question
+            allBtns.forEach(b => b.setAttribute('disabled', 'true'));
+
+            // Show correct/wrong immediately
+            allBtns[oIdx].classList.add(oIdx === correctIdx ? 'correct' : 'wrong');
+            if (oIdx !== correctIdx) {
+                allBtns[correctIdx].classList.add('correct');
+            }
+
+            updateProgress();
+        };
+
+        // ---- Update Progress Bar ----
+        function updateProgress() {
+            const answered = Object.keys(answers).length;
+            const total = questions.length;
+            const pct = total > 0 ? (answered / total * 100) : 0;
+            document.getElementById('progressBar').style.width = pct + '%';
+            document.getElementById('answeredCount').textContent = `${answered} / ${total} விடையளிக்கப்பட்டது`;
+        }
+
+        // ---- Submit ----
+        document.getElementById('submitBtn').addEventListener('click', () => {
+            resultsRevealed = true;
+
+            // Reveal all - show explanation boxes, mark unanswered
+            questions.forEach((q, idx) => {
+                const optsList = document.getElementById(`opts-${idx}`);
+                const allBtns = optsList.querySelectorAll('.option-btn');
+
+                // Disable all
+                allBtns.forEach(b => b.setAttribute('disabled', 'true'));
+
+                // If not answered, highlight correct
+                if (answers[idx] === undefined) {
+                    allBtns[q.answer].classList.add('correct');
+                } else {
+                    // Already shown during selection, but ensure correct is green
+                    allBtns[q.answer].classList.add('correct');
+                }
+
+                // Show explanation
+                const explBox = document.getElementById(`expl-${idx}`);
+                if (explBox) explBox.style.display = 'block';
+            });
+
+            // Calculate score
+            let score = 0;
+            questions.forEach((q, idx) => {
+                if (answers[idx] === q.answer) score++;
+            });
+
+            // Show result
+            const pct = questions.length > 0 ? (score / questions.length * 100) : 0;
+            let msg, trophy;
+            if (pct >= 80) { msg = '🌟 சிறப்பான செயல்திறன்! (Excellent!)'; trophy = '🏆'; }
+            else if (pct >= 60) { msg = '👍 நல்ல முயற்சி! (Good Effort!)'; trophy = '🥈'; }
+            else if (pct >= 40) { msg = '📚 மேலும் படிக்கவும். (Keep Studying!)'; trophy = '🥉'; }
+            else { msg = '💪 மீண்டும் முயற்சிக்கவும்! (Try Again!)'; trophy = '📖'; }
+
+            document.getElementById('trophyIcon').textContent = trophy;
+            document.getElementById('resultName').textContent = `${userName} · நாள் ${day} தேர்வு`;
+            document.getElementById('scoreNum').textContent = score;
+            document.getElementById('scoreOf').textContent = `/ ${questions.length}`;
+            document.getElementById('resultMsg').textContent = msg;
+            document.getElementById('resultOverlay').style.display = 'flex';
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ---- Close Result (Review) ----
+        window.closeResult = function() {
+            document.getElementById('resultOverlay').style.display = 'none';
+        };
+
+        // ---- Init ----
+        loadQuestions();
+
+    })();
+    </script>
+</body>
+</html>

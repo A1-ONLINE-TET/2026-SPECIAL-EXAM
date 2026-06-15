@@ -275,10 +275,9 @@
     <main class="hero-section">
         
         <div class="cta-box">
-            <h2>வரவிருக்கும் இலவசத் தேர்வுகள்!</h2>
-            <div class="btn-group">
-                <button onclick="openExamModal()" class="btn-main btn-free">🎁 Free Exam</button>
-                <button onclick="alert('முடிவுகள் விரைவில்!')}" class="btn-main btn-res">📊 Result</button>
+            <h2>31 மாதிரி தேர்வுகள் - SPECIAL TET</h2>
+            <div id="specialExamList" style="margin-top:10px;">
+                <div style="color:rgba(255,255,255,0.7); font-size:0.85rem;">தேர்வுகள் ஏற்றப்படுகின்றன...</div>
             </div>
         </div>
 
@@ -364,56 +363,69 @@
         </a>
     </nav>
 
-    <!-- Modal -->
-    <div id="examModal" class="modal">
-        <div class="modal-content">
-            <h3 style="font-weight: 800;">இலவசத் தேர்வு</h3>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px;">தொடர உங்கள் மொபைல் எண்ணை உள்ளிடவும்.</p>
-            <input type="tel" id="mobileInput" class="input-mobile" placeholder="9876543210" maxlength="10">
-            <button class="btn-submit" onclick="submitRegistration()">பதிவு செய்</button>
-            <button onclick="closeModal()" style="margin-top: 15px; background:none; border:none; color:#ef4444; font-weight:700;">மூடுக</button>
-        </div>
-    </div>
-
-    <!-- Firebase SDK (Minimal for registration) -->
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-
+    
     <script>
-        // Firebase Config - நீங்கள் பிறகு மாற்றிக்கொள்ளலாம்
-        const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-            projectId: "YOUR_PROJECT_ID",
-        };
-        firebase.initializeApp(firebaseConfig);
+        // =============================================
+        // SPECIAL TET - 31 மாதிரி தேர்வுகள் - Auto Loader
+        // special-exams/ folder இல் 1.json, 2.json... என வைக்கவும்
+        // =============================================
+        async function loadSpecialExams() {
+            const container = document.getElementById('specialExamList');
+            const found = [];
 
-        function openExamModal() { document.getElementById('examModal').style.display = 'flex'; }
-        function closeModal() { document.getElementById('examModal').style.display = 'none'; }
+            // Try loading 1.json to 31.json
+            for (let day = 1; day <= 31; day++) {
+                try {
+                    const res = await fetch(`special-exams/${day}.json?v=${Date.now()}`);
+                    if (res.ok) {
+                        found.push(day);
+                    }
+                } catch(e) {}
+            }
 
-        async function submitRegistration() {
-            const mobile = document.getElementById('mobileInput').value;
-            if (mobile.length !== 10) { alert("10 இலக்க எண்ணை உள்ளிடவும்!"); return; }
-            
-            try {
-                await firebase.database().ref('registrations').push({ mobile, time: Date.now() });
-                alert("பதிவு செய்யப்பட்டது! டெலிகிராம் குழுவில் இணையவும்.");
-                window.open("YOUR_TELEGRAM_LINK", "_blank");
-                closeModal();
-            } catch(e) { alert("பிழை: " + e.message); }
+            if (found.length === 0) {
+                container.innerHTML = '<div style="color:rgba(255,255,255,0.6); font-size:0.85rem; text-align:center; padding:10px;">தேர்வுகள் விரைவில் வெளியிடப்படும்...</div>';
+                return;
+            }
+
+            const btns = found.map(day => `
+                <button 
+                    onclick="window.location.href='special-quiz.html?day=${day}'"
+                    style="
+                        background: rgba(255,255,255,0.15);
+                        color: white;
+                        border: 1px solid rgba(255,255,255,0.3);
+                        border-radius: 10px;
+                        padding: 8px 12px;
+                        font-size: 0.82rem;
+                        font-weight: 700;
+                        cursor: pointer;
+                        transition: 0.2s;
+                        font-family: inherit;
+                    "
+                    onmouseover="this.style.background='rgba(255,255,255,0.3)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.15)'"
+                >
+                    📝 நாள் ${day}
+                </button>
+            `).join('');
+
+            container.innerHTML = `<div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:5px;">${btns}</div>`;
         }
 
-        window.logout = function() { localStorage.removeItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026'); window.location.href = 'login.html'; };
+        window.logout = function() { 
+            localStorage.removeItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026'); 
+            window.location.href = 'login.html'; 
+        };
+
         window.onload = () => {
             const session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
             if(session) {
                 const authBtn = document.getElementById('authBtn');
                 if(authBtn) authBtn.innerText = 'Logout';
             }
-
-
+            loadSpecialExams();
         };
     </script>
 </body>
 </html>
-
